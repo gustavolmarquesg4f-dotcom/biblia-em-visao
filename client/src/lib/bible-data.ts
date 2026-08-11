@@ -1,0 +1,98 @@
+// Cartografia de Leituras: dados em camadas, com metadados antes da síntese.
+export type Book = { id: string; name: string; short: string; testament: "Antigo Testamento" | "Novo Testamento"; category: string; chapters: number; author: string; period: string; summary: string; themes: string[] };
+
+type RawBook = [string, string, string, number, string, string, string, string[]];
+
+const old: RawBook[] = [
+  ["Gênesis","Gn","Pentateuco",50,"Moisés (tradição); composição discutida","Origens → patriarcas","Origens do mundo, ruptura humana e formação da família de Israel.",["criação","aliança","patriarcas"]],
+  ["Êxodo","Êx","Pentateuco",40,"Moisés (tradição); composição discutida","Formação de Israel","Libertação do Egito, aliança no Sinai e formação de uma comunidade.",["libertação","aliança","lei"]],
+  ["Levítico","Lv","Pentateuco",27,"Moisés (tradição); tradição sacerdotal","Deserto e culto","Práticas de culto, pureza e vida comunitária para um povo santo.",["santidade","culto","comunidade"]],
+  ["Números","Nm","Pentateuco",36,"Moisés (tradição); composição discutida","Peregrinação no deserto","Caminhada de Israel pelo deserto entre conflitos, censos e decisões.",["deserto","confiança","liderança"]],
+  ["Deuteronômio","Dt","Pentateuco",34,"Moisés (tradição); edição posterior discutida","Vésperas da entrada na terra","Releitura da lei e dos compromissos da aliança para uma nova geração.",["memória","lei","aliança"]],
+  ["Josué","Js","Históricos",24,"Tradição deuteronomista; autoria não identificada","Conquista e assentamento","Entrada em Canaã, distribuição da terra e renovação da aliança.",["terra","liderança","aliança"]],
+  ["Juízes","Jz","Históricos",21,"Tradição deuteronomista; autoria não identificada","Antes da monarquia","Ciclos de opressão, libertação e desordem antes da monarquia.",["ciclos","liderança","justiça"]],
+  ["Rute","Rt","Históricos",4,"Autor não identificado","Época dos juízes","Lealdade, migração e reintegração conectam Rute à linhagem de Davi.",["lealdade","acolhimento","redenção"]],
+  ["1 Samuel","1Sm","Históricos",31,"Tradições proféticas e históricas reunidas","Transição para a monarquia","Samuel, Saul e o início da ascensão de Davi em uma transição política.",["reino","profecia","vocação"]],
+  ["2 Samuel","2Sm","Históricos",24,"Tradições históricas reunidas","Reinado de Davi","O reinado de Davi, suas vitórias, promessa dinástica e conflitos internos.",["reino","promessa","poder"]],
+  ["1 Reis","1Rs","Históricos",22,"Tradição deuteronomista; autoria não identificada","Salomão e divisão do reino","Do templo de Salomão à divisão do reino e aos confrontos proféticos.",["templo","sabedoria","idolatria"]],
+  ["2 Reis","2Rs","Históricos",25,"Tradição deuteronomista; autoria não identificada","Reinos até os exílios","Declínio de Israel e Judá, profetas e queda de Samaria e Jerusalém.",["exílio","profecia","crise"]],
+  ["1 Crônicas","1Cr","Históricos",29,"O Cronista; autoria não identificada","Memória pós-exílica","Genealogias e reinado de Davi com foco em culto, música e templo.",["memória","templo","linhagem"]],
+  ["2 Crônicas","2Cr","Históricos",36,"O Cronista; autoria não identificada","Salomão ao retorno","Reis de Judá e templo até o exílio, com horizonte de reconstrução.",["templo","arrependimento","restauração"]],
+  ["Esdras","Ed","Históricos",10,"Tradição de Esdras; edição posterior","Retorno do exílio","Retorno, reconstrução do templo e reorganização da comunidade pela lei.",["retorno","lei","reconstrução"]],
+  ["Neemias","Ne","Históricos",13,"Memórias de Neemias; edição posterior","Período persa","Reconstrução das muralhas e reformas comunitárias em meio à oposição.",["cidade","liderança","reforma"]],
+  ["Ester","Et","Históricos",10,"Autor não identificado","Diáspora no império persa","Ester e Mordecai protegem a comunidade judaica de uma ameaça de extermínio.",["coragem","identidade","providência"]],
+  ["Jó","Jó","Poesia e sabedoria",42,"Autor não identificado","Sabedoria israelita; data debatida","O sofrimento do justo, os limites das explicações fáceis e o mistério.",["sofrimento","sabedoria","mistério"]],
+  ["Salmos","Sl","Poesia e sabedoria",150,"Coleção com Davi e outros autores tradicionais","Vários períodos de Israel","Orações e poemas para celebração, crise, lamento e esperança.",["oração","louvor","lamento"]],
+  ["Provérbios","Pv","Poesia e sabedoria",31,"Coleção associada a Salomão e sábios","Tradição sapiencial","Máximas sobre caráter, trabalho, justiça, palavras e discernimento.",["sabedoria","justiça","caráter"]],
+  ["Eclesiastes","Ec","Poesia e sabedoria",12,"Qohelet; identidade e data debatidas","Período sapiencial tardio","Reflexão sobre transitoriedade, limites da existência e sentido de viver.",["tempo","sentido","limites"]],
+  ["Cântico dos Cânticos","Ct","Poesia e sabedoria",8,"Tradição associada a Salomão; autoria discutida","Poesia amorosa; data debatida","Poemas que celebram desejo, beleza e reciprocidade amorosa.",["amor","desejo","beleza"]],
+  ["Isaías","Is","Profetas maiores",66,"Tradição de Isaías com camadas editoriais","Séculos VIII–V a.C.","Denúncia da injustiça e promessas de consolo, restauração e esperança.",["justiça","consolo","esperança"]],
+  ["Jeremias","Jr","Profetas maiores",52,"Tradição de Jeremias e Baruque","Vésperas da queda de Jerusalém","Crise de Judá, sofrimento profético e promessa de aliança renovada.",["juízo","aliança","vocação"]],
+  ["Lamentações","Lm","Profetas maiores",5,"Autor anônimo; tradição associada a Jeremias","Após a queda de Jerusalém","Poemas que dão forma à dor da destruição de Jerusalém e à esperança.",["lamento","cidade","esperança"]],
+  ["Ezequiel","Ez","Profetas maiores",48,"Tradição profética de Ezequiel","Exílio babilônico","Visões interpretam a queda e anunciam purificação, retorno e vida nova.",["visão","exílio","restauração"]],
+  ["Daniel","Dn","Profetas maiores",12,"Tradição de Daniel; composição tardia debatida","Corte estrangeira e crise helenística","Histórias de fidelidade e visões sobre impérios, resistência e esperança.",["fidelidade","impérios","apocalipse"]],
+  ["Oseias","Os","Profetas menores",14,"Oseias","Século VIII a.C.","A infidelidade de Israel é lida por imagens de relacionamento e restauração.",["aliança","amor","arrependimento"]],
+  ["Joel","Jl","Profetas menores",3,"Joel; data debatida","Data incerta","Praga, jejum, dia do Senhor e promessa do derramamento do espírito.",["espírito","juízo","restauração"]],
+  ["Amós","Am","Profetas menores",9,"Amós","Século VIII a.C.","Denúncia da exploração dos vulneráveis e do culto sem justiça.",["justiça","pobreza","culto"]],
+  ["Obadias","Ob","Profetas menores",1,"Obadias; contexto debatido","Após uma queda de Jerusalém","Profecia contra Edom e celebração da reversão da arrogância.",["justiça","violência","restauração"]],
+  ["Jonas","Jn","Profetas menores",4,"Autor não identificado","Narrativa profética; data debatida","Narrativa irônica sobre misericórdia, missão e resistência ao acolhimento.",["misericórdia","missão","preconceito"]],
+  ["Miqueias","Mq","Profetas menores",7,"Miqueias","Século VIII a.C.","Denúncia contra líderes corruptos e promessa de justiça e esperança.",["justiça","liderança","esperança"]],
+  ["Naum","Na","Profetas menores",3,"Naum","Século VII a.C.","A queda de Nínive como resposta à violência imperial.",["império","justiça","violência"]],
+  ["Habacuque","Hc","Profetas menores",3,"Habacuque","Crise babilônica","Diálogo honesto sobre a demora da justiça e decisão de confiar.",["dúvida","justiça","confiança"]],
+  ["Sofonias","Sf","Profetas menores",3,"Sofonias","Reinado de Josias","Juízo sobre a arrogância e restauração de um povo humilde.",["juízo","humildade","restauração"]],
+  ["Ageu","Ag","Profetas menores",2,"Ageu","Período persa","Incentivo à reconstrução do templo e à reorganização das prioridades.",["reconstrução","comunidade","presença"]],
+  ["Zacarias","Zc","Profetas menores",14,"Zacarias e tradições posteriores","Período persa","Visões de restauração, liderança, purificação e esperança.",["visões","templo","esperança"]],
+  ["Malaquias","Ml","Profetas menores",4,"Autor não identificado","Período persa tardio","Questiona culto indiferente e chama à fidelidade e à expectativa.",["fidelidade","culto","espera"]],
+];
+
+const newer: RawBook[] = [
+  ["Mateus","Mt","Evangelhos",28,"Tradição associada a Mateus; autoria discutida","Século I","Jesus como Messias e mestre, conectado às Escrituras de Israel.",["reino","discípulos","cumprimento"]],
+  ["Marcos","Mc","Evangelhos",16,"Tradição associada a João Marcos; autoria discutida","Século I","Caminho de Jesus com ritmo urgente, serviço, conflito e sofrimento.",["caminho","serviço","sofrimento"]],
+  ["Lucas","Lc","Evangelhos",24,"Tradição associada a Lucas; autoria discutida","Século I","Missão de Jesus com atenção a pobres, mulheres, estrangeiros e ao Espírito.",["espírito","misericórdia","inclusão"]],
+  ["João","Jo","Evangelhos",21,"Tradição joanina; autoria e camadas discutidas","Final do século I","Sinais e imagens de vida, luz, pão, caminho e presença para meditar sobre Jesus.",["vida","sinais","identidade"]],
+  ["Atos","At","História da igreja",28,"Mesmo projeto literário de Lucas","Século I","Expansão do movimento de Jesus de Jerusalém até Roma.",["espírito","missão","comunidade"]],
+  ["Romanos","Rm","Cartas paulinas",16,"Paulo","Meados do século I","Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",["fé","justiça","comunidade"]],
+  ["1 Coríntios","1Co","Cartas paulinas",16,"Paulo","Meados do século I","Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",["unidade","amor","ressurreição"]],
+  ["2 Coríntios","2Co","Cartas paulinas",13,"Paulo","Meados do século I","Vulnerabilidade do ministério, reconciliação, generosidade e serviço.",["reconciliação","fraqueza","generosidade"]],
+  ["Gálatas","Gl","Cartas paulinas",6,"Paulo","Meados do século I","Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",["liberdade","espírito","identidade"]],
+  ["Efésios","Ef","Cartas paulinas",6,"Tradição paulina; autoria discutida","Século I","Igreja como corpo reconciliado e convite a uma nova vida em Cristo.",["unidade","reconciliação","igreja"]],
+  ["Filipenses","Fp","Cartas paulinas",4,"Paulo","Meados do século I","Carta de amizade sobre alegria, humildade, parceria e perseverança.",["alegria","humildade","parceria"]],
+  ["Colossenses","Cl","Cartas paulinas",4,"Tradição paulina; autoria discutida","Século I","Centralidade de Cristo traduzida em sabedoria e nova vida comunitária.",["Cristo","sabedoria","nova vida"]],
+  ["1 Tessalonicenses","1Ts","Cartas paulinas",5,"Paulo, Silvano e Timóteo","Meados do século I","Encorajamento sobre esperança, ressurreição e cuidado mútuo.",["esperança","vigilância","comunidade"]],
+  ["2 Tessalonicenses","2Ts","Cartas paulinas",3,"Tradição paulina; autoria discutida","Século I","Correção de expectativas apressadas e chamado à perseverança responsável.",["perseverança","espera","trabalho"]],
+  ["1 Timóteo","1Tm","Cartas pastorais",6,"Tradição paulina; autoria discutida","Século I","Orientações sobre liderança, ensino e cuidado comunitário.",["liderança","cuidado","ensino"]],
+  ["2 Timóteo","2Tm","Cartas pastorais",4,"Tradição paulina; autoria discutida","Século I","Exortação a perseverar, lembrar e transmitir o ensino.",["perseverança","memória","vocação"]],
+  ["Tito","Tt","Cartas pastorais",3,"Tradição paulina; autoria discutida","Século I","Organização e caráter público de uma comunidade coerente.",["caráter","ordem","boas obras"]],
+  ["Filemom","Fm","Cartas paulinas",1,"Paulo","Meados do século I","Pedido de acolhimento e reconciliação em torno de Onésimo.",["reconciliação","poder","acolhimento"]],
+  ["Hebreus","Hb","Cartas gerais",13,"Autor não identificado","Século I","Sermão escrito que chama uma comunidade cansada à perseverança.",["perseverança","sacerdócio","esperança"]],
+  ["Tiago","Tg","Cartas gerais",5,"Tradição associada a Tiago; autoria discutida","Século I","Sabedoria prática sobre fala, cuidado dos pobres e justiça.",["sabedoria","justiça","prática"]],
+  ["1 Pedro","1Pe","Cartas gerais",5,"Tradição associada a Pedro; autoria discutida","Século I","Esperança, solidariedade e identidade ética sob pressão social.",["sofrimento","esperança","identidade"]],
+  ["2 Pedro","2Pe","Cartas gerais",3,"Tradição petrina; autoria discutida","Século I","Continuidade da esperança e alerta contra ensinos irresponsáveis.",["memória","esperança","discernimento"]],
+  ["1 João","1Jo","Cartas gerais",5,"Tradição joanina; autoria não identificada","Final do século I","Amor, discernimento e prática da justiça em uma comunidade em conflito.",["amor","verdade","discernimento"]],
+  ["2 João","2Jo","Cartas gerais",1,"O Ancião; tradição joanina","Final do século I","Breve carta sobre amor, fidelidade ao ensino e cautela.",["amor","verdade","discernimento"]],
+  ["3 João","3Jo","Cartas gerais",1,"O Ancião; tradição joanina","Final do século I","Hospitalidade missionária e crítica ao abuso de autoridade local.",["hospitalidade","liderança","missão"]],
+  ["Judas","Jd","Cartas gerais",1,"Tradição associada a Judas; autoria discutida","Século I","Exortação para preservar identidade e discernir comportamentos destrutivos.",["discernimento","identidade","perseverança"]],
+  ["Apocalipse","Ap","Literatura apocalíptica",22,"João de Patmos","Final do século I","Visões simbólicas consolam comunidades e imaginam o fim da violência.",["esperança","império","nova criação"]],
+];
+
+const makeBook = (row: RawBook, index: number, testament: Book["testament"]): Book => ({ id: `${index + 1}-${row[0].toLowerCase().replace(/[^a-z0-9]+/gi, "-")}`, name: row[0], short: row[1], category: row[2], chapters: row[3], author: row[4], period: row[5], summary: row[6], themes: row[7], testament });
+export const bibleBooks: Book[] = [...old.map((row, i) => makeBook(row, i, "Antigo Testamento")), ...newer.map((row, i) => makeBook(row, i + old.length, "Novo Testamento"))];
+export const bibleCategories = ["Todos", "Pentateuco", "Históricos", "Poesia e sabedoria", "Profetas maiores", "Profetas menores", "Evangelhos", "História da igreja", "Cartas paulinas", "Cartas pastorais", "Cartas gerais", "Literatura apocalíptica"];
+export const timeline = [
+  { label: "Origens", date: "Gênesis 1–11", description: "Criação, ruptura, dilúvio e dispersão: perguntas sobre humanidade, violência e mundo compartilhado." },
+  { label: "Patriarcas", date: "Gênesis 12–50", description: "Abraão, Sara, Isaque, Rebeca, Jacó e José formam uma história familiar atravessada por promessa e deslocamento." },
+  { label: "Êxodo", date: "Êxodo → Deuteronômio", description: "Libertação, aliança, deserto e formação de uma comunidade antes de Canaã." },
+  { label: "Reinos", date: "Josué → 2 Crônicas", description: "Conquista, juízes, monarquia, templo, divisão política e os caminhos até os exílios." },
+  { label: "Exílio e retorno", date: "Esdras → Malaquias", description: "Memória, reconstrução e novas perguntas sobre identidade em um mundo imperial." },
+  { label: "Jesus", date: "Mateus → João", description: "Quatro retratos literários da vida, ensinamentos, morte e ressurreição de Jesus." },
+  { label: "Primeiras comunidades", date: "Atos → Judas", description: "O movimento se espalha entre culturas, casas e cidades, aprendendo a ser comunidade em trânsito." },
+  { label: "Nova criação", date: "Apocalipse", description: "Uma imaginação simbólica de justiça, presença e renovação diante da violência do império." },
+];
+export const themes = [
+  { label: "Aliança", detail: "Promessas e compromissos que estruturam relações entre Deus, pessoas e comunidades.", tone: "blue" },
+  { label: "Libertação", detail: "Movimentos de saída, resistência e cuidado diante da escravidão e da opressão.", tone: "wine" },
+  { label: "Sabedoria", detail: "Discernimento para viver bem, falar com justiça e reconhecer limites.", tone: "brass" },
+  { label: "Justiça", detail: "A pergunta recorrente sobre quem é protegido, explorado e como reparar o dano.", tone: "olive" },
+  { label: "Esperança", detail: "A capacidade de imaginar restauração sem apagar a realidade da crise.", tone: "blue" },
+  { label: "Presença", detail: "Templo, tenda, espírito e comunidade como linguagens de proximidade e cuidado.", tone: "wine" },
+];
