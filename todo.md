@@ -68,3 +68,14 @@
 - [x] Criar uma seção de história do pentecostalismo e da Igreja de Deus, sem inventar datas ou fundadores.
 - [x] Adicionar referências bíblicas por doutrina, com contexto e interpretação pentecostal equilibrada.
 - [x] Adaptar o vocabulário da interface para a identidade da igreja sem transformar interpretações em fatos universais.
+
+## Experiência imersiva e interativa
+
+- [x] Criar busca global com agrupamento por livros, pessoas, lugares, temas e teologia.
+- [x] Adicionar painel contextual com conexões entre o verbete aberto e entidades relacionadas.
+- [x] Tornar a linha do tempo clicável e sincronizada com livros e períodos.
+- [x] Tornar mapas e rotas exploráveis por pontos de interesse e filtros de período.
+- [x] Adicionar filtros vivos, estados de seleção, transições e feedback visual acessível.
+- [ ] Criar modo de foco para leitura de verbetes sem perder o contexto da navegação.
+- [x] Validar interações em mouse, teclado e toque, incluindo redução de movimento.
+- [ ] Rodar build final, teste visual e publicar checkpoint da experiência imersiva.
