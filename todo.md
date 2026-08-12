@@ -79,3 +79,17 @@
 - [ ] Criar modo de foco para leitura de verbetes sem perder o contexto da navegação.
 - [x] Validar interações em mouse, teclado e toque, incluindo redução de movimento.
 - [ ] Rodar build final, teste visual e publicar checkpoint da experiência imersiva.
+
+## Verbetes completos — primeira coleção
+
+- [x] Definir o esquema comum: identidade, autoria, datação, contexto, estrutura, resumo por blocos, temas, personagens, lugares, teologia, debates e fontes.
+- [x] Redigir verbete completo de Gênesis.
+- [x] Redigir verbete completo de Êxodo.
+- [x] Redigir verbete completo de Mateus.
+- [x] Redigir verbete completo de João.
+- [x] Redigir verbete completo de Atos.
+- [x] Redigir verbete completo de Romanos.
+- [x] Criar marcadores de autoridade: texto bíblico, posição IDB, tradição pentecostal, pesquisa acadêmica e hipótese.
+- [x] Adicionar conexões clicáveis entre cada livro, tema, personagem e lugar relacionado.
+- [x] Criar página de detalhe enciclopédico com abas, índice interno e referências.
+- [x] Validar os seis verbetes em celular, tablet e desktop e publicar checkpoint.
