@@ -208,3 +208,30 @@
 - [x] Exibir referências clicáveis junto do parágrafo ou seção em que são usadas, com indicação de evidência, interpretação ou confissão.
 - [x] Criar uma seção global de bibliografia com filtros por período, assunto, autor, tipo de fonte e nível de confiança.
 - [x] Testar links, DOI, URLs, acessibilidade, idioma e rastreabilidade antes da publicação.
+
+## Expansão exegética e cronológica
+
+### Comentários capítulo por capítulo
+
+- [x] Definir o padrão exegético por capítulo: perícope, estrutura, vocabulário, contexto, argumento, teologia, recepção e limites de certeza.
+- [x] Pesquisar e estruturar comentários capítulo a capítulo para os 66 livros, preservando autoria, datação e debates concorrentes.
+- [x] Integrar em cada capítulo camadas de texto, contexto histórico, crítica literária, crítica textual, leitura pentecostal, posição IDB e diálogo acadêmico.
+- [x] Criar navegação por capítulo, busca interna, índice de passagens e referências bibliográficas específicas.
+- [x] Adicionar perguntas avançadas e notas de pesquisa sem transformar o comentário em texto devocional simplificado.
+
+### Grafo de profecias e referências cruzadas
+
+- [x] Modelar profecias por texto de origem, contexto histórico, gênero, alusão posterior, interpretação e grau de consenso.
+- [x] Relacionar profecias do Antigo Testamento com Evangelhos, cartas, Apocalipse e leituras pentecostais, distinguindo citação, alusão, tipologia e aplicação.
+- [x] Criar visualização de rede para navegar entre profecia, livro, personagem, evento, império e interpretação.
+- [x] Adicionar filtros por livro, período, tema, cumprimento interpretado e escola hermenêutica.
+- [x] Exibir divergências entre leituras preterista, historicista, futurista, idealista, eclética e pentecostal sem apresentar hipótese como fato.
+
+### Linha do tempo animada do atlas
+
+- [x] Modelar eventos cronológicos, intervalos aproximados, rotas missionárias, impérios e cidades relacionadas.
+- [x] Criar controle de reprodução, pausa, avanço, retrocesso, velocidade, período e estado atual da animação.
+- [x] Animar rotas dos patriarcas, êxodo, conquista, exílio e retorno, viagens de Jesus, viagens de Paulo e expansão do cristianismo.
+- [x] Animar a evolução territorial aproximada de Egito, Assíria, Babilônia, Pérsia, helenismo e Roma com legenda metodológica.
+- [x] Conectar cada evento animado a livros, capítulos, personagens, dossiês e fontes clicáveis.
+- [x] Validar acessibilidade, controle por teclado, redução de movimento, mobile, precisão temporal e desempenho do mapa.

@@ -1,0 +1,18 @@
+/* Cartografia de Leituras: o tempo é uma camada de leitura, não um simples carrossel. */
+.atlas-timeline { margin-top: 20px; border: 1px solid #d8cbbb; background: #e9ddcc; padding: 18px 20px 16px; }
+.atlas-timeline-head { display: flex; align-items: start; justify-content: space-between; gap: 20px; }
+.atlas-timeline-kicker { color: #a8664f; font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.atlas-timeline-head h2 { color: #203746; font-size: 28px; margin-top: 7px; }
+.atlas-timeline-head p { color: #718078; font-size: 10px; line-height: 1.55; margin-top: 4px; }
+.atlas-timeline-controls { display: flex; align-items: center; gap: 7px; flex: 0 0 auto; }
+.atlas-timeline-controls button { display: grid; place-items: center; width: 31px; height: 31px; border: 1px solid #cdbda9; background: transparent; color: #a8664f; }
+.atlas-timeline-controls button:hover { background: #172a3a; color: #f4eadb; }
+.atlas-timeline-controls button:disabled { opacity: .35; cursor: not-allowed; }
+.atlas-timeline-date { color: #a8664f; font: 24px "DM Serif Display",serif; margin-left: 7px; }
+.atlas-timeline-range { width: 100%; margin: 19px 0 6px; accent-color: #a8664f; }
+.atlas-timeline-axis { display: flex; justify-content: space-between; color: #89938a; font-size: 8px; }
+.atlas-timeline-event { display: flex; align-items: baseline; gap: 8px; border-top: 1px solid #d6c6b3; margin-top: 14px; padding-top: 13px; }
+.atlas-timeline-event strong { color: #344c52; font: 19px "DM Serif Display",serif; }
+.atlas-timeline-event span { color: #a8664f; font-size: 8px; font-weight: 800; text-transform: uppercase; letter-spacing: .09em; }
+.atlas-timeline-event p { color: #758077; font-size: 10px; line-height: 1.6; margin-left: auto; max-width: 560px; }
+@media (max-width: 760px) { .atlas-timeline-head { display: grid; gap: 14px; }.atlas-timeline-controls { justify-content: space-between; width: 100%; }.atlas-timeline-date { margin-left: auto; }.atlas-timeline-event { display: grid; gap: 6px; }.atlas-timeline-event p { margin-left: 0; }.atlas-timeline { padding: 16px 14px; } }

@@ -26,3 +26,12 @@
 - A biblioteca final exibiu “Dossiê completo” nos 66 cartões, incluindo Oseias e Miqueias, que antes apareciam como fichas de orientação.
 - O relatório consolidado contém 66 dossiês válidos; cada livro tem pelo menos uma fonte primária e uma fonte acadêmica indexadas, totalizando 66 referências primárias e 66 acadêmicas no modelo recebido.
 - A biblioteca, a bibliografia global e o atlas foram integrados à navegação principal e validados após o build final.
+
+## Expansão exegética e temporal
+
+- A base consolidada contém 66 dossiês, 592 capítulos, 288 seções com linguagem profética e 195 referências detectadas.
+- O leitor exegético foi integrado à ficha de cada livro com índice de capítulos, busca interna, navegação anterior/próximo, aba de profecias e aba de método/fontes.
+- O atlas recebeu 14 eventos temporais, controles de reprodução/pausa, avanço/retrocesso, slider, foco geográfico e ativação progressiva de rotas e impérios.
+- Build TypeScript e build de produção concluídos sem erro.
+- A inspeção de console encontrou e corrigiu âncoras aninhadas na bibliografia; após a correção, não surgiram novos erros no carregamento.
+- A página inicial foi verificada em desktop 1280px e móvel 390px sem cortes visíveis.
