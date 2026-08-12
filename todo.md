@@ -166,3 +166,16 @@
 - [x] Adicionar comentários bíblicos, fontes acadêmicas e referências sem apresentar uma teoria como fato indiscutível.
 - [x] Criar cronologia interpretativa, mapa das sete igrejas e visualização das relações intertextuais.
 - [x] Adicionar perguntas de revisão e uma seção de discernimento contra especulações sobre datas e acontecimentos atuais.
+
+## Revisão avançada — conteúdo e mapas
+
+- [x] Auditar cada seção atual e marcar o que é introdutório, incompleto, não referenciado ou apenas decorativo.
+- [x] Definir modo avançado para leitores experientes, com dossiês de história, literatura, arqueologia, línguas, crítica textual e teologia.
+- [x] Criar dossiês históricos por período: Bronze, Ferro, monarquia, exílio, persa, helenístico, hasmoneu, romano e igreja primitiva.
+- [ ] Expandir cada livro com datação concorrente, autoria, composição, transmissão, estrutura, debates e bibliografia especializada.
+- [ ] Criar matriz de personagens, profetas, reis, sacerdotes, apóstolos, povos, lugares, eventos e profecias.
+- [x] Substituir o mapa esquemático por mapas cartográficos funcionais com camadas, pontos, rotas, período e fonte geográfica.
+- [x] Corrigir seleção, zoom, tooltip, legenda, responsividade e navegação por teclado dos mapas.
+- [ ] Criar relações clicáveis entre mapa, cronologia, livro, personagem, império e evento.
+- [ ] Inserir fontes acadêmicas, confessionais e arqueológicas em cada dossiê, com distinção entre evidência e interpretação.
+- [x] Validar o conteúdo em nível avançado com uma amostra de dossiês e publicar uma nova versão somente após os testes.
