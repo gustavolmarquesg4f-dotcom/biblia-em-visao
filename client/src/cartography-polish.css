@@ -1,0 +1,9 @@
+/* Cartografia de Leituras: reforço de marca, ficha de catálogo e material de arquivo. */
+.brand-notation { display: block; color: #c99a72; font-size: 7px; letter-spacing: .14em; margin-top: 7px; }
+.brand-mark { width: 34px; height: 34px; filter: drop-shadow(0 5px 8px rgba(0,0,0,.18)); }
+.hero-section::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .13; background-image: linear-gradient(90deg, transparent 0 96%, rgba(225,201,169,.65) 96% 96.3%, transparent 96.3%),linear-gradient(0deg, transparent 0 93%, rgba(225,201,169,.55) 93% 93.3%, transparent 93.3%); background-size: 92px 92px; mix-blend-mode: screen; }
+.mini-book-card:nth-child(3n + 2) { margin-top: 11px; }
+.mini-book-card::after { content: "ATLAS · REF"; position: absolute; right: 13px; bottom: 11px; color: #a8664f; opacity: .52; font-size: 7px; letter-spacing: .13em; pointer-events: none; }
+.mini-book-card:nth-child(3n + 2):hover { transform: translateY(7px); }
+.advanced-book-card::after { content: "COORD · DOSSIÊ"; display: block; color: #a8664f; opacity: .55; font-size: 7px; letter-spacing: .13em; margin-top: 11px; }
+@media (max-width: 760px) { .mini-book-card:nth-child(3n + 2) { margin-top: 0; } .mini-book-card:nth-child(3n + 2):hover { transform: translateY(-3px); } }

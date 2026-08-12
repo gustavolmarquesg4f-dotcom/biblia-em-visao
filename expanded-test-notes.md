@@ -1,0 +1,28 @@
+# Validação da expansão
+
+## Biblioteca profunda
+
+- A view “Os 66 livros” carregou 66 cartões, com filtros por testamento e gênero, busca e indicação de “Dossiê completo” ou “Ficha de orientação”.
+- O cartão de Gênesis abriu o dossiê retornado pelo arquivo estático publicado, com texto analítico longo e abas para fontes primárias, bibliografia e limites/confiança.
+- O dossiê exibiu autoria, período, temas e uma separação explícita entre texto, reconstrução histórica, tradição pentecostal, posição denominacional e hipótese acadêmica.
+
+## Bibliografia
+
+- A view “Bibliografia” carregou 591 referências agregadas dos 66 relatórios.
+- A interface oferece filtro por livro, busca por autor/obra/período e abas Todos, Primárias e Acadêmicas.
+- Cada referência é apresentada como link externo clicável; a seção também exibe os limites de confiança do dossiê correspondente.
+
+## Atlas com camadas
+
+- O atlas exibiu 13 lugares, 4 rotas e 4 camadas imperiais, além de filtros por período.
+- As camadas visíveis na interface são Lugares bíblicos, Patriarcas, Êxodo e conquista, Reinos e exílio, Viagens missionárias, Assíria, Babilônia, Pérsia aquemênida e Roma no Oriente.
+- O mapa carregou com Google Maps, zoom, satélite, tela cheia e lista lateral de lugares.
+- A ativação de “Viagens missionárias” desenhou a polilinha colorida entre cidades do Mediterrâneo oriental e Roma, mantendo os marcadores.
+- A ativação de “Pérsia aquemênida” adicionou a área poligonal translúcida ao mapa e manteve a rota ativa, permitindo leitura combinada de deslocamento e poder imperial.
+
+## Correção de cobertura
+
+- A normalização passou a remover categorias anexadas ao nome e diferenças de acentuação.
+- A biblioteca final exibiu “Dossiê completo” nos 66 cartões, incluindo Oseias e Miqueias, que antes apareciam como fichas de orientação.
+- O relatório consolidado contém 66 dossiês válidos; cada livro tem pelo menos uma fonte primária e uma fonte acadêmica indexadas, totalizando 66 referências primárias e 66 acadêmicas no modelo recebido.
+- A biblioteca, a bibliografia global e o atlas foram integrados à navegação principal e validados após o build final.

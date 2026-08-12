@@ -179,3 +179,32 @@
 - [ ] Criar relações clicáveis entre mapa, cronologia, livro, personagem, império e evento.
 - [ ] Inserir fontes acadêmicas, confessionais e arqueológicas em cada dossiê, com distinção entre evidência e interpretação.
 - [x] Validar o conteúdo em nível avançado com uma amostra de dossiês e publicar uma nova versão somente após os testes.
+
+## Expansão solicitada — mapas, 66 livros e bibliografia
+
+### Camadas cartográficas interativas
+
+- [x] Modelar camadas de rotas históricas, viagens missionárias, impérios, cidades e fronteiras aproximadas.
+- [x] Adicionar rotas dos patriarcas, êxodo, conquista, exílio e retorno, viagens de Jesus e viagens missionárias de Paulo.
+- [x] Adicionar camadas de Egito, Assíria, Babilônia, Pérsia, helenismo, Roma e expansão do cristianismo.
+- [x] Criar legenda, alternância de camadas, animação temporal, seleção de rota e painel de fontes/metodologia.
+- [x] Relacionar cada rota a livros, personagens, lugares, eventos e dossiês clicáveis.
+
+### Profundidade histórico-teológica dos 66 livros
+
+- [x] Definir um esquema avançado único para os 66 livros: autoria, composição, transmissão, datação concorrente, contexto, estrutura, temas, personagens, lugares, profecias, debates e bibliografia.
+- [x] Expandir o Pentateuco, livros históricos, poesia, sabedoria, profetas, Evangelhos, Atos, cartas e Apocalipse em lotes verificáveis.
+- [x] Adicionar para cada livro fontes primárias, evidência arqueológica, contexto imperial, línguas, gênero literário e história da interpretação.
+- [x] Integrar em cada verbete a distinção entre texto bíblico, tradição pentecostal, posição IDB, pesquisa acadêmica e hipótese.
+- [x] Criar referências cruzadas entre cada livro, personagem, profecia, lugar, império, evento e tema.
+- [x] Validar os 66 verbetes em nível avançado e remover resumos infantis ou afirmações sem fonte.
+
+### Bibliografia acadêmica rastreável
+
+- [x] Criar modelo bibliográfico com autor, título, data, editora/periódico, tipo de fonte, idioma, DOI/URL e escopo do uso.
+- [x] Adicionar bibliografia geral de história, arqueologia, crítica bíblica, linguística, manuscritos, teologia e pentecostalismo.
+- [x] Adicionar fontes primárias clicáveis por dossiê: inscrições, cartas, manuscritos, historiadores antigos, documentos imperiais, textos judaicos e literatura cristã antiga.
+- [x] Criar bibliografia específica para cada um dos 66 livros e para cada dossiê histórico.
+- [x] Exibir referências clicáveis junto do parágrafo ou seção em que são usadas, com indicação de evidência, interpretação ou confissão.
+- [x] Criar uma seção global de bibliografia com filtros por período, assunto, autor, tipo de fonte e nível de confiança.
+- [x] Testar links, DOI, URLs, acessibilidade, idioma e rastreabilidade antes da publicação.
