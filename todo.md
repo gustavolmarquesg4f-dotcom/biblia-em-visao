@@ -43,3 +43,18 @@
 - [x] Garantir leitura confortável, alvos de toque e ausência de overflow horizontal.
 - [x] Testar tabelas, mapas, formulários e navegação por teclado em diferentes larguras.
 - [ ] Rodar build final, capturar telas móvel/tablet/desktop e publicar checkpoint responsivo.
+
+## Navegação móvel
+
+- [x] Definir cinco acessos principais para a barra inferior: início, livros, pessoas, lugares e busca.
+- [x] Implementar estado ativo, rótulos acessíveis e área segura para gestos e barra do sistema.
+- [x] Ocultar a barra em tablet/desktop e reservar espaço inferior no conteúdo móvel.
+- [ ] Validar navegação por toque em 375px e publicar checkpoint da melhoria.
+
+## Reposicionamento como enciclopédia
+
+- [x] Trocar “curso completo”, “aulas” e “trilha” por “enciclopédia”, “verbetes” e “índice de consulta”.
+- [ ] Organizar a taxonomia principal em livros, pessoas, lugares, povos, temas, períodos, manuscritos e cânones.
+- [x] Criar uma home de consulta com busca global e atalhos para entidades.
+- [x] Transformar os módulos pedagógicos em seções de referência, mantendo o conteúdo histórico sem linguagem de curso.
+- [x] Adaptar a barra inferior móvel para a taxonomia enciclopédica.
