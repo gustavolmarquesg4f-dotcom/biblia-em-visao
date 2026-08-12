@@ -42,7 +42,7 @@
 - [x] Reorganizar curso, aulas, personagens, cânon e glossário para telas estreitas.
 - [x] Garantir leitura confortável, alvos de toque e ausência de overflow horizontal.
 - [x] Testar tabelas, mapas, formulários e navegação por teclado em diferentes larguras.
-- [ ] Rodar build final, capturar telas móvel/tablet/desktop e publicar checkpoint responsivo.
+- [x] Rodar build final, capturar telas móvel/tablet/desktop e publicar checkpoint responsivo.
 
 ## Navegação móvel
 
@@ -58,3 +58,13 @@
 - [x] Criar uma home de consulta com busca global e atalhos para entidades.
 - [x] Transformar os módulos pedagógicos em seções de referência, mantendo o conteúdo histórico sem linguagem de curso.
 - [x] Adaptar a barra inferior móvel para a taxonomia enciclopédica.
+
+## Camada Igreja de Deus no Brasil e pentecostal
+
+- [x] Localizar declaração oficial de fé, história e documentos públicos da Igreja de Deus no Brasil.
+- [x] Separar no conteúdo quatro camadas: Bíblia, teologia pentecostal, posição denominacional e pesquisa acadêmica.
+- [x] Criar verbetes sobre Trindade, salvação, santificação, batismo no Espírito Santo, dons, cura divina, oração e missão.
+- [x] Criar verbetes sobre culto, ceia, batismo nas águas, liderança, família, ética cristã e vida comunitária.
+- [x] Criar uma seção de história do pentecostalismo e da Igreja de Deus, sem inventar datas ou fundadores.
+- [x] Adicionar referências bíblicas por doutrina, com contexto e interpretação pentecostal equilibrada.
+- [x] Adaptar o vocabulário da interface para a identidade da igreja sem transformar interpretações em fatos universais.
