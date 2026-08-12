@@ -32,3 +32,56 @@
 @media (max-width:760px) { .side-rail { position: fixed; left: -260px; top: 0; transition: left .22s cubic-bezier(.23,1,.32,1); box-shadow: 15px 0 40px rgba(0,0,0,.18); }.side-rail--open { left: 0; }.rail-close,.mobile-menu { display: grid; place-items: center; border: 0; background: transparent; color: inherit; }.rail-close { color: #aebbb6; }.mobile-menu { color: var(--foreground); margin-right: 12px; }.topbar { height: 64px; padding: 0 20px; justify-content: flex-start; }.topbar-actions { margin-left: auto; }.canon-note { display: none; }.hero-section { min-height: 610px; background-position: 62% center; }.hero-content { padding: 90px 25px 80px; }.hero-content h1 { font-size: clamp(54px,16vw,74px); }.hero-lede { font-size: 13px; }.hero-stamp { right: 25px; top: 22px; transform: rotate(10deg) scale(.78); transform-origin: right top; }.hero-caption { display: none; }.intro-band,.route-layout,.atlas-feature,.theme-layout,.detail-layout { grid-template-columns: 1fr; }.intro-band { padding-top: 68px; padding-bottom: 72px; gap: 45px; }.stats-grid { border-left: 0; }.stat-card { padding-left: 17px; }.route-section,.library-preview { padding-top: 68px; padding-bottom: 72px; }.section-heading-row,.page-title-row,.library-toolbar { align-items: flex-start; flex-direction: column; }.route-layout { gap: 35px; }.route-map { height: 270px; }.book-grid--preview,.book-grid--library { grid-template-columns: 1fr; margin-top: 28px; }.mini-book-main p { min-height: auto; }.quote-section { padding-left: 25px; padding-right: 25px; }.quote-section blockquote { font-size: 25px; }.page-section { padding-top: 54px; padding-bottom: 75px; }.page-title-row h1 { font-size: 57px; }.result-count { align-self: flex-end; }.library-toolbar { gap: 15px; }.search-wrap { max-width: none; width: 100%; }.filter-cluster { width: 100%; }.filter-cluster select { flex: 1; }.timeline-hero { min-height: 215px; padding: 24px; }.timeline-hero strong { font-size: 27px; }.timeline-item { grid-template-columns: 53px 1fr; }.timeline-content { padding-left: 10px; }.timeline-content h2 { font-size: 32px; }.atlas-image { min-height: 350px; }.atlas-copy { padding: 35px 25px; }.atlas-copy h2 { font-size: 38px; }.atlas-foot { grid-template-columns: 1fr; }.atlas-foot>div+div { border-left: 0; border-top: 1px solid var(--border); }.theme-intro-image { min-height: 330px; }.theme-cards { grid-template-columns: 1fr; }.theme-card { min-height: 185px; }.book-detail-page { padding-top: 29px; }.book-detail-header { padding-top: 48px; }.book-detail-header h1 { font-size: 72px; }.detail-meta-grid { grid-template-columns: repeat(2,1fr); row-gap: 23px; }.detail-section--split,.context-panel { grid-template-columns: 1fr; }.detail-route-card { margin-top: 23px; }.detail-layout { gap: 20px; }.detail-aside { order: -1; }.book-switcher strong { font-size: 17px; } }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
 .mini-book-lens { display: block; color: #a8664f; font-size: 9px; line-height: 1.55; margin-top: 9px; }
+.side-rail { overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 900px) {
+  .side-rail { position: fixed; left: -260px; top: 0; width: 252px; flex-basis: 252px; transition: left .22s cubic-bezier(.23,1,.32,1); box-shadow: 15px 0 40px rgba(0,0,0,.18); }
+  .side-rail--open { left: 0; }
+  .rail-close, .mobile-menu { display: grid; place-items: center; border: 0; background: transparent; color: inherit; }
+  .rail-close { color: #aebbb6; }
+  .mobile-menu { color: var(--foreground); margin-right: 12px; }
+  .topbar { height: 64px; padding: 0 20px; justify-content: flex-start; }
+  .topbar-actions { margin-left: auto; }
+  .study-title-row, .canon-lower { align-items: start; grid-template-columns: 1fr; display: grid; }
+  .study-title-row { gap: 22px; }
+  .course-meter { max-width: 310px; }
+  .study-layout { grid-template-columns: 1fr; gap: 24px; }
+  .module-index { border-right: 0; border-bottom: 1px solid var(--border); padding: 0 0 14px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+  .module-index-label { grid-column: 1 / -1; padding-left: 0; }
+  .module-index-item { padding: 10px 8px; }
+  .module-hero { min-height: 220px; }
+  .people-grid, .glossary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lesson-detail-layout { grid-template-columns: 1fr; gap: 28px; }
+  .lesson-aside { order: -1; display: grid; grid-template-columns: 1fr 1fr; gap: 13px; align-items: start; }
+  .lesson-complete { margin-top: 0; }
+  .lesson-next-card { margin-top: 0; border: 1px solid var(--border); padding: 16px; }
+}
+@media (max-width: 760px) {
+  .side-rail { overflow-y: auto; }
+  .rail-top { position: sticky; top: -28px; background: #122634; z-index: 2; padding-top: 28px; }
+  .study-title-row h1 { font-size: 54px; }
+  .study-title-row p { font-size: 12px; }
+  .module-index { grid-template-columns: 1fr 1fr; }
+  .module-index-item strong { font-size: 14px; }
+  .module-hero { padding: 24px 21px; }
+  .module-hero h2 { font-size: 40px; }
+  .module-hero p { font-size: 11px; }
+  .lesson-list-head { align-items: start; gap: 15px; flex-direction: column; }
+  .lesson-list-head h3 { font-size: 27px; }
+  .lesson-row { grid-template-columns: 23px 30px 1fr; gap: 7px; padding: 16px 3px; }
+  .lesson-open { grid-column: 3; justify-content: start; margin-top: 4px; }
+  .lesson-open span { display: inline; opacity: 1; transform: none; }
+  .study-method-strip { grid-template-columns: 1fr; }
+  .study-method-strip>div+div { border-left: 0; border-top: 1px solid var(--border); }
+  .lesson-detail-head { padding-top: 43px; }
+  .lesson-detail-head h1 { font-size: 58px; }
+  .lesson-lede { font-size: 15px; line-height: 1.8; }
+  .lesson-aside { grid-template-columns: 1fr; }
+  .people-grid, .glossary-grid, .canon-cards { grid-template-columns: 1fr; }
+  .people-note { padding: 21px; }
+  .people-note p { font-size: 18px; }
+  .canon-lower { gap: 35px; }
+  .canon-essay h2 { font-size: 38px; }
+  .canon-table-wrap { margin-right: -5vw; padding-right: 5vw; }
+  .glossary-toolbar { width: 100%; }
+  .glossary-toolbar input { min-width: 0; width: 100%; }
+}

@@ -35,3 +35,11 @@
 - [ ] Revisar todo o texto em português brasileiro e remover simplificações indevidas.
 - [ ] Validar responsividade, acessibilidade, navegação por teclado e desempenho.
 - [ ] Capturar nova revisão visual após a expansão e salvar checkpoint de entrega.
+
+## Auditoria responsiva
+
+- [x] Validar o menu lateral recolhível em 375px, 768px e 1280px.
+- [x] Reorganizar curso, aulas, personagens, cânon e glossário para telas estreitas.
+- [x] Garantir leitura confortável, alvos de toque e ausência de overflow horizontal.
+- [x] Testar tabelas, mapas, formulários e navegação por teclado em diferentes larguras.
+- [ ] Rodar build final, capturar telas móvel/tablet/desktop e publicar checkpoint responsivo.
