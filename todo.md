@@ -235,3 +235,11 @@
 - [x] Animar a evolução territorial aproximada de Egito, Assíria, Babilônia, Pérsia, helenismo e Roma com legenda metodológica.
 - [x] Conectar cada evento animado a livros, capítulos, personagens, dossiês e fontes clicáveis.
 - [x] Validar acessibilidade, controle por teclado, redução de movimento, mobile, precisão temporal e desempenho do mapa.
+
+## Auditoria da publicação
+
+- [x] Comparar o domínio publicado, a prévia de desenvolvimento e o checkpoint 520aa8ce.
+- [x] Confirmar se o HTML servido contém o bundle com o leitor exegético e a linha do tempo.
+- [x] Confirmar se o arquivo estático de 592 capítulos está acessível no domínio.
+- [x] Identificar cache, domínio antigo, rota incorreta ou publicação incompleta.
+- [ ] Corrigir a entrega, validar novamente e publicar checkpoint de sincronização.
