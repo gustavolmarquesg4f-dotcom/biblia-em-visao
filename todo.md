@@ -93,3 +93,76 @@
 - [x] Adicionar conexões clicáveis entre cada livro, tema, personagem e lugar relacionado.
 - [x] Criar página de detalhe enciclopédico com abas, índice interno e referências.
 - [x] Validar os seis verbetes em celular, tablet e desktop e publicar checkpoint.
+
+## Plano mestre — Formação completa sobre a Bíblia
+
+### Arquitetura pedagógica
+
+- [ ] Criar níveis de formação: Fundamentos, Panorama, Aprofundamento e Pesquisa.
+- [ ] Definir objetivos de aprendizagem, pré-requisitos, revisão e avaliação para cada módulo.
+- [ ] Criar um mapa geral do curso com progresso, ordem recomendada e caminhos alternativos.
+- [ ] Separar visualmente texto bíblico, contexto histórico, interpretação pentecostal, posição IDB e debate acadêmico.
+
+### Contexto histórico e cultural
+
+- [ ] Criar linha histórica do antigo Oriente Próximo: Egito, Canaã, Mesopotâmia, Assíria, Babilônia e Pérsia.
+- [ ] Criar módulos sobre período helenístico, domínio romano, judaísmo do Segundo Templo e movimentos religiosos do século I.
+- [ ] Relacionar cada livro a impérios, geografia, instituições, economia, guerras, migrações e práticas sociais do seu período.
+- [ ] Adicionar glossário de termos históricos, religiosos, políticos, arqueológicos e literários.
+
+### Antigo Testamento
+
+- [ ] Aprofundar os cinco livros do Pentateuco com contexto, estrutura, temas, personagens, leis, culto e debates.
+- [ ] Criar a história de Israel: patriarcas, êxodo, conquista, juízes, monarquia, divisão, exílio e restauração.
+- [ ] Aprofundar os livros históricos com reis, sacerdotes, profetas, guerras, reformas e fontes históricas.
+- [ ] Aprofundar poesia e sabedoria: Jó, Salmos, Provérbios, Eclesiastes e Cântico dos Cânticos.
+- [ ] Criar enciclopédia de profetas maiores e menores com contexto político, denúncia, promessa e cumprimento debatido.
+- [ ] Criar matriz de profecias com referência, contexto original, interpretação judaica, cristã, pentecostal e limites de certeza.
+
+### Novo Testamento e Jesus
+
+- [ ] Criar módulo completo sobre o contexto judaico-romano do século I.
+- [ ] Aprofundar os quatro Evangelhos comparando autoria, público, estrutura, ênfases, diferenças e convergências.
+- [ ] Criar enciclopédia de Jesus: identidade, genealogia, ensinamentos, parábolas, milagres, conflitos, paixão, ressurreição e ascensão.
+- [ ] Criar páginas para cada parábola, milagre, discurso, encontro e evento da vida de Jesus.
+- [ ] Relacionar Jesus às festas judaicas, ao templo, à sinagoga, aos grupos religiosos e ao poder romano.
+
+### Igreja primitiva, cartas e doutrina
+
+- [ ] Aprofundar Atos por cidades, viagens, personagens, concílio, conflitos e ação do Espírito.
+- [ ] Criar enciclopédia de Paulo: conversão, missão, companheiros, cartas, comunidades, prisões e debates históricos.
+- [ ] Aprofundar cada carta por destinatários, situação, argumento, problemas, ética e contexto comunitário.
+- [ ] Criar módulos sobre igreja primitiva, concílios, perseguições, expansão e formação da doutrina cristã.
+- [ ] Explicar Apocalipse, literatura apocalíptica, simbolismo, império, esperança e diferentes interpretações escatológicas.
+
+### Perspectiva pentecostal e Igreja de Deus no Brasil
+
+- [ ] Ampliar a teologia pentecostal sobre Espírito Santo, batismo no Espírito, línguas, dons, cura, santificação e missão.
+- [ ] Adicionar documentos oficiais brasileiros da Igreja de Deus no Brasil sempre que disponíveis e verificáveis.
+- [ ] Criar módulos sobre culto, ceia, batismo, lavagem dos pés, liderança, família, ética, oração e vida comunitária.
+- [ ] Comparar a posição IDB com outras tradições pentecostais e com leituras cristãs históricas, sem caricaturas.
+
+### Interatividade e avaliação
+
+- [ ] Transformar todas as referências bíblicas em links para livros, capítulos, temas e personagens relacionados.
+- [ ] Criar páginas completas de personagens, povos, cidades, regiões, instituições e eventos.
+- [ ] Criar mapas por período com camadas de rotas, cidades, impérios, viagens e conflitos.
+- [ ] Criar fichas de profecias, parábolas, milagres, reis, profetas e apóstolos com filtros e relações.
+- [ ] Adicionar quizzes de revisão, perguntas abertas, glossário contextual e resumos por nível.
+- [ ] Criar modo de foco, favoritos, notas persistentes, histórico e coleções pessoais de estudo.
+- [ ] Validar a progressão didática, precisão das fontes, acessibilidade e responsividade antes de cada publicação.
+
+### Módulo 11 — Apocalipse e escatologia
+
+- [x] Criar introdução histórica à literatura apocalíptica judaica e cristã.
+- [x] Estudar autoria, data, destinatários, cidades da Ásia Menor e contexto do Império Romano.
+- [x] Criar comentário estruturado capítulo a capítulo de Apocalipse 1–22.
+- [x] Explicar símbolos, números, imagens, cartas às sete igrejas, trono, selos, trombetas, taças, dragão, besta, Babilônia, milênio, juízo e nova criação.
+- [x] Relacionar Apocalipse com Daniel, Ezequiel, Isaías, Zacarias, Joel, Mateus 24, Marcos 13, Lucas 21, 1 Tessalonicenses, 2 Tessalonicenses e 2 Pedro.
+- [x] Apresentar as leituras preterista, historicista, futurista, idealista e eclética.
+- [x] Explicar pré-tribulacionismo, mesotribulacionismo, pós-tribulacionismo, amilenismo, pré-milenismo histórico, pré-milenismo dispensacionalista e pós-milenismo.
+- [x] Comparar interpretações pentecostais, da Igreja de Deus, evangélicas históricas, católicas, ortodoxas e acadêmicas.
+- [x] Criar tabela de pontos de convergência, divergência e limites de certeza entre as teorias.
+- [x] Adicionar comentários bíblicos, fontes acadêmicas e referências sem apresentar uma teoria como fato indiscutível.
+- [x] Criar cronologia interpretativa, mapa das sete igrejas e visualização das relações intertextuais.
+- [x] Adicionar perguntas de revisão e uma seção de discernimento contra especulações sobre datas e acontecimentos atuais.
