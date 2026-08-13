@@ -208,6 +208,16 @@
 - [x] Exigir fontes específicas por livro e marcar claramente o que é texto, reconstrução histórica, interpretação e hipótese.
 - [x] Publicar somente após revisar uma amostra de cada bloco do cânon e confirmar profundidade real na leitura.
 
+## Rede de conhecimento clicável
+
+- [x] Modelar entidades de personagens, lugares, povos, eventos, temas, profecias e livros com identificadores estáveis.
+- [x] Criar painéis biográficos detalhados para personagens e dossiês geográficos para lugares.
+- [x] Transformar menções de pessoas e locais no texto exegético em links contextuais sem quebrar a leitura.
+- [x] Fazer o clique em um lugar centralizar e destacar automaticamente a região no atlas interativo.
+- [x] Criar busca avançada com filtros por livro, entidade, período, tema, profecia, tradição interpretativa e tipo de relação.
+- [x] Implementar referências cruzadas instantâneas entre profecias, livros, personagens, eventos, lugares e doutrinas.
+- [x] Validar acessibilidade, teclado, mobile, estado de retorno e ausência de links falsos ou entidades sem dados.
+
 ## Expansão solicitada — mapas, 66 livros e bibliografia
 
 ### Camadas cartográficas interativas

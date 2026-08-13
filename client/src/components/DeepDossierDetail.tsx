@@ -3,6 +3,8 @@ import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, Clock3, ListTree, Save, 
 import { Streamdown } from "streamdown";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { DEEP_DOSSIER_CATALOG_URL, canonicalDeepBookKey, normalizeDeepDossierPayload, type DeepDossierRecord } from "@/lib/deep-dossier-data";
+import EntityPanel from "@/components/EntityPanel";
+import { bookFromEntityReference, decorateMarkdown } from "@/lib/entity-graph";
 import "@/deep-dossier-reader.css";
 
 type Props = {
@@ -13,17 +15,33 @@ type Props = {
   save?: () => void;
   note?: string;
   setNote?: (value: string) => void;
+  onFocusPlace?: (placeId: string) => void;
 };
 
-export default function DeepDossierDetail({ book, close, openBook, saved = false, save, note = "", setNote }: Props) {
+export default function DeepDossierDetail({ book, close, openBook, saved = false, save, note = "", setNote, onFocusPlace }: Props) {
   const [record, setRecord] = useState<DeepDossierRecord | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [entityId, setEntityId] = useState<string | null>(null);
   const index = bibleBooks.findIndex((item) => item.id === book.id);
   const filteredHeadings = useMemo(() => (record?.headings || []).filter((heading) => !query.trim() || heading.toLowerCase().includes(query.toLowerCase().trim())), [record, query]);
   const wordCount = record?.markdown.trim().split(/\s+/).length || 0;
   const minutes = Math.max(8, Math.round(wordCount / 220));
+  const decoratedMarkdown = useMemo(() => decorateMarkdown(record?.markdown || "", book.name), [record?.markdown, book.name]);
+
+  const handleReadingClick = (event: React.MouseEvent<HTMLElement>) => {
+    const anchor = (event.target as HTMLElement).closest("a[href^='#entity-']") as HTMLAnchorElement | null;
+    if (!anchor) return;
+    event.preventDefault();
+    const entityId = anchor.getAttribute("href")?.replace(/^#entity-/, "");
+    if (!entityId) return;
+    if (entityId.startsWith("place-")) {
+      onFocusPlace?.(entityId);
+      return;
+    }
+    setEntityId(entityId);
+  };
 
   useEffect(() => {
     let alive = true;
@@ -60,10 +78,11 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
       <div className="deep-dossier-stats"><div><strong>{record.sectionCount}</strong><span>seções</span></div><div><strong>{record.longParagraphCount}</strong><span>blocos desenvolvidos</span></div><div><strong>{wordCount.toLocaleString("pt-BR")}</strong><span>palavras</span></div><div><strong>{minutes} min</strong><span>leitura estimada</span></div></div>
       <div className="deep-dossier-layout">
         <aside className="deep-dossier-index"><div className="deep-index-heading"><span><ListTree size={15} /> Índice do dossiê</span><small>{filteredHeadings.length}/{record.headings.length}</small></div><div className="deep-index-search"><Search size={14} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar seções…" aria-label="Filtrar seções do dossiê" /></div><nav>{filteredHeadings.map((heading, headingIndex) => <a href={`#deep-section-${headingIndex}`} key={`${heading}-${headingIndex}`}>{String(headingIndex + 1).padStart(2, "0")} · {heading}</a>)}</nav><div className="deep-index-method"><ShieldCheck size={16} /><p>O texto distingue reconstrução histórica, interpretação, tradição confessional e hipótese.</p></div></aside>
-        <article className="deep-dossier-reading"><div className="deep-reading-header"><span>Texto principal</span><span><Clock3 size={14} /> {minutes} min de leitura</span></div><div className="deep-reading-prose"><Streamdown>{record.markdown}</Streamdown></div></article>
+        <article className="deep-dossier-reading"><div className="deep-reading-header"><span>Texto principal · entidades clicáveis</span><span><Clock3 size={14} /> {minutes} min de leitura</span></div><div className="deep-reading-prose" onClick={handleReadingClick}><Streamdown>{decoratedMarkdown}</Streamdown></div></article>
       </div>
       {setNote && <section className="deep-dossier-notes"><div><span>Anotação de pesquisa</span><h2>O que este livro <em>explica?</em></h2><p>Registre conexões, objeções e perguntas que surgirem durante a leitura.</p></div><div><textarea value={note} onChange={(event) => setNote(event.target.value)} placeholder={`Anote uma pergunta sobre ${book.name}…`} aria-label={`Anotação de pesquisa sobre ${book.name}`} /><small>{note ? `${note.length} caracteres nesta sessão` : "Notas desta sessão"}</small></div></section>}
       <nav className="deep-dossier-next" aria-label="Navegar entre os livros">{previous ? <button onClick={() => openBook?.(previous)}><ArrowLeft size={15} /><span><small>Livro anterior</small><strong>{previous.name}</strong></span></button> : <span />}{next ? <button onClick={() => openBook?.(next)}><span><small>Próximo livro</small><strong>{next.name}</strong></span><ArrowRight size={15} /></button> : <span />}</nav>
     </>}
+    <EntityPanel entityId={entityId} close={() => setEntityId(null)} onFocusPlace={onFocusPlace} onOpenEntity={setEntityId} onOpenBook={(bookName) => { const target = bookFromEntityReference(bookName); if (target) { setEntityId(null); openBook?.(target); } }} />
   </section>;
 }
