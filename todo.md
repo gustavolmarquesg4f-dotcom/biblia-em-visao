@@ -322,3 +322,10 @@
 - [ ] Criar workflow de build e deploy estático no GitHub Actions.
 - [ ] Criar ou sincronizar repositório GitHub e fazer o primeiro push.
 - [ ] Publicar via GitHub Pages e validar o domínio e os recursos carregados.
+
+## Correção do GitHub Pages
+
+- [ ] Diagnosticar por que a raiz publicada responde 404 apesar de a branch gh-pages existir.
+- [ ] Corrigir o artefato para conter index.html na raiz efetivamente servida pelo Pages.
+- [ ] Republicar a branch gh-pages com o build corrigido.
+- [ ] Validar home, assets, catálogos e recursos principais no endereço público.
