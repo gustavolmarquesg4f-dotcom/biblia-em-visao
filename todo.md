@@ -292,3 +292,15 @@
 - [ ] Criar conexões de Gênesis com Êxodo, profetas, Evangelhos, Paulo, Hebreus e Apocalipse.
 - [ ] Criar o modelo replicável para os outros 65 livros, com entidades próprias de cada obra.
 - [ ] Validar se a experiência responde “quem, o quê, onde, quando, por quê e como se conecta” em cada livro.
+
+## Expansão de personagens, profetas e grafo bíblico
+
+- [x] Criar identificadores estáveis para personagens, profetas, lugares, livros, temas, profecias e relações.
+- [x] Redigir biografias profundas dos patriarcas, matriarcas, reis, profetas, sacerdotes, juízes, apóstolos, mulheres e personagens centrais dos Evangelhos.
+- [x] Incluir em cada biografia narrativa, contexto histórico, referências, relações familiares, atuação no cânon, debates e leitura pentecostal.
+- [x] Implementar painéis biográficos clicáveis com conexões, fontes e livros relacionados.
+- [x] Construir grafo interativo com nós, arestas, filtros, busca, zoom, seleção e legenda de tipos de relação.
+- [x] Diferenciar no grafo citação, alusão, tipologia, continuidade temática, relação histórica e interpretação teológica.
+- [x] Transformar automaticamente menções de personagens e lugares no texto integral em links sem marcar ocorrências dentro de URLs ou referências técnicas.
+- [x] Fazer links geográficos abrirem o painel do lugar e oferecer ação explícita para focar o atlas.
+- [x] Validar todos os links, painéis, grafo, teclado, mobile, redução de movimento e entidades sem dados.

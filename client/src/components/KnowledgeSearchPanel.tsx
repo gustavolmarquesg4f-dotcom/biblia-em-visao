@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BookOpen, ChevronRight, Link2, Network, Search, UserRound, X } from "lucide-react";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { searchKnowledge, type KnowledgeEntity } from "@/lib/entity-graph";
 import "@/entity-network.css";
+import { loadBiographyCatalog } from "@/lib/biography-data";
+import PropheticGraph from "@/components/PropheticGraph";
 
 // Cartografia de Leituras: a busca abre o verbete antes de levar o leitor para outro contexto.
 
@@ -25,6 +27,9 @@ const iconFor = (kind: KnowledgeEntity["kind"]) => kind === "person" ? UserRound
 export default function KnowledgeSearchPanel({ openBook, onOpenEntity, onFocusPlace }: Props) {
   const [query, setQuery] = useState("");
   const [kind, setKind] = useState("all");
+  const [showGraph, setShowGraph] = useState(false);
+  const [, setCatalogVersion] = useState(0);
+  useEffect(() => { loadBiographyCatalog().then(() => setCatalogVersion((value) => value + 1)).catch(() => undefined); }, []);
   const results = searchKnowledge(query, kind);
   const total = results.entityResults.length + results.bookResults.length + results.relationResults.length;
 
@@ -40,6 +45,8 @@ export default function KnowledgeSearchPanel({ openBook, onOpenEntity, onFocusPl
 
       <div className="knowledge-search-bar"><Search size={18} /><input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Ex.: Abraão, Babilônia, aliança, Adão e Cristo…" aria-label="Buscar na rede bíblica" />{query && <button onClick={() => setQuery("")} aria-label="Limpar busca"><X size={15} /></button>}</div>
       <div className="knowledge-filter-row" role="tablist" aria-label="Filtrar resultados">{kinds.map((item) => <button key={item.id} className={kind === item.id ? "is-active" : ""} onClick={() => setKind(item.id)} role="tab" aria-selected={kind === item.id}>{item.label}</button>)}</div>
+      <div className="knowledge-graph-launch"><button className={showGraph ? "is-active" : ""} onClick={() => setShowGraph((value) => !value)}><Network size={15} />{showGraph ? "Fechar grafo visual" : "Abrir grafo visual"}</button><span>Explore as conexões em vez de apenas listá-las.</span></div>
+      {showGraph && <PropheticGraph onOpenEntity={onOpenEntity} />}
 
       {!query && <div className="knowledge-search-empty"><Network size={22} /><strong>Comece por uma entidade ou relação</strong><p>Experimente “Adão”, “Jerusalém”, “Babilônia”, “Paulo”, “aliança” ou “império”.</p></div>}
       {query && total === 0 && <div className="knowledge-search-empty"><Search size={22} /><strong>Nenhuma conexão encontrada</strong><p>Tente o nome de um livro, personagem, lugar, tema ou referência bíblica.</p></div>}

@@ -1,5 +1,7 @@
 import { bibleBooks, type Book } from "@/lib/bible-data";
 
+import { getBiographyEntities, getBiographyRelations } from "@/lib/biography-data";
+
 // Cartografia de Leituras: este índice transforma a Bíblia em uma rede navegável de pessoas, lugares, eventos, temas e profecias.
 
 export type EntityKind = "person" | "place" | "event" | "theme" | "prophecy";
@@ -72,37 +74,56 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   { id: "r-adam-christ", from: "adam", to: "jesus", label: "Adão e Cristo", type: "theological", explanation: "Paulo contrasta Adão e Cristo em uma releitura da morte, da humanidade e da ressurreição.", refs: ["Rm 5:12–21", "1Co 15:20–49"] },
 ];
 
+export function getAllKnowledgeEntities() {
+  const seen = new Set<string>();
+  return [...getBiographyEntities(), ...knowledgeEntities].filter((entity) => {
+    const key = `${entity.kind}:${normalizeEntityKey(entity.name)}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+export function getAllKnowledgeRelations() {
+  return [...getBiographyRelations(), ...knowledgeRelations];
+}
+
 export function normalizeEntityKey(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
 export function findKnowledgeEntity(id: string) {
-  return knowledgeEntities.find((entity) => entity.id === id) || null;
+  return getAllKnowledgeEntities().find((entity) => entity.id === id) || null;
 }
 
 export function getEntitiesForBook(bookName: string) {
   const normalized = normalizeEntityKey(bookName);
-  return knowledgeEntities.filter((entity) => entity.books.some((book) => normalizeEntityKey(book) === normalized));
+  return getAllKnowledgeEntities().filter((entity) => entity.books.some((book) => normalizeEntityKey(book) === normalized));
 }
 
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-export function decorateMarkdown(markdown: string, bookName: string) {
-  const candidates = getEntitiesForBook(bookName).flatMap((entity) => [entity, ...entity.related.map((id) => findKnowledgeEntity(id)).filter(Boolean) as KnowledgeEntity[]]);
-  const unique = Array.from(new Map(candidates.map((entity) => [entity.id, entity])).values()).sort((a, b) => b.name.length - a.name.length);
-  return unique.reduce((current, entity) => {
-    const aliases = [entity.name, ...entity.aliases].filter((alias, index, list) => list.indexOf(alias) === index).sort((a, b) => b.length - a.length);
-    return aliases.reduce((text, alias) => text.replace(new RegExp(`(?<![\\w#])${escapeRegExp(alias)}(?![\\w])`, "g"), `[${alias}](#entity-${entity.kind}-${entity.id})`), current);
-  }, markdown);
+export function decorateMarkdown(markdown: string, bookName: string, extraEntities: KnowledgeEntity[] = []) {
+  const candidates = [...extraEntities, ...getAllKnowledgeEntities(), ...getEntitiesForBook(bookName)];
+  const aliases = new Map<string, { label: string; entity: KnowledgeEntity }>();
+  for (const entity of candidates) for (const alias of [entity.name, ...entity.aliases]) {
+    const key = alias.toLocaleLowerCase();
+    if (alias.length > 3 && !aliases.has(key)) aliases.set(key, { label: alias, entity });
+  }
+  const sortedAliases = Array.from(aliases.values()).sort((a, b) => b.label.length - a.label.length);
+  const protectedLinks: string[] = [];
+  const skeleton = markdown.replace(/\[[^\]]+\]\([^)]*\)/g, (link: string) => `@@LINK_${protectedLinks.push(link) - 1}@@`);
+  const decorated = sortedAliases.reduce((current, item) => current.replace(new RegExp(`(?<![\\w#])${escapeRegExp(item.label)}(?![\\w])`, "giu"), `[${item.label}](#entity-${item.entity.id})`), skeleton);
+  return decorated.replace(/@@LINK_(\d+)@@/g, (_match: string, index: string) => protectedLinks[Number(index)] || "");
 }
 
 export function searchKnowledge(query: string, kind = "all") {
   const normalized = query.trim().toLowerCase();
-  const entityResults = knowledgeEntities.filter((entity) => (kind === "all" || kind === entity.kind) && (!normalized || [entity.name, entity.summary, entity.biography, entity.significance, entity.books.join(" "), entity.refs.join(" ")].join(" ").toLowerCase().includes(normalized)));
+  const entityResults = getAllKnowledgeEntities().filter((entity) => (kind === "all" || kind === entity.kind) && (!normalized || [entity.name, entity.summary, entity.biography, entity.significance, entity.books.join(" "), entity.refs.join(" ")].join(" ").toLowerCase().includes(normalized)));
   const bookResults = bibleBooks.filter((book) => (kind === "all" || kind === "book") && (!normalized || [book.name, book.author, book.summary, book.category, book.themes.join(" ")].join(" ").toLowerCase().includes(normalized)));
-  const relationResults = knowledgeRelations.filter((relation) => (kind === "all" || kind === "relation") && (!normalized || [relation.label, relation.explanation, relation.refs.join(" ")].join(" ").toLowerCase().includes(normalized)));
+  const relationResults = getAllKnowledgeRelations().filter((relation) => (kind === "all" || kind === "relation") && (!normalized || [relation.label, relation.explanation, relation.refs.join(" ")].join(" ").toLowerCase().includes(normalized)));
   return { entityResults, bookResults, relationResults };
 }
 

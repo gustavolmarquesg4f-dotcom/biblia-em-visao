@@ -1,0 +1,47 @@
+/* Cartografia de Leituras: biografias extensas, relações legíveis e grafo como instrumento de investigação. */
+.biography-panel-body { padding: 0 1.35rem 1.25rem; overflow-y: auto; }
+.biography-section { border-top: 1px solid rgba(30, 52, 65, .13); padding: 1.1rem 0; }
+.biography-section p, .biography-lead-section p { color: #314754; font-family: Manrope, sans-serif; font-size: .84rem; line-height: 1.75; margin: .65rem 0 0; }
+.biography-lead-section { padding: 0 0 1.1rem; }
+.biography-lead-section .entity-lead { font-family: "DM Serif Display", Georgia, serif; font-size: 1.1rem; line-height: 1.42; color: #203746; }
+.biography-panel .entity-source { margin-top: 1rem; }
+.prophetic-graph-card { margin-top: 2rem; padding: 2rem; border: 1px solid rgba(30, 52, 65, .15); background: linear-gradient(145deg, rgba(247, 241, 228, .92), rgba(255, 252, 244, .66)); box-shadow: 0 22px 65px rgba(32, 55, 70, .1); }
+.prophetic-graph-head { display: flex; justify-content: space-between; gap: 2rem; align-items: flex-start; }
+.prophetic-graph-head h2 { margin: .55rem 0 .35rem; font: 2rem/1.02 "DM Serif Display", Georgia, serif; color: #203746; }
+.prophetic-graph-head h2 em { color: #9c5364; font-style: italic; }
+.prophetic-graph-head p { max-width: 46rem; color: #526875; line-height: 1.6; }
+.prophetic-graph-count { border-left: 1px solid rgba(30, 52, 65, .18); padding-left: 1.3rem; min-width: 7rem; }
+.prophetic-graph-count strong { display: block; font: 2.3rem/1 "DM Serif Display", Georgia, serif; color: #9c5364; }
+.prophetic-graph-count span { color: #526875; font: .65rem/1.4 Manrope, sans-serif; text-transform: uppercase; letter-spacing: .12em; }
+.prophetic-graph-controls { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin: 1.5rem 0; }
+.graph-search { display: flex; align-items: center; gap: .5rem; flex: 1 1 20rem; border-bottom: 1px solid rgba(30, 52, 65, .28); padding: .7rem 0; color: #456272; }
+.graph-search input { border: 0; outline: 0; background: transparent; width: 100%; color: #203746; font: .78rem Manrope, sans-serif; }
+.graph-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; color: #6c7d86; }
+.graph-filters button { border: 1px solid rgba(30, 52, 65, .16); background: transparent; padding: .45rem .65rem; color: #526875; font: .66rem Manrope, sans-serif; text-transform: uppercase; letter-spacing: .07em; }
+.graph-filters button.is-active { background: #203746; color: #f7f1e4; border-color: #203746; }
+.prophetic-graph-layout { display: grid; grid-template-columns: minmax(0, 1fr) 15rem; gap: 1rem; align-items: stretch; }
+.prophetic-graph-canvas { min-width: 0; background: #edf1ed; border: 1px solid rgba(30, 52, 65, .12); padding: .5rem; }
+.prophetic-graph-canvas svg { display: block; width: 100%; min-height: 23rem; overflow: visible; }
+.graph-edge { stroke: rgba(32, 55, 70, .2); stroke-width: 1.2; cursor: pointer; transition: stroke .18s ease, stroke-width .18s ease; }
+.graph-edge--prophetic { stroke: #9c5364; stroke-dasharray: 5 4; }
+.graph-edge--theological { stroke: #3c7280; }
+.graph-edge:hover { stroke-width: 3; }
+.graph-node { cursor: pointer; outline: none; }
+.graph-node circle { stroke: #fff; stroke-width: 2; transition: transform .18s ease; transform-box: fill-box; transform-origin: center; }
+.graph-node:hover circle, .graph-node:focus circle { transform: scale(1.25); }
+.graph-node text { fill: #314754; font: 10px Manrope, sans-serif; pointer-events: none; }
+.graph-legend { display: flex; flex-wrap: wrap; gap: .75rem; padding: .65rem .8rem .35rem; color: #526875; font: .62rem Manrope, sans-serif; text-transform: uppercase; letter-spacing: .07em; }
+.graph-legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.graph-legend-dot { width: .55rem; height: .55rem; border-radius: 50%; display: inline-block; }
+.graph-legend-dot--person { background: #9c5364; }
+.graph-legend-dot--place { background: #3c7280; }
+.graph-legend-line { width: 1.3rem; height: 2px; display: inline-block; }
+.graph-legend-line--prophetic { background: #9c5364; }
+.graph-legend-line--theological { background: #3c7280; }
+.prophetic-graph-inspector { background: #203746; color: #eef2ef; padding: 1.25rem; display: flex; flex-direction: column; justify-content: center; }
+.prophetic-graph-inspector .entity-section-label { color: #d5b777; }
+.prophetic-graph-inspector h3 { font: 1.5rem/1.1 "DM Serif Display", Georgia, serif; margin: .7rem 0; }
+.prophetic-graph-inspector p { color: #cbd8d6; font: .76rem/1.65 Manrope, sans-serif; }
+.prophetic-graph-inspector small { color: #b8c8c8; font: .62rem/1.5 Manrope, sans-serif; }
+.prophetic-graph-inspector button { display: inline-flex; align-items: center; gap: .4rem; margin-top: 1rem; border: 0; background: #d5b777; color: #203746; padding: .65rem .7rem; font: .67rem Manrope, sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+@media (max-width: 800px) { .prophetic-graph-card { padding: 1.1rem; } .prophetic-graph-head { display: block; } .prophetic-graph-count { border-left: 0; border-top: 1px solid rgba(30,52,65,.16); margin-top: 1rem; padding: .75rem 0 0; } .prophetic-graph-layout { grid-template-columns: 1fr; } .prophetic-graph-canvas svg { min-height: 19rem; } }

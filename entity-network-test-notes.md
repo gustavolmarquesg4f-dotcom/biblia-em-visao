@@ -30,3 +30,9 @@ O teste integrado confirmou que o painel permanece aberto após a busca; o cliqu
 O catálogo cartográfico foi ampliado com Éden, Ur, Harã, Canaã, Hebrom e Egito, todos com coordenadas didáticas, período, dossiê, resumo e referências. A prévia v5 foi reiniciada e a Busca avançada voltou a retornar Ur.
 
 Validação concluída: o clique em “Destacar no atlas” abriu o atlas com 19 lugares, exibiu Ur na lista ativa, centralizou a câmera na Mesopotâmia e mostrou o dossiê geográfico de Ur com coordenadas e fontes metodológicas.
+
+O catálogo biográfico foi integrado com 119 registros extraídos de 12 dossiês temáticos, incluindo personagens do Gênesis, profetas, Jesus, Paulo e lugares estudados.
+
+A busca força uma nova renderização depois do carregamento do catálogo; o grafo visual usa as relações biográficas e teológicas disponíveis.
+
+A checagem `pnpm run check` terminou sem erros após corrigir imports, tipos do grafo, preservação de links Markdown e estilos do acionador do grafo.

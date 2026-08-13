@@ -4,7 +4,8 @@ import { Streamdown } from "streamdown";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { DEEP_DOSSIER_CATALOG_URL, canonicalDeepBookKey, normalizeDeepDossierPayload, type DeepDossierRecord } from "@/lib/deep-dossier-data";
 import EntityPanel from "@/components/EntityPanel";
-import { bookFromEntityReference, decorateMarkdown } from "@/lib/entity-graph";
+import { bookFromEntityReference, decorateMarkdown, type KnowledgeEntity } from "@/lib/entity-graph";
+import { loadBiographyCatalog } from "@/lib/biography-data";
 import "@/deep-dossier-reader.css";
 
 type Props = {
@@ -24,11 +25,14 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [entityId, setEntityId] = useState<string | null>(null);
+  const [biographies, setBiographies] = useState<KnowledgeEntity[]>([]);
   const index = bibleBooks.findIndex((item) => item.id === book.id);
   const filteredHeadings = useMemo(() => (record?.headings || []).filter((heading) => !query.trim() || heading.toLowerCase().includes(query.toLowerCase().trim())), [record, query]);
   const wordCount = record?.markdown.trim().split(/\s+/).length || 0;
   const minutes = Math.max(8, Math.round(wordCount / 220));
-  const decoratedMarkdown = useMemo(() => decorateMarkdown(record?.markdown || "", book.name), [record?.markdown, book.name]);
+  const decoratedMarkdown = useMemo(() => decorateMarkdown(record?.markdown || "", book.name, biographies), [record?.markdown, book.name, biographies]);
+
+  useEffect(() => { loadBiographyCatalog().then(setBiographies).catch(() => undefined); }, []);
 
   const handleReadingClick = (event: React.MouseEvent<HTMLElement>) => {
     const anchor = (event.target as HTMLElement).closest("a[href^='#entity-']") as HTMLAnchorElement | null;
