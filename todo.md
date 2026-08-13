@@ -180,6 +180,15 @@
 - [ ] Inserir fontes acadêmicas, confessionais e arqueológicas em cada dossiê, com distinção entre evidência e interpretação.
 - [x] Validar o conteúdo em nível avançado com uma amostra de dossiês e publicar uma nova versão somente após os testes.
 
+### Enciclopédia relacional — status da integração
+
+- [x] Criar o dossiê relacional dedicado de Gênesis com pessoas, eventos, lugares, profecias e continuidade.
+- [x] Integrar os outros 65 livros ao mesmo roteador relacional.
+- [x] Corrigir a associação de Gênesis para não cair na ficha antiga.
+- [x] Corrigir o parser das listas estruturadas para preencher os seis campos relacionais dos 65 livros.
+- [x] Validar cobertura: 65/65 dossiês com entidades, eventos, lugares, temas, profecias e continuidade.
+- [x] Validar a leitura visual de Gênesis e Êxodo após reinício, cache novo e build TypeScript.
+
 ## Expansão solicitada — mapas, 66 livros e bibliografia
 
 ### Camadas cartográficas interativas
@@ -243,3 +252,14 @@
 - [x] Confirmar se o arquivo estático de 592 capítulos está acessível no domínio.
 - [x] Identificar cache, domínio antigo, rota incorreta ou publicação incompleta.
 - [ ] Corrigir a entrega, validar novamente e publicar checkpoint de sincronização.
+
+## Enciclopédia relacional profunda
+
+- [ ] Definir o esquema de entidades: pessoas, povos, lugares, eventos, livros, capítulos, temas, profecias, alianças, impérios e fontes.
+- [ ] Definir o padrão completo do dossiê de Gênesis com navegação por entidades e continuidade bíblica.
+- [ ] Pesquisar e redigir verbetes conectados de Adão, Eva, Caim, Abel, Noé, Abraão, Sara, Ló, Isaque, Rebeca, Jacó, Esaú, Raquel, Lia e José.
+- [ ] Explicar eventos de Gênesis: criação, queda, Caim e Abel, dilúvio, Babel, chamado de Abraão, alianças, Sodoma, sacrifício de Isaque, Jacó e José.
+- [ ] Adicionar mapa de Gênesis com Éden, Mesopotâmia, Ur, Harã, Canaã, Hebrom, Sodoma, Berseba, Betel e Egito.
+- [ ] Criar conexões de Gênesis com Êxodo, profetas, Evangelhos, Paulo, Hebreus e Apocalipse.
+- [ ] Criar o modelo replicável para os outros 65 livros, com entidades próprias de cada obra.
+- [ ] Validar se a experiência responde “quem, o quê, onde, quando, por quê e como se conecta” em cada livro.

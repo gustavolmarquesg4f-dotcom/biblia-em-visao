@@ -35,3 +35,6 @@
 - Build TypeScript e build de produção concluídos sem erro.
 - A inspeção de console encontrou e corrigiu âncoras aninhadas na bibliografia; após a correção, não surgiram novos erros no carregamento.
 - A página inicial foi verificada em desktop 1280px e móvel 390px sem cortes visíveis.
+- O primeiro catálogo relacional tinha listas vazias porque o parser não removia o hífen dos marcadores `ENTITY`, `EVENT`, `PLACE`, `THEME`, `PROPHECY` e `CONNECTION`; o parser foi corrigido e o catálogo foi republicado.
+- A auditoria final do JSON confirma 65/65 livros com entidades, eventos, lugares, temas, profecias e continuidade preenchidos; Gênesis permanece no componente relacional dedicado.
+- Êxodo foi reaberto na prévia com 10 entidades, 5 lugares, 7 conexões canônicas e oito arcos com título, resumo e pergunta separados, sem duplicação.
