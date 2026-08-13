@@ -22,7 +22,9 @@ export type ExegesisDossier = {
 
 export type ExegesisPayload = { total: number; dossiers: ExegesisDossier[] };
 
-export const EXEGESIS_DATA_URL = "/manus-storage/exegesis-data_1e6a078a.json";
+import { staticAsset } from "./static-asset";
+
+export const EXEGESIS_DATA_URL = staticAsset("data/exegesis-data.json");
 
 let exegesisPromise: Promise<ExegesisPayload> | null = null;
 

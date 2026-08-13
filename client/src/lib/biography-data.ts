@@ -1,7 +1,8 @@
 import type { KnowledgeEntity, KnowledgeRelation } from "@/lib/entity-graph";
+import { staticAsset } from "@/lib/static-asset";
 
 // Cartografia de Leituras: catálogo biográfico carregado separadamente para manter o texto longo fora do bundle inicial.
-export const BIOGRAPHY_CATALOG_URL = "/manus-storage/biography-catalog_d53d56ca.json";
+export const BIOGRAPHY_CATALOG_URL = staticAsset("data/biography-catalog.json");
 
 export type BiographyRecord = KnowledgeEntity & {
   sections?: Record<string, string>;

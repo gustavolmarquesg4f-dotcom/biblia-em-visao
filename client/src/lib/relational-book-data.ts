@@ -1,4 +1,6 @@
-export const RELATIONAL_BOOKS_URL = "/manus-storage/relational-books_f4ce5733.json";
+import { staticAsset } from "./static-asset";
+
+export const RELATIONAL_BOOKS_URL = staticAsset("data/relational-books-catalog.json");
 
 export type RelationalRow = Record<string, string>;
 export type RelationalSource = { label: string; url: string | null; verified: boolean };

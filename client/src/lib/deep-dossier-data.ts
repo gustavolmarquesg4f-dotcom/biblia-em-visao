@@ -1,4 +1,6 @@
-export const DEEP_DOSSIER_CATALOG_URL = "/manus-storage/deep-dossier-catalog_e7aaf16c.json";
+import { staticAsset } from "./static-asset";
+
+export const DEEP_DOSSIER_CATALOG_URL = staticAsset("data/deep-dossier-catalog.json");
 
 export type DeepDossierRecord = {
   bookName: string;

@@ -304,3 +304,21 @@
 - [x] Transformar automaticamente menções de personagens e lugares no texto integral em links sem marcar ocorrências dentro de URLs ou referências técnicas.
 - [x] Fazer links geográficos abrirem o painel do lugar e oferecer ação explícita para focar o atlas.
 - [x] Validar todos os links, painéis, grafo, teclado, mobile, redução de movimento e entidades sem dados.
+
+## Distribuição monolítica e GitHub Pages
+
+- [ ] Definir a estratégia de empacotamento em um único `index.html`, incluindo CSS, JavaScript e dados inline.
+- [ ] Gerar o HTML monolítico com estudos exegéticos, biografias, grafo, mapa, busca e referências.
+- [ ] Garantir que o arquivo único não dependa de endpoints da Manus ou arquivos JSON externos.
+- [ ] Testar o HTML abrindo-o diretamente e também por um servidor estático local.
+- [ ] Criar documentação de publicação no GitHub Pages e verificar requisitos de visibilidade do repositório.
+- [ ] Publicar no GitHub somente após confirmar se o usuário aceita repositório público ou possui Pages habilitado para repositório privado.
+
+## Retomada React e publicação no GitHub
+
+- [ ] Manter a aplicação React/TypeScript como distribuição principal e arquivar o experimento monolítico.
+- [ ] Confirmar que estudos, biografias, grafo, mapas e busca continuam acessíveis dentro da aplicação atual.
+- [ ] Configurar base path e assets para funcionar em GitHub Pages.
+- [ ] Criar workflow de build e deploy estático no GitHub Actions.
+- [ ] Criar ou sincronizar repositório GitHub e fazer o primeiro push.
+- [ ] Publicar via GitHub Pages e validar o domínio e os recursos carregados.

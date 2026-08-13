@@ -1,3 +1,5 @@
+import { staticAsset } from "./static-asset";
+
 export type AdvancedBookDossier = {
   book_name: string;
   dossier_markdown: string;
@@ -6,7 +8,7 @@ export type AdvancedBookDossier = {
   confidence_limits: string;
 };
 
-export const ADVANCED_BOOK_DOSSIERS_URL = "/manus-storage/pesquisar_66_livros_avancados_45e0cf9d.json";
+export const ADVANCED_BOOK_DOSSIERS_URL = staticAsset("data/advanced-book-dossiers.json");
 
 export type AdvancedBookPayload = {
   results?: Array<{ input?: string; output?: AdvancedBookDossier; error?: string }>;

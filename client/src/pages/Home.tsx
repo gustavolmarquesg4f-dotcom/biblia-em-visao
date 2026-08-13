@@ -28,17 +28,18 @@ import KnowledgeSearchPanel from "@/components/KnowledgeSearchPanel";
 import EntityPanel from "@/components/EntityPanel";
 import { bookFromEntityReference } from "@/lib/entity-graph";
 import { RELATIONAL_BOOKS_URL, canonicalRelationalBookKey, normalizeRelationalBooksPayload, type RelationalBookData } from "@/lib/relational-book-data";
+import { staticAsset } from "@/lib/static-asset";
 import "@/relational-book.css";
 
 type View = "overview" | "library" | "study" | "theology" | "people" | "canon" | "glossary" | "search" | "timeline" | "atlas" | "themes" | "apocalypse" | "bibliography";
-const heroImage = "/manus-storage/biblia-hero_0441fccb.jpg";
-const atlasImage = "/manus-storage/biblia-visual-atlas_486e7d97.jpg";
-const timelineImage = "/manus-storage/biblia-timeline_82e7a5f9.jpg";
-const studyImage = "/manus-storage/biblia-study-detail_2265051a.jpg";
-const brandMark = "/manus-storage/biblia-mark_2eef8969.png";
+const heroImage = staticAsset("assets/biblia-hero.jpg");
+const atlasImage = heroImage;
+const timelineImage = heroImage;
+const studyImage = heroImage;
+const brandMark = "";
 const testamentShort = (testament: Book["testament"]) => testament === "Novo Testamento" ? "NT" : "AT";
 
-function Mark({ compact = false }: { compact?: boolean }) { return <div className={`brand-lockup ${compact ? "brand-lockup--compact" : ""}`} aria-label="A Bíblia em visão geral"><img src={brandMark} alt="" className="brand-mark" />{!compact && <div><strong>A Bíblia</strong><span>em visão geral</span><small className="brand-notation">ATLAS · 66 LIVROS</small></div>}</div>; }
+function Mark({ compact = false }: { compact?: boolean }) { return <div className={`brand-lockup ${compact ? "brand-lockup--compact" : ""}`} aria-label="A Bíblia em visão geral">{brandMark ? <img src={brandMark} alt="" className="brand-mark" /> : <span className="brand-mark brand-mark--fallback">✶</span>}{!compact && <div><strong>A Bíblia</strong><span>em visão geral</span><small className="brand-notation">ATLAS · 66 LIVROS</small></div>}</div>; }
 function Eyebrow({ children, number }: { children: ReactNode; number?: string }) { return <div className="section-eyebrow"><span className="eyebrow-line" />{number && <span className="eyebrow-number">{number}</span>}<span>{children}</span></div>; }
 function Badge({ book }: { book: Book }) { return <span className={`book-badge ${book.testament === "Novo Testamento" ? "book-badge--new" : ""}`}>{testamentShort(book.testament)} · {book.short}</span>; }
 function Stat({ value, label, icon: Icon }: { value: string; label: string; icon: typeof BookOpen }) { return <div className="stat-card"><div className="stat-icon"><Icon size={16} /></div><strong>{value}</strong><span>{label}</span></div>; }
