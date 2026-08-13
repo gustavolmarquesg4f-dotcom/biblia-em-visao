@@ -189,6 +189,25 @@
 - [x] Validar cobertura: 65/65 dossiês com entidades, eventos, lugares, temas, profecias e continuidade.
 - [x] Validar a leitura visual de Gênesis e Êxodo após reinício, cache novo e build TypeScript.
 
+## Correção de profundidade — sem resumos superficiais
+
+- [x] Definir uma extensão mínima por seção: vários parágrafos analíticos, não uma frase ou lista de rótulos.
+- [x] Reescrever Gênesis como dossiê-modelo integral, cobrindo narrativa, personagens, eventos, lugares, temas, profecias, contexto e continuidade.
+- [x] Criar biografias narrativas de Adão, Eva, Caim, Noé, Abraão, Sara, Isaque, Rebeca, Jacó, Esaú, Raquel, Lia, José e demais entidades relevantes.
+- [x] Explicar cada arco de Gênesis com argumento, evidências textuais, contexto do antigo Oriente Próximo, debates de composição e recepção.
+- [x] Substituir perguntas genéricas por comentários exegéticos e históricos desenvolvidos.
+- [x] Aplicar o padrão integral aos outros 65 livros somente após validar Gênesis como referência de qualidade.
+- [x] Exigir bibliografia específica para cada afirmação histórica, arqueológica, linguística ou interpretativa relevante.
+- [x] Validar a entrega por conteúdo real lido, não por contagem de cartões, abas, entidades ou capítulos.
+
+## Escopo confirmado — os 66 livros
+
+- [x] Reescrever os 66 livros com vários parágrafos explicativos por seção, evitando uma frase como substituto de contexto.
+- [x] Criar o dossiê integral de Gênesis como padrão e aplicar o mesmo padrão aos outros 65 livros.
+- [x] Cobrir personagens, eventos, lugares, temas, profecias, composição, contexto histórico e continuidade em cada livro.
+- [x] Exigir fontes específicas por livro e marcar claramente o que é texto, reconstrução histórica, interpretação e hipótese.
+- [x] Publicar somente após revisar uma amostra de cada bloco do cânon e confirmar profundidade real na leitura.
+
 ## Expansão solicitada — mapas, 66 livros e bibliografia
 
 ### Camadas cartográficas interativas
