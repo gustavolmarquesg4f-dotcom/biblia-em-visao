@@ -7,6 +7,9 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import PublicationStatus from "./components/PublicationStatus";
 
+function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
+function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
+function HomeEntry(_props: unknown) { return <Home />; }
 
 function Router() {
   const basePath =
@@ -17,7 +20,11 @@ function Router() {
   return (
     <WouterRouter base={basePath}>
       <Switch>
-        <Route path={"/"} component={Home} />
+        <Route path={"/"} component={HomeEntry} />
+        <Route path={"/atlas"} component={AtlasEntry} />
+        <Route path={"/apocalipse"} component={ApocalypseEntry} />
+        <Route path={"/escatologia"} component={ApocalypseEntry} />
+        <Route path={"/apocalypse"} component={ApocalypseEntry} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />

@@ -364,3 +364,10 @@
 - [x] Expandir os comentários versículo a versículo nos lotes prioritários de Pentateuco, Evangelhos, Romanos e Apocalipse.
 - [x] Permitir exportação e importação local, versionada e validada, de notas, favoritos, progresso, histórico e coleções.
 - [x] Validar persistência, links contextuais, importação de backup, TypeScript, build e responsividade antes da nova publicação.
+
+## Atlas histórico e escatologia — elevação visual e pedagógica
+
+- [x] Criar pranchas históricas editoriais para origens, êxodo, impérios, rotas paulinas e Ásia de Apocalipse, com orientação visual e vetorial de contingência.
+- [x] Integrar mapas como camadas interativas, legendas, períodos, rotas, cidades e conexões com os verbetes dos dossiês.
+- [x] Criar uma superfície de entrada clara para o curso escatológico profundo, com trilhas, estações, escolas interpretativas, símbolos e textos-base.
+- [x] Validar fidelidade metodológica, contraste, responsividade e navegação entre atlas, dossiês e escatologia antes da publicação.
