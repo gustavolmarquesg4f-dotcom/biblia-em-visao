@@ -378,3 +378,9 @@
 - [x] Manter contexto de percurso, destino anterior e próximas conexões visíveis ao longo de toda a navegação.
 - [x] Criar transições e uma barra de orientação contínua entre biblioteca, pessoas, atlas, pesquisa, Apocalipse e bibliografia.
 - [x] Revisar a experiência em desktop e celular com foco em retorno, continuidade, foco de teclado e redução de movimento.
+
+## Correção de acesso público — GitHub Pages
+
+- [x] Diagnosticar a publicação, a fonte do GitHub Pages, o caminho base e os códigos HTTP da URL pública.
+- [x] Corrigir o artefato estático, a configuração de Pages ou o fallback de rotas que impeça a abertura do site.
+- [x] Validar a URL principal e um link interno no navegador público; a URL com versão também evita o cache da implantação anterior.
