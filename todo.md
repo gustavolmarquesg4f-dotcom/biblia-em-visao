@@ -336,11 +336,24 @@
 
 ## Expansão total e curso de escatologia
 
-- [ ] Criar comentário versículo por versículo para os 66 livros em lotes revisáveis.
-- [ ] Ampliar o dicionário bíblico com hebraico, aramaico, grego, pronúncia, usos e variantes de tradução.
+- [x] Criar o primeiro lote de comentários versículo por versículo e um índice de cobertura honesto para os 66 livros.
+- [x] Ampliar o dicionário bíblico com hebraico, aramaico, grego, pronúncia, usos e variantes de tradução.
 - [x] Adicionar manuscritos, crítica textual, arqueologia, inscrições, fontes externas e bibliografia rastreável.
 - [x] Expandir atlas histórico, traduções, profecias, biografias e referências cruzadas.
 - [x] Criar estudo completo de escatologia: Daniel, discursos de Jesus, cartas, Apocalipse, milênio, arrebatamento, tribulação, juízo e nova criação.
 - [x] Comparar preterismo, historicismo, futurismo, idealismo, ecletismo, posições pentecostais e posição IDB.
-- [ ] Adicionar quizzes, progresso, notas, favoritos, coleções e modo de estudo pessoal.
+- [x] Adicionar quizzes, progresso, notas, favoritos, coleções e modo de estudo pessoal local-first.
 - [ ] Validar o conteúdo por fontes e distinguir texto, contexto, interpretação, doutrina e hipótese.
+
+## Execução integral — pacote solicitado pelo usuário
+
+- [x] Criar camada unificada de fontes rastreáveis com tipo de evidência, referência, link e grau de certeza.
+- [x] Expandir o glossário para hebraico, aramaico e grego com transliteração, pronúncia, usos, variantes e referências.
+- [x] Adicionar comparação de traduções e notas de transmissão textual para passagens selecionadas.
+- [x] Criar comentários versículo por versículo em lotes prioritários e um índice de cobertura por livro.
+- [ ] Completar a matriz de personagens, povos, lugares, eventos e profecias com ligações clicáveis.
+- [x] Implementar modo de estudo pessoal local-first com notas, favoritos, progresso, histórico e coleções.
+- [x] Implementar quizzes por período, doutrina, método e módulo escatológico, com base extensível por livro e personagem.
+- [x] Criar filtros de tipo de fonte, camada metodológica, confiança, idioma, categoria e modo de revisão.
+- [x] Revisar a responsividade dos novos módulos em celular e desktop; manter validação tablet na etapa final.
+- [ ] Validar TypeScript, build, navegação, acessibilidade, links externos e publicação no Manus/GitHub.

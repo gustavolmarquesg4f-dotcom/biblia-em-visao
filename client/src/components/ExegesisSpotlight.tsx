@@ -3,6 +3,11 @@ import { ArrowRight, BookOpen, Map, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import AdvancedResearchHub from "@/components/AdvancedResearchHub";
+import StudyDesk from "@/components/StudyDesk";
+import StudyCoverageBoard from "@/components/StudyCoverageBoard";
+import SourceLedger from "@/components/SourceLedger";
+import "@/study-desk.css";
+import "@/atlas-plates.css";
 
 type ExegesisSpotlightProps = {
   go: (view: "library" | "search" | "atlas" | "apocalypse" | "bibliography") => void;
@@ -41,6 +46,9 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
       </div>
     </section>
     <AdvancedResearchHub go={view => go(view)} />
+    <StudyDesk openBook={openBook} />
+    <StudyCoverageBoard />
+    <SourceLedger />
     </>
   );
 }
