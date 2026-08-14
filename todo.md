@@ -305,27 +305,31 @@
 - [x] Fazer links geográficos abrirem o painel do lugar e oferecer ação explícita para focar o atlas.
 - [x] Validar todos os links, painéis, grafo, teclado, mobile, redução de movimento e entidades sem dados.
 
-## Distribuição monolítica e GitHub Pages
+## Experimento monolítico — fora do escopo
 
-- [ ] Definir a estratégia de empacotamento em um único `index.html`, incluindo CSS, JavaScript e dados inline.
-- [ ] Gerar o HTML monolítico com estudos exegéticos, biografias, grafo, mapa, busca e referências.
-- [ ] Garantir que o arquivo único não dependa de endpoints da Manus ou arquivos JSON externos.
-- [ ] Testar o HTML abrindo-o diretamente e também por um servidor estático local.
-- [ ] Criar documentação de publicação no GitHub Pages e verificar requisitos de visibilidade do repositório.
-- [ ] Publicar no GitHub somente após confirmar se o usuário aceita repositório público ou possui Pages habilitado para repositório privado.
+- [x] Arquivar o experimento de HTML único após a decisão de manter React/TypeScript como distribuição oficial.
+- [x] Registrar que o conteúdo principal permanece modular para preservar estudos, mapas, biografias e busca.
 
 ## Retomada React e publicação no GitHub
 
-- [ ] Manter a aplicação React/TypeScript como distribuição principal e arquivar o experimento monolítico.
-- [ ] Confirmar que estudos, biografias, grafo, mapas e busca continuam acessíveis dentro da aplicação atual.
-- [ ] Configurar base path e assets para funcionar em GitHub Pages.
-- [ ] Criar workflow de build e deploy estático no GitHub Actions.
-- [ ] Criar ou sincronizar repositório GitHub e fazer o primeiro push.
-- [ ] Publicar via GitHub Pages e validar o domínio e os recursos carregados.
+- [x] Manter a aplicação React/TypeScript como distribuição principal e arquivar o experimento monolítico.
+- [x] Confirmar que estudos, biografias, grafo, mapas e busca continuam acessíveis dentro da aplicação atual.
+- [x] Configurar base path e assets para funcionar em GitHub Pages.
+- [ ] Criar workflow de build e deploy estático no GitHub Actions; a publicação atual usa a branch gh-pages por limitação de permissão do token.
+- [x] Criar ou sincronizar repositório GitHub e fazer o primeiro push.
+- [x] Publicar via GitHub Pages e validar o domínio e os recursos carregados.
 
 ## Correção do GitHub Pages
 
-- [ ] Diagnosticar por que a raiz publicada responde 404 apesar de a branch gh-pages existir.
-- [ ] Corrigir o artefato para conter index.html na raiz efetivamente servida pelo Pages.
-- [ ] Republicar a branch gh-pages com o build corrigido.
-- [ ] Validar home, assets, catálogos e recursos principais no endereço público.
+- [x] Diagnosticar por que a raiz publicada responde 404 apesar de a branch gh-pages existir.
+- [x] Corrigir o artefato para conter index.html na raiz efetivamente servida pelo Pages.
+- [x] Republicar a branch gh-pages com o build corrigido.
+- [x] Validar home, assets, catálogos e recursos principais no endereço público.
+
+## Home exegética e responsividade mobile
+
+- [x] Adicionar uma seção principal de estudos exegéticos na home com acesso aos 66 livros e capítulos.
+- [x] Destacar personagens, profetas, lugares e referências cruzadas como pontos de entrada.
+- [x] Revisar a home em mobile para eliminar cortes, textos comprimidos e controles pequenos.
+- [x] Melhorar leitor de dossiês, busca, grafo, atlas e barra inferior para toque e leitura vertical.
+- [x] Validar 375px, 390px, 768px e desktop antes de publicar a melhoria.

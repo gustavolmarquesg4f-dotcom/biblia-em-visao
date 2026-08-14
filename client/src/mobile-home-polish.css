@@ -1,0 +1,101 @@
+/* Cartografia de Leituras: responsividade editorial. A composição deve caber na mão sem perder coordenadas, contraste ou ritmo de leitura. */
+.exegesis-spotlight {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(360px, .95fr);
+  gap: 3.5rem;
+  padding: 6.5rem clamp(1.25rem, 5vw, 5.5rem);
+  background: var(--ink, #102735);
+  color: #f7f1e4;
+  position: relative;
+  overflow: hidden;
+}
+
+.exegesis-spotlight::before {
+  content: "EXÉGESE / 66";
+  position: absolute;
+  top: 1.5rem;
+  right: 4vw;
+  color: rgba(248, 241, 226, .42);
+  font-size: .66rem;
+  letter-spacing: .2em;
+}
+
+.exegesis-spotlight-copy { max-width: 650px; position: relative; z-index: 1; }
+.exegesis-spotlight .section-eyebrow { color: #d9b889; }
+.exegesis-spotlight h2 { margin: 1.15rem 0 1.2rem; font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.7rem, 5vw, 5.4rem); line-height: .94; letter-spacing: -.04em; }
+.exegesis-spotlight h2 em { color: #d7b483; font-style: normal; }
+.exegesis-spotlight-copy > p { max-width: 560px; color: rgba(247, 241, 228, .74); font-size: 1.05rem; line-height: 1.75; }
+.exegesis-spotlight-stats { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; margin: 2rem 0; color: rgba(247, 241, 228, .62); font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; }
+.exegesis-spotlight-stats span { display: inline-flex; align-items: baseline; gap: .35rem; }
+.exegesis-spotlight-stats strong { color: #f7f1e4; font-family: "DM Serif Display", Georgia, serif; font-size: 1.55rem; letter-spacing: 0; }
+.exegesis-spotlight-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.4rem; }
+.exegesis-spotlight .primary-action { display: inline-flex; align-items: center; gap: .55rem; }
+.exegesis-spotlight .text-action { color: #f7f1e4; }
+.exegesis-spotlight-rail { border-top: 1px solid rgba(247, 241, 228, .22); }
+.exegesis-rail-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0 .7rem; color: rgba(247, 241, 228, .6); font-size: .68rem; letter-spacing: .13em; text-transform: uppercase; }
+.exegesis-rail-heading button { display: inline-flex; align-items: center; gap: .35rem; color: #d7b483; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
+.exegesis-entry { width: 100%; display: grid; grid-template-columns: 2rem minmax(0, 1fr) 1rem; align-items: start; gap: .75rem; padding: 1.2rem 0; border: 0; border-top: 1px solid rgba(247, 241, 228, .14); color: #f7f1e4; text-align: left; transition: transform 180ms ease, border-color 180ms ease; }
+.exegesis-entry:hover, .exegesis-entry:focus-visible { transform: translateX(.35rem); border-color: #d7b483; }
+.exegesis-entry-index { padding-top: .15rem; color: #d7b483; font-family: "DM Serif Display", Georgia, serif; font-size: 1.25rem; }
+.exegesis-entry-content { min-width: 0; }
+.exegesis-entry-content strong { display: block; font-family: "DM Serif Display", Georgia, serif; font-size: 1.4rem; font-weight: 400; }
+.exegesis-entry-content small { display: block; margin-top: .25rem; color: rgba(247, 241, 228, .52); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
+.exegesis-entry-content p { margin: .55rem 0 0; color: rgba(247, 241, 228, .68); font-size: .84rem; line-height: 1.55; }
+
+@media (max-width: 1050px) {
+  .exegesis-spotlight { grid-template-columns: 1fr; gap: 2.5rem; }
+  .exegesis-spotlight-copy { max-width: 760px; }
+  .exegesis-spotlight-rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.5rem; }
+  .exegesis-rail-heading { grid-column: 1 / -1; }
+}
+
+@media (max-width: 700px) {
+  .exegesis-spotlight { padding: 4.5rem 1.1rem 5.5rem; }
+  .exegesis-spotlight::before { right: 1.1rem; }
+  .exegesis-spotlight h2 { font-size: clamp(2.7rem, 13vw, 4.2rem); }
+  .exegesis-spotlight-copy > p { font-size: .96rem; }
+  .exegesis-spotlight-actions { align-items: stretch; flex-direction: column; }
+  .exegesis-spotlight-actions .primary-action, .exegesis-spotlight-actions .text-action { justify-content: center; min-height: 2.9rem; }
+  .exegesis-spotlight-stats { gap: .75rem 1rem; }
+  .exegesis-spotlight-stats strong { font-size: 1.3rem; }
+  .exegesis-spotlight-rail { display: block; }
+  .exegesis-rail-heading { align-items: flex-start; flex-direction: column; gap: .6rem; }
+  .exegesis-entry { grid-template-columns: 1.75rem minmax(0, 1fr) 1rem; padding: 1.1rem 0; }
+}
+
+@media (max-width: 600px) {
+  .main-content { min-width: 0; overflow-x: clip; }
+  .topbar { min-height: 3.8rem; padding-inline: 1rem; }
+  .topbar-context { min-width: 0; }
+  .topbar-context strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .canon-note { display: none; }
+  .hero-section { min-height: 620px; background-position: 68% center; }
+  .hero-content { padding: 7rem 1.25rem 5rem; }
+  .hero-content h1 { font-size: clamp(3.1rem, 15vw, 5rem); line-height: .9; }
+  .hero-lede { max-width: 31rem; font-size: .95rem; }
+  .hero-actions { align-items: stretch; flex-direction: column; max-width: 18rem; }
+  .hero-actions .primary-action, .hero-actions .text-action { justify-content: center; min-height: 2.8rem; }
+  .intro-band, .route-section, .library-preview, .quote-section { padding-inline: 1.1rem; }
+  .intro-band { grid-template-columns: 1fr; gap: 2.2rem; padding-block: 4.5rem; }
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .route-section, .library-preview { padding-block: 4.5rem; }
+  .section-heading-row, .page-title-row { align-items: flex-start; flex-direction: column; gap: 1rem; }
+  .route-layout { grid-template-columns: 1fr; gap: 2rem; }
+  .route-map { min-height: 260px; }
+  .book-grid--preview, .book-grid { grid-template-columns: 1fr; }
+  .quote-section { padding-block: 4rem; }
+  .quote-section blockquote { font-size: clamp(1.8rem, 8vw, 3rem); }
+  .page-section { padding-inline: 1rem; }
+  .page-intro { padding-block: 3.5rem 2.5rem; }
+  .complete-book-tabs, .relational-tabs, .deep-dossier-tabs { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+  .complete-book-tabs::-webkit-scrollbar, .relational-tabs::-webkit-scrollbar, .deep-dossier-tabs::-webkit-scrollbar { display: none; }
+  .complete-book-layout, .detail-layout, .relational-layout, .deep-dossier-layout { display: block; }
+  .complete-book-sidebar, .detail-aside, .complete-book-right-rail { margin-top: 1.5rem; }
+  .deep-entity-columns, .identity-grid, .authority-grid { grid-template-columns: 1fr; }
+  textarea, input, select { max-width: 100%; }
+  .mobile-bottom-nav { padding-bottom: max(.55rem, env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exegesis-entry { transition: none; }
+}
