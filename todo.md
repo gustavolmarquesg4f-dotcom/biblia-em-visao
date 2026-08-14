@@ -371,3 +371,10 @@
 - [x] Integrar mapas como camadas interativas, legendas, períodos, rotas, cidades e conexões com os verbetes dos dossiês.
 - [x] Criar uma superfície de entrada clara para o curso escatológico profundo, com trilhas, estações, escolas interpretativas, símbolos e textos-base.
 - [x] Validar fidelidade metodológica, contraste, responsividade e navegação entre atlas, dossiês e escatologia antes da publicação.
+
+## Jornada conectada — revisão de UX e navegação
+
+- [x] Reorganizar o menu lateral como trilhas de exploração, reduzindo a sensação de lista extensa e módulos isolados.
+- [x] Manter contexto de percurso, destino anterior e próximas conexões visíveis ao longo de toda a navegação.
+- [x] Criar transições e uma barra de orientação contínua entre biblioteca, pessoas, atlas, pesquisa, Apocalipse e bibliografia.
+- [x] Revisar a experiência em desktop e celular com foco em retorno, continuidade, foco de teclado e redução de movimento.
