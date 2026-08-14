@@ -1,13 +1,14 @@
 // Cartografia de Leituras: mesa de estudo assimétrica, local-first e metodologicamente explícita.
 
-import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, ExternalLink, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, X } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, Download, ExternalLink, FileJson, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, Upload, X } from "lucide-react";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { advancedGlossary, glossaryLanguages, type AdvancedGlossaryEntry, type GlossaryLanguage } from "@/lib/advanced-glossary-data";
 import { translationComparisons } from "@/lib/translation-comparison-data";
 import { bookCoverage, verseCommentaries, type VerseCommentary } from "@/lib/verse-commentary-data";
 import { quizSets, type QuizSet } from "@/lib/quiz-data";
-import { emptyStudyState, readStudyState, upsertNote, writeStudyState, type StudyState } from "@/lib/study-store";
+import { createStudyBackup, mergeStudyStates, parseStudyBackup, readStudyState, upsertNote, writeStudyState, type StudyState } from "@/lib/study-store";
+import "@/study-backup.css";
 
 type DeskTab = "mesa" | "glossario" | "traducoes" | "comentarios" | "quizzes";
 
@@ -27,6 +28,7 @@ export default function StudyDesk({ openBook }: StudyDeskProps) {
   const [tab, setTab] = useState<DeskTab>("mesa");
   const [state, setState] = useState<StudyState>(() => readStudyState());
   const [toast, setToast] = useState("");
+  const importInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => writeStudyState(state), [state]);
   useEffect(() => { if (!toast) return; const timer = window.setTimeout(() => setToast(""), 2400); return () => window.clearTimeout(timer); }, [toast]);
@@ -35,6 +37,8 @@ export default function StudyDesk({ openBook }: StudyDeskProps) {
   const toggleFavorite = (targetId: string) => update({ ...state, favorites: state.favorites.includes(targetId) ? state.favorites.filter(id => id !== targetId) : [...state.favorites, targetId] });
   const toggleCompleted = (targetId: string) => update({ ...state, completed: state.completed.includes(targetId) ? state.completed.filter(id => id !== targetId) : [...state.completed, targetId] });
   const saveDeskNote = (body: string) => { update(upsertNote(state, "mesa-de-estudo", "Minha mesa de estudo", body)); setToast("Nota guardada neste dispositivo."); };
+  const exportBackup = () => { const backup = createStudyBackup(state); const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" }); const url = URL.createObjectURL(blob); const anchor = document.createElement("a"); anchor.href = url; anchor.download = `biblia-em-visao-estudo-${backup.exportedAt.slice(0, 10)}.json`; anchor.click(); window.setTimeout(() => URL.revokeObjectURL(url), 0); setToast("Backup baixado. Guarde o arquivo em local seguro."); };
+  const importBackup = async (file: File | undefined) => { if (!file) return; if (file.size > 2_000_000) { setToast("O arquivo é grande demais para um backup local desta mesa."); return; } const parsed = parseStudyBackup(await file.text()); if (!parsed.ok) { setToast(parsed.message); return; } update(mergeStudyStates(state, parsed.backup.state)); setToast(`Backup de ${new Date(parsed.backup.exportedAt).toLocaleDateString("pt-BR")} mesclado sem apagar seus dados atuais.`); };
   const activeNote = state.notes.find(note => note.targetId === "mesa-de-estudo")?.body || "";
 
   return <section className="study-desk page-section" aria-labelledby="study-desk-title">
@@ -49,7 +53,7 @@ export default function StudyDesk({ openBook }: StudyDeskProps) {
     <div className="study-desk-metrics" aria-label="Resumo do estudo"><Metric icon={Bookmark} value={state.favorites.length} label="salvos" /><Metric icon={NotebookPen} value={state.notes.length} label="notas" /><Metric icon={Target} value={state.completed.length} label="marcos" /><Metric icon={Trophy} value={Object.keys(state.quizBest).length} label="quizzes" /></div>
     <nav className="study-desk-tabs" aria-label="Ferramentas da mesa" role="tablist">{tabLabels.map(({ id, label, icon: Icon }) => <button key={id} className={tab === id ? "is-active" : ""} onClick={() => setTab(id)} role="tab" aria-selected={tab === id}><Icon size={15} />{label}</button>)}</nav>
     <div className="study-desk-body">
-      {tab === "mesa" && <DeskHome state={state} activeNote={activeNote} saveDeskNote={saveDeskNote} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} update={update} setTab={setTab} />}
+      {tab === "mesa" && <DeskHome state={state} activeNote={activeNote} saveDeskNote={saveDeskNote} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} update={update} setTab={setTab} exportBackup={exportBackup} importBackup={importBackup} importInputRef={importInputRef} />}
       {tab === "glossario" && <GlossaryDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} />}
       {tab === "traducoes" && <TranslationsDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} />}
       {tab === "comentarios" && <CommentaryDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} openBook={openBook} />}
@@ -61,7 +65,7 @@ export default function StudyDesk({ openBook }: StudyDeskProps) {
 
 function Metric({ icon: Icon, value, label }: { icon: typeof Bookmark; value: number; label: string }) { return <div className="study-desk-metric"><Icon size={16} /><strong>{value}</strong><span>{label}</span></div>; }
 
-function DeskHome({ state, activeNote, saveDeskNote, toggleFavorite, toggleCompleted, update, setTab }: { state: StudyState; activeNote: string; saveDeskNote: (body: string) => void; toggleFavorite: (id: string) => void; toggleCompleted: (id: string) => void; update: (state: StudyState) => void; setTab: (tab: DeskTab) => void }) {
+function DeskHome({ state, activeNote, saveDeskNote, toggleFavorite, toggleCompleted, update, setTab, exportBackup, importBackup, importInputRef }: { state: StudyState; activeNote: string; saveDeskNote: (body: string) => void; toggleFavorite: (id: string) => void; toggleCompleted: (id: string) => void; update: (state: StudyState) => void; setTab: (tab: DeskTab) => void; exportBackup: () => void; importBackup: (file: File | undefined) => void; importInputRef: React.RefObject<HTMLInputElement | null> }) {
   const [note, setNote] = useState(activeNote);
   const [newCollection, setNewCollection] = useState("");
   const [selectedCollection, setSelectedCollection] = useState(state.collections[0]?.id || "pesquisa-aberta");
@@ -77,6 +81,7 @@ function DeskHome({ state, activeNote, saveDeskNote, toggleFavorite, toggleCompl
     <div className="study-desk-section-heading"><div><span>Portas de entrada</span><h3>Quatro perguntas para continuar</h3></div><span>{state.favorites.length} salvos na mesa</span></div>
     <div className="study-desk-feature-grid">{featured.map((item, index) => <article key={item.id} className="study-desk-feature"><div><span>{String(index + 1).padStart(2, "0")}</span><button onClick={() => toggleFavorite(item.id)} aria-label={state.favorites.includes(item.id) ? `Remover ${item.label} dos favoritos` : `Salvar ${item.label}`}>{state.favorites.includes(item.id) ? <BookmarkCheck size={15} /> : <Bookmark size={15} />}</button></div><h4>{item.label}</h4><p>{item.meta}</p><button className="study-desk-link" onClick={item.action}>Abrir superfície <ArrowRight size={14} /></button></article>)}</div>
     <div className="study-desk-collection-row"><div><span>Organização</span><strong>Acervos pessoais</strong><small>Crie uma coleção de perguntas, comentários ou termos.</small></div><select value={selectedCollection} onChange={event => setSelectedCollection(event.target.value)} aria-label="Selecionar coleção">{state.collections.map(collection => <option key={collection.id} value={collection.id}>{collection.name} · {collection.itemIds.length}</option>)}</select><label><input value={newCollection} onChange={event => setNewCollection(event.target.value)} placeholder="Nova coleção" aria-label="Nome da nova coleção" /><button onClick={addCollection} aria-label="Criar coleção"><Plus size={15} /></button></label><button className="study-desk-collection-add" onClick={() => addToCollection("mesa-metodo")}><FolderPlus size={15} /> Adicionar porta atual</button></div>
+    <div className="study-backup-panel"><div><span><FileJson size={14} /> Backup portátil</span><h3>Leve sua mesa com você.</h3><p>O arquivo inclui notas, favoritos, progresso, histórico de quizzes e coleções. A importação valida a versão e <strong>mescla</strong> os dados, sem substituir silenciosamente o que já existe neste navegador.</p></div><div className="study-backup-actions"><button className="study-desk-primary" onClick={exportBackup}><Download size={15} /> Exportar backup</button><button className="study-backup-import" onClick={() => importInputRef.current?.click()}><Upload size={15} /> Importar e mesclar</button><input ref={importInputRef} type="file" accept="application/json,.json" onChange={event => { void importBackup(event.target.files?.[0]); event.currentTarget.value = ""; }} aria-label="Selecionar backup da mesa de estudo" /></div></div>
     <div className="study-desk-home-foot"><button onClick={() => toggleCompleted("mesa-primeira-leitura")} className={state.completed.includes("mesa-primeira-leitura") ? "is-done" : ""}>{state.completed.includes("mesa-primeira-leitura") ? <Check size={15} /> : <CircleHelp size={15} />} Marcar orientação como lida</button><span>Dados guardados somente neste navegador.</span></div>
   </div>;
 }

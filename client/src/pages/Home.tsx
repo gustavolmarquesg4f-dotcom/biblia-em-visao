@@ -34,6 +34,7 @@ import { staticAsset } from "@/lib/static-asset";
 import "@/relational-book.css";
 import "@/mobile-home-polish.css";
 import "@/advanced-research.css";
+import "@/atlas-system-reinforcement.css";
 
 type View = "overview" | "library" | "study" | "theology" | "people" | "canon" | "glossary" | "search" | "timeline" | "atlas" | "themes" | "apocalypse" | "bibliography";
 const heroImage = staticAsset("assets/biblia-hero.jpg");

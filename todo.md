@@ -357,3 +357,10 @@
 - [x] Criar filtros de tipo de fonte, camada metodológica, confiança, idioma, categoria e modo de revisão.
 - [x] Revisar a responsividade dos novos módulos em celular e desktop; manter validação tablet na etapa final.
 - [x] Validar TypeScript, build, navegação visual, responsividade, links externos e publicação no Manus/GitHub.
+
+## Incrementos solicitados após a publicação
+
+- [x] Completar a matriz navegável de personagens, povos, lugares, eventos e profecias nas superfícies relacionais e no leitor longo.
+- [x] Expandir os comentários versículo a versículo nos lotes prioritários de Pentateuco, Evangelhos, Romanos e Apocalipse.
+- [x] Permitir exportação e importação local, versionada e validada, de notas, favoritos, progresso, histórico e coleções.
+- [x] Validar persistência, links contextuais, importação de backup, TypeScript, build e responsividade antes da nova publicação.
