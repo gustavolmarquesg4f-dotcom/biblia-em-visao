@@ -14,12 +14,23 @@ export type StudyCollection = {
   itemIds: string[];
 };
 
+export type StudyRoute = {
+  id: string;
+  title: string;
+  goal: string;
+  pathId: string;
+  stepIds: string[];
+  createdAt: string;
+  updatedAt: string;
+};
+
 export type StudyState = {
   notes: StudyNote[];
   favorites: string[];
   completed: string[];
   quizBest: Record<string, number>;
   collections: StudyCollection[];
+  routes: StudyRoute[];
 };
 
 export const STUDY_STORAGE_KEY = "biblia-em-visao-study-v1";
@@ -33,18 +44,19 @@ export type StudyBackup = {
   state: StudyState;
 };
 
-export const emptyStudyState = (): StudyState => ({ notes: [], favorites: [], completed: [], quizBest: {}, collections: [{ id: "pesquisa-aberta", name: "Pesquisa aberta", itemIds: [] }] });
+export const emptyStudyState = (): StudyState => ({ notes: [], favorites: [], completed: [], quizBest: {}, collections: [{ id: "pesquisa-aberta", name: "Pesquisa aberta", itemIds: [] }], routes: [] });
 
 function isRecord(value: unknown): value is Record<string, unknown> { return typeof value === "object" && value !== null && !Array.isArray(value); }
 function stringList(value: unknown) { return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : []; }
 function validNotes(value: unknown): StudyNote[] { return Array.isArray(value) ? value.filter((note): note is StudyNote => isRecord(note) && typeof note.id === "string" && typeof note.targetId === "string" && typeof note.targetLabel === "string" && typeof note.body === "string" && typeof note.updatedAt === "string") : []; }
 function validCollections(value: unknown): StudyCollection[] { return Array.isArray(value) ? value.filter((collection): collection is StudyCollection => isRecord(collection) && typeof collection.id === "string" && typeof collection.name === "string" && Array.isArray(collection.itemIds)).map(collection => ({ ...collection, itemIds: stringList(collection.itemIds) })) : []; }
+function validRoutes(value: unknown): StudyRoute[] { return Array.isArray(value) ? value.filter((route): route is StudyRoute => isRecord(route) && typeof route.id === "string" && typeof route.title === "string" && typeof route.goal === "string" && typeof route.pathId === "string" && Array.isArray(route.stepIds) && typeof route.createdAt === "string" && typeof route.updatedAt === "string").map(route => ({ ...route, stepIds: stringList(route.stepIds) })) : []; }
 function validQuizBest(value: unknown): Record<string, number> { if (!isRecord(value)) return {}; return Object.entries(value).reduce<Record<string, number>>((acc, [key, score]) => { if (typeof score === "number" && Number.isFinite(score) && score >= 0) acc[key] = score; return acc; }, {}); }
 
 export function normalizeStudyState(value: unknown): StudyState {
   if (!isRecord(value)) return emptyStudyState();
   const collections = validCollections(value.collections);
-  return { notes: validNotes(value.notes), favorites: stringList(value.favorites), completed: stringList(value.completed), quizBest: validQuizBest(value.quizBest), collections: collections.length ? collections : emptyStudyState().collections };
+  return { notes: validNotes(value.notes), favorites: stringList(value.favorites), completed: stringList(value.completed), quizBest: validQuizBest(value.quizBest), collections: collections.length ? collections : emptyStudyState().collections, routes: validRoutes(value.routes) };
 }
 
 export function readStudyState(): StudyState {
@@ -86,5 +98,7 @@ export function mergeStudyStates(current: StudyState, incoming: StudyState): Stu
   for (const collection of [...current.collections, ...incoming.collections]) { const existing = collections.get(collection.id); collections.set(collection.id, existing ? { ...existing, name: collection.name || existing.name, itemIds: Array.from(new Set([...existing.itemIds, ...collection.itemIds])) } : collection); }
   const quizBest = { ...current.quizBest };
   for (const [quizId, score] of Object.entries(incoming.quizBest)) quizBest[quizId] = Math.max(quizBest[quizId] || 0, score);
-  return normalizeStudyState({ notes: Array.from(notes.values()).sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)), favorites: Array.from(new Set([...current.favorites, ...incoming.favorites])), completed: Array.from(new Set([...current.completed, ...incoming.completed])), quizBest, collections: Array.from(collections.values()) });
+  const routes = new Map<string, StudyRoute>();
+  for (const route of [...current.routes, ...incoming.routes]) { const existing = routes.get(route.id); if (!existing || Date.parse(route.updatedAt) >= Date.parse(existing.updatedAt)) routes.set(route.id, route); }
+  return normalizeStudyState({ notes: Array.from(notes.values()).sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)), favorites: Array.from(new Set([...current.favorites, ...incoming.favorites])), completed: Array.from(new Set([...current.completed, ...incoming.completed])), quizBest, collections: Array.from(collections.values()), routes: Array.from(routes.values()) });
 }

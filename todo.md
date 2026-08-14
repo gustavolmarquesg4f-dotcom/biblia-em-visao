@@ -384,3 +384,11 @@
 - [x] Diagnosticar a publicação, a fonte do GitHub Pages, o caminho base e os códigos HTTP da URL pública.
 - [x] Corrigir o artefato estático, a configuração de Pages ou o fallback de rotas que impeça a abertura do site.
 - [x] Validar a URL principal e um link interno no navegador público; a URL com versão também evita o cache da implantação anterior.
+
+## Centro de estudos — descoberta, temas e roteiros pessoais
+
+- [x] Transformar o índice enciclopédico em uma porta clara para percursos de estudo e objetivos de aprendizagem.
+- [x] Dar destaque visível ao estudo escatológico completo, com acesso direto às 12 estações, escolas e cidades.
+- [x] Adicionar estudos temáticos aprofundados, incluindo finanças, trabalho, generosidade, justiça, família, liderança e missão.
+- [x] Permitir criar, salvar e retomar roteiros pessoais de estudo ligados a livros, pessoas, lugares, temas, mapas e fontes.
+- [x] Validar a descoberta em desktop e celular e preparar a publicação do novo centro de estudos.
