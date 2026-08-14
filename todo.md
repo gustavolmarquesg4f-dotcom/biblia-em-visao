@@ -356,4 +356,4 @@
 - [x] Implementar quizzes por período, doutrina, método e módulo escatológico, com base extensível por livro e personagem.
 - [x] Criar filtros de tipo de fonte, camada metodológica, confiança, idioma, categoria e modo de revisão.
 - [x] Revisar a responsividade dos novos módulos em celular e desktop; manter validação tablet na etapa final.
-- [ ] Validar TypeScript, build, navegação, acessibilidade, links externos e publicação no Manus/GitHub.
+- [x] Validar TypeScript, build, navegação visual, responsividade, links externos e publicação no Manus/GitHub.
