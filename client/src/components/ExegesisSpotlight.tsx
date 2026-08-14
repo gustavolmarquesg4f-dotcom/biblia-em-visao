@@ -2,9 +2,10 @@
 import { ArrowRight, BookOpen, Map, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { bibleBooks, type Book } from "@/lib/bible-data";
+import AdvancedResearchHub from "@/components/AdvancedResearchHub";
 
 type ExegesisSpotlightProps = {
-  go: (view: "library" | "search" | "atlas") => void;
+  go: (view: "library" | "search" | "atlas" | "apocalypse" | "bibliography") => void;
   openBook: (book: Book) => void;
 };
 
@@ -12,6 +13,7 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
   const featured = [bibleBooks[0], bibleBooks[1], bibleBooks[39], bibleBooks[43]];
 
   return (
+    <>
     <section className="exegesis-spotlight" aria-labelledby="exegesis-spotlight-title">
       <div className="exegesis-spotlight-copy">
         <div className="section-eyebrow"><span className="eyebrow-line" /><span className="eyebrow-number">05</span><span>Estudos exegéticos</span></div>
@@ -38,5 +40,7 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
         ))}
       </div>
     </section>
+    <AdvancedResearchHub go={view => go(view)} />
+    </>
   );
 }

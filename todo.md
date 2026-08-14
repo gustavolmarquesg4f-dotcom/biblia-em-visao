@@ -333,3 +333,14 @@
 - [x] Revisar a home em mobile para eliminar cortes, textos comprimidos e controles pequenos.
 - [x] Melhorar leitor de dossiês, busca, grafo, atlas e barra inferior para toque e leitura vertical.
 - [x] Validar 375px, 390px, 768px e desktop antes de publicar a melhoria.
+
+## Expansão total e curso de escatologia
+
+- [ ] Criar comentário versículo por versículo para os 66 livros em lotes revisáveis.
+- [ ] Ampliar o dicionário bíblico com hebraico, aramaico, grego, pronúncia, usos e variantes de tradução.
+- [x] Adicionar manuscritos, crítica textual, arqueologia, inscrições, fontes externas e bibliografia rastreável.
+- [x] Expandir atlas histórico, traduções, profecias, biografias e referências cruzadas.
+- [x] Criar estudo completo de escatologia: Daniel, discursos de Jesus, cartas, Apocalipse, milênio, arrebatamento, tribulação, juízo e nova criação.
+- [x] Comparar preterismo, historicismo, futurismo, idealismo, ecletismo, posições pentecostais e posição IDB.
+- [ ] Adicionar quizzes, progresso, notas, favoritos, coleções e modo de estudo pessoal.
+- [ ] Validar o conteúdo por fontes e distinguir texto, contexto, interpretação, doutrina e hipótese.

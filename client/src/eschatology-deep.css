@@ -1,0 +1,41 @@
+/* Cartografia de Leituras — curso de escatologia: leitura densa, contraste alto, índice lateral e camadas de evidência. */
+.eschatology-course-panel { background: #f3eee4; }
+.eschatology-course-layout { display: grid; grid-template-columns: minmax(240px, .72fr) minmax(0, 1.5fr); gap: 1.25rem; }
+.eschatology-lesson-list { display: grid; gap: .45rem; align-content: start; }
+.eschatology-lesson-list button { display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: .65rem; align-items: center; text-align: left; padding: .82rem .9rem; border: 1px solid rgba(21, 43, 56, .14); background: rgba(255,255,255,.52); color: #152b38; transition: transform .18s ease, background .18s ease, border-color .18s ease; }
+.eschatology-lesson-list button:hover, .eschatology-lesson-list button.is-active { transform: translateX(3px); background: #152b38; color: #f3eee4; border-color: #152b38; }
+.eschatology-lesson-list button > span { font: 700 .7rem/1 Manrope, sans-serif; color: #a96452; }
+.eschatology-lesson-list button.is-active > span { color: #d9b27c; }
+.eschatology-lesson-list small { display: block; font: 700 .58rem/1.2 Manrope, sans-serif; letter-spacing: .09em; text-transform: uppercase; opacity: .64; margin-bottom: .22rem; }
+.eschatology-lesson-list strong { display: block; font: 600 .88rem/1.2 Manrope, sans-serif; }
+.eschatology-lesson-detail { min-width: 0; padding: clamp(1.25rem, 3vw, 2.7rem); background: #fffdf8; border: 1px solid rgba(21, 43, 56, .12); box-shadow: 0 16px 40px rgba(21,43,56,.08); }
+.eschatology-lesson-kicker { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; color: #a96452; font: 700 .64rem/1 Manrope, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.eschatology-lesson-detail h3 { margin: 0; color: #152b38; font: 500 clamp(1.85rem, 4vw, 3.5rem)/.96 "DM Serif Display", Georgia, serif; }
+.eschatology-thesis { max-width: 56rem; margin: 1.35rem 0 1.55rem; color: #56626a; font: 600 1.03rem/1.55 Manrope, sans-serif; }
+.eschatology-body { display: grid; gap: 1rem; max-width: 62rem; color: #263b45; font: 400 .98rem/1.82 Manrope, sans-serif; }
+.eschatology-body p { margin: 0; }
+.eschatology-detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin-top: 1.8rem; }
+.eschatology-detail-grid > div { padding: 1rem; border-left: 3px solid #a96452; background: #f3eee4; }
+.eschatology-detail-grid span, .eschatology-pentecostal span { display: block; margin-bottom: .42rem; color: #a96452; font: 700 .62rem/1.1 Manrope, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.eschatology-detail-grid strong { color: #152b38; font: 700 .82rem/1.45 Manrope, sans-serif; }
+.eschatology-detail-grid p { margin: 0; color: #56626a; font: 400 .82rem/1.55 Manrope, sans-serif; }
+.eschatology-pentecostal { display: grid; grid-template-columns: auto minmax(0,1fr); gap: .8rem; margin-top: .9rem; padding: 1rem; color: #f3eee4; background: #7c3f42; }
+.eschatology-pentecostal svg { margin-top: .1rem; }
+.eschatology-pentecostal p { margin: 0; font: 400 .83rem/1.55 Manrope, sans-serif; color: rgba(243,238,228,.88); }
+.eschatology-course-nav { display: flex; justify-content: space-between; gap: .75rem; margin-top: 1.8rem; padding-top: 1rem; border-top: 1px solid rgba(21,43,56,.12); }
+.eschatology-course-nav button { min-height: 2.7rem; padding: .6rem .82rem; border: 1px solid rgba(21,43,56,.2); color: #152b38; background: transparent; font: 700 .72rem/1 Manrope, sans-serif; }
+.eschatology-course-nav button:last-child { color: #f3eee4; background: #152b38; border-color: #152b38; }
+.eschatology-course-nav button:disabled { opacity: .42; cursor: not-allowed; }
+@media (max-width: 800px) {
+  .eschatology-course-layout { grid-template-columns: 1fr; }
+  .eschatology-lesson-list { display: flex; overflow-x: auto; padding-bottom: .3rem; scroll-snap-type: x proximity; }
+  .eschatology-lesson-list button { min-width: 13.6rem; scroll-snap-align: start; }
+  .eschatology-lesson-list button:hover, .eschatology-lesson-list button.is-active { transform: none; }
+}
+@media (max-width: 520px) {
+  .eschatology-detail-grid { grid-template-columns: 1fr; }
+  .eschatology-lesson-detail { padding: 1.1rem; }
+  .eschatology-body { font-size: .9rem; line-height: 1.72; }
+  .eschatology-course-nav { flex-direction: column; }
+  .eschatology-course-nav button { width: 100%; }
+}

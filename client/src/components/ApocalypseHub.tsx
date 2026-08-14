@@ -2,8 +2,10 @@
 import { useState } from "react";
 import { ArrowRight, BookOpen, ChevronRight, ExternalLink, Eye, FileText, Map, ShieldCheck, Sparkles, Timer, Users } from "lucide-react";
 import { apocalypseChapters, apocalypseSources, apocalypseUnits, interpretationSchools, millennialViews, revelationChurches } from "@/lib/apocalypse-data";
+import { eschatologyLessons } from "@/lib/eschatology-deep-data";
+import "@/eschatology-deep.css";
 
-type ApocalypseTab = "comentario" | "capitulos" | "igrejas" | "escolas" | "consumacao" | "fontes";
+type ApocalypseTab = "curso" | "comentario" | "capitulos" | "igrejas" | "escolas" | "consumacao" | "fontes";
 
 export default function ApocalypseHub() {
   const [tab, setTab] = useState<ApocalypseTab>("comentario");
@@ -11,11 +13,14 @@ export default function ApocalypseHub() {
   const [chapterIndex, setChapterIndex] = useState(0);
   const [churchIndex, setChurchIndex] = useState(0);
   const [schoolIndex, setSchoolIndex] = useState(0);
+  const [lessonIndex, setLessonIndex] = useState(0);
   const unit = apocalypseUnits[unitIndex];
   const chapter = apocalypseChapters[chapterIndex];
   const church = revelationChurches[churchIndex];
   const school = interpretationSchools[schoolIndex];
+  const lesson = eschatologyLessons[lessonIndex];
   const tabs: { id: ApocalypseTab; label: string; icon: typeof BookOpen }[] = [
+    { id: "curso", label: "Curso completo", icon: Sparkles },
     { id: "comentario", label: "Comentário por blocos", icon: BookOpen },
     { id: "capitulos", label: "Capítulo a capítulo", icon: FileText },
     { id: "igrejas", label: "Sete igrejas", icon: Map },
@@ -36,6 +41,8 @@ export default function ApocalypseHub() {
     </header>
     <div className="apocalypse-stat-strip"><div><Sparkles size={16} /><strong>22</strong><span>capítulos indexados</span></div><div><Map size={16} /><strong>07</strong><span>cidades reais</span></div><div><Eye size={16} /><strong>05</strong><span>escolas comparadas</span></div><div><Users size={16} /><strong>04</strong><span>camadas de autoridade</span></div></div>
     <nav className="apocalypse-tabs" aria-label="Seções do módulo 11">{tabs.map(item => { const Icon = item.icon; return <button key={item.id} className={tab === item.id ? "is-active" : ""} onClick={() => setTab(item.id)} aria-pressed={tab === item.id}><Icon size={15} /><span>{item.label}</span><ChevronRight size={13} /></button>; })}</nav>
+
+    {tab === "curso" && <section className="apocalypse-panel eschatology-course-panel"><div className="apocalypse-panel-heading"><div><span className="apocalypse-section-label">Formação avançada · 12 unidades</span><h2>Escatologia sem<br /><em>atalhos interpretativos.</em></h2><p>Um percurso completo por gênero, história, símbolos, profecias, ressurreição, arrebatamento, milênio, juízo e nova criação. O estudo separa texto, contexto, tradição e hipótese.</p></div><div className="apocalypse-panel-count"><strong>{String(lessonIndex + 1).padStart(2, "0")}</strong><span>/ {eschatologyLessons.length}</span></div></div><div className="eschatology-course-layout"><aside className="eschatology-lesson-list" aria-label="Unidades do curso de escatologia">{eschatologyLessons.map((item, index) => <button key={item.id} className={index === lessonIndex ? "is-active" : ""} onClick={() => setLessonIndex(index)}><span>{item.number}</span><div><small>{item.range}</small><strong>{item.title}</strong></div><ChevronRight size={14} /></button>)}</aside><article className="eschatology-lesson-detail"><div className="eschatology-lesson-kicker"><span>{lesson.range}</span><span>Unidade {lesson.number}</span></div><h3>{lesson.title}</h3><p className="eschatology-thesis">{lesson.thesis}</p><div className="eschatology-body">{lesson.body.split(/\n\n/g).map((paragraph, index) => <p key={`${lesson.id}-${index}`}>{paragraph}</p>)}</div><div className="eschatology-detail-grid"><div><span>Textos em diálogo</span><strong>{lesson.texts}</strong></div><div><span>Tensão hermenêutica</span><p>{lesson.tensions}</p></div></div><div className="eschatology-pentecostal"><ShieldCheck size={17} /><div><span>Lente pentecostal e IDB</span><p>{lesson.pentecostalLens}</p></div></div><div className="eschatology-course-nav"><button disabled={lessonIndex === 0} onClick={() => setLessonIndex(current => Math.max(0, current - 1))}>Unidade anterior</button><button disabled={lessonIndex === eschatologyLessons.length - 1} onClick={() => setLessonIndex(current => Math.min(eschatologyLessons.length - 1, current + 1))}>Próxima unidade <ArrowRight size={14} /></button></div></article></div></section>}
 
     {tab === "comentario" && <section className="apocalypse-panel apocalypse-commentary"><div className="apocalypse-panel-heading"><div><span className="apocalypse-section-label">Leitura progressiva</span><h2>Visão, <em>contexto</em> e resposta.</h2><p>Selecione um bloco. O comentário mostra o movimento do texto e uma pergunta de discernimento para não confundir símbolo com cronograma.</p></div><div className="apocalypse-panel-count"><strong>{String(unitIndex + 1).padStart(2, "0")}</strong><span>/ {apocalypseUnits.length}</span></div></div><div className="apocalypse-commentary-layout"><aside className="apocalypse-unit-list" aria-label="Unidades de comentário">{apocalypseUnits.map((item, index) => <button key={item.id} className={index === unitIndex ? "is-active" : ""} onClick={() => setUnitIndex(index)}><span>{String(index + 1).padStart(2, "0")}</span><div><small>{item.range}</small><strong>{item.title}</strong><em>{item.subtitle}</em></div><ChevronRight size={14} /></button>)}</aside><article className="apocalypse-unit-detail"><div className="apocalypse-unit-meta"><span>{unit.range}</span><span>Comentário editorial</span></div><h3>{unit.title}</h3><p className="apocalypse-unit-lede">{unit.summary}</p><div className="apocalypse-reference-box"><BookOpen size={16} /><div><span>Textos em diálogo</span><strong>{unit.scriptures}</strong></div></div><div className="apocalypse-method-box"><Eye size={16} /><div><span>Pergunta de discernimento</span><p>{unit.interpretiveNote}</p></div></div><div className="apocalypse-unit-nav"><button disabled={unitIndex === 0} onClick={() => setUnitIndex(current => Math.max(0, current - 1))}>Anterior</button><button disabled={unitIndex === apocalypseUnits.length - 1} onClick={() => setUnitIndex(current => Math.min(apocalypseUnits.length - 1, current + 1))}>Próxima unidade <ArrowRight size={14} /></button></div></article></div></section>}
 

@@ -27,11 +27,13 @@ import BookDetailRouter from "@/components/BookDetailRouter";
 import KnowledgeSearchPanel from "@/components/KnowledgeSearchPanel";
 import EntityPanel from "@/components/EntityPanel";
 import ExegesisSpotlight from "@/components/ExegesisSpotlight";
+import AdvancedResearchHub from "@/components/AdvancedResearchHub";
 import { bookFromEntityReference } from "@/lib/entity-graph";
 import { RELATIONAL_BOOKS_URL, canonicalRelationalBookKey, normalizeRelationalBooksPayload, type RelationalBookData } from "@/lib/relational-book-data";
 import { staticAsset } from "@/lib/static-asset";
 import "@/relational-book.css";
 import "@/mobile-home-polish.css";
+import "@/advanced-research.css";
 
 type View = "overview" | "library" | "study" | "theology" | "people" | "canon" | "glossary" | "search" | "timeline" | "atlas" | "themes" | "apocalypse" | "bibliography";
 const heroImage = staticAsset("assets/biblia-hero.jpg");
