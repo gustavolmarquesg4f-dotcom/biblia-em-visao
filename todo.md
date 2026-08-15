@@ -399,3 +399,10 @@
 - [x] Criar busca exclusiva que encontre percursos, textos bíblicos, referências e perguntas de investigação.
 - [x] Permitir exportar roteiros pessoais em Markdown imprimível para aulas, pequenos grupos e estudo individual.
 - [x] Validar os novos percursos, a busca e a exportação em desktop e celular antes da publicação.
+
+## Apócrifos e história bíblica
+
+- [x] Criar uma seção aprofundada sobre apócrifos e deuterocanônicos, com listas canônicas, contexto, conteúdo, recepção e distinções confessionais.
+- [x] Criar uma seção exclusiva de história bíblica por ordem cronológica, com períodos, impérios, fontes, arqueologia, eventos e debates.
+- [x] Conectar as novas seções ao índice, ao atlas, às fontes, aos percursos e à jornada de navegação.
+- [x] Validar conteúdo, navegação, links diretos e responsividade antes da publicação.
