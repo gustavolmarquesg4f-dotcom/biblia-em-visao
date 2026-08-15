@@ -16,3 +16,14 @@ As perguntas principais organizadoras são: propriedade e administração; traba
 ## Arquitetura proposta
 
 Os percursos devem ser cartões de entrada para objetivos de investigação, não promessas de “solução”. Cada roteiro terá uma tese, uma pergunta, textos-base, uma lente histórica, uma tensão interpretativa, uma leitura pentecostal/IDB claramente marcada e próximos passos: livro, pessoa, lugar, atlas, fonte e nota pessoal.
+
+## Oração, Espírito, cura, santidade, sofrimento e ética sexual
+
+Os novos percursos devem recusar duas simplificações: tratar oração ou cura como mecanismo de resultado garantido e tratar ética sexual como lista descontextualizada de proibições. A leitura deve incluir salmos de lamento, histórias de cura, textos sobre dons e frutos, cartas pastorais, contextos familiares e greco-romanos, vulnerabilidade, consentimento, violência, corpo e restauração.
+
+| Fonte | Uso pedagógico | Limite explícito |
+|---|---|---|
+| [Bible Odyssey — Sexual Ethics in the Bible](https://www.bibleodyssey.org/video-gallery/sexual-ethics-in-the-bible/) | Introduzir diversidade textual e contexto histórico ao discutir ética sexual. | Divulgação acadêmica não decide por si a posição confessional da plataforma. |
+| [Bible Odyssey — Illicit Sex word study](https://www.bibleodyssey.org/articles/illicit-sex-word-study/) | Mostrar por que estudos de palavras exigem contexto, uso e gênero literário. | Um termo não substitui a leitura de toda a passagem. |
+| [Health, Healing and the Church's Mission](https://books.google.com/books?hl=en&lr=&id=fQQK5qO_f7MC&oi=fnd&pg=PA11&dq=biblical+theology+prayer+healing+holiness+suffering+ethics+academic) | Referência bibliográfica inicial para saúde, cura, sofrimento e missão. | Não é garantia de cura, diagnóstico ou substituto de cuidado médico. |
+| [Healing in the Bible](https://books.google.com/books?hl=en&lr=&id=iavo1-D6vHsC&oi=fnd&pg=PA9&dq=biblical+theology+prayer+healing+holiness+suffering+ethics+academic) | Apoiar a discussão teológica sobre cura e sofrimento. | Deve ser lido com as diversas tradições e casos bíblicos. |

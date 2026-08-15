@@ -19,7 +19,7 @@ const groups: NavigationGroup[] = [
     { id: "search", label: "Busca na rede", note: "Encontrar relações", icon: Search },
   ] },
   { id: "aprofundar", index: "03", label: "Aprofundar", items: [
-    { id: "studies", label: "Percursos de estudo", note: "Temas e roteiros pessoais", icon: Sparkles, count: "06" },
+    { id: "studies", label: "Percursos de estudo", note: "Temas e roteiros pessoais", icon: Sparkles, count: "12" },
     { id: "study", label: "Mesa de estudo", note: "Exegese e pesquisa", icon: FileText },
     { id: "canon", label: "Cânones e textos", note: "Transmissão e contexto", icon: Layers3 },
     { id: "glossary", label: "Glossário", note: "Línguas e termos", icon: CircleHelp },

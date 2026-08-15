@@ -67,4 +67,52 @@ export const studyPaths: StudyPath[] = [
       { title: "Ásia e Apocalipse", references: "Ap 1–3", summary: "As cidades das sete igrejas conectam missão, economia, culto imperial e fidelidade." },
     ]
   },
+  {
+    id: "oracao-lamento-discernimento", number: "07", category: "Oração e vida diante de Deus", title: "Oração, lamento e discernimento", lede: "Salmos, sabedoria, Evangelhos e cartas para ler oração como relação, intercessão, protesto, silêncio e entrega — não como fórmula de controle.", question: "Como a oração bíblica sustenta fé, lamento, espera e ação sem prometer resposta automática a cada pedido?", methodologicalNote: "Lê oração em gêneros diversos e rejeita a ideia de que sofrimento ou resposta tardia provem falta de fé.", tags: ["oração", "salmos", "lamento", "discernimento"], destination: "themes", destinationLabel: "Abrir temas bíblicos", steps: [
+      { title: "Aprender a lamentar", references: "Sl 13 · Sl 42–43 · Sl 88", summary: "O lamento põe medo, ausência e protesto diante de Deus sem abandonar a relação de aliança." },
+      { title: "Discernir a sabedoria", references: "Pv 3 · Ec 3 · Jó 38–42", summary: "Pedido, limite humano e mistério coexistem; sabedoria não é controle do futuro." },
+      { title: "A oração de Jesus", references: "Mt 6 · Mc 14 · Lc 11", summary: "Pai-nosso, deserto e Getsêmani unem confiança, petição, obediência e agonia." },
+      { title: "Interceder em comunidade", references: "Rm 8 · Ef 6 · Tg 5", summary: "O Espírito, a igreja e o cuidado mútuo enquadram a intercessão sem culpar quem sofre." },
+    ]
+  },
+  {
+    id: "espirito-dons-fruto-missao", number: "08", category: "Espírito Santo e vida da igreja", title: "Espírito Santo, dons, fruto e missão", lede: "Um percurso pentecostal com base bíblica para investigar promessa, poder, discernimento, carisma, fruto e serviço comunitário.", question: "Como afirmar a atualidade do Espírito e dos dons sem medir maturidade por uma experiência isolada?", methodologicalNote: "Distingue narrativa de Atos, ensino das cartas, leitura pentecostal e posição confessional da IDB.", tags: ["Espírito Santo", "dons", "fruto", "missão"], destination: "study", destinationLabel: "Abrir mesa de estudo", steps: [
+      { title: "Promessa e Pentecostes", references: "Jl 2 · Lc 24 · At 1–2", summary: "Ler promessa, testemunho e formação da comunidade no horizonte profético e lucano." },
+      { title: "Dons e corpo", references: "1Co 12–14 · Rm 12", summary: "Dons são distribuídos para edificação, discernimento e serviço; nenhum membro esgota o corpo." },
+      { title: "Fruto e caráter", references: "Gl 5 · Ef 4–5", summary: "A presença do Espírito também aparece em amor, santidade, reconciliação e vida compartilhada." },
+      { title: "Missão e discernimento", references: "At 13 · At 16 · 1Ts 5", summary: "Orientação, envio e teste comunitário impedem que linguagem espiritual dispense responsabilidade." },
+    ]
+  },
+  {
+    id: "cura-saude-oracao", number: "09", category: "Cura, saúde e cuidado", title: "Cura, saúde e oração", lede: "Narrativas de cura, lamento e cuidado comunitário para sustentar oração confiante sem reduzir pessoas enfermas a um problema espiritual.", question: "Como orar por cura, usar recursos de cuidado e acompanhar quem sofre sem culpa, espetáculo ou promessa indevida?", methodologicalNote: "Não diagnostica, não substitui cuidado médico e não apresenta cura como resultado garantido da fé ou do ministério.", tags: ["cura", "saúde", "oração", "compaixão"], destination: "people", destinationLabel: "Abrir pessoas e biografias", steps: [
+      { title: "Compaixão e sinais", references: "Mc 1–2 · Lc 4 · Jo 9", summary: "As curas de Jesus unem compaixão, restauração social e sinais; cada narrativa tem voz própria." },
+      { title: "Oração e cuidado", references: "Tg 5 · 2Rs 5 · 2Tm 4", summary: "Oração, unção, conselho, recursos e limites aparecem sem uma única explicação para todo sofrimento." },
+      { title: "Dons e comunidade", references: "1Co 12–13", summary: "Dons de cura pertencem ao corpo e são inseparáveis de amor, discernimento e responsabilidade." },
+      { title: "Esperança e lamento", references: "Rm 8 · 2Co 4–5 · Ap 21", summary: "A esperança escatológica consola sem negar dor presente nem culpabilizar quem espera." },
+    ]
+  },
+  {
+    id: "santidade-corpo-comunidade", number: "10", category: "Santidade e formação", title: "Santidade, corpo e comunidade", lede: "Uma investigação de aliança, templo, discipulado e vida comum para entender santidade como pertencimento e transformação integral.", question: "Como falar de santidade sem legalismo, individualismo ou desprezo pelo corpo e pela comunidade?", methodologicalNote: "Distingue pureza ritual, ética, metáfora do templo e tradição de santificação posterior.", tags: ["santidade", "corpo", "discipulado", "comunidade"], destination: "library", destinationLabel: "Abrir os 66 livros", steps: [
+      { title: "Santo em Israel", references: "Lv 19 · Is 6 · Ez 36", summary: "Santo, justiça, culto, corpo e terra se relacionam em contextos rituais e sociais concretos." },
+      { title: "Jesus e a mesa", references: "Mc 7 · Mt 5–7", summary: "Jesus reconfigura fronteiras e coloca desejo, verdade, misericórdia e reconciliação no centro." },
+      { title: "Corpo e templo", references: "1Co 3 · 1Co 6 · Rm 12", summary: "Corpo não é acessório da fé; culto e ética atravessam práticas pessoais e relações comunitárias." },
+      { title: "Vida no Espírito", references: "Gl 5 · 1Ts 4–5 · Hb 12", summary: "Santificação inclui fruto, esperança, disciplina e cuidado mútuo — não uma escada de mérito." },
+    ]
+  },
+  {
+    id: "sofrimento-lamento-esperanca", number: "11", category: "Sofrimento, cruz e esperança", title: "Sofrimento, lamento e esperança", lede: "Jó, salmos, profetas, cruz e ressurreição para enfrentar dor e mal sem respostas simplistas ou romantização da ferida.", question: "Que formas de esperança a Bíblia oferece quando a explicação não chega e a dor permanece?", methodologicalNote: "Recusa atribuir automaticamente sofrimento a pecado pessoal, disciplina divina ou ausência de fé.", tags: ["sofrimento", "Jó", "cruz", "esperança"], destination: "library", destinationLabel: "Abrir dossiês bíblicos", steps: [
+      { title: "Jó e o limite das respostas", references: "Jó 1–2 · Jó 38–42", summary: "Amigos podem transformar teologia em acusação; o livro preserva protesto, mistério e encontro." },
+      { title: "Lamento profético", references: "Lm 3 · Hc 1–3 · Sl 22", summary: "O clamor não é o oposto da fé; ele pode ser linguagem pública de confiança ferida." },
+      { title: "Cruz e solidariedade", references: "Mc 15 · Rm 8 · 2Co 1", summary: "A cruz não justifica violência; ela revela entrega, solidariedade e esperança em meio à morte." },
+      { title: "Nova criação", references: "1Pe 1 · Ap 21–22", summary: "A consumação promete restauração sem apagar a importância do cuidado e da justiça no presente." },
+    ]
+  },
+  {
+    id: "etica-sexual-corpo-fidelidade", number: "12", category: "Corpo, fidelidade e cuidado", title: "Ética sexual, corpo e fidelidade", lede: "Leia textos sobre corpo, desejo, casamento, vulnerabilidade e cuidado com atenção ao contexto histórico, à dignidade e à responsabilidade relacional.", question: "Como estudar ética sexual biblicamente com verdade, graça, cuidado a vulneráveis e sem instrumentalizar textos contra pessoas?", methodologicalNote: "Não reduz textos a listas; considera gênero, linguagem, mundo antigo, debates acadêmicos, leitura pentecostal e proteção contra abuso e violência.", tags: ["ética sexual", "corpo", "fidelidade", "cuidado"], destination: "bibliography", destinationLabel: "Abrir bibliografia e fontes", steps: [
+      { title: "Corpo e criação", references: "Gn 1–2 · Sl 139", summary: "Criação, imagem de Deus e corporeidade oferecem pontos de partida, sem ignorar narrativas de queda e conflito." },
+      { title: "Leis e vulnerabilidade", references: "Dt 22 · Lv 18–20", summary: "Leis antigas devem ser lidas em seus mundos sociais, jurídicos e cultuais antes de qualquer aplicação contemporânea." },
+      { title: "Jesus, desejo e cuidado", references: "Mt 5 · Mt 19 · Jo 4", summary: "Jesus trata desejo, verdade, aliança e vulnerabilidade sem legitimar acusação pública ou violência." },
+      { title: "Comunidade e responsabilidade", references: "1Co 5–7 · Ef 5 · 1Ts 4", summary: "Corpo, consentimento, fidelidade, poder e cuidado comunitário requerem leitura atenta ao contexto das cartas." },
+    ]
+  },
 ];

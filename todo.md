@@ -392,3 +392,10 @@
 - [x] Adicionar estudos temáticos aprofundados, incluindo finanças, trabalho, generosidade, justiça, família, liderança e missão.
 - [x] Permitir criar, salvar e retomar roteiros pessoais de estudo ligados a livros, pessoas, lugares, temas, mapas e fontes.
 - [x] Validar a descoberta em desktop e celular e preparar a publicação do novo centro de estudos.
+
+## Centro de estudos — expansão pedagógica
+
+- [x] Adicionar percursos aprofundados sobre oração, Espírito Santo, cura, santidade, sofrimento e ética sexual.
+- [x] Criar busca exclusiva que encontre percursos, textos bíblicos, referências e perguntas de investigação.
+- [x] Permitir exportar roteiros pessoais em Markdown imprimível para aulas, pequenos grupos e estudo individual.
+- [x] Validar os novos percursos, a busca e a exportação em desktop e celular antes da publicação.
