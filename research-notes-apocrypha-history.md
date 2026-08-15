@@ -20,9 +20,16 @@
 5. **Pleiades Gazetteer** — referência geográfica para lugares históricos e transparência acerca de identificações, coordenadas e variantes de nomes.
    https://pleiades.stoa.org/places
 
+6. **A. G. Salvesen, “Deuterocanonical and Apocryphal Books: Introduction” (Oxford Research Archive)** — introdução acadêmica ao conjunto amplo de textos deuterocanônicos e apócrifos, útil para evitar tratar uma lista posterior como se fosse uma coleção fixa desde a origem.
+   https://ora.ox.ac.uk/objects/uuid:c0b7f299-a235-4af7-8540-5f9a64e0d29f/files/r8910jv51d
+
+7. **Michael E. Stone, “Jewish Writings of the Second Temple Period” (SBL Press / JBL)** — referência clássica para situar apócrifos, pseudepígrafos, textos de Qumran, Fílon e Josefo num mesmo horizonte plural de literatura judaica antiga.
+   https://scholarlypublishingcollective.org/sblpress/jbl/article/105/4/720/192283/Jewish-Writings-of-the-Second-Temple-Period
+
 ## Limites a manter na interface
 
 - Não chamar um evento de “provado” apenas porque uma narrativa bíblica o relata; identificar a evidência independente quando ela existir.
 - Não atribuir a um livro uma data de composição única quando a pesquisa discute camadas, edições ou faixas cronológicas.
 - Não usar “Jâmnia” como um concílio único que resolveu o cânon judaico; a seção explicará que esse modelo é debatido e simplificador.
 - Não converter datas de reinados, impérios ou arqueologia em cronogramas proféticos.
+- Para iniciantes, explicar primeiro em linguagem comum o que é um texto, o que ele narra e por que ele importa; só depois introduzir termos como “cânon”, “deuterocanônico”, “pseudepígrafo”, “helenístico” e “recepção”.

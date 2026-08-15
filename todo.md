@@ -406,3 +406,17 @@
 - [x] Criar uma seção exclusiva de história bíblica por ordem cronológica, com períodos, impérios, fontes, arqueologia, eventos e debates.
 - [x] Conectar as novas seções ao índice, ao atlas, às fontes, aos percursos e à jornada de navegação.
 - [x] Validar conteúdo, navegação, links diretos e responsividade antes da publicação.
+
+## Revisão didática — do zero à profundidade
+
+- [x] Reescrever as entradas de Apócrifos com uma explicação inicial simples, vocabulário contextual e exemplos antes dos debates.
+- [x] Reestruturar a História bíblica em uma trilha de “o que aconteceu, por que importa e onde a Bíblia entra”.
+- [x] Incluir cartões de começo rápido, perguntas simples, comparações visuais e opção de aprofundar progressivamente.
+- [x] Validar em celular se uma pessoa sem repertório consegue entender o primeiro passo sem depender de termos técnicos.
+
+## Padrão enciclopédico — texto, significado e retrato
+
+- [x] Reescrever cada verbete de Apócrifos para explicar o que o texto é, o que acontece, quem aparece, o que comunica e como foi recebido.
+- [x] Acrescentar em cada período histórico uma narrativa do que aconteceu, como isso aparece na Bíblia e por que muda a leitura dos livros.
+- [x] Criar camadas progressivas de “comece aqui”, “o que acontece”, “significado”, “quem aparece”, “conexões” e “aprofundar”.
+- [x] Fazer revisão editorial dos novos textos para garantir linguagem clara em português brasileiro sem simplificar os debates reais.
