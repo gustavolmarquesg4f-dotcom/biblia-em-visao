@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, Download, ExternalLink, FileJson, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, Upload, X } from "lucide-react";
 import { bibleBooks, type Book } from "@/lib/bible-data";
+import { bookProfiles } from "@/lib/book-deep";
 import { advancedGlossary, glossaryLanguages, type AdvancedGlossaryEntry, type GlossaryLanguage } from "@/lib/advanced-glossary-data";
 import { translationComparisons } from "@/lib/translation-comparison-data";
 import { bookCoverage, verseCommentaries, type VerseCommentary } from "@/lib/verse-commentary-data";
@@ -11,9 +12,11 @@ import { createStudyBackup, mergeStudyStates, parseStudyBackup, readStudyState, 
 import { CloseReadingTrack } from "@/components/CloseReadingTrack";
 import type { GuidedArticle } from "@/lib/encyclopedic-reading-data";
 import type { CloseReadingFrame } from "@/lib/close-reading-frames";
+import { framesForDetailedBook, loadDetailedBookReadings, type DetailedBookReading } from "@/lib/detailed-book-readings";
 import "@/study-backup.css";
+import "@/book-roadmap.css";
 
-type DeskTab = "mesa" | "glossario" | "traducoes" | "comentarios" | "quizzes";
+type DeskTab = "mesa" | "glossario" | "traducoes" | "roteiro" | "comentarios" | "quizzes";
 
 type StudyDeskProps = {
   openBook: (book: Book) => void;
@@ -24,6 +27,7 @@ const tabLabels: { id: DeskTab; label: string; icon: typeof Library }[] = [
   { id: "mesa", label: "Minha mesa", icon: Library },
   { id: "glossario", label: "Línguas", icon: Search },
   { id: "traducoes", label: "Traduções", icon: Layers3 },
+  { id: "roteiro", label: "66 livros", icon: Library },
   { id: "comentarios", label: "Versículo a versículo", icon: FileText },
   { id: "quizzes", label: "Revisão", icon: Trophy },
 ];
@@ -60,6 +64,7 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
       {tab === "mesa" && <DeskHome state={state} activeNote={activeNote} saveDeskNote={saveDeskNote} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} update={update} setTab={setTab} exportBackup={exportBackup} importBackup={importBackup} importInputRef={importInputRef} />}
       {tab === "glossario" && <GlossaryDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} />}
       {tab === "traducoes" && <TranslationsDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} />}
+      {tab === "roteiro" && <BookRoadmapDesk openBook={openBook} toggleFavorite={toggleFavorite} state={state} />}
       {tab === "comentarios" && <CommentaryDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} openBook={openBook} />}
       {tab === "quizzes" && <QuizDesk state={state} update={update} toggleCompleted={toggleCompleted} />}
     </div>
@@ -116,6 +121,34 @@ function CommentaryDesk({ state, toggleFavorite, toggleCompleted, openBook }: { 
   const detailedArticle: GuidedArticle = { firstAnswer: active.textLayer, story: [active.textLayer, active.contextLayer, active.interpretationLayer, active.pentecostalLayer], meaning: [{ label: "O argumento do trecho", text: active.interpretationLayer }, { label: "Leitura em comunidade", text: active.pentecostalLayer }], peopleAndPlaces: [{ label: "Contexto para observar", text: active.contextLayer }, { label: "Conexões no cânon", text: active.references.join(" · ") }], connections: active.references.map(reference => `${active.book} ${active.chapter}:${active.verses} conversa com ${reference}.`), receptionOrDebate: [active.interpretationLayer, active.pentecostalLayer], terms: [{ word: "Texto", meaning: "A passagem é lida dentro do argumento do livro, não como frase isolada." }, { word: "Contexto", meaning: "O cenário histórico e literário ajuda a observar o que a passagem está fazendo." }] };
   const detailedFrames: CloseReadingFrame[] = [{ range: `${active.book} ${active.chapter}:${active.verses}`, title: "O que o texto descreve", question: "Quais palavras, imagens e movimentos aparecem diretamente na passagem?", bodyLabel: "O que o texto diz" }, { range: "Contexto", title: "O mundo em volta do trecho", question: "O que o primeiro público reconheceria nesta situação, imagem ou linguagem?", bodyLabel: "Contexto histórico e literário" }, { range: "Interpretação", title: "O argumento e o debate", question: "Que leitura simplista este trecho pede para evitar?", bodyLabel: "Como interpretar com cuidado" }, { range: "Leitura pentecostal", title: "Fé, discernimento e prática", question: "Como receber o texto sem tirar Cristo, comunidade e responsabilidade do centro?", bodyLabel: "Leitura pentecostal / IDB" }];
   return <div className="commentary-desk"><header><div><span>Comentário em lote revisável</span><h3>O verso dentro do argumento.</h3><p>Os blocos abaixo são focos desenvolvidos, não uma falsa declaração de cobertura integral. O índice mostra onde o lote está avançado e onde a expansão ainda continua.</p></div><div className="commentary-count"><strong>{verseCommentaries.length}</strong><span>focos publicados</span></div></header><div className="commentary-controls"><label>Livro<select value={book} onChange={event => { setBook(event.target.value); const next = verseCommentaries.find(comment => event.target.value === "Todos" || comment.book === event.target.value); if (next) setActiveId(next.id); }}><option>Todos</option>{coverage.map(item => <option key={item.book}>{item.book}</option>)}</select></label><div><span>{coverage.length} livros com foco detalhado</span><span>{bookCoverage.length - coverage.length} livros com índice em expansão</span></div></div><div className="commentary-layout"><aside className="commentary-index">{filtered.map((comment, index) => <button key={comment.id} className={active.id === comment.id ? "is-active" : ""} onClick={() => setActiveId(comment.id)}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{comment.book} {comment.chapter}:{comment.verses}</strong><small>{comment.title}</small></div><ArrowRight size={14} /></button>)}{!filtered.length && <p>Nenhum foco neste filtro.</p>}</aside><article className="commentary-detail"><div className="commentary-detail-top"><div><span>{active.book} · capítulo {active.chapter} · versos {active.verses}</span><h4>{active.title}</h4></div><button onClick={() => toggleFavorite(active.id)} aria-label="Salvar comentário">{state.favorites.includes(active.id) ? <BookmarkCheck size={17} /> : <Bookmark size={17} />}</button></div><CloseReadingTrack readingId={`commentary-${active.id}`} article={detailedArticle} units={detailedFrames} /><div className="commentary-bottom"><div><span>Conexões</span><strong>{active.references.join(" · ")}</strong></div><a href={active.source.url} target="_blank" rel="noreferrer">Fonte metodológica <ExternalLink size={13} /></a></div><div className="commentary-actions"><button className={`study-complete-button ${state.completed.includes(`commentary-${active.id}`) ? "is-done" : ""}`} onClick={() => toggleCompleted(`commentary-${active.id}`)}>{state.completed.includes(`commentary-${active.id}`) ? <Check size={15} /> : <Target size={15} />} {state.completed.includes(`commentary-${active.id}`) ? "Foco concluído" : "Marcar foco como concluído"}</button>{bibleBooks.find(item => item.name === active.book) && <button className="study-desk-link" onClick={() => openBook(bibleBooks.find(item => item.name === active.book)!)}>Abrir dossiê de {active.book} <ArrowRight size={14} /></button>}</div></article></div></div>;
+}
+
+function BookRoadmapDesk({ openBook, toggleFavorite, state }: { openBook: (book: Book) => void; toggleFavorite: (targetId: string) => void; state: StudyState }) {
+  const [testament, setTestament] = useState<"Todos" | Book["testament"]>("Todos");
+  const [query, setQuery] = useState("");
+  const [activeName, setActiveName] = useState(bibleBooks[0].name);
+  const [readings, setReadings] = useState<Record<string, DetailedBookReading>>({});
+  const [loadingReadings, setLoadingReadings] = useState(true);
+  useEffect(() => { let mounted = true; loadDetailedBookReadings().then((next) => { if (mounted) setReadings(next); }).catch(() => { if (mounted) setReadings({}); }).finally(() => { if (mounted) setLoadingReadings(false); }); return () => { mounted = false; }; }, []);
+  const filtered = useMemo(() => bibleBooks.filter(book => (testament === "Todos" || book.testament === testament) && (!query.trim() || `${book.name} ${book.category} ${book.themes.join(" ")}`.toLowerCase().includes(query.toLowerCase().trim()))), [query, testament]);
+  const active = filtered.find(book => book.name === activeName) || filtered[0] || bibleBooks[0];
+  const profile = bookProfiles[active.name];
+  const reading = readings[active.name];
+  const coverage = bookCoverage.find(item => item.book === active.name);
+  const hasDetailedFocus = coverage?.status === "Foco detalhado";
+  const favoriteId = `roadmap-${active.id}`;
+  const article: GuidedArticle | null = reading ? { firstAnswer: reading.overview, story: reading.units.map(unit => unit.happens), meaning: reading.units.map(unit => ({ label: "O que isso quer comunicar", text: unit.meaning })), peopleAndPlaces: reading.units.map(unit => ({ label: "O que observar", text: unit.observe })), connections: reading.units.map(unit => `${active.name}: ${unit.title}. Continue no dossiê do livro para pessoas, lugares e relações canônicas.`), receptionOrDebate: [reading.methodNote], terms: [{ word: "Leitura em camadas", meaning: reading.methodNote }] } : null;
+  return <div className="book-roadmap">
+    <header className="book-roadmap-header"><div><span>Índice de leitura dos 66 livros</span><h3>Todo livro tem um caminho.<br /><em>Comece pelo que ele realmente diz.</em></h3><p>Este índice não troca o texto por resumo. Ele mostra a estrutura do livro, a pergunta que o atravessa, o modo de ler e o estado real da expansão de comentário por unidade.</p></div><div className="book-roadmap-stamp"><strong>66</strong><span>livros<br />mapeados</span></div></header>
+    <div className="book-roadmap-tools"><label><Search size={15} /><input value={query} onChange={event => setQuery(event.target.value)} placeholder="Buscar livro, categoria ou tema" aria-label="Buscar nos 66 livros" /></label><div>{(["Todos", "Antigo Testamento", "Novo Testamento"] as const).map(option => <button key={option} className={testament === option ? "is-active" : ""} onClick={() => setTestament(option)}>{option === "Todos" ? "Todos" : option === "Antigo Testamento" ? "Antigo" : "Novo"}</button>)}</div></div>
+    <div className="book-roadmap-layout"><aside className="book-roadmap-index"><div className="book-roadmap-count">{filtered.length} livros encontrados</div>{filtered.map((book, index) => { const status = bookCoverage.find(item => item.book === book.name)?.status === "Foco detalhado"; return <button key={book.id} className={active.name === book.name ? "is-active" : ""} onClick={() => setActiveName(book.name)}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{book.name}</strong><small>{book.category} · {book.chapters} capítulos</small></div>{status && <i aria-label="Possui focos detalhados" />}</button>; })}</aside>
+      <article className="book-roadmap-detail"><div className="book-roadmap-detail-top"><div><span>{active.testament} · {active.category} · {active.chapters} capítulos</span><h4>{active.name}</h4><p>{reading?.overview || active.summary}</p></div><button onClick={() => toggleFavorite(favoriteId)} aria-label={`Salvar roteiro de ${active.name}`}>{state.favorites.includes(favoriteId) ? <BookmarkCheck size={17} /> : <Bookmark size={17} />}</button></div>
+        <div className="book-roadmap-status"><span>{hasDetailedFocus ? "Foco detalhado disponível" : "Roteiro estrutural pronto"}</span><p>{hasDetailedFocus ? "Este livro já possui unidades comentadas em profundidade na aba Versículo a versículo." : "A estrutura de leitura já está definida; as unidades comentadas serão acrescentadas sem apresentar planejamento como conteúdo concluído."}</p></div>
+        <section className="book-roadmap-reading"><div><span>01 · Por onde o livro caminha</span><p>{profile?.structure || "Estrutura editorial em preparação."}</p></div><div><span>02 · Como ler sem se perder</span><p>{profile?.lens || "Comece observando gênero, contexto e conexões canônicas."}</p></div><div><span>03 · A pergunta que o livro mantém aberta</span><p>{profile?.question || "Que pergunta este livro faz a respeito de Deus, do povo e do mundo?"}</p></div><div><span>04 · Pontes para continuar</span><p>{profile?.connects.join(" · ") || active.themes.join(" · ")}</p></div></section>
+        {article ? <CloseReadingTrack readingId={`book-roadmap-${active.id}`} article={article} units={framesForDetailedBook(reading)} /> : <div className="book-roadmap-loading">{loadingReadings ? "Carregando as quatro unidades detalhadas deste livro…" : "O roteiro estrutural está disponível; a leitura detalhada desta obra será restaurada quando o corpus estiver acessível."}</div>}
+        <div className="book-roadmap-actions"><button className="study-desk-primary" onClick={() => openBook(active)}>Abrir dossiê de {active.name} <ArrowRight size={15} /></button><span>{article ? "As quatro unidades abaixo são a porta de entrada. O dossiê amplia pessoas, lugares, eventos e fontes." : "Quando uma unidade detalhada estiver disponível, ela aparecerá no comentário por trecho."}</span></div>
+      </article></div>
+  </div>;
 }
 
 function Layer({ label, text, tone }: { label: string; text: string; tone: string }) { return <section className={`commentary-layer commentary-layer--${tone}`}><span>{label}</span><p>{text}</p></section>; }

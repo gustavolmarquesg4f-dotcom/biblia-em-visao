@@ -428,3 +428,22 @@
 - [x] Aplicar o modelo aos apócrifos, à história bíblica e aos livros bíblicos prioritários sem reduzir o texto a resumos.
 - [x] Criar um índice navegável de trechos para que o leitor comece no ponto que deseja estudar.
 - [x] Validar em celular que a profundidade continua legível e que o leitor consegue avançar passo a passo.
+
+## Apócrifos integrais — texto por texto
+
+- [ ] Auditar cada texto e coleção do catálogo para listar partes, personagens, cenário, enredo, sentido, termos, recepção e fontes.
+- [ ] Criar leitura por unidades para Tobias, Judite, Ester grego, 1–2 Macabeus e adições históricas.
+- [ ] Criar leitura por unidades para Sabedoria, Eclesiástico, Baruque, Carta de Jeremias, Daniel grego e Oração de Manassés.
+- [ ] Criar leitura por unidades para 1 Enoque, Jubileus e outras coleções do Segundo Templo presentes no catálogo.
+- [ ] Integrar índices internos, conexões bíblicas, diferenças canônicas e fontes rastreáveis em todos os verbetes.
+- [ ] Validar a leitura enciclopédica de cada verbete em celular, desktop e rotas diretas antes da publicação.
+
+## 66 livros integrais — comentário por unidade
+
+- [x] Auditar a cobertura existente dos 66 livros, capítulos e trechos para separar material detalhado de índices ainda em expansão.
+- [x] Criar o primeiro corpus de quatro unidades detalhadas para Pentateuco e livros históricos, incluindo narrativa, leis, personagens e contexto.
+- [x] Criar o primeiro corpus de quatro unidades detalhadas para poesia, sabedoria e profetas, incluindo gêneros, imagens, contexto e debates.
+- [x] Criar o primeiro corpus de quatro unidades detalhadas para Evangelhos e Atos, incluindo episódios de Jesus, parábolas, milagres, cidades e missão.
+- [x] Criar o primeiro corpus de quatro unidades detalhadas para cartas e Apocalipse, incluindo argumento, comunidades, termos e leituras interpretativas.
+- [x] Integrar o índice inicial de unidades aos 66 dossiês por meio da mesa de estudo e das rotas diretas de cada livro.
+- [x] Validar a cobertura por livro, carregamento do corpus, navegação móvel e progresso de leitura antes de publicar.
