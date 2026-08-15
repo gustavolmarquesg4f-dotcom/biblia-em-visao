@@ -10,6 +10,7 @@ import PublicationStatus from "./components/PublicationStatus";
 function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
 function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
 function StudiesEntry(_props: unknown) { return <Home initialView="studies" />; }
+function StudyDeskEntry(_props: unknown) { return <Home initialView="study" />; }
 function ApocryphaEntry(_props: unknown) { return <Home initialView="apocrypha" />; }
 function HistoryEntry(_props: unknown) { return <Home initialView="history" />; }
 function HomeEntry(_props: unknown) { return <Home />; }
@@ -27,6 +28,7 @@ function Router() {
         <Route path={"/atlas"} component={AtlasEntry} />
         <Route path={"/estudos"} component={StudiesEntry} />
         <Route path={"/percursos"} component={StudiesEntry} />
+        <Route path={"/mesa"} component={StudyDeskEntry} />
         <Route path={"/apocrifos"} component={ApocryphaEntry} />
         <Route path={"/deuterocanonicos"} component={ApocryphaEntry} />
         <Route path={"/historia"} component={HistoryEntry} />

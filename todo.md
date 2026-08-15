@@ -420,3 +420,11 @@
 - [x] Acrescentar em cada período histórico uma narrativa do que aconteceu, como isso aparece na Bíblia e por que muda a leitura dos livros.
 - [x] Criar camadas progressivas de “comece aqui”, “o que acontece”, “significado”, “quem aparece”, “conexões” e “aprofundar”.
 - [x] Fazer revisão editorial dos novos textos para garantir linguagem clara em português brasileiro sem simplificar os debates reais.
+
+## Comentário enciclopédico — detalhe por detalhe
+
+- [x] Dividir os textos prioritários em unidades de leitura e explicar o que cada unidade diz, narra, retrata e pergunta.
+- [x] Acrescentar contexto histórico, personagens, lugares, termos, conexões e distinções de leitura para cada unidade.
+- [x] Aplicar o modelo aos apócrifos, à história bíblica e aos livros bíblicos prioritários sem reduzir o texto a resumos.
+- [x] Criar um índice navegável de trechos para que o leitor comece no ponto que deseja estudar.
+- [x] Validar em celular que a profundidade continua legível e que o leitor consegue avançar passo a passo.
