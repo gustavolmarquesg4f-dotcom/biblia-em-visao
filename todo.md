@@ -447,3 +447,14 @@
 - [x] Criar o primeiro corpus de quatro unidades detalhadas para cartas e Apocalipse, incluindo argumento, comunidades, termos e leituras interpretativas.
 - [x] Integrar o índice inicial de unidades aos 66 dossiês por meio da mesa de estudo e das rotas diretas de cada livro.
 - [x] Validar a cobertura por livro, carregamento do corpus, navegação móvel e progresso de leitura antes de publicar.
+
+## Enciclopédia integral — aprofundar, conectar e ensinar
+
+- [x] Criar o primeiro roteiro aprofundado por unidades para Gênesis, Êxodo, Mateus, João, Atos, Romanos e Apocalipse; manter expansão capítulo a capítulo como próximo ciclo.
+- [x] Manter verbetes narrativos de personagens, povos, lugares, eventos e profecias com episódios, painéis clicáveis e conexões na rede de conhecimento.
+- [x] Implementar busca por perguntas guiadas, com respostas enciclopédicas iniciais, textos-base, livros e rotas de continuação.
+- [x] Criar trilhas guiadas para iniciantes, leitura anual, discipulado, liderança, Escola Dominical, jovens e pequenos grupos.
+- [x] Exibir fontes e camadas metodológicas no ledger, além de gerar kits de encontro, perguntas de grupo e materiais Markdown exportáveis.
+- [x] Conectar lugares, cidades, rotas e impérios ao atlas a partir dos verbetes e dos dossiês relacionais já indexados.
+- [x] Criar uma porta inicial com os caminhos “começar do zero”, “pesquisar um assunto” e “estudar um livro a fundo”.
+- [x] Validar TypeScript, build, descoberta, busca por pergunta e responsividade dos novos recursos antes da publicação.

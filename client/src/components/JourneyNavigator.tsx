@@ -1,13 +1,14 @@
 /* Cartografia de Leituras — navegação como rota editorial: grupos, posição atual, retorno e próximo passo. */
 import { ArrowLeft, ArrowRight, BookOpen, CircleHelp, Clock3, Compass, Eye, FileText, Landmark, Layers3, Map, ScrollText, Search, Sparkles, Users, X } from "lucide-react";
 
-export type JourneyView = "overview" | "library" | "study" | "studies" | "theology" | "people" | "canon" | "apocrypha" | "glossary" | "search" | "timeline" | "history" | "atlas" | "themes" | "apocalypse" | "bibliography";
+export type JourneyView = "overview" | "start" | "library" | "study" | "studies" | "theology" | "people" | "canon" | "apocrypha" | "glossary" | "search" | "timeline" | "history" | "atlas" | "themes" | "apocalypse" | "bibliography";
 
 type NavigationItem = { id: JourneyView; label: string; note: string; icon: typeof Compass; count?: string };
 type NavigationGroup = { id: string; label: string; index: string; items: NavigationItem[] };
 
 const groups: NavigationGroup[] = [
   { id: "orientar", index: "01", label: "Orientar-se", items: [
+    { id: "start", label: "Comece aqui", note: "Três portas para iniciar", icon: Compass },
     { id: "overview", label: "Ponto de partida", note: "A visão do todo", icon: Compass },
     { id: "timeline", label: "Linha do tempo", note: "Períodos e movimentos", icon: Clock3 },
     { id: "atlas", label: "Atlas e lugares", note: "Rotas, cidades, impérios", icon: Map },
@@ -20,7 +21,7 @@ const groups: NavigationGroup[] = [
     { id: "search", label: "Busca na rede", note: "Encontrar relações", icon: Search },
   ] },
   { id: "aprofundar", index: "03", label: "Aprofundar", items: [
-    { id: "studies", label: "Percursos de estudo", note: "Temas e roteiros pessoais", icon: Sparkles, count: "12" },
+    { id: "studies", label: "Percursos de estudo", note: "Temas e roteiros pessoais", icon: Sparkles, count: "17" },
     { id: "study", label: "Mesa de estudo", note: "Exegese e pesquisa", icon: FileText },
     { id: "canon", label: "Cânones e textos", note: "Transmissão e contexto", icon: Layers3 },
     { id: "apocrypha", label: "Apócrifos e textos", note: "Deuterocanônicos e recepção", icon: ScrollText, count: "10" },
@@ -31,7 +32,7 @@ const groups: NavigationGroup[] = [
 ];
 
 const viewMeta = Object.fromEntries(groups.flatMap((group) => group.items.map((item) => [item.id, { ...item, group: group.label, groupIndex: group.index }]))) as Record<JourneyView, NavigationItem & { group: string; groupIndex: string }>;
-const nextSteps: Record<JourneyView, JourneyView> = { overview: "timeline", timeline: "atlas", atlas: "history", history: "library", library: "people", people: "themes", themes: "search", search: "studies", studies: "study", study: "canon", canon: "apocrypha", apocrypha: "glossary", glossary: "apocalypse", apocalypse: "bibliography", bibliography: "overview", theology: "studies" };
+const nextSteps: Record<JourneyView, JourneyView> = { start: "overview", overview: "timeline", timeline: "atlas", atlas: "history", history: "library", library: "people", people: "themes", themes: "search", search: "studies", studies: "study", study: "canon", canon: "apocrypha", apocrypha: "glossary", glossary: "apocalypse", apocalypse: "bibliography", bibliography: "start", theology: "studies" };
 
 export default function JourneyNavigator({ view, mobileOpen, activeBookName, onNavigate, onClose }: { view: JourneyView; mobileOpen: boolean; activeBookName?: string | null; onNavigate: (view: JourneyView) => void; onClose: () => void }) {
   const current = viewMeta[view];

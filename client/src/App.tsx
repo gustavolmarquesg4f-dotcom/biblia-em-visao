@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import PublicationStatus from "./components/PublicationStatus";
+import BeginHerePage from "./components/BeginHerePage";
 
 function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
 function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
@@ -14,6 +15,8 @@ function StudyDeskEntry(_props: unknown) { return <Home initialView="study" />; 
 function BookRoadmapEntry(_props: unknown) { return <Home initialView="study" initialStudyTab="roteiro" />; }
 function ApocryphaEntry(_props: unknown) { return <Home initialView="apocrypha" />; }
 function HistoryEntry(_props: unknown) { return <Home initialView="history" />; }
+function SearchEntry(_props: unknown) { return <Home initialView="search" />; }
+function BeginHereEntry(_props: unknown) { return <BeginHerePage />; }
 function HomeEntry(_props: unknown) { return <Home />; }
 
 function Router() {
@@ -34,6 +37,8 @@ function Router() {
         <Route path={"/apocrifos"} component={ApocryphaEntry} />
         <Route path={"/deuterocanonicos"} component={ApocryphaEntry} />
         <Route path={"/historia"} component={HistoryEntry} />
+        <Route path={"/busca"} component={SearchEntry} />
+        <Route path={"/comece"} component={BeginHereEntry} />
         <Route path={"/apocalipse"} component={ApocalypseEntry} />
         <Route path={"/escatologia"} component={ApocalypseEntry} />
         <Route path={"/apocalypse"} component={ApocalypseEntry} />

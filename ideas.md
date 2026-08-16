@@ -68,3 +68,10 @@ O símbolo é uma combinação geométrica de livro aberto, agulha de bússola e
 ## Decisões de implementação
 
 O primeiro lançamento usa o cânon protestante de 66 livros como base de navegação. O modelo de dados mantém `testament`, `category`, `tradition` e `canonicalOrder` separados para permitir uma futura extensão ao cânon católico sem reescrever a interface. A experiência será uma SPA estática, com busca e filtros no cliente, mapas didáticos desenhados em SVG e referências de imagem hospedadas pelo armazenamento do projeto.
+
+## Style Decisions
+
+1. Toda tela principal deve incluir ao menos um sinal cartográfico funcional — rota, coordenada, legenda, marco numerado ou rede de relações — para que o atlas seja sistema, não decoração.
+2. O wordmark trata **Bíblia** como título editorial em DM Serif Display e **em visão geral** como legenda espaçada de atlas, sempre acompanhado do símbolo livro–bússola–rota.
+3. Busca, filtros e listas serão tratados como índices, legendas ou fichas de arquivo; evitar a aparência de formulários neutros.
+4. Superfícies de orientação, investigação e aprofundamento devem alternar escala, pausas e intensidade para a leitura longa não parecer uma parede homogênea de cartões.

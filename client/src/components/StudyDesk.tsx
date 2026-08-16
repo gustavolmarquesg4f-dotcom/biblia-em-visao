@@ -13,6 +13,7 @@ import { CloseReadingTrack } from "@/components/CloseReadingTrack";
 import type { GuidedArticle } from "@/lib/encyclopedic-reading-data";
 import type { CloseReadingFrame } from "@/lib/close-reading-frames";
 import { framesForDetailedBook, loadDetailedBookReadings, type DetailedBookReading } from "@/lib/detailed-book-readings";
+import { loadCoreBookReadings } from "@/lib/core-book-readings";
 import "@/study-backup.css";
 import "@/book-roadmap.css";
 
@@ -129,7 +130,7 @@ function BookRoadmapDesk({ openBook, toggleFavorite, state }: { openBook: (book:
   const [activeName, setActiveName] = useState(bibleBooks[0].name);
   const [readings, setReadings] = useState<Record<string, DetailedBookReading>>({});
   const [loadingReadings, setLoadingReadings] = useState(true);
-  useEffect(() => { let mounted = true; loadDetailedBookReadings().then((next) => { if (mounted) setReadings(next); }).catch(() => { if (mounted) setReadings({}); }).finally(() => { if (mounted) setLoadingReadings(false); }); return () => { mounted = false; }; }, []);
+  useEffect(() => { let mounted = true; Promise.all([loadDetailedBookReadings(), loadCoreBookReadings().catch(() => ({}))]).then(([initial, core]) => { if (mounted) setReadings({ ...initial, ...core }); }).catch(() => { if (mounted) setReadings({}); }).finally(() => { if (mounted) setLoadingReadings(false); }); return () => { mounted = false; }; }, []);
   const filtered = useMemo(() => bibleBooks.filter(book => (testament === "Todos" || book.testament === testament) && (!query.trim() || `${book.name} ${book.category} ${book.themes.join(" ")}`.toLowerCase().includes(query.toLowerCase().trim()))), [query, testament]);
   const active = filtered.find(book => book.name === activeName) || filtered[0] || bibleBooks[0];
   const profile = bookProfiles[active.name];
