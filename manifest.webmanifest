@@ -1,0 +1,10 @@
+{
+  "name": "A Bíblia em Visão Geral",
+  "short_name": "Bíblia em Visão",
+  "description": "Enciclopédia bíblica visual para leitura, pesquisa e estudo pessoal.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3eee4",
+  "theme_color": "#152b38",
+  "lang": "pt-BR"
+}
