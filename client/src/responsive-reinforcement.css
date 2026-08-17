@@ -1,0 +1,78 @@
+/* Cartografia de Leituras — reforço responsivo: em telas estreitas, cada painel vira uma estação de leitura, não um mini-dashboard. */
+
+@media (max-width: 900px) {
+  .main-content { width: 100%; }
+  .topbar-context { min-width: 0; overflow: hidden; }
+  .topbar-context strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .page-section, .book-detail-page { padding-left: clamp(1rem, 4vw, 2rem); padding-right: clamp(1rem, 4vw, 2rem); }
+  .atlas-visual-plates__deck, .atlas-visual-plates__gallery, .atlas-plates-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .atlas-layer-groups, .atlas-controls-grid { grid-template-columns: 1fr; }
+  .atlas-place-list, .atlas-places-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  .topbar { padding-left: 14px; padding-right: 14px; }
+  .topbar-context > span:first-child { display: none; }
+  .topbar-context .context-dot { display: none; }
+
+  .study-desk { padding-top: 2.6rem; padding-bottom: 5.75rem; }
+  .study-desk-header { gap: 1.15rem; margin-bottom: 1.35rem; }
+  .study-desk-header p { font-size: .9rem; line-height: 1.55; }
+  .study-desk-stamp { width: 82px; min-width: 82px; }
+  .study-desk-stamp strong { font-size: 2rem; }
+  .study-desk-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: .8rem; row-gap: .25rem; }
+  .study-desk-metric { min-width: 0; }
+  .study-desk-tabs { margin-left: -1rem; margin-right: -1rem; padding-left: 1rem; padding-right: 1rem; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .study-desk-tabs::-webkit-scrollbar { display: none; }
+  .study-desk-tabs button { min-height: 44px; flex: 0 0 auto; scroll-snap-align: start; }
+  .study-desk-section-heading { align-items: start; flex-direction: column; gap: .45rem; }
+  .study-desk-section-heading h3 { font-size: 1.72rem; }
+  .study-desk-home-grid { gap: .75rem; }
+  .study-desk-progress-card, .study-desk-note-card { min-height: 0; }
+  .study-desk-collection-row { align-items: stretch; gap: .55rem; }
+  .study-desk-collection-row > div { width: 100%; margin-right: 0; }
+  .study-desk-collection-row select, .study-desk-collection-row label, .study-desk-collection-add { min-height: 44px; }
+  .study-desk-collection-row select, .study-desk-collection-row label { flex: 1 1 100%; }
+  .study-desk-collection-row input { width: 100%; }
+  .study-desk-collection-add { justify-content: center; }
+
+  .study-reference-index, .commentary-index { max-height: 294px; overflow-y: auto; overscroll-behavior: contain; }
+  .study-reference-index > button, .commentary-index button { min-height: 52px; }
+  .commentary-controls { align-items: stretch; }
+  .commentary-controls label, .commentary-controls select { width: 100%; min-width: 0; }
+  .commentary-controls > div { width: 100%; gap: .45rem; }
+  .commentary-actions { align-items: stretch; width: 100%; }
+  .commentary-actions > * { min-height: 42px; }
+  .translation-table-wrap { margin-right: -1rem; padding-right: 1rem; }
+  .translation-table-wrap table { min-width: 510px; }
+
+  .module-index { display: flex; overflow-x: auto; gap: .45rem; padding-bottom: .75rem; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .module-index::-webkit-scrollbar { display: none; }
+  .module-index-label { flex: 0 0 100%; }
+  .module-index-item { flex: 0 0 238px; min-height: 64px; scroll-snap-align: start; }
+  .module-hero { min-height: 0; }
+  .module-meta { overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .module-meta span { white-space: nowrap; flex: 0 0 auto; }
+  .lesson-row { min-height: 58px; }
+
+  .atlas-visual-plates__deck, .atlas-visual-plates__gallery, .atlas-plates-grid, .atlas-place-list, .atlas-places-grid { grid-template-columns: 1fr; }
+  .atlas-fallback-map { min-height: 330px; }
+  .atlas-fallback-map__label { flex-wrap: wrap; gap: 4px; }
+  .atlas-fallback-map__footer { align-items: start; flex-direction: column; gap: 3px; }
+
+  .deep-study-reader, .deep-study-shell { min-width: 0; }
+  .deep-study-reader__layers, .deep-study-layer-nav, .deep-study-tabs { overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; }
+  .deep-study-reader__layers::-webkit-scrollbar, .deep-study-layer-nav::-webkit-scrollbar, .deep-study-tabs::-webkit-scrollbar { display: none; }
+  .deep-study-reader__layers > *, .deep-study-layer-nav > *, .deep-study-tabs > * { flex: 0 0 auto; min-height: 42px; scroll-snap-align: start; }
+
+  .mobile-bottom-link { min-height: 50px; }
+}
+
+@media (max-width: 410px) {
+  .page-title-row h1, .encyclopedia-title-row h1, .study-title-row h1 { font-size: 46px; }
+  .study-desk-header h2 { font-size: 2.45rem; }
+  .study-desk-metrics { grid-template-columns: 1fr; }
+  .entity-grid, .reference-strip { grid-template-columns: 1fr; }
+  .module-index-item { flex-basis: 220px; }
+  .atlas-fallback-map { min-height: 290px; }
+}

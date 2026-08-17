@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./responsive-reinforcement.css";
 
 /* Cartografia de Leituras: marfim editorial, azul-tinta, vinho de descoberta e latão para sinais. */
 @custom-variant dark (&:is(.dark *));

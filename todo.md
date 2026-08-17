@@ -479,3 +479,10 @@
 - [x] Reconstruir Anjos e Trindade com textos, conceitos, história da interpretação, limites de certeza e perguntas de revisão.
 - [x] Criar índice lateral de módulos, camadas de “texto”, “contexto”, “significado”, “debate” e “leitura pentecostal”.
 - [x] Validar no celular que o leitor profundo deixa claro onde o usuário está e como avançar sem perder o fio do estudo.
+
+## Revisão responsiva integral
+
+- [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.
+- [ ] Corrigir menus, cabeçalhos, índices, cartões, tabelas, leitores, filtros, formulários e áreas com rolagem horizontal indevida.
+- [ ] Ajustar tamanho de toque, escala tipográfica, espaçamento, hierarquia visual e suporte a redução de movimento em telas menores.
+- [ ] Validar os fluxos de navegação e leitura em celular e tablet antes de publicar.
