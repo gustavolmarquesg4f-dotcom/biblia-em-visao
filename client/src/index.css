@@ -3,6 +3,7 @@
 @import "./responsive-reinforcement.css";
 @import "./mobile-fine-tuning.css";
 @import "./atlas-route-system.css";
+@import "./study-cartography-reinforcement.css";
 
 /* Cartografia de Leituras: marfim editorial, azul-tinta, vinho de descoberta e latão para sinais. */
 @custom-variant dark (&:is(.dark *));

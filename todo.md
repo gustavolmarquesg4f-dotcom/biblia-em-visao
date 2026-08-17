@@ -480,6 +480,13 @@
 - [x] Criar índice lateral de módulos, camadas de “texto”, “contexto”, “significado”, “debate” e “leitura pentecostal”.
 - [x] Validar no celular que o leitor profundo deixa claro onde o usuário está e como avançar sem perder o fio do estudo.
 
+## Próximo ciclo — atlas, comentários e ensino coletivo
+
+- [x] Ampliar o atlas com Babilônia, Sinai e Galileia, incluindo pranchas regionais, vistas contextuais de cidades e ligação aos dossiês existentes.
+- [x] Acrescentar comentários exegéticos desenvolvidos por capítulos para uma nova amostra de livros atualmente marcados como “em expansão”, com camadas de texto, contexto, interpretação, leitura pentecostal/IDB e fonte.
+- [x] Criar uma coleção temática exportável para Escola Dominical e pequenos grupos, com encontros, textos-base, perguntas, objetivos, atividade e roteiro em Markdown.
+- [x] Validar em desktop e celular, salvar checkpoint e sincronizar as ramificações `main` e `gh-pages`.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.
