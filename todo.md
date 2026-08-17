@@ -464,3 +464,10 @@
 - [x] Reproduzir e identificar a falha na rota, nos filtros ou na abertura de biografias da área Pessoas e povos.
 - [x] Corrigir a navegação e os dados para que personagens e povos abram suas fichas de leitura corretamente, mesmo quando o catálogo externo ainda está carregando.
 - [x] Validar rota direta, abertura de fichas e leitura móvel da área Pessoas e povos antes da publicação.
+
+## Estudos profundos — descoberta explícita
+
+- [x] Renomear e reposicionar a entrada de Percursos como Estudos profundos no menu, na jornada e na navegação móvel.
+- [x] Criar cartões de acesso direto para Escatologia, Finanças bíblicas, Espiritualidade, Anjos, Trindade, Espírito Santo e dons.
+- [x] Adicionar rotas diretas e uma busca temática dentro do hub de estudos profundos.
+- [x] Validar em celular que os estudos são encontrados sem depender de conhecer o nome “Percursos de estudo”.

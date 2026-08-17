@@ -21,7 +21,7 @@ const groups: NavigationGroup[] = [
     { id: "search", label: "Busca na rede", note: "Encontrar relações", icon: Search },
   ] },
   { id: "aprofundar", index: "03", label: "Aprofundar", items: [
-    { id: "studies", label: "Percursos de estudo", note: "Temas e roteiros pessoais", icon: Sparkles, count: "17" },
+    { id: "studies", label: "Estudos profundos", note: "Escatologia, temas e doutrinas", icon: Sparkles, count: "19" },
     { id: "study", label: "Mesa de estudo", note: "Exegese e pesquisa", icon: FileText },
     { id: "canon", label: "Cânones e textos", note: "Transmissão e contexto", icon: Layers3 },
     { id: "apocrypha", label: "Apócrifos e textos", note: "Deuterocanônicos e recepção", icon: ScrollText, count: "10" },

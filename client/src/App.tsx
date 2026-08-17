@@ -33,6 +33,7 @@ function Router() {
         <Route path={"/atlas"} component={AtlasEntry} />
         <Route path={"/estudos"} component={StudiesEntry} />
         <Route path={"/percursos"} component={StudiesEntry} />
+        <Route path={"/estudos-profundos"} component={StudiesEntry} />
         <Route path={"/mesa"} component={StudyDeskEntry} />
         <Route path={"/66-livros"} component={BookRoadmapEntry} />
         <Route path={"/apocrifos"} component={ApocryphaEntry} />

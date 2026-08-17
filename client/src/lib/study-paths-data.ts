@@ -155,4 +155,22 @@ export const studyPaths: StudyPath[] = [
       { title: "Esperança compartilhada", references: "1 Timóteo 4 · 1 Pedro 3", summary: "Juventude, testemunho e esperança se formam em comunidades que aprendem a servir e responder com mansidão." },
     ]
   },
+  {
+    id: "anjos-mensageiros-mundo-espiritual", number: "18", category: "Anjos, discernimento e esperança", title: "Anjos, mensageiros e mundo espiritual", lede: "Um estudo que acompanha anjos, mensageiros, visões e conflito espiritual sem transformar imagens bíblicas em curiosidade, medo ou especulação.", question: "O que os textos bíblicos realmente afirmam sobre anjos, e onde precisamos reconhecer os limites da nossa informação?", methodologicalNote: "Distingue gêneros narrativos, poéticos e apocalípticos. Não constrói hierarquias ou nomes além do que os textos sustentam e submete toda experiência ao discernimento cristão.", tags: ["anjos", "discernimento", "Apocalipse", "mundo espiritual"], destination: "apocalypse", destinationLabel: "Abrir Apocalipse e escatologia", steps: [
+      { title: "Mensageiros na história de Israel", references: "Gênesis 16 · Êxodo 3 · Juízes 6", summary: "Observe como mensageiros divinos entram em cenas de promessa, libertação e chamado, sem transformar cada detalhe narrativo em doutrina geral." },
+      { title: "Visões, trono e culto", references: "Isaías 6 · Ezequiel 1 · Daniel 7", summary: "Leia seres celestes e imagens de trono como linguagem de santidade, governo e adoração em visões proféticas situadas." },
+      { title: "Jesus, anjos e conflito", references: "Mateus 4 · Lucas 1–2 · Marcos 1", summary: "Acompanhe anúncio, serviço e conflito nos Evangelhos, mantendo o centro da narrativa em Jesus e não nos seres celestes." },
+      { title: "Discernir sem especular", references: "Colossenses 2 · Hebreus 1–2 · 1 João 4", summary: "As cartas alertam contra fascinação religiosa e pedem discernimento; anjos não substituem Cristo, comunidade, Escritura e responsabilidade." },
+      { title: "Esperança apocalíptica", references: "Apocalipse 5 · 12 · 19–22", summary: "No Apocalipse, os anjos servem à visão de juízo, adoração e nova criação; a leitura responsável evita transformar símbolos em cronograma secreto." },
+    ]
+  },
+  {
+    id: "trindade-pai-filho-espirito", number: "19", category: "Trindade, Cristo e Espírito", title: "Trindade: Pai, Filho e Espírito", lede: "Um percurso bíblico e histórico para entender como a fé cristã confessa um só Deus e fala do Pai, do Filho e do Espírito sem apagar as diferenças entre os textos.", question: "Como a linguagem bíblica sobre Deus, Jesus e o Espírito se tornou a confissão trinitária da igreja?", methodologicalNote: "A palavra “Trindade” é posterior ao Novo Testamento. O estudo começa nos textos, acompanha a recepção histórica e distingue formulação doutrinária, debate acadêmico e leitura pentecostal/IDB.", tags: ["Trindade", "Jesus", "Espírito Santo", "Deus"], destination: "study", destinationLabel: "Abrir mesa de estudo", steps: [
+      { title: "O Deus de Israel", references: "Deuteronômio 6 · Isaías 40–46", summary: "Comece pela afirmação de um Deus único, criador e libertador, antes de usar categorias doutrinárias posteriores." },
+      { title: "O Pai e a missão do Filho", references: "João 1 · João 14–17 · Filipenses 2", summary: "Leia palavras, sinais, oração, envio e exaltação de Jesus no fluxo narrativo e epistolar, evitando fórmulas fora de contexto." },
+      { title: "O Espírito que vivifica", references: "João 14–16 · Atos 2 · Romanos 8", summary: "Acompanhe promessa, presença, dons, santificação e missão na linguagem diversa de Evangelhos, Atos e cartas." },
+      { title: "Batismo, bênção e comunhão", references: "Mateus 28 · 2 Coríntios 13 · Efésios 4", summary: "Compare fórmulas triplas e práticas comunitárias sem pressupor que cada texto já apresenta uma definição conciliar completa." },
+      { title: "Da Escritura à formulação cristã", references: "Atos 15 · Credo Niceno · leitura pentecostal", summary: "Entenda por que a igreja precisou formular sua confissão diante de debates, e como essa linguagem orienta culto, oração e missão hoje." },
+    ]
+  },
 ];
