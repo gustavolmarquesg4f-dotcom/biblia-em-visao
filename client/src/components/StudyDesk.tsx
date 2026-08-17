@@ -1,7 +1,7 @@
 // Cartografia de Leituras: mesa de estudo assimétrica, local-first e metodologicamente explícita.
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, Download, ExternalLink, FileJson, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, Upload, X } from "lucide-react";
+import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, CloudOff, Download, ExternalLink, FileJson, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, Upload, Wifi, X } from "lucide-react";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { bookProfiles } from "@/lib/book-deep";
 import { advancedGlossary, glossaryLanguages, type AdvancedGlossaryEntry, type GlossaryLanguage } from "@/lib/advanced-glossary-data";
@@ -14,6 +14,7 @@ import type { GuidedArticle } from "@/lib/encyclopedic-reading-data";
 import type { CloseReadingFrame } from "@/lib/close-reading-frames";
 import { framesForDetailedBook, loadDetailedBookReadings, type DetailedBookReading } from "@/lib/detailed-book-readings";
 import { loadCoreBookReadings } from "@/lib/core-book-readings";
+import { readOfflinePacks, removeStudyPack, saveStudyPack } from "@/lib/offline-study";
 import "@/study-backup.css";
 import "@/book-roadmap.css";
 
@@ -37,10 +38,14 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
   const [tab, setTab] = useState<DeskTab>(initialTab);
   const [state, setState] = useState<StudyState>(() => readStudyState());
   const [toast, setToast] = useState("");
+  const [online, setOnline] = useState(() => typeof navigator === "undefined" ? true : navigator.onLine);
+  const [savedOffline, setSavedOffline] = useState(() => readOfflinePacks().some((pack) => pack.id === "mesa-e-estudos"));
+  const [savingOffline, setSavingOffline] = useState(false);
   const importInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => writeStudyState(state), [state]);
   useEffect(() => { if (!toast) return; const timer = window.setTimeout(() => setToast(""), 2400); return () => window.clearTimeout(timer); }, [toast]);
+  useEffect(() => { const sync = () => setOnline(navigator.onLine); window.addEventListener("online", sync); window.addEventListener("offline", sync); return () => { window.removeEventListener("online", sync); window.removeEventListener("offline", sync); }; }, []);
 
   const update = (next: StudyState) => setState(next);
   const toggleFavorite = (targetId: string) => update({ ...state, favorites: state.favorites.includes(targetId) ? state.favorites.filter(id => id !== targetId) : [...state.favorites, targetId] });
@@ -48,6 +53,7 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
   const saveDeskNote = (body: string) => { update(upsertNote(state, "mesa-de-estudo", "Minha mesa de estudo", body)); setToast("Nota guardada neste dispositivo."); };
   const exportBackup = () => { const backup = createStudyBackup(state); const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" }); const url = URL.createObjectURL(blob); const anchor = document.createElement("a"); anchor.href = url; anchor.download = `biblia-em-visao-estudo-${backup.exportedAt.slice(0, 10)}.json`; anchor.click(); window.setTimeout(() => URL.revokeObjectURL(url), 0); setToast("Backup baixado. Guarde o arquivo em local seguro."); };
   const importBackup = async (file: File | undefined) => { if (!file) return; if (file.size > 2_000_000) { setToast("O arquivo é grande demais para um backup local desta mesa."); return; } const parsed = parseStudyBackup(await file.text()); if (!parsed.ok) { setToast(parsed.message); return; } update(mergeStudyStates(state, parsed.backup.state)); setToast(`Backup de ${new Date(parsed.backup.exportedAt).toLocaleDateString("pt-BR")} mesclado sem apagar seus dados atuais.`); };
+  const toggleOfflinePack = async () => { setSavingOffline(true); try { if (savedOffline) { await removeStudyPack(); setSavedOffline(false); setToast("Pacote offline removido deste dispositivo."); } else { await saveStudyPack(); setSavedOffline(true); setToast("Mesa e estudos essenciais salvos para leitura offline."); } } catch { setToast("Não foi possível preparar o pacote offline agora. Tente novamente com conexão."); } finally { setSavingOffline(false); } };
   const activeNote = state.notes.find(note => note.targetId === "mesa-de-estudo")?.body || "";
 
   return <section className="study-desk page-section" aria-labelledby="study-desk-title">
@@ -59,6 +65,10 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
       </div>
       <div className="study-desk-stamp"><strong>{state.completed.length}</strong><span>marcos<br />concluídos</span></div>
     </header>
+    <div className={`offline-study-strip ${online ? "is-online" : "is-offline"}`} role="status">
+      <div className="offline-study-status">{online ? <Wifi size={16} /> : <CloudOff size={16} />}<span><strong>{online ? "Conectado" : "Sem conexão"}</strong>{online ? " · suas notas já ficam neste dispositivo" : " · notas, favoritos e estudos salvos continuam disponíveis"}</span></div>
+      <button type="button" onClick={toggleOfflinePack} disabled={savingOffline || (!online && !savedOffline)}>{savingOffline ? "Preparando…" : savedOffline ? "Remover pacote local" : "Salvar estudos no celular"}</button>
+    </div>
     <div className="study-desk-metrics" aria-label="Resumo do estudo"><Metric icon={Bookmark} value={state.favorites.length} label="salvos" /><Metric icon={NotebookPen} value={state.notes.length} label="notas" /><Metric icon={Target} value={state.completed.length} label="marcos" /><Metric icon={Trophy} value={Object.keys(state.quizBest).length} label="quizzes" /></div>
     <nav className="study-desk-tabs" aria-label="Ferramentas da mesa" role="tablist">{tabLabels.map(({ id, label, icon: Icon }) => <button key={id} className={tab === id ? "is-active" : ""} onClick={() => setTab(id)} role="tab" aria-selected={tab === id}><Icon size={15} />{label}</button>)}</nav>
     <div className="study-desk-body">

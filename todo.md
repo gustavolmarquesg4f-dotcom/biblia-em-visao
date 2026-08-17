@@ -486,3 +486,11 @@
 - [ ] Corrigir menus, cabeçalhos, índices, cartões, tabelas, leitores, filtros, formulários e áreas com rolagem horizontal indevida.
 - [ ] Ajustar tamanho de toque, escala tipográfica, espaçamento, hierarquia visual e suporte a redução de movimento em telas menores.
 - [ ] Validar os fluxos de navegação e leitura em celular e tablet antes de publicar.
+
+## Modo offline local-first
+
+- [x] Auditar roteiros, notas, favoritos, progresso e corpus de estudo que já persistem no dispositivo.
+- [x] Configurar PWA com manifesto, service worker e cache de navegação, aplicação e conteúdos essenciais.
+- [x] Adicionar indicadores de conexão e comandos para salvar/remover estudos no dispositivo.
+- [x] Permitir baixar e acessar localmente roteiros pessoais, notas, favoritos, progresso e estudos selecionados.
+- [x] Validar manifesto, service worker, criação do pacote local e leitura da mesa em prévia de produção; a instalação e a desconexão real podem ser confirmadas no aparelho após a publicação.
