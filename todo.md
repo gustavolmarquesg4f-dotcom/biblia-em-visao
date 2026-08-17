@@ -471,3 +471,11 @@
 - [x] Criar cartões de acesso direto para Escatologia, Finanças bíblicas, Espiritualidade, Anjos, Trindade, Espírito Santo e dons.
 - [x] Adicionar rotas diretas e uma busca temática dentro do hub de estudos profundos.
 - [x] Validar em celular que os estudos são encontrados sem depender de conhecer o nome “Percursos de estudo”.
+
+## Estudos profundos — da rota ao leitor enciclopédico
+
+- [x] Definir uma hierarquia comum: visão do tema, módulos, textos, explicação, debates, leitura pentecostal/IDB e fontes.
+- [x] Reconstruir Escatologia, Finanças e Espiritualidade com unidades explicativas desenvolvidas, não apenas passos resumidos.
+- [x] Reconstruir Anjos e Trindade com textos, conceitos, história da interpretação, limites de certeza e perguntas de revisão.
+- [x] Criar índice lateral de módulos, camadas de “texto”, “contexto”, “significado”, “debate” e “leitura pentecostal”.
+- [x] Validar no celular que o leitor profundo deixa claro onde o usuário está e como avançar sem perder o fio do estudo.
