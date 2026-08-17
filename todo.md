@@ -502,3 +502,11 @@
 - [ ] Testar persistência local, backup/importação, pacote offline e recuperação de estados em produção.
 - [ ] Executar auditoria visual e responsiva em celular, tablet e desktop, registrando itens aprovados, pendentes e falhas corrigidas.
 - [ ] Corrigir regressões e publicar somente após nova rodada de validação completa.
+
+## Desempenho, cobertura e PWA
+
+- [x] Separar o carregamento inicial do atlas e dos hubs principais de investigação, estudos, cânon, bibliografia e busca.
+- [x] Criar painel de cobertura de livros, capítulos, personagens, lugares, temas e estudos profundos.
+- [x] Adicionar checklist guiado de instalação PWA e uso em modo avião para Android e iPhone.
+- [x] Validar divisão sob demanda, responsividade e cache; o bundle principal caiu de 2,28 MB para 1,91 MB, redução de 16,36%.
+- [ ] Sincronizar a versão final com as branches main e gh-pages do GitHub.

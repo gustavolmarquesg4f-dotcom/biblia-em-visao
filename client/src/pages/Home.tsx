@@ -1,5 +1,5 @@
 // Cartografia de Leituras: mesa editorial assimétrica, com rotas, fichas e grandes aberturas para o conteúdo.
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -12,19 +12,13 @@ import { theologyCategories, theologyEntries, type TheologyEntry } from "@/lib/p
 import { completeBookEntries, type CompleteBook } from "@/lib/complete-book-data";
 import GenesisRelationalDetail from "@/components/GenesisRelationalDetail";
 import { apocalypseSources, apocalypseUnits, interpretationSchools, millennialViews, revelationChurches } from "@/lib/apocalypse-data";
-import ApocalypseHub from "@/components/ApocalypseHub";
-import { MapView } from "@/components/Map";
 import { advancedDossiers, biblicalPlaces } from "@/lib/advanced-data";
 import "@/advanced-atlas.css";
 import "@/advanced-encyclopedia.css";
 import "@/advanced-books.css";
 import "@/cartography-polish.css";
 import "@/genesis-relational.css";
-import AdvancedBookLibrary from "@/components/AdvancedBookLibrary";
-import BibliographyHub from "@/components/BibliographyHub";
-import InteractiveAtlas from "@/components/InteractiveAtlas";
 import BookDetailRouter from "@/components/BookDetailRouter";
-import KnowledgeSearchPanel from "@/components/KnowledgeSearchPanel";
 import EntityPanel from "@/components/EntityPanel";
 import { loadBiographyCatalog } from "@/lib/biography-data";
 import ExegesisSpotlight from "@/components/ExegesisSpotlight";
@@ -38,12 +32,27 @@ import "@/advanced-research.css";
 import "@/atlas-system-reinforcement.css";
 import JourneyNavigator, { JourneyCompass } from "@/components/JourneyNavigator";
 import "@/journey-navigation.css";
-import StudyPathsHub from "@/components/StudyPathsHub";
 import "@/study-paths.css";
 import StudyDesk from "@/components/StudyDesk";
-import ApocryphaHub from "@/components/ApocryphaHub";
-import BiblicalHistoryHub from "@/components/BiblicalHistoryHub";
 import BeginHerePortal from "@/components/BeginHerePortal";
+
+const InteractiveAtlas = lazy(() => import("@/components/InteractiveAtlas"));
+const LazyApocalypseHub = lazy(() => import("@/components/ApocalypseHub"));
+const LazyAdvancedBookLibrary = lazy(() => import("@/components/AdvancedBookLibrary"));
+const LazyBibliographyHub = lazy(() => import("@/components/BibliographyHub"));
+const LazyKnowledgeSearchPanel = lazy(() => import("@/components/KnowledgeSearchPanel"));
+const LazyStudyPathsHub = lazy(() => import("@/components/StudyPathsHub"));
+const LazyApocryphaHub = lazy(() => import("@/components/ApocryphaHub"));
+const LazyBiblicalHistoryHub = lazy(() => import("@/components/BiblicalHistoryHub"));
+
+function DeferredHub({ children }: { children: ReactNode }) { return <Suspense fallback={<section className="page-section"><div className="page-intro"><Eyebrow number="07">Enciclopédia em camadas</Eyebrow><h1>Preparando a <em>leitura.</em></h1><p>O módulo escolhido está sendo carregado para que a primeira tela permaneça mais leve.</p></div></section>}>{children}</Suspense>; }
+const ApocalypseHub = () => <DeferredHub><LazyApocalypseHub /></DeferredHub>;
+const AdvancedBookLibrary = () => <DeferredHub><LazyAdvancedBookLibrary /></DeferredHub>;
+const BibliographyHub = () => <DeferredHub><LazyBibliographyHub /></DeferredHub>;
+const KnowledgeSearchPanel = (props: any) => <DeferredHub><LazyKnowledgeSearchPanel {...props} /></DeferredHub>;
+const StudyPathsHub = (props: any) => <DeferredHub><LazyStudyPathsHub {...props} /></DeferredHub>;
+const ApocryphaHub = (props: any) => <DeferredHub><LazyApocryphaHub {...props} /></DeferredHub>;
+const BiblicalHistoryHub = (props: any) => <DeferredHub><LazyBiblicalHistoryHub {...props} /></DeferredHub>;
 
 type View = "overview" | "start" | "library" | "study" | "studies" | "theology" | "people" | "canon" | "apocrypha" | "glossary" | "search" | "timeline" | "history" | "atlas" | "themes" | "apocalypse" | "bibliography";
 const heroImage = staticAsset("assets/biblia-hero.jpg");
@@ -82,7 +91,7 @@ function Library(_props: { books: Book[]; search: string; setSearch: (v: string)
 
 function Timeline({ openBook }: { openBook: (book: Book) => void }) { const [selected, setSelected] = useState(0); const current = timeline[selected]; return <section className="page-section timeline-page"><div className="page-intro"><Eyebrow number="06">Cronologia interativa</Eyebrow><div className="page-title-row"><div><h1>O fio do <em>tempo</em></h1><p>Selecione um período para ver sua descrição, o movimento histórico e um livro de entrada relacionado.</p></div><div className="period-card"><span>8</span><small>períodos<br />indexados</small></div></div></div><div className="timeline-hero" style={{ backgroundImage: `linear-gradient(90deg,rgba(23,42,58,.94),rgba(23,42,58,.35)),url(${timelineImage})` }}><div><span className="timeline-kicker">Período selecionado · {current.date}</span><strong>{current.label}</strong><p>{current.description}</p><button className="primary-action" onClick={() => openBook(bibleBooks[Math.min(selected * 8, 65)])}>Abrir livro relacionado <ArrowRight size={16} /></button></div><div className="timeline-axis"><span>antes</span><span>agora</span><span>depois</span></div></div><div className="timeline-list">{timeline.map((item, index) => <button type="button" className={`timeline-item ${selected === index ? "is-selected" : ""}`} key={item.label} onClick={() => setSelected(index)} aria-pressed={selected === index}><div className="timeline-marker"><span>{String(index + 1).padStart(2, "0")}</span><i /></div><div className="timeline-content"><div className="timeline-meta"><span>{item.date}</span><span className="timeline-dot" /></div><h2>{item.label}</h2><p>{item.description}</p><span className="text-action text-action--dark">Selecionar período <ChevronRight size={14} /></span></div></button>)}</div></section>; }
 
-function Atlas({ go, focusPlaceId, onFocusHandled }: { go: (view: View) => void; focusPlaceId?: string | null; onFocusHandled?: () => void }) { return <InteractiveAtlas go={view => go(view)} focusPlaceId={focusPlaceId} onFocusHandled={onFocusHandled} />; }
+function Atlas({ go, focusPlaceId, onFocusHandled }: { go: (view: View) => void; focusPlaceId?: string | null; onFocusHandled?: () => void }) { return <Suspense fallback={<section className="page-section"><div className="page-intro"><Eyebrow number="07">Atlas geohistórico</Eyebrow><h1>Preparando o <em>atlas.</em></h1><p>As rotas, cidades e camadas cartográficas estão sendo carregadas para esta leitura.</p></div></section>}><InteractiveAtlas go={view => go(view)} focusPlaceId={focusPlaceId} onFocusHandled={onFocusHandled} /></Suspense>; }
 
 function Themes({ go }: { go: (label: string) => void }) { return <section className="page-section themes-page"><div className="page-intro"><Eyebrow number="08">Índice temático</Eyebrow><div className="page-title-row"><div><h1>As palavras que <em>atravessam</em></h1><p>Temas não são caixas fechadas. São fios que mudam de cor quando passam por livros, épocas e vozes diferentes.</p></div></div></div><div className="theme-layout"><div className="theme-intro-image" style={{ backgroundImage: `linear-gradient(0deg,rgba(23,42,58,.86),rgba(23,42,58,.04)),url(${studyImage})` }}><span>Fichas de estudo</span><strong>Escolha uma palavra.<br />Siga seus rastros.</strong></div><div className="theme-cards">{themes.map((item, index) => <button className={`theme-card theme-card--${item.tone}`} key={item.label} onClick={() => go(item.label)}><span className="theme-card-index">{String(index + 1).padStart(2, "0")}</span><div><h2>{item.label}</h2><p>{item.detail}</p><span className="theme-card-link">Ver livros relacionados <ArrowRight size={14} /></span></div></button>)}</div></div></section>; }
 

@@ -15,10 +15,11 @@ import type { CloseReadingFrame } from "@/lib/close-reading-frames";
 import { framesForDetailedBook, loadDetailedBookReadings, type DetailedBookReading } from "@/lib/detailed-book-readings";
 import { loadCoreBookReadings } from "@/lib/core-book-readings";
 import { readOfflinePacks, removeStudyPack, saveStudyPack } from "@/lib/offline-study";
+import StudyCoverageBoard from "@/components/StudyCoverageBoard";
 import "@/study-backup.css";
 import "@/book-roadmap.css";
 
-type DeskTab = "mesa" | "glossario" | "traducoes" | "roteiro" | "comentarios" | "quizzes";
+type DeskTab = "mesa" | "glossario" | "traducoes" | "roteiro" | "comentarios" | "cobertura" | "quizzes";
 
 type StudyDeskProps = {
   openBook: (book: Book) => void;
@@ -31,6 +32,7 @@ const tabLabels: { id: DeskTab; label: string; icon: typeof Library }[] = [
   { id: "traducoes", label: "Traduções", icon: Layers3 },
   { id: "roteiro", label: "66 livros", icon: Library },
   { id: "comentarios", label: "Versículo a versículo", icon: FileText },
+  { id: "cobertura", label: "Cobertura", icon: Target },
   { id: "quizzes", label: "Revisão", icon: Trophy },
 ];
 
@@ -69,6 +71,7 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
       <div className="offline-study-status">{online ? <Wifi size={16} /> : <CloudOff size={16} />}<span><strong>{online ? "Conectado" : "Sem conexão"}</strong>{online ? " · suas notas já ficam neste dispositivo" : " · notas, favoritos e estudos salvos continuam disponíveis"}</span></div>
       <button type="button" onClick={toggleOfflinePack} disabled={savingOffline || (!online && !savedOffline)}>{savingOffline ? "Preparando…" : savedOffline ? "Remover pacote local" : "Salvar estudos no celular"}</button>
     </div>
+    <details className="offline-install-guide"><summary>Como instalar e confirmar a leitura sem internet</summary><ol><li>Com conexão, toque em <strong>Salvar estudos no celular</strong> para preparar o pacote local.</li><li>No <strong>Android</strong>, abra o menu do navegador e escolha <strong>Instalar aplicativo</strong> ou <strong>Adicionar à tela inicial</strong>.</li><li>No <strong>iPhone</strong>, abra no Safari, toque em <strong>Compartilhar</strong> e depois em <strong>Adicionar à Tela de Início</strong>.</li><li>Abra a Mesa pelo ícone instalado, ative o modo avião e confira se notas, roteiros e estudos salvos continuam disponíveis.</li></ol><p>O pacote offline salva conteúdo escolhido neste aparelho; ele não substitui o backup exportável das suas notas.</p></details>
     <div className="study-desk-metrics" aria-label="Resumo do estudo"><Metric icon={Bookmark} value={state.favorites.length} label="salvos" /><Metric icon={NotebookPen} value={state.notes.length} label="notas" /><Metric icon={Target} value={state.completed.length} label="marcos" /><Metric icon={Trophy} value={Object.keys(state.quizBest).length} label="quizzes" /></div>
     <nav className="study-desk-tabs" aria-label="Ferramentas da mesa" role="tablist">{tabLabels.map(({ id, label, icon: Icon }) => <button key={id} className={tab === id ? "is-active" : ""} onClick={() => setTab(id)} role="tab" aria-selected={tab === id}><Icon size={15} />{label}</button>)}</nav>
     <div className="study-desk-body">
@@ -77,6 +80,7 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
       {tab === "traducoes" && <TranslationsDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} />}
       {tab === "roteiro" && <BookRoadmapDesk openBook={openBook} toggleFavorite={toggleFavorite} state={state} />}
       {tab === "comentarios" && <CommentaryDesk state={state} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} openBook={openBook} />}
+      {tab === "cobertura" && <StudyCoverageBoard />}
       {tab === "quizzes" && <QuizDesk state={state} update={update} toggleCompleted={toggleCompleted} />}
     </div>
     {toast && <div className="study-desk-toast" role="status"><Check size={15} />{toast}</div>}
