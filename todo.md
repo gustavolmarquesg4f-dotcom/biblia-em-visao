@@ -494,3 +494,11 @@
 - [x] Adicionar indicadores de conexão e comandos para salvar/remover estudos no dispositivo.
 - [x] Permitir baixar e acessar localmente roteiros pessoais, notas, favoritos, progresso e estudos selecionados.
 - [x] Validar manifesto, service worker, criação do pacote local e leitura da mesa em prévia de produção; a instalação e a desconexão real podem ser confirmadas no aparelho após a publicação.
+
+## QA integral — validação do que foi planejado
+
+- [ ] Criar matriz de QA para rotas, menus, busca, dossiês, pessoas, atlas, estudos, leitores, histórico, apócrifos, notas, backup e offline.
+- [ ] Testar em navegador cada rota direta, botão, filtro, cartão, painel, formulário, seleção e conexão interna relevante.
+- [ ] Testar persistência local, backup/importação, pacote offline e recuperação de estados em produção.
+- [ ] Executar auditoria visual e responsiva em celular, tablet e desktop, registrando itens aprovados, pendentes e falhas corrigidas.
+- [ ] Corrigir regressões e publicar somente após nova rodada de validação completa.
