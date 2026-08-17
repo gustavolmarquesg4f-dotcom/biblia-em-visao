@@ -495,6 +495,12 @@
 - [x] Aplicar microinterações de alto desempenho, respeitando redução de movimento, foco de teclado e alvos de toque em celular.
 - [x] Auditar desktop e celular, revisar visualmente, salvar checkpoint e sincronizar Manus e GitHub Pages.
 
+## Correção urgente — atlas sem mapa ou imagens
+
+- [x] Reproduzir no ambiente de desenvolvimento as falhas de carregamento do mapa do provedor, da prancha regional e dos cartões de cidades.
+- [x] Corrigir URLs, tratamento de erro e contingência para que imagens e mapa funcional apareçam sem depender de um único recurso externo.
+- [x] Validar camadas, seleção de lugares, imagens de contexto, desktop e celular antes de publicar a correção.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.
