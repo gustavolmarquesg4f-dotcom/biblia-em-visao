@@ -16,6 +16,7 @@ function BookRoadmapEntry(_props: unknown) { return <Home initialView="study" in
 function ApocryphaEntry(_props: unknown) { return <Home initialView="apocrypha" />; }
 function HistoryEntry(_props: unknown) { return <Home initialView="history" />; }
 function SearchEntry(_props: unknown) { return <Home initialView="search" />; }
+function PeopleEntry(_props: unknown) { return <Home initialView="people" />; }
 function BeginHereEntry(_props: unknown) { return <BeginHerePage />; }
 function HomeEntry(_props: unknown) { return <Home />; }
 
@@ -38,6 +39,9 @@ function Router() {
         <Route path={"/deuterocanonicos"} component={ApocryphaEntry} />
         <Route path={"/historia"} component={HistoryEntry} />
         <Route path={"/busca"} component={SearchEntry} />
+        <Route path={"/pessoas"} component={PeopleEntry} />
+        <Route path={"/povos"} component={PeopleEntry} />
+        <Route path={"/pessoas-e-povos"} component={PeopleEntry} />
         <Route path={"/comece"} component={BeginHereEntry} />
         <Route path={"/apocalipse"} component={ApocalypseEntry} />
         <Route path={"/escatologia"} component={ApocalypseEntry} />

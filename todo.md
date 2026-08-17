@@ -458,3 +458,9 @@
 - [x] Conectar lugares, cidades, rotas e impérios ao atlas a partir dos verbetes e dos dossiês relacionais já indexados.
 - [x] Criar uma porta inicial com os caminhos “começar do zero”, “pesquisar um assunto” e “estudar um livro a fundo”.
 - [x] Validar TypeScript, build, descoberta, busca por pergunta e responsividade dos novos recursos antes da publicação.
+
+## Correção urgente — Pessoas e povos
+
+- [x] Reproduzir e identificar a falha na rota, nos filtros ou na abertura de biografias da área Pessoas e povos.
+- [x] Corrigir a navegação e os dados para que personagens e povos abram suas fichas de leitura corretamente, mesmo quando o catálogo externo ainda está carregando.
+- [x] Validar rota direta, abertura de fichas e leitura móvel da área Pessoas e povos antes da publicação.
