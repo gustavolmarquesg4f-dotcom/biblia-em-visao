@@ -510,3 +510,11 @@
 - [x] Adicionar checklist guiado de instalação PWA e uso em modo avião para Android e iPhone.
 - [x] Validar divisão sob demanda, responsividade e cache; o bundle principal caiu de 2,28 MB para 1,91 MB, redução de 16,36%.
 - [ ] Sincronizar a versão final com as branches main e gh-pages do GitHub.
+
+## Elevação de profundidade — apócrifos, atlas e celular
+
+- [ ] Auditar os apócrifos por texto para substituir resumos por leitura enciclopédica detalhada e navegável.
+- [ ] Criar mapas regionais explícitos e imagens contextuais de cidades para conectar geografia, textos e eventos.
+- [ ] Reestruturar as pranchas do atlas para que mapas, regiões, rotas, cidades e fontes apareçam antes dos controles técnicos.
+- [ ] Corrigir hierarquia, espaçamento, fluidez e densidade nas telas móveis de apócrifos, atlas e leitores extensos.
+- [ ] Validar a elevação de qualidade em desktop, celular e tablet antes de publicar.

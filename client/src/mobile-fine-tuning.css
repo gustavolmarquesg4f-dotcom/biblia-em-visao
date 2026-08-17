@@ -1,0 +1,22 @@
+/* Cartografia de Leituras: o celular privilegia um único fluxo vertical legível, sem recorte lateral. */
+@media (max-width: 560px) {
+  .apocrypha-hub__catalog-head h2,
+  .apocrypha-hub__catalog-head h2 em,
+  .apocrypha-hub__catalog-head p,
+  .apocrypha-detail header p,
+  .apocrypha-detail footer strong {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .apocrypha-hub__catalog-head h2 {
+    font-size: 1.85rem;
+    line-height: 1;
+  }
+
+  .apocrypha-detail header > div,
+  .apocrypha-hub__catalog button > div {
+    min-width: 0;
+  }
+}

@@ -75,3 +75,7 @@ O primeiro lançamento usa o cânon protestante de 66 livros como base de navega
 2. O wordmark trata **Bíblia** como título editorial em DM Serif Display e **em visão geral** como legenda espaçada de atlas, sempre acompanhado do símbolo livro–bússola–rota.
 3. Busca, filtros e listas serão tratados como índices, legendas ou fichas de arquivo; evitar a aparência de formulários neutros.
 4. Superfícies de orientação, investigação e aprofundamento devem alternar escala, pausas e intensidade para a leitura longa não parecer uma parede homogênea de cartões.
+5. Toda página não geográfica deve manter uma rota, coordenada, trilha de estações, linha de relação, legenda ou fólio visível, para que a cartografia permaneça funcional mesmo no estudo textual.
+6. Sequências densas assumem forma de placa de arquivo ou índice catalográfico e incluem uma âncora editorial assimétrica, interrompendo paredes de cartões uniformes.
+7. A Mesa de estudo é um arquivo pessoal: fichas, marcadores, notas de margem, acervos e rastros de investigação têm precedência visual sobre metáforas genéricas de produtividade.
+8. A faixa superior de orientação funciona como legenda de atlas, mostrando posição, camada ativa e próxima conexão; vinho marca rota e numeração, enquanto latão marca descoberta e ação principal.

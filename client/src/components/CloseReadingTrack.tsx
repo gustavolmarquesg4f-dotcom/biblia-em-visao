@@ -2,15 +2,17 @@ import { useEffect, useState } from "react";
 import { BookOpenCheck, ChevronRight, Link2, MapPin, Sparkles } from "lucide-react";
 import type { GuidedArticle } from "@/lib/encyclopedic-reading-data";
 import { closeReadingFrames, type CloseReadingFrame } from "@/lib/close-reading-frames";
+import { apocryphaDeepStories } from "@/lib/apocrypha-deep-readings";
 import "@/close-reading.css";
 
 export function CloseReadingTrack({ readingId, article, units: suppliedUnits }: { readingId?: string; article: GuidedArticle; units?: CloseReadingFrame[] }) {
   const supplied = readingId ? closeReadingFrames[readingId] : undefined;
+  const deepStories = readingId ? apocryphaDeepStories[readingId] : undefined;
   const units: CloseReadingFrame[] = suppliedUnits?.length ? suppliedUnits : supplied?.length ? supplied : article.story.map((_, index) => ({ range: `Movimento ${index + 1}`, title: `Parte ${index + 1} da leitura`, question: "O que esta parte está mostrando ao leitor?" }));
   const [active, setActive] = useState(0);
   useEffect(() => setActive(0), [readingId]);
   const frame = units[active] ?? units[0];
-  const story = article.story[active] ?? article.story[0];
+  const story = deepStories?.[active] ?? article.story[active] ?? article.story[0];
   const meaning = article.meaning[active % article.meaning.length];
   const person = article.peopleAndPlaces[active % article.peopleAndPlaces.length];
   const connection = article.connections[active % article.connections.length];

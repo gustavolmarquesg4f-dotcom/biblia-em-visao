@@ -76,3 +76,13 @@
   .module-index-item { flex-basis: 220px; }
   .atlas-fallback-map { min-height: 290px; }
 }
+
+@media (max-width: 560px) {
+  .page-section, .book-detail-page, .main-content { min-width: 0; max-width: 100%; overflow-x: clip; }
+  .page-title-row { gap: .85rem; }
+  .atlas-layer-catalog button, .atlas-period-switcher button, .atlas-timeline-controls button { min-height: 42px; }
+  .atlas-place-list { max-height: 330px; overflow-y: auto; overscroll-behavior: contain; }
+  .atlas-dossier-foot { display: grid; grid-template-columns: 1fr; gap: .55rem; }
+  .atlas-dossier-foot button { width: 100%; min-height: 44px; justify-content: space-between; }
+  .deep-study-reader p, .study-desk p { line-height: 1.62; }
+}

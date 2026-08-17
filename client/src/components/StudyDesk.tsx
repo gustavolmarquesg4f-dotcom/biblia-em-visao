@@ -1,5 +1,6 @@
 // Cartografia de Leituras: mesa de estudo assimétrica, local-first e metodologicamente explícita.
 
+// Cartografia de Leituras: esta mesa é um arquivo pessoal de fichas, margens e rotas salvas.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, Bookmark, BookmarkCheck, Check, ChevronDown, CircleHelp, CloudOff, Download, ExternalLink, FileJson, FileText, FolderPlus, Layers3, Library, NotebookPen, Plus, Search, Sparkles, Target, Trophy, Upload, Wifi, X } from "lucide-react";
 import { bibleBooks, type Book } from "@/lib/bible-data";
@@ -67,12 +68,13 @@ export default function StudyDesk({ openBook, initialTab = "mesa" }: StudyDeskPr
       </div>
       <div className="study-desk-stamp"><strong>{state.completed.length}</strong><span>marcos<br />concluídos</span></div>
     </header>
+    <div className="atlas-route-ledger study-desk-route-ledger" aria-label="Legenda de arquivo pessoal"><span>Arquivo pessoal · rota de investigação</span><strong>Fichas <i /> margens <i /> acervos <i /> revisões</strong><em>{state.notes.length} notas guardadas</em></div>
     <div className={`offline-study-strip ${online ? "is-online" : "is-offline"}`} role="status">
       <div className="offline-study-status">{online ? <Wifi size={16} /> : <CloudOff size={16} />}<span><strong>{online ? "Conectado" : "Sem conexão"}</strong>{online ? " · suas notas já ficam neste dispositivo" : " · notas, favoritos e estudos salvos continuam disponíveis"}</span></div>
       <button type="button" onClick={toggleOfflinePack} disabled={savingOffline || (!online && !savedOffline)}>{savingOffline ? "Preparando…" : savedOffline ? "Remover pacote local" : "Salvar estudos no celular"}</button>
     </div>
     <details className="offline-install-guide"><summary>Como instalar e confirmar a leitura sem internet</summary><ol><li>Com conexão, toque em <strong>Salvar estudos no celular</strong> para preparar o pacote local.</li><li>No <strong>Android</strong>, abra o menu do navegador e escolha <strong>Instalar aplicativo</strong> ou <strong>Adicionar à tela inicial</strong>.</li><li>No <strong>iPhone</strong>, abra no Safari, toque em <strong>Compartilhar</strong> e depois em <strong>Adicionar à Tela de Início</strong>.</li><li>Abra a Mesa pelo ícone instalado, ative o modo avião e confira se notas, roteiros e estudos salvos continuam disponíveis.</li></ol><p>O pacote offline salva conteúdo escolhido neste aparelho; ele não substitui o backup exportável das suas notas.</p></details>
-    <div className="study-desk-metrics" aria-label="Resumo do estudo"><Metric icon={Bookmark} value={state.favorites.length} label="salvos" /><Metric icon={NotebookPen} value={state.notes.length} label="notas" /><Metric icon={Target} value={state.completed.length} label="marcos" /><Metric icon={Trophy} value={Object.keys(state.quizBest).length} label="quizzes" /></div>
+    <div className="study-desk-metrics" aria-label="Resumo do arquivo de estudo"><Metric icon={Bookmark} value={state.favorites.length} label="fichas salvas" /><Metric icon={NotebookPen} value={state.notes.length} label="margens" /><Metric icon={Target} value={state.completed.length} label="estações" /><Metric icon={Trophy} value={Object.keys(state.quizBest).length} label="revisões" /></div>
     <nav className="study-desk-tabs" aria-label="Ferramentas da mesa" role="tablist">{tabLabels.map(({ id, label, icon: Icon }) => <button key={id} className={tab === id ? "is-active" : ""} onClick={() => setTab(id)} role="tab" aria-selected={tab === id}><Icon size={15} />{label}</button>)}</nav>
     <div className="study-desk-body">
       {tab === "mesa" && <DeskHome state={state} activeNote={activeNote} saveDeskNote={saveDeskNote} toggleFavorite={toggleFavorite} toggleCompleted={toggleCompleted} update={update} setTab={setTab} exportBackup={exportBackup} importBackup={importBackup} importInputRef={importInputRef} />}
