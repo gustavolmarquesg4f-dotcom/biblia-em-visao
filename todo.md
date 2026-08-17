@@ -487,6 +487,14 @@
 - [x] Criar uma coleção temática exportável para Escola Dominical e pequenos grupos, com encontros, textos-base, perguntas, objetivos, atividade e roteiro em Markdown.
 - [x] Validar em desktop e celular, salvar checkpoint e sincronizar as ramificações `main` e `gh-pages`.
 
+## Próximo ciclo — UX/UI futurista e fluidez de navegação
+
+- [x] Definir uma linguagem visual futurista que preserve a cartografia editorial: superfícies translúcidas, sinais de sistema, coordenadas vivas e contraste acessível.
+- [x] Reforçar a navegação global e móvel com orientação de contexto, busca de acesso rápido, atalhos de retorno e transições entre áreas relacionadas.
+- [x] Criar componentes de interface para comando rápido, indicador de progresso, estado ativo e feedback de interação sem transformar a enciclopédia em um painel genérico.
+- [x] Aplicar microinterações de alto desempenho, respeitando redução de movimento, foco de teclado e alvos de toque em celular.
+- [x] Auditar desktop e celular, revisar visualmente, salvar checkpoint e sincronizar Manus e GitHub Pages.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.

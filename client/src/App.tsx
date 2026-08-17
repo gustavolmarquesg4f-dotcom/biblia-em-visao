@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import PublicationStatus from "./components/PublicationStatus";
 import BeginHerePage from "./components/BeginHerePage";
+import ExperienceCommandLayer from "./components/ExperienceCommandLayer";
 
 function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
 function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
@@ -28,6 +29,7 @@ function Router() {
 
   return (
     <WouterRouter base={basePath}>
+      <ExperienceCommandLayer />
       <Switch>
         <Route path={"/"} component={HomeEntry} />
         <Route path={"/atlas"} component={AtlasEntry} />

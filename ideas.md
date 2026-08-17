@@ -79,3 +79,24 @@ O primeiro lançamento usa o cânon protestante de 66 livros como base de navega
 6. Sequências densas assumem forma de placa de arquivo ou índice catalográfico e incluem uma âncora editorial assimétrica, interrompendo paredes de cartões uniformes.
 7. A Mesa de estudo é um arquivo pessoal: fichas, marcadores, notas de margem, acervos e rastros de investigação têm precedência visual sobre metáforas genéricas de produtividade.
 8. A faixa superior de orientação funciona como legenda de atlas, mostrando posição, camada ativa e próxima conexão; vinho marca rota e numeração, enquanto latão marca descoberta e ação principal.
+
+## Evolução futurista — Acervo de Sinais Vivos
+
+### Intenção
+
+A interface passa a tratar a enciclopédia como um **atlas de pesquisa vivo**: preserva papel, arquivo e história, mas adiciona precisão de instrumento contemporâneo. O resultado não será neon genérico nem um painel escuro; será uma superfície clara, tátil e tecnológica, em que sinais, rotas e respostas de interface fazem a leitura parecer contínua.
+
+### Princípios de UX
+
+1. **Comando sem labirinto:** a pessoa pode saltar para livros, lugares, temas e busca por meio de uma paleta de comando e atalhos evidentes, sem abandonar sua posição de leitura.
+2. **Contexto persistente:** cabeçalho, navegação móvel e telas densas mostrarão a camada atual, o caminho percorrido e uma próxima conexão útil.
+3. **Feedback silencioso:** estados ativos, salvamento local, carregamento e sucesso serão comunicados por sinais discretos, não por alertas invasivos.
+4. **Futuro acessível:** vidro, brilho, linhas de sinal e movimento serão moderados, com contraste alto, foco de teclado explícito e redução de movimento respeitada.
+
+### Linguagem de interface
+
+Superfícies claras assumem transparência curta, bordas de latão translúcido e ruído cartográfico mínimo. Azul-tinta permanece autoridade e orientação; vinho passa a marcar rota ativa, progresso e relação; latão indica descoberta, ação e confirmação. Linhas de sinal surgem somente para mostrar direção, seleção ou relação real entre elementos.
+
+### Movimento
+
+Mudanças de rota respondem com transições de até 220 ms, usando deslocamentos curtos e opacidade. Painéis de comando surgem a partir de uma escala de 0,98; botões confirmam o toque com redução sutil de escala; o indicador de progresso percorre uma rota apenas quando houver intenção explícita de navegação. Nenhuma informação necessária depende de animação.
