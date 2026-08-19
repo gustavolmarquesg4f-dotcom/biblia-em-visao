@@ -501,6 +501,15 @@
 - [x] Corrigir URLs, tratamento de erro e contingência para que imagens e mapa funcional apareçam sem depender de um único recurso externo.
 - [x] Validar camadas, seleção de lugares, imagens de contexto, desktop e celular antes de publicar a correção.
 
+## Próximo ciclo — navegação excepcional e estudo contínuo
+
+- [x] Implementar atalho de busca por passagem, capítulo e versículo com abertura direta do conteúdo relacionado.
+- [x] Criar uma camada de onboarding curta, opcional e local-first para orientar a primeira exploração da enciclopédia.
+- [x] Construir trilha pessoal com último ponto de estudo, próximos passos, temas salvos e progresso recuperável por livro.
+- [x] Ampliar “ver também”, fontes, texto-base, mapa e próximo estudo nos principais leitores e dossiês.
+- [x] Converter coleções de Escola Dominical e grupos em roteiros acionáveis, exportáveis e fáceis de conduzir.
+- [x] Auditar os fluxos desktop/mobile, salvar checkpoint e sincronizar Manus e GitHub Pages.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.

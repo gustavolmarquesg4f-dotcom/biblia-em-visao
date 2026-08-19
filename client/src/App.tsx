@@ -1,4 +1,5 @@
 import { Toaster } from "@/components/ui/sonner";
+// Acervo de Sinais Vivos: a raiz preserva comando rápido e orientação inicial em todas as rotas da enciclopédia.
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Router as WouterRouter, Switch } from "wouter";
@@ -8,6 +9,7 @@ import Home from "./pages/Home";
 import PublicationStatus from "./components/PublicationStatus";
 import BeginHerePage from "./components/BeginHerePage";
 import ExperienceCommandLayer from "./components/ExperienceCommandLayer";
+import OnboardingNavigator from "./components/OnboardingNavigator";
 
 function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
 function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
@@ -30,6 +32,7 @@ function Router() {
   return (
     <WouterRouter base={basePath}>
       <ExperienceCommandLayer />
+      <OnboardingNavigator />
       <Switch>
         <Route path={"/"} component={HomeEntry} />
         <Route path={"/atlas"} component={AtlasEntry} />

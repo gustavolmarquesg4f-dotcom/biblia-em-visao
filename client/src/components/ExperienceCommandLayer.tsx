@@ -1,7 +1,10 @@
 // Acervo de Sinais Vivos: esta camada oferece orientação instantânea e comando rápido sem retirar o leitor do contexto atual.
+// Acervo de Sinais Vivos: o comando rápido aceita destinos, temas e referências bíblicas em linguagem natural.
 import { useEffect, useMemo, useState } from "react";
 import { useLocation } from "wouter";
 import { ArrowUpRight, BookOpen, Compass, History, Layers3, Map, Search, Sparkles, UsersRound, X } from "lucide-react";
+import { parsePassageIntent, savePassageIntent } from "@/lib/passage-navigation";
+import { recordJourneyRoute } from "@/lib/study-journey";
 import "@/ux-futurist.css";
 
 type Destination = { label: string; detail: string; href: string; icon: typeof Compass; keywords: string };
@@ -28,13 +31,15 @@ export default function ExperienceCommandLayer() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [progress, setProgress] = useState(0);
-  const { current, next } = routeContext(location);
+  const { current, next } = routeContext(location.split("?")[0]);
+  const passage = useMemo(() => parsePassageIntent(query), [query]);
   const results = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase("pt-BR");
     if (!normalized) return destinations;
     return destinations.filter((item) => `${item.label} ${item.detail} ${item.keywords}`.toLocaleLowerCase("pt-BR").includes(normalized));
   }, [query]);
   const navigate = (href: string) => { setLocation(href); setOpen(false); setQuery(""); window.scrollTo({ top: 0, behavior: "smooth" }); };
+  const openPassage = () => { if (!passage) return; savePassageIntent(passage); navigate("/mesa"); };
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -57,12 +62,14 @@ export default function ExperienceCommandLayer() {
     return () => { window.cancelAnimationFrame(frame); window.removeEventListener("scroll", updateProgress); window.removeEventListener("resize", updateProgress); };
   }, [location]);
 
+  useEffect(() => { recordJourneyRoute(location.split("?")[0], current.label); }, [current.label, location]);
+
   return <>
     <div className="signal-page-progress" aria-hidden="true"><span style={{ transform: `scaleX(${progress / 100})` }} /><i>{progress}%</i></div>
     <button type="button" className="signal-launcher" onClick={() => setOpen(true)} aria-haspopup="dialog" aria-expanded={open}>
       <span className="signal-launcher__pulse" aria-hidden="true" /><Compass size={17} /><span><small>Você está em</small><strong>{current.label}</strong></span><kbd>⌘ K</kbd>
     </button>
     <div className="signal-route-beacon" aria-live="polite"><div className="signal-route-beacon__sigil" aria-hidden="true"><Compass size={13} /><i /></div><span><i /> Rota ativa · Bíblia em Visão Geral</span><strong>{current.label}</strong><button type="button" onClick={() => navigate(next.href)}>Próxima: {next.label} <ArrowUpRight size={13} /></button></div>
-    {open && <div className="command-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) { setOpen(false); setQuery(""); } }}><section className="command-palette" role="dialog" aria-modal="true" aria-label="Comando rápido de navegação"><header><div><span><Sparkles size={14} /> Navegação assistida</span><h2>Para onde<br /><em>vamos agora?</em></h2></div><button type="button" onClick={() => { setOpen(false); setQuery(""); }} aria-label="Fechar painel de navegação"><X size={17} /></button></header><label className="command-palette__input"><Search size={17} /><input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Busque livros, lugares, temas ou áreas…" /><kbd>ESC</kbd></label><div className="command-palette__route"><span>Coordenada atual</span><strong>{current.label}</strong><i /> <span>Próxima conexão</span><button type="button" onClick={() => navigate(next.href)}>{next.label} <ArrowUpRight size={14} /></button></div><div className="command-palette__results" aria-label="Destinos disponíveis">{results.length ? results.map((item, index) => <button key={item.href} type="button" onClick={() => navigate(item.href)}><span><item.icon size={17} /></span><div><small>{String(index + 1).padStart(2, "0")} · Rota de consulta</small><strong>{item.label}</strong><em>{item.detail}</em></div><ArrowUpRight size={16} /></button>) : <div className="command-palette__empty"><Search size={18} /><p>Nenhuma área coincide. Tente “atlas”, “estudo”, “pessoas” ou “história”.</p></div>}</div><footer><span><kbd>⌘ K</kbd> abrir e fechar</span><span><kbd>/</kbd> pesquisar de qualquer página</span><span>Rotas preservam sua posição de estudo</span></footer></section></div>}
+    {open && <div className="command-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) { setOpen(false); setQuery(""); } }}><section className="command-palette" role="dialog" aria-modal="true" aria-label="Comando rápido de navegação"><header><div><span><Sparkles size={14} /> Navegação assistida</span><h2>Para onde<br /><em>vamos agora?</em></h2></div><button type="button" onClick={() => { setOpen(false); setQuery(""); }} aria-label="Fechar painel de navegação"><X size={17} /></button></header><label className="command-palette__input"><Search size={17} /><input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Digite João 3:16, Gênesis 1, tema ou lugar…" /><kbd>ESC</kbd></label><div className="command-palette__route"><span>Coordenada atual</span><strong>{current.label}</strong><i /> <span>Próxima conexão</span><button type="button" onClick={() => navigate(next.href)}>{next.label} <ArrowUpRight size={14} /></button></div><div className="command-palette__results" aria-label="Destinos disponíveis">{passage && <button type="button" className="command-palette__passage" onClick={openPassage}><span><BookOpen size={17} /></span><div><small>Passagem reconhecida · abrir estudo</small><strong>{passage.bookName}{passage.chapter ? ` ${passage.chapter}${passage.verses ? `:${passage.verses}` : ""}` : ""}</strong><em>Ir ao comentário desenvolvido ou ao roteiro detalhado deste livro.</em></div><ArrowUpRight size={16} /></button>}{results.length ? results.map((item, index) => <button key={item.href} type="button" onClick={() => navigate(item.href)}><span><item.icon size={17} /></span><div><small>{String(index + 1).padStart(2, "0")} · Rota de consulta</small><strong>{item.label}</strong><em>{item.detail}</em></div><ArrowUpRight size={16} /></button>) : !passage && <div className="command-palette__empty"><Search size={18} /><p>Nenhuma área coincide. Tente “João 3:16”, “atlas”, “estudo” ou “história”.</p></div>}</div><footer><span><kbd>⌘ K</kbd> abrir e fechar</span><span><kbd>/</kbd> pesquisar de qualquer página</span><button type="button" onClick={() => { setOpen(false); window.dispatchEvent(new Event("biblia-onboarding:open")); }}>Refazer orientação</button></footer></section></div>}
   </>;
 }
