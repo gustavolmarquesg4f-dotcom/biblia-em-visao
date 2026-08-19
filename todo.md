@@ -510,6 +510,12 @@
 - [x] Converter coleções de Escola Dominical e grupos em roteiros acionáveis, exportáveis e fáceis de conduzir.
 - [x] Auditar os fluxos desktop/mobile, salvar checkpoint e sincronizar Manus e GitHub Pages.
 
+## Correção urgente — menu e área de leitura
+
+- [x] Reproduzir o menu persistente e identificar quais painéis não podem ser escondidos em desktop e celular.
+- [x] Adicionar controles visíveis para recolher/expandir a navegação e um modo de leitura livre com retorno seguro ao menu.
+- [x] Validar os dois estados em rotas densas, no atlas e na Mesa de estudo antes de publicar a correção.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.
