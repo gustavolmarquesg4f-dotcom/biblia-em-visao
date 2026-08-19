@@ -516,6 +516,14 @@
 - [x] Adicionar controles visíveis para recolher/expandir a navegação e um modo de leitura livre com retorno seguro ao menu.
 - [x] Validar os dois estados em rotas densas, no atlas e na Mesa de estudo antes de publicar a correção.
 
+## Programa enciclopédico — aprofundamento dos 59 livros restantes
+
+- [x] Definir uma matriz única de profundidade por livro: identidade, contexto, estrutura, capítulos, pessoas, lugares, temas, profecias, conexões, leitura pentecostal/IDB e fontes.
+- [x] Aprofundar Levítico, Números, Deuteronômio, Josué até Ester, com dossiês canônicos e comentários de capítulo selecionados.
+- [x] Aprofundar Jó até Cantares e Isaías até Malaquias, preservando o gênero literário e os debates históricos próprios de cada corpus.
+- [x] Aprofundar Mateus, Marcos, Lucas, João, Atos, cartas paulinas, cartas gerais e Apocalipse nos livros ainda sem leitor enciclopédico de máxima profundidade.
+- [x] Atualizar o quadro de cobertura, validar as conexões, publicar ciclos e concluir a paridade de profundidade entre os 66 livros.
+
 ## Revisão responsiva integral
 
 - [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.

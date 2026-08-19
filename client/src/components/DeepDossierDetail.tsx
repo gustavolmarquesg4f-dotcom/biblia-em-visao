@@ -74,7 +74,7 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
     </div>
     <header className="deep-dossier-hero">
       <div><span className="deep-dossier-kicker">{book.testament} · {book.category} · {book.chapters} capítulos</span><h1>{book.name}</h1><p>{book.summary}</p></div>
-      <div className="deep-dossier-proof"><span><BookOpen size={15} /> Leitura desenvolvida</span><strong>Contexto + texto + conexões</strong><small>Sem substituir debate por uma frase</small></div>
+      <div className="deep-dossier-proof"><span><BookOpen size={15} /> Dossiê integral · 66/66</span><strong>Contexto + texto + conexões</strong><small>Rota por passagens, debate e leitura pentecostal/IDB</small></div>
     </header>
     {loading && <div className="deep-dossier-loading"><BookOpen size={18} /> Carregando o texto integral de {book.name}…</div>}
     {error && <div className="deep-dossier-error"><ShieldCheck size={18} /><div><strong>Conteúdo não disponível nesta carga</strong><p>{error}</p></div></div>}
