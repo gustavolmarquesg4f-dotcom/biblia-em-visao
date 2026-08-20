@@ -1,19 +1,29 @@
-// Cartografia de Leituras: mapa de cobertura honesto para os comentários versículo a versículo.
-
-// Cartografia de Leituras: mostrar com honestidade que dossiê integral e comentário focal capítulo a capítulo são camadas diferentes de profundidade.
-import { Check, CircleDashed, FileText, Layers3 } from "lucide-react";
-import { bookCoverage } from "@/lib/verse-commentary-data";
+import { useEffect, useMemo, useState } from "react";
+import { Check, CircleDashed, FileText, Layers3, MapPinned, ShieldCheck } from "lucide-react";
+import { bibleBooks } from "@/lib/bible-data";
+import { bookCoverage, verseCommentaries } from "@/lib/verse-commentary-data";
+import { loadChapterCoverage, type ChapterCoveragePayload } from "@/lib/chapter-coverage-data";
 import "@/study-coverage.css";
 
 export default function StudyCoverageBoard() {
-  const detailed = bookCoverage.filter(item => item.status === "Foco detalhado").length;
-  const chapters = bookCoverage.reduce((total, item) => total + item.chapters, 0);
+  const [payload, setPayload] = useState<ChapterCoveragePayload | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const canonicalChapters = useMemo(() => bibleBooks.reduce((total, book) => total + book.chapters, 0), []);
+  const detailedBooks = bookCoverage.filter((item) => item.status === "Foco detalhado").length;
+  const detailed = verseCommentaries.length;
+  const records = payload?.records.length || 0;
+  const isComplete = payload?.total === canonicalChapters && records === canonicalChapters && payload.bookCount === bibleBooks.length;
   const extensions = [
-    ["119", "biografias", "personagens e profetas"],
-    ["26", "lugares", "atlas e focos geográficos"],
-    ["19", "estudos", "leituras profundas indexadas"],
-    ["11", "períodos", "história bíblica cronológica"],
-    ["10", "apócrifos", "textos e recepção"],
+    ["1.189", "fichas de capítulo", "comentário + fonte consultável"],
+    ["1.189", "contextos cartográficos", "lugar, período, rota e método"],
+    ["39", "focos ampliados", "camada editorial preservada"],
+    ["66", "livros", "sequência canônica completa"],
+    ["15", "rotas", "camadas históricas do atlas"],
   ];
-  return <section className="study-coverage-board" aria-labelledby="coverage-title"><header><div><div className="study-coverage-kicker"><span /> Auditoria de cobertura · enciclopédia</div><h2 id="coverage-title">Profundidade com <em>transparência.</em></h2><p>Todos os 66 livros possuem dossiê enciclopédico integral, com contexto, estrutura, passagens, personagens, lugares, conexões e fontes. Comentário focal por capítulo é uma camada adicional em expansão; não é a medida única de profundidade.</p></div><div className="study-coverage-count"><strong>66</strong><span>dossiês integrais<br />em leitura longa</span></div></header><div className="study-coverage-summary"><span><Layers3 size={14} /> 66 dossiês integrais</span><span><Check size={14} /> {detailed} com comentário focal</span><span><FileText size={14} /> {chapters} capítulos indexados</span></div><div className="study-coverage-extensions" aria-label="Cobertura por tipo de conteúdo">{extensions.map(([value, label, detail]) => <article key={label}><strong>{value}</strong><span>{label}</span><small>{detail}</small></article>)}</div><div className="study-coverage-grid">{bookCoverage.map((item, index) => <article key={item.book} className="is-detailed"><div><span>{String(index + 1).padStart(2, "0")}</span><Check size={14} /></div><strong>{item.book}</strong><small>{item.chapters} capítulos · dossiê integral</small><p>{item.status === "Foco detalhado" ? "Dossiê integral + comentários focais por capítulo." : "Dossiê integral com rota aprofundada por passagens; comentários focais continuam sendo ampliados."}</p></article>)}</div></section>;
+
+  useEffect(() => {
+    loadChapterCoverage().then(setPayload).catch((reason) => setError(reason instanceof Error ? reason.message : "Falha na auditoria do catálogo."));
+  }, []);
+
+  return <section className="study-coverage-board" aria-labelledby="coverage-title"><header><div><div className="study-coverage-kicker"><span /> Auditoria de cobertura · enciclopédia</div><h2 id="coverage-title">Nenhum capítulo <em>fora do mapa.</em></h2><p>A cobertura integral é medida por uma ficha canônica para cada capítulo dos 66 livros. Cada ficha tem comentário em quatro camadas, fonte consultável e contexto cartográfico explícito; os 39 focos ampliados permanecem distinguidos da camada sintética.</p></div><div className={`study-coverage-count ${isComplete ? "is-complete" : ""}`}><strong>{payload ? `${records.toLocaleString("pt-BR")}/${canonicalChapters.toLocaleString("pt-BR")}` : `—/${canonicalChapters.toLocaleString("pt-BR")}`}</strong><span>capítulos auditados<br />{isComplete ? "cobertura integral confirmada" : error ? "falha ao carregar o catálogo" : "validando catálogo publicado"}</span></div></header><div className="study-coverage-summary"><span><ShieldCheck size={14} /> {isComplete ? "66/66 livros verificados" : `${bibleBooks.length} livros no cânon`}</span><span><Check size={14} /> {detailed} focos ampliados · {detailedBooks} livros</span><span><MapPinned size={14} /> {records ? `${records.toLocaleString("pt-BR")} contextos cartográficos` : "contextos cartográficos"}</span></div>{error && <div className="study-coverage-error" role="status"><CircleDashed size={15} /> {error}</div>}<div className="study-coverage-extensions" aria-label="Cobertura por tipo de conteúdo">{extensions.map(([value, label, detail]) => <article key={label}><strong>{value}</strong><span>{label}</span><small>{detail}</small></article>)}</div><div className="study-coverage-grid">{bookCoverage.map((item, index) => <article key={item.book} className="is-detailed"><div><span>{String(index + 1).padStart(2, "0")}</span><Check size={14} /></div><strong>{item.book}</strong><small>{item.chapters} capítulos · ficha integral publicada</small><p>{item.status === "Foco detalhado" ? "Cobertura canônica + comentário sintético + foco ampliado." : "Cobertura canônica + comentário sintético + contexto cartográfico; sem foco ampliado neste lote."}</p></article>)}</div><footer className="study-coverage-foot"><span><FileText size={14} /> Fonte de contagem: catálogo canônico local + JSON publicado.</span><strong>{isComplete ? "AUDITORIA APROVADA · 1.189/1.189" : "AUDITORIA EM ANDAMENTO"}</strong><Layers3 size={15} /></footer></section>;
 }

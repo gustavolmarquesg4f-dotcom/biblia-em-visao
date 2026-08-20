@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-08-20T02:59:10.860Z",
+  "books": 66,
+  "expectedChapters": 1189,
+  "commentaryRecords": 39,
+  "commentaryChapterKeys": 39,
+  "commentaryBooks": 12,
+  "missingCommentary": 1150,
+  "atlasMarkers": 4,
+  "routeLayers": 15,
+  "booksByChapterCount": {
+    "1": 5,
+    "2": 1,
+    "3": 7,
+    "4": 6,
+    "5": 5,
+    "6": 3,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 2,
+    "12": 2,
+    "13": 3,
+    "14": 2,
+    "16": 3,
+    "21": 2,
+    "22": 2,
+    "24": 3,
+    "25": 1,
+    "27": 1,
+    "28": 2,
+    "29": 1,
+    "31": 2,
+    "34": 1,
+    "36": 2,
+    "40": 1,
+    "42": 1,
+    "48": 1,
+    "50": 1,
+    "52": 1,
+    "66": 1,
+    "150": 1
+  },
+  "missingSample": [
+    {
+      "book": "Gênesis",
+      "chapter": 2
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 4
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 5
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 6
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 7
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 8
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 9
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 10
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 11
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 13
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 14
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 15
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 16
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 17
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 18
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 19
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 20
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 21
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 23
+    },
+    {
+      "book": "Gênesis",
+      "chapter": 24
+    }
+  ]
+}

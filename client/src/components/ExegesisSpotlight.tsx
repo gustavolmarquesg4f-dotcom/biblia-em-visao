@@ -26,7 +26,7 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
         <p>Entre no leitor longo para acompanhar argumento, contexto histórico, personagens, lugares, profecias e continuidade canônica — sem reduzir o livro a uma ficha rápida.</p>
         <div className="exegesis-spotlight-stats" aria-label="Cobertura dos estudos">
           <span><strong>66</strong> livros</span>
-          <span><strong>592</strong> capítulos</span>
+          <span><strong>1.189</strong> capítulos</span>
           <span><strong>119</strong> biografias</span>
         </div>
         <div className="exegesis-spotlight-actions">

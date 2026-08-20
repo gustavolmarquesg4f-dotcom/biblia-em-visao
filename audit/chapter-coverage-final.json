@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-20T03:11:01.633Z",
+  "expectedBooks": 66,
+  "expectedChapters": 1189,
+  "publishedBookCount": 66,
+  "publishedTotal": 1189,
+  "publishedRecords": 1189,
+  "uniquePublishedChapterKeys": 1189,
+  "duplicatePublishedChapterKeys": 0,
+  "missingCoverage": 0,
+  "invalidRecords": 0,
+  "recordsWithUnknownBooks": 0,
+  "recordsWithCartography": 1189,
+  "focalRecordsPreserved": 39,
+  "focalRecordsExpected": 39,
+  "atlasMarkers": 4,
+  "routeLayers": 15,
+  "coverageStatus": "APROVADA",
+  "missingSample": [],
+  "invalidSample": []
+}

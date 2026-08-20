@@ -4,6 +4,7 @@ import { Streamdown } from "streamdown";
 import { bibleBooks, type Book } from "@/lib/bible-data";
 import { DEEP_DOSSIER_CATALOG_URL, canonicalDeepBookKey, normalizeDeepDossierPayload, type DeepDossierRecord } from "@/lib/deep-dossier-data";
 import EntityPanel from "@/components/EntityPanel";
+import ChapterCoverageReader from "@/components/ChapterCoverageReader";
 import { bookFromEntityReference, decorateMarkdown, type KnowledgeEntity } from "@/lib/entity-graph";
 import { loadBiographyCatalog } from "@/lib/biography-data";
 import "@/deep-dossier-reader.css";
@@ -84,6 +85,7 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
         <aside className="deep-dossier-index"><div className="deep-index-heading"><span><ListTree size={15} /> Índice do dossiê</span><small>{filteredHeadings.length}/{record.headings.length}</small></div><div className="deep-index-search"><Search size={14} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar seções…" aria-label="Filtrar seções do dossiê" /></div><nav>{filteredHeadings.map((heading, headingIndex) => <a href={`#deep-section-${headingIndex}`} key={`${heading}-${headingIndex}`}>{String(headingIndex + 1).padStart(2, "0")} · {heading}</a>)}</nav><div className="deep-index-method"><ShieldCheck size={16} /><p>O texto distingue reconstrução histórica, interpretação, tradição confessional e hipótese.</p></div></aside>
         <article className="deep-dossier-reading"><div className="deep-reading-header"><span>Texto principal · entidades clicáveis</span><span><Clock3 size={14} /> {minutes} min de leitura</span></div><div className="deep-reading-prose" onClick={handleReadingClick}><Streamdown>{decoratedMarkdown}</Streamdown></div></article>
       </div>
+      <ChapterCoverageReader book={book} onFocusPlace={onFocusPlace} />
       {setNote && <section className="deep-dossier-notes"><div><span>Anotação de pesquisa</span><h2>O que este livro <em>explica?</em></h2><p>Registre conexões, objeções e perguntas que surgirem durante a leitura.</p></div><div><textarea value={note} onChange={(event) => setNote(event.target.value)} placeholder={`Anote uma pergunta sobre ${book.name}…`} aria-label={`Anotação de pesquisa sobre ${book.name}`} /><small>{note ? `${note.length} caracteres nesta sessão` : "Notas desta sessão"}</small></div></section>}
       <nav className="deep-dossier-next" aria-label="Navegar entre os livros">{previous ? <button onClick={() => openBook?.(previous)}><ArrowLeft size={15} /><span><small>Livro anterior</small><strong>{previous.name}</strong></span></button> : <span />}{next ? <button onClick={() => openBook?.(next)}><span><small>Próximo livro</small><strong>{next.name}</strong></span><ArrowRight size={15} /></button> : <span />}</nav>
     </>}
