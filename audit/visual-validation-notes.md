@@ -31,3 +31,8 @@ A segunda captura headless em 390×844 aguardou 8 segundos e confirmou o estado 
 ## QA tablet — viewport 768×1024
 
 A captura em 768×1024 confirmou a transição para header compacto, modo leitura, breadcrumb, salvar e composição sem corte horizontal. O dossiê e a grade de estatísticas usam a largura disponível de forma legível. A ação `Ir direto ao índice de capítulos` foi adicionada ao cabeçalho do leitor para reduzir o percurso até a cobertura integral quando o dossiê antecede o módulo capítulo a capítulo.
+
+
+## Publicação final — gh-pages
+
+Após o push de `main` e `gh-pages`, a URL pública `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/` carregou a versão final. O DOM público confirmou `AUDITORIA APROVADA · 1.189/1.189`, `66/66 livros verificados`, `39 focos ampliados · 12 livros`, `1.189 contextos cartográficos` e a navegação com `Explorar os 66 livros`, `Mesa de estudo`, `Apócrifos e textos`, `Glossário` e `Fontes e bibliografia`.

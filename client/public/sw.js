@@ -1,4 +1,4 @@
-const CACHE_NAME = "biblia-em-visao-offline-v1";
+const CACHE_NAME = "biblia-em-visao-offline-v2";
 const APP_SHELL = ["./", "./index.html", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
