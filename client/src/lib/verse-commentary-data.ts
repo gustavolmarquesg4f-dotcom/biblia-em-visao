@@ -20,7 +20,7 @@ export type VerseCommentary = {
 export type BookCoverage = {
   book: string;
   chapters: number;
-  status: "Foco detalhado" | "Índice em expansão";
+  status: "Foco ampliado" | "Cobertura integral";
   note: string;
 };
 
@@ -72,4 +72,4 @@ export const verseCommentaries: VerseCommentary[] = [
   { id: "js-24-1-28", book: "Josué", chapter: 24, verses: "1–28", title: "Siquém, memória e a escolha de servir", textLayer: "Em Siquém, Josué relembra o percurso de ancestrais, êxodo, deserto e terra antes de convocar o povo a servir ao Senhor. A resposta coletiva é seguida por advertência, pacto, testemunha de pedra e registro das palavras.", contextLayer: "Siquém é lugar estratégico na região montanhosa central e já carrega memória patriarcal. O discurso usa forma de recapitulação histórica e linguagem de aliança para formar uma comunidade: lembrar não é apenas olhar para trás, mas ordenar lealdades no presente.", interpretationLayer: "‘Escolhei hoje’ é frequentemente individualizado, embora a cena seja pública e comunitária. O texto mantém tensão entre decisão, graça antecedente e incapacidade humana de controlar Deus; por isso, a resposta do povo vem com advertência contra sincretismo e simplificação religiosa.", pentecostalLayer: "A renovação espiritual pode incluir resposta pessoal, mas precisa gerar aliança comunitária, memória, abandono de ídolos e práticas concretas de fidelidade. Cultos de decisão não substituem formação, justiça, acompanhamento e uma comunidade que aprende a servir.", references: ["Gn 12:6–7", "Êx 20:1–6", "Dt 6:4–9", "1Rs 18:20–39", "At 7:2–53"], source: sblSource },
 ];
 
-export const bookCoverage: BookCoverage[] = bibleBooks.map(book => ({ book: book.name, chapters: book.chapters, status: verseCommentaries.some(comment => comment.book === book.name) ? "Foco detalhado" : "Índice em expansão", note: verseCommentaries.some(comment => comment.book === book.name) ? "Há comentários focais com separação entre texto, contexto e interpretação." : "O catálogo de capítulos e o leitor exegético já existem; o lote versículo por versículo será ampliado sem apresentar cobertura inexistente como concluída." }));
+export const bookCoverage: BookCoverage[] = bibleBooks.map(book => { const hasFocalCommentary = verseCommentaries.some(comment => comment.book === book.name); return { book: book.name, chapters: book.chapters, status: hasFocalCommentary ? "Foco ampliado" : "Cobertura integral", note: hasFocalCommentary ? "Há focos ampliados com separação entre texto, contexto, interpretação e leitura pentecostal/IDB; a cobertura integral por capítulo também está publicada." : "A cobertura integral por capítulo, com comentário em quatro camadas, fonte consultável e contexto cartográfico, está publicada; este livro ainda não integra o lote focal versículo a versículo." }; });

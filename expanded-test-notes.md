@@ -29,8 +29,8 @@
 
 ## Expansão exegética e temporal
 
-- A base consolidada contém 66 dossiês, 592 capítulos, 288 seções com linguagem profética e 195 referências detectadas.
-- O leitor exegético foi integrado à ficha de cada livro com índice de capítulos, busca interna, navegação anterior/próximo, aba de profecias e aba de método/fontes.
+- A base histórica desta rodada continha 66 dossiês, 592 capítulos detalhados no corpus anterior, 288 seções com linguagem profética e 195 referências detectadas. Esse número não representa o cânon total; a fonte de verdade atual é `client/public/data/chapter-coverage.json`, auditada em 1.189/1.189 capítulos.
+- O leitor exegético histórico foi integrado à ficha de cada livro com índice de capítulos, busca interna, navegação anterior/próximo, aba de profecias e aba de método/fontes. O leitor integral atual acrescenta comentário em quatro camadas, fonte e contexto cartográfico para todos os 1.189 capítulos; os focos mais extensos permanecem identificados como camada editorial ampliada.
 - O atlas recebeu 14 eventos temporais, controles de reprodução/pausa, avanço/retrocesso, slider, foco geográfico e ativação progressiva de rotas e impérios.
 - Build TypeScript e build de produção concluídos sem erro.
 - A inspeção de console encontrou e corrigiu âncoras aninhadas na bibliografia; após a correção, não surgiram novos erros no carregamento.

@@ -278,7 +278,7 @@
 
 - [x] Comparar o domínio publicado, a prévia de desenvolvimento e o checkpoint 520aa8ce.
 - [x] Confirmar se o HTML servido contém o bundle com o leitor exegético e a linha do tempo.
-- [x] Confirmar se o arquivo estático de 592 capítulos está acessível no domínio.
+- [x] Confirmar que o arquivo estático integral de 1.189 capítulos está acessível no domínio.
 - [x] Identificar cache, domínio antigo, rota incorreta ou publicação incompleta.
 - [ ] Corrigir a entrega, validar novamente e publicar checkpoint de sincronização.
 
@@ -450,7 +450,7 @@
 
 ## Enciclopédia integral — aprofundar, conectar e ensinar
 
-- [x] Criar o primeiro roteiro aprofundado por unidades para Gênesis, Êxodo, Mateus, João, Atos, Romanos e Apocalipse; manter expansão capítulo a capítulo como próximo ciclo.
+- [x] Criar o primeiro roteiro aprofundado por unidades para Gênesis, Êxodo, Mateus, João, Atos, Romanos e Apocalipse; manter a camada focal ampliada separada da cobertura integral capítulo a capítulo.
 - [x] Manter verbetes narrativos de personagens, povos, lugares, eventos e profecias com episódios, painéis clicáveis e conexões na rede de conhecimento.
 - [x] Implementar busca por perguntas guiadas, com respostas enciclopédicas iniciais, textos-base, livros e rotas de continuação.
 - [x] Criar trilhas guiadas para iniciantes, leitura anual, discipulado, liderança, Escola Dominical, jovens e pequenos grupos.
