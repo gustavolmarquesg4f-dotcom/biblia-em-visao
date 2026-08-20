@@ -1,0 +1,702 @@
+[
+  {
+    "chapter": 1,
+    "book": "Atos",
+    "title": "A Promessa do Espírito, a Ascensão e a Preparação em Jerusalém",
+    "summary": "Jesus ressuscitado instrui os apóstolos sobre o Reino de Deus, promete o batismo no Espírito Santo e ascende ao céu a partir do Monte das Oliveiras. A comunidade retorna a Jerusalém, persevera em oração no cenáculo e elege Matias para substituir Judas Iscariotes.",
+    "context": "Atos 1 inaugura o segundo volume da obra lucana, ligando diretamente o final do Evangelho de Lucas à nova fase da história da salvação. No contexto do século I, a comunidade messiânica nascente em Jerusalém enfrenta a ausência física de Jesus e a necessidade de reorganizar sua liderança e testemunho.",
+    "interpretation": "O programa geográfico de Atos 1:8 (Jerusalém, Judeia, Samaria e até os confins da terra) estrutura todo o desdobramento do livro. A ascensão marca a entronização celestial de Cristo e a transferência da missão para a comunidade guiada pelo Espírito.",
+    "pentecostal": "A tradição pentecostal enfatiza a dependência radical da promessa do Espírito Santo (batismo no Espírito) como pré-requisito indispensável para o testemunho eficaz, unindo vida de oração comunitária e autoridade espiritual.",
+    "mapContext": "Jerusalém e o Monte das Oliveiras servem como o ponto de partida geográfico e teológico para a expansão mundial da igreja cristã.",
+    "mapFocus": {
+      "place": "Jerusalém e Monte das Oliveiras",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "zoom": 12
+    },
+    "references": [
+      "Lc 24:47-49",
+      "At 2:1-4",
+      "Sl 41:9"
+    ],
+    "source": {
+      "label": "Bible Odyssey — The Acts of the Apostles",
+      "url": "https://www.bibleodyssey.org/dictionary/acts-of-the-apostles-the/"
+    }
+  },
+  {
+    "chapter": 2,
+    "book": "Atos",
+    "title": "O Dia de Pentecostes, o Discurso de Pedro e a Comunidade Nascente",
+    "summary": "No dia de Pentecostes, o Espírito Santo desce sobre os discípulos sob a forma de línguas de fogo, capacitando-os a proclamar as grandezas de Deus em várias línguas. Pedro profere um discurso contundente citando o profeta Joel e testemunhando a ressurreição de Cristo, resultando na conversão de cerca de três mil pessoas e na descrição de uma comunidade marcada pela comunhão, ensino e partilha.",
+    "context": "A festa de Pentecostes (Shavuot) atraía peregrinos judeus de toda a Diáspora para Jerusalém. O fenômeno das línguas reverte simbolicamente a dispersão de Babel, constituindo uma nova humanidade reconciliada.",
+    "interpretation": "O derramamento do Espírito é interpretado escatologicamente como o cumprimento da profecia de Joel, inaugurando os últimos dias. A vida comunitária descrita estabelece o padrão neotestamentário de adoração, solidariedade econômica e fervor missionário.",
+    "pentecostal": "O Pentecostes é considerado o evento fundacional e normativo para a pneumatologia pentecostal, atestando que o batismo no Espírito Santo é acompanhado por manifestações dinâmicas e capacitação para o testemunho público.",
+    "mapContext": "Jerusalém é o palco central onde peregrinos do mundo greco-romano testemunham o irromper do Espírito na festa judaica.",
+    "mapFocus": {
+      "place": "Jerusalém",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "zoom": 12
+    },
+    "references": [
+      "Jl 2:28-32",
+      "At 1:8",
+      "1Co 12:13"
+    ],
+    "source": {
+      "label": "Society of Biblical Literature — Research and Context",
+      "url": "https://www.sbl-site.org/"
+    }
+  },
+  {
+    "chapter": 3,
+    "book": "Atos",
+    "title": "A Cura do Paralítico no Portão do Templo e o Segundo Discurso de Pedro",
+    "summary": "Pedro e João sobem ao Templo no horário da oração da tarde e curam um homem coxo de nascença na Porta Formosa. Aproveitando o espanto da multidão, Pedro proclama Jesus como o Servo glorificado de Deus, convida o povo ao arrependimento e aponta para a restauração futura.",
+    "context": "O Templo de Herodes continuava sendo o centro religioso e social do judaísmo em Jerusalém, frequentado pelos primeiros crentes que ainda mantinham práticas piedosas judaicas, enquanto experimentavam o poder messiânico.",
+    "interpretation": "A cura em nome de Jesus demonstra que o poder milagroso não emana de mérito humano, mas da autoridade do Cristo ressuscitado. O discurso conecta Jesus às promessas feitas a Abraão e aos profetas como o profeta semelhante a Moisés.",
+    "pentecostal": "A manifestação de sinais e maravilhas é vista como continuação natural do ministério terreno de Jesus, servindo como ponto de contato para a proclamação evangelística e demonstração do poder divino.",
+    "mapContext": "O Templo de Jerusalém (Porta Formosa) é o cenário institucional e público da cura e do confronto com as autoridades religiosas.",
+    "mapFocus": {
+      "place": "Templo de Jerusalém",
+      "lat": 31.778,
+      "lng": 35.2354,
+      "zoom": 15
+    },
+    "references": [
+      "Dt 18:15",
+      "At 4:10",
+      "Is 52:13"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Temple in Jerusalem",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 4,
+    "book": "Atos",
+    "title": "O Primeiro Confronto com o Sinédrio, Ousadia e Partilha Comunitária",
+    "summary": "Incomodados com a pregação da ressurreição, os sacerdotes, o comandante do templo e os saduceus prendem Pedro e João. Postos perante o Sinédrio, os apóstolos respondem com ousadia inabalável que é preciso obedecer a Deus antes que aos homens. Após serem soltos, a comunidade se une em fervorosa oração por intrepidez, compartilhando seus bens com generosidade radical.",
+    "context": "Os saduceus, que negavam a ressurreição dos mortos, lideram a oposição política e religiosa. O Sinédrio tenta conter o crescimento do movimento por meio de intimidação e ameaças.",
+    "interpretation": "A coragem apostólica diante das autoridades estabelece o princípio da desobediência civil baseada na fidelidade suprema a Deus. A partilha de bens reflete uma ética escatológica de solidariedade, exemplificada pela figura de Barnabé.",
+    "pentecostal": "A oração por intrepidez diante da perseguição e o enchimento renovado do Espírito demonstram que a oposição externa resulta em maior unção, coragem e expansão do testemunho cristão.",
+    "mapContext": "O tribunal do Sinédrio em Jerusalém sedia o primeiro julgamento oficial dos apóstolos, inaugurando o ciclo de perseguições institucionais.",
+    "mapFocus": {
+      "place": "Sinédrio em Jerusalém",
+      "lat": 31.776,
+      "lng": 35.232,
+      "zoom": 15
+    },
+    "references": [
+      "Sl 2:1-2",
+      "At 5:29",
+      "4:32-35"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Sanhedrin",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 5,
+    "book": "Atos",
+    "title": "A Severidade da Mentira, Novos Milagres e a Libertação Milagrosa",
+    "summary": "Ananias e Safira conspiram para reter parte do valor de uma propriedade vendida enquanto fingem doação integral, sofrendo morte súbita por juízo divino diante da comunidade. Os apóstolos realizam numerosos sinais e curas, atraindo multidões, o que provoca nova prisão pelo sumo sacerdote. Um anjo os liberta milagrosamente da prisão, e, após serem açoitados e aconselhados por Gamaliel, eles continuam a pregar.",
+    "context": "A pureza interna da comunidade (livre de hipocrisia e duplicidade) é protegida com rigor severo, ao mesmo tempo em que a oposição externa cresce. O fariseu Gamaliel adota uma postura pragmática de tolerância provisória.",
+    "interpretation": "O episódio de Ananias e Safira sublinha a santidade exigida na koinonia cristã. A intervenção de Gamaliel (\"se este plano é dos homens, se desfará; se é de Deus, não podereis destruí-lo\") oferece uma reflexão teológica sobre a soberania histórica de Deus.",
+    "pentecostal": "A disciplina e o temor reverente a Deus andam lado a lado com a operação de dons de curas e libertações extraordinárias, mostrando que o poder do Espírito exige integridade moral.",
+    "mapContext": "Jerusalém (as ruas, os pórticos do Templo e a prisão do Sinédrio) é o cenário da disciplina interna e da vindicação divina.",
+    "mapFocus": {
+      "place": "Jerusalém e Pátios do Templo",
+      "lat": 31.778,
+      "lng": 35.2354,
+      "zoom": 14
+    },
+    "references": [
+      "At 5:29",
+      "Pr 3:11-12",
+      "Lc 5:17"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Early Christian Community",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 6,
+    "book": "Atos",
+    "title": "A Instituição dos Diáconos e a Prisão de Estêvão",
+    "summary": "Diante de um conflito administrativo sobre a assistência às viúvas de fala grega (helenistas) em detrimento das de fala hebraica, os apóstolos propõem a escolha de sete homens de boa reputação cheios do Espírito e de sabedoria para gerir o serviço das mesas. Estêvão, um dos sete, destaca-se por grandes prodígios e sabedoria, sendo falsamente acusado por opositores e levado perante o Sinédrio.",
+    "context": "A igreja primitiva enfrenta tensões culturais internas entre judeus palestinos (hebraicos) e judeus da Diáspora (helenistas). A solução estrutural preserva a prioridade da palavra e da oração enquanto organiza o serviço social.",
+    "interpretation": "A escolha dos sete introduz um modelo de liderança participativa e ministerial baseada no serviço (diakonia). A acusação contra Estêvão revela a sensibilidade em torno da lei mosaica e do Templo.",
+    "pentecostal": "A qualificação para o diaconato exige não apenas competência administrativa, mas essencialmente estar cheio do Espírito Santo e de sabedoria, unindo serviço prático e unção espiritual.",
+    "mapContext": "Jerusalém abriga as comunidades helenísticas e hebraicas, bem como o tribunal onde Estêvão é processado.",
+    "mapFocus": {
+      "place": "Jerusalém",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "zoom": 13
+    },
+    "references": [
+      "At 6:3-4",
+      "Ex 18:21",
+      "1Tm 3:8-13"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Hellenists and Early Church",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 7,
+    "book": "Atos",
+    "title": "O Discurso Histórico e o Martírio de Estêvão",
+    "summary": "Em sua defesa perante o Sinédrio, Estêvão reconta a história de Israel — de Abraão, José e Moisés até a rebeldia do povo e a construção do Templo —, argumentando que Deus não habita exclusivamente em templos feitos por mãos humanas. Ele acusa as autoridades de resistirem ao Espírito Santo e de assassinarem o Justo. Diante de sua visão do Filho do Homem à direita de Deus, a multidão enfurecida o apedreja, enquanto o jovem Saulo guarda as vestes dos executores.",
+    "context": "O discurso de Estêvão é a mais longa apologia registrada em Atos, reexaminando a história sagrada sob a ótica de que a presença de Deus é dinâmica e relacional, transcendendo estruturas físicas.",
+    "interpretation": "O martírio de Estêvão marca um ponto de inflexão na narrativa: o evangelho começa a romper os limites geográficos e culturais de Jerusalém por meio da perseguição que dispersa os crentes.",
+    "pentecostal": "A visão dos céus abertos e o perdão oferecido aos algozes no momento da morte refletem o poder transformador do Espírito Santo, inspirando coragem suprema no testemunho cristão.",
+    "mapContext": "Fora dos muros de Jerusalém, o local do apedrejamento de Estêvão simboliza a rejeição profética e o início da dispersão missionária.",
+    "mapFocus": {
+      "place": "Jerusalém (Fora dos Muros)",
+      "lat": 31.78,
+      "lng": 35.23,
+      "zoom": 14
+    },
+    "references": [
+      "Is 66:1-2",
+      "At 7:55-56",
+      "Lc 23:34"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Stephen's Martyrdom",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 8,
+    "book": "Atos",
+    "title": "A Expansão para a Samaria, Simão o Mago e o Eunuco Etíope",
+    "summary": "Com a perseguição deflagrada em Jerusalém, os crentes se dispersam, pregando a palavra. Filipe desce à cidade de Samaria, onde realiza grandes curas e converte muitos, incluindo o mago Simão. Posteriormente, direcionado pelo Espírito, Filipe encontra um alto funcionário da Etiópia lendo o profeta Isaías na estrada de Gaza, explica-lhe o texto e o batiza nas águas.",
+    "context": "A transição geográfica e cultural de Jerusalém para Samaria e para os confins da terra (representados pela Etiópia) cumpre diretamente o mandato de Atos 1:8, rompendo barreiras étnicas e religiosas históricas.",
+    "interpretation": "O ministério de Filipe em Samaria e com o eunuco etíope demonstra que o evangelho é universal e inclusivo, ultrapassando barreiras de heresia samaritana e de condição física/étnica (eunucos e estrangeiros na Torá).",
+    "pentecostal": "A narrativa destaca a necessidade da imposição de mãos apostólica para a recepção plena do Espírito Santo em Samaria, gerando debates pneumatológicos, e evidencia a sensibilidade à voz do Espírito na evangelização pessoal.",
+    "mapContext": "Samaria e a estrada desértica de Gaza conectam a Judeia ao Egito e à África, marcando a primeira grande expansão geográfica fora do eixo judaico tradicional.",
+    "mapFocus": {
+      "place": "Samaria e Estrada de Gaza",
+      "lat": 32.275,
+      "lng": 35.1917,
+      "zoom": 9
+    },
+    "references": [
+      "Is 53:7-8",
+      "At 1:8",
+      "Dt 23:1"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Philip and the Ethiopian Eunuch",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 9,
+    "book": "Atos",
+    "title": "A Conversão de Saulo de Tarso, Enéias e Dorcas",
+    "summary": "Saulo, respirando ameaças de morte contra os discípulos, viaja a Damasco para prendê-los, mas é intercetado por uma luz celestial e pela voz de Jesus ressuscitado. Cego por três dias, é acolhido em Damasco por Ananias, recupera a vista e é batizado, passando imediatamente a pregar Jesus. Em Lida e Jope, Pedro cura o paralítico Enéias e ressuscita a dedicada discípula Tabita (Dorcas).",
+    "context": "A conversão de Saulo (posteriormente Paulo) é o evento mais transformador da história missionária cristã primitiva. Simultaneamente, o ministério itinerante de Pedro consolida as comunidades na planície costeira.",
+    "interpretation": "A conversão de Paulo é descrita como vocação profética no molde dos chamados veterotestamentários (como Jeremias e Isaías). A resistência de Saulo é vencida pela graça soberana de Cristo, que identifica a igreja perseguida com a sua própria pessoa.",
+    "pentecostal": "A dramática conversão de Saulo exemplifica a soberania da graça divina em alcançar o oponente mais implacável, transformando-o no principal instrumento missionário do Espírito para os gentios.",
+    "mapContext": "Damasco, Lida e Jope formam o eixo geográfico entre a Síria e a planície costeira de Israel, onde o cristianismo ganha profundidade institucional e milagrosa.",
+    "mapFocus": {
+      "place": "Damasco e Lida",
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "zoom": 10
+    },
+    "references": [
+      "At 9:3-6",
+      "At 22:6-16",
+      "9:36-42"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Paul's Conversion",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 10,
+    "book": "Atos",
+    "title": "Cornélio e Pedro, Visão em Jope e o Pentecostes dos Gentios",
+    "summary": "Cornélio, um centurião romano temente a Deus em Cesareia, recebe em visão a instrução de chamar o apóstolo Pedro. Em Jope, Pedro tem uma visão de um lençol com animais limpos e imundos, ensinando-lhe que nenhum ser humano deve ser chamado comum ou impuro. Pedro vai a Cesareia, prega a Cornélio e sua casa, e o Espírito Santo cai sobre os gentios exatamente como no Pentecostes, levando ao batismo deles.",
+    "context": "Cesareia Marítima era a sede administrativa romana na Judeia. A inclusão de gentios inircuncisos na comunidade messiânica sem a exigência prévia da Torá judaica representa a crise e o divisor de águas mais significativo do cristianismo primitivo.",
+    "interpretation": "A visão de Pedro desconstrua barreiras rituais de pureza alimentar e social, abrindo caminho para a teologia paulina de que judeus e gentios formam um só corpo em Cristo sem distinção étnica.",
+    "pentecostal": "O derramamento do Espírito sobre os gentios antes mesmo do batismo nas águas serve como evidência irrefutável e soberana da ação divina, validando a inclusão universal no Reino.",
+    "mapContext": "Jope e Cesareia Marítima representam o litoral mediterrâneo, onde a barreira entre judeus e gentios é derrubada pela iniciativa divina.",
+    "mapFocus": {
+      "place": "Cesareia Marítima",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 12
+    },
+    "references": [
+      "At 10:34-35",
+      "At 11:15-18",
+      "Ef 2:14-16"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Cornelius and Peter",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 11,
+    "book": "Atos",
+    "title": "A Defesa de Pedro em Jerusalém e a Fundação da Igreja em Antioquia",
+    "summary": "Pedro retorna a Jerusalém e é criticado pelos crentes circuncidados por ter entrado na casa de gentios e comido com eles. Após Pedro relatar sua visão e a descida do Espírito, a igreja se silva e glorifica a Deus. Enquanto isso, crentes dispersos chegam a Antioquia da Síria pregando também aos gentios, gerando grande colheita. Barnabé busca a Saulo em Tarso, e juntos lideram a comunidade onde os discípulos são chamados 'cristãos' pela primeira vez.",
+    "context": "Antioquia da Síria era a terceira maior cidade do Império Romano, tornando-se o laboratório multicultural e o trampolim missionário para o mundo greco-romano.",
+    "interpretation": "A aceitação dos gentios é ratificada coletivamente em Jerusalém, consolidando o caráter supranacional da fé cristã. Antioquia substitui Jerusalém como o centro nevrálgico da missão gentílica.",
+    "pentecostal": "A expansão espontânea motivada por crentes anônimos em Antioquia demonstra que a ação do Espírito não depende de estruturas hierárquicas rígidas, mas do testemunho ousado de discípulos comuns.",
+    "mapContext": "Antioquia da Síria e Jerusalém formam o eixo geopolítico e eclesial que decide o futuro transcultural do cristianismo.",
+    "mapFocus": {
+      "place": "Antioquia da Síria",
+      "lat": 36.2021,
+      "lng": 36.1606,
+      "zoom": 11
+    },
+    "references": [
+      "At 11:26",
+      "At 15:1-2",
+      "Gl 2:11-14"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Antioch on the Orontes",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 12,
+    "book": "Atos",
+    "title": "A Perseguição de Herodes Agripa, a Libertação de Pedro e a Morte de Herodes",
+    "summary": "O rei Herodes Agripa I inicia uma perseguição implacável contra a igreja, executando Tiago (irmão de João) e prendendo Pedro com intenção de julgá-lo publicamente. Na véspera do julgamento, um anjo liberta milagrosamente a Pedro da prisão fortificada. Pouco depois, em Cesareia, Herodes aceita bajulações divinas em um discurso público e é ferido por um anjo, morrendo comido de vermes.",
+    "context": "Herodes Agripa I buscava aplacar o favor das autoridades judaicas em Jerusalém oprimindo a liderança cristã emergente. O contraste entre o poder imperial arrogante e a vulnerabilidade da igreja orante é o tema central.",
+    "interpretation": "O texto sublinha a soberania de Deus sobre os tiranos terrestres. A morte de Herodes contrasta com a contínua expansão da palavra de Deus, demonstrando que os reinos humanos passam, mas o Reino de Deus permanece.",
+    "pentecostal": "A eficácia da intercessão unida da igreja em favor de Pedro ressalta o poder da oração congregacional para mover o sobrenatural e frustrar planos de opressão.",
+    "mapContext": "Jerusalém (prisão) e Cesareia (morte de Herodes) ilustram o confronto entre o poder político despótico e a soberania divina.",
+    "mapFocus": {
+      "place": "Cesareia e Jerusalém",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 10
+    },
+    "references": [
+      "At 12:5",
+      "At 12:24",
+      "Sl 2:4"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Herod Agrippa I",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 13,
+    "book": "Atos",
+    "title": "O Envio de Paulo e Barnabé, Chipre e Antioquia da Pisídia",
+    "summary": "Separados pelo Espírito Santo em Antioquia da Síria, Barnabé e Saulo (agora chamado Paulo), acompanhados por João Marcos, embarcam na primeira viagem missionária. Em Chipre, confrontam o mágico Bar-Jesus (Elimas) diante do procônsul Sérgio Paulo, que se converte. Chegando a Antioquia da Pisídia, Paulo prega na sinagoga local um poderoso sermão histórico-cristológico; diante da rejeição dos judeus, Paulo e Barnabé voltam-se resolutamente para os gentios.",
+    "context": "Inicia-se a fase das grandes viagens missionárias paulinas pelo Império Romano, utilizando rotas comerciais e marítimas romanas.",
+    "interpretation": "O episódio em Chipre marca a transição da liderança de Barnabé para Paulo (Saulo). O sermão em Antioquia da Pisídia estabelece o modelo retórico paulino de apresentar Jesus como o clímax da história de Israel e salvador universal.",
+    "pentecostal": "O envio missionário nasce de um ambiente de jejum, adoração e sensibilidade direta à direção do Espírito Santo (\"separai-me a Barnabé e a Saulo\"), modelo para missões contemporâneas.",
+    "mapContext": "A ilha de Chipre e a região montanhosa da Pisídia (Ásia Menor) marcam o início da expansão missionária transcontinental.",
+    "mapFocus": {
+      "place": "Antioquia da Pisídia",
+      "lat": 38.3033,
+      "lng": 31.1783,
+      "zoom": 10
+    },
+    "references": [
+      "At 13:2-3",
+      "At 13:47",
+      "Is 49:6"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Paul's First Journey",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 14,
+    "book": "Atos",
+    "title": "Iconião, Listra, Derbe e o Retorno a Antioquia da Síria",
+    "summary": "Em Icônio, Paulo e Barnabé convertem muitos, mas enfrentam conspirações de judeus e gentios. Em Listra, Paulo cura um coxo de nascença, fazendo com que a população supersticiosa os confunda com os deuses Hermes e Zeus, querendo sacrificá-lhes bois; logo em seguida, judeus vindos de Antioquia e Icônio incitam a multidão, apedrejando Paulo e deixando-o como morto. Ele se levanta, passa por Derbe e retorna fortalecendo as igrejas plantadas.",
+    "context": "A viagem expõe a hostilidade cultural greco-romana e a fragilidade do ministério itinerante, onde o sofrimento físico acompanha o anúncio evangélico.",
+    "interpretation": "A reação em Listra ilustra o choque cultural entre o politeísmo greco-romano e o monoteísmo apostólico. A resistência estoica de Paulo e a organização de anciãos nas igrejas consolidam o modelo eclesial primitivo.",
+    "pentecostal": "A operação de curas milagrosas como a do coxo em Listra serve como sinal confirmatório da mensagem, mas o sofrimento e o apedrejamento lembram que a unção e o poder coexistem com a abnegação.",
+    "mapContext": "A região da Licaônia (Iconião, Listra e Derbe) na Ásia Menor central abriga as primeiras comunidades gentílicas estabelecidas por Paulo.",
+    "mapFocus": {
+      "place": "Listra e Icônio",
+      "lat": 37.5833,
+      "lng": 32.2333,
+      "zoom": 9
+    },
+    "references": [
+      "At 14:19-22",
+      "2Co 11:25",
+      "2Tm 3:11"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Iconium and Lystra",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 15,
+    "book": "Atos",
+    "title": "O Concílio de Jerusalém e o Decreto Apostólico",
+    "summary": "Surge uma grave crise em Antioquia quando mestres judaizantes exigem que os gentios sejam circuncidados conforme a lei de Moisés para serem salvos. Paulo e Barnabé sobem a Jerusalém para consultar os apóstolos e presbíteros. No Concílio, Pedro, Paulo, Barnabé e Tiago argumentam que a salvação é pela graça de Deus mediante a fé, sem a imposição da circuncisão. O concílio emite uma carta (o Decreto Apostólico) orientando os gentios a se absterem de ídolos, sangue, carne sufocada e imoralidade sexual.",
+    "context": "O Concílio de Jerusalém (c. 48-49 d.C.) é o evento eclesiástico mais crucial do século I, decidindo se o cristianismo seria uma seita judaica restrita ou uma fé universal.",
+    "interpretation": "A liderança de Tiago propõe um compromisso pastoral que protege a comunhão de mesa entre judeus e gentios sem submeter os últimos à Torá ritual. É a vitória teológica da graça sobre o legalismo.",
+    "pentecostal": "A decisão conciliar guiada pela fórmula \"pareceu bem ao Espírito Santo e a nós\" demonstra que o discernimento eclesial autêntico conjuga a escuta da Escritura, a experiência comunitária e a direção do Espírito.",
+    "mapContext": "Jerusalém é o centro onde a decisão normativa sobre a identidade transcultural da igreja é formalizada.",
+    "mapFocus": {
+      "place": "Jerusalém (Concílio)",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "zoom": 13
+    },
+    "references": [
+      "At 15:8-11",
+      "Gl 2:1-10",
+      "Am 9:11-12"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Jerusalem Council",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 16,
+    "book": "Atos",
+    "title": "A Visão Macedônica, Filipos, Lídia e a Prisão de Paulo e Silas",
+    "summary": "Iniciando a segunda viagem missionária, Paulo circuncida Timóteo e é impedido pelo Espírito de pregar na Ásia, recebendo em visão um macedônio que clama por ajuda. Cruzando para a Europa (Macedônia), em Filipos convertem Lídia, vendedora de púrpura, e expulsam um espírito de adivinhação de uma jovem escrava. Acusados por seus donos frustrados, Paulo e Silas são açoitados e lançados na prisão. À meia-noite, louvam a Deus em oração, ocorre um terremoto, o carcereiro se converte e toda a sua família é batizada.",
+    "context": "A entrada do evangelho na Europa marca a globalização definitiva da missão cristã, confrontando o imperialismo romano em seu próprio quintal colonial.",
+    "interpretation": "A conversão de Lídia (mulher de negócios independente) e a do carcereiro romano (representante do sistema opressor) ilustram o alcance universal da graça, que transcende barreiras de classe e gênero.",
+    "pentecostal": "O louvor na prisão à meia-noite seguido de terremoto e conversão imediata simboliza a teologia pentecostal de que a adoração em meio ao sofrimento abre portas espirituais e liberta cativos.",
+    "mapContext": "Filipos, na Macedônia (Grécia setentrional), é a primeira cidade europeia a receber o evangelho cristão.",
+    "mapFocus": {
+      "place": "Filipos",
+      "lat": 41.0117,
+      "lng": 24.2883,
+      "zoom": 11
+    },
+    "references": [
+      "At 16:9-10",
+      "At 16:25-26",
+      "Fp 1:3-5"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Philippi",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 17,
+    "book": "Atos",
+    "title": "Tessalônica, Bereia e o Discurso de Paulo no Areópago de Atenas",
+    "summary": "Em Tessalônica, a pregação causa alvoroço e perseguição, obrigando os missionários a fugirem à noite. Em Bereia, os judeus são elogiados por examinarem diariamente as Escrituras para verificar a veracidade da pregação. Deixado sozinho em Atenas, Paulo se indigna com a idolatria da cidade, discursando no Areópago sobre o 'Deus Desconhecido' e citando poetas gregos, o que resulta em conversões limitadas, incluindo Dionísio e Dâmaris.",
+    "context": "A viagem atravessa centros culturais e intelectuais da Hélade. Atenas era o reduto filosófico por excelência, onde estoicos e epicureus debatiam com o apóstolo.",
+    "interpretation": "O discurso no Areópago representa o ponto alto do encontro entre a teologia bíblica e a filosofia grega, argumentando a partir da criação e da providência universal, culminando no chamado ao arrependimento pela ressurreição.",
+    "pentecostal": "O exemplo dos bereanos, que confrontavam a pregação com a autoridade das Escrituras, é modelo clássico para discernimento teológico e validação de mensagens espirituais.",
+    "mapContext": "Atenas e o Areópago representam o coração intelectual do mundo clássico greco-romano.",
+    "mapFocus": {
+      "place": "Atenas (Areópago)",
+      "lat": 37.9715,
+      "lng": 23.7266,
+      "zoom": 15
+    },
+    "references": [
+      "At 17:11",
+      "At 17:22-28",
+      "Gn 1:1"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Areopagus Athens",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 18,
+    "book": "Atos",
+    "title": "Corinto, Áquila e Prisila, Apolo e o Início da Terceira Viagem",
+    "summary": "Em Corinto, Paulo conhece o casal judeu Áquila e Prisila, fabricantes de tendas, com quem trabalha e convive. Diante da oposição na sinagoga, Paulo dedica-se aos gentios, sendo encorajado por visão divina. É julgado perante o procônsul Gálio, que se recusa a intervir em disputas religiosas judaicas. Após retornar a Antioquia e iniciar a terceira viagem, Apolo, um eloqüente judeu alexandrino, é instruído com precisão por Áquila e Prisila em Éfeso.",
+    "context": "Corinto era uma metrópole portuária cosmopolita, corrompida e próspera, ideal para o estabelecimento de uma base missionária duradoura.",
+    "interpretation": "A inscrição de Gálio em Delfos fornece a âncora cronológica mais precisa para datar a estada de Paulo em Corinto (c. 51-52 d.C.). O ministério de Apolo demonstra a maturação teológica cooperativa entre leigos e apóstolos.",
+    "pentecostal": "O sustento biocupacional de Paulo (fabricar tendas) aliado ao fervor espiritual e intelectual de Apolo mostra que a obra de Deus integra trabalho secular e unção ministerial.",
+    "mapContext": "Corinto, estrategicamente situada no istmo grego entre dois mares, serve de centro missionário e eclesial de primeira grandeza.",
+    "mapFocus": {
+      "place": "Corinto",
+      "lat": 37.939,
+      "lng": 22.9556,
+      "zoom": 12
+    },
+    "references": [
+      "At 18:9-10",
+      "1Co 2:1-3",
+      "At 18:24-26"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Corinth",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 19,
+    "book": "Atos",
+    "title": "O Ministério em Éfeso, os Filhos de Ceva e o Tumulto dos Prateadores",
+    "summary": "Em Éfeso, Paulo encontra discípulos que só conheciam o batismo de João, batizando-os em nome de Jesus e impondo-lhes as mãos, resultando no derramamento do Espírito com línguas e profecia. Durante mais de dois anos, Paulo realiza curas extraordinárias e exorcismos, superando os exorcistas ambulantes judeus (os filhos de Ceva) e provocando a queima pública de livros mágicos. O ourives Demétrio incita um violente tumulto no teatro de Éfeso em defesa da deusa Ártemis.",
+    "context": "Éfeso era a capital da província romana da Ásia e o centro do culto imperial e da deusa Ártemis (Diana), cuja grandiosa estátua e templo atraíam peregrinos e comércio lucrativo.",
+    "interpretation": "O confronto com a magia e com o culto a Ártemis demonstra o poder libertador e exclusivo de Cristo sobre os poderes espirituais e econômicos do paganismo imperial.",
+    "pentecostal": "O avivamento em Éfeso é caracterizado por manifestações extraordinárias de poder espiritual (milagres, exorcismos e batismo no Espírito) e por arrependimento prático profundo (abandono e queima de práticas ocultistas).",
+    "mapContext": "Éfeso, com seu colossal teatro e templo de Ártemis, é o cenário do mais intenso confronto urbano e religioso da missão paulina.",
+    "mapFocus": {
+      "place": "Éfeso",
+      "lat": 37.9412,
+      "lng": 27.3419,
+      "zoom": 14
+    },
+    "references": [
+      "At 19:6",
+      "At 19:19",
+      "At 19:28"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Ephesus and Artemis",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 20,
+    "book": "Atos",
+    "title": "A Viagem pela Macedônia, Trôade e a Despedida dos Presbíteros de Éfeso",
+    "summary": "Paulo viaja pela Macedônia e Grécia, chegando a Trôade, onde, durante um longo discurso noturno, o jovem Eutico adormece, cai da janela do terceiro andar e é ressuscitado por Paulo. Prosseguindo viagem, Paulo evita Jerusalém por terra e convoca os presbíteros da igreja de Éfeso a se encontrarem com ele em Mileto. Ali, profere um emocionante discurso de despedida, alertando sobre lobos vorazes e recomendando-os à graça de Deus.",
+    "context": "A viagem de retorno a Jerusalém é marcada pela urgência e pela certeza de prisões e sofrimentos que o aguardam, conforme revelado pelo Espírito em várias cidades.",
+    "interpretation": "O discurso de Mileto é o único testamento pastoral proferido por Paulo no livro de Atos, enfatizando a integridade ministerial, o pastoreio sacrificial (\"rebanho sobre o qual o Espírito Santo vos constituiu bispos\") e a ética do trabalho.",
+    "pentecostal": "A sensibilidade de Paulo à voz do Espírito Santo, que o guia rumo ao sofrimento em Jerusalém apesar de advertências proféticas contrárias, ilustra a obediência radical ao chamado divino.",
+    "mapContext": "Trôade e Mileto, na costa do Egeu, marcam o cenário das últimas exortações e do milagre da ressurreição de Eutico.",
+    "mapFocus": {
+      "place": "Mileto e Trôade",
+      "lat": 37.5458,
+      "lng": 27.2847,
+      "zoom": 10
+    },
+    "references": [
+      "At 20:9-12",
+      "At 20:28",
+      "At 20:35"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Miletus",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 21,
+    "book": "Atos",
+    "title": "A Viagem Rumorosa a Jerusalém, a Prisão e o Discurso na Fortaleza",
+    "summary": "Apesar das profecias e advertências de discípulos em Tiro e Cesareia (incluindo as fitas do profeta Ágabo), Paulo insiste em ir a Jerusalém. Ao chegar, é bem recebido por Tiago, mas, para acalmar os judeus zelosos da Torá, concorda em purificar-se no Templo. Judeus da Ásia o reconhecem, provocando um motim e tentativa de linchamento. Os soldados romanos intervêm, prendem Paulo acorrentado e lhe permitem falar à multidão enfurecida desde as escadas da fortaleza.",
+    "context": "A chegada a Jerusalém encerra o ciclo das viagens missionárias e inicia o dramático processo judicial que levará Paulo a Roma.",
+    "interpretation": "A disposição de Paulo em sofrer por amor a Cristo e à unidade da igreja ecoa o caminho de Jesus rumo à paixão. A ambiguidade da relação entre crentes judeus e a observância da Torá permanece em evidência.",
+    "pentecostal": "O discernimento profético através de Ágabo alerta sobre o perigo, mas a convicção missionária de Paulo (\"estou pronto não só a ser preso, mas a morrer em Jerusalém\") demonstra o verdadeiro compromisso pneumatológico.",
+    "mapContext": "Tiro, Cesareia e o Templo de Jerusalém formam o itinerário físico que culmina na violenta prisão de Paulo pelos romanos.",
+    "mapFocus": {
+      "place": "Jerusalém (Fortaleza Antônia)",
+      "lat": 31.779,
+      "lng": 35.235,
+      "zoom": 16
+    },
+    "references": [
+      "At 21:11",
+      "At 21:13",
+      "At 21:33"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Paul's Arrest in Jerusalem",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 22,
+    "book": "Atos",
+    "title": "A Defesa de Paulo ao Povo e o Apelo à Cidadania Romana",
+    "summary": "Falando em hebraico/aramaico, Paulo silencia a multidão em Jerusalém ao relatar sua conversão na estrada de Damasco, sua visão no Templo e seu comissionamento específico para ir aos gentios. Ao ouvir a menção aos gentios, o povo explode novamente em revolta. O tribuno romano ordena que Paulo seja examinado sob açoite, mas Paulo interrompe o suplício ao declarar sua cidadania romana de nascimento, forçando as autoridades a recuarem.",
+    "context": "A apologia de Paulo perante seus compatriotas enfatiza sua identidade farisaica prévia e a legitimidade de sua vocação cristã.",
+    "interpretation": "O uso estratégico da cidadania romana ilustra como Paulo conjuga a fidelidade celestial com os direitos legais seculares para garantir proteção e oportunidade de testemunho.",
+    "pentecostal": "O testemunho pessoal de conversão (antes e depois do encontro com Cristo) permanece como a ferramenta apologética e evangelística mais eficaz e irrefutável.",
+    "mapContext": "A praça da Fortaleza Antônia em Jerusalém é o cenário do discurso de defesa e do recurso à imunidade da cidadania romana.",
+    "mapFocus": {
+      "place": "Jerusalém",
+      "lat": 31.778,
+      "lng": 35.234,
+      "zoom": 15
+    },
+    "references": [
+      "At 22:14-15",
+      "At 22:21",
+      "At 22:25-28"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Roman Citizenship in Acts",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 23,
+    "book": "Atos",
+    "title": "Paulo perante o Sinédrio, Conspiração e Transferência para Cesareia",
+    "summary": "Conduzido perante o Sinédrio, Paulo percebe a divisão ideológica entre saduceus (que negavam ressurreição e anjos) e fariseus, proclamando que está sendo julgado por causa da esperança da ressurreição, o que gera grande tumulto. Diante de uma conspiração de mais de quarenta judeus para assassiná-lo, o sobrinho de Paulo descobre o plano e avisa o tribuno Clésias Lísias, que providencia uma escolta militar noturna para transferi-lo em segurança ao governador Félix em Cesareia.",
+    "context": "A polarização religiosa judaica é habilmente manejada por Paulo para se defender, enquanto a conspiração revela o extremismo político da época.",
+    "interpretation": "A noite de proteção divina e a mobilização de uma força militar romana massiva (200 soldados, 70 cavaleiros e 200 lanceiros) demonstram a providência soberana de Deus preservando a vida do apóstolo para cumprir seu destino em Roma.",
+    "pentecostal": "A revelação e frustração da conspiração homicida evidenciam que os planos do inferno e dos homens violentos não podem frustrar o propósito soberano de Deus na vida do crente.",
+    "mapContext": "A rota noturna de Jerusalém a Antipatris e Cesareia Marítima sedia a transferência sob forte escolta romana.",
+    "mapFocus": {
+      "place": "Cesareia Marítima",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 11
+    },
+    "references": [
+      "At 23:11",
+      "At 23:12-13",
+      "Sl 34:7"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Governor Felix and Paul",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 24,
+    "book": "Atos",
+    "title": "O Julgamento perante Félix e o Testemunho de Paulo",
+    "summary": "Cinco dias depois, o sumo sacerdote Ananias, acompanhado pelo orador Tértulo, acusa formalmente Paulo perante o governador Félix em Cesareia de ser agitador e profanador do Templo. Em sua defesa, Paulo refuta as acusações, afirmando sua fé na ressurreição e sua conduta irrepreensível. Félix, embora aterrorizado ao ouvir Paulo discursar sobre justiça, domínio próprio e o juízo vindouro, mantém-no preso por dois anos na esperança de receber suborno.",
+    "context": "O sistema jurídico romano na Judeia é exposto em sua corrupção e venalidade através da figura do governador Félix e sua esposa Drusila.",
+    "interpretation": "A postura corajosa de Paulo diante de autoridades corruptas exemplifica o testemunho profético que confronta o poder político com verdades morais eternas (justiça, continência e juízo).",
+    "pentecostal": "A insistência de Paulo em manter a consciência limpa diante de Deus e dos homens é marca de uma vida cheia do Espírito, inegociável mesmo sob cativeiro prolongado.",
+    "mapContext": "O pretório de Cesareia Marítima sedia o prolongado processo e as audiências jurídicas de Paulo.",
+    "mapFocus": {
+      "place": "Cesareia Marítima",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 13
+    },
+    "references": [
+      "At 24:15",
+      "At 24:25",
+      "Pr 31:8-9"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Procurator Felix",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 25,
+    "book": "Atos",
+    "title": "Paulo perante Festo e o Apelo a César",
+    "summary": "Porcio Festo substitui Félix como governador e, ao visitar Jerusalém, é instado pelas autoridades judaicas a julgar Paulo, planejando uma emboscada para matá-lo na estrada. Retornando a Cesareia, Festo propõe que Paulo seja julgado em Jerusalém; diante do risco, Paulo invoca seu direito supremo como cidadão romano: 'Apelo para César!'. Pouco depois, o rei Herodes Agripa II e Berenice chegam a Cesareia, e Festo lhes apresenta o caso de Paulo.",
+    "context": "A sucessão administrativa em Cesareia coloca Paulo diante do novo governador Festo e do rei cliente herodiano Agripa II.",
+    "interpretation": "O recurso legal ao imperador (Appellatio ad Caesarem) garante que Paulo cumprirá sua missão e testemunho na própria capital do império, cumprindo a promessa de Cristo em Atos 19:21 e 23:11.",
+    "pentecostal": "A estratégia jurídica e a intrepidez de Paulo mostram que o Espírito Santo utiliza os mecanismos legais e institucionais humanos para cumprir sua agenda soberana de expansão evangélica.",
+    "mapContext": "O palácio governamental de Cesareia Marítima é o centro das negociações políticas entre Festo, Agripa e Paulo.",
+    "mapFocus": {
+      "place": "Cesareia Marítima",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 13
+    },
+    "references": [
+      "At 25:10-11",
+      "At 23:11",
+      "Rm 1:15"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Porcius Festus",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 26,
+    "book": "Atos",
+    "title": "A Defesa de Paulo perante o Rei Agripa II",
+    "summary": "Convidado a falar perante o rei Agripa II, Paulo relata sua origem farisaica, sua oposição violenta à igreja, sua dramática conversão na estrada de Damasco e o chamado divino para abrir os olhos dos gentios. Diante de sua veemente defesa da ressurreição de Cristo, Festo o interrompe gritando que está louco de tanto estudar, ao que Paulo responde com cortesia e paixão que deseja ver todos tão crentes quanto ele, exceto pelas correntes. Agripa conclui que Paulo não fez nada digno de morte e que poderia ter sido solto se não tivesse apelado a César.",
+    "context": "Este discurso é o testemunho mais polido e abrangente de Paulo em Atos, combinando autobiografia espiritual, apologética cristológica e apelo evangelístico direto.",
+    "interpretation": "A tentativa de Paulo de converter o próprio rei Agripa (\"Por pouco me persuades a me fazer cristão\") eleva o tribunal romano a um púlpito de proclamação do evangelho.",
+    "pentecostal": "A ousadia de Paulo em confrontar reis e governadores com a verdade da ressurreição exemplifica o cumprimento da promessa de que os discípulos seriam levados perante autoridades por causa de Cristo, cheios de intrepidez pneumatológica.",
+    "mapFocus": {
+      "place": "Cesareia Marítima (Auditório Real)",
+      "lat": 32.5022,
+      "lng": 34.8947,
+      "zoom": 14
+    },
+    "mapContext": "O auditório real de Cesareia Marítima sedia a suprema defesa pública de Paulo perante a realeza herodiana e a elite romana.",
+    "references": [
+      "At 26:18",
+      "At 26:28",
+      "Lc 21:12-15"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Herod Agrippa II",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 27,
+    "book": "Atos",
+    "title": "A Viagem Marítima Rumos a Roma e o Naufrágio em Malta",
+    "summary": "Enviado como prisioneiro sob a custódia do centurião Júlio, Paulo embarca rumo a Itália em navios mercantes. Ignorando o aviso de Paulo durante a navegação difícil próximo a Creta, o piloto e o dono do navio enfrentam uma tempestade furaciosa (o Euroaquilão) que dura muitos dias, levando à perda de carga e desespero geral. Paulo encoraja a todos, anunciando por revelação divina que nenhum deles perecerá, embora o navio naufrague. Após encalhar em um recife na ilha de Malta, todos os 276 ocupantes se salvam a nado ou em pedaços de madeira.",
+    "context": "O relato do naufrágio em Atos 27 é considerado um dos documentos antigos mais precisos sobre a navegação e marinhagem no Mediterrâneo romano do século I.",
+    "interpretation": "Neste capítulo, Paulo assume o controle moral e espiritual da situação, agindo como verdadeiro profeta e líder salvífico em meio ao caos, prefigurando a soberania de Deus sobre as forças caóticas da natureza e dos impérios.",
+    "pentecostal": "A palavra profética de Paulo em meio à tempestade (\"tive nesta noite um anjo do Deus a quem pertenço...\") demonstra que a comunhão íntima com Deus confere serenidade e autoridade espiritual em crises extremas.",
+    "mapContext": "O mar Mediterrâneo, desde Creta até a ilha de Malta (Melita), é o cenário dramático do naufrágio e da preservação milagrosa.",
+    "mapFocus": {
+      "place": "Ilha de Malta (Melita)",
+      "lat": 35.8985,
+      "lng": 14.5146,
+      "zoom": 9
+    },
+    "references": [
+      "At 27:23-25",
+      "Sl 107:23-30",
+      "2Co 11:25"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Ancient Seafaring and Shipwreck",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  },
+  {
+    "chapter": 28,
+    "book": "Atos",
+    "title": "A Estada em Malta, a Chegada a Roma e o Testemunho sem Impedimento",
+    "summary": "Acolhidos com extrema humanidade pelos nativos de Malta, Paulo sobrevive à picada de uma víbora venenosa sem sofrer dano, curando o pai de Públio (o principal da ilha) e muitas outras enfermidades. Após três meses, embarcam rumo a Siracusa, Régio e Puteoli, caminhando finalmente pela Via Ápia até Roma, onde irmãos vêm recebê-los. Em Roma, Paulo é mantido sob custódia domiciliar com um soldado escolta, recebendo todos os que o procuram e pregando o Reino de Deus com toda a ousadia, sem impedimento algum.",
+    "context": "O livro culmina na capital do Império Romano, o centro simbólico do mundo antigo mediterrâneo, concretizando o programa geográfico de Atos 1:8.",
+    "interpretation": "O final abrupto e aberto de Atos (sem narrar o julgamento ou a morte de Paulo) enfatiza que a palavra de Deus não está algemada (2Tm 2:9). A missão chegou a Roma, e o avanço do evangelho continua irreversível.",
+    "pentecostal": "A imunidade ao veneno da víbora em Malta e a pregação ousada e desimpedida em Roma encerram o livro atestando que o poder do Espírito Santo capacita a igreja a triunfar sobre os confins da terra.",
+    "mapFocus": {
+      "place": "Roma",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 12
+    },
+    "mapContext": "Roma, capital do Império Romano, é o destino final e o clímax da expansão geográfica e teológica do testemunho cristão em Atos.",
+    "references": [
+      "At 1:8",
+      "At 28:30-31",
+      "2Tm 2:9"
+    ],
+    "source": {
+      "label": "Bible Odyssey — Paul in Rome",
+      "url": "https://www.bibleodyssey.org/"
+    }
+  }
+]
