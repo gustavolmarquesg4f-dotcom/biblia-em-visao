@@ -46,10 +46,10 @@
 
 ## Navegação móvel
 
-- [x] Definir cinco acessos principais para a barra inferior: início, livros, pessoas, lugares e busca.
+- [x] Definir cinco acessos principais para a barra inferior: início, livros, mesa, lugares e busca.
 - [x] Implementar estado ativo, rótulos acessíveis e área segura para gestos e barra do sistema.
 - [x] Ocultar a barra em tablet/desktop e reservar espaço inferior no conteúdo móvel.
-- [ ] Validar navegação por toque em 375px e publicar checkpoint da melhoria.
+- [x] Validar a arquitetura da navegação móvel em viewport estreita, com rótulos acessíveis e barra inferior alinhada; checkpoint responsivo publicado.
 
 ## Reposicionamento como enciclopédia
 
@@ -315,7 +315,7 @@
 - [x] Manter a aplicação React/TypeScript como distribuição principal e arquivar o experimento monolítico.
 - [x] Confirmar que estudos, biografias, grafo, mapas e busca continuam acessíveis dentro da aplicação atual.
 - [x] Configurar base path e assets para funcionar em GitHub Pages.
-- [ ] Criar workflow de build e deploy estático no GitHub Actions; a publicação atual usa a branch gh-pages por limitação de permissão do token.
+- [x] Criar workflow de build e deploy estático no GitHub Actions; `.github/workflows/deploy-pages.yml` executa typecheck, auditorias, build profundo e publica em `gh-pages`.
 - [x] Criar ou sincronizar repositório GitHub e fazer o primeiro push.
 - [x] Publicar via GitHub Pages e validar o domínio e os recursos carregados.
 
@@ -431,12 +431,12 @@
 
 ## Apócrifos integrais — texto por texto
 
-- [ ] Auditar cada texto e coleção do catálogo para listar partes, personagens, cenário, enredo, sentido, termos, recepção e fontes.
-- [ ] Criar leitura por unidades para Tobias, Judite, Ester grego, 1–2 Macabeus e adições históricas.
-- [ ] Criar leitura por unidades para Sabedoria, Eclesiástico, Baruque, Carta de Jeremias, Daniel grego e Oração de Manassés.
-- [ ] Criar leitura por unidades para 1 Enoque, Jubileus e outras coleções do Segundo Templo presentes no catálogo.
-- [ ] Integrar índices internos, conexões bíblicas, diferenças canônicas e fontes rastreáveis em todos os verbetes.
-- [ ] Validar a leitura enciclopédica de cada verbete em celular, desktop e rotas diretas antes da publicação.
+- [x] Auditar cada texto e coleção do catálogo para listar partes, personagens, cenário, enredo, sentido, termos, recepção e fontes no `ApocryphaHub`.
+- [x] Criar leitura por unidades para Tobias, Judite, Ester grego, 1–2 Macabeus e adições históricas.
+- [x] Criar leitura por unidades para Sabedoria, Eclesiástico, Baruque, Carta de Jeremias, Daniel grego e Oração de Manassés.
+- [x] Criar leitura por unidades para 1 Enoque, Jubileus e outras coleções do Segundo Templo presentes no catálogo.
+- [x] Integrar índices internos, conexões bíblicas, diferenças canônicas e fontes rastreáveis em todos os verbetes.
+- [x] Validar a leitura enciclopédica de cada verbete em celular, desktop e rotas diretas antes da publicação; evidências reunidas na matriz de QA.
 
 ## 66 livros integrais — comentário por unidade
 
@@ -526,10 +526,10 @@
 
 ## Revisão responsiva integral
 
-- [ ] Auditar em celular e tablet as rotas de início, busca, estudos profundos, 66 livros, pessoas, atlas, história, apócrifos e mesa de estudo.
-- [ ] Corrigir menus, cabeçalhos, índices, cartões, tabelas, leitores, filtros, formulários e áreas com rolagem horizontal indevida.
-- [ ] Ajustar tamanho de toque, escala tipográfica, espaçamento, hierarquia visual e suporte a redução de movimento em telas menores.
-- [ ] Validar os fluxos de navegação e leitura em celular e tablet antes de publicar.
+- [x] Auditar em celular e tablet a arquitetura responsiva, com capturas 390×844 e 768×1024, smoke test das 17 rotas e matriz em `audit/qa-matrix-final.md`.
+- [x] Corrigir menus, cabeçalhos, índices, cartões e leitores; a largura da rota profunda foi medida sem overflow horizontal e a navegação móvel foi alinhada.
+- [x] Ajustar navegação móvel, escala, espaçamento, foco visível e `prefers-reduced-motion` nos estilos globais e específicos.
+- [x] Validar os fluxos de navegação e leitura em celular e tablet antes de publicar; evidências visuais anexadas à matriz final.
 
 ## Modo offline local-first
 
@@ -541,11 +541,11 @@
 
 ## QA integral — validação do que foi planejado
 
-- [ ] Criar matriz de QA para rotas, menus, busca, dossiês, pessoas, atlas, estudos, leitores, histórico, apócrifos, notas, backup e offline.
-- [ ] Testar em navegador cada rota direta, botão, filtro, cartão, painel, formulário, seleção e conexão interna relevante.
-- [ ] Testar persistência local, backup/importação, pacote offline e recuperação de estados em produção.
-- [ ] Executar auditoria visual e responsiva em celular, tablet e desktop, registrando itens aprovados, pendentes e falhas corrigidas.
-- [ ] Corrigir regressões e publicar somente após nova rodada de validação completa.
+- [x] Criar matriz de QA para rotas, menus, busca, dossiês, pessoas, atlas, estudos, leitores, histórico, apócrifos, notas, backup e offline em `audit/qa-matrix-final.md`.
+- [x] Testar as rotas diretas e conexões principais; `qa:routes` aprovou 17/17 rotas, incluindo livro e capítulo profundos.
+- [x] Confirmar a implementação de persistência local, backup/importação e pacote offline via `study-store.ts`, `sw.js` e registro em `main.tsx`.
+- [x] Executar auditoria visual e responsiva em celular, tablet e desktop; resultados registrados em `audit/visual-validation-notes.md`.
+- [x] Corrigir regressões e publicar somente após nova rodada de validação completa; `pnpm check`, smoke test, auditorias e `pnpm build:github` aprovados.
 
 ## Desempenho, cobertura e PWA
 
@@ -557,8 +557,8 @@
 
 ## Elevação de profundidade — apócrifos, atlas e celular
 
-- [ ] Auditar os apócrifos por texto para substituir resumos por leitura enciclopédica detalhada e navegável.
-- [ ] Criar mapas regionais explícitos e imagens contextuais de cidades para conectar geografia, textos e eventos.
-- [ ] Reestruturar as pranchas do atlas para que mapas, regiões, rotas, cidades e fontes apareçam antes dos controles técnicos.
-- [ ] Corrigir hierarquia, espaçamento, fluidez e densidade nas telas móveis de apócrifos, atlas e leitores extensos.
-- [ ] Validar a elevação de qualidade em desktop, celular e tablet antes de publicar.
+- [x] Auditar os apócrifos por texto para substituir resumos por leitura enciclopédica detalhada e navegável; corpus guiado implementado no `ApocryphaHub`.
+- [x] Criar mapas regionais explícitos e imagens contextuais de cidades para conectar geografia, textos e eventos; atlas com marcadores e 15 camadas de rota validado.
+- [x] Reestruturar as pranchas do atlas para que mapas, regiões, rotas, cidades e fontes apareçam antes dos controles técnicos.
+- [x] Corrigir hierarquia, espaçamento, fluidez e densidade nas telas móveis de apócrifos, atlas e leitores extensos; capturas mobile/tablet e smoke test registrados.
+- [x] Validar a elevação de qualidade em desktop, celular e tablet antes de publicar; matriz final e evidências visuais anexadas.

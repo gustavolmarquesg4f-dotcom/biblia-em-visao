@@ -16,3 +16,18 @@ Em 20 de agosto de 2026, a aplicação revisada exibiu no cabeçalho `EDIÇÃO A
 
 
 A URL pública do GitHub Pages (`https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/`) foi aberta após a sincronização e carregou o cabeçalho `66 dossiês · 1.189 capítulos`. O conteúdo público exibiu `1.189/1.189 capítulos auditados`, `66/66 livros verificados`, `39 focos ampliados · 12 livros`, `1.189 contextos cartográficos`, `1.189 fichas de capítulo` e `1.189 contextos cartográficos`, confirmando que a publicação não ficou restrita ao servidor local.
+
+
+## QA móvel — viewport 390×844
+
+A captura de `/livro/1-g-nesis?cap=2` mostrou uma composição sem rolagem horizontal visível, header compacto, breadcrumb de leitura, botão `Voltar aos 66 livros`, salvar, barra inferior com `Início`, `Livros`, `Mesa`, `Lugares` e `Buscar`, além da marca de `1.189 capítulos`. A hierarquia do dossiê permaneceu legível em tela estreita.
+
+O leitor capítulo a capítulo apareceu em estado de carregamento na primeira captura headless, indicando que a tela inicial móvel deve ser verificada após a carga assíncrona; não houve overflow nem corte dos controles. A barra inferior cobre a largura corretamente e mantém cinco destinos principais.
+
+
+A segunda captura headless em 390×844 aguardou 8 segundos e confirmou o estado carregado do dossiê, com cabeçalho, estatísticas, barra inferior e largura sem overflow. O leitor capítulo a capítulo fica abaixo do bloco introdutório longo; a navegação oferece acesso por índice/âncora e a validação desktop confirmou o conteúdo do leitor. A captura móvel não deve ser interpretada como falha de carregamento, mas como evidência de que o topo ocupa mais de um viewport em telas pequenas.
+
+
+## QA tablet — viewport 768×1024
+
+A captura em 768×1024 confirmou a transição para header compacto, modo leitura, breadcrumb, salvar e composição sem corte horizontal. O dossiê e a grade de estatísticas usam a largura disponível de forma legível. A ação `Ir direto ao índice de capítulos` foi adicionada ao cabeçalho do leitor para reduzir o percurso até a cobertura integral quando o dossiê antecede o módulo capítulo a capítulo.

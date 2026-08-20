@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "build:github": "GITHUB_PAGES=true vite build && cp dist/public/index.html dist/public/404.html",
+    "build:github": "pnpm build:chapters:deep && pnpm audit:coverage && GITHUB_PAGES=true vite build && cp dist/public/index.html dist/public/404.html",
     "build:chapters": "tsx scripts/build-chapter-coverage.ts",
+    "build:chapters:deep": "node scripts/fetch-bible-text.mjs && tsx scripts/build-chapter-coverage.ts && node scripts/enrich-chapter-coverage-deterministic.mjs",
+    "audit:coverage": "node scripts/audit-chapter-coverage.mjs",
+    "audit:navigation": "node scripts/audit-navigation.mjs",
+    "qa:routes": "node scripts/qa-route-dom.mjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",

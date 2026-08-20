@@ -7,13 +7,14 @@ export type ChapterCoverageRecord = {
   chapter: number;
   reference: string;
   title: string;
-  editorialDepth: "Núcleo sintético" | "Foco ampliado";
+  editorialDepth: "Núcleo sintético" | "Foco ampliado" | "Comentário textual enriquecido";
   textLayer: string;
   contextLayer: string;
   interpretationLayer: string;
   pentecostalLayer: string;
   references: string[];
   source: { label: string; url: string };
+  textBasis?: { label: string; translation: string; url: string; licenseUrl: string };
   cartography: {
     placeId: string;
     placeLabel: string;

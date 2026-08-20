@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:44:44.345Z",
+  "generatedAt": "2026-08-20T19:47:09.255Z",
   "expectedBooks": 66,
   "expectedChapters": 1189,
   "publishedBookCount": 66,
@@ -13,6 +13,9 @@
   "recordsWithCartography": 1189,
   "focalRecordsPreserved": 39,
   "focalRecordsExpected": 39,
+  "enrichedTextRecords": 1150,
+  "syntheticRecords": 0,
+  "recordsWithTextBasis": 1150,
   "atlasMarkers": 4,
   "routeLayers": 15,
   "coverageStatus": "APROVADA",

@@ -56,9 +56,12 @@ const report = {
   recordsWithCartography: records.filter((record) => record.cartography?.placeId && record.cartography?.note).length,
   focalRecordsPreserved: records.filter((record) => record.editorialDepth === "Foco ampliado" && focalKeys.has(`${record.book}:${record.chapter}`)).length,
   focalRecordsExpected: focalCommentaries.length,
+  enrichedTextRecords: records.filter((record) => record.editorialDepth === "Comentário textual enriquecido").length,
+  syntheticRecords: records.filter((record) => record.editorialDepth === "Núcleo sintético").length,
+  recordsWithTextBasis: records.filter((record) => record.textBasis?.url && record.textBasis?.licenseUrl).length,
   atlasMarkers: [...atlasSource.matchAll(/\{ id: \"([^\"]+)\", label: \"([^\"]+)\"/g)].length,
   routeLayers: validRouteIds.size,
-  coverageStatus: coverage.bookCount === books.length && coverage.total === expectedChapters && records.length === expectedChapters && coverageKeySet.size === expectedChapters && missingCoverage.length === 0 && duplicateCoverageKeys.length === 0 && invalidRecords.length === 0 && recordsWithUnknownBooks.length === 0 ? "APROVADA" : "REPROVADA",
+  coverageStatus: coverage.bookCount === books.length && coverage.total === expectedChapters && records.length === expectedChapters && coverageKeySet.size === expectedChapters && missingCoverage.length === 0 && duplicateCoverageKeys.length === 0 && invalidRecords.length === 0 && recordsWithUnknownBooks.length === 0 && records.filter((record) => record.editorialDepth === "Núcleo sintético").length === 0 ? "APROVADA" : "REPROVADA",
   missingSample: missingCoverage.slice(0, 20),
   invalidSample: invalidRecords.slice(0, 5).map((record) => `${record.book} ${record.chapter}`),
 };

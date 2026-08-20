@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-08-20T19:50:31.616Z",
+  "base": "http://127.0.0.1:3002",
+  "routeCount": 17,
+  "passed": 17,
+  "results": [
+    {
+      "route": "/",
+      "marker": "A Bíblia",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/comece",
+      "marker": "Comece",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/66-livros",
+      "marker": "66 livros",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/livro/1-g-nesis?cap=2",
+      "marker": "Gênesis 2",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/roteiro",
+      "marker": "Roteiro dos 66 livros",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/linha-do-tempo",
+      "marker": "Linha do tempo",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/atlas",
+      "marker": "Atlas",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/historia",
+      "marker": "História bíblica",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/pessoas",
+      "marker": "Pessoas e povos",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/temas",
+      "marker": "Temas bíblicos",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/busca",
+      "marker": "Busca",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/mesa",
+      "marker": "Mesa de estudo",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/canon",
+      "marker": "Cânones",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/apocrifos",
+      "marker": "Apócrifos",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/glossario",
+      "marker": "Glossário",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/apocalipse",
+      "marker": "Apocalipse",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    },
+    {
+      "route": "/bibliografia",
+      "marker": "Fontes e bibliografia",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "error": null
+    }
+  ],
+  "status": "APROVADA"
+}

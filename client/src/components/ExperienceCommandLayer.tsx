@@ -2,7 +2,7 @@
 // Acervo de Sinais Vivos: o comando rápido aceita destinos, temas e referências bíblicas em linguagem natural.
 import { useEffect, useMemo, useState } from "react";
 import { useLocation } from "wouter";
-import { ArrowUpRight, BookOpen, Compass, History, Layers3, Map, Search, Sparkles, UsersRound, X } from "lucide-react";
+import { ArrowUpRight, BookOpen, Compass, FileText, History, Layers3, Map, Search, Sparkles, UsersRound, X } from "lucide-react";
 import { parsePassageIntent, savePassageIntent } from "@/lib/passage-navigation";
 import { recordJourneyRoute } from "@/lib/study-journey";
 import "@/ux-futurist.css";
@@ -10,18 +10,47 @@ import "@/ux-futurist.css";
 type Destination = { label: string; detail: string; href: string; icon: typeof Compass; keywords: string };
 
 const destinations: Destination[] = [
-  { label: "Comece aqui", detail: "Uma entrada orientada para quem está chegando", href: "/comece", icon: Compass, keywords: "inicio começo orientação panorama" },
-  { label: "Explorar os 66 livros", detail: "Dossiês, capítulos e trilhas de leitura", href: "/66-livros", icon: BookOpen, keywords: "livros biblia gênesis mateus capítulos" },
+  { label: "Ponto de partida", detail: "A visão geral da enciclopédia", href: "/", icon: Compass, keywords: "inicio começo visão geral panorama" },
+  { label: "Comece aqui", detail: "Uma entrada orientada para quem está chegando", href: "/comece", icon: Compass, keywords: "orientação primeiro percurso porta" },
+  { label: "Explorar os 66 livros", detail: "Dossiês, capítulos e trilhas de leitura", href: "/66-livros", icon: BookOpen, keywords: "livros biblia gênesis mateus capítulos biblioteca" },
+  { label: "Roteiro dos 66 livros", detail: "Um caminho de leitura para cada livro", href: "/roteiro", icon: BookOpen, keywords: "roteiro leitura caminho estrutura livro" },
   { label: "Atlas e lugares", detail: "Cidades, regiões, rotas e impérios", href: "/atlas", icon: Map, keywords: "atlas mapa cidade região rota império" },
   { label: "Estudos profundos", detail: "Escatologia, Espírito, finanças e temas", href: "/estudos-profundos", icon: Layers3, keywords: "estudo escatologia espírito anjos trindade finanças" },
-  { label: "Mesa de estudo", detail: "Notas, comentários, fichas e progresso", href: "/mesa", icon: Sparkles, keywords: "mesa notas favoritos comentários estudo" },
+  { label: "Mesa de estudo", detail: "Notas, comentários, fichas e progresso", href: "/mesa", icon: Sparkles, keywords: "mesa notas favoritos comentários estudo cobertura" },
   { label: "Pessoas e povos", detail: "Biografias, relações e linhas de continuidade", href: "/pessoas", icon: UsersRound, keywords: "pessoa povo biografia personagem profeta" },
   { label: "História bíblica", detail: "Períodos, impérios, fontes e debates", href: "/historia", icon: History, keywords: "história período babilônia roma exílio" },
+  { label: "Apócrifos e textos", detail: "Deuterocanônicos, recepção e diferenças de cânon", href: "/apocrifos", icon: BookOpen, keywords: "apócrifos deuterocanônicos macabeus sabedoria" },
+  { label: "Apocalipse e escatologia", detail: "Símbolos, escolas interpretativas e esperança", href: "/apocalipse", icon: Layers3, keywords: "apocalipse escatologia milênio arrebatamento" },
   { label: "Pesquisa na rede", detail: "Perguntas, entidades e conexões", href: "/busca", icon: Search, keywords: "busca pergunta tema profecia referência" },
+  { label: "Fontes e bibliografia", detail: "Rastrear fontes, limites e confiança", href: "/bibliografia", icon: FileText, keywords: "fontes bibliografia pesquisa acadêmica" },
 ];
 
+const routeAliases: Record<string, string> = {
+  "/": "/",
+  "/comece": "/comece",
+  "/66-livros": "/66-livros",
+  "/roteiro": "/roteiro",
+  "/mesa": "/mesa",
+  "/atlas": "/atlas",
+  "/estudos": "/estudos-profundos",
+  "/percursos": "/estudos-profundos",
+  "/estudos-profundos": "/estudos-profundos",
+  "/pessoas": "/pessoas",
+  "/povos": "/pessoas",
+  "/pessoas-e-povos": "/pessoas",
+  "/historia": "/historia",
+  "/apocrifos": "/apocrifos",
+  "/deuterocanonicos": "/apocrifos",
+  "/apocalipse": "/apocalipse",
+  "/escatologia": "/apocalipse",
+  "/apocalypse": "/apocalipse",
+  "/busca": "/busca",
+  "/bibliografia": "/bibliografia",
+};
+
 function routeContext(location: string) {
-  const current = destinations.find((item) => item.href === location) || destinations[0];
+  const canonicalPath = routeAliases[location] || (location.startsWith("/livro/") ? "/66-livros" : location);
+  const current = destinations.find((item) => item.href === canonicalPath) || destinations[0];
   const currentIndex = destinations.findIndex((item) => item.href === current.href);
   return { current, next: destinations[(currentIndex + 1) % destinations.length] };
 }

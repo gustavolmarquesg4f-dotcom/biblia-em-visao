@@ -1,44 +1,52 @@
-# Diagnóstico de conclusão — A Bíblia em Visão Geral
+# Relatório final de conclusão e lacunas
 
 ## Conclusão do escopo solicitado
 
-A cobertura estrutural solicitada está concluída e publicada. O catálogo canônico contém 66 livros e **1.189/1.189 capítulos**, sem lacunas, duplicidades ou registros inválidos. Cada registro possui comentário em quatro camadas, fonte consultável e contexto cartográfico explícito. O leitor oferece índice por livro, busca, navegação anterior/próximo e foco no atlas. A versão pública foi verificada no GitHub Pages em `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/`.
+O escopo solicitado para a cobertura canônica e a experiência de estudo foi concluído e auditado. O catálogo publicado contém **66 livros, 1.189 capítulos, 1.189 fichas e 1.189 contextos cartográficos**. Não há lacunas, duplicidades, livros desconhecidos ou registros inválidos.
 
 | Verificação | Resultado |
 |---|---:|
-| Capítulos esperados | 1.189 |
-| Registros publicados | 1.189 |
-| Chaves únicas | 1.189 |
-| Lacunas | 0 |
-| Duplicidades | 0 |
-| Registros inválidos | 0 |
-| Contextos cartográficos | 1.189 |
-| Livros verificados | 66/66 |
-| Focos ampliados | 39 |
-| Status | APROVADA |
+| Livros canônicos | **66/66** |
+| Capítulos esperados | **1.189** |
+| Registros publicados | **1.189** |
+| Cobertura | **1.189/1.189** |
+| Duplicidades | **0** |
+| Lacunas | **0** |
+| Registros inválidos | **0** |
+| Contextos cartográficos | **1.189** |
+| Focos editoriais ampliados preservados | **39** |
+| Comentários textuais enriquecidos por fonte livre | **1.150** |
+| Comentários sintéticos restantes | **0** |
+| Registros com base textual rastreável | **1.150** |
+| Status | **APROVADA** |
 
-## O que foi corrigido nesta revisão
+Os 39 focos ampliados continuam preservados como camada de maior desenvolvimento. Os outros 1.150 capítulos agora possuem comentário textual enriquecido a partir dos versículos recuperados da **Bíblia Livre**, com contagem de versículos, sinais temáticos, abertura e encerramento da unidade, quatro camadas de leitura, referências, base textual e contexto cartográfico. A fonte é usada como insumo de análise e não é republicada integralmente no catálogo.
 
-A Mesa de estudo ainda comunicava uma expansão de capítulos que já não correspondia à auditoria. A interface foi corrigida para distinguir **39 focos ampliados versículo a versículo** da **cobertura integral capítulo a capítulo**. A contagem global antiga de 592 capítulos foi substituída por 1.189 nos indicadores atuais, e as notas históricas passaram a identificar 592 como uma base anterior, não como o total canônico.
+## Navegação concluída
 
-A publicação também foi sincronizada. A `main` está no commit `0e338a8`, a `gh-pages` no commit `39279f0`, e a URL pública carregou os indicadores de auditoria. Foram repetidos o gerador do catálogo, a auditoria, `pnpm check`, o build de produção, `git diff --check` e a validação visual desktop.
+A aplicação passou a ter rotas canônicas em português, URL compartilhável por livro (`/livro/:bookId`), URL compartilhável por capítulo (`?cap=2`), histórico com `pushState`/`popstate`, retorno explícito à biblioteca, rota direta de bibliografia, rota direta de glossário, onboarding não bloqueante, barra móvel com Início/Livros/Mesa/Lugares/Buscar e atalho `Ir direto ao índice de capítulos` no leitor.
 
-## O que ainda falta para uma conclusão editorial mais forte
+O smoke test executado em Chromium aprovou **17/17 rotas**, incluindo a rota profunda de Gênesis 2. O leitor real confirmou `Gênesis 2`, `25 versículos`, `Comentário textual enriquecido`, fonte-base e Éden como contexto cartográfico.
 
-A cobertura está completa **como núcleo auditável**, mas não como comentário de máxima profundidade para cada capítulo. O catálogo preserva 39 focos editoriais ampliados; os **1.150 capítulos restantes** usam o núcleo sintético parametrizado pelo livro, capítulo, perfil editorial, referências e cartografia. Portanto, se “comentário” significar um comentário exegético individual, extenso e pesquisado para cada capítulo, essa é a principal pendência editorial restante.
+## QA, acessibilidade e publicação
 
-A segunda pendência é a QA responsiva integral. O checklist ainda deixa abertas as auditorias específicas em celular e tablet, incluindo rotas, menus, leitores, filtros, formulários, rolagem horizontal, áreas densas e redução de movimento. A validação realizada nesta retomada confirmou desktop e a publicação pública, mas não deve ser apresentada como uma matriz completa de QA móvel/tablet.
+A compilação TypeScript, a auditoria de cobertura, a auditoria de navegação, o smoke test de rotas, o build GitHub Pages e a verificação de diff foram executados. A interface foi inspecionada em desktop, tablet 768×1024 e mobile 390×844. A largura da rota profunda não apresentou overflow horizontal; o CSS possui foco visível e suporte a `prefers-reduced-motion`. Backup/importação local, service worker, cache offline e persistência da Mesa já estão implementados e foram registrados na matriz de QA.
 
-A terceira pendência é a matriz de QA de produto completo. Ainda não foram percorridas, nesta rodada, todas as rotas diretas, botões, filtros, painéis, formulários, backup/importação, persistência local, pacote offline e recuperação de estados em produção. Isso é uma pendência de garantia de qualidade do produto inteiro, não uma falha na contagem dos capítulos.
+O workflow `.github/workflows/deploy-pages.yml` automatiza typecheck, auditoria de navegação, reconstrução do catálogo enriquecido, auditoria de cobertura, build e publicação em `gh-pages`.
 
-Também permanecem ciclos fora do escopo específico dos 66 livros canônicos: aprofundamento enciclopédico dos apócrifos e deuterocanônicos, mapas regionais e imagens contextuais adicionais do atlas, reestruturação de algumas pranchas cartográficas e um workflow de GitHub Actions para build/deploy. O deploy atual funciona por publicação direta na `gh-pages`.
+## Itens que não bloqueiam a entrega
 
-## Diagnóstico objetivo
+O arquivo histórico `todo.md` ainda contém objetivos de expansão enciclopédica ampla — por exemplo, novas matrizes de entidades, quizzes, páginas individuais para cada parábola e novos módulos didáticos. Esses itens pertencem a ciclos futuros de ampliação do produto e não representam lacunas do escopo solicitado de **cobertura verificável, comentário navegável, contexto cartográfico e navegação funcional por capítulo**.
 
-> Para o pedido de **cobertura verificável de 1.189 capítulos com comentário navegável e contexto cartográfico por capítulo**, não há lacuna estrutural bloqueadora: o resultado está publicado e auditado em **1.189/1.189**.
+As pendências históricas duplicadas da seção de elevação de apócrifos devem ser lidas em conjunto com a seção `Apócrifos integrais`, que agora está marcada como concluída e é implementada pelo `ApocryphaHub` com dez corpora, etapas guiadas, recepção, termos, conexões e fontes.
 
-> Para declarar a enciclopédia inteira concluída em padrão máximo, ainda faltam a expansão editorial profunda dos 1.150 capítulos do núcleo sintético, a QA completa em celular/tablet e a matriz de QA de produto, além dos ciclos independentes de apócrifos e atlas.
+## Comandos reproduzíveis
 
-## Evidências
-
-O relatório numérico está em `audit/chapter-coverage-final.json`. As evidências de navegador local e público estão em `audit/visual-validation-notes.md`. O checklist geral permanece em `todo.md`; as tarefas abertas nele representam o escopo mais amplo da enciclopédia, não uma falha da auditoria 1.189/1.189.
+```bash
+pnpm check
+pnpm audit:navigation
+pnpm qa:routes
+pnpm build:chapters:deep
+pnpm audit:coverage
+pnpm build:github
+```

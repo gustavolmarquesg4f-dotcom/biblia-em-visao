@@ -12,9 +12,9 @@ const routes = [
 ];
 
 export default function OnboardingNavigator() {
-  const [, navigate] = useLocation();
+  const [location, navigate] = useLocation();
   const [open, setOpen] = useState(false);
-  useEffect(() => { if (!readOnboardingProfile().completed) setOpen(true); const reopen = () => setOpen(true); window.addEventListener("biblia-onboarding:open", reopen); return () => window.removeEventListener("biblia-onboarding:open", reopen); }, []);
+  useEffect(() => { if ((location === "/" || location === "/comece") && !readOnboardingProfile().completed) setOpen(true); const reopen = () => setOpen(true); window.addEventListener("biblia-onboarding:open", reopen); return () => window.removeEventListener("biblia-onboarding:open", reopen); }, [location]);
   const choose = (href: string) => { saveOnboardingProfile({ completed: true, entry: href }); setOpen(false); navigate(href); window.scrollTo({ top: 0, behavior: "smooth" }); };
   const dismiss = () => { saveOnboardingProfile({ completed: true }); setOpen(false); };
   if (!open) return null;

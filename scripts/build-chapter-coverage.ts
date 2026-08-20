@@ -13,13 +13,14 @@ type ChapterRecord = {
   chapter: number;
   reference: string;
   title: string;
-  editorialDepth: "Núcleo sintético" | "Foco ampliado";
+  editorialDepth: "Núcleo sintético" | "Foco ampliado" | "Comentário textual enriquecido";
   textLayer: string;
   contextLayer: string;
   interpretationLayer: string;
   pentecostalLayer: string;
   references: string[];
   source: { label: string; url: string };
+  textBasis?: { label: string; translation: string; url: string; licenseUrl: string };
   cartography: {
     placeId: string;
     placeLabel: string;
@@ -57,6 +58,8 @@ const placeById = new Map(biblicalPlaces.map((place) => [place.id, place]));
 const routeById = new Map(routeLayers.map((route) => [route.id, route]));
 const empireById = new Map(empireLayers.map((empire) => [empire.id, empire]));
 const existingByKey = new Map(verseCommentaries.map((commentary) => [`${commentary.book}:${commentary.chapter}`, commentary]));
+const existingCoverage = fs.existsSync(outputPath) ? JSON.parse(fs.readFileSync(outputPath, "utf8")) : null;
+const existingCoverageByKey = new Map((existingCoverage?.records || []).map((record: ChapterRecord) => [`${record.book}:${record.chapter}`, record]));
 
 function sectionFor(book: Book, chapter: number) {
   const structure = bookProfiles[book.name]?.structure || "Leitura contínua do livro";
@@ -94,6 +97,7 @@ function planFor(book: Book, chapter: number): Plan {
 function buildRecord(book: Book, chapter: number): ChapterRecord {
   const key = `${book.name}:${chapter}`;
   const existing = existingByKey.get(key);
+  const existingDeep = existingCoverageByKey.get(key);
   const plan = planFor(book, chapter);
   const place = placeById.get(plan.placeId) || placeById.get("jerusalem")!;
   const profile = bookProfiles[book.name];
@@ -107,15 +111,16 @@ function buildRecord(book: Book, chapter: number): ChapterRecord {
     bookId: book.id,
     chapter,
     reference,
-    title: existing?.title || `${book.name} ${chapter} · ${section}`,
-    editorialDepth: existing ? "Foco ampliado" : "Núcleo sintético",
-    textLayer: existing?.textLayer || `O capítulo ${chapter} de ${book.name} é lido como uma unidade completa dentro do movimento “${section}”. Comece observando quem fala, quem age, quais imagens se repetem e como a passagem avança a pergunta central do livro: ${profile?.question || book.summary}`,
-    contextLayer: existing?.contextLayer || `${book.summary} Neste capítulo, a lente histórica e literária deve ser mantida junto do gênero de ${book.category.toLowerCase()} e do período indicado como ${book.period}. O cenário não é um detalhe decorativo: ele ajuda a distinguir o que o texto afirma diretamente, o que a tradição releu e o que permanece reconstrução.` ,
-    interpretationLayer: existing?.interpretationLayer || `A leitura editorial relaciona este capítulo à pergunta “${profile?.question || "Que tipo de comunidade, memória ou esperança está sendo formada aqui?"}”. A estrutura de ${book.name} sugere uma conexão com ${profile?.connects?.slice(0, 3).join(", ") || "outros livros do cânon"}, mas a relação é apresentada como diálogo interpretativo, não como prova de autoria, previsão ou equivalência histórica.`,
-    pentecostalLayer: existing?.pentecostalLayer || `Uma leitura pentecostal/IDB pode receber este capítulo em oração, discernimento e prática comunitária, mantendo Cristo, o Espírito, a santidade e o cuidado do próximo no centro. A aplicação confessional é identificada como recepção; não substitui o contexto histórico, não transforma hipótese em doutrina e não promete que o texto funcione como fórmula automática para resultados pessoais.`,
-    references,
-    source,
-    cartography: {
+    title: existingDeep?.title || existing?.title || `${book.name} ${chapter} · ${section}`,
+    editorialDepth: existingDeep?.editorialDepth || (existing ? "Foco ampliado" : "Núcleo sintético"),
+    textLayer: existingDeep?.textLayer || existing?.textLayer || `O capítulo ${chapter} de ${book.name} é lido como uma unidade completa dentro do movimento “${section}”. Comece observando quem fala, quem age, quais imagens se repetem e como a passagem avança a pergunta central do livro: ${profile?.question || book.summary}`,
+    contextLayer: existingDeep?.contextLayer || existing?.contextLayer || `${book.summary} Neste capítulo, a lente histórica e literária deve ser mantida junto do gênero de ${book.category.toLowerCase()} e do período indicado como ${book.period}. O cenário não é um detalhe decorativo: ele ajuda a distinguir o que o texto afirma diretamente, o que a tradição releu e o que permanece reconstrução.` ,
+    interpretationLayer: existingDeep?.interpretationLayer || existing?.interpretationLayer || `A leitura editorial relaciona este capítulo à pergunta “${profile?.question || "Que tipo de comunidade, memória ou esperança está sendo formada aqui?"}”. A estrutura de ${book.name} sugere uma conexão com ${profile?.connects?.slice(0, 3).join(", ") || "outros livros do cânon"}, mas a relação é apresentada como diálogo interpretativo, não como prova de autoria, previsão ou equivalência histórica.`,
+    pentecostalLayer: existingDeep?.pentecostalLayer || existing?.pentecostalLayer || `Uma leitura pentecostal/IDB pode receber este capítulo em oração, discernimento e prática comunitária, mantendo Cristo, o Espírito, a santidade e o cuidado do próximo no centro. A aplicação confessional é identificada como recepção; não substitui o contexto histórico, não transforma hipótese em doutrina e não promete que o texto funcione como fórmula automática para resultados pessoais.`,
+    references: existingDeep?.references || references,
+    source: existingDeep?.source || source,
+    textBasis: existingDeep?.textBasis,
+    cartography: existingDeep?.cartography || {
       placeId: place.id,
       placeLabel: place.name,
       region: plan.region,
@@ -131,7 +136,7 @@ function buildRecord(book: Book, chapter: number): ChapterRecord {
       chapterExistsInCanon: true,
       commentarySchemaComplete: true,
       cartographicContextPresent: true,
-      methodology: existing ? "Foco editorial existente preservado e complementado com metadados cartográficos." : "Registro sintético gerado a partir do cânon de 66 livros, do perfil editorial do livro e das camadas cartográficas do atlas; a localização é explicitamente aproximada quando não é direta.",
+      methodology: existingDeep?.verification?.methodology || (existing ? "Foco editorial existente preservado e complementado com metadados cartográficos." : "Registro sintético gerado a partir do cânon de 66 livros, do perfil editorial do livro e das camadas cartográficas do atlas; a localização é explicitamente aproximada quando não é direta."),
     },
   };
 }
