@@ -280,7 +280,7 @@
 - [x] Confirmar se o HTML servido contém o bundle com o leitor exegético e a linha do tempo.
 - [x] Confirmar que o arquivo estático integral de 1.189 capítulos está acessível no domínio.
 - [x] Identificar cache, domínio antigo, rota incorreta ou publicação incompleta.
-- [ ] Corrigir a entrega, validar novamente e publicar checkpoint de sincronização.
+- [x] Corrigir a entrega, validar novamente e publicar checkpoint de sincronização; main e gh-pages estão sincronizadas com a cobertura integral auditada.
 
 ## Enciclopédia relacional profunda
 
@@ -553,7 +553,7 @@
 - [x] Criar painel de cobertura de livros, capítulos, personagens, lugares, temas e estudos profundos.
 - [x] Adicionar checklist guiado de instalação PWA e uso em modo avião para Android e iPhone.
 - [x] Validar divisão sob demanda, responsividade e cache; o bundle principal caiu de 2,28 MB para 1,91 MB, redução de 16,36%.
-- [ ] Sincronizar a versão final com as branches main e gh-pages do GitHub.
+- [x] Sincronizar a versão final com as branches main e gh-pages do GitHub; publicação final registrada após a auditoria 1.189/1.189.
 
 ## Elevação de profundidade — apócrifos, atlas e celular
 
