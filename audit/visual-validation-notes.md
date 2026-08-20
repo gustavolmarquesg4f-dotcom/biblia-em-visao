@@ -36,3 +36,6 @@ A captura em 768×1024 confirmou a transição para header compacto, modo leitur
 ## Publicação final — gh-pages
 
 Após o push de `main` e `gh-pages`, a URL pública `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/` carregou a versão final. O DOM público confirmou `AUDITORIA APROVADA · 1.189/1.189`, `66/66 livros verificados`, `39 focos ampliados · 12 livros`, `1.189 contextos cartográficos` e a navegação com `Explorar os 66 livros`, `Mesa de estudo`, `Apócrifos e textos`, `Glossário` e `Fontes e bibliografia`.
+
+
+Após o deploy `b4c6fc1` em `gh-pages`, a abertura pública com `?v=be5a979` confirmou a troca do shell antigo. O DOM público passou a mostrar `1.189/1.189 capítulos auditados`, `1.150 comentários textuais`, `39 focos ampliados` e o texto `Cobertura canônica + comentário textual enriquecido + foco ampliado`; a expressão obsoleta `comentário sintético` não aparece mais na publicação atual.
