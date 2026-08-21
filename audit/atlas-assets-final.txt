@@ -1,0 +1,10 @@
+OK   /atlas-assets/atlas-alexandria-city-v2_b285e62c.png 7599116
+OK   /atlas-assets/atlas-babylon-neobabylonian_1fbb3440.png 7170260
+OK   /atlas-assets/atlas-ephesus-city-v2_b55ad3c0.png 8191402
+OK   /atlas-assets/atlas-galilee-first-century_a9e04455.png 7307784
+OK   /atlas-assets/atlas-jerusalem-city-v2_abbbdc36.png 8101872
+OK   /atlas-assets/atlas-levant-master_9616f06c.png 7157012
+OK   /atlas-assets/atlas-master-origins_8dc8764c.png 8795823
+OK   /atlas-assets/atlas-rome-city-v2_0bad9520.png 7324639
+OK   /atlas-assets/atlas-sinai-wilderness_0ac1f8d8.png 8338209
+TOTAL=9 MISSING=0

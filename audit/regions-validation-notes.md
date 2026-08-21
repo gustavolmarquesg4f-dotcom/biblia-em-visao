@@ -26,3 +26,11 @@ A auditoria local encontrou `TOTAL=9 MISSING=0`. A homologação respondeu `200 
 
 
 A captura mobile 390×844 inicialmente mostrou apenas `Preparando o atlas` por causa da montagem assíncrona; após `virtual-time-budget=10000`, a captura mostrou o título completo, o mapa do Levante carregado e a barra inferior Início/Livros/Mesa/Lugares/Buscar sem overflow horizontal. O aviso do Chromium sobre página não compartilhável pertence à captura headless, não ao aplicativo.
+
+
+## Publicação v3
+
+Os URLs públicos dos cinco ativos testados responderam `200 image/png`: mapa do Levante, prancha de Origens, Jerusalém, Alexandria e Sinai. O primeiro navegador integrado ainda exibiu blank por cache antigo; o Chromium headless renderizou o atlas completo. Após abrir a publicação com `?assets=e9031e8-v3`, o navegador integrado também renderizou o atlas, exibindo a imagem do Levante e a prancha com o caminho base-aware `/biblia-em-visao/atlas-assets/...`. O service worker público está em `biblia-em-visao-offline-v3`.
+
+
+A publicação pública final em `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/atlas?assets=e9031e8-v3` renderizou o mapa-mestre visível. Os marcadores regionais apareceram; o clique público em Galileia aplicou a seleção e deixou o atlas na lente de Cafarnaum/14 lugares visíveis, mantendo a interação após a troca de ativos. A prancha e os cartões usam agora URLs `/biblia-em-visao/atlas-assets/...`.
