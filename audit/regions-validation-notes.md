@@ -11,3 +11,8 @@ A segunda rodada confirmou Judeia → Jerusalém, mantendo a lista completa quan
 
 
 A terceira rodada confirmou Transjordânia → foco regional em 31.85° N / 36.15° E, com lente `Todos`. O teste também confirmou que, quando o provedor cartográfico externo falha, o mapa vetorial de fallback e a lista de lugares continuam disponíveis; a correção das regiões não depende do provedor externo.
+
+
+## Publicação
+
+A versão pública em `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/atlas?v=d01da0f` exibiu os quatro marcadores regionais. O clique público em Galileia selecionou Cafarnaum, aplicou a lente Romano e mostrou `14/26` lugares visíveis. A correção foi publicada na `gh-pages` em `b79dd75` e o código está na `main` em `d01da0f`.
