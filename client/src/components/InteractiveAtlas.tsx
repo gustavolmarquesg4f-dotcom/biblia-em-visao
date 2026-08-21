@@ -82,6 +82,19 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
     mapRef.current?.setZoom(7);
   };
 
+  const focusRegion = (region: typeof atlasRegionMap.markers[number]) => {
+    setPeriod(region.period || "Todos");
+    const place = region.placeId ? biblicalPlaces.find((item) => item.id === region.placeId) : undefined;
+    if (place) {
+      focus(place);
+      return;
+    }
+    if (region.focus) {
+      mapRef.current?.panTo(region.focus);
+      mapRef.current?.setZoom(region.id === "sinai" ? 6 : 5);
+    }
+  };
+
   const jumpTimeline = (index: number) => {
     const next = Math.max(0, Math.min(timelineEvents.length - 1, index));
     setTimelineIndex(next);
@@ -154,7 +167,7 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
       </div>
 
       <section className="atlas-region-map" aria-label="Mapa regional do Levante">
-        <div className="atlas-region-map__image"><img src={atlasRegionMap.image} alt="Mapa editorial da região do Levante e Mediterrâneo oriental" onError={(event) => { event.currentTarget.classList.add("is-unavailable"); }} /><div className="atlas-region-map__image-fallback" aria-hidden="true"><Map size={28} /><span>Regiões do Levante</span></div><div className="atlas-region-map__shade" />{atlasRegionMap.markers.map((marker) => <button key={marker.id} type="button" className="atlas-region-map__marker" style={{ left: marker.x, top: marker.y }} onClick={() => setPeriod(marker.id === "sinai" ? "Bronze" : marker.id === "galileia" ? "Romano" : "Todos")}><i /><span><strong>{marker.label}</strong><small>{marker.note}</small></span></button>)}</div>
+        <div className="atlas-region-map__image"><img src={atlasRegionMap.image} alt="Mapa editorial da região do Levante e Mediterrâneo oriental" onError={(event) => { event.currentTarget.classList.add("is-unavailable"); }} /><div className="atlas-region-map__image-fallback" aria-hidden="true"><Map size={28} /><span>Regiões do Levante</span></div><div className="atlas-region-map__shade" />{atlasRegionMap.markers.map((marker) => <button key={marker.id} type="button" className="atlas-region-map__marker" style={{ left: marker.x, top: marker.y }} onClick={() => focusRegion(marker)} aria-label={`Explorar a região ${marker.label}`}><i /><span><strong>{marker.label}</strong><small>{marker.note}</small></span></button>)}</div>
         <div className="atlas-region-map__copy"><span className="advanced-label">Mapa de regiões · primeiro olhar</span><h2>{atlasRegionMap.title}</h2><p>{atlasRegionMap.description}</p><div><span>Toque em uma região</span><strong>e o atlas ajusta a lente histórica</strong></div></div>
       </section>
 

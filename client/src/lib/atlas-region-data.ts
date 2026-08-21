@@ -5,10 +5,10 @@ export const atlasRegionMap = {
   title: "O Levante em uma leitura",
   description: "A Bíblia nasceu e circulou entre o Mediterrâneo oriental, vales fluviais, serras e desertos. Este mapa oferece orientação regional; os marcadores do atlas abaixo mantêm as coordenadas, rotas e datas exploráveis.",
   markers: [
-    { id: "galileia", label: "Galileia", note: "aldeias, lago e ministério de Jesus", x: "46%", y: "35%" },
-    { id: "judeia", label: "Judeia", note: "Jerusalém, Templo e tradições", x: "49%", y: "51%" },
-    { id: "sinai", label: "Sinai", note: "êxodo e memória do deserto", x: "35%", y: "67%" },
-    { id: "transjordania", label: "Transjordânia", note: "rotas, reinos e fronteiras", x: "60%", y: "50%" },
+    { id: "galileia", label: "Galileia", note: "aldeias, lago e ministério de Jesus", x: "46%", y: "35%", placeId: "capernaum", period: "Romano", focus: { lat: 32.8803, lng: 35.5733 } },
+    { id: "judeia", label: "Judeia", note: "Jerusalém, Templo e tradições", x: "49%", y: "51%", placeId: "jerusalem", period: "Todos", focus: { lat: 31.7683, lng: 35.2137 } },
+    { id: "sinai", label: "Sinai", note: "êxodo e memória do deserto", x: "35%", y: "67%", period: "Bronze", focus: { lat: 28.55, lng: 33.95 } },
+    { id: "transjordania", label: "Transjordânia", note: "rotas, reinos e fronteiras", x: "60%", y: "50%", period: "Todos", focus: { lat: 31.85, lng: 36.15 } },
   ],
 };
 
