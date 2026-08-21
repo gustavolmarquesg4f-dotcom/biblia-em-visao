@@ -1,0 +1,78 @@
+{
+  "routes": [
+    {
+      "route": "66-livros",
+      "images": 0,
+      "buttons": 95,
+      "controls": 3,
+      "imageGaps": 0,
+      "buttonNameGaps": 0,
+      "controlNameGaps": 0,
+      "errorBoundary": false,
+      "loadingState": false,
+      "imageSamples": [],
+      "buttonSamples": [],
+      "controlSamples": []
+    },
+    {
+      "route": "apocrifos",
+      "images": 0,
+      "buttons": 51,
+      "controls": 0,
+      "imageGaps": 0,
+      "buttonNameGaps": 0,
+      "controlNameGaps": 0,
+      "errorBoundary": false,
+      "loadingState": false,
+      "imageSamples": [],
+      "buttonSamples": [],
+      "controlSamples": []
+    },
+    {
+      "route": "atlas",
+      "images": 9,
+      "buttons": 100,
+      "controls": 1,
+      "imageGaps": 0,
+      "buttonNameGaps": 0,
+      "controlNameGaps": 0,
+      "errorBoundary": false,
+      "loadingState": false,
+      "imageSamples": [],
+      "buttonSamples": [],
+      "controlSamples": []
+    },
+    {
+      "route": "comece",
+      "images": 0,
+      "buttons": 37,
+      "controls": 0,
+      "imageGaps": 0,
+      "buttonNameGaps": 0,
+      "controlNameGaps": 0,
+      "errorBoundary": false,
+      "loadingState": false,
+      "imageSamples": [],
+      "buttonSamples": [],
+      "controlSamples": []
+    },
+    {
+      "route": "mesa",
+      "images": 0,
+      "buttons": 130,
+      "controls": 1,
+      "imageGaps": 0,
+      "buttonNameGaps": 0,
+      "controlNameGaps": 0,
+      "errorBoundary": false,
+      "loadingState": false,
+      "imageSamples": [],
+      "buttonSamples": [],
+      "controlSamples": []
+    }
+  ],
+  "routeCount": 5,
+  "errorRoutes": [],
+  "routesWithLoadingState": [],
+  "status": "APROVADA"
+}

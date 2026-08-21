@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-08-21T02:13:27.252Z",
+  "inputPath": "client/public/data/chapter-coverage.json",
+  "totalRecords": 1189,
+  "expandedFocusRecords": 39,
+  "recordsWithTextBasis": 1150,
+  "recordsWithVerseCount": 1150,
+  "recordsWithSources": 1189,
+  "emptyRecords": 0,
+  "shortNonFocusRecords": 0,
+  "syntheticMarkers": 0,
+  "commentary": {
+    "uniqueNormalizedTexts": 1189,
+    "uniqueTextLayers": 1189,
+    "repeatedTextGroups": 0,
+    "largestRepeatedGroup": 0,
+    "averageCharacters": 2119,
+    "minCharacters": 710,
+    "maxCharacters": 2312
+  },
+  "verseBasis": {
+    "averageVerseCount": 25.3,
+    "minVerseCount": 0,
+    "maxVerseCount": 176
+  },
+  "repeatedTextSamples": [],
+  "shortRecordSamples": []
+}

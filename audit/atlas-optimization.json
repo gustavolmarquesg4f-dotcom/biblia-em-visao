@@ -1,0 +1,89 @@
+{
+  "assetCount": 9,
+  "sourceBytes": 69986117,
+  "targetBytes": 7642288,
+  "savedPercent": 89.08,
+  "assets": [
+    {
+      "source": "atlas-alexandria-city-v2_b285e62c.png",
+      "target": "atlas-alexandria-city-v2_b285e62c.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 7599116,
+      "targetBytes": 773656,
+      "savedPercent": 89.82
+    },
+    {
+      "source": "atlas-babylon-neobabylonian_1fbb3440.png",
+      "target": "atlas-babylon-neobabylonian_1fbb3440.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 7170260,
+      "targetBytes": 714024,
+      "savedPercent": 90.04
+    },
+    {
+      "source": "atlas-ephesus-city-v2_b55ad3c0.png",
+      "target": "atlas-ephesus-city-v2_b55ad3c0.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 8191402,
+      "targetBytes": 1019176,
+      "savedPercent": 87.56
+    },
+    {
+      "source": "atlas-galilee-first-century_a9e04455.png",
+      "target": "atlas-galilee-first-century_a9e04455.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 7307784,
+      "targetBytes": 714422,
+      "savedPercent": 90.22
+    },
+    {
+      "source": "atlas-jerusalem-city-v2_abbbdc36.png",
+      "target": "atlas-jerusalem-city-v2_abbbdc36.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 8101872,
+      "targetBytes": 981216,
+      "savedPercent": 87.89
+    },
+    {
+      "source": "atlas-levant-master_9616f06c.png",
+      "target": "atlas-levant-master_9616f06c.webp",
+      "width": 2560,
+      "height": 1440,
+      "sourceBytes": 7157012,
+      "targetBytes": 585940,
+      "savedPercent": 91.81
+    },
+    {
+      "source": "atlas-master-origins_8dc8764c.png",
+      "target": "atlas-master-origins_8dc8764c.webp",
+      "width": 2560,
+      "height": 1440,
+      "sourceBytes": 8795823,
+      "targetBytes": 1047822,
+      "savedPercent": 88.09
+    },
+    {
+      "source": "atlas-rome-city-v2_0bad9520.png",
+      "target": "atlas-rome-city-v2_0bad9520.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 7324639,
+      "targetBytes": 789086,
+      "savedPercent": 89.23
+    },
+    {
+      "source": "atlas-sinai-wilderness_0ac1f8d8.png",
+      "target": "atlas-sinai-wilderness_0ac1f8d8.webp",
+      "width": 2176,
+      "height": 1632,
+      "sourceBytes": 8338209,
+      "targetBytes": 1016946,
+      "savedPercent": 87.8
+    }
+  ]
+}

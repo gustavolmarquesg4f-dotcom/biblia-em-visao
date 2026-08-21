@@ -70,8 +70,8 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
 
   return <section className="deep-dossier-page">
     <div className="deep-dossier-topbar">
-      <button className="back-action" onClick={close}><ArrowLeft size={15} /> Voltar aos 66 livros</button>
-      <div className="deep-dossier-actions"><span>Enciclopédia integral · {String(index + 1).padStart(2, "0")}/66</span>{save && <button className={`deep-save ${saved ? "is-saved" : ""}`} onClick={save}>{saved ? <CheckCircle2 size={15} /> : <Save size={15} />}{saved ? "Salvo" : "Salvar"}</button>}</div>
+      <button type="button" className="back-action" onClick={close}><ArrowLeft size={15} /> Voltar aos 66 livros</button>
+      <div className="deep-dossier-actions"><span>Enciclopédia integral · {String(index + 1).padStart(2, "0")}/66</span>{save && <button type="button" className={`deep-save ${saved ? "is-saved" : ""}`} onClick={save}>{saved ? <CheckCircle2 size={15} /> : <Save size={15} />}{saved ? "Salvo" : "Salvar"}</button>}</div>
     </div>
     <header className="deep-dossier-hero">
       <div><span className="deep-dossier-kicker">{book.testament} · {book.category} · {book.chapters} capítulos</span><h1>{book.name}</h1><p>{book.summary}</p></div>
@@ -87,7 +87,7 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
       </div>
       <ChapterCoverageReader book={book} onFocusPlace={onFocusPlace} />
       {setNote && <section className="deep-dossier-notes"><div><span>Anotação de pesquisa</span><h2>O que este livro <em>explica?</em></h2><p>Registre conexões, objeções e perguntas que surgirem durante a leitura.</p></div><div><textarea value={note} onChange={(event) => setNote(event.target.value)} placeholder={`Anote uma pergunta sobre ${book.name}…`} aria-label={`Anotação de pesquisa sobre ${book.name}`} /><small>{note ? `${note.length} caracteres nesta sessão` : "Notas desta sessão"}</small></div></section>}
-      <nav className="deep-dossier-next" aria-label="Navegar entre os livros">{previous ? <button onClick={() => openBook?.(previous)}><ArrowLeft size={15} /><span><small>Livro anterior</small><strong>{previous.name}</strong></span></button> : <span />}{next ? <button onClick={() => openBook?.(next)}><span><small>Próximo livro</small><strong>{next.name}</strong></span><ArrowRight size={15} /></button> : <span />}</nav>
+      <nav className="deep-dossier-next" aria-label="Navegar entre os livros">{previous ? <button type="button" onClick={() => openBook?.(previous)}><ArrowLeft size={15} /><span><small>Livro anterior</small><strong>{previous.name}</strong></span></button> : <span />}{next ? <button type="button" onClick={() => openBook?.(next)}><span><small>Próximo livro</small><strong>{next.name}</strong></span><ArrowRight size={15} /></button> : <span />}</nav>
     </>}
     <EntityPanel entityId={entityId} close={() => setEntityId(null)} onFocusPlace={onFocusPlace} onOpenEntity={setEntityId} onOpenBook={(bookName) => { const target = bookFromEntityReference(bookName); if (target) { setEntityId(null); openBook?.(target); } }} />
   </section>;

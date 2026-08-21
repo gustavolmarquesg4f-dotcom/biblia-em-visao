@@ -7,6 +7,7 @@ const textPath = "/tmp/por_blj.complete.simple.json";
 const coverage = JSON.parse(fs.readFileSync(coveragePath, "utf8"));
 const bibleText = JSON.parse(fs.readFileSync(textPath, "utf8"));
 const textBooks = new Map((bibleText.books || []).map((book) => [book.name, book]));
+const textBookAliases = new Map([["Cântico dos Cânticos", "Cantares"]]);
 const stopWords = new Set("a o os as um uma uns umas de da do das dos em no na nos nas por para com sem que e é ao à aos às se como mais menos seu sua seus suas este esta isto isso aquele aquela aqueles aquelas entre sobre até ou nem não sim foi são ser tem há havia disse deus ele ela eles elas seu sua eu tu nós vós me te lhe lhes meu minha mundo terra povo livro capítulo porque quando onde quem qual quais muito toda todo todos todas depois antes ainda já também cada assim então pois pelo pela pelos pelas".split(" "));
 const keywordFamilies = [
   ["aliança", "promessa", "juramento", "pacto"],
@@ -30,7 +31,7 @@ const familyLabels = new Map([
 function normalize(value) { return value.toLocaleLowerCase("pt-BR").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
 function words(value) { return normalize(value).match(/[a-zà-ÿ]{3,}/gi)?.map((word) => normalize(word)) || []; }
 function sourceChapter(record) {
-  const book = textBooks.get(record.book);
+  const book = textBooks.get(textBookAliases.get(record.book) ?? record.book);
   const wrapper = book?.chapters?.find((item) => Number(item.chapter?.number ?? item.number ?? item.chapter) === record.chapter);
   const chapter = wrapper?.chapter || wrapper;
   const verses = chapter?.content || chapter?.verses || [];

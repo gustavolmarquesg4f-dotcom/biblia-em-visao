@@ -31,13 +31,13 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
         </div>
         <div className="exegesis-spotlight-actions">
           <Button className="primary-action primary-action--dark" onClick={() => go("library")}><BookOpen size={16} /> Explorar os estudos</Button>
-          <button className="text-action text-action--dark" onClick={() => go("search")}><Search size={15} /> Buscar uma conexão <ArrowRight size={14} /></button>
+          <button type="button" className="text-action text-action--dark" onClick={() => go("search")}><Search size={15} /> Buscar uma conexão <ArrowRight size={14} /></button>
         </div>
       </div>
       <div className="exegesis-spotlight-rail">
-        <div className="exegesis-rail-heading"><span>Quatro portas de entrada</span><button onClick={() => go("atlas")}><Map size={14} /> Ver no mapa</button></div>
+        <div className="exegesis-rail-heading"><span>Quatro portas de entrada</span><button type="button" onClick={() => go("atlas")}><Map size={14} /> Ver no mapa</button></div>
         {featured.map((book, index) => (
-          <button className="exegesis-entry" key={book.id} onClick={() => openBook(book)} aria-label={`Abrir estudo exegético de ${book.name}`}>
+          <button type="button" className="exegesis-entry" key={book.id} onClick={() => openBook(book)} aria-label={`Abrir estudo exegético de ${book.name}`}>
             <span className="exegesis-entry-index">{String(index + 1).padStart(2, "0")}</span>
             <span className="exegesis-entry-content"><strong>{book.name}</strong><small>{book.category} · {book.chapters} capítulos</small><p>{book.summary}</p></span>
             <ArrowRight size={16} />
