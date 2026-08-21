@@ -45,3 +45,16 @@
 .prophetic-graph-inspector small { color: #b8c8c8; font: .62rem/1.5 Manrope, sans-serif; }
 .prophetic-graph-inspector button { display: inline-flex; align-items: center; gap: .4rem; margin-top: 1rem; border: 0; background: #d5b777; color: #203746; padding: .65rem .7rem; font: .67rem Manrope, sans-serif; text-transform: uppercase; letter-spacing: .06em; }
 @media (max-width: 800px) { .prophetic-graph-card { padding: 1.1rem; } .prophetic-graph-head { display: block; } .prophetic-graph-count { border-left: 0; border-top: 1px solid rgba(30,52,65,.16); margin-top: 1rem; padding: .75rem 0 0; } .prophetic-graph-layout { grid-template-columns: 1fr; } .prophetic-graph-canvas svg { min-height: 19rem; } }
+
+.biography-panel .entity-markdown { color: #314754; font-family: Manrope, sans-serif; font-size: .84rem; line-height: 1.75; }
+.biography-panel .entity-markdown p { margin: .65rem 0 0; }
+.biography-panel .entity-markdown p:first-child { margin-top: .65rem; }
+.biography-panel .entity-markdown ul, .biography-panel .entity-markdown ol { margin: .7rem 0 0; padding-left: 1.15rem; }
+.biography-panel .entity-markdown li { margin: .35rem 0; }
+.biography-panel .entity-markdown strong { color: #203746; }
+.biography-panel .entity-ref-list { display: flex; flex-wrap: wrap; gap: .45rem; }
+.biography-panel .exegesis-reference-chip { display: inline-flex; align-items: center; gap: .3rem; min-height: 2rem; border: 1px solid rgba(60, 114, 128, .25); border-radius: 999px; background: rgba(60, 114, 128, .06); color: #315b68; padding: .35rem .6rem; font: .68rem/1.25 Manrope, sans-serif; text-align: left; }
+.biography-panel button.exegesis-reference-chip { cursor: pointer; }
+.biography-panel button.exegesis-reference-chip:hover { border-color: #3c7280; background: rgba(60, 114, 128, .13); }
+.biography-panel .exegesis-reference-chip:focus-visible { outline: 3px solid rgba(213, 183, 119, .9); outline-offset: 2px; }
+@media (max-width: 640px) { .biography-panel .entity-markdown { font-size: .82rem; } .biography-panel .exegesis-reference-chip { max-width: 100%; } }

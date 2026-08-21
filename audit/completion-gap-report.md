@@ -63,3 +63,12 @@ A auditoria de acessibilidade aprovou 248/248 botões com tipo explícito, 5/5 i
 O workflow do GitHub Actions foi corrigido em dois pontos reais: a duplicidade de versão do pnpm e a chamada direta ao binário `vite`. O run `32439192083` terminou com **success**, publicou `gh-pages` no SHA `e6812b2` e a URL pública confirmou o cabeçalho `1.189 capítulos`, os caminhos WebP e o fallback vetorial do atlas.
 
 A única ressalva de produto continua sendo o aviso do provedor cartográfico externo indisponível em determinados ambientes. Isso não bloqueia o uso: o mapa vetorial próprio, os marcadores, a lista de lugares, as rotas e as camadas continuam funcionais. Os chunks JavaScript de diagramas e linguagens permanecem grandes no build; são uma oportunidade de code splitting futuro, não uma falha de cobertura, navegação ou publicação.
+
+
+## Reauditoria de navegação completa — fechamento
+
+A navegação foi revisada por interação real nos módulos de entrada, 66 livros, dossiês, pessoas, temas, busca, grafo visual, atlas, história, estudos profundos, Apocalipse, Mesa de estudo, Cânones, Apócrifos, Glossário e Bibliografia. Foram corrigidos e revalidados URLs bibliográficas contaminadas por Markdown, a entidade profética `Apocalipse` ausente do grafo, resumos crus nas pessoas relacionadas, o filtro temático que perdia a consulta ao atravessar para a biblioteca, o destino posicional incorreto da linha do tempo, CTAs de Cânones sem destino explícito, âncoras internas do dossiê e o smoke test que não servia corretamente um build com base do GitHub Pages.
+
+O resultado reproduzível é: **303/303 referências estruturalmente válidas**, **18/18 conexões de dossiês resolvidas**, **18/18 rotas do smoke test aprovadas**, **0 âncoras quebradas**, **0 Markdown cru detectado pelo smoke test**, **0 ErrorBoundary**, filtros do grafo Proféticas/Históricas/Teológicas/Geográficas funcionando e preview base-aware aprovado no prefixo `/biblia-em-visao/`. A categoria Teológicas respeita o limite visual de 60 relações; todas as arestas renderizadas permanecem exclusivamente teológicas.
+
+A única ressalva externa continua sendo a disponibilidade variável de provedores cartográficos e de alguns sites de referência, que podem bloquear requisições automatizadas mesmo quando a URL é válida. O produto mantém fallback cartográfico local e links externos válidos. Não há pendência bloqueadora conhecida no escopo de navegação e referências auditado.

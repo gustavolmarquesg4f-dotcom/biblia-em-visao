@@ -26,6 +26,16 @@ const kinds = [
 
 const iconFor = (kind: KnowledgeEntity["kind"]) => kind === "person" ? UserRound : kind === "place" ? Network : Link2;
 
+function cleanEntitySnippet(value: string) {
+  return value
+    .replace(/\\\[\d+\\\]/g, "")
+    .replace(/\[\d+\]/g, "")
+    .replace(/\\([*_`[\]()>#+\-.!])/g, "$1")
+    .replace(/\*{1,2}|_{1,2}/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export default function KnowledgeSearchPanel({ openBook, onOpenEntity, onFocusPlace }: Props) {
   const [query, setQuery] = useState("");
   const [kind, setKind] = useState("all");
@@ -55,8 +65,8 @@ export default function KnowledgeSearchPanel({ openBook, onOpenEntity, onFocusPl
     {query && total === 0 && !questionMatch && <div className="knowledge-search-empty"><Search size={22} /><strong>Nenhuma conexão encontrada</strong><p>Tente o nome de um livro, personagem, lugar, tema, referência bíblica ou uma das perguntas sugeridas.</p></div>}
 
     {query && total > 0 && <div className="knowledge-result-groups">
-      {results.entityResults.length > 0 && <section className="knowledge-result-group"><div className="knowledge-group-heading"><span><UserRound size={14} />Verbetes de entidades</span><small>{results.entityResults.length}</small></div><div className="knowledge-result-grid">{results.entityResults.map((entity) => { const Icon = iconFor(entity.kind); return <button type="button" className="knowledge-result-card" key={entity.id} onClick={() => onOpenEntity(entity.id)}><span className={`knowledge-result-kind knowledge-result-kind--${entity.kind}`}><Icon size={13} />{entity.kind === "person" ? "Pessoa" : "Lugar"}</span><h2>{entity.name}</h2><p>{entity.summary}</p><span className="knowledge-result-meta">{entity.books.slice(0, 3).join(" · ")}</span><ChevronRight size={15} /></button>; })}</div></section>}
-      {results.bookResults.length > 0 && <section className="knowledge-result-group"><div className="knowledge-group-heading"><span><BookOpen size={14} />Livros</span><small>{results.bookResults.length}</small></div><div className="knowledge-book-results">{results.bookResults.map((book) => <button type="button" key={book.id} onClick={() => openBook?.(book)}><BookOpen size={14} /><span><strong>{book.name}</strong><small>{book.summary}</small></span><ChevronRight size={15} /></button>)}</div></section>}
+      {results.entityResults.length > 0 && <section className="knowledge-result-group"><div className="knowledge-group-heading"><span><UserRound size={14} />Verbetes de entidades</span><small>{results.entityResults.length}</small></div><div className="knowledge-result-grid">{results.entityResults.map((entity) => { const Icon = iconFor(entity.kind); return <button type="button" className="knowledge-result-card" key={entity.id} onClick={() => onOpenEntity(entity.id)}><span className={`knowledge-result-kind knowledge-result-kind--${entity.kind}`}><Icon size={13} />{entity.kind === "person" ? "Pessoa" : "Lugar"}</span><h2>{entity.name}</h2><p>{cleanEntitySnippet(entity.summary)}</p><span className="knowledge-result-meta">{entity.books.slice(0, 3).join(" · ")}</span><ChevronRight size={15} /></button>; })}</div></section>}
+      {results.bookResults.length > 0 && <section className="knowledge-result-group"><div className="knowledge-group-heading"><span><BookOpen size={14} />Livros</span><small>{results.bookResults.length}</small></div><div className="knowledge-book-results">{results.bookResults.map((book) => <button type="button" key={book.id} onClick={() => openBook?.(book)}><BookOpen size={14} /><span><strong>{book.name}</strong><small>{cleanEntitySnippet(book.summary)}</small></span><ChevronRight size={15} /></button>)}</div></section>}
       {results.relationResults.length > 0 && <section className="knowledge-result-group"><div className="knowledge-group-heading"><span><Link2 size={14} />Relações e profecias</span><small>{results.relationResults.length}</small></div><div className="knowledge-relation-results">{results.relationResults.map((relation) => <article key={relation.id}><span><Link2 size={13} />{relation.label}</span><p>{relation.explanation}</p><small>{relation.refs.join(" · ")}</small></article>)}</div></section>}
     </div>}
     <p className="knowledge-search-hint">Para um lugar, abra o verbete e use “Destacar no atlas”. O mapa preserva a leitura e centraliza a região em uma nova vista.</p>

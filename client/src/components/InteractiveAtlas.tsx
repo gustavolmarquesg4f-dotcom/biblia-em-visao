@@ -41,6 +41,15 @@ function AtlasFallbackMap({ selected, places, layerIds, onSelect }: { selected: 
   return <div className="atlas-fallback-map" role="region" aria-label="Mapa interativo com lugares, rotas e áreas históricas aproximadas"><div className="atlas-fallback-map__label"><Map size={14} /><span>Mapa interativo de continuidade</span><small>toque em uma cidade ou ative uma camada</small></div><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="Mapa vetorial com lugares e rotas selecionáveis"><path className="atlas-fallback-map__land" d="M8 15 C20 7 29 14 36 25 C48 9 65 10 75 23 C89 22 96 36 90 50 C98 64 86 82 71 85 C57 97 38 88 30 78 C15 74 7 62 12 49 C3 38 3 23 8 15Z" />{empireLayers.filter((layer) => layerIds.has(layer.id)).map((layer) => <polygon key={layer.id} className="atlas-fallback-map__empire" points={polygon(layer.polygon)} style={{ fill: layer.color }} />)}{routeLayers.filter((layer) => layerIds.has(layer.id)).map((layer) => <path key={layer.id} className="atlas-fallback-map__route" d={line(layer.path)} style={{ stroke: layer.color }} />)}{places.map((place) => { const { x, y } = project(place); const isSelected = place.id === selected.id; return <circle key={place.id} className={isSelected ? "atlas-fallback-map__place is-selected" : "atlas-fallback-map__place"} cx={x} cy={y} r={isSelected ? 2.3 : 1.45} role="button" tabIndex={0} aria-label={`Selecionar ${place.name}`} onClick={() => onSelect(place)} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(place); } }} />; })}</svg><div className="atlas-fallback-map__footer"><span>Rotas e áreas: aproximações didáticas</span><strong>{selected.name}</strong></div></div>;
 }
 
+function AtlasCityContextCard({ city, onFocus }: { city: typeof atlasCityContexts[number]; onFocus: (city: typeof atlasCityContexts[number]) => void }) {
+  const [imageFailed, setImageFailed] = useState(false);
+  return <button type="button" aria-label={`Explorar ${city.placeName} no atlas`} onClick={() => onFocus(city)}>
+    {!imageFailed && <img src={city.image} alt={`Reconstrução editorial de ${city.placeName}`} loading="lazy" decoding="async" width="2176" height="1632" onError={() => setImageFailed(true)} />}
+    {imageFailed && <span className="atlas-city-context__image-fallback"><Map size={20} /><small>Vista editorial indisponível</small></span>}
+    <span className="atlas-city-context__wash" /><span className="atlas-city-context__copy"><small>{city.era}</small><strong>{city.placeName}</strong><em>{city.caption}</em></span><ChevronRight size={17} />
+  </button>;
+}
+
 export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandled }: Props) {
   const [activeLayers, setActiveLayers] = useState<string[]>(["places"]);
   const [period, setPeriod] = useState("Todos");
@@ -92,6 +101,19 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
     if (region.focus) {
       mapRef.current?.panTo(region.focus);
       mapRef.current?.setZoom(region.id === "sinai" ? 6 : 5);
+    }
+  };
+
+  const focusCityContext = (city: typeof atlasCityContexts[number]) => {
+    const place = biblicalPlaces.find((item) => item.id === city.placeId || item.name === city.placeName);
+    if (place) {
+      focus(place);
+      return;
+    }
+    if (city.focus) {
+      setPeriod(city.period || "Todos");
+      mapRef.current?.panTo(city.focus);
+      mapRef.current?.setZoom(city.id === "sinai" ? 6 : 7);
     }
   };
 
@@ -185,7 +207,7 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
 
       <article className="atlas-dossier"><div className="atlas-dossier-heading"><div><span className="advanced-label">Dossiê do lugar</span><h2>{selected.name} <em>· {selected.ancientName}</em></h2><p>{selected.summary}</p></div><div className="atlas-coordinates"><span>Coordenadas aproximadas</span><strong>{selected.lat.toFixed(4)}° N<br />{selected.lng.toFixed(4)}° E</strong></div></div><div className="atlas-dossier-grid"><div><span className="advanced-label">Dossiê histórico</span><strong>{dossier.title}</strong><p>{dossier.thesis}</p></div><div><span className="advanced-label">Rotas e relações</span><p>{routeLayers.filter((layer) => layer.path.some((point) => Math.abs(point.lat - selected.lat) < 3 && Math.abs(point.lng - selected.lng) < 5)).map((layer) => layer.label).join(" · ") || "Lugar indexado no atlas; rota relacionada depende da camada ativa."}</p></div><div><span className="advanced-label">Método</span><p><ShieldCheck size={14} /> {dossier.confidence}</p></div></div><div className="atlas-dossier-foot"><div><span>Referências bíblicas</span><strong>{selected.refs}</strong></div><button type="button" onClick={() => go("study")}>Abrir dossiê histórico <ChevronRight size={15} /></button><button type="button" onClick={() => go("bibliography")}>Ver bibliografia <ChevronRight size={15} /></button></div></article>
 
-      <section className="atlas-city-context" aria-labelledby="city-context-title"><header><span className="advanced-label">Cidades e regiões em contexto</span><h2 id="city-context-title">Não apenas pontos no <em>mapa.</em></h2><p>Estas vistas são reconstruções editoriais para ajudar a imaginar escala, terreno e redes urbanas. Ao abrir uma prancha, o atlas reposiciona sua lente; o dossiê e o mapa interativo preservam a exploração factual.</p></header><div>{atlasCityContexts.map((city) => <button key={city.id} type="button" aria-label={`Explorar ${city.placeName} no atlas`} onClick={() => { const place = biblicalPlaces.find((item) => item.id === city.placeId || item.name === city.placeName); if (place) { focus(place); } else if (city.focus) { setPeriod(city.period || "Todos"); mapRef.current?.panTo(city.focus); mapRef.current?.setZoom(city.id === "sinai" ? 6 : 7); } }}><img src={city.image} alt={`Reconstrução editorial de ${city.placeName}`} loading="lazy" decoding="async" width="2176" height="1632" onError={(event) => { event.currentTarget.classList.add("is-unavailable"); }} /><span className="atlas-city-context__image-fallback"><Map size={20} /><small>Vista editorial indisponível</small></span><span className="atlas-city-context__wash" /><span className="atlas-city-context__copy"><small>{city.era}</small><strong>{city.placeName}</strong><em>{city.caption}</em></span><ChevronRight size={17} /></button>)}</div></section>
+      <section className="atlas-city-context" aria-labelledby="city-context-title"><header><span className="advanced-label">Cidades e regiões em contexto</span><h2 id="city-context-title">Não apenas pontos no <em>mapa.</em></h2><p>Estas vistas são reconstruções editoriais para ajudar a imaginar escala, terreno e redes urbanas. Ao abrir uma prancha, o atlas reposiciona sua lente; o dossiê e o mapa interativo preservam a exploração factual.</p></header><div>{atlasCityContexts.map((city) => <AtlasCityContextCard key={city.id} city={city} onFocus={focusCityContext} />)}</div></section>
     </section>
   );
 }

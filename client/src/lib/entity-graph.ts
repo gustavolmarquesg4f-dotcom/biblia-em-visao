@@ -74,6 +74,7 @@ export const knowledgeEntities: KnowledgeEntity[] = [
   concept("theme", { id: "templo", name: "Templo", aliases: ["templo", "santuário", "tabernáculo"], shortLabel: "Espaço de presença, culto, disputa e releitura na história bíblica", summary: "Tabernáculo e templo organizam presença divina, sacrifício, pureza, poder real, crítica profética e imaginação escatológica.", biography: "Êxodo descreve o tabernáculo como centro móvel de presença; Salomão constrói o templo de Jerusalém; profetas criticam culto dissociado de justiça; destruição e reconstrução tornam-se marcos de crise e memória. Jesus e as cartas usam imagens de templo para corpo, comunidade e presença do Espírito, sem que isso torne irrelevante a história material de Jerusalém.", significance: "Conecta culto, santidade, justiça, realeza, exílio e comunidade.", refs: ["Êx 25–40", "1Rs 5–8", "Is 1:10–17", "Jr 7", "Jo 2:13–22", "1Co 3:16–17", "Ap 21:22"], books: ["Êxodo", "1 Reis", "Isaías", "Jeremias", "João", "1 Coríntios", "Apocalipse"], periods: ["Êxodo", "Monarquia", "Exílico", "Apostólico"], related: ["jerusalem", "moses", "jesus", "espirito-santo"], academicNote: "Instituição cultual, arqueologia do templo e imagens teológicas precisam ser distinguidas." }),
   concept("theme", { id: "espirito-santo", name: "Espírito Santo", aliases: ["Espírito Santo", "Espírito", "Espírito de Deus", "Espírito do Senhor"], shortLabel: "Ação vivificante, profética, comunitária e missionária de Deus", summary: "O Espírito aparece nas Escrituras em criação, liderança, profecia, renovação, Jesus, Pentecostes, dons e esperança.", biography: "Ruach e pneuma podem designar vento, fôlego, disposição ou Espírito de Deus conforme o texto. Profetas anunciam renovação do coração e derramamento; os Evangelhos apresentam o Espírito na vida e missão de Jesus; Atos e as cartas tratam de dons, santificação, discernimento e comunidade. Uma leitura pentecostal responsável não reduz o Espírito a êxtase nem separa poder de fruto e serviço.", significance: "Conecta vida, vocação, profecia, missão, oração, santidade e dons.", refs: ["Gn 1:2", "Ez 36–37", "Jl 2:28–32", "Lc 4:18", "At 2", "Rm 8", "1Co 12–14"], books: ["Gênesis", "Ezequiel", "Joel", "Lucas", "Atos", "Romanos", "1 Coríntios"], periods: ["Origens", "Exílico", "Apostólico"], related: ["pentecostes", "jesus", "paul", "antioch"], academicNote: "Termos e experiências do Espírito variam por gênero, período e tradição; é necessário evitar harmonização automática." }),
   concept("theme", { id: "missao", name: "Missão", aliases: ["missão", "missões", "envio missionário", "testemunho"], shortLabel: "Movimento de testemunho, envio e formação de comunidades entre povos", summary: "Missão reúne promessa de bênção às nações, anúncio do reino, envio do Espírito e redes urbanas das comunidades apostólicas.", biography: "A Bíblia não apresenta missão como projeto sem conflitos. Abraão é chamado para bênção entre famílias da terra; profetas imaginam nações em relação ao Deus de Israel; Jesus envia discípulos; Atos narra viagens, debates e conflitos sobre mesa e pertencimento. A expansão precisa ser lida junto a tradução cultural, hospitalidade, justiça e discernimento comunitário.", significance: "Conecta promessa, Pentecostes, Antioquia, Paulo, igrejas e testemunho público.", refs: ["Gn 12:1–3", "Is 49:6", "Mt 28:18–20", "At 1:8", "At 13–15"], books: ["Gênesis", "Isaías", "Mateus", "Atos"], periods: ["Patriarcas", "Apostólico"], related: ["abraham", "pentecostes", "antioch", "paul"], academicNote: "As formas de missão no mundo antigo e as aplicações contemporâneas exigem atenção à história e às relações de poder." }),
+  concept("prophecy", { id: "apocalipse", name: "Apocalipse", aliases: ["Apocalipse", "Revelação", "Apocalipse de João"], shortLabel: "Visão profética de juízo, testemunho e nova criação", summary: "Livro apocalíptico atribuído a João de Patmos, dirigido a comunidades da Ásia romana e marcado por visões, cartas, conflito imperial e esperança de renovação.", biography: "Apocalipse combina cartas às sete igrejas, visões simbólicas, releituras das Escrituras de Israel, crítica a poderes imperiais e a esperança de nova criação. Babilônia funciona como imagem de poder, luxo, violência e comércio em julgamento; a Nova Jerusalém encerra o livro com presença de Deus, água da vida e cura das nações. A linguagem não deve ser transformada em calendário automático nem separada de suas comunidades históricas.", significance: "Apocalipse conecta testemunho, perseverança, culto, império, juízo, Espírito, Cordeiro e esperança cósmica.", refs: ["Ap 1–3", "Ap 4–5", "Ap 12–14", "Ap 17–22"], books: ["Apocalipse"], periods: ["Romano", "Apostólico"], related: ["babylon", "nova-criacao", "jesus", "jerusalem"], primarySource: "https://www.bibleodyssey.org/dictionary/revelation/", academicNote: "O gênero apocalíptico usa símbolo, visão e intertexto; interpretações responsáveis distinguem contexto romano, leitura teológica e aplicações contemporâneas." }),
   concept("prophecy", { id: "nova-criacao", name: "Nova criação", aliases: ["nova criação", "novos céus e nova terra", "Nova Jerusalém"], shortLabel: "Esperança de restauração cósmica e comunhão sem morte em Isaías e Apocalipse", summary: "Nova criação reúne imagens de renovação da terra, fim da morte, presença de Deus, cidade-jardim e cura das nações.", biography: "Isaías imagina novos céus e nova terra em meio a restauração pós-exílica; Romanos 8 fala de criação que geme; Apocalipse 21–22 apresenta uma cidade que também é jardim, com água da vida e cura. Essa esperança não é cronograma para datas nem fuga do mundo material: ela reconfigura justiça, corpo, criação e perseverança.", significance: "Conecta Éden, ressurreição, justiça, corpo, cidade, missão e esperança escatológica.", refs: ["Is 65–66", "Rm 8:18–25", "2Pe 3:13", "Ap 21–22"], books: ["Isaías", "Romanos", "2 Pedro", "Apocalipse"], periods: ["Exílico", "Apostólico"], related: ["eden", "ressurreicao", "reino-de-deus", "jerusalem"], academicNote: "As imagens apocalípticas e proféticas são simbólicas, literárias e teológicas; seus modelos de relação com futuro e presente variam." }),
   concept("prophecy", { id: "servo-sofredor", name: "Servo sofredor", aliases: ["servo sofredor", "servo do Senhor"], shortLabel: "Figura de Isaías 52–53 recebida de maneiras diversas", summary: "Os cânticos do servo em Isaías suscitam perguntas sobre identidade, sofrimento, vocação coletiva e releituras cristãs.", biography: "Isaías 52:13–53:12 fala de um servo humilhado e vindicado, em linguagem poética que gerou interpretações diversas: Israel, um grupo fiel, profeta, figura messiânica ou combinação de sentidos. Os Evangelhos e as cartas fazem releituras cristológicas, especialmente na paixão de Jesus. Uma enciclopédia precisa nomear tanto o contexto isaiano quanto a recepção posterior.", significance: "Conecta sofrimento, justiça, cura, missão e interpretação cristológica.", refs: ["Is 42", "Is 49", "Is 50", "Is 52:13–53:12", "Mc 10:45", "At 8:26–35", "1Pe 2:21–25"], books: ["Isaías", "Marcos", "Atos", "1 Pedro"], periods: ["Exílico", "Apostólico"], related: ["jesus", "crucificacao", "missao"], academicNote: "A identidade do servo no contexto de Isaías e sua releitura cristológica são temas de ampla divergência interpretativa." }),
   concept("prophecy", { id: "dia-do-senhor", name: "Dia do Senhor", aliases: ["dia do Senhor", "Dia do Senhor"], shortLabel: "Linguagem profética de juízo, intervenção e esperança", summary: "O dia do Senhor aparece em profetas, cartas e Apocalipse como linguagem de crise, juízo, vindicação e transformação.", biography: "Em Amós, o dia do Senhor surpreende quem presume proteção; em Joel, combina juízo e derramamento do Espírito; em cartas paulinas, é ligado à vinda de Cristo e vigilância; em Apocalipse, imagens de juízo operam em linguagem simbólica. A expressão não autoriza datas, pânico ou identificação automática de eventos contemporâneos.", significance: "Conecta justiça, esperança, vigilância, juízo e discernimento escatológico.", refs: ["Am 5:18–20", "Jl 2", "1Ts 5:1–11", "2Pe 3", "Ap 6–20"], books: ["Amós", "Joel", "1 Tessalonicenses", "2 Pedro", "Apocalipse"], periods: ["Profético", "Apostólico"], related: ["pentecostes", "nova-criacao", "apocalipse"], academicNote: "A função do motivo varia por livro; cronologias modernas devem ser tratadas como hipóteses, não como resultado inevitável do texto." }),
@@ -122,6 +123,48 @@ function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function maskMarkdownLinks(input: string) {
+  const links: string[] = [];
+  let output = "";
+  let index = 0;
+  while (index < input.length) {
+    if (input[index] !== "[") {
+      output += input[index++];
+      continue;
+    }
+    let labelEnd = index + 1;
+    let depth = 1;
+    while (labelEnd < input.length && depth > 0) {
+      if (input[labelEnd] === "[") depth += 1;
+      if (input[labelEnd] === "]") depth -= 1;
+      labelEnd += 1;
+    }
+    if (depth !== 0 || input[labelEnd] !== "(") {
+      output += input[index++];
+      continue;
+    }
+    let hrefEnd = labelEnd + 1;
+    let parenDepth = 1;
+    while (hrefEnd < input.length && parenDepth > 0) {
+      if (input[hrefEnd] === "(") parenDepth += 1;
+      if (input[hrefEnd] === ")") parenDepth -= 1;
+      hrefEnd += 1;
+    }
+    if (parenDepth !== 0) {
+      output += input[index++];
+      continue;
+    }
+    links.push(input.slice(index, hrefEnd));
+    output += `@@LINK_${links.length - 1}@@`;
+    index = hrefEnd;
+  }
+  return { output, links };
+}
+
+function restoreMarkdownLinks(input: string, links: string[]) {
+  return input.replace(/@@LINK_(\d+)@@/g, (_match, index) => links[Number(index)] || "");
+}
+
 export function decorateMarkdown(markdown: string, bookName: string, extraEntities: KnowledgeEntity[] = []) {
   const candidates = [...extraEntities, ...getAllKnowledgeEntities(), ...getEntitiesForBook(bookName)];
   const aliases = new Map<string, { label: string; entity: KnowledgeEntity }>();
@@ -130,10 +173,13 @@ export function decorateMarkdown(markdown: string, bookName: string, extraEntiti
     if (alias.length > 3 && !aliases.has(key)) aliases.set(key, { label: alias, entity });
   }
   const sortedAliases = Array.from(aliases.values()).sort((a, b) => b.label.length - a.label.length);
-  const protectedLinks: string[] = [];
-  const skeleton = markdown.replace(/\[[^\]]+\]\([^)]*\)/g, (link: string) => `@@LINK_${protectedLinks.push(link) - 1}@@`);
-  const decorated = sortedAliases.reduce((current, item) => current.replace(new RegExp(`(?<![\\w#])${escapeRegExp(item.label)}(?![\\w])`, "giu"), `[${item.label}](#entity-${item.entity.id})`), skeleton);
-  return decorated.replace(/@@LINK_(\d+)@@/g, (_match: string, index: string) => protectedLinks[Number(index)] || "");
+  let decorated = markdown.replace(/\\\[/g, "[").replace(/\\\]/g, "]").replace(/\u0007leph/g, "ℵ");
+  for (const item of sortedAliases) {
+    const masked = maskMarkdownLinks(decorated);
+    const replaced = masked.output.replace(new RegExp(`(?<![\\w#])${escapeRegExp(item.label)}(?![\\w])`, "giu"), `[${item.label}](#entity-${item.entity.id})`);
+    decorated = restoreMarkdownLinks(replaced, masked.links);
+  }
+  return decorated;
 }
 
 export function searchKnowledge(query: string, kind = "all") {

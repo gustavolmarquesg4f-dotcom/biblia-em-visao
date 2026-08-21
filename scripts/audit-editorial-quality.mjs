@@ -24,6 +24,7 @@ const min = (values) => values.length ? Math.min(...values) : 0;
 const max = (values) => values.length ? Math.max(...values) : 0;
 const withBasis = records.filter((record) => basisOf(record));
 const withVerses = records.filter((record) => versesOf(record) > 0);
+const verseCounts = withVerses.map(versesOf);
 const withSources = records.filter((record) => sourcesOf(record).length > 0);
 const shortRecords = records.filter((record, index) => !focalOf(record) && commentaryParts(record).join(" ").length < 160);
 const emptyRecords = records.filter((record, index) => !focalOf(record) && texts[index].length === 0);
@@ -50,9 +51,10 @@ const report = {
     maxCharacters: max(lengths),
   },
   verseBasis: {
-    averageVerseCount: Math.round(average(records.map(versesOf)) * 10) / 10,
-    minVerseCount: min(records.map(versesOf)),
-    maxVerseCount: max(records.map(versesOf)),
+    averageVerseCount: Math.round(average(verseCounts) * 10) / 10,
+    minVerseCount: min(verseCounts),
+    maxVerseCount: max(verseCounts),
+    recordsWithoutVerseCount: records.length - verseCounts.length,
   },
   repeatedTextSamples: repeatedTextGroups.slice(0, 10).map(([text, count]) => ({ count, text: texts[normalizedTexts.indexOf(text)].slice(0, 220) })),
   shortRecordSamples: shortRecords.slice(0, 10).map((record) => ({ book: record.bookName ?? record.book, chapter: record.chapter, text: textOf(record) })),

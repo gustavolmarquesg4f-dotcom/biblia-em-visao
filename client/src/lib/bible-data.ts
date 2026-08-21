@@ -79,14 +79,14 @@ const makeBook = (row: RawBook, index: number, testament: Book["testament"]): Bo
 export const bibleBooks: Book[] = [...old.map((row, i) => makeBook(row, i, "Antigo Testamento")), ...newer.map((row, i) => makeBook(row, i + old.length, "Novo Testamento"))];
 export const bibleCategories = ["Todos", "Pentateuco", "Históricos", "Poesia e sabedoria", "Profetas maiores", "Profetas menores", "Evangelhos", "História da igreja", "Cartas paulinas", "Cartas pastorais", "Cartas gerais", "Literatura apocalíptica"];
 export const timeline = [
-  { label: "Origens", date: "Gênesis 1–11", description: "Criação, ruptura, dilúvio e dispersão: perguntas sobre humanidade, violência e mundo compartilhado." },
-  { label: "Patriarcas", date: "Gênesis 12–50", description: "Abraão, Sara, Isaque, Rebeca, Jacó e José formam uma história familiar atravessada por promessa e deslocamento." },
-  { label: "Êxodo", date: "Êxodo → Deuteronômio", description: "Libertação, aliança, deserto e formação de uma comunidade antes de Canaã." },
-  { label: "Reinos", date: "Josué → 2 Crônicas", description: "Conquista, juízes, monarquia, templo, divisão política e os caminhos até os exílios." },
-  { label: "Exílio e retorno", date: "Esdras → Malaquias", description: "Memória, reconstrução e novas perguntas sobre identidade em um mundo imperial." },
-  { label: "Jesus", date: "Mateus → João", description: "Quatro retratos literários da vida, ensinamentos, morte e ressurreição de Jesus." },
-  { label: "Primeiras comunidades", date: "Atos → Judas", description: "O movimento se espalha entre culturas, casas e cidades, aprendendo a ser comunidade em trânsito." },
-  { label: "Nova criação", date: "Apocalipse", description: "Uma imaginação simbólica de justiça, presença e renovação diante da violência do império." },
+  { label: "Origens", date: "Gênesis 1–11", relatedBookId: "1-g-nesis", description: "Criação, ruptura, dilúvio e dispersão: perguntas sobre humanidade, violência e mundo compartilhado." },
+  { label: "Patriarcas", date: "Gênesis 12–50", relatedBookId: "1-g-nesis", description: "Abraão, Sara, Isaque, Rebeca, Jacó e José formam uma história familiar atravessada por promessa e deslocamento." },
+  { label: "Êxodo", date: "Êxodo → Deuteronômio", relatedBookId: "2-xodo", description: "Libertação, aliança, deserto e formação de uma comunidade antes de Canaã." },
+  { label: "Reinos", date: "Josué → 2 Crônicas", relatedBookId: "6-josué", description: "Conquista, juízes, monarquia, templo, divisão política e os caminhos até os exílios." },
+  { label: "Exílio e retorno", date: "Esdras → Malaquias", relatedBookId: "15-esdras", description: "Memória, reconstrução e novas perguntas sobre identidade em um mundo imperial." },
+  { label: "Jesus", date: "Mateus → João", relatedBookId: "40-mateus", description: "Quatro retratos literários da vida, ensinamentos, morte e ressurreição de Jesus." },
+  { label: "Primeiras comunidades", date: "Atos → Judas", relatedBookId: "44-atos", description: "O movimento se espalha entre culturas, casas e cidades, aprendendo a ser comunidade em trânsito." },
+  { label: "Nova criação", date: "Apocalipse", relatedBookId: "66-apocalipse", description: "Uma imaginação simbólica de justiça, presença e renovação diante da violência do império." },
 ];
 export const themes = [
   { label: "Aliança", detail: "Promessas e compromissos que estruturam relações entre Deus, pessoas e comunidades.", tone: "blue" },

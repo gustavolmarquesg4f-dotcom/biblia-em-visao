@@ -1,0 +1,3040 @@
+{
+  "generatedAt": "2026-08-21T14:02:47.950Z",
+  "totalLinks": 303,
+  "uniqueUrls": 197,
+  "reachable": 246,
+  "unavailable": 43,
+  "errors": 14,
+  "results": [
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://learn.ligonier.org/articles/top-5-commentaries-genesis",
+      "url": "https://learn.ligonier.org/articles/top-5-commentaries-genesis",
+      "status": 200,
+      "finalUrl": "https://learn.ligonier.org/articles/top-5-commentaries-genesis",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://netbible.org/passage.php?search=Genesis%201:1-30&passage=genesis%201:1-30",
+      "url": "https://netbible.org/passage.php?search=Genesis%201:1-30&passage=genesis%201:1-30",
+      "status": 200,
+      "finalUrl": "https://netbible.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bible-researcher.com/net.html",
+      "url": "https://www.bible-researcher.com/net.html",
+      "status": 200,
+      "finalUrl": "https://www.bible-researcher.com/net.html",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/genesis/",
+      "url": "https://www.thegospelcoalition.org/commentary/genesis/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/genesis/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sefaria.org/Exodus",
+      "url": "https://www.sefaria.org/Exodus",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/Exodus",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.stepbible.org/",
+      "url": "https://www.stepbible.org/",
+      "status": 200,
+      "finalUrl": "https://www.stepbible.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vaticannews.va/",
+      "url": "https://www.vaticannews.va/",
+      "status": 200,
+      "finalUrl": "https://www.vaticannews.va/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/leviticuscomment0000noth",
+      "url": "https://archive.org/details/leviticuscomment0000noth",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/leviticuscomment0000noth",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/commentaryonlevi0000bona",
+      "url": "https://archive.org/details/commentaryonlevi0000bona",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/commentaryonlevi0000bona",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sefaria.org/Leviticus",
+      "url": "https://www.sefaria.org/Leviticus",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/Leviticus",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300140354/numbers-1-20/",
+      "url": "https://yalebooks.yale.edu/book/9780300140354/numbers-1-20/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300140354/american-covenant/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://jewishpub.org/product/numbers-the-traditional-hebrew-text-with-the-jps-torah-commentary/",
+      "url": "https://jewishpub.org/product/numbers-the-traditional-hebrew-text-with-the-jps-torah-commentary/",
+      "status": 403,
+      "finalUrl": "https://jewishpub.org/product/numbers-the-traditional-hebrew-text-with-the-jps-torah-commentary/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://tanakh.us/",
+      "url": "https://tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ccel.org/lxx",
+      "url": "https://www.ccel.org/lxx",
+      "status": 404,
+      "finalUrl": "https://www.ccel.org/lxx",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/bookofdeuteronom00crai",
+      "url": "https://archive.org/details/bookofdeuteronom00crai",
+      "status": 0,
+      "finalUrl": "https://archive.org/details/bookofdeuteronom00crai",
+      "reachable": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.zondervan.com/9780310206101/deuteronomy/",
+      "url": "https://www.zondervan.com/9780310206101/deuteronomy/",
+      "status": 404,
+      "finalUrl": "https://www.zondervan.com/9780310206101/deuteronomy/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.worldcat.org/title/studies-in-deuteronomy/oclc/1423856",
+      "url": "https://www.worldcat.org/title/studies-in-deuteronomy/oclc/1423856",
+      "status": 403,
+      "finalUrl": "https://www.worldcat.org/title/studies-in-deuteronomy/oclc/1423856",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sefaria.org/Deuteronomy",
+      "url": "https://www.sefaria.org/Deuteronomy",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/Deuteronomy",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.ivpress.com/joshua-commentary",
+      "url": "https://www.ivpress.com/joshua-commentary",
+      "status": 404,
+      "finalUrl": "https://www.ivpress.com/joshua-commentary",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.simonandschuster.com/books/The-Bible-Unearthed/Israel-Finkelstein/9780684869123",
+      "url": "https://www.simonandschuster.com/books/The-Bible-Unearthed/Israel-Finkelstein/9780684869123",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Bible-Unearthed/Israel-Finkelstein/9780684869123",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.hagnos.com.br",
+      "url": "https://www.hagnos.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.hagnos.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vidanova.com.br",
+      "url": "https://www.vidanova.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.vidanova.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-judges/",
+      "url": "https://bibleproject.com/guides/book-of-judges/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-judges/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-judges?lang=por",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-judges?lang=por",
+      "status": 200,
+      "finalUrl": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-judges?lang=por",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.zondervanacademic.com",
+      "url": "https://www.zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-ruth/",
+      "url": "https://bibleproject.com/guides/book-of-ruth/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-ruth/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ruth?lang=por",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ruth?lang=por",
+      "status": 200,
+      "finalUrl": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ruth?lang=por",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.redalyc.org/journal/3130/313061013016/313061013016.pdf",
+      "url": "https://www.redalyc.org/journal/3130/313061013016/313061013016.pdf",
+      "status": 200,
+      "finalUrl": "https://www.redalyc.org/journal/3130/313061013016/313061013016.pdf",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.deadseascrolls.org.il",
+      "url": "https://www.deadseascrolls.org.il/",
+      "status": 200,
+      "finalUrl": "https://www.deadseascrolls.org.il/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://ia800504.us.archive.org/7/items/AbLeviticus116Milgrom1991Opt/ab2Samuel%20McCarter%2CJrPK%201984-opt.pdf",
+      "url": "https://ia800504.us.archive.org/7/items/AbLeviticus116Milgrom1991Opt/ab2Samuel%20McCarter%2CJrPK%201984-opt.pdf",
+      "status": 200,
+      "finalUrl": "https://ia800504.us.archive.org/7/items/AbLeviticus116Milgrom1991Opt/ab2Samuel%20McCarter%2CJrPK%201984-opt.pdf",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bloomsbury.com",
+      "url": "https://www.bloomsbury.com/",
+      "status": 403,
+      "finalUrl": "https://www.bloomsbury.com/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/the-tel-dan-inscription-the-first-historical-evidence-of-the-king-david-bible-story/",
+      "url": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/the-tel-dan-inscription-the-first-historical-evidence-of-the-king-david-bible-story/",
+      "status": 200,
+      "finalUrl": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/the-tel-dan-inscription-the-first-historical-evidence-of-the-king-david-bible-story/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.paulinas.com.br",
+      "url": "https://www.paulinas.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.paulinas.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://tanach.us",
+      "url": "https://tanach.us/",
+      "status": 200,
+      "finalUrl": "https://tanach.us/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ccel.org",
+      "url": "https://www.ccel.org/",
+      "status": 200,
+      "finalUrl": "https://www.ccel.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.anchorbible.com",
+      "url": "https://www.anchorbible.com/",
+      "status": 0,
+      "finalUrl": "https://www.anchorbible.com/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.bakeracademic.com",
+      "url": "https://www.bakeracademic.com/",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://cojs.org",
+      "url": "https://cojs.org/",
+      "status": 200,
+      "finalUrl": "https://cojs.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://books.google.com/books?id=1234example",
+      "url": "https://books.google.com/books?id=1234example",
+      "status": 404,
+      "finalUrl": "https://books.google.co.in/books?id=1234example&redir_esc=y",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/12chroniclesnewc00will",
+      "url": "https://archive.org/details/12chroniclesnewc00will",
+      "status": 404,
+      "finalUrl": "https://archive.org/details/12chroniclesnewc00will",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bible.com/",
+      "url": "https://www.bible.com/",
+      "status": 200,
+      "finalUrl": "https://www.bible.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=1+Cronicas+1&version=NAA",
+      "url": "https://www.biblegateway.com/passage/?search=1+Cronicas+1&version=NAA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=1+Cronicas+1&version=NAA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://books.google.com/books?id=Jp9ZAAAAMAAJ",
+      "url": "https://books.google.com/books?id=Jp9ZAAAAMAAJ",
+      "status": 200,
+      "finalUrl": "https://books.google.co.in/books?id=Jp9ZAAAAMAAJ&redir_esc=y",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://lccn.loc.gov/82006834",
+      "url": "https://lccn.loc.gov/82006834",
+      "status": 200,
+      "finalUrl": "https://search.catalog.loc.gov/search?option=lccn&query=82006834",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=2+Chronicles+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=2+Chronicles+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+Chronicles+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.paulus.com.br",
+      "url": "https://www.paulus.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.paulus.com.br/portal/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vidanova.com.br",
+      "url": "https://www.vidanova.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.vidanova.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bibliaonline.com.br/nvi/ed",
+      "url": "https://www.bibliaonline.com.br/nvi/ed",
+      "status": 200,
+      "finalUrl": "https://www.bibliaonline.com.br/nvi/ed",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://tanakh.info",
+      "url": "https://tanakh.info/",
+      "status": 200,
+      "finalUrl": "https://tanakh.info/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.zondervanacademic.com",
+      "url": "https://www.zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vidanova.com.br",
+      "url": "https://www.vidanova.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.vidanova.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.cambridge.org/core/books/book-of-esther-between-judaism-and-christianity/esther-story-and-history-literary-features-and-theology/2A357A79983C047EA0D2E5033D81FEFC",
+      "url": "https://www.cambridge.org/core/books/book-of-esther-between-judaism-and-christianity/esther-story-and-history-literary-features-and-theology/2A357A79983C047EA0D2E5033D81FEFC",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/abs/book-of-esther-between-judaism-and-christianity/esther-story-and-history-literary-features-and-theology/2A357A79983C047EA0D2E5033D81FEFC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sefaria.org/",
+      "url": "https://www.sefaria.org/",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/texts",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.perseus.tufts.edu/",
+      "url": "http://www.perseus.tufts.edu/",
+      "status": 200,
+      "finalUrl": "https://www.perseus.tufts.edu/hopper/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.atla.com",
+      "url": "https://www.atla.com/",
+      "status": 403,
+      "finalUrl": "https://www.atla.com/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bible.com/pt/bible/211/JOB.1.ARC",
+      "url": "https://www.bible.com/pt/bible/211/JOB.1.ARC",
+      "status": 200,
+      "finalUrl": "https://www.bible.com/pt/bible/211/JOB.1.ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.tanakh.us",
+      "url": "https://www.tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://www.tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.augsburgfortress.org",
+      "url": "https://www.augsburgfortress.org/",
+      "status": 200,
+      "finalUrl": "https://www.augsburgfortress.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vidanova.com.br",
+      "url": "https://www.vidanova.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.vidanova.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://academic.oup.com",
+      "url": "https://academic.oup.com/",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bakeracademic.com/p/Proverbs-Tremper-Longman-III/9780801026955",
+      "url": "https://bakeracademic.com/p/Proverbs-Tremper-Longman-III/9780801026955",
+      "status": 404,
+      "finalUrl": "https://bakeracademic.com/p/Proverbs-Tremper-Longman-III/9780801026955",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300141726/proverbs-1-9/",
+      "url": "https://yalebooks.yale.edu/book/9780300141726/proverbs-1-9/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300141726/hull/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://netbible.org/bible/Proverbs+1",
+      "url": "https://netbible.org/bible/Proverbs+1",
+      "status": 200,
+      "finalUrl": "https://netbible.org/bible/Proverbs+1",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sefaria.org/Ecclesiastes",
+      "url": "https://www.sefaria.org/Ecclesiastes",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/Ecclesiastes",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Eclesiastes+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Eclesiastes+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Eclesiastes+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.cpad.com.br",
+      "url": "https://www.cpad.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.cpad.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org",
+      "url": "https://archive.org/",
+      "status": 0,
+      "finalUrl": "https://archive.org/",
+      "reachable": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://books.google.com",
+      "url": "https://books.google.com/",
+      "status": 200,
+      "finalUrl": "https://books.google.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sbl-site.org",
+      "url": "https://www.sbl-site.org/",
+      "status": 200,
+      "finalUrl": "https://www.sbl-site.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://enduringword.com/bible-commentary/pt/song-of-solomon-1/",
+      "url": "https://enduringword.com/bible-commentary/pt/song-of-solomon-1/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/pt/song-of-solomon-1/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-song-of-songs/",
+      "url": "https://bibleproject.com/guides/book-of-song-of-songs/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-song-of-songs/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.deadseascrolls.org.il",
+      "url": "https://www.deadseascrolls.org.il/",
+      "status": 200,
+      "finalUrl": "https://www.deadseascrolls.org.il/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bibleodyssey.org/",
+      "url": "https://www.bibleodyssey.org/",
+      "status": 403,
+      "finalUrl": "https://www.bibleodyssey.org/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.penguinrandomhouse.com",
+      "url": "https://www.penguinrandomhouse.com/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sbl-site.org",
+      "url": "https://www.sbl-site.org/",
+      "status": 200,
+      "finalUrl": "https://www.sbl-site.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-lamentations/",
+      "url": "https://bibleproject.com/guides/book-of-lamentations/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-lamentations/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://institutogenebra.com/2022/08/29/panorama-do-livro-de-lamentacoes/",
+      "url": "https://institutogenebra.com/2022/08/29/panorama-do-livro-de-lamentacoes/",
+      "status": 200,
+      "finalUrl": "https://institutogenebra.com/2022/08/29/panorama-do-livro-de-lamentacoes/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://ihu.unisinos.br/categorias/629191-o-livro-das-lamentacoes",
+      "url": "https://ihu.unisinos.br/categorias/629191-o-livro-das-lamentacoes",
+      "status": 200,
+      "finalUrl": "https://ihu.unisinos.br/categorias/629191-o-livro-das-lamentacoes",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.paulus.com.br/portal/35-livro-das-lamentacoes/",
+      "url": "https://www.paulus.com.br/portal/35-livro-das-lamentacoes/",
+      "status": 200,
+      "finalUrl": "https://www.paulus.com.br/portal/35-livro-das-lamentacoes/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Lamenta%C3%A7%C3%B5es+1&version=NVI",
+      "url": "https://www.biblegateway.com/passage/?search=Lamenta%C3%A7%C3%B5es+1&version=NVI",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Lamenta%C3%A7%C3%B5es+1&version=NVI",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sefaria.org/Lamentations",
+      "url": "https://www.sefaria.org/Lamentations",
+      "status": 200,
+      "finalUrl": "https://www.sefaria.org/Lamentations",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.tanakh.us",
+      "url": "https://www.tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://www.tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.csntm.org",
+      "url": "https://www.csntm.org/",
+      "status": 200,
+      "finalUrl": "https://www.csntm.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ivpacademic.com",
+      "url": "https://www.ivpacademic.com/",
+      "status": 200,
+      "finalUrl": "https://www.ivpress.com/browse/academic-titles-and-textbooks",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Daniel+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Daniel+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Daniel+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://fortresspress.com",
+      "url": "https://fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com//?domainRedirect=true",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ccel.org",
+      "url": "https://www.ccel.org/",
+      "status": 200,
+      "finalUrl": "https://www.ccel.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.jewishencyclopedia.com/articles/8703-joel-book-of",
+      "url": "https://www.jewishencyclopedia.com/articles/8703-joel-book-of",
+      "status": 200,
+      "finalUrl": "https://www.jewishencyclopedia.com/articles/8703-joel-book-of",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-joel/",
+      "url": "https://bibleproject.com/guides/book-of-joel/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-joel/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://es.enduringword.com/comentario-biblico/joel-1/",
+      "url": "https://es.enduringword.com/comentario-biblico/joel-1/",
+      "status": 200,
+      "finalUrl": "https://es.enduringword.com/comentario-biblico/joel-1/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://claudemariottini.com/2009/02/23/defending-the-bible-the-date-of-joel/",
+      "url": "https://claudemariottini.com/2009/02/23/defending-the-bible-the-date-of-joel/",
+      "status": 200,
+      "finalUrl": "https://claudemariottini.com/2009/02/23/defending-the-bible-the-date-of-joel/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://digitalcommons.liberty.edu/lts_fac_pubs/2/",
+      "url": "https://digitalcommons.liberty.edu/lts_fac_pubs/2/",
+      "status": 200,
+      "finalUrl": "https://digitalcommons.liberty.edu/lts_fac_pubs/2/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.anchorbible.com",
+      "url": "https://www.anchorbible.com/",
+      "status": 0,
+      "finalUrl": "https://www.anchorbible.com/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.editoraculturacrista.com.br",
+      "url": "https://www.editoraculturacrista.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.editoraculturacrista.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.paulus.com.br",
+      "url": "https://www.paulus.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.paulus.com.br/portal/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.tanakh.us",
+      "url": "https://www.tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://www.tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-obadiah/",
+      "url": "https://bibleproject.com/guides/book-of-obadiah/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-obadiah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.thegospelcoalition.org/commentary/obadiah/",
+      "url": "https://www.thegospelcoalition.org/commentary/obadiah/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/obadiah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://journals.sagepub.com/doi/10.1177/0309089214567376",
+      "url": "https://journals.sagepub.com/doi/10.1177/0309089214567376",
+      "status": 403,
+      "finalUrl": "https://journals.sagepub.com/doi/10.1177/0309089214567376",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblicaltraining.org/library/book-of-obadiah",
+      "url": "https://www.biblicaltraining.org/library/book-of-obadiah",
+      "status": 200,
+      "finalUrl": "https://www.biblicaltraining.org/library/book-of-obadiah",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.encyclopedia.com/people/philosophy-and-religion/biblical-proper-names-biographies/obadiah",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/biblical-proper-names-biographies/obadiah",
+      "status": 200,
+      "finalUrl": "https://www.encyclopedia.com/people/philosophy-and-religion/biblical-proper-names-biographies/obadiah",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.degruyterbrill.com/document/doi/10.1515/9783110809633.99/pdf",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110809633.99/pdf",
+      "status": 202,
+      "finalUrl": "https://www.degruyterbrill.com/document/doi/10.1515/9783110809633.99/pdf",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://thebiblesays.com/pt/commentary/jer+49:7",
+      "url": "https://thebiblesays.com/pt/commentary/jer+49:7",
+      "status": 200,
+      "finalUrl": "https://thebiblesays.com/pt/commentary/jer+49:7",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-obadiah?lang=por",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-obadiah?lang=por",
+      "status": 200,
+      "finalUrl": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-obadiah?lang=por",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://enduringword.com/bible-commentary/pt/jeremiah-49/",
+      "url": "https://enduringword.com/bible-commentary/pt/jeremiah-49/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/pt/jeremiah-49/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://evidenceunseen.com/old-testament/obadiah",
+      "url": "https://evidenceunseen.com/old-testament/obadiah",
+      "status": 200,
+      "finalUrl": "https://evidenceunseen.com/old-testament/obadiah",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/jonah/",
+      "url": "https://www.thegospelcoalition.org/commentary/jonah/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/jonah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-jonah/",
+      "url": "https://bibleproject.com/guides/book-of-jonah/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-jonah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Jonat%C3%Aas+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Jonat%C3%Aas+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Jonat%C3%Aas+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.bibliaon.com/miqueias/",
+      "url": "https://www.bibliaon.com/miqueias/",
+      "status": 200,
+      "finalUrl": "https://www.bibliaon.com/miqueias/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.thegospelcoalition.org/commentary/micah/",
+      "url": "https://www.thegospelcoalition.org/commentary/micah/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/micah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://rbecs.org/2018/02/21/micah/",
+      "url": "https://rbecs.org/2018/02/21/micah/",
+      "status": 200,
+      "finalUrl": "https://rbecs.org/2018/02/21/micah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-micah/",
+      "url": "https://bibleproject.com/guides/book-of-micah/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-micah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://revista.batistapioneira.edu.br/index.php/rbp/article/download/233/279/946",
+      "url": "https://revista.batistapioneira.edu.br/index.php/rbp/article/download/233/279/946",
+      "status": 200,
+      "finalUrl": "https://revista.batistapioneira.edu.br/index.php/rbp/article/download/233/279/946",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/nahum/",
+      "url": "https://www.thegospelcoalition.org/commentary/nahum/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/nahum/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-nahum/",
+      "url": "https://bibleproject.com/guides/book-of-nahum/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-nahum/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-nahum?lang=por",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-nahum?lang=por",
+      "status": 200,
+      "finalUrl": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-nahum?lang=por",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/galatiansnewtran0025unse",
+      "url": "https://archive.org/details/galatiansnewtran0025unse",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/galatiansnewtran0025unse",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://place.asburyseminary.edu/",
+      "url": "https://place.asburyseminary.edu/",
+      "status": 200,
+      "finalUrl": "https://place.asburyseminary.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://dss.collections.imj.org.il/habakkuk",
+      "url": "http://dss.collections.imj.org.il/habakkuk",
+      "status": 200,
+      "finalUrl": "http://dss.collections.imj.org.il/habakkuk",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-habakkuk/",
+      "url": "https://bibleproject.com/guides/book-of-habakkuk/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-habakkuk/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-zephaniah/",
+      "url": "https://bibleproject.com/guides/book-of-zephaniah/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-zephaniah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.thegospelcoalition.org/commentary/zephaniah/",
+      "url": "https://www.thegospelcoalition.org/commentary/zephaniah/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/zephaniah/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.gotquestions.org/Book-of-Zephaniah.html",
+      "url": "https://www.gotquestions.org/Book-of-Zephaniah.html",
+      "status": 404,
+      "finalUrl": "https://www.gotquestions.org/Book-of-Zephaniah.html",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Sofonias+1&version=NAA",
+      "url": "https://www.biblegateway.com/passage/?search=Sofonias+1&version=NAA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Sofonias+1&version=NAA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.tanakh.us",
+      "url": "https://www.tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://www.tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.blueletterbible.org",
+      "url": "https://www.blueletterbible.org/",
+      "status": 200,
+      "finalUrl": "https://www.blueletterbible.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://lccn.loc.gov/78013898",
+      "url": "https://lccn.loc.gov/78013898",
+      "status": 200,
+      "finalUrl": "https://search.catalog.loc.gov/search?option=lccn&query=78013898",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300140736/haggai-zechariah-1-8/",
+      "url": "https://yalebooks.yale.edu/book/9780300140736/haggai-zechariah-1-8/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300140736/haggai-zechariah-1-8/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.wjkbooks.com",
+      "url": "https://www.wjkbooks.com/",
+      "status": 200,
+      "finalUrl": "https://www.wjkbooks.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.deadseascrolls.org.il",
+      "url": "https://www.deadseascrolls.org.il/",
+      "status": 200,
+      "finalUrl": "https://www.deadseascrolls.org.il/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-malachi/",
+      "url": "https://bibleproject.com/guides/book-of-malachi/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-malachi/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://libguides.thedtl.org/c.php?g=746070&p=5370466",
+      "url": "https://libguides.thedtl.org/c.php?g=746070&p=5370466",
+      "status": 200,
+      "finalUrl": "https://libguides.thedtl.org/c.php?g=746070&p=5370466",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2072-80502015000100029",
+      "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2072-80502015000100029",
+      "status": 0,
+      "finalUrl": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2072-80502015000100029",
+      "reachable": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bibliaon.com/resumo_livro_de_malaquias/",
+      "url": "https://www.bibliaon.com/resumo_livro_de_malaquias/",
+      "status": 200,
+      "finalUrl": "https://www.bibliaon.com/resumo_livro_de_malaquias/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-malachi?lang=por",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-malachi?lang=por",
+      "status": 200,
+      "finalUrl": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-malachi?lang=por",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.bloomsbury.com/uk/international-critical-commentary-9780567688323/",
+      "url": "https://www.bloomsbury.com/uk/international-critical-commentary-9780567688323/",
+      "status": 403,
+      "finalUrl": "https://www.bloomsbury.com/uk/international-critical-commentary-9780567688323/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sketchesofthec_cntr.org",
+      "url": "https://www.sketchesofthec_cntr.org/",
+      "status": 0,
+      "finalUrl": "https://www.sketchesofthec_cntr.org/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.tanakh.us",
+      "url": "https://www.tanakh.us/",
+      "status": 0,
+      "finalUrl": "https://www.tanakh.us/",
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.earlychristianwritings.com/mark.html",
+      "url": "https://www.earlychristianwritings.com/mark.html",
+      "status": 200,
+      "finalUrl": "https://www.earlychristianwritings.com/mark.html",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.blueletterbible.org",
+      "url": "https://www.blueletterbible.org/",
+      "status": 200,
+      "finalUrl": "https://www.blueletterbible.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/gospelaccordingt0028unse",
+      "url": "https://archive.org/details/gospelaccordingt0028unse",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/gospelaccordingt0028unse",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://learn.ligonier.org/articles/top-5-commentaries-luke",
+      "url": "https://learn.ligonier.org/articles/top-5-commentaries-luke",
+      "status": 200,
+      "finalUrl": "https://learn.ligonier.org/articles/top-5-commentaries-luke",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-luke/",
+      "url": "https://bibleproject.com/guides/book-of-luke/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-luke/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/luke/",
+      "url": "https://www.thegospelcoalition.org/commentary/luke/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/luke/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://reading-rooms.tyndale.ca/luke/",
+      "url": "https://reading-rooms.tyndale.ca/luke/",
+      "status": 200,
+      "finalUrl": "https://reading-rooms.tyndale.ca/luke/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300140538/the-gospel-according-to-john-i-xii/",
+      "url": "https://yalebooks.yale.edu/book/9780300140538/the-gospel-according-to-john-i-xii/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300140538/i-kings/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bakerpublishinggroup.com/bakeracademic",
+      "url": "https://bakerpublishinggroup.com/bakeracademic",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bakeracademic.com",
+      "url": "https://bakeracademic.com/",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ivpress.com",
+      "url": "https://www.ivpress.com/",
+      "status": 200,
+      "finalUrl": "https://www.ivpress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/passage/?search=Romans+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Romans+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Romans+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300140788/romans/",
+      "url": "https://yalebooks.yale.edu/book/9780300140788/romans/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300140788/romans/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.cambridge.org/",
+      "url": "https://www.cambridge.org/",
+      "status": 403,
+      "finalUrl": "https://www.cambridge.org/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://sourcebooks.fordham.edu/",
+      "url": "https://sourcebooks.fordham.edu/",
+      "status": 200,
+      "finalUrl": "https://sourcebooks.fordham.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://scielo.org/",
+      "url": "https://scielo.org/",
+      "status": 200,
+      "finalUrl": "https://www.scielo.org/pt-br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.jstor.org/",
+      "url": "https://www.jstor.org/",
+      "status": 200,
+      "finalUrl": "https://www.jstor.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.bibelwissenschaft.de",
+      "url": "https://www.bibelwissenschaft.de/",
+      "status": 403,
+      "finalUrl": "https://www.die-bibel.de/bibelwissenschaft",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.zondervan.com/",
+      "url": "https://www.zondervan.com/",
+      "status": 200,
+      "finalUrl": "https://www.zondervan.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=2+Corinthians+1&version=NAA",
+      "url": "https://www.biblegateway.com/passage/?search=2+Corinthians+1&version=NAA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+Corinthians+1&version=NAA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ccel.org",
+      "url": "https://www.ccel.org/",
+      "status": 200,
+      "finalUrl": "https://www.ccel.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.uni-muenster.de/INTF/",
+      "url": "https://www.uni-muenster.de/INTF/",
+      "status": 200,
+      "finalUrl": "https://www.uni-muenster.de/INTF/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.uni-muenster.de/INTF/",
+      "url": "https://www.uni-muenster.de/INTF/",
+      "status": 200,
+      "finalUrl": "https://www.uni-muenster.de/INTF/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/passage/?search=Ephesians%201&version=NKJV",
+      "url": "https://www.biblegateway.com/passage/?search=Ephesians%201&version=NKJV",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Ephesians%201&version=NKJV",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-ephesians/",
+      "url": "https://bibleproject.com/guides/book-of-ephesians/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-ephesians/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/course/ephesians-introduction/",
+      "url": "https://www.thegospelcoalition.org/course/ephesians-introduction/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/course/ephesians-introduction/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://enduringword.com/bible-commentary/ephesians-3/",
+      "url": "https://enduringword.com/bible-commentary/ephesians-3/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/ephesians-3/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bible.org/article/selected-bibliography-book-ephesians",
+      "url": "https://bible.org/article/selected-bibliography-book-ephesians",
+      "status": 403,
+      "finalUrl": "https://bible.org/article/selected-bibliography-book-ephesians",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bakeracademic.com",
+      "url": "https://bakeracademic.com/",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.uni-muenster.de/INTF/",
+      "url": "https://www.uni-muenster.de/INTF/",
+      "status": 200,
+      "finalUrl": "https://www.uni-muenster.de/INTF/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.sbb.org.br",
+      "url": "https://www.sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://digi.vatlib.it",
+      "url": "https://digi.vatlib.it/",
+      "status": 200,
+      "finalUrl": "https://digi.vatlib.it/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ccel.org",
+      "url": "https://www.ccel.org/",
+      "status": 200,
+      "finalUrl": "https://www.ccel.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.zondervan.com/9780310521921/word-biblical-commentary-vol-45-1-and-2-thessalonians/",
+      "url": "https://www.zondervan.com/9780310521921/word-biblical-commentary-vol-45-1-and-2-thessalonians/",
+      "status": 404,
+      "finalUrl": "https://www.zondervan.com/9780310521921/word-biblical-commentary-vol-45-1-and-2-thessalonians/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-1-thessalonians/",
+      "url": "https://bibleproject.com/guides/book-of-1-thessalonians/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-1-thessalonians/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://enduringword.com/bible-commentary/1-thessalonians-1/",
+      "url": "https://enduringword.com/bible-commentary/1-thessalonians-1/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/1-thessalonians-1/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+1&version=NAA",
+      "url": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+1&version=NAA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+1&version=NAA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+2&version=NAA",
+      "url": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+2&version=NAA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+Tessalonicenses+2&version=NAA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/course/knowing-bible-1-2-thessalonians/",
+      "url": "https://www.thegospelcoalition.org/course/knowing-bible-1-2-thessalonians/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/course/knowing-bible-1-2-thessalonians/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://enduringword.com/bible-commentary/pt/2-thessalonians-2/",
+      "url": "https://enduringword.com/bible-commentary/pt/2-thessalonians-2/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/pt/2-thessalonians-2/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://bibleproject.com/guides/book-of-2-thessalonians/",
+      "url": "https://bibleproject.com/guides/book-of-2-thessalonians/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-2-thessalonians/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.codexsinaiticus.org/",
+      "url": "https://www.codexsinaiticus.org/",
+      "status": 200,
+      "finalUrl": "https://www.codexsinaiticus.org/en/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://pt.slideshare.net/slideshow/1-e-2-timteo-tito-gordon-d-fee-novo-comentrio-bblico-contemporneopdf/263500196",
+      "url": "https://pt.slideshare.net/slideshow/1-e-2-timteo-tito-gordon-d-fee-novo-comentrio-bblico-contemporneopdf/263500196",
+      "status": 200,
+      "finalUrl": "https://pt.slideshare.net/slideshow/1-e-2-timteo-tito-gordon-d-fee-novo-comentrio-bblico-contemporneopdf/263500196",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.ebsco.com/research-starters/religion-and-philosophy/2-timothy",
+      "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/2-timothy",
+      "status": 200,
+      "finalUrl": "https://www.ebsco.com/research-starters/religion-and-philosophy/2-timothy",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/2-timothy/",
+      "url": "https://www.thegospelcoalition.org/commentary/2-timothy/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/2-timothy/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=2+Timothy+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=2+Timothy+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+Timothy+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.earlychristianwritings.com/pastorals.html",
+      "url": "http://www.earlychristianwritings.com/pastorals.html",
+      "status": 404,
+      "finalUrl": "http://www.earlychristianwritings.com/pastorals.html",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bestcommentaries.com/pastoral-epistles/",
+      "url": "https://bestcommentaries.com/pastoral-epistles/",
+      "status": 200,
+      "finalUrl": "https://bestcommentaries.com/pastoral-epistles/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://library.oru.edu/newtestamentcommentaries/titus",
+      "url": "https://library.oru.edu/newtestamentcommentaries/titus",
+      "status": 200,
+      "finalUrl": "https://library.oru.edu/newtestamentcommentaries/titus",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/commentary/titus/",
+      "url": "https://www.thegospelcoalition.org/commentary/titus/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/commentary/titus/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Tito+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Tito+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Tito+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.earlychristianwritings.com/",
+      "url": "http://www.earlychristianwritings.com/",
+      "status": 200,
+      "finalUrl": "http://www.earlychristianwritings.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/imprint/anchor-yale-bible/",
+      "url": "https://yalebooks.yale.edu/imprint/anchor-yale-bible/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/the-anchor-yale-bible-series/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Filemom+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=Filemom+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Filemom+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://archive.org/details/introductiontoni00guth_0",
+      "url": "https://archive.org/details/introductiontoni00guth_0",
+      "status": 0,
+      "finalUrl": "https://archive.org/details/introductiontoni00guth_0",
+      "reachable": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.perseus.tufts.edu/",
+      "url": "http://www.perseus.tufts.edu/",
+      "status": 200,
+      "finalUrl": "https://www.perseus.tufts.edu/hopper/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.uni-muenster.de/FBMD/ivf/ntvm/",
+      "url": "https://www.uni-muenster.de/FBMD/ivf/ntvm/",
+      "status": 404,
+      "finalUrl": "https://www.uni-muenster.de/FBMD/ivf/ntvm/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.vidanova.com.br",
+      "url": "https://www.vidanova.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.vidanova.com.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bakeracademic.com",
+      "url": "https://bakeracademic.com/",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.sbl-site.org",
+      "url": "https://www.sbl-site.org/",
+      "status": 200,
+      "finalUrl": "https://www.sbl-site.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.fortresspress.com",
+      "url": "https://www.fortresspress.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortresspress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ivpress.com",
+      "url": "https://www.ivpress.com/",
+      "status": 200,
+      "finalUrl": "https://www.ivpress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=1+Peter+1&version=ARA",
+      "url": "https://www.biblegateway.com/passage/?search=1+Peter+1&version=ARA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=1+Peter+1&version=ARA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.earlychristianwritings.com/1peter.html",
+      "url": "http://www.earlychristianwritings.com/1peter.html",
+      "status": 200,
+      "finalUrl": "http://www.earlychristianwritings.com/1peter.html",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bibleproject.com/guides/book-of-2-peter/",
+      "url": "https://bibleproject.com/guides/book-of-2-peter/",
+      "status": 200,
+      "finalUrl": "https://bibleproject.com/guides/book-of-2-peter/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://enduringword.com/bible-commentary/pt/2-peter-1/",
+      "url": "https://enduringword.com/bible-commentary/pt/2-peter-1/",
+      "status": 200,
+      "finalUrl": "https://enduringword.com/bible-commentary/pt/2-peter-1/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://textandcanon.org/pt/como-2-pedro-entrou-para-a-biblia/",
+      "url": "https://textandcanon.org/pt/como-2-pedro-entrou-para-a-biblia/",
+      "status": 200,
+      "finalUrl": "https://textandcanon.org/pt/como-2-pedro-entrou-para-a-biblia/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-14682022000200011",
+      "url": "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-14682022000200011",
+      "status": 0,
+      "finalUrl": "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-14682022000200011",
+      "reachable": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.thegospelcoalition.org/course/2-peter/",
+      "url": "https://www.thegospelcoalition.org/course/2-peter/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/course/2-peter/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://yalebooks.yale.edu/book/9780300140293/the-epistles-of-john/",
+      "url": "https://yalebooks.yale.edu/book/9780300140293/the-epistles-of-john/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300140293/the-epistles-of-john/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com/products/letters-and-revelation-from-john-to-patmos",
+      "url": "https://zondervanacademic.com/products/letters-and-revelation-from-john-to-patmos",
+      "status": 404,
+      "finalUrl": "https://zondervanacademic.com/products/letters-and-revelation-from-john-to-patmos",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.uni-muenster.de/INTF/",
+      "url": "https://www.uni-muenster.de/INTF/",
+      "status": 200,
+      "finalUrl": "https://www.uni-muenster.de/INTF/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.bible.com/",
+      "url": "https://www.bible.com/",
+      "status": 200,
+      "finalUrl": "https://www.bible.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ivpress.com",
+      "url": "https://www.ivpress.com/",
+      "status": 200,
+      "finalUrl": "https://www.ivpress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.igrejadedeus.org.br/",
+      "url": "https://www.igrejadedeus.org.br/",
+      "status": 200,
+      "finalUrl": "https://igrejadedeus.org.br/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=2+John+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=2+John+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=2+John+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://yalebooks.yale.edu",
+      "url": "https://yalebooks.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://yalebooks.yale.edu/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.eerdmans.com",
+      "url": "https://www.eerdmans.com/",
+      "status": 200,
+      "finalUrl": "https://www.eerdmans.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.ivpress.com",
+      "url": "https://www.ivpress.com/",
+      "status": 200,
+      "finalUrl": "https://www.ivpress.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.csntm.org",
+      "url": "https://www.csntm.org/",
+      "status": 200,
+      "finalUrl": "https://www.csntm.org/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=3+João+1&version=ARC",
+      "url": "https://www.biblegateway.com/passage/?search=3+Jo%C3%A3o+1&version=ARC",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=3+Jo%C3%A3o+1&version=ARC",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://zondervanacademic.com",
+      "url": "https://zondervanacademic.com/",
+      "status": 200,
+      "finalUrl": "https://zondervanacademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bakeracademic.com",
+      "url": "https://bakeracademic.com/",
+      "status": 200,
+      "finalUrl": "https://bakeracademic.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://sbb.org.br",
+      "url": "https://sbb.org.br/",
+      "status": 403,
+      "finalUrl": "https://www.sbb.org.br/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.biblegateway.com/passage/?search=Judas+1&version=RA",
+      "url": "https://www.biblegateway.com/passage/?search=Judas+1&version=RA",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/passage/?search=Judas+1&version=RA",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://sblgnt.com",
+      "url": "https://sblgnt.com/",
+      "status": 200,
+      "finalUrl": "https://sblgnt.com/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.thegospelcoalition.org/recommendation/best-commentaries-revelation/",
+      "url": "https://www.thegospelcoalition.org/recommendation/best-commentaries-revelation/",
+      "status": 200,
+      "finalUrl": "https://www.thegospelcoalition.org/recommendation/best-commentaries-revelation/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://bestcommentaries.com/book/4028/",
+      "url": "https://bestcommentaries.com/book/4028/",
+      "status": 200,
+      "finalUrl": "https://bestcommentaries.com/book/4028/",
+      "reachable": true,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "academic_bibliography",
+      "source": "https://www.cambridge.org/",
+      "url": "https://www.cambridge.org/",
+      "status": 403,
+      "finalUrl": "https://www.cambridge.org/",
+      "reachable": false,
+      "error": ""
+    },
+    {
+      "book": "unknown",
+      "field": "primary_sources",
+      "source": "https://www.biblegateway.com/",
+      "url": "https://www.biblegateway.com/",
+      "status": 200,
+      "finalUrl": "https://www.biblegateway.com/",
+      "reachable": true,
+      "error": ""
+    }
+  ]
+}

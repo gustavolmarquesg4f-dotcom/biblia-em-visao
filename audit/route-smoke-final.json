@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T02:09:06.901Z",
-  "base": "http://127.0.0.1:3002",
-  "routeCount": 17,
-  "passed": 17,
+  "generatedAt": "2026-08-21T22:15:11.512Z",
+  "base": "http://127.0.0.1:4173/biblia-em-visao",
+  "routeCount": 18,
+  "passed": 18,
   "results": [
     {
       "route": "/",
@@ -10,6 +10,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -18,6 +21,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -26,6 +32,20 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
+      "error": null
+    },
+    {
+      "route": "/livro/1-genesis?cap=2",
+      "marker": "Gênesis 2",
+      "hasRoot": true,
+      "hasMarker": true,
+      "hasErrorBoundary": false,
+      "anchorCount": 13,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -34,6 +54,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 13,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -42,6 +65,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -50,6 +76,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -58,6 +87,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -66,6 +98,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -74,6 +109,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -82,6 +120,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -90,6 +131,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -98,6 +142,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -106,6 +153,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -114,6 +164,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -122,6 +175,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -130,6 +186,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     },
     {
@@ -138,6 +197,9 @@
       "hasRoot": true,
       "hasMarker": true,
       "hasErrorBoundary": false,
+      "anchorCount": 0,
+      "missingAnchors": [],
+      "rawMarkdown": 0,
       "error": null
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T02:13:27.252Z",
+  "generatedAt": "2026-08-21T22:17:37.391Z",
   "inputPath": "client/public/data/chapter-coverage.json",
   "totalRecords": 1189,
   "expandedFocusRecords": 39,
@@ -19,9 +19,10 @@
     "maxCharacters": 2312
   },
   "verseBasis": {
-    "averageVerseCount": 25.3,
-    "minVerseCount": 0,
-    "maxVerseCount": 176
+    "averageVerseCount": 26.2,
+    "minVerseCount": 2,
+    "maxVerseCount": 176,
+    "recordsWithoutVerseCount": 39
   },
   "repeatedTextSamples": [],
   "shortRecordSamples": []

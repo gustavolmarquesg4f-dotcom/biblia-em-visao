@@ -56,3 +56,26 @@ A publicação automática está definida em `.github/workflows/deploy-pages.yml
 | Cache offline | `client/public/sw.js` | Cache atualizado para `v4` |
 | Workflow remoto | GitHub Actions run `32439192083` | **success**; `main` `b93a2fd`; `gh-pages` `e6812b2` |
 | Publicação pública | URL com `?deploy=e6812b2` | Cabeçalho `1.189 capítulos`, WebP carregado e fallback vetorial disponível |
+
+
+## Auditoria de navegação completa — fechamento
+
+| Fluxo adicional | Evidência | Resultado |
+|---|---|---|
+| Referências bibliográficas | `pnpm audit:references` | 303/303 URLs estruturalmente válidas; primeira referência externa abriu destino real |
+| Conexões dos dossiês | `pnpm audit:connections` | 18/18 conexões dos seis dossiês resolvidas |
+| Grafo Proféticas | Busca → grafo → Proféticas | 2 nós/1 relação: Babilônia → Apocalipse |
+| Grafo Históricas | Busca → grafo → Históricas | 4 nós/2 relações |
+| Grafo Geográficas | Busca → grafo → Geográficas | 3 nós/2 relações |
+| Grafo Teológicas | Busca → grafo → Teológicas | 60 relações teológicas renderizadas dentro do limite visual de 60 |
+| Inspector de relações | clique em aresta | Referências e origem da relação abertas |
+| Pessoas relacionadas | clique em nó → pessoa relacionada | Verbete troca corretamente e resumos compactos sem Markdown cru |
+| Temas → biblioteca | Aliança → `/66-livros?q=Aliança` | 6 livros relacionados preservados na URL |
+| Linha do tempo | Patriarcas → Gênesis | `/livro/1-genesis` resolvido pelo `relatedBookId` explícito |
+| Apócrifos | Católica → Tobias → estação | Filtro, corpus e estações funcionais |
+| Cânones | Formação, Manuscritos, Interpretação | Destinos reais para Estudos profundos/Bibliografia |
+| Revisão | quiz → resultado → persistência | Marco e melhor pontuação persistidos |
+| Preview Pages | servidor base-aware + `QA_BASE_URL` | 18/18 rotas aprovadas no build com base `/biblia-em-visao/` |
+| Mobile/tablet | capturas 390×844 e 768×1024 | Mapa, leitor, busca e barra móvel sem overflow |
+
+O workflow foi corrigido para compilar antes do smoke test, servir o build no prefixo real do GitHub Pages, aguardar o servidor e só então validar as rotas. Isso elimina a reprovação falsa que ocorria quando o smoke test acessava a raiz de um build configurado com base `/biblia-em-visao/`.

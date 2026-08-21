@@ -15,7 +15,7 @@ function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse
 function StudiesEntry(_props: unknown) { return <Home initialView="studies" />; }
 function StudyDeskEntry(_props: unknown) { return <Home initialView="study" />; }
 function BookRoadmapEntry(_props: unknown) { return <Home initialView="study" initialStudyTab="roteiro" />; }
-function BookLibraryEntry(_props: unknown) { return <Home initialView="library" />; }
+function BookLibraryEntry(_props: unknown) { const query = new URLSearchParams(window.location.search).get("q") || ""; return <Home initialView="library" initialLibraryQuery={query} />; }
 function BookDetailEntry(_props: unknown) { const [location] = useLocation(); const bookId = decodeURIComponent(location.split("/").pop() || ""); return <Home initialView="library" initialBookId={bookId} />; }
 function TimelineEntry(_props: unknown) { return <Home initialView="timeline" />; }
 function CanonEntry(_props: unknown) { return <Home initialView="canon" />; }

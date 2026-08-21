@@ -11,7 +11,7 @@ const requiredRoutes = ["/", "/comece", "/66-livros", "/livro/:bookId", "/roteir
 const checks = {
   requiredRoutes: requiredRoutes.filter((route) => app.includes(`\"${route}\"`)),
   deepBookEntry: app.includes("function BookDetailEntry") && app.includes("initialBookId={bookId}"),
-  deepBookNavigation: home.includes("setLocation(`/livro/${encodeURIComponent(book.id)}`)"),
+  deepBookNavigation: home.includes("bookSlug =") && home.includes("setLocation(`/livro/${encodeURIComponent(bookSlug(book))}`)"),
   libraryReturn: home.includes("setLocation(viewPaths.library)"),
   directChapterHistory: reader.includes("new URLSearchParams(window.location.search).get(\"cap\")") && reader.includes("window.history") && reader.includes("popstate"),
   mobilePrimaryDestinations: ["id: \"overview\"", "id: \"library\"", "id: \"study\"", "id: \"atlas\"", "id: \"search\""].every((token) => home.includes(token)),

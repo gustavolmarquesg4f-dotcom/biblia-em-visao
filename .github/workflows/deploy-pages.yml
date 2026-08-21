@@ -30,8 +30,17 @@ jobs:
       - name: Typecheck
         run: pnpm check
 
+      - name: Build and audit chapter coverage
+        run: pnpm build:chapters:deep && pnpm audit:coverage
+
       - name: Audit navigation
         run: pnpm audit:navigation
+
+      - name: Audit references
+        run: pnpm audit:references
+
+      - name: Audit complete connections
+        run: pnpm audit:connections
 
       - name: Audit editorial quality
         run: pnpm audit:editorial
@@ -42,11 +51,25 @@ jobs:
       - name: Audit atlas assets
         run: pnpm audit:atlas-assets
 
-      - name: Build and audit chapter coverage
-        run: pnpm build:chapters:deep && pnpm audit:coverage
-
       - name: Build GitHub Pages
         run: GITHUB_PAGES=true pnpm exec vite build && cp dist/public/index.html dist/public/404.html
+
+      - name: Start Pages preview for route smoke test
+        run: python3 scripts/serve-static-base.py --root dist/public --base /biblia-em-visao --host 127.0.0.1 --port 4173 > /tmp/biblia-pages-preview.log 2>&1 &
+
+      - name: Wait for Pages preview
+        run: |
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/biblia-em-visao/ > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/biblia-pages-preview.log
+          exit 1
+
+      - name: Smoke test routes
+        env:
+          QA_BASE_URL: http://127.0.0.1:4173/biblia-em-visao
+        run: pnpm qa:routes
 
       - name: Publish gh-pages
         uses: peaceiris/actions-gh-pages@v4

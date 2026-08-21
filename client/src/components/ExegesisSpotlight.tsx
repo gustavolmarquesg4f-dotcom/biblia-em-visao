@@ -47,7 +47,7 @@ export default function ExegesisSpotlight({ go, openBook }: ExegesisSpotlightPro
     </section>
     <AdvancedResearchHub go={view => go(view)} />
     <StudyDesk openBook={openBook} />
-    <StudyCoverageBoard />
+    <StudyCoverageBoard openBook={openBook} />
     <SourceLedger />
     </>
   );

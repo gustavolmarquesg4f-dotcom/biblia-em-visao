@@ -32,8 +32,17 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
   const wordCount = record?.markdown.trim().split(/\s+/).length || 0;
   const minutes = Math.max(8, Math.round(wordCount / 220));
   const decoratedMarkdown = useMemo(() => decorateMarkdown(record?.markdown || "", book.name, biographies), [record?.markdown, book.name, biographies]);
+  const markdownComponents = useMemo(() => { let sectionIndex = 0; return { h2: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => { const id = `deep-section-${sectionIndex++}`; return <h2 id={id} {...props}>{children}</h2>; }, h3: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => <h3 {...props}>{children}</h3>, a: ({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => { const entityId = href?.startsWith("#entity-") ? href.slice("#entity-".length) : null; return entityId ? <button type="button" className="dossier-entity-link" onClick={() => openDossierEntity(entityId)}>{children}</button> : <a href={href} {...props}>{children}</a>; } }; }, [decoratedMarkdown]);
 
   useEffect(() => { loadBiographyCatalog().then(setBiographies).catch(() => undefined); }, []);
+
+  const openDossierEntity = (id: string) => {
+    if (id.startsWith("person-")) {
+      loadBiographyCatalog().then(() => setEntityId(id)).catch(() => setEntityId(id));
+      return;
+    }
+    setEntityId(id);
+  };
 
   const handleReadingClick = (event: React.MouseEvent<HTMLElement>) => {
     const anchor = (event.target as HTMLElement).closest("a[href^='#entity-']") as HTMLAnchorElement | null;
@@ -45,7 +54,7 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
       onFocusPlace?.(entityId);
       return;
     }
-    setEntityId(entityId);
+    openDossierEntity(entityId);
   };
 
   useEffect(() => {
@@ -82,13 +91,13 @@ export default function DeepDossierDetail({ book, close, openBook, saved = false
     {record && <>
       <div className="deep-dossier-stats"><div><strong>{record.sectionCount}</strong><span>seções</span></div><div><strong>{record.longParagraphCount}</strong><span>blocos desenvolvidos</span></div><div><strong>{wordCount.toLocaleString("pt-BR")}</strong><span>palavras</span></div><div><strong>{minutes} min</strong><span>leitura estimada</span></div></div>
       <div className="deep-dossier-layout">
-        <aside className="deep-dossier-index"><div className="deep-index-heading"><span><ListTree size={15} /> Índice do dossiê</span><small>{filteredHeadings.length}/{record.headings.length}</small></div><div className="deep-index-search"><Search size={14} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar seções…" aria-label="Filtrar seções do dossiê" /></div><nav>{filteredHeadings.map((heading, headingIndex) => <a href={`#deep-section-${headingIndex}`} key={`${heading}-${headingIndex}`}>{String(headingIndex + 1).padStart(2, "0")} · {heading}</a>)}</nav><div className="deep-index-method"><ShieldCheck size={16} /><p>O texto distingue reconstrução histórica, interpretação, tradição confessional e hipótese.</p></div></aside>
-        <article className="deep-dossier-reading"><div className="deep-reading-header"><span>Texto principal · entidades clicáveis</span><span><Clock3 size={14} /> {minutes} min de leitura</span></div><div className="deep-reading-prose" onClick={handleReadingClick}><Streamdown>{decoratedMarkdown}</Streamdown></div></article>
+        <aside className="deep-dossier-index"><div className="deep-index-heading"><span><ListTree size={15} /> Índice do dossiê</span><small>{filteredHeadings.length}/{record.headings.length}</small></div><div className="deep-index-search"><Search size={14} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar seções…" aria-label="Filtrar seções do dossiê" /></div><nav>{filteredHeadings.map((heading) => { const headingIndex = record.headings.indexOf(heading); return <a href={`#deep-section-${headingIndex}`} key={`${heading}-${headingIndex}`}>{String(headingIndex + 1).padStart(2, "0")} · {heading}</a>; })}</nav><div className="deep-index-method"><ShieldCheck size={16} /><p>O texto distingue reconstrução histórica, interpretação, tradição confessional e hipótese.</p></div></aside>
+        <article className="deep-dossier-reading"><div className="deep-reading-header"><span>Texto principal · entidades clicáveis</span><span><Clock3 size={14} /> {minutes} min de leitura</span></div><div className="deep-reading-prose" onClickCapture={handleReadingClick}><Streamdown components={markdownComponents}>{decoratedMarkdown}</Streamdown></div></article>
       </div>
       <ChapterCoverageReader book={book} onFocusPlace={onFocusPlace} />
       {setNote && <section className="deep-dossier-notes"><div><span>Anotação de pesquisa</span><h2>O que este livro <em>explica?</em></h2><p>Registre conexões, objeções e perguntas que surgirem durante a leitura.</p></div><div><textarea value={note} onChange={(event) => setNote(event.target.value)} placeholder={`Anote uma pergunta sobre ${book.name}…`} aria-label={`Anotação de pesquisa sobre ${book.name}`} /><small>{note ? `${note.length} caracteres nesta sessão` : "Notas desta sessão"}</small></div></section>}
       <nav className="deep-dossier-next" aria-label="Navegar entre os livros">{previous ? <button type="button" onClick={() => openBook?.(previous)}><ArrowLeft size={15} /><span><small>Livro anterior</small><strong>{previous.name}</strong></span></button> : <span />}{next ? <button type="button" onClick={() => openBook?.(next)}><span><small>Próximo livro</small><strong>{next.name}</strong></span><ArrowRight size={15} /></button> : <span />}</nav>
     </>}
-    <EntityPanel entityId={entityId} close={() => setEntityId(null)} onFocusPlace={onFocusPlace} onOpenEntity={setEntityId} onOpenBook={(bookName) => { const target = bookFromEntityReference(bookName); if (target) { setEntityId(null); openBook?.(target); } }} />
+    <EntityPanel entityId={entityId} close={() => setEntityId(null)} onFocusPlace={onFocusPlace} onOpenEntity={openDossierEntity} onOpenBook={(bookName) => { const target = bookFromEntityReference(bookName); if (target) { setEntityId(null); openBook?.(target); } }} />
   </section>;
 }
