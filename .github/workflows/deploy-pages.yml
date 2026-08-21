@@ -33,6 +33,15 @@ jobs:
       - name: Audit navigation
         run: pnpm audit:navigation
 
+      - name: Audit editorial quality
+        run: pnpm audit:editorial
+
+      - name: Audit accessibility
+        run: pnpm audit:accessibility
+
+      - name: Audit atlas assets
+        run: pnpm audit:atlas-assets
+
       - name: Build and audit chapter coverage
         run: pnpm build:chapters:deep && pnpm audit:coverage
 

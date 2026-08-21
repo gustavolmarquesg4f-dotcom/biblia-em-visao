@@ -41,3 +41,18 @@ pnpm build:github
 ```
 
 A publicação automática está definida em `.github/workflows/deploy-pages.yml`, acionada por `push` em `main` ou manualmente, com publicação em `gh-pages` após typecheck, auditoria de navegação, reconstrução textual e auditoria de cobertura.
+
+
+## Rodada de qualidade — agosto de 2026
+
+| Área | Evidência adicional | Resultado |
+|---|---|---|
+| Qualidade editorial | `pnpm audit:editorial` | 1.189 textos compostos únicos, 0 vazios, 0 curtos, 0 grupos repetidos, 1.150 com base textual e 39 focos ampliados |
+| Versículos recuperados | auditoria textual pós-alias `Cântico dos Cânticos → Cantares` | 1.150/1.150 comentários enriquecidos com contagem detectável; 39 focos ampliados preservados |
+| Ativos do atlas | `pnpm audit:atlas-assets` | 9/9 WebP presentes, 0 ausências, 0 referências obsoletas |
+| Compressão visual | `audit/atlas-optimization.json` | 69.986.117 bytes → 7.642.288 bytes; redução de 89,08% |
+| Acessibilidade estática | `pnpm audit:accessibility` | 248/248 botões com tipo, 5/5 imagens com alt, 18/18 controles nomeados; foco visível e redução de movimento presentes |
+| Acessibilidade DOM | `pnpm audit:dom` | 5/5 rotas principais sem gaps de nome, imagens sem alt ou ErrorBoundary |
+| Cache offline | `client/public/sw.js` | Cache atualizado para `v4` |
+| Workflow remoto | GitHub Actions run `32439192083` | **success**; `main` `b93a2fd`; `gh-pages` `e6812b2` |
+| Publicação pública | URL com `?deploy=e6812b2` | Cabeçalho `1.189 capítulos`, WebP carregado e fallback vetorial disponível |

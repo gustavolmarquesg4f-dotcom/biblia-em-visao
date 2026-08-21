@@ -50,3 +50,16 @@ pnpm build:chapters:deep
 pnpm audit:coverage
 pnpm build:github
 ```
+
+
+## Rodada de qualidade e publicação final
+
+A rodada de qualidade posterior fechou os principais pontos de maturidade técnica. Os nove ativos do atlas foram convertidos de PNG para WebP, reduzindo o conjunto de 69.986.117 para 7.642.288 bytes, uma redução de 89,08%, sem alterar dimensões ou referências visuais. O service worker foi atualizado para `v4`.
+
+A revisão editorial estrutural confirmou 1.189 textos compostos únicos, nenhum comentário vazio, nenhum comentário curto, nenhum grupo repetido, nenhum marcador sintético e nenhuma lacuna de base textual nos 1.150 comentários enriquecidos. Também foi corrigido o alias da fonte portuguesa para Cântico dos Cânticos/Cantares, eliminando os oito registros que ainda declaravam `0 versículos`.
+
+A auditoria de acessibilidade aprovou 248/248 botões com tipo explícito, 5/5 imagens com alt, 18/18 controles nomeados, 14 regras de foco visível e 10 regras de redução de movimento. A auditoria DOM aprovou as cinco rotas principais — atlas, 66 livros, mesa, apócrifos e comece — sem gaps de nome acessível, ErrorBoundary ou estado de carregamento residual.
+
+O workflow do GitHub Actions foi corrigido em dois pontos reais: a duplicidade de versão do pnpm e a chamada direta ao binário `vite`. O run `32439192083` terminou com **success**, publicou `gh-pages` no SHA `e6812b2` e a URL pública confirmou o cabeçalho `1.189 capítulos`, os caminhos WebP e o fallback vetorial do atlas.
+
+A única ressalva de produto continua sendo o aviso do provedor cartográfico externo indisponível em determinados ambientes. Isso não bloqueia o uso: o mapa vetorial próprio, os marcadores, a lista de lugares, as rotas e as camadas continuam funcionais. Os chunks JavaScript de diagramas e linguagens permanecem grandes no build; são uma oportunidade de code splitting futuro, não uma falha de cobertura, navegação ou publicação.

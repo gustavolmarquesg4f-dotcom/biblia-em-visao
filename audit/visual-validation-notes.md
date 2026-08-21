@@ -39,3 +39,8 @@ Após o push de `main` e `gh-pages`, a URL pública `https://gustavolmarquesg4f-
 
 
 Após o deploy `b4c6fc1` em `gh-pages`, a abertura pública com `?v=be5a979` confirmou a troca do shell antigo. O DOM público passou a mostrar `1.189/1.189 capítulos auditados`, `1.150 comentários textuais`, `39 focos ampliados` e o texto `Cobertura canônica + comentário textual enriquecido + foco ampliado`; a expressão obsoleta `comentário sintético` não aparece mais na publicação atual.
+
+
+## Validação pública — qualidade final
+
+A publicação pública em `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/atlas?deploy=e6812b2` mostrou `1.189 capítulos` no cabeçalho, carregou a imagem-mestre do Levante em `/biblia-em-visao/atlas-assets/atlas-levant-master_9616f06c.webp` e exibiu os quatro marcadores regionais. A captura pública mostrou a prancha cartográfica carregada; o mapa externo informou indisponibilidade, mas o mapa vetorial de continuidade e a lista de 26 lugares permaneceram disponíveis para exploração.
