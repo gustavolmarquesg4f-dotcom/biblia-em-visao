@@ -11,6 +11,7 @@
     "build:chapters:deep": "node scripts/fetch-bible-text.mjs && tsx scripts/build-chapter-coverage.ts && node scripts/enrich-chapter-coverage-deterministic.mjs",
     "audit:coverage": "node scripts/audit-chapter-coverage.mjs",
     "audit:navigation": "node scripts/audit-navigation.mjs",
+    "audit:atlas-assets": "node scripts/audit-atlas-assets.mjs",
     "qa:routes": "node scripts/qa-route-dom.mjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
