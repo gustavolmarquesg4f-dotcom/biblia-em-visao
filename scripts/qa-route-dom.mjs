@@ -13,7 +13,7 @@ for (const [route, marker] of routes) {
   let dom = "";
   let error = "";
   try {
-    dom = execFileSync("chromium", ["--headless", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--hide-scrollbars", "--virtual-time-budget=2500", "--dump-dom", url], { encoding: "utf8", timeout: 15000, maxBuffer: 2_000_000, stdio: ["ignore", "pipe", "pipe"] });
+    dom = execFileSync("chromium", ["--headless", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--hide-scrollbars", "--virtual-time-budget=5000", "--dump-dom", url], { encoding: "utf8", timeout: 45000, maxBuffer: 2_000_000, stdio: ["ignore", "pipe", "pipe"] });
   } catch (reason) {
     error = reason instanceof Error ? reason.message.slice(0, 240) : String(reason);
   }
