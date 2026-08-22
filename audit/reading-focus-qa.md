@@ -56,3 +56,6 @@ A verificação direta do evento do componente confirmou a navegação completa:
 
 
 Na versão compilada final, a orientação passou a declarar quatorze módulos e setenta leituras em camadas. A inspeção DOM confirmou 14 botões de módulo, estado focado no corpo, módulo 14 aberto em 14/14, título correspondente e dois parágrafos na camada ativa.
+
+
+A rota pública final no GitHub Pages foi verificada no navegador. O estudo exibiu a orientação com 14 módulos e 70 leituras; o acionamento do botão do módulo 14 atualizou o contador para 14/14, o título para “Grandes teólogos e confissões em diálogo”, renderizou dois parágrafos na camada ativa e manteve o modo focado. O status HTTP 404 do caminho profundo corresponde ao fallback SPA 404.html, mas a aplicação pública carregou e funcionou no navegador.
