@@ -32,3 +32,6 @@ A camada “O que isso significa” foi acionada no módulo diaconal e atualizou
 
 
 A verificação pública após o workflow `32587638519` confirmou que `/igreja` já serve a versão refinada no GitHub Pages. A rota abriu sem overlays globais, manteve “Todos os estudos” e o clique público no módulo 3 carregou “O corpo diaconal” com placa, título e conteúdo atualizados.
+
+
+No GitHub Pages, o DOM público confirmou `body.reading-focus-active`, shell em `app-shell--church-reading`, título “O que é ser Igreja?” e botão “Todos os estudos”. Os três overlays globais — launcher, baliza de rota e status de publicação — estão com `display:none`, sem remover o menu superior nem os controles internos do estudo.
