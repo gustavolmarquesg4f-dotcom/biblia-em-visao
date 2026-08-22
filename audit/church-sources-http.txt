@@ -1,0 +1,13 @@
+URL	STATUS	FINAL
+https://bonhoeffersociety.org/christ-existing-as-community-an-interview-with-michael-mawson/	200	https://bonhoeffersociety.org/christ-existing-as-community-an-interview-with-michael-mawson/
+https://books.google.com/books/about/After_Our_Likeness.html?id=J-s7xzugXqkC	200	https://books.google.com.lb/books/about/After_Our_Likeness.html?id=J-s7xzugXqkC&redir_esc=y
+https://faith.yale.edu/media/the-church-in-the-power-of-the-spirit	200	https://faith.yale.edu/media/the-church-in-the-power-of-the-spirit
+https://igrejadedeus.org.br/	200	https://igrejadedeus.org.br/
+https://lausanne.org/statement/lausanne-covenant	200	https://lausanne.org/statement/lausanne-covenant
+https://www.bibliaonline.com.br/acf/1co/12	200	https://www.bibliaonline.com.br/acf/1co/12
+https://www.bibliaonline.com.br/acf/1pe/5	200	https://www.bibliaonline.com.br/acf/1pe/5
+https://www.bibliaonline.com.br/acf/1tm/3	200	https://www.bibliaonline.com.br/acf/1tm/3
+https://www.bibliaonline.com.br/acf/atos/6	200	https://www.bibliaonline.com.br/acf/atos/6
+https://www.bibliaonline.com.br/acf/ef/4	200	https://www.bibliaonline.com.br/acf/ef/4
+https://www.ccel.org/ccel/calvin/institutes.vi.iv.html	200	https://www.ccel.org/ccel/calvin/institutes.vi.iv.html
+https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html	200	https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html

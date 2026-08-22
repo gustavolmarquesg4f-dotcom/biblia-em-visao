@@ -36,6 +36,9 @@ jobs:
       - name: Audit navigation
         run: pnpm audit:navigation
 
+      - name: Audit Church study
+        run: pnpm audit:church-study
+
       - name: Audit references
         run: pnpm audit:references
 

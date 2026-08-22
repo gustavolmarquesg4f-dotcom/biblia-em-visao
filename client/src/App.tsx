@@ -13,6 +13,7 @@ import OnboardingNavigator from "./components/OnboardingNavigator";
 function AtlasEntry(_props: unknown) { return <Home initialView="atlas" />; }
 function ApocalypseEntry(_props: unknown) { return <Home initialView="apocalypse" />; }
 function StudiesEntry(_props: unknown) { return <Home initialView="studies" />; }
+function ChurchEntry(_props: unknown) { return <Home initialView="studies" initialDeepStudyId="o-que-e-ser-igreja" />; }
 function StudyDeskEntry(_props: unknown) { return <Home initialView="study" />; }
 function BookRoadmapEntry(_props: unknown) { return <Home initialView="study" initialStudyTab="roteiro" />; }
 function BookLibraryEntry(_props: unknown) { const query = new URLSearchParams(window.location.search).get("q") || ""; return <Home initialView="library" initialLibraryQuery={query} />; }
@@ -45,6 +46,8 @@ function Router() {
         <Route path={"/estudos"} component={StudiesEntry} />
         <Route path={"/percursos"} component={StudiesEntry} />
         <Route path={"/estudos-profundos"} component={StudiesEntry} />
+        <Route path={"/igreja"} component={ChurchEntry} />
+        <Route path={"/eclesiologia"} component={ChurchEntry} />
         <Route path={"/mesa"} component={StudyDeskEntry} />
         <Route path={"/66-livros"} component={BookLibraryEntry} />
         <Route path={"/livro/:bookId"} component={BookDetailEntry} />

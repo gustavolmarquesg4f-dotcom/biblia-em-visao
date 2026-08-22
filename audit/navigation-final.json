@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T22:17:33.651Z",
-  "requiredRouteCount": 17,
-  "matchedRouteCount": 17,
+  "generatedAt": "2026-08-22T14:43:41.099Z",
+  "requiredRouteCount": 19,
+  "matchedRouteCount": 19,
   "requiredRoutes": [
     "/",
     "/comece",
@@ -19,7 +19,9 @@
     "/apocrifos",
     "/glossario",
     "/apocalipse",
-    "/bibliografia"
+    "/bibliografia",
+    "/igreja",
+    "/eclesiologia"
   ],
   "deepBookEntry": true,
   "deepBookNavigation": true,
@@ -27,6 +29,8 @@
   "directChapterHistory": true,
   "mobilePrimaryDestinations": true,
   "commandDeepContext": true,
+  "churchDeepEntry": true,
+  "churchRouteAliases": true,
   "onboardingDoesNotBlockDeepRoutes": true,
   "status": "APROVADA"
 }

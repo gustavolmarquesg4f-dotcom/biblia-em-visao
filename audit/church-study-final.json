@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-08-22T14:43:39.918Z",
+  "studyId": "o-que-e-ser-igreja",
+  "pathSteps": 10,
+  "modules": 10,
+  "sources": 14,
+  "httpsSources": 12,
+  "rawMarkdownSources": 0,
+  "checks": {
+    "idInStudyPathCatalog": true,
+    "idInDeepStudyCatalog": true,
+    "studyPathNumber": true,
+    "studyPathTags": true,
+    "studyPathSteps": true,
+    "deepStudyModules": true,
+    "deepStudyLayers": true,
+    "sourceCount": true,
+    "structuredHttpsSources": true,
+    "structuredSourceLabels": true,
+    "noRawMarkdownSources": true,
+    "directChurchRoute": true,
+    "ecclesiologyAlias": true,
+    "launcherDestination": true,
+    "readerExternalLinks": true
+  },
+  "status": "APROVADA"
+}

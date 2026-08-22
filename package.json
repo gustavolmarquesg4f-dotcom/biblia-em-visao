@@ -18,6 +18,7 @@
     "audit:connections": "node scripts/audit-complete-connections.mjs",
     "audit:editorial": "node scripts/audit-editorial-quality.mjs client/public/data/chapter-coverage.json audit/editorial-quality-final.json",
     "audit:accessibility": "node scripts/audit-accessibility.mjs",
+    "audit:church-study": "tsx scripts/audit-church-study.mjs",
     "audit:dom": "python3 scripts/audit-dom-accessibility.py",
     "qa:routes": "node scripts/qa-route-dom.mjs",
     "start": "NODE_ENV=production node dist/index.js",

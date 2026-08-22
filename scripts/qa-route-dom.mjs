@@ -5,7 +5,7 @@ import { execFileSync } from "node:child_process";
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const base = process.env.QA_BASE_URL || "http://127.0.0.1:3002";
 const routes = [
-  ["/", "A Bíblia"], ["/comece", "Comece"], ["/66-livros", "66 livros"], ["/livro/1-genesis?cap=2", "Gênesis 2"], ["/livro/1-g-nesis?cap=2", "Gênesis 2"], ["/roteiro", "Roteiro dos 66 livros"], ["/linha-do-tempo", "Linha do tempo"], ["/atlas", "Atlas"], ["/historia", "História bíblica"], ["/pessoas", "Pessoas e povos"], ["/temas", "Temas bíblicos"], ["/busca", "Busca"], ["/mesa", "Mesa de estudo"], ["/canon", "Cânones"], ["/apocrifos", "Apócrifos"], ["/glossario", "Glossário"], ["/apocalipse", "Apocalipse"], ["/bibliografia", "Fontes e bibliografia"],
+  ["/", "A Bíblia"], ["/comece", "Comece"], ["/66-livros", "66 livros"], ["/livro/1-genesis?cap=2", "Gênesis 2"], ["/livro/1-g-nesis?cap=2", "Gênesis 2"], ["/roteiro", "Roteiro dos 66 livros"], ["/linha-do-tempo", "Linha do tempo"], ["/atlas", "Atlas"], ["/historia", "História bíblica"], ["/pessoas", "Pessoas e povos"], ["/temas", "Temas bíblicos"], ["/busca", "Busca"], ["/mesa", "Mesa de estudo"], ["/canon", "Cânones"], ["/apocrifos", "Apócrifos"], ["/glossario", "Glossário"], ["/apocalipse", "Apocalipse"], ["/bibliografia", "Fontes e bibliografia"], ["/igreja", "O que é ser Igreja?"], ["/eclesiologia", "O que é ser Igreja?"],
 ];
 const results = [];
 for (const [route, marker] of routes) {

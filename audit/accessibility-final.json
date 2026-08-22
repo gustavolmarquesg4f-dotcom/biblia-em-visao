@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:17:38.540Z",
+  "generatedAt": "2026-08-22T14:41:12.486Z",
   "filesScanned": 187,
   "imageTags": 5,
   "buttonTags": 251,
@@ -7,7 +7,7 @@
   "imagesWithAlt": 5,
   "buttonsWithType": 251,
   "inputsNamed": 18,
-  "focusVisibleRules": 20,
+  "focusVisibleRules": 21,
   "reducedMotionRules": 10,
   "overflowGuards": 40,
   "gaps": [],

@@ -1,6 +1,7 @@
 /* Cartografia de Leituras — navegação como rota editorial: grupos, posição atual, retorno e próximo passo. */
 // Acervo de Sinais Vivos: a trilha lateral é uma ferramenta recolhível de orientação, nunca uma moldura obrigatória de leitura.
 import { ArrowLeft, ArrowRight, BookOpen, CircleHelp, Clock3, Compass, Eye, FileText, Landmark, Layers3, Map, PanelLeftClose, ScrollText, Search, Sparkles, Users, X } from "lucide-react";
+import { studyPaths } from "@/lib/study-paths-data";
 
 export type JourneyView = "overview" | "start" | "library" | "study" | "studies" | "theology" | "people" | "canon" | "apocrypha" | "glossary" | "search" | "timeline" | "history" | "atlas" | "themes" | "apocalypse" | "bibliography";
 
@@ -22,7 +23,7 @@ const groups: NavigationGroup[] = [
     { id: "search", label: "Busca na rede", note: "Encontrar relações", icon: Search },
   ] },
   { id: "aprofundar", index: "03", label: "Aprofundar", items: [
-    { id: "studies", label: "Estudos profundos", note: "Escatologia, temas e doutrinas", icon: Sparkles, count: "19" },
+    { id: "studies", label: "Estudos profundos", note: "Escatologia, Igreja, temas e doutrinas", icon: Sparkles, count: String(studyPaths.length) },
     { id: "study", label: "Mesa de estudo", note: "Exegese e pesquisa", icon: FileText },
     { id: "canon", label: "Cânones e textos", note: "Transmissão e contexto", icon: Layers3 },
     { id: "apocrypha", label: "Apócrifos e textos", note: "Deuterocanônicos e recepção", icon: ScrollText, count: "10" },
