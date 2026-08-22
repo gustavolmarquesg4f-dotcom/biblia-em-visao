@@ -57,6 +57,8 @@ Em 390 px, o cabeçalho móvel, o menu, a rota, o título, o contador de estudos
 | `pnpm qa:routes` | Smoke test das 20 rotas no preview base-aware |
 | `pnpm build:github` | Build final para GitHub Pages |
 
-## Próxima etapa
+## Publicação verificada
 
-Após este relatório, o conjunto de alterações deve ser revisado com `git diff --check`, commitado na `main`, enviado ao GitHub e acompanhado no workflow de publicação. A conclusão pública só deve ser declarada depois de o workflow terminar em `success`, o branch `gh-pages` receber o novo SHA e as rotas públicas `/igreja` e `/eclesiologia` responderem com o título do estudo.
+O commit `557273fe2054305acd1e67531d4337886f7a87f8` foi enviado para `main`. O workflow [`build-and-publish`](https://github.com/gustavolmarquesg4f-dotcom/biblia-em-visao/actions/runs/32579699988) terminou com `success`; typecheck, auditorias, build base-aware, smoke test e publicação de `gh-pages` foram concluídos. O branch `gh-pages` passou a apontar para `8a3895332adc67fb63650488464ea9578c44487b`.
+
+A URL pública [`/igreja`](https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/igreja?deploy=557273f) respondeu com o título do estudo, a rota 20, dez módulos, cinco camadas, contador de 20 estudos e fontes externas como âncoras acessíveis. O título foi encontrado duas vezes no DOM publicado; a barra lateral passou a exibir 20 estudos. O alias [`/eclesiologia`](https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/eclesiologia?deploy=557273f) usa a mesma entrada canônica.
