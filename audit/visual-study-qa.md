@@ -39,3 +39,9 @@ O atalho de teclado abriu o painel **Navegação assistida**. Ao pesquisar `igre
 ## Console
 
 Após abrir o resultado especializado pelo launcher, a rota retornou a `/igreja` e o console do navegador não apresentou mensagens de erro. Isso reduz o risco de falhas silenciosas de React, chunks ou roteamento no estudo novo.
+
+## Verificação pública final
+
+Após o workflow final `32579845857` terminar em `success`, a rota pública `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/igreja?deploy=4f300c3` carregou o aplicativo e exibiu o estudo 20. O DOM público mostrou 20 estudos na navegação lateral, dez módulos, as cinco camadas e as fontes externas estruturadas, incluindo os URLs substitutos de Bonhoeffer, Moltmann e Volf.
+
+O alias público `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/eclesiologia?deploy=4f300c3` também carregou o mesmo leitor e o mesmo título. O teste HTTP simples retornou status 404 para as duas rotas profundas, comportamento compatível com o fallback `404.html` de SPA do GitHub Pages; a verificação visual e DOM confirmou que o aplicativo é renderizado e navegável nessas URLs.
