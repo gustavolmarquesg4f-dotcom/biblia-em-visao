@@ -18,11 +18,12 @@ for (const [route, marker] of routes) {
     error = reason instanceof Error ? reason.message.slice(0, 240) : String(reason);
   }
   const rendered = dom.replace(/<(script|style)[\s\S]*?<\/\1>/gi, "");
+  const visibleText = rendered.replace(/<[^>]+>/g, " ").replace(/&nbsp;/gi, " ").replace(/\s+/g, " ").trim();
   const ids = new Set([...rendered.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]));
   const anchorRefs = [...rendered.matchAll(/href="#([^"]+)"/g)].map((match) => match[1]);
   const missingAnchors = [...new Set(anchorRefs)].filter((id) => !ids.has(id));
-  const rawMarkdown = (rendered.match(/\*\*|\\\[\d+\\\]/g) || []).length;
-  results.push({ route, marker, hasRoot: rendered.includes('id="root"'), hasMarker: rendered.includes(marker), hasErrorBoundary: rendered.includes("Algo deu errado"), anchorCount: anchorRefs.length, missingAnchors, rawMarkdown, error: error || null });
+  const rawMarkdown = (visibleText.match(/\*\*|\\\[\d+\\\]/g) || []).length;
+  results.push({ route, marker, hasRoot: rendered.includes('id="root"'), hasMarker: visibleText.includes(marker), hasErrorBoundary: visibleText.includes("Algo deu errado"), anchorCount: anchorRefs.length, missingAnchors, rawMarkdown, error: error || null });
 }
 const report = { generatedAt: new Date().toISOString(), base, routeCount: routes.length, passed: results.filter((item) => item.hasRoot && item.hasMarker && !item.hasErrorBoundary && item.missingAnchors.length === 0 && item.rawMarkdown === 0).length, results, status: results.every((item) => item.hasRoot && item.hasMarker && !item.hasErrorBoundary && item.missingAnchors.length === 0 && item.rawMarkdown === 0) ? "APROVADA" : "REPROVADA" };
 fs.writeFileSync(path.join(root, "audit/route-smoke-final.json"), `${JSON.stringify(report, null, 2)}\n`);
