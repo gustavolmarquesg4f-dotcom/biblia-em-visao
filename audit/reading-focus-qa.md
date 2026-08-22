@@ -29,3 +29,6 @@ Na versão final do preview, a rota abriu sem overlays globais e a seleção do 
 
 
 A camada “O que isso significa” foi acionada no módulo diaconal e atualizou corretamente a placa, o rótulo da camada e o texto, preservando a mesma composição visual. O console do navegador permaneceu sem erros após a navegação do índice e da camada.
+
+
+A verificação pública após o workflow `32587638519` confirmou que `/igreja` já serve a versão refinada no GitHub Pages. A rota abriu sem overlays globais, manteve “Todos os estudos” e o clique público no módulo 3 carregou “O corpo diaconal” com placa, título e conteúdo atualizados.
