@@ -79,3 +79,10 @@ A publicação automática está definida em `.github/workflows/deploy-pages.yml
 | Mobile/tablet | capturas 390×844 e 768×1024 | Mapa, leitor, busca e barra móvel sem overflow |
 
 O workflow foi corrigido para compilar antes do smoke test, servir o build no prefixo real do GitHub Pages, aguardar o servidor e só então validar as rotas. Isso elimina a reprovação falsa que ocorria quando o smoke test acessava a raiz de um build configurado com base `/biblia-em-visao/`.
+
+
+## Fechamento público do commit d862c72
+
+O smoke test foi corrigido para medir texto visível, evitando falso negativo quando o marcador está dividido por tags HTML. No preview base-aware do build Pages, com `QA_BASE_URL=http://127.0.0.1:4173/biblia-em-visao`, o resultado foi **18/18 rotas aprovadas**, zero ErrorBoundary, zero âncoras quebradas e zero Markdown cru. O workflow também executou esse mesmo servidor base-aware antes de publicar.
+
+O workflow `32575849701` terminou com sucesso. `main` está em `d862c726c326f514e8ed491ad637d3e6ed03f211`; `gh-pages` foi gerada em `157ea5b82f588c81a9e82ba3d1468af83afc9c49`. A rota pública de Gênesis 2 confirmou 25 versículos, comentário textual enriquecido, referências e contexto cartográfico.

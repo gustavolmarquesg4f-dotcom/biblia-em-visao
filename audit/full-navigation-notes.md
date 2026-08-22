@@ -369,3 +369,8 @@ A captura do Atlas em 390×844 confirmou mapa WebP carregado, título legível, 
 
 
 A captura da Busca na rede em 768×1024 confirmou escala intermediária estável, campo de pesquisa, seis sugestões acionáveis, cinco filtros de resultado, CTA de grafo e navegação responsiva sem overflow horizontal. O layout usa cabeçalho compacto e barra inferior adequados ao breakpoint tablet.
+
+
+## Publicação final no GitHub Pages
+
+Após o push do commit `d862c72`, o GitHub Actions run `32575849701` terminou com sucesso. A branch `main` aponta para `d862c726c326f514e8ed491ad637d3e6ed03f211` e `gh-pages` foi atualizada pelo workflow para `157ea5b82f588c81a9e82ba3d1468af83afc9c49`. A URL pública `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/` foi recarregada e exibiu `1.189 capítulos`; a rota profunda `https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/livro/1-genesis?cap=2&deploy=d862c72` exibiu Gênesis 2, 25 versículos, comentário textual enriquecido, referências consultáveis e contexto cartográfico de Éden.
