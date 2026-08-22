@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-22T14:43:39.918Z",
+  "generatedAt": "2026-08-22T18:17:01.662Z",
   "studyId": "o-que-e-ser-igreja",
-  "pathSteps": 10,
-  "modules": 10,
-  "sources": 14,
-  "httpsSources": 12,
+  "pathSteps": 14,
+  "modules": 14,
+  "sources": 26,
+  "httpsSources": 26,
   "rawMarkdownSources": 0,
   "checks": {
     "idInStudyPathCatalog": true,
@@ -14,6 +14,7 @@
     "studyPathSteps": true,
     "deepStudyModules": true,
     "deepStudyLayers": true,
+    "deepStudyParagraphs": true,
     "sourceCount": true,
     "structuredHttpsSources": true,
     "structuredSourceLabels": true,
