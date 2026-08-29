@@ -20,6 +20,8 @@
     "audit:accessibility": "node scripts/audit-accessibility.mjs",
     "audit:church-study": "tsx scripts/audit-church-study.mjs",
     "audit:dom": "python3 scripts/audit-dom-accessibility.py",
+    "inventory:check": "node --import tsx scripts/generate-content-inventory.ts --check",
+    "inventory:content": "node --import tsx scripts/generate-content-inventory.ts",
     "qa:routes": "node scripts/qa-route-dom.mjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
