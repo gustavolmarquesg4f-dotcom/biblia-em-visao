@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "pnpm knowledge:build",
+  "nodeCount": 3128,
+  "relationCount": 3640,
+  "countsByKind": {
+    "apocryphal-work": 10,
+    "book": 66,
+    "chapter": 1189,
+    "doctrine": 14,
+    "event": 362,
+    "formation-study": 8,
+    "people-group": 47,
+    "person": 302,
+    "place": 252,
+    "prophecy": 265,
+    "term": 21,
+    "theme": 592
+  },
+  "files": {
+    "apocryphal-work": "apocrypha.json",
+    "book": "books.json",
+    "chapter": "chapters.json",
+    "doctrine": "doctrines.json",
+    "event": "events.json",
+    "formation-study": "formation.json",
+    "people-group": "people-groups.json",
+    "person": "people.json",
+    "place": "places.json",
+    "prophecy": "prophecies.json",
+    "term": "terms.json",
+    "theme": "themes.json"
+  },
+  "relationsFile": "relations.json"
+}

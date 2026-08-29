@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "kind": "people-group",
+  "count": 47,
+  "nodes": [
+    {
+      "id": "people-group:a-casa-de-israel",
+      "kind": "people-group",
+      "label": "A Casa de Israel",
+      "aliases": [],
+      "summary": "Destinatária principal dos oráculos de exprobação e das promessas de restauração cultual e nacional.",
+      "references": ["Ezequiel 2:3; 37:15-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade do pacto dividida e exilada",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:a-diaspora-da-asia-menor-ponto-galacia-capadocia-asia-e-bitinia",
+      "kind": "people-group",
+      "label": "A Diáspora da Ásia Menor (Ponto, Galácia, Capadócia, Ásia e Bitínia)",
+      "aliases": [],
+      "summary": "Comunidades cristãs urbanas e rurais enfrentando ostracismo social e calúnias locais.",
+      "references": ["1Pe 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários gentios e judeus-cristãos vivendo como estrangeiros (paroikoi).",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:as-doze-tribos-na-dispersao",
+      "kind": "people-group",
+      "label": "As Doze Tribos na Dispersão",
+      "aliases": [],
+      "summary": "Designação teológica que aplica a identidade de Israel restaurado à comunidade cristã de origem judaica espalhada pelo mundo mediterrâneo",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários simbólicos e reais da epístola",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:as-nacoes-goyim",
+      "kind": "people-group",
+      "label": "As Nações (Goyim)",
+      "aliases": [],
+      "summary": "Reúnem-se no Vale de Josafá para acertar contas com YHWH por terem oprimido Israel e repartido sua terra.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Inimigos históricos e alvos do julgamento escatológico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:assiria",
+      "kind": "people-group",
+      "label": "Assíria",
+      "aliases": [],
+      "summary": "Potência militar do Crescente Fértil implicitamente apontada como o instrumento histórico do castigo divino e do exílio de Israel (\"além de Damasco\").",
+      "references": ["Amós 5:27; 6:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Império Conquistador", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:assiria-ninive",
+      "kind": "people-group",
+      "label": "Assíria (Nínive)",
+      "aliases": [],
+      "summary": "Símbolo máximo da soberba geopolítica humana destinada à humilhação e ruína total",
+      "references": ["Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Império hegemônico do Oriente Próximo e sua capital imperial",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:caldeus-babilonios",
+      "kind": "people-group",
+      "label": "Caldeus (Babilônios)",
+      "aliases": [],
+      "summary": "Império expansionista da Mesopotâmia caracterizado pela violência implacável, autoidolatria militar e crueldade sistemática contra os povos conquistados.",
+      "references": ["Hab 1:6; 2:5-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instrumento militar de juízo divino",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:casa-de-jaco-juda-israel",
+      "kind": "people-group",
+      "label": "Casa de Jacó (Judá/Israel)",
+      "aliases": [],
+      "summary": "Comunidade da aliança que sofreu devastação militar, mas que está destinada à vindicação e à vitória escatológica.",
+      "references": ["Obadias 1:10, 1:17, 1:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Vítima e agente de restauração",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:comunidade-de-leitores-hebreus",
+      "kind": "people-group",
+      "label": "Comunidade de Leitores (Hebreus)",
+      "aliases": [],
+      "summary": "Grupo de cristãos de origem judaica em risco de apostasia ou fadiga espiritual, chamados à maturidade e perseverança.",
+      "references": ["Hb 2:1-4; 6:9-12; 10:32-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários da epístola",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:cretenses",
+      "kind": "people-group",
+      "label": "Cretenses",
+      "aliases": [],
+      "summary": "Identificados por traços culturais negativos citados por Epimênides, exigindo firmeza pastoral e transformação ética pelo Evangelho.",
+      "references": ["Tito 1:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "População local da ilha de Creta",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:edom",
+      "kind": "people-group",
+      "label": "Edom",
+      "aliases": [],
+      "summary": "Nação descendente de Esaú, habitante da região montanhosa de Seir, acusada de hostilidade fratricida contra Judá.",
+      "references": ["Obadias 1:1, 1:8, 1:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversário histórico e teológico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:egipcios",
+      "kind": "people-group",
+      "label": "Egípcios",
+      "aliases": [],
+      "summary": "Civilização faraônica derrotada nos juízos divinos das pragas e na destruição militar no mar.",
+      "references": ["Êxodo 12:33; 14:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Império opressor e sociedade dominante",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:esau-edom",
+      "kind": "people-group",
+      "label": "Esaú / Edom",
+      "aliases": ["Esaú", "Edom"],
+      "summary": "Esaú não deve ser reduzido a vilão. Ele é caçador, homem do campo, irmão enganado e depois agente de reconciliação. A genealogia de Gênesis 36 o transforma em Edom, povo com território, chefes e reis; as tensões posteriores entre Israel e Edom dependem dessa memória ambivalente de parentesco e rivalidade.",
+      "references": [
+        "Gn 25:19–34",
+        "Gn 27",
+        "Gn 32–33",
+        "Gn 36",
+        "Dt 23:7–8",
+        "Ob 1–21"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["esau"],
+      "attributes": {
+        "role": "irmão de Jacó; ancestral de Edom",
+        "tags": ["Edom", "irmão", "Seir", "reconciliação"]
+      }
+    },
+    {
+      "id": "people-group:filhas-de-jerusalem",
+      "kind": "people-group",
+      "label": "Filhas de Jerusalém",
+      "aliases": [],
+      "summary": "Grupo de mulheres citadinas que testemunham, questionam e participam dialogicamente da dinâmica amorosa, funcionando como audiência lírica.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Coro / Interlocutoras", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:filhos-de-cora",
+      "kind": "people-group",
+      "label": "Filhos de Corá",
+      "aliases": [],
+      "summary": "Grupo cultual responsável por salmos de profundo lirismo teológico, ansiedade espiritual e exaltação de Sião.",
+      "references": ["Sl 42, 44, 84, 87"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Guilda levítica de cantores e compositores no Templo",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:filisteus",
+      "kind": "people-group",
+      "label": "Filisteus",
+      "aliases": [],
+      "summary": "Coalizão egeia/anatólia que dominava a costa palestina e impunha severa pressão hegemônica sobre as tribos israelitas",
+      "references": ["Juízes 14:1–16:31", "1Sm 4-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Principal potência militar rival de Israel",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:filisteus-quereteus",
+      "kind": "people-group",
+      "label": "Filisteus (Quereteus)",
+      "aliases": [],
+      "summary": "Alvo de julgamento devido à inimizade histórica contra o pacto de Iavé",
+      "references": ["Sofonias 2:5-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Habitantes da costa marítima sudoeste de Canaã",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:gentios",
+      "kind": "people-group",
+      "label": "Gentios",
+      "aliases": [],
+      "summary": "Povos sem a lei mosaica que alcançaram a justiça mediante a fé em Cristo, integrados na mesma oliveira cultivada.",
+      "references": ["Romanos 1:5; 11:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nações não-judeus destinatárias da graça",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:gibeonitas-hivitas",
+      "kind": "people-group",
+      "label": "Gibeonitas (Hivitas)",
+      "aliases": [],
+      "summary": "Grupo cananeu integrado a Israel como serventuários do santuário, demonstrando a abertura e os limites da aliança",
+      "references": ["Josué 9:3-27; 10:1-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Habitantes de Gibeão que asseguram um pacto com Israel por meio de estratagema",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:israel",
+      "kind": "people-group",
+      "label": "Israel",
+      "aliases": [],
+      "summary": "Comunidade histórica com privilégios divinos (adoção, glória, alianças, leis) cuja rejeição parcial e temporária serve à inclusão dos gentios.",
+      "references": ["Romanos 9:4-5; 11:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Povo eleito da aliança mosaica",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:israel-o-povo",
+      "kind": "people-group",
+      "label": "Israel (O Povo)",
+      "aliases": [],
+      "summary": "A nova geração de israelitas posicionada às margens de Canaã, convocada a escolher entre a fidelidade a YHWH e a apostasia.",
+      "references": ["Deut 5:1-3; 7:6-8; 29:10-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Coletividade congregada como sujeito da aliança e herdeiro da terra",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:marinheiros-fenicios",
+      "kind": "people-group",
+      "label": "Marinheiros fenícios",
+      "aliases": [],
+      "summary": "Grupo gentio que demonstra temor reverente a Deus, orando e oferecendo sacrifícios em contraste com o profeta adormecido",
+      "references": ["Jonas 1:5-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tripulação do navio com destino a Társis",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:moabe-e-amom",
+      "kind": "people-group",
+      "label": "Moabe e Amom",
+      "aliases": [],
+      "summary": "Acusadas de insultar e ultrajar o povo de Deus, enfrentando desolação perpétua",
+      "references": ["Sofonias 2:8-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nações vizinhas transjordanianas, descendentes de Ló",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:moabe-moabitas",
+      "kind": "people-group",
+      "label": "Moabe / Moabitas",
+      "aliases": [],
+      "summary": "Território de refúgio durante a fome, historicamente associado à animosidade contra Israel, mas redimido parcialmente pela figura de Rute",
+      "references": ["Rute 1:1; 1:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região e nação vizinha hostil, descendentes de Ló",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:mulheres-discipulas-maria-madalena-joana-susana",
+      "kind": "people-group",
+      "label": "Mulheres Discípulas (Maria Madalena, Joana, Susana)",
+      "aliases": [],
+      "summary": "Grupo de mulheres galileias que sustentavam Jesus com seus bens e foram as primeiras testemunhas da ressurreição no túmulo vazio.",
+      "references": ["Lucas 8:1-3; Lucas 23:55-24:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Provedoras e testemunhas oculares do ministério",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:nabucodonosor-caldeus",
+      "kind": "people-group",
+      "label": "Nabucodonosor / Caldeus",
+      "aliases": [],
+      "summary": "Agência geopolítica babilônica que executou o cerco militar e a deportação de Judá",
+      "references": ["Lamentações 4:12, 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O poder imperial opressor",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:nacoes-vizinhas-edom-filistia",
+      "kind": "people-group",
+      "label": "Nações Vizinhas (Edom/Filístia)",
+      "aliases": [],
+      "summary": "Povos circundantes que se alegraram com a queda de Jerusalém e zombaram de sua ruína",
+      "references": ["Lamentações 1:21, 4:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Espectadores hostis e oportunistas",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:o-reino-do-norte-israel-efraim",
+      "kind": "people-group",
+      "label": "O Reino do Norte (Israel/Efraim)",
+      "aliases": [],
+      "summary": "Comunidade que se separou de Jerusalém e estabeleceu cultos alternativos em Betel e Dã, frequentemente tratada com ambiguidade teológica.",
+      "references": ["2Cr 10:1 - 30:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Entidade Política Cismática",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:o-remanescente-de-jaco",
+      "kind": "people-group",
+      "label": "O Remanescente de Jacó",
+      "aliases": [],
+      "summary": "Descrito como orvalho e chuva entre as nações, agentes de transformação e força invencível purificada.",
+      "references": ["Miqueias 5:7-8; 7:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade fiel remanescente após o juízo histórico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-144-000-e-a-grande-multidao",
+      "kind": "people-group",
+      "label": "Os 144.000 e a Grande Multidão",
+      "aliases": [],
+      "summary": "Representação simbólica do Israel de Deus e da igreja universal inviolável diante do juízo escatológico.",
+      "references": ["Apocalipse 7:4-9; 14:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "A comunidade total dos remidos selados para a proteção e o testemunho.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-aliados-de-edom",
+      "kind": "people-group",
+      "label": "Os aliados de Edom",
+      "aliases": [],
+      "summary": "Povos confederados e parceiros comerciais de Edom que o enganaram e expulsaram de suas fronteiras.",
+      "references": ["Obadias 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Cúmplices e traidores", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-amalequitas-agagitas",
+      "kind": "people-group",
+      "label": "Os Amalequitas / Agagitas",
+      "aliases": [],
+      "summary": "Grupo ancestral associado à inimizade perpétua contra Israel (herança de Saul e Agague).",
+      "references": ["Est 3:1, 9:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Arquinimigos históricos", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-anciaos-e-moradores-da-terra",
+      "kind": "people-group",
+      "label": "Os Anciãos e Moradores da Terra",
+      "aliases": [],
+      "summary": "Convocados a atestar a gravidade sem precedentes da praga multigeracional.",
+      "references": ["Joel 1:2, 1:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunhas da catástrofe agrícola e participantes da assembleia solene",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-cananeus-e-povos-circunvizinhos",
+      "kind": "people-group",
+      "label": "Os Cananeus e Povos Circunvizinhos",
+      "aliases": [],
+      "summary": "Povos cujas práticas religiosas e cultuais são severamente condenadas por Israel, servindo tanto como advertência teológica quanto como alvos de deslocamento geopolítico.",
+      "references": ["Deut 7:1-5; 20:16-18; 23:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Povos nativos de Canaã e nações limítrofes (Moabe, Amom, Edom)",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-destinatarios-chamados-amados-e-guardados",
+      "kind": "people-group",
+      "label": "Os Destinatários (Chamados, Amados e Guardados)",
+      "aliases": [],
+      "summary": "Sujeitos da salvação comum que necessitam de vigilância, edificação e discernimento pastoral.",
+      "references": ["Judas 1:1, 3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade cristã genérica (provavelmente de matiz judaico-helenística) alvo da epístola, exortada a contender pela fé.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-galatas",
+      "kind": "people-group",
+      "label": "Os Gálatas",
+      "aliases": [],
+      "summary": "Comunidades cristãs na Galácia que vacilavam perante a propaganda de mestres judaizantes que exigiam a submissão à circuncisão e às leis rituais.",
+      "references": ["Gl 1:2, 3:1-5, 4:8-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Destinatários da carta", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-gentios-pagaos",
+      "kind": "people-group",
+      "label": "Os Gentios (Pagãos)",
+      "aliases": [],
+      "summary": "Não-crentes de quem os missionários cristãos decidem não aceitar auxílio financeiro para preservar a integridade do testemunho.",
+      "references": ["3 João 7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sociedade circundante", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-impios-reshaim",
+      "kind": "people-group",
+      "label": "Os Ímpios (*Reshaim*)",
+      "aliases": [],
+      "summary": "Grupo sociorreligioso contra o qual os salmistas clamam por justiça divina e vindicação dos justos.",
+      "references": ["Sl 1, 10, 37, 73"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositores de Deus, opressores e transgressores da lei no Saltério",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-irmaos-itinerantes-missionarios",
+      "kind": "people-group",
+      "label": "Os Irmãos Itinerantes (Missionários)",
+      "aliases": [],
+      "summary": "Missionários cristãos que viajam proclamando o Nome, dependentes da hospitalidade das igrejas locais.",
+      "references": ["3 João 5-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Pregadores viajantes", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-judeus",
+      "kind": "people-group",
+      "label": "Os Judeus",
+      "aliases": [],
+      "summary": "Comunidade diaspórica espalhada pelas 127 províncias da Pérsia, alvo de genocídio e posteriormente vitoriosa.",
+      "references": ["Est 3:8, 8:16-17, 9:20-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Coletivo-alvo", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:os-judeus-hoi-ioudaioi",
+      "kind": "people-group",
+      "label": "Os Judeus (*hoi Ioudaioi*)",
+      "aliases": [],
+      "summary": "Reflete o contexto de forte polarização e cisma entre a sinagoga e a nascente igreja cristã pós-70 d.C.",
+      "references": ["João 5:16-18; João 8:39-47; João 19:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Termo coletivo recorrente no Quarto Evangelho que designa predominantemente as autoridades religiosas opositoras em Jerusalém.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-levitas",
+      "kind": "people-group",
+      "label": "Os Levitas",
+      "aliases": [],
+      "summary": "Grupo sacerdotal encarregado do ensino da Torá, da administração do Templo e da condução do louvor litúrgico, destacados proeminentemente pelo Cronista.",
+      "references": ["2Cr 5:4 - 35:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ordem Sacerdotal e Administrativa",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-nobres-de-juda",
+      "kind": "people-group",
+      "label": "Os Nobres de Judá",
+      "aliases": [],
+      "summary": "Camada dirigente judaica que cobrava juros abusivos de seus irmãos empobrecidos, sendo severamente repreendida por Neemias.",
+      "references": ["Neemias 5:7; 13:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Elite econômica local", "entityType": "Povo" }
+    },
+    {
+      "id": "people-group:povo-de-israel",
+      "kind": "people-group",
+      "label": "Povo de Israel",
+      "aliases": [],
+      "summary": "Coletividade escravizada que passa pela transição de força de trabalho egípcia a nação santa de sacerdotes.",
+      "references": ["Êxodo 1:7; 19:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade eleita e oprimida",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:povos-da-terra-am-haaretz",
+      "kind": "people-group",
+      "label": "Povos da Terra (Am_haaretz)",
+      "aliases": [],
+      "summary": "Representam o perigo constante de sincretismo religioso e contaminação cultural da identidade pós-exílica.",
+      "references": ["Esdras 4.1–4; 9.1–2; 10.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Populações locais da Judéia e províncias vizinhas (incluindo samaritanos) que antagonizam os judeus.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:remanescente-do-povo-kol-ha-am",
+      "kind": "people-group",
+      "label": "Remanescente do povo (Kol Ha'am)",
+      "aliases": [],
+      "summary": "O corpo social em Yehud que ouviu a voz do profeta e respondeu com obediência à reconstrução do Templo.",
+      "references": ["Ageu 1:12; 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade de repatriados judaicos",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:samaritanos",
+      "kind": "people-group",
+      "label": "Samaritanos",
+      "aliases": [],
+      "summary": "Habitantes da Samaria com quem Jesus interage de forma positiva, desconstruindo preconceitos étnicos através de parábolas e curas.",
+      "references": ["Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo étnico-religioso detestado pelos judeus ortodoxos",
+        "entityType": "Povo"
+      }
+    }
+  ]
+}

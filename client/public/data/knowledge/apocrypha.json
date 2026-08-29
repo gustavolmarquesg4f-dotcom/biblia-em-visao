@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "kind": "apocryphal-work",
+  "count": 10,
+  "nodes": [
+    {
+      "id": "apocryphal-work:anagignoskomena",
+      "kind": "apocryphal-work",
+      "label": "Salmo 151, Oração de Manassés e 3 Macabeus",
+      "aliases": [],
+      "summary": "Textos presentes em diversas coleções gregas e ortodoxas, mas não de modo idêntico em todas as igrejas ou manuscritos.",
+      "references": ["Sl 151 · OrMan · 3Mc · tradição grega"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["anagignoskomena"],
+      "attributes": {
+        "collection": "Anagignoskomena",
+        "period": "sécs. III–I a.C.",
+        "genre": "Salmo, oração e narrativa histórica",
+        "lenses": ["ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "O que a diversidade de coleções mostra sobre a diferença entre circulação, uso litúrgico e delimitação canônica?",
+        "reception": "Reconhecidos em várias tradições ortodoxas como textos de leitura; a extensão exata depende da igreja e da edição."
+      }
+    },
+    {
+      "id": "apocryphal-work:baruch",
+      "kind": "apocryphal-work",
+      "label": "Baruc e Carta de Jeremias",
+      "aliases": [],
+      "summary": "Textos associados ao escriba de Jeremias articulam exílio, arrependimento, sabedoria e crítica à idolatria sob uma autoria literária antiga.",
+      "references": ["Br 1–6 · exílio · sabedoria · idolatria"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["baruch"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "sécs. II–I a.C.",
+        "genre": "Confissão, sabedoria e carta",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como a pseudepigrafia funciona como recepção criativa de Jeremias e da memória do exílio?",
+        "reception": "Incluído no cânon católico; parte de coleções ortodoxas, com arranjos e extensões que variam."
+      }
+    },
+    {
+      "id": "apocryphal-work:enoch-jubilees",
+      "kind": "apocryphal-work",
+      "label": "1 Enoque e Jubileus",
+      "aliases": [],
+      "summary": "Obras judaicas influentes que reimaginam Gênesis, anjos, calendário, justiça e juízo; não pertencem ao deuterocânon católico romano.",
+      "references": ["1En 1–108 · Jub 1–50 · Qumran · Jd 14–15"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["enoch-jubilees"],
+      "attributes": {
+        "collection": "Segundo Templo",
+        "period": "sécs. III–I a.C.",
+        "genre": "Apocalíptica e reescrita bíblica",
+        "lenses": ["ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como manuscritos de Qumran, citações antigas e recepção etíope ajudam a distinguir influência, uso e canonicidade?",
+        "reception": "Fora do cânon católico e protestante; 1 Enoque é canônico na tradição ortodoxa etíope e ambos são centrais para estudar o Segundo Templo."
+      }
+    },
+    {
+      "id": "apocryphal-work:greek-additions",
+      "kind": "apocryphal-work",
+      "label": "Acréscimos gregos a Ester e Daniel",
+      "aliases": [],
+      "summary": "Versões gregas preservam orações de Ester e Mardoqueu, Susana, Bel e o Dragão e a Oração de Azarias, que ampliam personagens e teologia narrativa.",
+      "references": ["Est grego · Dn 3; 13–14 · Septuaginta"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["greek-additions"],
+      "attributes": {
+        "collection": "Acréscimo grego",
+        "period": "sécs. II–I a.C.",
+        "genre": "Orações e narrativas ampliadas",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como versões antigas podem conservar, adaptar ou expandir formas textuais diferentes das preservadas em hebraico?",
+        "reception": "Partes integrais de Bíblias católicas e ortodoxas; geralmente separadas como apócrifos em edições protestantes."
+      }
+    },
+    {
+      "id": "apocryphal-work:judith",
+      "kind": "apocryphal-work",
+      "label": "Judite",
+      "aliases": [],
+      "summary": "Uma heroína viúva confronta a invasão de Holofernes; o livro combina memória bíblica, oração, política e inversão narrativa.",
+      "references": ["Jdt 1–16 · Betúlia · jejum · libertação"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["judith"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "final do séc. II–início do I a.C.",
+        "genre": "Novela teológica",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "As imprecisões geográficas e cronológicas sugerem que a obra funciona como narrativa teológica, não como crônica linear.",
+        "reception": "Canônico em coleções católicas e ortodoxas; lido como apócrifo em tradições protestantes."
+      }
+    },
+    {
+      "id": "apocryphal-work:maccabees-1",
+      "kind": "apocryphal-work",
+      "label": "1 Macabeus",
+      "aliases": [],
+      "summary": "Narra a crise sob Antíoco IV, a revolta de Matatias e Judas e a ascensão hasmoneia em estilo próximo à historiografia política.",
+      "references": ["1Mc 1–16 · Antíoco IV · templo · Hasmoneus"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["maccabees-1"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "c. 100 a.C.",
+        "genre": "História dinástica",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como comparar a apresentação hasmoneia da obra com arqueologia, moedas e o relato de Josefo?",
+        "reception": "Canônico em católicos e ortodoxos; indispensável para o cenário de Daniel, festas e movimentos do Segundo Templo."
+      }
+    },
+    {
+      "id": "apocryphal-work:maccabees-2",
+      "kind": "apocryphal-work",
+      "label": "2 Macabeus",
+      "aliases": [],
+      "summary": "Reconta parte da crise macabeia por outra lente, com foco no templo, martírio, ressurreição e intervenção divina.",
+      "references": ["2Mc 3–15 · martírio · ressurreição · templo"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["maccabees-2"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "c. 124 a.C.",
+        "genre": "Epítome historiográfico e martírio",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Por que 1 e 2 Macabeus não devem ser harmonizados como se fossem a mesma crônica?",
+        "reception": "Canônico para católicos e ortodoxos; texto relevante para estudos de martírio, oração pelos mortos e esperança de ressurreição."
+      }
+    },
+    {
+      "id": "apocryphal-work:sirach",
+      "kind": "apocryphal-work",
+      "label": "Eclesiástico / Ben Sira",
+      "aliases": [],
+      "summary": "Coleção de máximas, poemas e louvor aos antepassados, originalmente escrita em hebraico e difundida amplamente em grego.",
+      "references": ["Eclo 1–51 · Torá · templo · antepassados"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["sirach"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "c. 200–175 a.C.",
+        "genre": "Sabedoria e instrução",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "O que os fragmentos hebraicos e gregos revelam sobre transmissão, tradução e autoridade antes de listas canônicas fechadas?",
+        "reception": "Canônico em tradições católicas e ortodoxas; circulou amplamente também em ambientes judaicos antigos."
+      }
+    },
+    {
+      "id": "apocryphal-work:tobit",
+      "kind": "apocryphal-work",
+      "label": "Tobias",
+      "aliases": [],
+      "summary": "Uma família israelita vive fidelidade, pobreza, viagem, casamento, cura e hospitalidade em cenário assírio imaginado pela obra.",
+      "references": ["Tob 1–14 · esmola · oração · família"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["tobit"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "c. 225–175 a.C.",
+        "genre": "Narrativa sapiencial de diáspora",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como a narrativa usa um passado assírio para ensinar identidade judaica em contextos posteriores de diáspora?",
+        "reception": "Canônico nas tradições católica e ortodoxa; incluído entre os apócrifos em edições protestantes históricas."
+      }
+    },
+    {
+      "id": "apocryphal-work:wisdom",
+      "kind": "apocryphal-work",
+      "label": "Sabedoria de Salomão",
+      "aliases": [],
+      "summary": "Atribuída literariamente a Salomão, a obra reflete sobre justiça, imortalidade, idolatria e a história do êxodo em grego sofisticado.",
+      "references": ["Sb 1–19 · sabedoria · justiça · êxodo"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["wisdom"],
+      "attributes": {
+        "collection": "Deuterocanônico",
+        "period": "c. 50 a.C.–50 d.C.",
+        "genre": "Sabedoria helenística",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como a linguagem filosófica helenística reorganiza temas de criação, justiça e esperança israelitas?",
+        "reception": "Canônica para católicos e ortodoxos; relevante para estudar vocabulário que dialoga com autores do Novo Testamento."
+      }
+    }
+  ]
+}

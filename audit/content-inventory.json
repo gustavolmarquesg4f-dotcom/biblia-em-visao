@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceDataRevision": "ef7f7bc",
+  "sourceDataRevision": "58c24babfc4a",
   "guarantees": {
     "studiesRemoved": 0,
     "visualChanges": 0,
@@ -32,7 +32,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 15
+        "biographyLinks": 11
       },
       {
         "book": "Êxodo",
@@ -46,7 +46,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 9
+        "biographyLinks": 0
       },
       {
         "book": "Levítico",
@@ -60,7 +60,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 0
       },
       {
         "book": "Números",
@@ -74,7 +74,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 8
+        "biographyLinks": 0
       },
       {
         "book": "Deuteronômio",
@@ -88,7 +88,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 5
+        "biographyLinks": 0
       },
       {
         "book": "Josué",
@@ -102,7 +102,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 13
+        "biographyLinks": 0
       },
       {
         "book": "Juízes",
@@ -116,7 +116,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 11
+        "biographyLinks": 0
       },
       {
         "book": "Rute",
@@ -130,7 +130,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 1
       },
       {
         "book": "1 Samuel",
@@ -144,7 +144,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 0
       },
       {
         "book": "2 Samuel",
@@ -158,7 +158,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 0
       },
       {
         "book": "1 Reis",
@@ -172,7 +172,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 11
+        "biographyLinks": 0
       },
       {
         "book": "2 Reis",
@@ -186,7 +186,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 6
+        "biographyLinks": 0
       },
       {
         "book": "1 Crônicas",
@@ -200,7 +200,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 5
+        "biographyLinks": 0
       },
       {
         "book": "2 Crônicas",
@@ -214,7 +214,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 0
       },
       {
         "book": "Esdras",
@@ -228,7 +228,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 12
+        "biographyLinks": 2
       },
       {
         "book": "Neemias",
@@ -242,7 +242,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 6
+        "biographyLinks": 0
       },
       {
         "book": "Ester",
@@ -256,7 +256,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 0
       },
       {
         "book": "Jó",
@@ -270,7 +270,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 0
       },
       {
         "book": "Salmos",
@@ -284,7 +284,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 9
+        "biographyLinks": 0
       },
       {
         "book": "Provérbios",
@@ -298,7 +298,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 2
+        "biographyLinks": 0
       },
       {
         "book": "Eclesiastes",
@@ -312,7 +312,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 2
+        "biographyLinks": 0
       },
       {
         "book": "Cântico dos Cânticos",
@@ -326,7 +326,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 11
+        "biographyLinks": 0
       },
       {
         "book": "Isaías",
@@ -340,7 +340,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 17
+        "biographyLinks": 0
       },
       {
         "book": "Jeremias",
@@ -354,7 +354,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 14
+        "biographyLinks": 1
       },
       {
         "book": "Lamentações",
@@ -368,7 +368,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 0
       },
       {
         "book": "Ezequiel",
@@ -382,7 +382,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 6
+        "biographyLinks": 0
       },
       {
         "book": "Daniel",
@@ -396,7 +396,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 0
       },
       {
         "book": "Oseias",
@@ -410,7 +410,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 115
+        "biographyLinks": 1
       },
       {
         "book": "Joel",
@@ -424,7 +424,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 0
       },
       {
         "book": "Amós",
@@ -438,7 +438,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 6
+        "biographyLinks": 0
       },
       {
         "book": "Obadias",
@@ -452,7 +452,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 0
       },
       {
         "book": "Jonas",
@@ -466,7 +466,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 2
+        "biographyLinks": 0
       },
       {
         "book": "Miqueias",
@@ -480,7 +480,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 5
+        "biographyLinks": 0
       },
       {
         "book": "Naum",
@@ -494,7 +494,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 117
+        "biographyLinks": 0
       },
       {
         "book": "Habacuque",
@@ -508,7 +508,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 0
       },
       {
         "book": "Sofonias",
@@ -522,7 +522,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 0
       },
       {
         "book": "Ageu",
@@ -536,7 +536,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 5
+        "biographyLinks": 1
       },
       {
         "book": "Zacarias",
@@ -550,7 +550,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 8
+        "biographyLinks": 2
       },
       {
         "book": "Malaquias",
@@ -564,7 +564,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 0
       },
       {
         "book": "Mateus",
@@ -578,7 +578,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 24
+        "biographyLinks": 3
       },
       {
         "book": "Marcos",
@@ -592,7 +592,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 8
+        "biographyLinks": 0
       },
       {
         "book": "Lucas",
@@ -606,7 +606,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 16
+        "biographyLinks": 1
       },
       {
         "book": "João",
@@ -620,7 +620,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 27
+        "biographyLinks": 1
       },
       {
         "book": "Atos",
@@ -634,7 +634,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 29
+        "biographyLinks": 6
       },
       {
         "book": "Romanos",
@@ -648,7 +648,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 13
+        "biographyLinks": 8
       },
       {
         "book": "1 Coríntios",
@@ -662,7 +662,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 8
+        "biographyLinks": 4
       },
       {
         "book": "2 Coríntios",
@@ -676,7 +676,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 2
       },
       {
         "book": "Gálatas",
@@ -690,7 +690,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 10
+        "biographyLinks": 2
       },
       {
         "book": "Efésios",
@@ -704,7 +704,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 2
+        "biographyLinks": 1
       },
       {
         "book": "Filipenses",
@@ -718,7 +718,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 2
+        "biographyLinks": 1
       },
       {
         "book": "Colossenses",
@@ -732,7 +732,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 2
       },
       {
         "book": "1 Tessalonicenses",
@@ -746,7 +746,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 1
       },
       {
         "book": "2 Tessalonicenses",
@@ -760,7 +760,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 0
+        "biographyLinks": 0
       },
       {
         "book": "1 Timóteo",
@@ -774,7 +774,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 1
       },
       {
         "book": "2 Timóteo",
@@ -788,7 +788,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 5
+        "biographyLinks": 2
       },
       {
         "book": "Tito",
@@ -802,7 +802,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 3
       },
       {
         "book": "Filemom",
@@ -816,7 +816,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 1
+        "biographyLinks": 1
       },
       {
         "book": "Hebreus",
@@ -830,7 +830,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 20
+        "biographyLinks": 3
       },
       {
         "book": "Tiago",
@@ -844,7 +844,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 10
+        "biographyLinks": 0
       },
       {
         "book": "1 Pedro",
@@ -858,7 +858,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 4
+        "biographyLinks": 1
       },
       {
         "book": "2 Pedro",
@@ -872,7 +872,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 3
+        "biographyLinks": 0
       },
       {
         "book": "1 João",
@@ -886,7 +886,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 0
+        "biographyLinks": 0
       },
       {
         "book": "2 João",
@@ -900,7 +900,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 0
+        "biographyLinks": 0
       },
       {
         "book": "3 João",
@@ -914,7 +914,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 0
+        "biographyLinks": 0
       },
       {
         "book": "Judas",
@@ -928,7 +928,7 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 8
+        "biographyLinks": 0
       },
       {
         "book": "Apocalipse",
@@ -942,25 +942,59 @@
         "advancedDossier": true,
         "deepDossier": true,
         "relationalCoverage": true,
-        "rawBiographyLinks": 21
+        "biographyLinks": 10
       }
     ]
   },
   "people": {
     "biographies": 119,
     "kindBreakdown": { "person": 119 },
-    "canonicalBooksReferenced": 62,
+    "canonicalBooksReferenced": 26,
     "canonicalBooksWithoutBiography": [
+      "Êxodo",
+      "Levítico",
+      "Números",
+      "Deuteronômio",
+      "Josué",
+      "Juízes",
+      "1 Samuel",
+      "2 Samuel",
+      "1 Reis",
+      "2 Reis",
+      "1 Crônicas",
+      "2 Crônicas",
+      "Neemias",
+      "Ester",
+      "Jó",
+      "Salmos",
+      "Provérbios",
+      "Eclesiastes",
+      "Cântico dos Cânticos",
+      "Isaías",
+      "Lamentações",
+      "Ezequiel",
+      "Daniel",
+      "Joel",
+      "Amós",
+      "Obadias",
+      "Jonas",
+      "Miqueias",
+      "Naum",
+      "Habacuque",
+      "Sofonias",
+      "Malaquias",
+      "Marcos",
       "2 Tessalonicenses",
+      "Tiago",
+      "2 Pedro",
       "1 João",
       "2 João",
-      "3 João"
+      "3 João",
+      "Judas"
     ],
-    "linkCountsAreUnreviewed": true,
-    "suspiciousAssociations": [
-      { "book": "Oseias", "count": 115, "percentage": 96.6 },
-      { "book": "Naum", "count": 117, "percentage": 98.3 }
-    ],
+    "linkCountsAreUnreviewed": false,
+    "linkMethod": "explicit-reference-prefix-v1",
+    "suspiciousAssociations": [],
     "withPrimarySource": 36,
     "withoutPrimarySource": 83
   },
@@ -1067,12 +1101,44 @@
   "storage": {
     "publicDataFiles": [
       { "file": "advanced-book-dossiers.json", "bytes": 1814967 },
+      { "file": "biography-book-links.json", "bytes": 46707 },
       { "file": "biography-catalog.json", "bytes": 1195568 },
       { "file": "capitulos-Atos.json", "bytes": 48593 },
       { "file": "chapter-coverage.json", "bytes": 5251462 },
       { "file": "deep-dossier-catalog.json", "bytes": 3145007 },
+      { "file": "knowledge/apocrypha.json", "bytes": 10072 },
+      { "file": "knowledge/books.json", "bytes": 37158 },
+      { "file": "knowledge/chapters.json", "bytes": 714396 },
+      { "file": "knowledge/doctrines.json", "bytes": 15168 },
+      { "file": "knowledge/events.json", "bytes": 248383 },
+      { "file": "knowledge/formation.json", "bytes": 4709 },
+      { "file": "knowledge/manifest.json", "bytes": 824 },
+      { "file": "knowledge/people-groups.json", "bytes": 27074 },
+      { "file": "knowledge/people.json", "bytes": 262475 },
+      { "file": "knowledge/places.json", "bytes": 117283 },
+      { "file": "knowledge/prophecies.json", "bytes": 163817 },
+      { "file": "knowledge/relations.json", "bytes": 921 },
+      { "file": "knowledge/relations/appears-in-001.json", "bytes": 330555 },
+      { "file": "knowledge/relations/appears-in-002.json", "bytes": 374369 },
+      { "file": "knowledge/relations/appears-in-003.json", "bytes": 107415 },
+      {
+        "file": "knowledge/relations/canonical-connection-001.json",
+        "bytes": 159163
+      },
+      { "file": "knowledge/relations/contains-001.json", "bytes": 265807 },
+      { "file": "knowledge/relations/contains-002.json", "bytes": 181847 },
+      {
+        "file": "knowledge/relations/develops-theme-001.json",
+        "bytes": 175754
+      },
+      {
+        "file": "knowledge/relations/participates-in-001.json",
+        "bytes": 67578
+      },
+      { "file": "knowledge/terms.json", "bytes": 18345 },
+      { "file": "knowledge/themes.json", "bytes": 330308 },
       { "file": "relational-books-catalog.json", "bytes": 2258301 }
     ],
-    "totalPublicDataBytes": 13713898
+    "totalPublicDataBytes": 17374026
   }
 }

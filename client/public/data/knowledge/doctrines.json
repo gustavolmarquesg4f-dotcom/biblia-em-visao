@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "kind": "doctrine",
+  "count": 14,
+  "nodes": [
+    {
+      "id": "doctrine:batismo-espirito",
+      "kind": "doctrine",
+      "label": "Batismo no Espírito Santo e línguas",
+      "aliases": [],
+      "summary": "A declaração de fé consultada afirma o batismo no Espírito Santo como subsequente à purificação do coração e o falar em outras línguas como evidência inicial.",
+      "references": ["At 2:1–4; At 10:44–48; At 19:1–7; At 1:8"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["batismo-espirito"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "Na leitura pentecostal clássica, o batismo no Espírito capacita para testemunho e missão e é distinguido da conversão. As línguas aparecem como sinal inicial, enquanto profecia, serviço, discernimento e amor também expressam a ação do Espírito.",
+        "distinction": "Nem todas as igrejas pentecostais e carismáticas formulam a evidência inicial da mesma maneira; o verbete registra especificamente a formulação da declaração consultada.",
+        "source": "Declaração de Fé da Church of God; narrativa de Atos"
+      }
+    },
+    {
+      "id": "doctrine:cristo",
+      "kind": "doctrine",
+      "label": "Jesus Cristo: encarnação, cruz e ressurreição",
+      "aliases": [],
+      "summary": "Jesus é confessado como Filho unigênito do Pai, concebido pelo Espírito Santo, nascido de Maria, crucificado, sepultado, ressuscitado, ascendido e intercessor.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cristo"],
+      "attributes": {
+        "category": "Cristologia",
+        "pentecostalReading": "Cristo é o centro do evangelho completo: salvação, reconciliação, santidade, cura, missão e esperança futura são lidos a partir de sua pessoa e obra.",
+        "distinction": "A confissão de fé é uma afirmação teológica da igreja; a pesquisa histórica distingue entre reconstrução do Jesus histórico e confissão cristológica das primeiras comunidades.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:culto-santidade",
+      "kind": "doctrine",
+      "label": "Culto, oração e vida comunitária",
+      "aliases": [],
+      "summary": "O culto pentecostal reúne Palavra, oração, louvor, testemunho, dons, comunhão e resposta à missão.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["culto-santidade"],
+      "attributes": {
+        "category": "Prática cristã",
+        "pentecostalReading": "Espontaneidade e ordem não são opostos. O culto deve criar espaço para o Espírito, proteger pessoas vulneráveis, respeitar a Palavra e produzir uma comunidade de amor, verdade e serviço.",
+        "distinction": "Estilos musicais, duração, vestimentas e formas de reunião são práticas culturais; não devem ser confundidos automaticamente com doutrina essencial.",
+        "source": "Atos; 1 Coríntios; princípios pentecostais de culto"
+      }
+    },
+    {
+      "id": "doctrine:cura",
+      "kind": "doctrine",
+      "label": "Cura divina e oração",
+      "aliases": [],
+      "summary": "A declaração de fé afirma que a cura divina é provida na expiação.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cura"],
+      "attributes": {
+        "category": "Ministério",
+        "pentecostalReading": "A igreja ora pelos enfermos e confia na ação soberana de Deus. Fé e cuidado médico não precisam ser inimigos; a plataforma deve evitar culpa, promessas automáticas ou abandono de tratamento.",
+        "distinction": "A afirmação teológica de cura não permite prever quando ou como ela ocorrerá. Luto, doença e limitações humanas devem ser tratados com esperança e compaixão, não acusação.",
+        "source": "Declaração de Fé; Tiago 5; teologia pentecostal pastoral"
+      }
+    },
+    {
+      "id": "doctrine:dons",
+      "kind": "doctrine",
+      "label": "Dons, ministérios e fruto",
+      "aliases": [],
+      "summary": "Os dons são compreendidos como capacitações do Espírito para edificação e missão, nunca como medalhas de superioridade espiritual.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["dons"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O culto pentecostal busca espaço para testemunho, oração, profecia, cura e serviço, mas tudo deve ser julgado pelo amor, pela ordem e pela edificação da comunidade.",
+        "distinction": "Dons e cargos não são idênticos. A plataforma diferenciará carisma, função pastoral, liderança institucional e maturidade cristã.",
+        "source": "Novo Testamento; teologia pentecostal sobre dons"
+      }
+    },
+    {
+      "id": "doctrine:escatologia",
+      "kind": "doctrine",
+      "label": "Segunda vinda, milênio e ressurreição",
+      "aliases": [],
+      "summary": "A declaração consultada confessa uma segunda vinda premilenial em duas etapas, ressurreição corporal, vida eterna para os justos e punição eterna para os ímpios.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escatologia"],
+      "attributes": {
+        "category": "Escatologia",
+        "pentecostalReading": "A esperança futura sustenta vigilância, perseverança e missão, não especulação sensacionalista. A ressurreição é corporal e a consumação envolve justiça, renovação e presença de Deus.",
+        "distinction": "Cristãos divergem entre pré, pós e amilenismo e sobre a ordem dos eventos. O verbete registra a posição premilenial da declaração consultada e apresenta outras leituras em comparação.",
+        "source": "Declaração de Fé; 1 Tessalonicenses; 1 Coríntios; Apocalipse"
+      }
+    },
+    {
+      "id": "doctrine:escrituras",
+      "kind": "doctrine",
+      "label": "Bíblia e inspiração verbal",
+      "aliases": [],
+      "summary": "A declaração de fé consultada afirma a inspiração verbal da Bíblia e a reconhece como expressão escrita da Palavra de Deus.",
+      "references": ["2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escrituras"],
+      "attributes": {
+        "category": "Escrituras",
+        "pentecostalReading": "A Escritura é a autoridade fundante para doutrina, vida, culto e missão. A leitura pentecostal acrescenta a ação atual do Espírito sem colocar experiência individual acima do texto.",
+        "distinction": "Esta é uma formulação confessional. A pesquisa acadêmica também estuda composição, transmissão e gêneros sem operar com a mesma afirmação dogmática de inspiração.",
+        "source": "Declaração de Fé da Church of God; site IDB Nacional"
+      }
+    },
+    {
+      "id": "doctrine:espirito",
+      "kind": "doctrine",
+      "label": "Espírito Santo e sua presença",
+      "aliases": [],
+      "summary": "O Espírito Santo é confessado como pessoa divina e agente da regeneração, santificação, capacitação e missão da igreja.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["espirito"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O Espírito não é apenas uma força ou metáfora: conduz, convence, distribui dons, forma caráter e envia a igreja. A experiência carismática deve permanecer ligada ao fruto do Espírito e ao amor.",
+        "distinction": "As tradições cristãs divergem sobre dons, cessacionismo, batismo no Espírito e evidências. A enciclopédia apresentará a posição pentecostal como uma tradição teológica situada.",
+        "source": "Declaração de Fé; teologia pentecostal"
+      }
+    },
+    {
+      "id": "doctrine:historia-idb",
+      "kind": "doctrine",
+      "label": "História e identidade da Igreja de Deus",
+      "aliases": [],
+      "summary": "A página nacional informa origem da Igreja de Deus em 1886, na Carolina do Norte, e raízes no Brasil desde 1955, além de destacar sua identidade pentecostal e sua missão global.",
+      "references": ["At 2:1–4; At 13:1–3; Mt 28:18–20"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["historia-idb"],
+      "attributes": {
+        "category": "História",
+        "pentecostalReading": "A história deve ser lembrada como memória institucional, com nomes, documentos, regiões e mudanças verificáveis. O movimento pentecostal também possui histórias plurais, e uma denominação não representa todo o Pentecostalismo.",
+        "distinction": "Datas, números e narrativas históricas precisam permanecer vinculados à fonte e à data de consulta. A enciclopédia não apresentará afirmações institucionais como consenso historiográfico automático.",
+        "source": "Site IDB Nacional; arquivos e história do pentecostalismo"
+      }
+    },
+    {
+      "id": "doctrine:igreja-missao",
+      "kind": "doctrine",
+      "label": "Igreja, Grande Comissão e missão",
+      "aliases": [],
+      "summary": "O site nacional apresenta a missão como comunicação do evangelho completo de Jesus Cristo, guiada pelo Espírito e pelo poder do Pentecostes, em direção à Grande Comissão.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["igreja-missao"],
+      "attributes": {
+        "category": "Eclesiologia",
+        "pentecostalReading": "Missão une anúncio, discipulado, serviço, plantação de igrejas, cuidado de pessoas e testemunho público. Poder espiritual não é dominação: é capacitação para servir e testemunhar.",
+        "distinction": "A missão institucional pode adquirir formas regionais. A plataforma deve registrar documentos da IDB e não inventar um manual de práticas para todas as congregações.",
+        "source": "Site IDB Nacional; Grande Comissão; teologia pentecostal de missão"
+      }
+    },
+    {
+      "id": "doctrine:ordenancas",
+      "kind": "doctrine",
+      "label": "Batismo nas águas, Ceia e lavagem dos pés",
+      "aliases": [],
+      "summary": "A declaração consultada afirma o batismo em água por imersão, a Ceia do Senhor e a lavagem dos pés dos santos.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["ordenancas"],
+      "attributes": {
+        "category": "Igreja",
+        "pentecostalReading": "Essas práticas são sinais visíveis de fé, comunhão, memória, serviço e participação no corpo de Cristo. A lavagem dos pés acentua humildade e serviço mútuo.",
+        "distinction": "Igrejas cristãs divergem sobre o número, o nome e o significado sacramental dessas práticas. A enciclopédia deverá mostrar a compreensão da Igreja de Deus sem desqualificar outras tradições.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:salvacao",
+      "kind": "doctrine",
+      "label": "Arrependimento, justificação e novo nascimento",
+      "aliases": [],
+      "summary": "Todos pecaram; o arrependimento é necessário para o perdão, e justificação, regeneração e novo nascimento são recebidos pela fé no sangue de Jesus Cristo.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["salvacao"],
+      "attributes": {
+        "category": "Salvação",
+        "pentecostalReading": "A salvação é recebida pela graça mediante a fé e se torna vida transformada. A experiência de conversão não é um mero assentimento intelectual, mas entrada em uma nova relação com Cristo e sua comunidade.",
+        "distinction": "Tradições cristãs usam termos semelhantes com modelos distintos de sacramentos, cooperação humana, segurança da salvação e perseverança; a enciclopédia deve registrar essas diferenças.",
+        "source": "Declaração de Fé; teologia pentecostal clássica"
+      }
+    },
+    {
+      "id": "doctrine:santificacao",
+      "kind": "doctrine",
+      "label": "Santificação e santidade",
+      "aliases": [],
+      "summary": "A declaração afirma a santificação posterior ao novo nascimento, por meio da fé, da Palavra e do Espírito Santo, e apresenta a santidade como padrão de vida do povo de Deus.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["santificacao"],
+      "attributes": {
+        "category": "Vida cristã",
+        "pentecostalReading": "Santidade é obra da graça e prática cotidiana. Ela inclui caráter, corpo, relações, uso do dinheiro, verdade, cuidado do próximo e separação de práticas destrutivas; não deve ser reduzida a aparência externa.",
+        "distinction": "Há debates internos sobre instantaneidade e processo da santificação. A linguagem da plataforma evitará transformar costumes locais em regra universal sem fonte.",
+        "source": "Declaração de Fé; tradição de santidade do pentecostalismo"
+      }
+    },
+    {
+      "id": "doctrine:trindade",
+      "kind": "doctrine",
+      "label": "Deus uno e Trindade",
+      "aliases": [],
+      "summary": "A declaração confessa um só Deus eternamente existente em três pessoas: Pai, Filho e Espírito Santo.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["trindade"],
+      "attributes": {
+        "category": "Deus",
+        "pentecostalReading": "Pai, Filho e Espírito não são três deuses, nem três nomes de uma única pessoa. A linguagem trinitária protege a unidade de Deus e a plena divindade de Cristo e do Espírito.",
+        "distinction": "A palavra Trindade não aparece como termo técnico no texto bíblico; trata-se de uma formulação histórica cristã para reunir testemunhos bíblicos sobre Deus.",
+        "source": "Declaração de Fé da Church of God; credos cristãos históricos"
+      }
+    }
+  ]
+}

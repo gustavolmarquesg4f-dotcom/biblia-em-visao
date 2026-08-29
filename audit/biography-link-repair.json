@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "method": "Associação apenas quando o nome completo ou abreviação canônica inicia um segmento de referência e é seguido por número de capítulo.",
+  "totalRecords": 119,
+  "correctedLegacyRecords": 119,
+  "recordsWithVerifiedBooks": 35,
+  "recordsWithoutVerifiedBooks": [
+    { "id": "person-moises", "name": "Moisés (מֹשֶׁה)", "refs": [] },
+    { "id": "person-arao", "name": "Arão (אַהֲרֹן)", "refs": [] },
+    { "id": "person-miria", "name": "Miriã (מִרְיָם)", "refs": [] },
+    { "id": "person-josue-u", "name": "Josué (יְהוֹשuַע)", "refs": [] },
+    { "id": "person-calebe", "name": "Calebe (כָּלֵב)", "refs": [] },
+    { "id": "person-raabe", "name": "Raabe (רָחָב)", "refs": [] },
+    { "id": "person-balaao", "name": "Balaão (בִּלְעָם)", "refs": [] },
+    { "id": "person-aca", "name": "Acã (עָכָן)", "refs": [] },
+    { "id": "person-fineias", "name": "Fineias (פִּינְחָاس)", "refs": [] },
+    { "id": "person-ana-hana", "name": "Ana (Hana)", "refs": [] },
+    { "id": "person-debora", "name": "Débora", "refs": [] },
+    { "id": "person-baraque", "name": "Baraque", "refs": [] },
+    { "id": "person-gideao-jerubaal", "name": "Gideão (Jerubaal)", "refs": [] },
+    { "id": "person-jefte", "name": "Jefté", "refs": [] },
+    { "id": "person-sansao", "name": "Sansão", "refs": [] },
+    { "id": "person-rute", "name": "Rute", "refs": [] },
+    { "id": "person-samuel", "name": "Samuel", "refs": [] },
+    { "id": "person-saul", "name": "Saul", "refs": [] },
+    { "id": "person-jonatas", "name": "Jônatas", "refs": [] },
+    { "id": "person-davi-david", "name": "Davi (David)", "refs": [] },
+    {
+      "id": "person-bate-seba-bathsheba",
+      "name": "Bate-Seba (Bathsheba)",
+      "refs": []
+    },
+    { "id": "person-nata-nathan", "name": "Natã (Nathan)", "refs": [] },
+    { "id": "person-salomao-solomon", "name": "Salomão (Solomon)", "refs": [] },
+    { "id": "person-roboao-rehoboam", "name": "Roboão (Rehoboam)", "refs": [] },
+    {
+      "id": "person-jeroboao-jeroboam-i",
+      "name": "Jeroboão (Jeroboam I)",
+      "refs": []
+    },
+    { "id": "person-elias-elijah", "name": "Elias (Elijah)", "refs": [] },
+    { "id": "person-eliseu-elisha", "name": "Eliseu (Elisha)", "refs": [] },
+    { "id": "person-acabe-ahab", "name": "Acabe (Ahab)", "refs": [] },
+    { "id": "person-jezabel-jezebel", "name": "Jezabel (Jezebel)", "refs": [] },
+    {
+      "id": "person-ezequias-hezekiah",
+      "name": "Ezequias (Hezekiah)",
+      "refs": []
+    },
+    { "id": "person-josias-josiah", "name": "Josias (Josiah)", "refs": [] },
+    {
+      "id": "person-isaias-filho-de-amoz-e-a-tradicao-isaanica",
+      "name": "Isaías (filho de Amoz) e a Tradição Isaânica",
+      "refs": []
+    },
+    {
+      "id": "person-jeremias-filho-de-hilquias",
+      "name": "Jeremias (filho de Hilquias)",
+      "refs": []
+    },
+    {
+      "id": "person-baruque-filho-de-nerias",
+      "name": "Baruque (filho de Nerias)",
+      "refs": []
+    },
+    {
+      "id": "person-ezequiel-filho-de-buzi",
+      "name": "Ezequiel (filho de Buzi)",
+      "refs": []
+    },
+    { "id": "person-daniel", "name": "Daniel", "refs": [] },
+    {
+      "id": "person-ebed-meleque-o-etiope",
+      "name": "Ebed-Meleque, o Etíope",
+      "refs": []
+    },
+    {
+      "id": "person-ciro-o-grande-ciro-ii-da-persia",
+      "name": "Ciro o Grande (Ciro II da Pérsia)",
+      "refs": []
+    },
+    {
+      "id": "person-o-circulo-sacerdotal-e-escriba-comunidade-redacional-dos-profetas-maiores",
+      "name": "O Círculo Sacerdotal e Escriba (Comunidade Redacional dos Profetas Maiores)",
+      "refs": []
+    },
+    { "id": "person-oseias-hosea", "name": "Oseias (Hosea)", "refs": [] },
+    { "id": "person-joel-joel", "name": "Joel (Joel)", "refs": [] },
+    { "id": "person-amos-amos", "name": "Amós (Amos)", "refs": [] },
+    { "id": "person-obadias-obadiah", "name": "Obadias (Obadiah)", "refs": [] },
+    { "id": "person-jonas-jonah", "name": "Jonas (Jonah)", "refs": [] },
+    { "id": "person-miqueias-micah", "name": "Miqueias (Micah)", "refs": [] },
+    { "id": "person-naum-nahum", "name": "Naum (Nahum)", "refs": [] },
+    {
+      "id": "person-habacuque-habakkuk",
+      "name": "Habacuque (Habakkuk)",
+      "refs": []
+    },
+    {
+      "id": "person-sofonias-zephaniah",
+      "name": "Sofonias (Zephaniah)",
+      "refs": []
+    },
+    { "id": "person-ageu-haggai", "name": "Ageu (Haggai)", "refs": [] },
+    {
+      "id": "person-zacarias-zechariah",
+      "name": "Zacarias (Zechariah)",
+      "refs": []
+    },
+    {
+      "id": "person-malaquias-malachi",
+      "name": "Malaquias (Malachi)",
+      "refs": []
+    },
+    { "id": "person-ester-hadassa", "name": "Ester (Hadassa)", "refs": [] },
+    {
+      "id": "person-mardoqueu-mordecai",
+      "name": "Mardoqueu (Mordecai)",
+      "refs": []
+    },
+    { "id": "person-esdras", "name": "Esdras", "refs": [] },
+    { "id": "person-neemias", "name": "Neemias", "refs": [] },
+    { "id": "person-jo", "name": "Jó", "refs": [] },
+    { "id": "person-salomao", "name": "Salomão", "refs": [] },
+    { "id": "person-davi", "name": "Davi", "refs": [] },
+    { "id": "person-asafe", "name": "Asafe", "refs": [] },
+    {
+      "id": "person-judas-macabeu",
+      "name": "Judas Macabeu",
+      "refs": [
+        "**1 Macabeus 3:3-4**: *\"Com as suas façanhas estendeu a glória ao seu povo; revestiu-se de couraça como um gigante, e cingiu as suas armas de guerra para combater, protegendo o acampamento com a sua espada.\"*",
+        "**1 Macabeus 4:52-53**: *\"E levantaram-se no dia vinte e cinco do oitavo mês, que é o mês de Quisleu, no ano cento e quarenta e oito, e sacrificaram segundo a lei sobre o novo altar dos holocaustos que tinham feito.\"*",
+        "**2 Macabeus 10:7**: *\"Por isso, com ramos verdes e com tirsos nas mãos, e também com cânticos de louvor, entoavam hinos àquele que tinha conduzido felizmente a purificação do seu próprio lugar.\"*"
+      ]
+    },
+    { "id": "person-hillel-o-antigo", "name": "Hillel o Antigo", "refs": [] },
+    { "id": "person-shammai", "name": "Shammai", "refs": [] },
+    { "id": "person-flavio-josefo", "name": "Flávio Josefo", "refs": [] },
+    {
+      "id": "person-filo-de-alexandria",
+      "name": "Filo de Alexandria",
+      "refs": []
+    },
+    { "id": "person-jesus-de-nazare", "name": "Jesus de Nazaré", "refs": [] },
+    {
+      "id": "person-maria-mae-de-jesus",
+      "name": "Maria, Mãe de Jesus",
+      "refs": []
+    },
+    { "id": "person-joao-batista", "name": "João Batista", "refs": [] },
+    { "id": "person-simao-pedro", "name": "Simão Pedro", "refs": [] },
+    { "id": "person-joao-o-apostolo", "name": "João, o Apóstolo", "refs": [] },
+    { "id": "person-maria-madalena", "name": "Maria Madalena", "refs": [] },
+    { "id": "person-judas-iscariotes", "name": "Judas Iscariotes", "refs": [] },
+    { "id": "person-tome-o-didimo", "name": "Tomé (o Dídimo)", "refs": [] },
+    { "id": "person-poncio-pilatos", "name": "Pôncio Pilatos", "refs": [] },
+    { "id": "person-nicodemos", "name": "Nicodemos", "refs": [] },
+    {
+      "id": "person-estevao-o-protomartir-e-o-desafio-ao-templo",
+      "name": "Estêvão: O Protomártir e o Desafio ao Templo",
+      "refs": []
+    },
+    {
+      "id": "person-filipe-o-evangelista-o-pioneiro-da-missao-transcultural",
+      "name": "Filipe, o Evangelista: O Pioneiro da Missão Transcultural",
+      "refs": []
+    },
+    {
+      "id": "person-barnabe-o-filho-da-consolacao-e-estrategista-antioqueno",
+      "name": "Barnabé: O Filho da Consolação e Estrategista Antioqueno",
+      "refs": []
+    },
+    {
+      "id": "person-pedro-simao-pedro-a-rocha-e-a-transicao-apostolica",
+      "name": "Pedro (Simão Pedro): A Rocha e a Transição Apostólica",
+      "refs": []
+    },
+    {
+      "id": "person-cornelio-o-centuriao-italiano-e-a-abertura-aos-gentios",
+      "name": "Cornélio: O Centurião Italiano e a Abertura aos Gentios",
+      "refs": []
+    },
+    {
+      "id": "person-tiago-o-justo-o-pilar-de-jerusalem-e-a-conciliacao-da-lei",
+      "name": "Tiago, o Justo: O Pilar de Jerusalém e a Conciliação da Lei",
+      "refs": []
+    },
+    {
+      "id": "person-joao-marcos-o-restaurado-e-escritor-do-evangelho",
+      "name": "João Marcos: O Restaurado e Escritor do Evangelho",
+      "refs": []
+    },
+    {
+      "id": "person-silas-silvano-o-profeta-e-companheiro-de-viagem-de-paulo",
+      "name": "Silas (Silvano): O Profeta e Companheiro de Viagem de Paulo",
+      "refs": []
+    },
+    {
+      "id": "person-lidia-a-pioneira-da-europa-e-empreendedora-de-filipos",
+      "name": "Lídia: A Pioneira da Europa e Empreendedora de Filipos",
+      "refs": []
+    },
+    {
+      "id": "person-priscila-e-aquila-o-casal-teologo-e-patriarcado-itinerante",
+      "name": "Priscila e Áquila: O Casal Teólogo e Patriarcado Itinerante",
+      "refs": []
+    }
+  ],
+  "beforeCounts": {
+    "Gênesis": 15,
+    "Êxodo": 9,
+    "Levítico": 3,
+    "Números": 8,
+    "Deuteronômio": 5,
+    "Josué": 13,
+    "Juízes": 11,
+    "Rute": 3,
+    "1 Samuel": 3,
+    "2 Samuel": 3,
+    "1 Reis": 11,
+    "2 Reis": 6,
+    "1 Crônicas": 5,
+    "2 Crônicas": 4,
+    "Esdras": 12,
+    "Neemias": 6,
+    "Ester": 4,
+    "Jó": 4,
+    "Salmos": 9,
+    "Provérbios": 2,
+    "Eclesiastes": 2,
+    "Cântico dos Cânticos": 11,
+    "Isaías": 17,
+    "Jeremias": 14,
+    "Lamentações": 1,
+    "Ezequiel": 6,
+    "Daniel": 4,
+    "Oseias": 115,
+    "Joel": 4,
+    "Amós": 6,
+    "Obadias": 1,
+    "Jonas": 2,
+    "Miqueias": 5,
+    "Naum": 117,
+    "Habacuque": 1,
+    "Sofonias": 1,
+    "Ageu": 5,
+    "Zacarias": 8,
+    "Malaquias": 3,
+    "Mateus": 24,
+    "Marcos": 8,
+    "Lucas": 16,
+    "João": 27,
+    "Atos": 29,
+    "Romanos": 13,
+    "1 Coríntios": 8,
+    "2 Coríntios": 3,
+    "Gálatas": 10,
+    "Efésios": 2,
+    "Filipenses": 2,
+    "Colossenses": 3,
+    "1 Tessalonicenses": 1,
+    "2 Tessalonicenses": 0,
+    "1 Timóteo": 1,
+    "2 Timóteo": 5,
+    "Tito": 4,
+    "Filemom": 1,
+    "Hebreus": 20,
+    "Tiago": 10,
+    "1 Pedro": 4,
+    "2 Pedro": 3,
+    "1 João": 0,
+    "2 João": 0,
+    "3 João": 0,
+    "Judas": 8,
+    "Apocalipse": 21
+  },
+  "afterCounts": {
+    "Gênesis": 11,
+    "Êxodo": 0,
+    "Levítico": 0,
+    "Números": 0,
+    "Deuteronômio": 0,
+    "Josué": 0,
+    "Juízes": 0,
+    "Rute": 1,
+    "1 Samuel": 0,
+    "2 Samuel": 0,
+    "1 Reis": 0,
+    "2 Reis": 0,
+    "1 Crônicas": 0,
+    "2 Crônicas": 0,
+    "Esdras": 2,
+    "Neemias": 0,
+    "Ester": 0,
+    "Jó": 0,
+    "Salmos": 0,
+    "Provérbios": 0,
+    "Eclesiastes": 0,
+    "Cântico dos Cânticos": 0,
+    "Isaías": 0,
+    "Jeremias": 1,
+    "Lamentações": 0,
+    "Ezequiel": 0,
+    "Daniel": 0,
+    "Oseias": 1,
+    "Joel": 0,
+    "Amós": 0,
+    "Obadias": 0,
+    "Jonas": 0,
+    "Miqueias": 0,
+    "Naum": 0,
+    "Habacuque": 0,
+    "Sofonias": 0,
+    "Ageu": 1,
+    "Zacarias": 2,
+    "Malaquias": 0,
+    "Mateus": 3,
+    "Marcos": 0,
+    "Lucas": 1,
+    "João": 1,
+    "Atos": 6,
+    "Romanos": 8,
+    "1 Coríntios": 4,
+    "2 Coríntios": 2,
+    "Gálatas": 2,
+    "Efésios": 1,
+    "Filipenses": 1,
+    "Colossenses": 2,
+    "1 Tessalonicenses": 1,
+    "2 Tessalonicenses": 0,
+    "1 Timóteo": 1,
+    "2 Timóteo": 2,
+    "Tito": 3,
+    "Filemom": 1,
+    "Hebreus": 3,
+    "Tiago": 0,
+    "1 Pedro": 1,
+    "2 Pedro": 0,
+    "1 João": 0,
+    "2 João": 0,
+    "3 João": 0,
+    "Judas": 0,
+    "Apocalipse": 10
+  },
+  "collisionCorrections": {
+    "Oseias": { "before": 115, "after": 1 },
+    "Naum": { "before": 117, "after": 0 }
+  },
+  "preservation": {
+    "biographiesRemoved": 0,
+    "originalLinksPreservedInRawBooks": true
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "kind": "formation-study",
+  "count": 8,
+  "nodes": [
+    {
+      "id": "formation-study:antigo-testamento",
+      "kind": "formation-study",
+      "label": "O mundo do Antigo Testamento",
+      "aliases": [],
+      "summary": "Percorra o Levante antigo entre aldeias, reinos, templos, exílios e retornos. Aprenda o que a arqueologia ilumina e onde a narrativa bíblica continua sendo uma interpretação teológica da história.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["antigo-testamento"],
+      "attributes": {
+        "level": "História",
+        "duration": "4h 10min",
+        "lessons": 3
+      }
+    },
+    {
+      "id": "formation-study:enciclopedia",
+      "kind": "formation-study",
+      "label": "Glossário para continuar pesquisando",
+      "aliases": [],
+      "summary": "Domine o vocabulário necessário para ler comentários, artigos e notas de estudo sem depender de jargão não explicado.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["enciclopedia"],
+      "attributes": {
+        "level": "Consulta",
+        "duration": "1h 30min",
+        "lessons": 2
+      }
+    },
+    {
+      "id": "formation-study:fundamentos",
+      "kind": "formation-study",
+      "label": "Como a Bíblia chegou até nós",
+      "aliases": [],
+      "summary": "Antes de perguntar o que um versículo significa, descubra que tipo de biblioteca está em suas mãos: textos de épocas, línguas, comunidades e gêneros diferentes.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["fundamentos"],
+      "attributes": {
+        "level": "Fundamentos",
+        "duration": "2h 40min",
+        "lessons": 3
+      }
+    },
+    {
+      "id": "formation-study:interpretacao",
+      "kind": "formation-study",
+      "label": "Como interpretar com responsabilidade",
+      "aliases": [],
+      "summary": "Aprenda a lidar com textos difíceis, leituras conflitantes e diferentes tradições sem confundir convicção religiosa com consenso histórico.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["interpretacao"],
+      "attributes": { "level": "Método", "duration": "4h 25min", "lessons": 3 }
+    },
+    {
+      "id": "formation-study:livros",
+      "kind": "formation-study",
+      "label": "Os 66 livros por dentro",
+      "aliases": [],
+      "summary": "Aprenda a entrar em cada livro sem tratá-lo como coleção de frases soltas. Descubra argumento, forma, personagens, tensões internas e relações com outros textos.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["livros"],
+      "attributes": {
+        "level": "Leitura",
+        "duration": "12h 00min",
+        "lessons": 3
+      }
+    },
+    {
+      "id": "formation-study:manuscritos",
+      "kind": "formation-study",
+      "label": "Manuscritos, línguas e traduções",
+      "aliases": [],
+      "summary": "Veja como textos foram escritos, copiados, traduzidos e comparados. Aprenda o que variantes textuais significam — e o que elas não significam.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["manuscritos"],
+      "attributes": {
+        "level": "Pesquisa",
+        "duration": "3h 50min",
+        "lessons": 3
+      }
+    },
+    {
+      "id": "formation-study:novo-testamento",
+      "kind": "formation-study",
+      "label": "Jesus e o primeiro século",
+      "aliases": [],
+      "summary": "Leia os Evangelhos e as cartas dentro do judaísmo do Segundo Templo e do mundo romano, evitando caricaturas de conflito e simplificações sobre o nascimento do cristianismo.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["novo-testamento"],
+      "attributes": {
+        "level": "Contexto",
+        "duration": "3h 35min",
+        "lessons": 3
+      }
+    },
+    {
+      "id": "formation-study:temas",
+      "kind": "formation-study",
+      "label": "Os grandes temas em movimento",
+      "aliases": [],
+      "summary": "Siga palavras que atravessam séculos e mudam de forma. Compare tensões internas em vez de forçar uma única definição para todo o cânon.",
+      "references": [],
+      "sourceCatalogs": ["formation"],
+      "maturity": "reviewed",
+      "sourceIds": ["temas"],
+      "attributes": {
+        "level": "Teologia bíblica",
+        "duration": "5h 20min",
+        "lessons": 3
+      }
+    }
+  ]
+}
