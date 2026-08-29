@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "count": 3640,
+  "chunkSize": 700,
+  "files": [
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-001.json",
+      "count": 700
+    },
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-002.json",
+      "count": 700
+    },
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-003.json",
+      "count": 262
+    },
+    {
+      "type": "canonical-connection",
+      "file": "relations/canonical-connection-001.json",
+      "count": 321
+    },
+    { "type": "contains", "file": "relations/contains-001.json", "count": 700 },
+    { "type": "contains", "file": "relations/contains-002.json", "count": 489 },
+    {
+      "type": "develops-theme",
+      "file": "relations/develops-theme-001.json",
+      "count": 316
+    },
+    {
+      "type": "participates-in",
+      "file": "relations/participates-in-001.json",
+      "count": 152
+    }
+  ]
+}

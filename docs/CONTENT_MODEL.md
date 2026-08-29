@@ -6,21 +6,21 @@ Este documento define a linguagem comum para organizar o acervo. A implementaç�
 
 ## Entidades principais
 
-| Entidade          | Responsabilidade                       | Identificador sugerido      |
-| ----------------- | -------------------------------------- | --------------------------- |
-| `book`            | Livro canônico e seu dossiê geral      | `genesis`                   |
-| `chapter-study`   | Estudo de um capítulo                  | `genesis-22`                |
-| `person`          | Pessoa ou personagem coletivo          | `abraao`                    |
-| `place`           | Lugar, cidade, região ou cenário       | `monte-moria`               |
-| `event`           | Acontecimento narrativo ou histórico   | `sacrificio-de-isaque`      |
-| `people-group`    | Povo, etnia ou comunidade              | `filisteus`                 |
-| `empire`          | Reino ou império                       | `babilonia`                 |
-| `period`          | Período histórico ou literário         | `segundo-templo`            |
-| `term`            | Termo bíblico, teológico ou lexical    | `alianca`                   |
-| `doctrine`        | Doutrina ou tema teológico estruturado | `santificacao`              |
-| `apocryphal-work` | Obra apócrifa/deuterocanônica          | `1-enoque`                  |
-| `formation-study` | Estudo fundamental ou jornada          | `como-interpretar-a-biblia` |
-| `source`          | Fonte rastreável                       | `sbl-genesis-2024`          |
+| Entidade          | Responsabilidade                       | Identificador sugerido                      |
+| ----------------- | -------------------------------------- | ------------------------------------------- |
+| `book`            | Livro canônico e seu dossiê geral      | `book:genesis`                              |
+| `chapter`         | Estudo de um capítulo                  | `chapter:genesis:22`                        |
+| `person`          | Pessoa ou personagem coletivo          | `person:abraao`                             |
+| `place`           | Lugar, cidade, região ou cenário       | `place:monte-moria`                         |
+| `event`           | Acontecimento narrativo ou histórico   | `event:genesis-sacrificio-de-isaque`        |
+| `people-group`    | Povo, etnia ou comunidade              | `people-group:filisteus`                    |
+| `empire`          | Reino ou império                       | `empire:babilonia`                          |
+| `period`          | Período histórico ou literário         | `period:segundo-templo`                     |
+| `term`            | Termo bíblico, teológico ou lexical    | `term:alianca`                              |
+| `doctrine`        | Doutrina ou tema teológico estruturado | `doctrine:santificacao`                     |
+| `apocryphal-work` | Obra apócrifa/deuterocanônica          | `apocryphal-work:enoch-jubilees`            |
+| `formation-study` | Estudo fundamental ou jornada          | `formation-study:como-interpretar-a-biblia` |
+| `source`          | Fonte rastreável                       | `source:sbl-genesis-2024`                   |
 
 ## Campos comuns
 
@@ -45,7 +45,7 @@ type EditorialEntity = {
 };
 ```
 
-O modelo é uma direção de convergência. A migração será incremental para que o acervo existente permaneça funcionando.
+O modelo é uma direção de convergência. A migração será incremental para que o acervo existente permaneça funcionando. A implementação inicial e seus arquivos modulares estão descritos em [KNOWLEDGE_REGISTRY.md](KNOWLEDGE_REGISTRY.md).
 
 ## Relações
 

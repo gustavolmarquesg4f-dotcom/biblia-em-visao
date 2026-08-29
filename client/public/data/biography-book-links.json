@@ -1,0 +1,1613 @@
+{
+  "schemaVersion": 1,
+  "method": "explicit-reference-prefix-v1",
+  "count": 119,
+  "records": [
+    {
+      "id": "person-adao",
+      "name": "Adão",
+      "refs": [
+        "Gênesis 1:26–27; 2:7–25",
+        "Gênesis 3:1–24",
+        "Romanos 5:12–21",
+        "1 Coríntios 15:45–49"
+      ],
+      "books": ["Gênesis", "Romanos", "1 Coríntios"],
+      "rawBooks": [
+        "Gênesis",
+        "1 Crônicas",
+        "Jó",
+        "Oseias",
+        "Naum",
+        "Romanos",
+        "1 Coríntios"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-eva",
+      "name": "Eva",
+      "refs": [
+        "Gênesis 2:21–23",
+        "Gênesis 3:1–6, 13–20",
+        "Gênesis 4:1",
+        "2 Coríntios 11:3; 1 Timóteo 2:13–15"
+      ],
+      "books": ["Gênesis", "2 Coríntios", "1 Timóteo"],
+      "rawBooks": ["Gênesis", "Oseias", "Naum", "2 Coríntios", "1 Timóteo"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-noe",
+      "name": "Noé",
+      "refs": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7"
+      ],
+      "books": ["Gênesis", "Mateus", "Hebreus"],
+      "rawBooks": [
+        "Gênesis",
+        "Jó",
+        "Ezequiel",
+        "Daniel",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Lucas",
+        "Hebreus",
+        "1 Pedro",
+        "2 Pedro",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-abraao",
+      "name": "Abraão",
+      "refs": [
+        "Gênesis 12:1–3",
+        "Gênesis 15:1–21",
+        "Gênesis 17:1–14",
+        "Gênesis 22:1–19",
+        "Romanos 4:1–25"
+      ],
+      "books": ["Gênesis", "Romanos"],
+      "rawBooks": [
+        "Gênesis",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "João",
+        "Romanos",
+        "Gálatas",
+        "Tiago"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-sara",
+      "name": "Sara",
+      "refs": [
+        "Gênesis 12:10–20; 20:1–18",
+        "Gênesis 16:1–6",
+        "Gênesis 18:10–15",
+        "Gênesis 21:1–7",
+        "Hebreus 11:11; 1 Pedro 3:6"
+      ],
+      "books": ["Gênesis", "Hebreus", "1 Pedro"],
+      "rawBooks": [
+        "Gênesis",
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "Romanos",
+        "Gálatas",
+        "Hebreus",
+        "1 Pedro"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-isaque",
+      "name": "Isaque",
+      "refs": [
+        "Gênesis 21:1–7",
+        "Gênesis 22:1–19",
+        "Gênesis 24:1–67",
+        "Gênesis 27:1–40",
+        "Hebreus 11:17–19"
+      ],
+      "books": ["Gênesis", "Hebreus"],
+      "rawBooks": ["Gênesis", "Êxodo", "Oseias", "Naum", "Hebreus", "Tiago"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-rebeca",
+      "name": "Rebeca",
+      "refs": [
+        "Gênesis 24:10–27",
+        "Gênesis 25:21–26",
+        "Gênesis 27:5–17",
+        "Romanos 9:10–13"
+      ],
+      "books": ["Gênesis", "Romanos"],
+      "rawBooks": ["Gênesis", "Oseias", "Naum", "Romanos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-jaco",
+      "name": "Jacó",
+      "refs": [
+        "Gênesis 27:18–29",
+        "Gênesis 28:10–22",
+        "Gênesis 32:22–32",
+        "Gênesis 49:1–33",
+        "Oseias 12:3–4; Romanos 9:10–13"
+      ],
+      "books": ["Gênesis", "Oseias", "Romanos"],
+      "rawBooks": ["Gênesis", "Oseias", "Naum", "João", "Romanos", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-raquel",
+      "name": "Raquel",
+      "refs": [
+        "Gênesis 29:1–30",
+        "Gênesis 30:1–24",
+        "Gênesis 35:16–20",
+        "Jeremias 31:15 e Mateus 2:18"
+      ],
+      "books": ["Gênesis", "Jeremias", "Mateus"],
+      "rawBooks": ["Gênesis", "Juízes", "Jeremias", "Oseias", "Naum", "Mateus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-lia",
+      "name": "Lia",
+      "refs": [
+        "Gênesis 29:16–35",
+        "Gênesis 30:9–21",
+        "Gênesis 49:31",
+        "Rute 4:11"
+      ],
+      "books": ["Gênesis", "Rute"],
+      "rawBooks": ["Gênesis", "Levítico", "Rute", "Oseias", "Naum", "Mateus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-jose",
+      "name": "José",
+      "refs": [
+        "Gênesis 37:1–36",
+        "Gênesis 39:1–23",
+        "Gênesis 41:1–45",
+        "Gênesis 45:1–15",
+        "Gênesis 50:15–21"
+      ],
+      "books": ["Gênesis"],
+      "rawBooks": ["Gênesis", "Salmos", "Oseias", "Naum", "Atos", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-moises",
+      "name": "Moisés (מֹשֶׁה)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Êxodo",
+        "Números",
+        "Deuteronômio",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Marcos",
+        "João",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-arao",
+      "name": "Arão (אַהֲרֹן)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Êxodo", "Levítico", "Números", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-miria",
+      "name": "Miriã (מִרְיָם)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Êxodo",
+        "Números",
+        "Cântico dos Cânticos",
+        "Oseias",
+        "Miqueias",
+        "Naum",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-josue-u",
+      "name": "Josué (יְהוֹשuַע)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Êxodo", "Números", "Josué", "Oseias", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-calebe",
+      "name": "Calebe (כָּלֵב)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Êxodo",
+        "Números",
+        "Deuteronômio",
+        "Josué",
+        "Oseias",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-raabe",
+      "name": "Raabe (רָחָב)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Josué", "Oseias", "Naum", "Mateus", "Hebreus", "Tiago"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-balaao",
+      "name": "Balaão (בִּלְעָם)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Números",
+        "Deuteronômio",
+        "Josué",
+        "Oseias",
+        "Miqueias",
+        "Naum",
+        "2 Pedro",
+        "Judas",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-aca",
+      "name": "Acã (עָכָן)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Josué", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-fineias",
+      "name": "Fineias (פִּינְחָاس)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Êxodo",
+        "Números",
+        "Josué",
+        "Juízes",
+        "1 Crônicas",
+        "Oseias",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ana-hana",
+      "name": "Ana (Hana)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "1 Samuel",
+        "Salmos",
+        "Cântico dos Cânticos",
+        "Oseias",
+        "Naum",
+        "Lucas"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-debora",
+      "name": "Débora",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Cântico dos Cânticos", "Oseias", "Joel", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-baraque",
+      "name": "Baraque",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Juízes",
+        "Cântico dos Cânticos",
+        "Oseias",
+        "Naum",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-gideao-jerubaal",
+      "name": "Gideão (Jerubaal)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Oseias", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jefte",
+      "name": "Jefté",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Oseias", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-sansao",
+      "name": "Sansão",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Oseias", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-rute",
+      "name": "Rute",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Juízes",
+        "Rute",
+        "Esdras",
+        "Neemias",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Lucas"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-samuel",
+      "name": "Samuel",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Jeremias", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-saul",
+      "name": "Saul",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jonatas",
+      "name": "Jônatas",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Juízes", "Rute", "1 Samuel", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-davi-david",
+      "name": "Davi (David)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "1 Samuel",
+        "2 Samuel",
+        "1 Reis",
+        "Salmos",
+        "Isaías",
+        "Jeremias",
+        "Lamentações",
+        "Oseias",
+        "Amós",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-bate-seba-bathsheba",
+      "name": "Bate-Seba (Bathsheba)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "2 Samuel",
+        "1 Reis",
+        "1 Crônicas",
+        "Oseias",
+        "Naum",
+        "Mateus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-nata-nathan",
+      "name": "Natã (Nathan)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["2 Samuel", "1 Reis", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-salomao-solomon",
+      "name": "Salomão (Solomon)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Deuteronômio",
+        "1 Reis",
+        "Salmos",
+        "Provérbios",
+        "Eclesiastes",
+        "Cântico dos Cânticos",
+        "Naum",
+        "Mateus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-roboao-rehoboam",
+      "name": "Roboão (Rehoboam)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["1 Reis", "2 Crônicas", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jeroboao-jeroboam-i",
+      "name": "Jeroboão (Jeroboam I)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["1 Reis", "Oseias", "Amós", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-elias-elijah",
+      "name": "Elias (Elijah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["1 Reis", "2 Reis", "Oseias", "Naum", "Malaquias", "João"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-eliseu-elisha",
+      "name": "Eliseu (Elisha)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["2 Reis", "Oseias", "Naum", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-acabe-ahab",
+      "name": "Acabe (Ahab)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["1 Reis", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jezabel-jezebel",
+      "name": "Jezabel (Jezebel)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["1 Reis", "2 Reis", "Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ezequias-hezekiah",
+      "name": "Ezequias (Hezekiah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "2 Reis",
+        "2 Crônicas",
+        "Cântico dos Cânticos",
+        "Isaías",
+        "Jeremias",
+        "Oseias",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-josias-josiah",
+      "name": "Josias (Josiah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Josué",
+        "2 Reis",
+        "2 Crônicas",
+        "Jeremias",
+        "Oseias",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-isaias-filho-de-amoz-e-a-tradicao-isaanica",
+      "name": "Isaías (filho de Amoz) e a Tradição Isaânica",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Cântico dos Cânticos",
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "Romanos"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jeremias-filho-de-hilquias",
+      "name": "Jeremias (filho de Hilquias)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Jeremias", "Oseias", "Naum", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-baruque-filho-de-nerias",
+      "name": "Baruque (filho de Nerias)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Jeremias", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ezequiel-filho-de-buzi",
+      "name": "Ezequiel (filho de Buzi)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Ezequiel", "Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-daniel",
+      "name": "Daniel",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Daniel", "Oseias", "Naum", "João", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ebed-meleque-o-etiope",
+      "name": "Ebed-Meleque, o Etíope",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Jeremias", "Oseias", "Naum", "Mateus", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ciro-o-grande-ciro-ii-da-persia",
+      "name": "Ciro o Grande (Ciro II da Pérsia)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Esdras", "Isaías", "Oseias"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-o-circulo-sacerdotal-e-escriba-comunidade-redacional-dos-profetas-maiores",
+      "name": "O Círculo Sacerdotal e Escriba (Comunidade Redacional dos Profetas Maiores)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Esdras", "Isaías", "Jeremias", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-oseias-hosea",
+      "name": "Oseias (Hosea)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Jeremias",
+        "Ezequiel",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Atos",
+        "Efésios"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-joel-joel",
+      "name": "Joel (Joel)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Ezequiel",
+        "Oseias",
+        "Joel",
+        "Amós",
+        "Naum",
+        "Atos",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-amos-amos",
+      "name": "Amós (Amos)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Isaías",
+        "Oseias",
+        "Amós",
+        "Miqueias",
+        "Naum",
+        "Atos",
+        "Tiago"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-obadias-obadiah",
+      "name": "Obadias (Obadiah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "1 Reis",
+        "Salmos",
+        "Isaías",
+        "Jeremias",
+        "Ezequiel",
+        "Oseias",
+        "Amós",
+        "Obadias",
+        "Naum",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jonas-jonah",
+      "name": "Jonas (Jonah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["2 Reis", "Esdras", "Oseias", "Jonas", "Naum", "Mateus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-miqueias-micah",
+      "name": "Miqueias (Micah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Isaías",
+        "Jeremias",
+        "Oseias",
+        "Miqueias",
+        "Naum",
+        "Mateus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-naum-nahum",
+      "name": "Naum (Nahum)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Jonas", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-habacuque-habakkuk",
+      "name": "Habacuque (Habakkuk)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Jó",
+        "Jeremias",
+        "Oseias",
+        "Naum",
+        "Habacuque",
+        "Romanos",
+        "Gálatas",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-sofonias-zephaniah",
+      "name": "Sofonias (Zephaniah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Juízes",
+        "Cântico dos Cânticos",
+        "Isaías",
+        "Oseias",
+        "Joel",
+        "Amós",
+        "Naum",
+        "Sofonias",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ageu-haggai",
+      "name": "Ageu (Haggai)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Josué",
+        "Esdras",
+        "Oseias",
+        "Naum",
+        "Ageu",
+        "Zacarias",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-zacarias-zechariah",
+      "name": "Zacarias (Zechariah)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Josué",
+        "Neemias",
+        "Ezequiel",
+        "Oseias",
+        "Naum",
+        "Ageu",
+        "Zacarias",
+        "Mateus",
+        "João",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-malaquias-malachi",
+      "name": "Malaquias (Malachi)",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Josué",
+        "Esdras",
+        "Oseias",
+        "Naum",
+        "Ageu",
+        "Zacarias",
+        "Malaquias",
+        "Mateus",
+        "Marcos",
+        "Lucas",
+        "João"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-ester-hadassa",
+      "name": "Ester (Hadassa)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Ester", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-mardoqueu-mordecai",
+      "name": "Mardoqueu (Mordecai)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Ester", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-esdras",
+      "name": "Esdras",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Esdras", "Neemias", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-neemias",
+      "name": "Neemias",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Esdras", "Neemias", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jo",
+      "name": "Jó",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Jó", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-salomao",
+      "name": "Salomão",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "1 Reis",
+        "Provérbios",
+        "Eclesiastes",
+        "Cântico dos Cânticos",
+        "Oseias",
+        "Naum",
+        "1 Coríntios"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-davi",
+      "name": "Davi",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Levítico", "Salmos", "Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-asafe",
+      "name": "Asafe",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "1 Crônicas",
+        "2 Crônicas",
+        "Esdras",
+        "Neemias",
+        "Ester",
+        "Salmos",
+        "Oseias",
+        "Naum"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-zorobabel",
+      "name": "Zorobabel",
+      "refs": [
+        "**Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*",
+        "**Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*",
+        "**Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*"
+      ],
+      "books": ["Esdras", "Ageu", "Zacarias"],
+      "rawBooks": [
+        "Josué",
+        "1 Crônicas",
+        "Esdras",
+        "Oseias",
+        "Naum",
+        "Ageu",
+        "Zacarias",
+        "Mateus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-josue-o-sumo-sacerdote",
+      "name": "Josué, o Sumo Sacerdote",
+      "refs": [
+        "**Zacarias 3:1-3**: *\"E ele me mostrou o sumo sacerdote Josué, o qual estava em pé diante do anjo do Senhor, e Satanás estava à sua mão direita, para o resistir... Ora, Josué, vestido de vestes sujas, estava em pé diante do anjo.\"*",
+        "**Zacarias 6:11-12**: *\"Toma prata e ouro, e faze coroas, e põe-nas na cabeça do sumo sacerdote Josué, filho de Josadaque, e dize-lhe: Assim fala o Senhor dos Exércitos, dizendo: Eis aqui o homem cujo nome é Renovo...\"*",
+        "**Esdras 5:2**: *\"Então se levantaram Zorobabel, filho de Salatiel, e Josué, filho de Josadaque, e começaram a edificar a casa de Deus...\"*"
+      ],
+      "books": ["Esdras", "Zacarias"],
+      "rawBooks": ["Josué", "Esdras", "Neemias", "Oseias", "Naum", "Zacarias"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-judas-macabeu",
+      "name": "Judas Macabeu",
+      "refs": [
+        "**1 Macabeus 3:3-4**: *\"Com as suas façanhas estendeu a glória ao seu povo; revestiu-se de couraça como um gigante, e cingiu as suas armas de guerra para combater, protegendo o acampamento com a sua espada.\"*",
+        "**1 Macabeus 4:52-53**: *\"E levantaram-se no dia vinte e cinco do oitavo mês, que é o mês de Quisleu, no ano cento e quarenta e oito, e sacrificaram segundo a lei sobre o novo altar dos holocaustos que tinham feito.\"*",
+        "**2 Macabeus 10:7**: *\"Por isso, com ramos verdes e com tirsos nas mãos, e também com cânticos de louvor, entoavam hinos àquele que tinha conduzido felizmente a purificação do seu próprio lugar.\"*"
+      ],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "João", "Judas"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-herodes-o-grande",
+      "name": "Herodes o Grande",
+      "refs": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*",
+        "**Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*",
+        "**João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*"
+      ],
+      "books": ["Mateus", "Lucas", "João"],
+      "rawBooks": ["Êxodo", "Oseias", "Naum", "Mateus", "Lucas", "João"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-hillel-o-antigo",
+      "name": "Hillel o Antigo",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-shammai",
+      "name": "Shammai",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-flavio-josefo",
+      "name": "Flávio Josefo",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "João",
+        "Romanos",
+        "Tito",
+        "Tiago"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-filo-de-alexandria",
+      "name": "Filo de Alexandria",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Josué",
+        "Oseias",
+        "Naum",
+        "Ageu",
+        "Zacarias",
+        "João",
+        "Judas"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-jesus-de-nazare",
+      "name": "Jesus de Nazaré",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Deuteronômio",
+        "Isaías",
+        "Jeremias",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Marcos",
+        "João",
+        "Filipenses"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-maria-mae-de-jesus",
+      "name": "Maria, Mãe de Jesus",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Cântico dos Cânticos",
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Lucas",
+        "João",
+        "Atos",
+        "Judas",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-joao-batista",
+      "name": "João Batista",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "Zacarias",
+        "Malaquias",
+        "Mateus",
+        "João",
+        "Atos"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-simao-pedro",
+      "name": "Simão Pedro",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Marcos",
+        "Lucas",
+        "João",
+        "Atos",
+        "1 Coríntios",
+        "Gálatas",
+        "1 Pedro",
+        "2 Pedro"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-joao-o-apostolo",
+      "name": "João, o Apóstolo",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "João", "Tiago", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-maria-madalena",
+      "name": "Maria Madalena",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Marcos", "Lucas", "João"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-judas-iscariotes",
+      "name": "Judas Iscariotes",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Salmos",
+        "Oseias",
+        "Naum",
+        "Mateus",
+        "Lucas",
+        "Atos",
+        "Judas"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-tome-o-didimo",
+      "name": "Tomé (o Dídimo)",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "João"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-poncio-pilatos",
+      "name": "Pôncio Pilatos",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Salmos", "Oseias", "Naum", "Mateus", "Lucas", "João"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-nicodemos",
+      "name": "Nicodemos",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Números", "Oseias", "Naum", "João", "Judas"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-estevao-o-protomartir-e-o-desafio-ao-templo",
+      "name": "Estêvão: O Protomártir e o Desafio ao Templo",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Lucas", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-filipe-o-evangelista-o-pioneiro-da-missao-transcultural",
+      "name": "Filipe, o Evangelista: O Pioneiro da Missão Transcultural",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Isaías", "Naum", "Lucas", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-barnabe-o-filho-da-consolacao-e-estrategista-antioqueno",
+      "name": "Barnabé: O Filho da Consolação e Estrategista Antioqueno",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Marcos", "João", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-pedro-simao-pedro-a-rocha-e-a-transicao-apostolica",
+      "name": "Pedro (Simão Pedro): A Rocha e a Transição Apostólica",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Lucas", "Atos", "Gálatas"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-cornelio-o-centuriao-italiano-e-a-abertura-aos-gentios",
+      "name": "Cornélio: O Centurião Italiano e a Abertura aos Gentios",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-tiago-o-justo-o-pilar-de-jerusalem-e-a-conciliacao-da-lei",
+      "name": "Tiago, o Justo: O Pilar de Jerusalém e a Conciliação da Lei",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Atos", "1 Coríntios", "Gálatas", "Tiago"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-joao-marcos-o-restaurado-e-escritor-do-evangelho",
+      "name": "João Marcos: O Restaurado e Escritor do Evangelho",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Marcos", "João", "Atos", "2 Timóteo"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-silas-silvano-o-profeta-e-companheiro-de-viagem-de-paulo",
+      "name": "Silas (Silvano): O Profeta e Companheiro de Viagem de Paulo",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Oseias", "Naum", "Atos", "1 Pedro", "Judas"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-lidia-a-pioneira-da-europa-e-empreendedora-de-filipos",
+      "name": "Lídia: A Pioneira da Europa e Empreendedora de Filipos",
+      "refs": [],
+      "books": [],
+      "rawBooks": ["Naum", "Lucas", "Atos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-priscila-e-aquila-o-casal-teologo-e-patriarcado-itinerante",
+      "name": "Priscila e Áquila: O Casal Teólogo e Patriarcado Itinerante",
+      "refs": [],
+      "books": [],
+      "rawBooks": [
+        "Oseias",
+        "Naum",
+        "Marcos",
+        "Lucas",
+        "João",
+        "Atos",
+        "Romanos",
+        "Tiago",
+        "Judas"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": false
+    },
+    {
+      "id": "person-apostolo-paulo-saulo-de-tarso",
+      "name": "Apóstolo Paulo (Saulo de Tarso)",
+      "refs": [
+        "Romanos 1:1-17",
+        "Gálatas 1-2",
+        "Filipenses 3:4-11",
+        "1 Coríntios 9:1-27"
+      ],
+      "books": ["Romanos", "1 Coríntios", "Gálatas", "Filipenses"],
+      "rawBooks": [
+        "Gênesis",
+        "Daniel",
+        "Oseias",
+        "Naum",
+        "Atos",
+        "Romanos",
+        "1 Coríntios",
+        "2 Coríntios",
+        "Gálatas",
+        "Filipenses",
+        "Tiago"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-febe-de-cencreia",
+      "name": "Febe de Cencréia",
+      "refs": ["Romanos 16:1-2"],
+      "books": ["Romanos"],
+      "rawBooks": ["Oseias", "Naum", "Romanos", "Gálatas"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-junia-e-andronico",
+      "name": "Júnia (e Andrônico)",
+      "refs": ["Romanos 16:7"],
+      "books": ["Romanos"],
+      "rawBooks": ["Oseias", "Joel", "Naum", "João", "Atos", "Romanos"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-prisca-priscila",
+      "name": "Prisca (Priscila)",
+      "refs": ["Atos 18:24-26", "Romanos 16:3-4"],
+      "books": ["Atos", "Romanos"],
+      "rawBooks": [
+        "Oseias",
+        "Naum",
+        "Atos",
+        "Romanos",
+        "1 Coríntios",
+        "2 Timóteo",
+        "Hebreus"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-aquila",
+      "name": "Áquila",
+      "refs": ["Atos 18:2-3", "1 Coríntios 16:19"],
+      "books": ["Atos", "1 Coríntios"],
+      "rawBooks": ["Oseias", "Naum", "Atos", "1 Coríntios"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-timoteo",
+      "name": "Timóteo",
+      "refs": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17"
+      ],
+      "books": ["Atos", "1 Tessalonicenses", "2 Timóteo"],
+      "rawBooks": ["Oseias", "Naum", "Atos", "1 Tessalonicenses", "2 Timóteo"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-tito",
+      "name": "Tito",
+      "refs": ["Gálatas 2:1-3", "2 Coríntios 7:6-7 e 8:16-24", "Tito 1:5"],
+      "books": ["2 Coríntios", "Gálatas", "Tito"],
+      "rawBooks": ["Oseias", "Naum", "Atos", "2 Coríntios", "Gálatas", "Tito"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-lucas-o-medico-e-historiador",
+      "name": "Lucas (O Médico e Historiador)",
+      "refs": ["Colossenses 4:14", "Atos 16:10-17", "2 Timóteo 4:11"],
+      "books": ["Atos", "Colossenses", "2 Timóteo"],
+      "rawBooks": [
+        "Oseias",
+        "Naum",
+        "Lucas",
+        "Atos",
+        "Gálatas",
+        "Colossenses",
+        "2 Timóteo"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-apolo",
+      "name": "Apolo",
+      "refs": ["Atos 18:24-28", "1 Coríntios 1:12 e 3:4-6", "Tito 3:13"],
+      "books": ["Atos", "1 Coríntios", "Tito"],
+      "rawBooks": ["Oseias", "Naum", "Atos", "1 Coríntios", "Tito", "Hebreus"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-tiquico",
+      "name": "Tíquico",
+      "refs": ["Atos 20:4", "Efésios 6:21-22", "Tito 3:12"],
+      "books": ["Atos", "Efésios", "Tito"],
+      "rawBooks": [
+        "Oseias",
+        "Naum",
+        "Atos",
+        "Efésios",
+        "Colossenses",
+        "2 Timóteo",
+        "Tito"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-epafras",
+      "name": "Epafras",
+      "refs": ["Colossenses 1:7-8", "Colossenses 4:12-13", "Filemom 23"],
+      "books": ["Colossenses", "Filemom"],
+      "rawBooks": ["Oseias", "Naum", "Colossenses", "Filemom"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-joao-de-patmos",
+      "name": "João de Patmos",
+      "refs": [
+        "**Apocalipse 1:9-20**: O chamado de João em Patmos e a visão do Filho do Homem glorificado no meio dos candeeiros.",
+        "**Apocalipse 10:8-11**: A ingestão do livrinho amargo e doce, simbolizando o mandato profético de profetizar \"novamente perante muitos povos, nações, línguas e reis\".",
+        "**Apocalipse 22:8-9**: A conclusão do testemunho e a advertência contra a adoração do anjo mensageiro."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": [
+        "Esdras",
+        "Ester",
+        "Oseias",
+        "Naum",
+        "João",
+        "Tiago",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-as-sete-igrejas-da-asia",
+      "name": "As Sete Igrejas da Ásia",
+      "refs": [
+        "**Apocalipse 2:1-7**: A carta à igreja de Éfeso",
+        "**Apocalipse 2:8-11**: A carta à igreja de Esmirna",
+        "**Apocalipse 3:14-22**: A carta à igreja de Laodiceia"
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-o-cordeiro",
+      "name": "O Cordeiro",
+      "refs": [
+        "**Apocalipse 5:6-14**: O Cordeiro toma o livro e recebe o cântico novo de toda a criação.",
+        "**Apocalipse 7:14**: Os salvos que lavaram suas vestes e as embranqueceram no sangue do Cordeiro.",
+        "**Apocalipse 19:7-9**: As bodas do Cordeiro e a preparação da noiva."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": [
+        "Êxodo",
+        "Cântico dos Cânticos",
+        "Isaías",
+        "Oseias",
+        "Naum",
+        "João",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-a-mulher-vestida-de-sol",
+      "name": "A Mulher Vestida de Sol",
+      "refs": [
+        "**Apocalipse 12:1-6**: A aparição da mulher, o nascimento do filho e a fuga para o deserto.",
+        "**Apocalipse 12:13-17**: A fúria do dragão contra a mulher e a perseguição ao restante de sua descendência."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": [
+        "Gênesis",
+        "Isaías",
+        "Oseias",
+        "Miqueias",
+        "Naum",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-o-dragao",
+      "name": "O Dragão",
+      "refs": [
+        "**Apocalipse 12:3-4**: A descrição do Dragão e sua tentativa de devorar o filho da mulher ao nascer.",
+        "**Apocalipse 13:1-2**: O Dragão entrega seu poder à Besta que emerge do mar.",
+        "**Apocalipse 20:2-10**: A prisão de mil anos do Dragão e sua condenação final."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Gênesis", "Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-a-besta-do-mar-e-a-besta-da-terra",
+      "name": "A Besta do Mar e a Besta da Terra",
+      "refs": [
+        "**Apocalipse 13:1-8**: A ascensão da Besta do Mar e a blasfêmia contra o tabernáculo de Deus.",
+        "**Apocalipse 13:11-18**: A atuação da Besta da Terra e o cálculo do número da besta"
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Daniel", "Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-o-falso-profeta",
+      "name": "O Falso Profeta",
+      "refs": [
+        "**Apocalipse 16:13**: Os espíritos imundos semelhantes a rãs saindo da boca do Dragão, da Besta e do Falso Profeta.",
+        "**Apocalipse 19:20**: A captura e lançamento vivo do Falso Profeta e da Besta no lago de fogo ardente de enxofre."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-babilonia-a-grande",
+      "name": "Babilônia, a Grande",
+      "refs": [
+        "**Apocalipse 14:8**: O primeiro anúncio da queda de Babilônia.",
+        "**Apocalipse 17:1-6**: A visão da grande meretriz sentada sobre as muitas águas e sobre a besta.",
+        "**Apocalipse 18:2-4**: O mandado divino: \"Retirai-vos dela, povo meu...\"."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Oseias", "Naum", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-as-duas-testemunhas",
+      "name": "As Duas Testemunhas",
+      "refs": [
+        "**Apocalipse 11:3-6**: O poder e a comissão das duas testemunhas.",
+        "**Apocalipse 11:7-12**: O assassinato pelas mãos da besta e a ressurreição com ascensão triunfal."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": ["Oseias", "Naum", "Zacarias", "Apocalipse"],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    },
+    {
+      "id": "person-a-nova-jerusalem",
+      "name": "A Nova Jerusalém",
+      "refs": [
+        "**Apocalipse 21:1-4**: Novos céus e nova terra; a descida da Nova Jerusalém.",
+        "**Apocalipse 21:10-27**: A descrição detalhada da glória, dimensões e luz da cidade.",
+        "**Apocalipse 22:1-5**: O rio da água da vida e a árvore da vida no meio da praça."
+      ],
+      "books": ["Apocalipse"],
+      "rawBooks": [
+        "Gênesis",
+        "Oseias",
+        "Naum",
+        "João",
+        "Hebreus",
+        "Apocalipse"
+      ],
+      "bookLinkMethod": "explicit-reference-prefix-v1",
+      "bookLinksVerified": true
+    }
+  ]
+}

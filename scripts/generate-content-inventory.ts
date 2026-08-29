@@ -1,4 +1,4 @@
-import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -82,19 +82,21 @@ async function readJson(fileName: string) {
   ) as JsonObject;
 }
 
-function getDataRevision() {
-  try {
-    return execFileSync(
-      "git",
-      ["rev-parse", "--short", "HEAD:client/public/data"],
-      {
-        cwd: projectRoot,
-        encoding: "utf8",
+async function listJsonFilesRecursively(directory: string, prefix = "") {
+  const entries = await fs.readdir(directory, { withFileTypes: true });
+  const files = await Promise.all(
+    entries.map(async entry => {
+      const relativePath = path.posix.join(prefix, entry.name);
+      const absolutePath = path.join(directory, entry.name);
+      if (entry.isDirectory()) {
+        return listJsonFilesRecursively(absolutePath, relativePath);
       }
-    ).trim();
-  } catch {
-    return "indisponível";
-  }
+      return entry.isFile() && entry.name.endsWith(".json")
+        ? [relativePath]
+        : [];
+    })
+  );
+  return files.flat().sort();
 }
 
 function yes(value: boolean) {
@@ -104,19 +106,32 @@ function yes(value: boolean) {
 const [
   advancedBookPayload,
   biographyPayload,
+  biographyLinksPayload,
   chapterPayload,
   deepDossierPayload,
   relationalPayload,
 ] = await Promise.all([
   readJson("advanced-book-dossiers.json"),
   readJson("biography-catalog.json"),
+  readJson("biography-book-links.json"),
   readJson("chapter-coverage.json"),
   readJson("deep-dossier-catalog.json"),
   readJson("relational-books-catalog.json"),
 ]);
 
 const chapterRecords = chapterPayload.records as JsonObject[];
-const biographyRecords = biographyPayload.records as JsonObject[];
+const biographyLinksById = new Map(
+  (biographyLinksPayload.records as JsonObject[]).map(record => [
+    record.id,
+    record,
+  ])
+);
+const biographyRecords = (biographyPayload.records as JsonObject[]).map(
+  record => ({
+    ...record,
+    ...(biographyLinksById.get(record.id) ?? {}),
+  })
+);
 const advancedBookRecords = advancedBookPayload.results as JsonObject[];
 const deepDossierRecords = deepDossierPayload.books as JsonObject[];
 const relationalBooks = relationalPayload.books as JsonObject[];
@@ -144,6 +159,11 @@ const biographyLinkCounts = Object.fromEntries(
       )
     ).length,
   ])
+);
+const biographyLinksAreVerified = biographyRecords.every(
+  record =>
+    record.bookLinkMethod === "explicit-reference-prefix-v1" &&
+    Array.isArray(record.rawBooks)
 );
 const suspiciousBiographyAssociations = Object.entries(biographyLinkCounts)
   .filter(([, count]) => count > biographyRecords.length / 2)
@@ -174,7 +194,7 @@ const chapterRows = bibleBooks.map(book => {
     advancedDossier: advancedBookKeys.has(key),
     deepDossier: deepDossierKeys.has(key),
     relationalCoverage: key === "genesis" || relationalBookKeys.has(key),
-    rawBiographyLinks: biographyLinkCounts[book.name],
+    biographyLinks: biographyLinkCounts[book.name],
   };
 });
 
@@ -241,18 +261,22 @@ const relationalTotals = {
 };
 
 const publicDataFiles = await Promise.all(
-  (await fs.readdir(dataDirectory))
-    .filter(file => file.endsWith(".json"))
-    .sort()
-    .map(async file => {
-      const stats = await fs.stat(path.join(dataDirectory, file));
-      return { file, bytes: stats.size };
-    })
+  (await listJsonFilesRecursively(dataDirectory)).map(async file => {
+    const stats = await fs.stat(path.join(dataDirectory, file));
+    return { file, bytes: stats.size };
+  })
 );
+const sourceDataRevision = createHash("sha256");
+for (const file of publicDataFiles) {
+  sourceDataRevision.update(file.file);
+  sourceDataRevision.update(
+    await fs.readFile(path.join(dataDirectory, file.file))
+  );
+}
 
 const inventory = {
   schemaVersion: 1,
-  sourceDataRevision: getDataRevision(),
+  sourceDataRevision: sourceDataRevision.digest("hex").slice(0, 12),
   guarantees: {
     studiesRemoved: 0,
     visualChanges: 0,
@@ -278,7 +302,10 @@ const inventory = {
     canonicalBooksReferenced:
       bibleBooks.length - canonicalBooksWithoutBiography.length,
     canonicalBooksWithoutBiography,
-    linkCountsAreUnreviewed: true,
+    linkCountsAreUnreviewed: !biographyLinksAreVerified,
+    linkMethod: biographyLinksAreVerified
+      ? "explicit-reference-prefix-v1"
+      : "legado não verificado",
     suspiciousAssociations: suspiciousBiographyAssociations,
     withPrimarySource: biographyWithPrimarySource,
     withoutPrimarySource: biographyRecords.length - biographyWithPrimarySource,
@@ -345,7 +372,7 @@ const inventory = {
 const bookTable = chapterRows
   .map(
     row =>
-      `| ${row.book} | ${row.publishedStudies}/${row.expectedChapters} | ${row.expandedStudies} | ${yes(row.advancedDossier)} | ${yes(row.deepDossier)} | ${yes(row.relationalCoverage)} | ${row.rawBiographyLinks} |`
+      `| ${row.book} | ${row.publishedStudies}/${row.expectedChapters} | ${row.expandedStudies} | ${yes(row.advancedDossier)} | ${yes(row.deepDossier)} | ${yes(row.relationalCoverage)} | ${row.biographyLinks} |`
   )
   .join("\n");
 const apocryphaList = apocryphaEntries
@@ -357,6 +384,11 @@ const dataFileTable = publicDataFiles
 const missingBiographyText = canonicalBooksWithoutBiography.length
   ? canonicalBooksWithoutBiography.join(", ")
   : "Nenhum";
+const biographyAssociationNote = biographyLinksAreVerified
+  ? suspiciousBiographyAssociations.length
+    ? `Os vínculos foram regenerados por referências explícitas, mas ainda há associações acima do limiar de segurança: ${suspiciousBiographyAssociations.map(item => `**${item.book}: ${item.count} registros (${item.percentage}%)**`).join("; ")}.`
+    : "Os vínculos foram regenerados somente a partir de referências bíblicas explícitas. Nenhuma associação ultrapassa o limiar de segurança; as relações anteriores continuam preservadas em `rawBooks` para auditoria."
+  : `Os links ainda são dados brutos. O inventário detectou associações suspeitas: ${suspiciousBiographyAssociations.map(item => `**${item.book}: ${item.count} registros (${item.percentage}%)**`).join("; ")}.`;
 
 const markdown = `# Bíblia em Visão — inventário do acervo
 
@@ -396,19 +428,19 @@ Essas duas classificações são preservadas. O modelo editorial propõe uma evo
 
 ## Matriz dos 66 livros
 
-| Livro | Estudos | Focos ampliados | Dossiê avançado | Dossiê profundo | Relações | Links biográficos brutos |
+| Livro | Estudos | Focos ampliados | Dossiê avançado | Dossiê profundo | Relações | Vínculos biográficos verificados |
 | --- | ---: | ---: | --- | --- | --- | ---: |
 ${bookTable}
 
 O catálogo relacional principal possui 65 livros. Gênesis está em um módulo relacional especializado; em conjunto, há cobertura relacional para os 66 livros.
 
-Os links biográficos desta tabela são dados brutos e ainda não equivalem a vínculos revisados. O inventário detectou associações suspeitas: ${suspiciousBiographyAssociations.map(item => `**${item.book}: ${item.count} registros (${item.percentage}%)**`).join("; ")}. A hipótese mais provável é colisão entre abreviações bíblicas curtas e palavras comuns — por exemplo, “Os”/Oseias e “Na”/Naum. Esses vínculos não devem alimentar a navegação relacional antes de serem regenerados e validados.
+${biographyAssociationNote}
 
 ## Pessoas
 
 - ${inventory.people.biographies} biografias publicadas.
-- O campo bruto \`books\` menciona ${inventory.people.canonicalBooksReferenced} dos 66 livros, mas ainda precisa de validação editorial.
-- Livros sem qualquer associação bruta: **${missingBiographyText}**.
+- O campo \`books\` contém somente associações encontradas no início de referências explícitas e menciona ${inventory.people.canonicalBooksReferenced} dos 66 livros.
+- Livros sem associação biográfica verificada: **${missingBiographyText}**.
 - ${inventory.people.withPrimarySource} biografias possuem o campo \`primarySource\`; ${inventory.people.withoutPrimarySource} ainda precisam de uma fonte primária/institucional específica nesse campo.
 
 O número de menções relacionais não representa necessariamente entidades únicas: alguns nomes aparecem em mais de um livro. A futura consolidação deverá preservar as menções locais e criar uma identidade única para cada pessoa, povo, lugar ou conceito.
@@ -455,7 +487,7 @@ Total aproximado: **${(inventory.storage.totalPublicDataBytes / 1024 / 1024).toF
 3. Revisar a classificação entre fonte primária, acadêmica, institucional, confessional e pastoral.
 4. Consolidar glossários e entidades duplicadas mantendo aliases e relações.
 5. Registrar grau de certeza em afirmações históricas e posições teológicas debatidas.
-6. Corrigir o extrator de referências biográficas para eliminar colisões de abreviações como “Os” e “Na”.
+6. Completar referências explícitas nos dossiês que hoje preservam apenas relações legadas em \`rawBooks\`.
 
 ### Prioridade estrutural
 

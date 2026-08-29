@@ -22,10 +22,14 @@
     "audit:dom": "python3 scripts/audit-dom-accessibility.py",
     "inventory:check": "node --import tsx scripts/generate-content-inventory.ts --check",
     "inventory:content": "node --import tsx scripts/generate-content-inventory.ts",
+    "knowledge:build": "node --import tsx scripts/build-knowledge-registry.ts",
+    "knowledge:check": "node --import tsx scripts/build-knowledge-registry.ts --check",
+    "repair:biography-links": "node --import tsx scripts/repair-biography-book-links.ts",
     "qa:routes": "node scripts/qa-route-dom.mjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
+    "test": "vitest run",
     "format": "prettier --write ."
   },
   "dependencies": {

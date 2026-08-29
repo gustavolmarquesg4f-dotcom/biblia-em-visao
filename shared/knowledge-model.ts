@@ -1,0 +1,143 @@
+export const knowledgeKinds = [
+  "book",
+  "chapter",
+  "person",
+  "people-group",
+  "place",
+  "event",
+  "theme",
+  "prophecy",
+  "term",
+  "doctrine",
+  "apocryphal-work",
+  "formation-study",
+  "period",
+  "empire",
+] as const;
+
+export type KnowledgeKind = (typeof knowledgeKinds)[number];
+
+export const relationTypes = [
+  "contains",
+  "appears-in",
+  "located-at",
+  "participates-in",
+  "belongs-to-period",
+  "related-term",
+  "develops-theme",
+  "canonical-connection",
+  "historical-context",
+  "interpreted-by",
+] as const;
+
+export type KnowledgeRelationType = (typeof relationTypes)[number];
+
+export type KnowledgeNode = {
+  id: string;
+  kind: KnowledgeKind;
+  label: string;
+  aliases: string[];
+  summary: string;
+  references: string[];
+  sourceCatalogs: string[];
+  maturity: "available" | "expanded" | "reviewed" | "complete";
+  sourceIds?: string[];
+  attributes?: Record<string, unknown>;
+};
+
+export type KnowledgeRelation = {
+  id: string;
+  from: string;
+  to: string;
+  type: KnowledgeRelationType;
+  label: string;
+  explanation: string;
+  references: string[];
+  sourceCatalog: string;
+  confidence: "high" | "medium" | "contextual" | "debated";
+};
+
+export type CanonicalBookReference = {
+  name: string;
+  short: string;
+  aliases?: string[];
+};
+
+export function canonicalKnowledgeLabel(value: string) {
+  return value
+    .replace(/\s*\([^)]*[\u0590-\u08ff][^)]*\)\s*$/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function slugifyKnowledgeLabel(value: string) {
+  return canonicalKnowledgeLabel(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\batos dos apostolos\b/g, "atos")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function makeKnowledgeId(
+  kind: KnowledgeKind,
+  ...parts: Array<string | number>
+) {
+  const normalizedParts = parts
+    .map(part => slugifyKnowledgeLabel(String(part)))
+    .filter(Boolean);
+  if (!normalizedParts.length)
+    throw new Error(`Identificador ${kind} sem conteúdo.`);
+  return `${kind}:${normalizedParts.join(":")}`;
+}
+
+export function parseKnowledgeId(value: string) {
+  const [kind, ...parts] = value.split(":");
+  if (
+    !knowledgeKinds.includes(kind as KnowledgeKind) ||
+    !parts.length ||
+    parts.some(part => !part)
+  )
+    return null;
+  return { kind: kind as KnowledgeKind, parts };
+}
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function referenceSegments(reference: string) {
+  return reference
+    .replace(/[\*_`]/g, "")
+    .split(/\s*;\s*|\s+e\s+(?=(?:[1-3]\s*)?[A-Za-zÀ-ÖØ-öø-ÿ])/gi)
+    .map(segment => segment.trim())
+    .filter(Boolean);
+}
+
+export function extractCanonicalBookNames(
+  references: string[],
+  books: CanonicalBookReference[]
+) {
+  const matches = new Set<string>();
+  const candidates = books
+    .flatMap((book, order) => {
+      const aliases = new Set([book.name, book.short, ...(book.aliases ?? [])]);
+      return Array.from(aliases).map(alias => ({
+        alias,
+        book: book.name,
+        order,
+        pattern: new RegExp(`^${escapeRegExp(alias)}(?=\\s*\\d)`, "i"),
+      }));
+    })
+    .sort((a, b) => b.alias.length - a.alias.length);
+
+  for (const reference of references) {
+    for (const segment of referenceSegments(reference)) {
+      const candidate = candidates.find(item => item.pattern.test(segment));
+      if (candidate) matches.add(candidate.book);
+    }
+  }
+
+  return books.filter(book => matches.has(book.name)).map(book => book.name);
+}

@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "kind": "term",
+  "count": 21,
+  "nodes": [
+    {
+      "id": "term:ab",
+      "kind": "term",
+      "label": "Abba",
+      "aliases": ["אַבָּא", "ʾabbāʾ"],
+      "summary": "Forma aramaica de dirigir-se ao pai; comunica intimidade e confiança, sem exigir a tradução infantilizada ‘papai’ em todos os contextos.",
+      "references": ["Mc 14:36", "Rm 8:15", "Gl 4:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ab"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O peso afetivo depende da relação, do ambiente de oração e da tradição de tradução. A palavra pode manter reverência e proximidade simultaneamente.",
+        "translationNote": "Em Mc 14:36 e Rm 8:15; Gl 4:6, preservar o aramaico seguido de explicação evidencia a memória linguística do movimento cristão primitivo."
+      }
+    },
+    {
+      "id": "term:agape",
+      "kind": "term",
+      "label": "Agapē",
+      "aliases": ["ἀγάπη", "agapē"],
+      "summary": "Amor orientado ao bem do outro e à fidelidade comunitária, sem que o termo possa ser reduzido a sentimento sem conflito.",
+      "references": ["Jo 13:34–35", "1Co 13", "1Jo 4:7–12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["agape"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João e Paulo, o amor inclui ação, discernimento, renúncia ao privilégio e compromisso com a verdade; não é mera aprovação.",
+        "translationNote": "A distinção popular entre eros, philia e agapē é simplificada demais para servir como regra exegética. O contexto literário é decisivo."
+      }
+    },
+    {
+      "id": "term:apokalypsis",
+      "kind": "term",
+      "label": "Apokalypsis",
+      "aliases": ["ἀποκάλυψις", "apokalypsis"],
+      "summary": "Revelação ou desvelamento; não equivale simplesmente a destruição do mundo ou a calendário de eventos futuros.",
+      "references": ["Rm 8:18–19", "Gl 1:12", "Ap 1:1"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["apokalypsis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode nomear a manifestação de algo oculto, a revelação de Jesus Cristo e um gênero que interpreta o presente por visões simbólicas.",
+        "translationNote": "A palavra ‘apocalipse’ ganhou no português um sentido popular de catástrofe; a interface sempre mostrará o sentido literário e o uso popular separadamente."
+      }
+    },
+    {
+      "id": "term:charis",
+      "kind": "term",
+      "label": "Charis",
+      "aliases": ["χάρις", "charis"],
+      "summary": "Graça, favor, benevolência ou gratidão; em Paulo, descreve a iniciativa generosa de Deus e também o efeito comunitário dessa iniciativa.",
+      "references": ["Lc 1:30", "Jo 1:14–17", "Ef 2:8–10"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Não é uma substância abstrata armazenada na pessoa. O termo pode nomear o favor recebido, a ação de agradecer e o dom que reorganiza relações.",
+        "translationNote": "‘Graça’ é tradição indispensável, mas precisa ser lida em contraste com mérito, patronagem, dívida e reciprocidade no mundo antigo."
+      }
+    },
+    {
+      "id": "term:charisma",
+      "kind": "term",
+      "label": "Charisma",
+      "aliases": ["χάρισμα", "charisma"],
+      "summary": "Dom concedido pela graça, especialmente em contextos de serviço e edificação comunitária.",
+      "references": ["Rm 12:6–8", "1Co 12:4–11", "1Pe 4:10–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charisma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo usa o termo para dons diversos, vida, celibato e participação no corpo; não nomeia automaticamente performance pública ou status espiritual.",
+        "translationNote": "A tradução por ‘dom espiritual’ é útil, mas alguns contextos pedem ‘dom’ sem estreitar o sentido ao extraordinário."
+      }
+    },
+    {
+      "id": "term:dikaiosyne",
+      "kind": "term",
+      "label": "Dikaiosynē",
+      "aliases": ["δικαιοσύνη", "dikaiosynē"],
+      "summary": "Justiça, retidão, condição de estar em relação correta ou ação que manifesta a fidelidade de Deus.",
+      "references": ["Mt 5:6", "Rm 1:16–17", "Fp 3:9"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["dikaiosyne"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo emprega o campo para discutir a fidelidade de Deus, a situação humana, a inclusão de gentios e a vida comunitária; o debate não se resolve por uma definição única.",
+        "translationNote": "‘Justiça’ pode sugerir apenas moralidade individual; em Romanos, o contexto exige considerar tribunal, aliança, fé, comunidade e esperança escatológica."
+      }
+    },
+    {
+      "id": "term:ekklesia",
+      "kind": "term",
+      "label": "Ekklesia",
+      "aliases": ["ἐκκλησία", "ekklēsia"],
+      "summary": "Assembleia, reunião ou comunidade convocada; no Novo Testamento, não significa automaticamente uma instituição moderna com todas as suas estruturas posteriores.",
+      "references": ["Mt 16:18", "At 2:42–47", "1Co 12:12–27"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ekklesia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode designar a reunião local, a rede de comunidades ou a comunidade escatológica. Atos e cartas mostram práticas e conflitos, não apenas uma definição ideal.",
+        "translationNote": "‘Igreja’ é uma tradução histórica, mas o leitor deve recuperar a dimensão de assembleia, participação, disciplina e missão."
+      }
+    },
+    {
+      "id": "term:emet",
+      "kind": "term",
+      "label": "Emet",
+      "aliases": ["אֱמֶת", "ʾemet"],
+      "summary": "Verdade, firmeza, confiabilidade e fidelidade; não apenas correspondência abstrata entre frase e realidade.",
+      "references": ["Gn 24:27", "Êx 34:6", "Sl 119:160"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["emet"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Em narrativas e salmos pode caracterizar uma pessoa, uma promessa, um testemunho ou a estabilidade da ação de Deus.",
+        "translationNote": "‘Verdade’ é adequada em muitos contextos, mas ‘fidelidade’ pode ser mais precisa quando o foco está no caráter confiável de uma relação."
+      }
+    },
+    {
+      "id": "term:eschaton",
+      "kind": "term",
+      "label": "Eschaton",
+      "aliases": ["ἔσχατος", "eschatos"],
+      "summary": "Último, extremo ou derradeiro; pode descrever tempo, posição, prioridade social ou horizonte escatológico.",
+      "references": ["Jo 6:39–40", "1Co 15:45", "Ap 22:13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["eschaton"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João pode opor primeiro e último; em cartas e Apocalipse participa de uma imaginação de consumação. Não deve ser transformado imediatamente em cronograma.",
+        "translationNote": "‘Fim’ é uma possibilidade em algumas expressões, mas ‘último’ ou ‘derradeiro’ preserva melhor a polissemia."
+      }
+    },
+    {
+      "id": "term:hesed",
+      "kind": "term",
+      "label": "Hesed",
+      "aliases": ["חֶסֶד", "ḥesed"],
+      "summary": "Vocabulário de lealdade relacional, bondade comprometida e ação favorável que sustenta uma relação.",
+      "references": ["Êx 34:6", "Rt 1:8", "Sl 136:1", "Os 6:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["hesed"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Dependendo do contexto pode apontar para misericórdia, lealdade, benevolência, fidelidade ou amor constante. Nenhum equivalente isolado resolve todos os usos.",
+        "translationNote": "Traduzir sempre por ‘misericórdia’ ou sempre por ‘amor’ pode esconder a dimensão de compromisso. A análise deve observar quem age, com quem, em qual relação e com qual consequência narrativa."
+      }
+    },
+    {
+      "id": "term:koinonia",
+      "kind": "term",
+      "label": "Koinōnia",
+      "aliases": ["κοινωνία", "koinōnia"],
+      "summary": "Comunhão, participação, parceria ou partilha de bens e missão; não se limita a sentimento de amizade.",
+      "references": ["At 2:42", "Fp 1:5", "1Jo 1:3"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["koinonia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em Atos, Paulo e 1 João, o termo envolve mesa, recursos, missão, sofrimento, Espírito e responsabilidade mútua.",
+        "translationNote": "‘Comunhão’ comunica a tradição, mas o leitor deve investigar quais práticas concretas tornam a comunhão visível no contexto."
+      }
+    },
+    {
+      "id": "term:logos",
+      "kind": "term",
+      "label": "Logos",
+      "aliases": ["λόγος", "logos"],
+      "summary": "Palavra, discurso, mensagem, razão, relato ou princípio articulador; em João 1, recebe função cristológica singular.",
+      "references": ["Jo 1:1–18", "At 6:7", "Hb 4:12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["logos"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O sentido resulta do gênero, do contexto e das relações intertextuais. Não deve ser preenchido automaticamente com toda a filosofia grega nem reduzido a ‘palavra’ sem análise.",
+        "translationNote": "Em João 1, a tradução tradicional ‘Verbo’ preserva uma história teológica, enquanto ‘Palavra’ é mais transparente; ambas precisam de comentário contextual."
+      }
+    },
+    {
+      "id": "term:mammon",
+      "kind": "term",
+      "label": "Mamom",
+      "aliases": ["מָמוֹנָא", "māmônāʾ"],
+      "summary": "Riqueza, patrimônio ou poder econômico quando tratado como senhor rival da lealdade humana.",
+      "references": ["Mt 6:24", "Lc 16:9–13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mammon"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O termo não é simplesmente sinônimo de dinheiro; em Mt 6:24 e Lc 16:9–13, a linguagem personifica a riqueza como poder que reivindica serviço.",
+        "translationNote": "Traduzir por ‘dinheiro’ torna a frase concreta, mas pode reduzir a crítica à posse individual e apagar a dimensão de senhorio e lealdade."
+      }
+    },
+    {
+      "id": "term:mishpat",
+      "kind": "term",
+      "label": "Mishpat",
+      "aliases": ["מִשְׁפָּט", "mišpāṭ"],
+      "summary": "Juízo, decisão, direito ou ordem justa que regula relações e protege a vida comunitária.",
+      "references": ["Êx 21:1", "Am 5:24", "Mq 6:8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mishpat"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Pode designar um caso decidido, uma norma, a administração da justiça ou o juízo de Deus sobre uma sociedade.",
+        "translationNote": "‘Justiça’ e ‘juízo’ cobrem partes do campo semântico; o leitor deve perguntar se o texto trata de tribunal, ordem social ou ação divina."
+      }
+    },
+    {
+      "id": "term:nephesh",
+      "kind": "term",
+      "label": "Nephesh",
+      "aliases": ["נֶפֶשׁ", "nefeš"],
+      "summary": "Vida, pessoa, garganta, ser vivente ou centro de desejo; não corresponde automaticamente ao conceito grego posterior de ‘alma’ desencarnada.",
+      "references": ["Gn 2:7", "Lv 17:11", "Sl 42:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["nephesh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo pode enfatizar a vida concreta, o indivíduo, o apetite, o risco de morte ou a totalidade de uma pessoa.",
+        "translationNote": "A tradição de traduzir por ‘alma’ em alguns contextos é possível, mas exige cautela antropológica: o texto hebraico frequentemente fala da pessoa viva em sua inteireza."
+      }
+    },
+    {
+      "id": "term:parousia",
+      "kind": "term",
+      "label": "Parousia",
+      "aliases": ["παρουσία", "parousia"],
+      "summary": "Presença, chegada ou visita oficial; no discurso escatológico, a palavra nomeia a esperança da presença/manifestação de Cristo.",
+      "references": ["Mt 24:27", "1Ts 4:15", "2Pe 3:4"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["parousia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O termo pode falar de uma visita humana comum ou de uma expectativa escatológica. A leitura deve observar o contraste com ausência, demora, vigilância e ressurreição.",
+        "translationNote": "Traduzir sempre por ‘segunda vinda’ já interpreta o termo. Em alguns textos a tradução ‘presença’ ou ‘chegada’ expõe melhor a discussão."
+      }
+    },
+    {
+      "id": "term:pistis",
+      "kind": "term",
+      "label": "Pistis",
+      "aliases": ["πίστις", "pistis"],
+      "summary": "Confiança, fé, fidelidade ou lealdade; o sentido depende do agente, do objeto e da relação construída no texto.",
+      "references": ["Rm 3:21–26", "Gl 5:6", "Hb 11:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pistis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em alguns contextos descreve a confiança de uma pessoa; em outros, a fidelidade que caracteriza uma vida ou uma comunidade. A discussão ‘fé versus fidelidade’ é real, mas não deve ser resolvida por slogans.",
+        "translationNote": "A tradução por ‘fé’ preserva a linguagem confessional; ‘fidelidade’ ilumina certos contextos éticos. O leitor deve acompanhar sintaxe e argumento."
+      }
+    },
+    {
+      "id": "term:pneuma",
+      "kind": "term",
+      "label": "Pneuma",
+      "aliases": ["πνεῦμα", "pneuma"],
+      "summary": "Vento, sopro, espírito, disposição interior ou Espírito Santo, conforme o contexto literário e sintático.",
+      "references": ["Jo 3:5–8", "At 2:1–21", "1Co 12:4–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pneuma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O Novo Testamento explora a plasticidade do termo; em João, Paulo e Lucas, a mesma palavra participa de argumentos diferentes sobre vida, discernimento e missão.",
+        "translationNote": "O tradutor deve distinguir espírito humano, espírito imundo e Espírito Santo sem apagar os jogos semânticos que o autor constrói."
+      }
+    },
+    {
+      "id": "term:qadosh",
+      "kind": "term",
+      "label": "Qadosh",
+      "aliases": ["קָדוֹשׁ", "qādôš"],
+      "summary": "Separado, distinto, consagrado ou pertencente a uma esfera de santidade; a ideia de separação não elimina a dimensão ética.",
+      "references": ["Êx 19:5–6", "Lv 19:1–18", "Is 6:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["qadosh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo percorre a distinção cultual, a alteridade divina e a convocação de uma comunidade a refletir a justiça de Deus.",
+        "translationNote": "‘Santo’ preserva a tradição, mas a interpretação precisa mostrar como o texto transforma santidade em prática comunitária, não apenas em distância ritual."
+      }
+    },
+    {
+      "id": "term:ruach",
+      "kind": "term",
+      "label": "Ruach",
+      "aliases": ["רוּחַ", "rûaḥ"],
+      "summary": "Palavra que pode designar vento, sopro, respiração, disposição interior ou espírito, inclusive a ação do Espírito de Deus.",
+      "references": ["Gn 1:2", "Ez 37:1–14", "Jl 2:28–29"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ruach"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O contexto decide se a imagem é meteorológica, antropológica, psicológica ou teológica. As camadas podem permanecer deliberadamente próximas em textos poéticos.",
+        "translationNote": "A tradução por ‘espírito’ em todos os casos pode apagar o aspecto de vento ou sopro; a tradução por ‘vento’ em textos teológicos pode apagar a agência divina."
+      }
+    },
+    {
+      "id": "term:torah",
+      "kind": "term",
+      "label": "Torah",
+      "aliases": ["תּוֹרָה", "tôrāh"],
+      "summary": "Instrução, ensino ou orientação; pode nomear o Pentateuco como coleção, mas não se reduz à ideia moderna de código jurídico.",
+      "references": ["Dt 6:1–9", "Sl 1:1–3", "Ne 8:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["torah"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Em diferentes contextos pode significar uma instrução específica, o ensino sacerdotal, a tradição escrita ou os cinco livros de Moisés.",
+        "translationNote": "‘Lei’ é uma tradução tradicional, mas pode sugerir apenas norma punitiva. ‘Instrução’ comunica melhor alguns usos narrativos e sapienciais."
+      }
+    }
+  ]
+}

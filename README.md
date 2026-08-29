@@ -15,7 +15,7 @@
 - Área de apócrifos/deuterocanônicos com lentes católica, ortodoxa, protestante e do Segundo Templo.
 - Atlas, história bíblica e núcleo dedicado ao Apocalipse.
 
-Consulte o [inventário completo](docs/CONTENT_INVENTORY.md), a [visão do produto](docs/PRODUCT_VISION.md) e o [modelo editorial e relacional](docs/CONTENT_MODEL.md).
+Consulte o [inventário completo](docs/CONTENT_INVENTORY.md), a [visão do produto](docs/PRODUCT_VISION.md), o [modelo editorial e relacional](docs/CONTENT_MODEL.md) e o [registro de conhecimento da Fase 2](docs/KNOWLEDGE_REGISTRY.md).
 
 ## Princípios
 
@@ -42,7 +42,9 @@ Verificações principais:
 
 ```bash
 corepack pnpm@10.4.1 check
+corepack pnpm@10.4.1 test
 corepack pnpm@10.4.1 inventory:content
+corepack pnpm@10.4.1 knowledge:check
 corepack pnpm@10.4.1 build:github
 ```
 
@@ -60,6 +62,10 @@ O inventário não modifica nem remove o conteúdo bíblico.
 - [Aplicação publicada](https://gustavolmarquesg4f-dotcom.github.io/biblia-em-visao/)
 - [Repositório](https://github.com/gustavolmarquesg4f-dotcom/biblia-em-visao)
 
+## Registro de conhecimento
+
+O comando `knowledge:check` gera a camada modular em `client/public/data/knowledge/` e valida IDs, relações e garantias de preservação. Antes de regenerá-la, `repair:biography-links` cria uma sobreposição auditável usando somente referências explícitas, preservando os dados anteriores em `rawBooks` sem reescrever os dossiês biográficos.
+
 ## Estado da evolução
 
-A Fase 1 formaliza a visão do produto, o modelo de conteúdo e a linha de base do acervo. As próximas fases devem consolidar identificadores, conectar entidades, dividir os grandes catálogos por livro e aprofundar progressivamente a revisão editorial.
+A Fase 1 formalizou a visão do produto, o modelo de conteúdo e a linha de base do acervo. A primeira entrega da Fase 2 cria identificadores globais, relações tipadas, arquivos modulares e validação automática. A próxima entrega deve ligar esse registro às telas, à busca e à navegação contextual.

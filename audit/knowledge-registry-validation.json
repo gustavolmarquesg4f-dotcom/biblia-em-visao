@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "valid": true,
+  "counts": {
+    "nodes": 3128,
+    "relations": 3640,
+    "byKind": {
+      "apocryphal-work": 10,
+      "book": 66,
+      "chapter": 1189,
+      "doctrine": 14,
+      "event": 362,
+      "formation-study": 8,
+      "people-group": 47,
+      "person": 302,
+      "place": 252,
+      "prophecy": 265,
+      "term": 21,
+      "theme": 592
+    },
+    "biographyRecords": 119,
+    "biographyRecordsWithRawLinksPreserved": 119,
+    "mergedNodeContributions": 804
+  },
+  "invariants": {
+    "canonicalBooks": true,
+    "canonicalChapters": true,
+    "biographiesPreserved": true,
+    "originalBiographyLinksPreserved": true,
+    "noUnresolvedRelations": true,
+    "stableNodeIds": true,
+    "noSuspiciousBiographyAssociations": true
+  },
+  "unresolvedRelations": [],
+  "malformedNodeIds": [],
+  "suspiciousBiographyAssociations": []
+}
