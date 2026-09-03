@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 1,
+  "book": "Provérbios",
+  "count": 45,
+  "chapterCount": 19,
+  "nodes": [
+    {
+      "id": "event:proverbios-a-colecao-de-ezequias-e-a-preservacao-textual",
+      "kind": "event",
+      "label": "A Coleção de Ezequias e a Preservação Textual",
+      "aliases": [],
+      "summary": "Escribas sob o patrocínio do rei Ezequias copiam e anexam provérbios antigos atribuídos a Salomão à tradição escrita.",
+      "references": ["Provérbios Pr 25:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Garante a transmissão canônica de dichos reais e consolida a literatura sapiencial durante as reformas religiosas judaítas.",
+        "entities": "Salomão; O Homem Prudente"
+      }
+    },
+    {
+      "id": "event:proverbios-a-criacao-cosmica-pela-sabedoria",
+      "kind": "event",
+      "label": "A Criação Cósmica pela Sabedoria",
+      "aliases": [],
+      "summary": "Deus funda a terra e estabelece os céus com sabedoria, tendo a Hokmah como sua arquiteta e companheira de deleite.",
+      "references": ["Provérbios Pr 3:19-20; 8:22-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a fundação ontológica da ordem moral do universo, mostrando que a ética humana está enraizada na arquitetura do cosmos.",
+        "entities": "Sabedoria (Hokmah); Salomão"
+      }
+    },
+    {
+      "id": "event:proverbios-o-apelo-publico-da-sabedoria-e-da-loucura",
+      "kind": "event",
+      "label": "O Apelo Público da Sabedoria e da Loucura",
+      "aliases": [],
+      "summary": "A Sabedoria clama nas praças públicas e edifica sua casa com sete colunas, enquanto a Loucura atrai os desavisados para o abismo.",
+      "references": ["Provérbios Pr 1:20-33; 9:1-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Obriga o discípulo a fazer uma escolha existencial decisiva entre a vida alinhada ao temor de Deus e a ruína moral.",
+        "entities": "Sabedoria; A Mulher Imoral; O Tolo"
+      }
+    },
+    {
+      "id": "event:proverbios-o-conselho-matriarcal-a-lemuel",
+      "kind": "event",
+      "label": "O Conselho Matriarcal a Lemuel",
+      "aliases": [],
+      "summary": "A rainha-mãe instrui o rei Lemuel sobre a sobriedade, a governança justa e a defesa dos vulneráveis.",
+      "references": ["Provérbios Pr 31:1-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Define o ideal de liderança política justa e moralmente íntegra na monarquia do Antigo Oriente Próximo.",
+        "entities": "Rei Lemuel; A Mãe e o Pai"
+      }
+    },
+    {
+      "id": "event:proverbios-o-enigma-e-confissao-de-agur",
+      "kind": "event",
+      "label": "O Enigma e Confissão de Agur",
+      "aliases": [],
+      "summary": "Agur confessa sua ignorância diante da grandeza insondável de Deus e ora por equilíbrio econômico entre a riqueza e a pobreza.",
+      "references": ["Provérbios Pr 30:1-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Introduz uma nota de humildade epistemológica profunda na literatura sapiencial, limitando a presunção do sistema retributivo mecânico.",
+        "entities": "Agur, Filho de Jaque"
+      }
+    },
+    {
+      "id": "person:a-mae-e-o-pai",
+      "kind": "person",
+      "label": "A Mãe e o Pai",
+      "aliases": [],
+      "summary": "Educadores parentais que transmitem a Torá e a tradição sapiencial aos filhos no âmbito doméstico.",
+      "references": ["Pr 1:8-9; 4:1-4; 6:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agentes primários de educação moral",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:agur-filho-de-jaque",
+      "kind": "person",
+      "label": "Agur, Filho de Jaque",
+      "aliases": [],
+      "summary": "Sábio autor de Provérbios 30, conhecido por suas confissões de fragilidade intelectual e maravilhamento diante da ordem divina.",
+      "references": ["Pr 30:1-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor sapiencial marginal de Massá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-homem-prudente-sabio-chakam",
+      "kind": "person",
+      "label": "O Homem Prudente / Sábio (Chakam)",
+      "aliases": [],
+      "summary": "Indivíduo que ouve conselhos, domina a língua, teme a Iahweh e pratica a justiça econômica.",
+      "references": ["Pr 1:5; 10:8; 12:15; 15:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Modelo ideal de discrição e piedade",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-tolo-evil-kesil",
+      "kind": "person",
+      "label": "O Tolo (Evil / Kesil)",
+      "aliases": [],
+      "summary": "Representa a resistência teimosa à instrução, a zombaria da disciplina e a autodestruição ética.",
+      "references": ["Pr 1:7; 10:23; 12:15; 26:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tipo comportamental contrastante",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:rei-lemuel",
+      "kind": "person",
+      "label": "Rei Lemuel",
+      "aliases": [],
+      "summary": "Rei estrangeiro cuja mãe o admoesta contra os perigos da luxúria, da embriaguez e da negligência na justiça dos vulneráveis.",
+      "references": ["Pr 31:1-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano de Massá instruído por sua mãe",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:salomao",
+      "kind": "person",
+      "label": "Salomão",
+      "aliases": ["Salomão"],
+      "summary": "Salomão, filho de Davi e Bate-Seba, foi o terceiro rei de Israel unificado, governando durante a chamada \"Idade de Ouro\" de Israel (c. 970–930 a.C.). Embora sua narrativa biográfica primordial conste em 1 Reis e 2 Crônicas, sua relevância para o cânon estende-se profundamente ao domínio da **literatura sapiencial e poética**, sendo tradicionalmente creditado como o autor ou patrocinador principal de **Provérbios, Eclesiastes (*Coélet*) e Cântico dos Cânticos**. Salomão personifica o ápice da sabedoria administrativa, cosmológica e poética do Antigo Oriente Próximo, além de ter sido o construtor do Templo de Jerusalém.",
+      "references": [
+        "1Rs 1-11",
+        "2Cr 1:1 - 9:31",
+        "1Rs 4:29-34; Pr 1:1; 10:1; 25:1",
+        "Cântico 1:1; 3:7; 8:11"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-salomao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei / Referência de opulência",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-casa-da-sabedoria-e-a-casa-da-loucura",
+      "kind": "place",
+      "label": "A Casa da Sabedoria e a Casa da Loucura",
+      "aliases": [],
+      "summary": "Residências alegóricas que oferecem banquetes espirituais opostos aos discípulos.",
+      "references": ["Pr 9:1-6; 9:13-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:a-praca-publica-e-os-portoes-da-cidade",
+      "kind": "place",
+      "label": "A Praça Pública e os Portões da Cidade",
+      "aliases": [],
+      "summary": "Local de deliberação judicial, comércio, conselho e onde a Sabedoria e a Loucura fazem seus discursos públicos.",
+      "references": ["Pr 1:21; 8:3; 31:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:jerusalem-e-a-corte-real",
+      "kind": "place",
+      "label": "Jerusalém e a Corte Real",
+      "aliases": [],
+      "summary": "Centro de poder político, onde a literatura sapiencial cortesã foi produzida, compilada e ensinada aos príncipes e jovens aristocratas.",
+      "references": ["Pr 1:1; 25:1; 1Rs 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/institucional" }
+    },
+    {
+      "id": "place:massa",
+      "kind": "place",
+      "label": "Massá",
+      "aliases": [],
+      "summary": "Região tribal árabe associada à origem de Agur e do rei Lemuel, indicando a internacionalidade da sabedoria.",
+      "references": ["Pr 30:1; 31:1; Gn 25:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "kind": "prophecy",
+      "label": "Ec 11:1 (\"Lança o teu pão sobre as águas...\")",
+      "aliases": [],
+      "summary": "Interpretado na tradição ora como prudência comercial de diversificação de riscos, ora como mandamento ético de generosidade cujos frutos retornam.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/recepção posterior" }
+    },
+    {
+      "id": "prophecy:jo-jo-5-17-jo-34-31-32",
+      "kind": "prophecy",
+      "label": "Jó 5:17 / Jó 34:31-32",
+      "aliases": [],
+      "summary": "A disciplina divina como prova de amor e correção paterna, retomada na literatura sapiencial e na carta aos Hebreus.",
+      "references": ["Provérbios 3:11-12; Hebreus 12:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:10 ('Trazei todos os dízimos à casa do tesouro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação literal e normativa da teologia da prosperidade financeira contemporânea e a exegese histórico-crítica focada na sustentação social do templo.",
+      "references": ["Provérbios 3:9–10; 2 Coríntios 9:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo econômico" }
+    },
+    {
+      "id": "prophecy:tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes",
+      "kind": "prophecy",
+      "label": "\"Deus resiste aos soberbos, mas dá graça aos humildes\"",
+      "aliases": [],
+      "summary": "Divergência de interpretação entre aplicação moral individual e inversão escatológica socioeconômica nas comunidades oprimidas.",
+      "references": ["Provérbios 3:34 (LXX); 1 Pedro 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "theme:a-mulher-imoral-a-estranha",
+      "kind": "theme",
+      "label": "A Mulher Imoral / A Estranha",
+      "aliases": [],
+      "summary": "Arquétipo literário que seduz o jovem ingênuo para longe do caminho da vida e da aliança divina.",
+      "references": ["Pr 2:16-19; 5:3-6; 7:5-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Símbolo da destruição moral e social",
+        "entityType": "Pessoa / Conceito"
+      }
+    },
+    {
+      "id": "theme:a-mulher-virtuosa-eshet-chayil",
+      "kind": "theme",
+      "label": "A Mulher Virtuosa (Eshet Chayil)",
+      "aliases": [],
+      "summary": "Mulher nobre cuja gestão empresarial, generosidade e sabedoria prática coroam o livro de Provérbios.",
+      "references": ["Pr 31:10-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Paradigma de excelência doméstica e econômica",
+        "entityType": "Pessoa / Conceito"
+      }
+    },
+    {
+      "id": "theme:o-pobre-e-o-oprimido",
+      "kind": "theme",
+      "label": "O Pobre e o Oprimido",
+      "aliases": [],
+      "summary": "Grupo vulnerável cuja defesa é exigida por Deus, cuja exploração equivale ao desrespeito ao Criador.",
+      "references": ["Pr 14:31; 19:17; 22:22-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Objeto de justiça social e misericórdia divina",
+        "entityType": "Povo / Grupo"
+      }
+    },
+    {
+      "id": "theme:sabedoria-hokmah",
+      "kind": "theme",
+      "label": "Sabedoria (Hokmah)",
+      "aliases": [],
+      "summary": "Entidade literária e teológica retratada como mulher que clama nas ruas e cooperou com Deus na criação do cosmos.",
+      "references": ["Pr 1:20-33; 3:19-20; 8:22-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agente cósmico e personificação divina",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-proverbios-a-colecao-de-ezequias-e-a-preservacao-textual:chapter-proverbios-25",
+      "from": "event:proverbios-a-colecao-de-ezequias-e-a-preservacao-textual",
+      "to": "chapter:proverbios:25",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Coleção de Ezequias e a Preservação Textual” cita explicitamente Provérbios Pr 25:1.",
+      "references": ["Provérbios Pr 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-a-criacao-cosmica-pela-sabedoria:chapter-proverbios-3",
+      "from": "event:proverbios-a-criacao-cosmica-pela-sabedoria",
+      "to": "chapter:proverbios:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Criação Cósmica pela Sabedoria” cita explicitamente Provérbios Pr 3:19-20; 8:22-31.",
+      "references": ["Provérbios Pr 3:19-20; 8:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-a-criacao-cosmica-pela-sabedoria:chapter-proverbios-8",
+      "from": "event:proverbios-a-criacao-cosmica-pela-sabedoria",
+      "to": "chapter:proverbios:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Criação Cósmica pela Sabedoria” cita explicitamente Provérbios Pr 3:19-20; 8:22-31.",
+      "references": ["Provérbios Pr 3:19-20; 8:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-o-apelo-publico-da-sabedoria-e-da-loucura:chapter-proverbios-1",
+      "from": "event:proverbios-o-apelo-publico-da-sabedoria-e-da-loucura",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Apelo Público da Sabedoria e da Loucura” cita explicitamente Provérbios Pr 1:20-33; 9:1-18.",
+      "references": ["Provérbios Pr 1:20-33; 9:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-o-apelo-publico-da-sabedoria-e-da-loucura:chapter-proverbios-9",
+      "from": "event:proverbios-o-apelo-publico-da-sabedoria-e-da-loucura",
+      "to": "chapter:proverbios:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Apelo Público da Sabedoria e da Loucura” cita explicitamente Provérbios Pr 1:20-33; 9:1-18.",
+      "references": ["Provérbios Pr 1:20-33; 9:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-o-conselho-matriarcal-a-lemuel:chapter-proverbios-31",
+      "from": "event:proverbios-o-conselho-matriarcal-a-lemuel",
+      "to": "chapter:proverbios:31",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Conselho Matriarcal a Lemuel” cita explicitamente Provérbios Pr 31:1-9.",
+      "references": ["Provérbios Pr 31:1-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-proverbios-o-enigma-e-confissao-de-agur:chapter-proverbios-30",
+      "from": "event:proverbios-o-enigma-e-confissao-de-agur",
+      "to": "chapter:proverbios:30",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Enigma e Confissão de Agur” cita explicitamente Provérbios Pr 30:1-9.",
+      "references": ["Provérbios Pr 30:1-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-mae-e-o-pai:chapter-proverbios-1",
+      "from": "person:a-mae-e-o-pai",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Mãe e o Pai” cita explicitamente Pr 1:8-9; 4:1-4; 6:20.",
+      "references": ["Pr 1:8-9; 4:1-4; 6:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-mae-e-o-pai:chapter-proverbios-4",
+      "from": "person:a-mae-e-o-pai",
+      "to": "chapter:proverbios:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Mãe e o Pai” cita explicitamente Pr 1:8-9; 4:1-4; 6:20.",
+      "references": ["Pr 1:8-9; 4:1-4; 6:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-mae-e-o-pai:chapter-proverbios-6",
+      "from": "person:a-mae-e-o-pai",
+      "to": "chapter:proverbios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Mãe e o Pai” cita explicitamente Pr 1:8-9; 4:1-4; 6:20.",
+      "references": ["Pr 1:8-9; 4:1-4; 6:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-agur-filho-de-jaque:chapter-proverbios-30",
+      "from": "person:agur-filho-de-jaque",
+      "to": "chapter:proverbios:30",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Agur, Filho de Jaque” cita explicitamente Pr 30:1-4.",
+      "references": ["Pr 30:1-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-homem-prudente-sabio-chakam:chapter-proverbios-1",
+      "from": "person:o-homem-prudente-sabio-chakam",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Homem Prudente / Sábio (Chakam)” cita explicitamente Pr 1:5; 10:8; 12:15; 15:7.",
+      "references": ["Pr 1:5; 10:8; 12:15; 15:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-homem-prudente-sabio-chakam:chapter-proverbios-10",
+      "from": "person:o-homem-prudente-sabio-chakam",
+      "to": "chapter:proverbios:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Homem Prudente / Sábio (Chakam)” cita explicitamente Pr 1:5; 10:8; 12:15; 15:7.",
+      "references": ["Pr 1:5; 10:8; 12:15; 15:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-homem-prudente-sabio-chakam:chapter-proverbios-12",
+      "from": "person:o-homem-prudente-sabio-chakam",
+      "to": "chapter:proverbios:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Homem Prudente / Sábio (Chakam)” cita explicitamente Pr 1:5; 10:8; 12:15; 15:7.",
+      "references": ["Pr 1:5; 10:8; 12:15; 15:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-homem-prudente-sabio-chakam:chapter-proverbios-15",
+      "from": "person:o-homem-prudente-sabio-chakam",
+      "to": "chapter:proverbios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Homem Prudente / Sábio (Chakam)” cita explicitamente Pr 1:5; 10:8; 12:15; 15:7.",
+      "references": ["Pr 1:5; 10:8; 12:15; 15:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-tolo-evil-kesil:chapter-proverbios-1",
+      "from": "person:o-tolo-evil-kesil",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Tolo (Evil / Kesil)” cita explicitamente Pr 1:7; 10:23; 12:15; 26:11.",
+      "references": ["Pr 1:7; 10:23; 12:15; 26:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-tolo-evil-kesil:chapter-proverbios-10",
+      "from": "person:o-tolo-evil-kesil",
+      "to": "chapter:proverbios:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Tolo (Evil / Kesil)” cita explicitamente Pr 1:7; 10:23; 12:15; 26:11.",
+      "references": ["Pr 1:7; 10:23; 12:15; 26:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-tolo-evil-kesil:chapter-proverbios-12",
+      "from": "person:o-tolo-evil-kesil",
+      "to": "chapter:proverbios:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Tolo (Evil / Kesil)” cita explicitamente Pr 1:7; 10:23; 12:15; 26:11.",
+      "references": ["Pr 1:7; 10:23; 12:15; 26:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-tolo-evil-kesil:chapter-proverbios-26",
+      "from": "person:o-tolo-evil-kesil",
+      "to": "chapter:proverbios:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Tolo (Evil / Kesil)” cita explicitamente Pr 1:7; 10:23; 12:15; 26:11.",
+      "references": ["Pr 1:7; 10:23; 12:15; 26:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-rei-lemuel:chapter-proverbios-31",
+      "from": "person:rei-lemuel",
+      "to": "chapter:proverbios:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rei Lemuel” cita explicitamente Pr 31:1-9.",
+      "references": ["Pr 31:1-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-proverbios-1",
+      "from": "person:salomao",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 4:29-34; Pr 1:1; 10:1; 25:1.",
+      "references": ["1Rs 4:29-34; Pr 1:1; 10:1; 25:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-proverbios-10",
+      "from": "person:salomao",
+      "to": "chapter:proverbios:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 4:29-34; Pr 1:1; 10:1; 25:1.",
+      "references": ["1Rs 4:29-34; Pr 1:1; 10:1; 25:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-proverbios-25",
+      "from": "person:salomao",
+      "to": "chapter:proverbios:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 4:29-34; Pr 1:1; 10:1; 25:1.",
+      "references": ["1Rs 4:29-34; Pr 1:1; 10:1; 25:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-da-sabedoria-e-a-casa-da-loucura:chapter-proverbios-9",
+      "from": "place:a-casa-da-sabedoria-e-a-casa-da-loucura",
+      "to": "chapter:proverbios:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa da Sabedoria e a Casa da Loucura” cita explicitamente Pr 9:1-6; 9:13-18.",
+      "references": ["Pr 9:1-6; 9:13-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-praca-publica-e-os-portoes-da-cidade:chapter-proverbios-1",
+      "from": "place:a-praca-publica-e-os-portoes-da-cidade",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Praça Pública e os Portões da Cidade” cita explicitamente Pr 1:21; 8:3; 31:23.",
+      "references": ["Pr 1:21; 8:3; 31:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-praca-publica-e-os-portoes-da-cidade:chapter-proverbios-31",
+      "from": "place:a-praca-publica-e-os-portoes-da-cidade",
+      "to": "chapter:proverbios:31",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Praça Pública e os Portões da Cidade” cita explicitamente Pr 1:21; 8:3; 31:23.",
+      "references": ["Pr 1:21; 8:3; 31:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-praca-publica-e-os-portoes-da-cidade:chapter-proverbios-8",
+      "from": "place:a-praca-publica-e-os-portoes-da-cidade",
+      "to": "chapter:proverbios:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Praça Pública e os Portões da Cidade” cita explicitamente Pr 1:21; 8:3; 31:23.",
+      "references": ["Pr 1:21; 8:3; 31:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-e-a-corte-real:chapter-proverbios-1",
+      "from": "place:jerusalem-e-a-corte-real",
+      "to": "chapter:proverbios:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém e a Corte Real” cita explicitamente Pr 1:1; 25:1; 1Rs 4.",
+      "references": ["Pr 1:1; 25:1; 1Rs 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-e-a-corte-real:chapter-proverbios-25",
+      "from": "place:jerusalem-e-a-corte-real",
+      "to": "chapter:proverbios:25",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém e a Corte Real” cita explicitamente Pr 1:1; 25:1; 1Rs 4.",
+      "references": ["Pr 1:1; 25:1; 1Rs 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-massa:chapter-proverbios-30",
+      "from": "place:massa",
+      "to": "chapter:proverbios:30",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Massá” cita explicitamente Pr 30:1; 31:1; Gn 25:14.",
+      "references": ["Pr 30:1; 31:1; Gn 25:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-massa:chapter-proverbios-31",
+      "from": "place:massa",
+      "to": "chapter:proverbios:31",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Massá” cita explicitamente Pr 30:1; 31:1; Gn 25:14.",
+      "references": ["Pr 30:1; 31:1; Gn 25:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas:chapter-proverbios-19",
+      "from": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "to": "chapter:proverbios:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 11:1 (\"Lança o teu pão sobre as águas...\")” cita explicitamente Pv 19:17; Lc 6:38; 2 Co 9:6.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jo-jo-5-17-jo-34-31-32:chapter-proverbios-3",
+      "from": "prophecy:jo-jo-5-17-jo-34-31-32",
+      "to": "chapter:proverbios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó 5:17 / Jó 34:31-32” cita explicitamente Provérbios 3:11-12; Hebreus 12:5-6.",
+      "references": ["Provérbios 3:11-12; Hebreus 12:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro:chapter-proverbios-3",
+      "from": "prophecy:malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro",
+      "to": "chapter:proverbios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:10 ('Trazei todos os dízimos à casa do tesouro...')” cita explicitamente Provérbios 3:9–10; 2 Coríntios 9:7.",
+      "references": ["Provérbios 3:9–10; 2 Coríntios 9:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes:chapter-proverbios-3",
+      "from": "prophecy:tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes",
+      "to": "chapter:proverbios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Deus resiste aos soberbos, mas dá graça aos humildes\"” cita explicitamente Provérbios 3:34 (LXX); 1 Pedro 5:5.",
+      "references": ["Provérbios 3:34 (LXX); 1 Pedro 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-1:theme-sabedoria-hokmah",
+      "from": "chapter:proverbios:1",
+      "to": "theme:sabedoria-hokmah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sabedoria (Hokmah)” cita explicitamente Pr 1:20-33; 3:19-20; 8:22-31.",
+      "references": ["Pr 1:20-33; 3:19-20; 8:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-14:theme-o-pobre-e-o-oprimido",
+      "from": "chapter:proverbios:14",
+      "to": "theme:o-pobre-e-o-oprimido",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Pobre e o Oprimido” cita explicitamente Pr 14:31; 19:17; 22:22-23.",
+      "references": ["Pr 14:31; 19:17; 22:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-19:theme-o-pobre-e-o-oprimido",
+      "from": "chapter:proverbios:19",
+      "to": "theme:o-pobre-e-o-oprimido",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Pobre e o Oprimido” cita explicitamente Pr 14:31; 19:17; 22:22-23.",
+      "references": ["Pr 14:31; 19:17; 22:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-2:theme-a-mulher-imoral-a-estranha",
+      "from": "chapter:proverbios:2",
+      "to": "theme:a-mulher-imoral-a-estranha",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Mulher Imoral / A Estranha” cita explicitamente Pr 2:16-19; 5:3-6; 7:5-27.",
+      "references": ["Pr 2:16-19; 5:3-6; 7:5-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-22:theme-o-pobre-e-o-oprimido",
+      "from": "chapter:proverbios:22",
+      "to": "theme:o-pobre-e-o-oprimido",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Pobre e o Oprimido” cita explicitamente Pr 14:31; 19:17; 22:22-23.",
+      "references": ["Pr 14:31; 19:17; 22:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-3:theme-sabedoria-hokmah",
+      "from": "chapter:proverbios:3",
+      "to": "theme:sabedoria-hokmah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sabedoria (Hokmah)” cita explicitamente Pr 1:20-33; 3:19-20; 8:22-31.",
+      "references": ["Pr 1:20-33; 3:19-20; 8:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-31:theme-a-mulher-virtuosa-eshet-chayil",
+      "from": "chapter:proverbios:31",
+      "to": "theme:a-mulher-virtuosa-eshet-chayil",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Mulher Virtuosa (Eshet Chayil)” cita explicitamente Pr 31:10-31.",
+      "references": ["Pr 31:10-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-5:theme-a-mulher-imoral-a-estranha",
+      "from": "chapter:proverbios:5",
+      "to": "theme:a-mulher-imoral-a-estranha",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Mulher Imoral / A Estranha” cita explicitamente Pr 2:16-19; 5:3-6; 7:5-27.",
+      "references": ["Pr 2:16-19; 5:3-6; 7:5-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-7:theme-a-mulher-imoral-a-estranha",
+      "from": "chapter:proverbios:7",
+      "to": "theme:a-mulher-imoral-a-estranha",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Mulher Imoral / A Estranha” cita explicitamente Pr 2:16-19; 5:3-6; 7:5-27.",
+      "references": ["Pr 2:16-19; 5:3-6; 7:5-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-proverbios-8:theme-sabedoria-hokmah",
+      "from": "chapter:proverbios:8",
+      "to": "theme:sabedoria-hokmah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sabedoria (Hokmah)” cita explicitamente Pr 1:20-33; 3:19-20; 8:22-31.",
+      "references": ["Pr 1:20-33; 3:19-20; 8:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

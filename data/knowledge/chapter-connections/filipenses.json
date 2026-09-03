@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "book": "Filipenses",
+  "count": 4,
+  "chapterCount": 2,
+  "nodes": [
+    {
+      "id": "person:apostolo-paulo-saulo-de-tarso",
+      "kind": "person",
+      "label": "Apóstolo Paulo (Saulo de Tarso)",
+      "aliases": ["Apóstolo Paulo (Saulo de Tarso)"],
+      "summary": "Saulo, conhecido como Paulo, originou-se de Tarso na Cilícia, sendo um judeu da Diáspora pertencente à tribo de Benjamim, fariseu rigoroso e cidadão romano de nascimento [5] [6]. Inicialmente um zeloso perseguidor das primeiras comunidades messiânicas, experimentou uma convulsão teológica e existencial na estrada de Damasco, onde interpretou a revelação do Cristo ressuscitado como vocação universal para o apostolado aos gentios [7]. Sua trajetória é marcada por viagens missionárias intensas pelo Mediterrâneo Oriental, fundando assembleias (ekklesiai), redigindo cartas normativas e enfrentando constantes conflitos com autoridades judaicas tradicionais e facções judaizantes [8] [9].",
+      "references": [
+        "Romanos 1:1-17",
+        "Gálatas 1-2",
+        "Filipenses 3:4-11",
+        "1 Coríntios 9:1-27"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apostolo-paulo-saulo-de-tarso"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%201%3A1-17%3B%20G%C3%A1latas%201-2%3B%20Filipenses%203%3A4-11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "prophecy:genesis-gn-50-20-mal-planejado-vida-preservada",
+      "kind": "prophecy",
+      "label": "Mal planejado, vida preservada",
+      "aliases": [],
+      "summary": "José interpreta a ação dos irmãos em uma moldura de providência sem chamar o mal de bem.",
+      "references": ["Gn 50:20", "At 7:9–14", "Rm 8:28", "Fp 1:12–14"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A frase não é uma licença para justificar abuso; ela vem depois de confronto, choro, prova e responsabilidade."
+      }
+    },
+    {
+      "id": "term:dikaiosyne",
+      "kind": "term",
+      "label": "Dikaiosynē",
+      "aliases": ["δικαιοσύνη", "dikaiosynē"],
+      "summary": "Justiça, retidão, condição de estar em relação correta ou ação que manifesta a fidelidade de Deus.",
+      "references": ["Mt 5:6", "Rm 1:16–17", "Fp 3:9"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["dikaiosyne"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo emprega o campo para discutir a fidelidade de Deus, a situação humana, a inclusão de gentios e a vida comunitária; o debate não se resolve por uma definição única.",
+        "translationNote": "‘Justiça’ pode sugerir apenas moralidade individual; em Romanos, o contexto exige considerar tribunal, aliança, fé, comunidade e esperança escatológica."
+      }
+    },
+    {
+      "id": "term:koinonia",
+      "kind": "term",
+      "label": "Koinōnia",
+      "aliases": ["κοινωνία", "koinōnia"],
+      "summary": "Comunhão, participação, parceria ou partilha de bens e missão; não se limita a sentimento de amizade.",
+      "references": ["At 2:42", "Fp 1:5", "1Jo 1:3"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["koinonia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em Atos, Paulo e 1 João, o termo envolve mesa, recursos, missão, sofrimento, Espírito e responsabilidade mútua.",
+        "translationNote": "‘Comunhão’ comunica a tradição, mas o leitor deve investigar quais práticas concretas tornam a comunhão visível no contexto."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-apostolo-paulo-saulo-de-tarso:chapter-filipenses-3",
+      "from": "person:apostolo-paulo-saulo-de-tarso",
+      "to": "chapter:filipenses:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apóstolo Paulo (Saulo de Tarso)” cita explicitamente Filipenses 3:4-11.",
+      "references": ["Filipenses 3:4-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-50-20-mal-planejado-vida-preservada:chapter-filipenses-1",
+      "from": "prophecy:genesis-gn-50-20-mal-planejado-vida-preservada",
+      "to": "chapter:filipenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mal planejado, vida preservada” cita explicitamente Fp 1:12–14.",
+      "references": ["Fp 1:12–14"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:related-term:chapter-filipenses-1:term-koinonia",
+      "from": "chapter:filipenses:1",
+      "to": "term:koinonia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Koinōnia” cita explicitamente Fp 1:5.",
+      "references": ["Fp 1:5"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-filipenses-3:term-dikaiosyne",
+      "from": "chapter:filipenses:3",
+      "to": "term:dikaiosyne",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Dikaiosynē” cita explicitamente Fp 3:9.",
+      "references": ["Fp 3:9"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

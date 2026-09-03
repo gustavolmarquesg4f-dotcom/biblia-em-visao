@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "book": "Joel",
+  "count": 28,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "event:joel-a-convocacao-da-assembleia-solene",
+      "kind": "event",
+      "label": "A Convocação da Assembleia Solene",
+      "aliases": [],
+      "summary": "O profeta ordena o toque do shofar em Sião, reunindo desde recém-nascidos até noivos para um jejum sagrado e humilhação coletiva.",
+      "references": ["Joel 2:15-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstração de arrependimento público que comove a compaixão de YHWH, revertendo temporariamente o juízo.",
+        "entities": "Joel 2:15-17"
+      }
+    },
+    {
+      "id": "event:joel-a-devastacao-agricola-e-seca",
+      "kind": "event",
+      "label": "A Devastação Agrícola e Seca",
+      "aliases": [],
+      "summary": "Praga implacável de gafanhotos destrói searas, árvores frutíferas e rebanhos, secando as fontes de água e paralisando o Templo.",
+      "references": ["Joel 1:4-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Interrupção dos sacrifícios diários e instauração de um luto litúrgico nacional de lamentação.",
+        "entities": "Joel 1:4, 1:12, 1:16"
+      }
+    },
+    {
+      "id": "event:joel-o-derramamento-escatologico-do-espirito",
+      "kind": "event",
+      "label": "O Derramamento Escatológico do Espírito",
+      "aliases": [],
+      "summary": "Promessa divina de efusão do Espírito sobre toda a carne (filhos, filhas, velhos, jovens, servos e servas).",
+      "references": ["Joel 2:28-29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Democratização radical do acesso profético na comunidade da aliança, cumprida no Novo Testamento em Pentecostes.",
+        "entities": "Joel 2:28-29"
+      }
+    },
+    {
+      "id": "event:joel-o-juizo-das-nacoes-no-vale-de-josafa",
+      "kind": "event",
+      "label": "O Juízo das Nações no Vale de Josafá",
+      "aliases": [],
+      "summary": "Convocação e julgamento sumário dos povos gentílicos que dispersaram Israel, com retribuição divina direta.",
+      "references": ["Joel 3:2-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Retribuição divina geopolítica, libertação definitiva de Judá e santificação inviolável de Jerusalém.",
+        "entities": "Joel 3:2, 3:12-14"
+      }
+    },
+    {
+      "id": "people-group:as-nacoes-goyim",
+      "kind": "people-group",
+      "label": "As Nações (Goyim)",
+      "aliases": [],
+      "summary": "Reúnem-se no Vale de Josafá para acertar contas com YHWH por terem oprimido Israel e repartido sua terra.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Inimigos históricos e alvos do julgamento escatológico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-anciaos-e-moradores-da-terra",
+      "kind": "people-group",
+      "label": "Os Anciãos e Moradores da Terra",
+      "aliases": [],
+      "summary": "Convocados a atestar a gravidade sem precedentes da praga multigeracional.",
+      "references": ["Joel 1:2, 1:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunhas da catástrofe agrícola e participantes da assembleia solene",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:joel-filho-de-petuel",
+      "kind": "person",
+      "label": "Joel, filho de Petuel",
+      "aliases": [],
+      "summary": "Figura envolta em mistério, cuja biografia se resume ao patronímico, atuando como porta-voz da crise litúrgica e escatológica em Jerusalém.",
+      "references": ["Joel 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta e autor nominal do oráculo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:egito-e-edom",
+      "kind": "place",
+      "label": "Egito e Edom",
+      "aliases": [],
+      "summary": "Exemplos históricos de opressão e violência contra Judá, condenados à desolação.",
+      "references": ["Joel 3:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:o-vale-de-acitim-shittim",
+      "kind": "place",
+      "label": "O Vale de Acitim (Shittim)",
+      "aliases": [],
+      "summary": "Local de onde brotará uma fonte de água do Templo para regar o vale árido.",
+      "references": ["Joel 3:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:o-vale-de-josafa",
+      "kind": "place",
+      "label": "O Vale de Josafá",
+      "aliases": [],
+      "summary": "Tribunal cósmico onde YHWH executa o juízo final sobre as nações inimigas.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Disputado / Simbólico" }
+    },
+    {
+      "id": "place:siao-monte-siao-jerusalem",
+      "kind": "place",
+      "label": "Sião (Monte Sião / Jerusalém)",
+      "aliases": [],
+      "summary": "Centro teológico, morada de YHWH e refúgio de sobrevivência no Dia do Senhor.",
+      "references": ["Joel 2:1, 2:32, 3:16, 3:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "prophecy:amos-amos-1-2-o-senhor-rugira-de-siao",
+      "kind": "prophecy",
+      "label": "Amós 1:2 (\"O SENHOR rugirá de Sião...\")",
+      "aliases": [],
+      "summary": "A imagem do rugido divino a partir de Jerusalém é reutilizada por profetas posteriores para anunciar o julgamento cósmico.",
+      "references": ["Joel 3:16; Jeremias 25:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco teológico" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "kind": "prophecy",
+      "label": "Ezequiel 36:26-27 (Novo coração e novo espírito)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Teólogos reformados e pentecostais interpretam como prefiguração direta da regeneração do Novo Testamento e do batismo no Espírito Santo, ao passo que leitores judaicos enfatizam a renovação da aliança nacional e obediência à Torá.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Oráculo / Alusão soteriológica" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto",
+      "kind": "prophecy",
+      "label": "Obadias 1:15 (\"Porque o dia do Senhor está perto...\")",
+      "aliases": [],
+      "summary": "Conexão temática e terminológica com a tradição profética clássica do Dia do Senhor, interpretada por alguns como eco litúrgico compartilhado e por outros como dependência direta.",
+      "references": ["Joel 1:15, 3:14; Sofonias 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Recepção posterior" }
+    },
+    {
+      "id": "prophecy:tito-tito-3-5-6",
+      "kind": "prophecy",
+      "label": "Tito 3:5-6",
+      "aliases": [],
+      "summary": "Conexão pneumatológica com o derramamento profético do Espírito no novo pacto.",
+      "references": ["Joel 2:28; Ezequiel 36:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tipologia" }
+    },
+    {
+      "id": "term:ruach",
+      "kind": "term",
+      "label": "Ruach",
+      "aliases": ["רוּחַ", "rûaḥ"],
+      "summary": "Palavra que pode designar vento, sopro, respiração, disposição interior ou espírito, inclusive a ação do Espírito de Deus.",
+      "references": ["Gn 1:2", "Ez 37:1–14", "Jl 2:28–29"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ruach"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O contexto decide se a imagem é meteorológica, antropológica, psicológica ou teológica. As camadas podem permanecer deliberadamente próximas em textos poéticos.",
+        "translationNote": "A tradução por ‘espírito’ em todos os casos pode apagar o aspecto de vento ou sopro; a tradução por ‘vento’ em textos teológicos pode apagar a agência divina."
+      }
+    },
+    {
+      "id": "theme:o-vale-de-josafa",
+      "kind": "theme",
+      "label": "O Vale de Josafá",
+      "aliases": [],
+      "summary": "Local simbólico (\"YHWH julga\") onde as nações são esmagadas como no lagar do vinho.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário escatológico do juízo das nações",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:os-gafanhotos-exercito-invasor",
+      "kind": "theme",
+      "label": "Os Gafanhotos (Exército Invasor)",
+      "aliases": [],
+      "summary": "Descritos com dentes de leão e aparência de cavalos, devastam a vinha e a figueira de Judá.",
+      "references": ["Joel 1:4, 2:4-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agentes destrutivos da ira divina sobre as colheitas",
+        "entityType": "Povo / Símbolo"
+      }
+    },
+    {
+      "id": "theme:os-sacerdotes-ministros-de-yhwh",
+      "kind": "theme",
+      "label": "Os Sacerdotes (Ministros de YHWH)",
+      "aliases": [],
+      "summary": "Responsáveis por chorar entre o pórtico e o altar, clamando pela preservação da herança divina.",
+      "references": ["Joel 1:9, 1:13, 2:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediadores do culto de lamentação no Templo",
+        "entityType": "Povo / Instituição"
+      }
+    },
+    {
+      "id": "theme:siao-jerusalem",
+      "kind": "theme",
+      "label": "Sião / Jerusalém",
+      "aliases": [],
+      "summary": "Monte santo onde reside a presença de YHWH e de onde brota a salvação e a fonte para o vale de Acitim.",
+      "references": [
+        "2 Sm 5, 6",
+        "Sl 48, 78, 125, 132",
+        "Isaías 1:8, 2:3, 52:1",
+        "Joel 2:32, 3:16-18"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Centro cultual e refúgio inviolável para os que invocam o nome do Senhor",
+        "entityType": "Lugar / Instituição"
+      }
+    },
+    {
+      "id": "theme:yhwh-o-senhor",
+      "kind": "theme",
+      "label": "YHWH (O Senhor)",
+      "aliases": [],
+      "summary": "Deus da aliança que envia a praga como disciplina, responde ao clamor do povo com restauração e julga as nações.",
+      "references": ["Joel 1:13, 2:18, 3:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano do cosmos, juiz e salvador de Israel",
+        "entityType": "Pessoa (Divindade)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-joel-a-convocacao-da-assembleia-solene:chapter-joel-2",
+      "from": "event:joel-a-convocacao-da-assembleia-solene",
+      "to": "chapter:joel:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Convocação da Assembleia Solene” cita explicitamente Joel 2:15-17.",
+      "references": ["Joel 2:15-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joel-a-devastacao-agricola-e-seca:chapter-joel-1",
+      "from": "event:joel-a-devastacao-agricola-e-seca",
+      "to": "chapter:joel:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Devastação Agrícola e Seca” cita explicitamente Joel 1:4-20.",
+      "references": ["Joel 1:4-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joel-o-derramamento-escatologico-do-espirito:chapter-joel-2",
+      "from": "event:joel-o-derramamento-escatologico-do-espirito",
+      "to": "chapter:joel:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Derramamento Escatológico do Espírito” cita explicitamente Joel 2:28-29.",
+      "references": ["Joel 2:28-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joel-o-juizo-das-nacoes-no-vale-de-josafa:chapter-joel-3",
+      "from": "event:joel-o-juizo-das-nacoes-no-vale-de-josafa",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo das Nações no Vale de Josafá” cita explicitamente Joel 3:2-15.",
+      "references": ["Joel 3:2-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-as-nacoes-goyim:chapter-joel-3",
+      "from": "people-group:as-nacoes-goyim",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Nações (Goyim)” cita explicitamente Joel 3:2, 3:12.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-anciaos-e-moradores-da-terra:chapter-joel-1",
+      "from": "people-group:os-anciaos-e-moradores-da-terra",
+      "to": "chapter:joel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Anciãos e Moradores da Terra” cita explicitamente Joel 1:2, 1:14.",
+      "references": ["Joel 1:2, 1:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joel-filho-de-petuel:chapter-joel-1",
+      "from": "person:joel-filho-de-petuel",
+      "to": "chapter:joel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel, filho de Petuel” cita explicitamente Joel 1:1.",
+      "references": ["Joel 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito-e-edom:chapter-joel-3",
+      "from": "place:egito-e-edom",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito e Edom” cita explicitamente Joel 3:19.",
+      "references": ["Joel 3:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-vale-de-acitim-shittim:chapter-joel-3",
+      "from": "place:o-vale-de-acitim-shittim",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Vale de Acitim (Shittim)” cita explicitamente Joel 3:18.",
+      "references": ["Joel 3:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-vale-de-josafa:chapter-joel-3",
+      "from": "place:o-vale-de-josafa",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Vale de Josafá” cita explicitamente Joel 3:2, 3:12.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-siao-monte-siao-jerusalem:chapter-joel-2",
+      "from": "place:siao-monte-siao-jerusalem",
+      "to": "chapter:joel:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sião (Monte Sião / Jerusalém)” cita explicitamente Joel 2:1, 2:32, 3:16, 3:17.",
+      "references": ["Joel 2:1, 2:32, 3:16, 3:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-siao-monte-siao-jerusalem:chapter-joel-3",
+      "from": "place:siao-monte-siao-jerusalem",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sião (Monte Sião / Jerusalém)” cita explicitamente Joel 2:1, 2:32, 3:16, 3:17.",
+      "references": ["Joel 2:1, 2:32, 3:16, 3:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-1-2-o-senhor-rugira-de-siao:chapter-joel-3",
+      "from": "prophecy:amos-amos-1-2-o-senhor-rugira-de-siao",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 1:2 (\"O SENHOR rugirá de Sião...\")” cita explicitamente Joel 3:16; Jeremias 25:30.",
+      "references": ["Joel 3:16; Jeremias 25:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito:chapter-joel-2",
+      "from": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "to": "chapter:joel:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:26-27 (Novo coração e novo espírito)” cita explicitamente Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto:chapter-joel-1",
+      "from": "prophecy:obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto",
+      "to": "chapter:joel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:15 (\"Porque o dia do Senhor está perto...\")” cita explicitamente Joel 1:15, 3:14; Sofonias 1:7.",
+      "references": ["Joel 1:15, 3:14; Sofonias 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto:chapter-joel-3",
+      "from": "prophecy:obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto",
+      "to": "chapter:joel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:15 (\"Porque o dia do Senhor está perto...\")” cita explicitamente Joel 1:15, 3:14; Sofonias 1:7.",
+      "references": ["Joel 1:15, 3:14; Sofonias 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tito-tito-3-5-6:chapter-joel-2",
+      "from": "prophecy:tito-tito-3-5-6",
+      "to": "chapter:joel:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito 3:5-6” cita explicitamente Joel 2:28; Ezequiel 36:25-27.",
+      "references": ["Joel 2:28; Ezequiel 36:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-1:theme-os-gafanhotos-exercito-invasor",
+      "from": "chapter:joel:1",
+      "to": "theme:os-gafanhotos-exercito-invasor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Gafanhotos (Exército Invasor)” cita explicitamente Joel 1:4, 2:4-7.",
+      "references": ["Joel 1:4, 2:4-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-1:theme-os-sacerdotes-ministros-de-yhwh",
+      "from": "chapter:joel:1",
+      "to": "theme:os-sacerdotes-ministros-de-yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Sacerdotes (Ministros de YHWH)” cita explicitamente Joel 1:9, 1:13, 2:17.",
+      "references": ["Joel 1:9, 1:13, 2:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-1:theme-yhwh-o-senhor",
+      "from": "chapter:joel:1",
+      "to": "theme:yhwh-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH (O Senhor)” cita explicitamente Joel 1:13, 2:18, 3:16.",
+      "references": ["Joel 1:13, 2:18, 3:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-2:theme-os-gafanhotos-exercito-invasor",
+      "from": "chapter:joel:2",
+      "to": "theme:os-gafanhotos-exercito-invasor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Gafanhotos (Exército Invasor)” cita explicitamente Joel 1:4, 2:4-7.",
+      "references": ["Joel 1:4, 2:4-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-2:theme-os-sacerdotes-ministros-de-yhwh",
+      "from": "chapter:joel:2",
+      "to": "theme:os-sacerdotes-ministros-de-yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Sacerdotes (Ministros de YHWH)” cita explicitamente Joel 1:9, 1:13, 2:17.",
+      "references": ["Joel 1:9, 1:13, 2:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-2:theme-siao-jerusalem",
+      "from": "chapter:joel:2",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente Joel 2:32, 3:16-18.",
+      "references": ["Joel 2:32, 3:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-2:theme-yhwh-o-senhor",
+      "from": "chapter:joel:2",
+      "to": "theme:yhwh-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH (O Senhor)” cita explicitamente Joel 1:13, 2:18, 3:16.",
+      "references": ["Joel 1:13, 2:18, 3:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-3:theme-o-vale-de-josafa",
+      "from": "chapter:joel:3",
+      "to": "theme:o-vale-de-josafa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Vale de Josafá” cita explicitamente Joel 3:2, 3:12.",
+      "references": ["Joel 3:2, 3:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-3:theme-siao-jerusalem",
+      "from": "chapter:joel:3",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente Joel 2:32, 3:16-18.",
+      "references": ["Joel 2:32, 3:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joel-3:theme-yhwh-o-senhor",
+      "from": "chapter:joel:3",
+      "to": "theme:yhwh-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH (O Senhor)” cita explicitamente Joel 1:13, 2:18, 3:16.",
+      "references": ["Joel 1:13, 2:18, 3:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-joel-2:term-ruach",
+      "from": "chapter:joel:2",
+      "to": "term:ruach",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Ruach” cita explicitamente Jl 2:28–29.",
+      "references": ["Jl 2:28–29"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

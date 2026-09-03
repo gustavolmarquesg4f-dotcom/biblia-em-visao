@@ -1,0 +1,1190 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Reis",
+  "count": 63,
+  "chapterCount": 23,
+  "nodes": [
+    {
+      "id": "event:2-reis-a-descoberta-da-lei-e-reforma-de-josias",
+      "kind": "event",
+      "label": "A Descoberta da Lei e Reforma de Josias",
+      "aliases": [],
+      "summary": "Hilquias acha o Livro da Lei no Templo; Josias promove uma reforma centralizadora radical, destruindo altares e celebrando a Páscoa.",
+      "references": ["2 Reis 22-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Último fôlego espiritual e político de Judá antes do declínio final.",
+        "entities": "Josias, Hilquias, Hulda"
+      }
+    },
+    {
+      "id": "event:2-reis-a-invasao-de-senaqueribe-e-livramento-de-jerusalem",
+      "kind": "event",
+      "label": "A Invasão de Senaqueribe e Livramento de Jerusalém",
+      "aliases": [],
+      "summary": "Senaqueribe cerca Jerusalém com exigências blasfemas; Ezequias ora no templo, e o profeta Isaías assegura o livramento, resultando na morte de 185 mil assírios.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Confirmação da inviolabilidade de Sião quando há confiança exclusiva em Iahweh.",
+        "entities": "Ezequias, Senaqueribe, Isaías"
+      }
+    },
+    {
+      "id": "event:2-reis-a-queda-de-jerusalem-e-o-cativeiro-babilonico",
+      "kind": "event",
+      "label": "A Queda de Jerusalém e o Cativeiro Babilônico",
+      "aliases": [],
+      "summary": "Nabucodonosor sitia Jerusalém, destrói as muralhas, incendeia o Templo de Salomão e deporta a população para a Babilônia.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fim da monarquia davídica terrena e início oficial do Exílio babilônico.",
+        "entities": "Nabucodonosor, Zedequias, Nebuzaradã"
+      }
+    },
+    {
+      "id": "event:2-reis-a-queda-do-reino-do-norte-samaria",
+      "kind": "event",
+      "label": "A Queda do Reino do Norte (Samaria)",
+      "aliases": [],
+      "summary": "O rei da Assíria sitia Samaria por três anos, conquista a cidade e deporta os israelitas para o cativeiro, povoando a região com estrangeiros.",
+      "references": ["2 Reis 17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fim histórico e teológico do Reino de Israel (Norte), atribuído à infidelidade à aliança.",
+        "entities": "Assíria, Oseias de Israel"
+      }
+    },
+    {
+      "id": "event:2-reis-a-revolta-e-purificacao-de-jeu",
+      "kind": "event",
+      "label": "A Revolta e Purificação de Jeú",
+      "aliases": [],
+      "summary": "Jeú é ungido rei, mata Jeorão e Acazias, executa Jezabel e massacra os profetas e adoradores de Baal em Samaria.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fim da dinastia de Acabe e erradicação temporária institucional do baalismo em Israel.",
+        "entities": "Jeú, Jezabel, Eliseu"
+      }
+    },
+    {
+      "id": "event:2-reis-o-cerco-de-samaria-e-fome-extrema",
+      "kind": "event",
+      "label": "O Cerco de Samaria e Fome Extrema",
+      "aliases": [],
+      "summary": "Samaria sofre um cerco rigoroso pelos sírios, gerando desespero e canibalismo, seguido pela profecia de Eliseu de súbito abastamento e fuga síria.",
+      "references": ["2 Reis 6-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstração da soberania divina sobre a fome e o socorro em circunstâncias desesperadoras.",
+        "entities": "Eliseu, Jeorão de Israel, Sírios"
+      }
+    },
+    {
+      "id": "event:2-reis-transladacao-de-elias-e-sucessao-de-eliseu",
+      "kind": "event",
+      "label": "Transladação de Elias e Sucessão de Eliseu",
+      "aliases": [],
+      "summary": "Elias é arrebatado ao céu em um carro de fogo, e Eliseu recebe sua porção dobrada do espírito, assumindo o manto profético.",
+      "references": ["2 Reis 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Legitimação inquestionável da autoridade profética de Eliseu diante da comunidade e dos reis.",
+        "entities": "Eliseu, Elias"
+      }
+    },
+    {
+      "id": "person:atalia",
+      "kind": "person",
+      "label": "Atalia",
+      "aliases": [],
+      "summary": "Filha de Jezabel que usurpou o trono de Judá assassinando a descendência real, exceto o salvo Joás.",
+      "references": ["2 Reis 11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rainha de Judá", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:eliseu",
+      "kind": "person",
+      "label": "Eliseu",
+      "aliases": [],
+      "summary": "Sucessor de Elias, atuou como conselheiro de reis, operador de milagres e agente de mudanças dinásticas.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Profeta de Israel", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:ezequias",
+      "kind": "person",
+      "label": "Ezequias",
+      "aliases": [],
+      "summary": "Promotor da grande purificação cultual, da reunificação da Páscoa e beneficiário do livramento divino contra a Assíria.",
+      "references": [
+        "2 Reis 18-20",
+        "2Cr 29:1 - 32:33",
+        "Isaías 36:1, 38:5, 39:8",
+        "Sofonias 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Judá, tataravô de Sofonias",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:hilquias",
+      "kind": "person",
+      "label": "Hilquias",
+      "aliases": [],
+      "summary": "Sacerdote que encontrou o Livro da Lei durante as reformas de Josias no Templo.",
+      "references": ["2 Reis 22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sumo Sacerdote", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:jeu",
+      "kind": "person",
+      "label": "Jeú",
+      "aliases": [],
+      "summary": "General que liderou um golpe sangrento contra a casa de Acabe, exterminando o culto a Baal e fundando a dinastia mais duradoura do Norte.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei de Israel", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:jonas-filho-de-amitai",
+      "kind": "person",
+      "label": "Jonas, filho de Amitai",
+      "aliases": [],
+      "summary": "Personagem central, retratado como relutante, nacionalista e obstinado, que encarna a crise da profecia institucional em Israel",
+      "references": ["2 Reis 14:25; Jonas 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta de Gate-Hefer enviado a Nínive",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josias",
+      "kind": "person",
+      "label": "Josias",
+      "aliases": [],
+      "summary": "Último grande rei reformador que restaurou o Templo, encontrou o Livro da Lei e celebrou uma Páscoa memorável antes de sua trágica morte em Megido.",
+      "references": ["2 Reis 22-23", "2Cr 34:1 - 35:27", "Sofonias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Judá durante cujo reinado (640–609 a.C.) o profeta exerceu seu ministério",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nabucodonosor",
+      "kind": "person",
+      "label": "Nabucodonosor",
+      "aliases": [],
+      "summary": "Soberano do Império Neobabilônico que sitiou, conquistou Jerusalém e deportou a elite judaica.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei de Babilônia", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:senaqueribe",
+      "kind": "person",
+      "label": "Senaqueribe",
+      "aliases": [],
+      "summary": "Império militar expansionista que sitiou Jerusalém e cujas tropas foram dizimadas de forma milagrosa.",
+      "references": ["2 Reis 18-19", "Isaías 36:1, 37:36-37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei do Império Neoassírio que invadiu Judá em 701 AEC",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:babilonia",
+      "kind": "place",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Capital imperial neobabilônica, cenário de exílio, opressão cultural e proclamação da soberania divina por meio de milagres na corte.",
+      "references": [
+        "2 Reis 20, 24-25",
+        "2Cr 36:20",
+        "Isaías 13:1, 47:1, 48:14",
+        "Jer 25:12; 50:1-51:64",
+        "Daniel 1:1; 4:30; 5:30"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:betel",
+      "kind": "place",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal centro religioso e político do Reino do Norte, contendo um dos santuários de bezerros de ouro; alvo principal das denúncias de idolatria e falsa religiosidade de Amós.",
+      "references": [
+        "1Rs 12, 13",
+        "2 Reis 2, 10, 23",
+        "Oseias 4:15, 10:5, 12:4",
+        "Amós 3:14; 4:4; 7:13",
+        "Zacarias 7:2",
+        "Gn 12:8",
+        "Gn 28:10–22",
+        "Gn 35:1–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["bethel"],
+      "attributes": { "status": "geográfico", "x": 49, "y": 48 }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:monte-carmelo",
+      "kind": "place",
+      "label": "Monte Carmelo",
+      "aliases": [],
+      "summary": "Cordilheira costeira sobranceira ao Mediterrâneo, palco do grande desafio entre Elias e os profetas de Baal.",
+      "references": ["1Rs 18", "2 Reis 2, 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:ninive",
+      "kind": "place",
+      "label": "Nínive",
+      "aliases": [],
+      "summary": "Capital imperial assíria, caracterizada na narrativa como cidade grande de três dias de caminhada e símbolo máximo da alteridade opressora que encontra misericórdia divina mediante arrependimento.",
+      "references": [
+        "2 Reis 18-19",
+        "Jonas 1:2; 3:2-4; 4:11",
+        "Naum 1:1; 2:8; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:rio-jordao",
+      "kind": "place",
+      "label": "Rio Jordão",
+      "aliases": [],
+      "summary": "Fronteira natural atravessada milagrosamente por Elias e Eliseu, cenário de curas (Naamã).",
+      "references": ["2 Reis 2, 5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "prophecy:1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23",
+      "kind": "prophecy",
+      "label": "O julgamento de Elias sobre a casa de Acabe e Jezabel (1Rs 21:19, 23)",
+      "aliases": [],
+      "summary": "Previsão da morte violenta de Acabe e da execução ignominiosa de Jezabel em Jizreel, devorada pelos cães.",
+      "references": ["1Rs 21:19, 23; 2Rs 9:25-36"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2",
+      "kind": "prophecy",
+      "label": "O oráculo do homem de Deus de Judá contra o altar de Betel (1Rs 13:2)",
+      "aliases": [],
+      "summary": "Profecia pronunciada contra o altar de Jeroboão, cumprida séculos mais tarde na reforma do rei Josias de Judá.",
+      "references": ["1Rs 13:2; 2Rs 23:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28",
+      "kind": "prophecy",
+      "label": "A Profecia de Hulda sobre a Ruína Adiada (2Cr 34:23-28)",
+      "aliases": [],
+      "summary": "Acadêmicos debatem se a predição foi formulada *ex eventu* após a queda de Jerusalém, ao passo que tradições confessionais afirmam seu caráter preditivo genuíno.",
+      "references": ["2Rs 22, Jr 34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10",
+      "kind": "prophecy",
+      "label": "A profecia de Aías de Silo contra a casa de Acabe (cumprida em 2 Reis 9-10)",
+      "aliases": [],
+      "summary": "Diversidade exegética entre cumprimento imediato histórico e ressonâncias teológicas sobre a culpa intergeracional.",
+      "references": ["1 Reis 21:21-24; 2 Reis 9:7-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:amos-amos-7-11-jeroboam-morrera-a-espada-e-israel-certamente-sera-levado-cativo",
+      "kind": "prophecy",
+      "label": "Amós 7:11 (\"Jeroboam morrerá à espada e Israel certamente será levado cativo...\")",
+      "aliases": [],
+      "summary": "A profecia dirigida contra a casa real de Jeroboam II e o cativeiro samaritano encontra eco e cumprimento direto nas crônicas históricas.",
+      "references": ["2 Reis 15:10; 2 Reis 17:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo histórico / cumprimento" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera",
+      "kind": "prophecy",
+      "label": "Ezequiel 18:20 (A alma que pecar, essa morrerá)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Discussões sobre se o texto abole a culpa corporativa ou se constitui uma diretriz pastoral para os exilados lidarem com a responsabilidade sob o julgamento nacional.",
+      "references": ["Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Citação / Alusão ética" }
+    },
+    {
+      "id": "prophecy:numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9",
+      "kind": "prophecy",
+      "label": "A serpente de bronze levantada por Moisés no deserto para curar as picadas das serpentes ardentes (Números 21:8-9)",
+      "aliases": [],
+      "summary": "Na teologia joanina, serve como tipo soteriológico da crucificação de Cristo, enquanto na história de Israel culminou em controvérsia cultual quando Ezequias destruiu o objeto de idolatria popular.",
+      "references": ["João 3:14-15; 2 Reis 18:4 (Neustã)"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "theme:assiria",
+      "kind": "theme",
+      "label": "Assíria",
+      "aliases": [],
+      "summary": "Império expansionista responsável pela destruição do Reino do Norte (Samaria) em 722 a.C.",
+      "references": ["2 Reis 15-18", "Isaías 10:5, 14:25, 37:37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Potência militar hegemônica imperial utilizada por Javé como instrumento de castigo e exílio para o Reino do Norte em 722 BCE.",
+        "entityType": "Povo / Império"
+      }
+    },
+    {
+      "id": "theme:babilonia",
+      "kind": "theme",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Símbolo do cativeiro e da oposição imperial ao reino de Deus, centro de onde a carta foi escrita.",
+      "references": ["2 Reis 24-25", "Isaías 13:1, 39:6, 47:1", "1Pe 5:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Metonímia teológica para a cidade de Roma imperial corrupta e perseguidora.",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:jerusalem",
+      "kind": "theme",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Apelidada de \"cidade santa\" e \"cidade do grande Rei\", mas caracterizada como o local onde os profetas e o Messias são assassinados.",
+      "references": [
+        "2 Reis 24-25",
+        "Cântico 3:5; 6:4",
+        "Ageu 1:1, 12; 2:2",
+        "Mt 2:1; 4:5; 21:10; 27:53"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário culminante da paixão e símbolo da nação que rejeita os profetas",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:samaria",
+      "kind": "theme",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Alvo primário do julgamento divino por sua idolatria institucional e alianças geopolíticas predatórias.",
+      "references": ["2 Reis 17", "Miqueias 1:1, 6-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital do Reino do Norte (Israel)",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-2-reis-a-descoberta-da-lei-e-reforma-de-josias:chapter-2-reis-22",
+      "from": "event:2-reis-a-descoberta-da-lei-e-reforma-de-josias",
+      "to": "chapter:2-reis:22",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Descoberta da Lei e Reforma de Josias” cita explicitamente 2 Reis 22-23.",
+      "references": ["2 Reis 22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-descoberta-da-lei-e-reforma-de-josias:chapter-2-reis-23",
+      "from": "event:2-reis-a-descoberta-da-lei-e-reforma-de-josias",
+      "to": "chapter:2-reis:23",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Descoberta da Lei e Reforma de Josias” cita explicitamente 2 Reis 22-23.",
+      "references": ["2 Reis 22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-invasao-de-senaqueribe-e-livramento-de-jerusalem:chapter-2-reis-18",
+      "from": "event:2-reis-a-invasao-de-senaqueribe-e-livramento-de-jerusalem",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Invasão de Senaqueribe e Livramento de Jerusalém” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-invasao-de-senaqueribe-e-livramento-de-jerusalem:chapter-2-reis-19",
+      "from": "event:2-reis-a-invasao-de-senaqueribe-e-livramento-de-jerusalem",
+      "to": "chapter:2-reis:19",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Invasão de Senaqueribe e Livramento de Jerusalém” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-queda-de-jerusalem-e-o-cativeiro-babilonico:chapter-2-reis-24",
+      "from": "event:2-reis-a-queda-de-jerusalem-e-o-cativeiro-babilonico",
+      "to": "chapter:2-reis:24",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda de Jerusalém e o Cativeiro Babilônico” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-queda-de-jerusalem-e-o-cativeiro-babilonico:chapter-2-reis-25",
+      "from": "event:2-reis-a-queda-de-jerusalem-e-o-cativeiro-babilonico",
+      "to": "chapter:2-reis:25",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda de Jerusalém e o Cativeiro Babilônico” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-queda-do-reino-do-norte-samaria:chapter-2-reis-17",
+      "from": "event:2-reis-a-queda-do-reino-do-norte-samaria",
+      "to": "chapter:2-reis:17",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda do Reino do Norte (Samaria)” cita explicitamente 2 Reis 17.",
+      "references": ["2 Reis 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-revolta-e-purificacao-de-jeu:chapter-2-reis-10",
+      "from": "event:2-reis-a-revolta-e-purificacao-de-jeu",
+      "to": "chapter:2-reis:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revolta e Purificação de Jeú” cita explicitamente 2 Reis 9-10.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-a-revolta-e-purificacao-de-jeu:chapter-2-reis-9",
+      "from": "event:2-reis-a-revolta-e-purificacao-de-jeu",
+      "to": "chapter:2-reis:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revolta e Purificação de Jeú” cita explicitamente 2 Reis 9-10.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-o-cerco-de-samaria-e-fome-extrema:chapter-2-reis-6",
+      "from": "event:2-reis-o-cerco-de-samaria-e-fome-extrema",
+      "to": "chapter:2-reis:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Cerco de Samaria e Fome Extrema” cita explicitamente 2 Reis 6-7.",
+      "references": ["2 Reis 6-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-o-cerco-de-samaria-e-fome-extrema:chapter-2-reis-7",
+      "from": "event:2-reis-o-cerco-de-samaria-e-fome-extrema",
+      "to": "chapter:2-reis:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Cerco de Samaria e Fome Extrema” cita explicitamente 2 Reis 6-7.",
+      "references": ["2 Reis 6-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-reis-transladacao-de-elias-e-sucessao-de-eliseu:chapter-2-reis-2",
+      "from": "event:2-reis-transladacao-de-elias-e-sucessao-de-eliseu",
+      "to": "chapter:2-reis:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Transladação de Elias e Sucessão de Eliseu” cita explicitamente 2 Reis 2.",
+      "references": ["2 Reis 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-atalia:chapter-2-reis-11",
+      "from": "person:atalia",
+      "to": "chapter:2-reis:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Atalia” cita explicitamente 2 Reis 11.",
+      "references": ["2 Reis 11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-10",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-11",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-12",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-13",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-2",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-3",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-4",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-5",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-6",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-7",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-8",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliseu:chapter-2-reis-9",
+      "from": "person:eliseu",
+      "to": "chapter:2-reis:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliseu” cita explicitamente 2 Reis 2-13.",
+      "references": ["2 Reis 2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-2-reis-18",
+      "from": "person:ezequias",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente 2 Reis 18-20.",
+      "references": ["2 Reis 18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-2-reis-19",
+      "from": "person:ezequias",
+      "to": "chapter:2-reis:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente 2 Reis 18-20.",
+      "references": ["2 Reis 18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-2-reis-20",
+      "from": "person:ezequias",
+      "to": "chapter:2-reis:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente 2 Reis 18-20.",
+      "references": ["2 Reis 18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hilquias:chapter-2-reis-22",
+      "from": "person:hilquias",
+      "to": "chapter:2-reis:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hilquias” cita explicitamente 2 Reis 22.",
+      "references": ["2 Reis 22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeu:chapter-2-reis-10",
+      "from": "person:jeu",
+      "to": "chapter:2-reis:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeú” cita explicitamente 2 Reis 9-10.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeu:chapter-2-reis-9",
+      "from": "person:jeu",
+      "to": "chapter:2-reis:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeú” cita explicitamente 2 Reis 9-10.",
+      "references": ["2 Reis 9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jonas-filho-de-amitai:chapter-2-reis-14",
+      "from": "person:jonas-filho-de-amitai",
+      "to": "chapter:2-reis:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jonas, filho de Amitai” cita explicitamente 2 Reis 14:25; Jonas 1:1.",
+      "references": ["2 Reis 14:25; Jonas 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josias:chapter-2-reis-22",
+      "from": "person:josias",
+      "to": "chapter:2-reis:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josias” cita explicitamente 2 Reis 22-23.",
+      "references": ["2 Reis 22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josias:chapter-2-reis-23",
+      "from": "person:josias",
+      "to": "chapter:2-reis:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josias” cita explicitamente 2 Reis 22-23.",
+      "references": ["2 Reis 22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor:chapter-2-reis-24",
+      "from": "person:nabucodonosor",
+      "to": "chapter:2-reis:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor:chapter-2-reis-25",
+      "from": "person:nabucodonosor",
+      "to": "chapter:2-reis:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-senaqueribe:chapter-2-reis-18",
+      "from": "person:senaqueribe",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Senaqueribe” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-senaqueribe:chapter-2-reis-19",
+      "from": "person:senaqueribe",
+      "to": "chapter:2-reis:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Senaqueribe” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-2-reis-20",
+      "from": "place:babilonia",
+      "to": "chapter:2-reis:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente 2 Reis 20, 24-25.",
+      "references": ["2 Reis 20, 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-2-reis-2",
+      "from": "place:betel",
+      "to": "chapter:2-reis:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente 2 Reis 2, 10, 23.",
+      "references": ["2 Reis 2, 10, 23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-2-reis-18",
+      "from": "place:jerusalem",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente 2 Reis 18, 22, 25.",
+      "references": ["2 Reis 18, 22, 25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-carmelo:chapter-2-reis-2",
+      "from": "place:monte-carmelo",
+      "to": "chapter:2-reis:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Carmelo” cita explicitamente 2 Reis 2, 4.",
+      "references": ["2 Reis 2, 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-2-reis-18",
+      "from": "place:ninive",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-2-reis-19",
+      "from": "place:ninive",
+      "to": "chapter:2-reis:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente 2 Reis 18-19.",
+      "references": ["2 Reis 18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-rio-jordao:chapter-2-reis-2",
+      "from": "place:rio-jordao",
+      "to": "chapter:2-reis:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Rio Jordão” cita explicitamente 2 Reis 2, 5.",
+      "references": ["2 Reis 2, 5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-2-reis-3",
+      "from": "place:samaria",
+      "to": "chapter:2-reis:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente 2 Reis 3, 6, 17.",
+      "references": ["2 Reis 3, 6, 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23:chapter-2-reis-9",
+      "from": "prophecy:1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23",
+      "to": "chapter:2-reis:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O julgamento de Elias sobre a casa de Acabe e Jezabel (1Rs 21:19, 23)” cita explicitamente 1Rs 21:19, 23; 2Rs 9:25-36.",
+      "references": ["1Rs 21:19, 23; 2Rs 9:25-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2:chapter-2-reis-23",
+      "from": "prophecy:1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2",
+      "to": "chapter:2-reis:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O oráculo do homem de Deus de Judá contra o altar de Betel (1Rs 13:2)” cita explicitamente 1Rs 13:2; 2Rs 23:15-16.",
+      "references": ["1Rs 13:2; 2Rs 23:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28:chapter-2-reis-22",
+      "from": "prophecy:2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28",
+      "to": "chapter:2-reis:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Profecia de Hulda sobre a Ruína Adiada (2Cr 34:23-28)” cita explicitamente 2Rs 22, Jr 34.",
+      "references": ["2Rs 22, Jr 34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10:chapter-2-reis-9",
+      "from": "prophecy:2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10",
+      "to": "chapter:2-reis:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia de Aías de Silo contra a casa de Acabe (cumprida em 2 Reis 9-10)” cita explicitamente 1 Reis 21:21-24; 2 Reis 9:7-10.",
+      "references": ["1 Reis 21:21-24; 2 Reis 9:7-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-7-11-jeroboam-morrera-a-espada-e-israel-certamente-sera-levado-cativo:chapter-2-reis-15",
+      "from": "prophecy:amos-amos-7-11-jeroboam-morrera-a-espada-e-israel-certamente-sera-levado-cativo",
+      "to": "chapter:2-reis:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 7:11 (\"Jeroboam morrerá à espada e Israel certamente será levado cativo...\")” cita explicitamente 2 Reis 15:10; 2 Reis 17:6.",
+      "references": ["2 Reis 15:10; 2 Reis 17:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-7-11-jeroboam-morrera-a-espada-e-israel-certamente-sera-levado-cativo:chapter-2-reis-17",
+      "from": "prophecy:amos-amos-7-11-jeroboam-morrera-a-espada-e-israel-certamente-sera-levado-cativo",
+      "to": "chapter:2-reis:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 7:11 (\"Jeroboam morrerá à espada e Israel certamente será levado cativo...\")” cita explicitamente 2 Reis 15:10; 2 Reis 17:6.",
+      "references": ["2 Reis 15:10; 2 Reis 17:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera:chapter-2-reis-14",
+      "from": "prophecy:ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera",
+      "to": "chapter:2-reis:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 18:20 (A alma que pecar, essa morrerá)” cita explicitamente Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6.",
+      "references": ["Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9:chapter-2-reis-18",
+      "from": "prophecy:numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9",
+      "to": "chapter:2-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A serpente de bronze levantada por Moisés no deserto para curar as picadas das serpentes ardentes (Números 21:8-9)” cita explicitamente João 3:14-15; 2 Reis 18:4 (Neustã).",
+      "references": ["João 3:14-15; 2 Reis 18:4 (Neustã)"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-15:theme-assiria",
+      "from": "chapter:2-reis:15",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente 2 Reis 15-18.",
+      "references": ["2 Reis 15-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-16:theme-assiria",
+      "from": "chapter:2-reis:16",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente 2 Reis 15-18.",
+      "references": ["2 Reis 15-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-17:theme-assiria",
+      "from": "chapter:2-reis:17",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente 2 Reis 15-18.",
+      "references": ["2 Reis 15-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-17:theme-samaria",
+      "from": "chapter:2-reis:17",
+      "to": "theme:samaria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Samaria” cita explicitamente 2 Reis 17.",
+      "references": ["2 Reis 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-18:theme-assiria",
+      "from": "chapter:2-reis:18",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente 2 Reis 15-18.",
+      "references": ["2 Reis 15-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-24:theme-babilonia",
+      "from": "chapter:2-reis:24",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-24:theme-jerusalem",
+      "from": "chapter:2-reis:24",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-25:theme-babilonia",
+      "from": "chapter:2-reis:25",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-reis-25:theme-jerusalem",
+      "from": "chapter:2-reis:25",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente 2 Reis 24-25.",
+      "references": ["2 Reis 24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

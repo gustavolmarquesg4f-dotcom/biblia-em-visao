@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "book": "Miqueias",
+  "count": 29,
+  "chapterCount": 6,
+  "nodes": [
+    {
+      "id": "event:miqueias-a-marcha-teofanica-de-juizo",
+      "kind": "event",
+      "label": "A Marcha Teofânica de Juízo",
+      "aliases": [],
+      "summary": "Yahweh desce de Seu santo templo e pisa sobre os altos da terra, causando o derretimento dos montes e vales.",
+      "references": ["Miqueias 1:3-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstração inequívoca de que a divindade de Israel governa a geopolítica e executa juízo soberano sobre a natureza e as nações.",
+        "entities": "Yahweh, Samaria, Jerusalém"
+      }
+    },
+    {
+      "id": "event:miqueias-a-promessa-do-pastor-davidico-de-belem",
+      "kind": "event",
+      "label": "A Promessa do Pastor Davídico de Belém",
+      "aliases": [],
+      "summary": "Anúncio do surgimento de um líder soberano vindo da humilde Belém cujas origines remontam à eternidade.",
+      "references": ["Miqueias 5:1-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelecimento da esperança messiânica e garantia de proteção contra a ameaça assíria e opressões futuras.",
+        "entities": "Yahweh, Belém Efrata, O Remanescente de Jacó"
+      }
+    },
+    {
+      "id": "event:miqueias-o-anuncio-do-cerco-e-queda-de-samaria",
+      "kind": "event",
+      "label": "O Anúncio do Cerco e Queda de Samaria",
+      "aliases": [],
+      "summary": "O julgamento e a desolação irrevogável do Reino do Norte por causa de suas imagens esculpidas e pecados estruturais.",
+      "references": ["Miqueias 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Perda da soberania de Israel e exílio assírio, servindo como advertência solene para Judá.",
+        "entities": "Miqueias de Moresete, Samaria, Yahweh"
+      }
+    },
+    {
+      "id": "event:miqueias-o-pleito-judicial-rib-de-yahweh-no-monte",
+      "kind": "event",
+      "label": "O Pleito Judicial (Rib) de Yahweh no Monte",
+      "aliases": [],
+      "summary": "Deus convoca os montes e colinas como testemunhas em um tribunal cósmico contra a ingratidão e formalismo ritual de Seu povo.",
+      "references": ["Miqueias 6:1-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Redefinição radical da religião bíblica centrada não em sacrifícios rituais extremos (como holocaustos de milhares de carneiros), mas em justiça (mishpat), misericórdia (chesed) e comunhão humilde com Deus.",
+        "entities": "Yahweh, O Remanescente de Jacó"
+      }
+    },
+    {
+      "id": "event:miqueias-o-profeta-denuncia-a-corrupcao-institucional-em-siao",
+      "kind": "event",
+      "label": "O Profeta Denuncia a Corrupção Institucional em Sião",
+      "aliases": [],
+      "summary": "Miqueias confronta aberta e severamente os líderes civis e religiosos por construírem Sião com sangue e injustiça.",
+      "references": ["Miqueias 3:1-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Profecia direta de que o monte do templo será arado como um campo e Jerusalém virará um montão de ruínas.",
+        "entities": "Miqueias de Moresete, Príncipes e Juízes de Jacó, Sacerdotes, Falsos Profetas, Jerusalém (Sião)"
+      }
+    },
+    {
+      "id": "people-group:o-remanescente-de-jaco",
+      "kind": "people-group",
+      "label": "O Remanescente de Jacó",
+      "aliases": [],
+      "summary": "Descrito como orvalho e chuva entre as nações, agentes de transformação e força invencível purificada.",
+      "references": ["Miqueias 5:7-8; 7:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade fiel remanescente após o juízo histórico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:miqueias-de-moresete",
+      "kind": "person",
+      "label": "Miqueias de Moresete",
+      "aliases": [],
+      "summary": "Voz crítica implacável contra as elites exploradoras de Samaria e Jerusalém, anunciando tanto a ruína quanto a esperança messiânica.",
+      "references": ["Miqueias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta do século VIII a.C. originário da Sefelá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:belem-efrata",
+      "kind": "place",
+      "label": "Belém Efrata",
+      "aliases": [],
+      "summary": "Pequena aldeia de Judá escolhida como berço do futuro governante davídico.",
+      "references": ["Miqueias 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico / simbólico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:moresete-gate",
+      "kind": "place",
+      "label": "Moresete-Gate",
+      "aliases": [],
+      "summary": "Terra natal do profeta Miqueias, situada na Sefelá ocidental; foco de pranto e lamento no livro.",
+      "references": ["Miqueias 1:1, 14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:sefela",
+      "kind": "place",
+      "label": "Sefelá",
+      "aliases": [],
+      "summary": "Faixa de colinas e vales férteis entre as montanhas da Judeia e a planície costeira, severamente afetada pelas invasões.",
+      "references": ["Obadias 1:19", "Miqueias 1:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:amos-amos-5-21-24-odeio-desprezo-as-vossas-festas",
+      "kind": "prophecy",
+      "label": "Amós 5:21-24 (\"Odeio, desprezo as vossas festas...\")",
+      "aliases": [],
+      "summary": "Estabelece o cânone profético clássico contra o ritualismo vazio, influenciando toda a tradição profética pré-exílica.",
+      "references": ["Isaías 1:11-17; Miqueias 6:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo de contraste ético" }
+    },
+    {
+      "id": "prophecy:rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto",
+      "kind": "prophecy",
+      "label": "Rute 4:14-15 (O resgate de Noemi e a restauração pelo neto)",
+      "aliases": [],
+      "summary": "A figura do redentor familiar (go'el) e o nascimento do ancestral davídico em Belém funcionam como protótipo tipológico da redenção messiânica que emanará de Belém.",
+      "references": ["Salmos 72; Isaías 9:6-7; Miqueias 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "term:mishpat",
+      "kind": "term",
+      "label": "Mishpat",
+      "aliases": ["מִשְׁפָּט", "mišpāṭ"],
+      "summary": "Juízo, decisão, direito ou ordem justa que regula relações e protege a vida comunitária.",
+      "references": ["Êx 21:1", "Am 5:24", "Mq 6:8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mishpat"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Pode designar um caso decidido, uma norma, a administração da justiça ou o juízo de Deus sobre uma sociedade.",
+        "translationNote": "‘Justiça’ e ‘juízo’ cobrem partes do campo semântico; o leitor deve perguntar se o texto trata de tribunal, ordem social ou ação divina."
+      }
+    },
+    {
+      "id": "theme:a-sefela",
+      "kind": "theme",
+      "label": "A Sefelá",
+      "aliases": [],
+      "summary": "Terra natal de Miqueias, duramente atingida pelas campanhas militares assírias documentadas no livro.",
+      "references": ["Miqueias 1:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região de transição de colinas baixas na Judeia",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:belem-efrata",
+      "kind": "theme",
+      "label": "Belém Efrata",
+      "aliases": [],
+      "summary": "Local geográfico humilde designado como berço do futuro governante soberano de Israel.",
+      "references": ["Miqueias 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Aldeia natal da linhagem davídica",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:falsos-profetas",
+      "kind": "theme",
+      "label": "Falsos Profetas",
+      "aliases": [],
+      "summary": "Pregam paz e prosperidade mediante suborno alimentado por estômagos cheios, corrompendo a verdadeira palavra profética.",
+      "references": ["Miqueias 3:5, 11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profetas cortesãos e mercenários",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:jerusalem-siao",
+      "kind": "theme",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Centro religioso e político acusado de corrupção sistêmica, destinado à ruína temporária, mas também epicentro da futura exaltação escatológica.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital do Reino do Sul (Judá)",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:principes-e-juizes-de-jaco",
+      "kind": "theme",
+      "label": "Príncipes e Juízes de Jacó",
+      "aliases": [],
+      "summary": "Acusados de odiar o bem e amar o mal, arrancando a pele do povo e comercializando a justiça em benefício próprio.",
+      "references": ["Miqueias 3:1-3, 9-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança civil e judicial de Israel e Judá",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:samaria",
+      "kind": "theme",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Alvo primário do julgamento divino por sua idolatria institucional e alianças geopolíticas predatórias.",
+      "references": ["2 Reis 17", "Miqueias 1:1, 6-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital do Reino do Norte (Israel)",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:yahweh",
+      "kind": "theme",
+      "label": "Yahweh",
+      "aliases": [],
+      "summary": "O Criador que governa as nações, levanta impérios e responde às lamentações humanas segundo sua justiça e santidade inegociáveis.",
+      "references": [
+        "Gên 17; Lv 11:44; Ap 21",
+        "Juízes 2:1-5; 6:14",
+        "Miqueias 1:2-3; 6:1-8; 7:18-20",
+        "Hab 1:12; 2:20; 3:3"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano da história",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-miqueias-a-marcha-teofanica-de-juizo:chapter-miqueias-1",
+      "from": "event:miqueias-a-marcha-teofanica-de-juizo",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Marcha Teofânica de Juízo” cita explicitamente Miqueias 1:3-5.",
+      "references": ["Miqueias 1:3-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-miqueias-a-promessa-do-pastor-davidico-de-belem:chapter-miqueias-5",
+      "from": "event:miqueias-a-promessa-do-pastor-davidico-de-belem",
+      "to": "chapter:miqueias:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Promessa do Pastor Davídico de Belém” cita explicitamente Miqueias 5:1-6.",
+      "references": ["Miqueias 5:1-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-miqueias-o-anuncio-do-cerco-e-queda-de-samaria:chapter-miqueias-1",
+      "from": "event:miqueias-o-anuncio-do-cerco-e-queda-de-samaria",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Anúncio do Cerco e Queda de Samaria” cita explicitamente Miqueias 1.",
+      "references": ["Miqueias 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-miqueias-o-pleito-judicial-rib-de-yahweh-no-monte:chapter-miqueias-6",
+      "from": "event:miqueias-o-pleito-judicial-rib-de-yahweh-no-monte",
+      "to": "chapter:miqueias:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Pleito Judicial (Rib) de Yahweh no Monte” cita explicitamente Miqueias 6:1-8.",
+      "references": ["Miqueias 6:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-miqueias-o-profeta-denuncia-a-corrupcao-institucional-em-siao:chapter-miqueias-3",
+      "from": "event:miqueias-o-profeta-denuncia-a-corrupcao-institucional-em-siao",
+      "to": "chapter:miqueias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Profeta Denuncia a Corrupção Institucional em Sião” cita explicitamente Miqueias 3:1-12.",
+      "references": ["Miqueias 3:1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-o-remanescente-de-jaco:chapter-miqueias-5",
+      "from": "people-group:o-remanescente-de-jaco",
+      "to": "chapter:miqueias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Remanescente de Jacó” cita explicitamente Miqueias 5:7-8; 7:18.",
+      "references": ["Miqueias 5:7-8; 7:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-o-remanescente-de-jaco:chapter-miqueias-7",
+      "from": "people-group:o-remanescente-de-jaco",
+      "to": "chapter:miqueias:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Remanescente de Jacó” cita explicitamente Miqueias 5:7-8; 7:18.",
+      "references": ["Miqueias 5:7-8; 7:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-miqueias-de-moresete:chapter-miqueias-1",
+      "from": "person:miqueias-de-moresete",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias de Moresete” cita explicitamente Miqueias 1:1.",
+      "references": ["Miqueias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-belem-efrata:chapter-miqueias-5",
+      "from": "place:belem-efrata",
+      "to": "chapter:miqueias:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Belém Efrata” cita explicitamente Miqueias 5:2.",
+      "references": ["Miqueias 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-miqueias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-miqueias-3",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:miqueias:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-miqueias-4",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:miqueias:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-moresete-gate:chapter-miqueias-1",
+      "from": "place:moresete-gate",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Moresete-Gate” cita explicitamente Miqueias 1:1, 14.",
+      "references": ["Miqueias 1:1, 14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-miqueias-1",
+      "from": "place:samaria",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Miqueias 1:1, 6.",
+      "references": ["Miqueias 1:1, 6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sefela:chapter-miqueias-1",
+      "from": "place:sefela",
+      "to": "chapter:miqueias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sefelá” cita explicitamente Miqueias 1:12-14.",
+      "references": ["Miqueias 1:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-5-21-24-odeio-desprezo-as-vossas-festas:chapter-miqueias-6",
+      "from": "prophecy:amos-amos-5-21-24-odeio-desprezo-as-vossas-festas",
+      "to": "chapter:miqueias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 5:21-24 (\"Odeio, desprezo as vossas festas...\")” cita explicitamente Isaías 1:11-17; Miqueias 6:6-8.",
+      "references": ["Isaías 1:11-17; Miqueias 6:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto:chapter-miqueias-5",
+      "from": "prophecy:rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto",
+      "to": "chapter:miqueias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 4:14-15 (O resgate de Noemi e a restauração pelo neto)” cita explicitamente Salmos 72; Isaías 9:6-7; Miqueias 5:2.",
+      "references": ["Salmos 72; Isaías 9:6-7; Miqueias 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-1:theme-a-sefela",
+      "from": "chapter:miqueias:1",
+      "to": "theme:a-sefela",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Sefelá” cita explicitamente Miqueias 1:12-14.",
+      "references": ["Miqueias 1:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-1:theme-jerusalem-siao",
+      "from": "chapter:miqueias:1",
+      "to": "theme:jerusalem-siao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-1:theme-samaria",
+      "from": "chapter:miqueias:1",
+      "to": "theme:samaria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Samaria” cita explicitamente Miqueias 1:1, 6-7.",
+      "references": ["Miqueias 1:1, 6-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-1:theme-yahweh",
+      "from": "chapter:miqueias:1",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Miqueias 1:2-3; 6:1-8; 7:18-20.",
+      "references": ["Miqueias 1:2-3; 6:1-8; 7:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-3:theme-falsos-profetas",
+      "from": "chapter:miqueias:3",
+      "to": "theme:falsos-profetas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Falsos Profetas” cita explicitamente Miqueias 3:5, 11.",
+      "references": ["Miqueias 3:5, 11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-3:theme-jerusalem-siao",
+      "from": "chapter:miqueias:3",
+      "to": "theme:jerusalem-siao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-3:theme-principes-e-juizes-de-jaco",
+      "from": "chapter:miqueias:3",
+      "to": "theme:principes-e-juizes-de-jaco",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Príncipes e Juízes de Jacó” cita explicitamente Miqueias 3:1-3, 9-11.",
+      "references": ["Miqueias 3:1-3, 9-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-4:theme-jerusalem-siao",
+      "from": "chapter:miqueias:4",
+      "to": "theme:jerusalem-siao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Miqueias 1:5; 3:12; 4:1-2.",
+      "references": ["Miqueias 1:5; 3:12; 4:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-5:theme-belem-efrata",
+      "from": "chapter:miqueias:5",
+      "to": "theme:belem-efrata",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Belém Efrata” cita explicitamente Miqueias 5:2.",
+      "references": ["Miqueias 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-6:theme-yahweh",
+      "from": "chapter:miqueias:6",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Miqueias 1:2-3; 6:1-8; 7:18-20.",
+      "references": ["Miqueias 1:2-3; 6:1-8; 7:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-miqueias-7:theme-yahweh",
+      "from": "chapter:miqueias:7",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Miqueias 1:2-3; 6:1-8; 7:18-20.",
+      "references": ["Miqueias 1:2-3; 6:1-8; 7:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-miqueias-6:term-mishpat",
+      "from": "chapter:miqueias:6",
+      "to": "term:mishpat",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Mishpat” cita explicitamente Mq 6:8.",
+      "references": ["Mq 6:8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

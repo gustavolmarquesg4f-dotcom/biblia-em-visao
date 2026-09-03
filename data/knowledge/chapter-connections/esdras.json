@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "book": "Esdras",
+  "count": 56,
+  "chapterCount": 10,
+  "nodes": [
+    {
+      "id": "event:esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos",
+      "kind": "event",
+      "label": "A Grande Assembleia e Anulação dos Casamentos Mistos",
+      "aliases": [],
+      "summary": "Esdras rasga suas vestes em luto pelo pecado de exogamia; o povo se reúne na praça sob chuva e estabelece uma comissão para dissolver os casamentos mistos.",
+      "references": ["Esdras Esdras 9–10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Purificação étnico-religiosa drástica da comunidade, consolidando o separatismo judaico.",
+        "entities": "Esdras, Assembleia, Homens de Judá e Benjamim"
+      }
+    },
+    {
+      "id": "event:esdras-a-viagem-de-esdras-de-babilonia-a-jerusalem",
+      "kind": "event",
+      "label": "A Viagem de Esdras de Babilônia a Jerusalém",
+      "aliases": [],
+      "summary": "Esdras lidera um segundo grupo de repatriados, priorizando a confiança em Deus sem escolta militar oficial.",
+      "references": ["Esdras Esdras 7–8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Chegada segura a Jerusalém e entrega das ofertas sagradas para o culto.",
+        "entities": "Esdras, Artaxerxes I, Levitas, Exilados"
+      }
+    },
+    {
+      "id": "event:esdras-fundacao-do-altar-e-retomada-dos-sacrificios",
+      "kind": "event",
+      "label": "Fundação do Altar e Retomada dos Sacrifícios",
+      "aliases": [],
+      "summary": "Sob Zorobabel e Jesua, o altar de YHWH é reconstruído e os holocaustos diários são restabelecidos.",
+      "references": ["Esdras Esdras 3.1–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Restauração formal do culto público antes mesmo da fundação do edifício do Templo.",
+        "entities": "Zorobabel, Jesua, Sacerdotes, Levitas"
+      }
+    },
+    {
+      "id": "event:esdras-interrupcao-e-retomada-das-obras-do-templo",
+      "kind": "event",
+      "label": "Interrupção e Retomada das Obras do Templo",
+      "aliases": [],
+      "summary": "Obras paralisadas devido a intrigas dos adversários e cartas a Artaxerxes, mas retomadas e concluídas sob Dario após a consulta aos arquivos de Ecbatana.",
+      "references": ["Esdras Esdras 4–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conclusão bem-sucedida do Segundo Templo e celebração da Páscoa.",
+        "entities": "Tatenai, Dario I, Zorobabel, Profetas Ageu e Zacarias"
+      }
+    },
+    {
+      "id": "event:esdras-o-decreto-de-ciro-e-a-permissao-de-retorno",
+      "kind": "event",
+      "label": "O Decreto de Ciro e a Permissão de Retorno",
+      "aliases": [],
+      "summary": "Ciro emite decreto real permitindo e patrocinando a reconstrução do Templo em Jerusalém.",
+      "references": ["Esdras Esdras 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Início oficial do período de restauração pós-exílica e cumprimento profético de Jeremias.",
+        "entities": "Ciro II da Pérsia, Exilados judeus, Mitredate"
+      }
+    },
+    {
+      "id": "people-group:povos-da-terra-am-haaretz",
+      "kind": "people-group",
+      "label": "Povos da Terra (Am_haaretz)",
+      "aliases": [],
+      "summary": "Representam o perigo constante de sincretismo religioso e contaminação cultural da identidade pós-exílica.",
+      "references": ["Esdras 4.1–4; 9.1–2; 10.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Populações locais da Judéia e províncias vizinhas (incluindo samaritanos) que antagonizam os judeus.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:ageu",
+      "kind": "person",
+      "label": "Ageu",
+      "aliases": [],
+      "summary": "Porta-voz de Iahweh cujo ministério durou cerca de quatro meses no ano 520 a.C., encarregado de exortar a comunidade a reconstruir o Templo.",
+      "references": ["Ageu 1:1; Esdras 5:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Profeta pós-exílico", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:artaxerxes-i",
+      "kind": "person",
+      "label": "Artaxerxes I",
+      "aliases": [],
+      "summary": "Soberano aquemênida que concede autorização, salvo-conduto e madeira para a reconstrução de Jerusalém e nomeia Neemias como governador.",
+      "references": ["Esdras 7.1, 7, 11, 21", "Neemias 2:1; 5:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei da Pérsia", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:ciro-ii-da-persia",
+      "kind": "person",
+      "label": "Ciro II da Pérsia",
+      "aliases": [],
+      "summary": "Instrumento da providência divina na profecia de Isaías, demonstrando o domínio de YHWH sobre os impérios gentílicos.",
+      "references": ["2Cr 36:22-23", "Esdras 1.1–8; 6.3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei persa que emite o decreto permitindo o retorno dos judeus e a reconstrução do Templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:dario-i",
+      "kind": "person",
+      "label": "Dario I",
+      "aliases": [],
+      "summary": "Soberano cujo segundo ano de reinado marcou o marco cronológico dos oráculos de Ageu e cuja administração permitiu a continuação das obras do Templo.",
+      "references": ["Ageu 1:1; Esdras 4:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Imperador do Império Persa (Dario Histaspes)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:esdras",
+      "kind": "person",
+      "label": "Esdras",
+      "aliases": ["Esdras"],
+      "summary": "Esdras é apresentado como um **sacerdote e escriba versado na Lei de Moisés** (*sōpēr māhîr*), enviado de Babilônia para Jerusalém durante o reinado do rei persa Artaxerxes I (c. 458 a.C.). Sua missão central consistiu em reordenar a comunidade pós-exílica com base na Torá, ensinando os estatutos divinos, combatendo casamentos mistos com povos vizinhos (que ameaçavam a identidade religiosa de Israel) e promovendo reformas cultuais e sociais profundas descritas nos livros de **Esdras e Neemias** (historicamente tratados como uma obra única na tradição judaica antiga, a *História Crônica*).",
+      "references": ["Esdras 7.1–6, 11–12; 10.1–5", "Neemias 8:1; 8:9; 12:36"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-esdras"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sacerdote e escriba",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jesua-josue-o-sumo-sacerdote",
+      "kind": "person",
+      "label": "Jesua (Josué) o Sumo Sacerdote",
+      "aliases": [],
+      "summary": "Representa o pilar sacerdotal essencial na nova ordem pós-exílica, onde a liderança dual (civil e religiosa) é exercida.",
+      "references": ["Esdras 3.2, 8; 4.3; 5.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sumo sacerdote que co-lidera com Zorobabel a restauração do altar e do culto.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josue-o-sumo-sacerdote",
+      "kind": "person",
+      "label": "Josué, o Sumo Sacerdote",
+      "aliases": ["Josué, o Sumo Sacerdote"],
+      "summary": "Josué (hebraico: *Yēšūa‘*, forma abreviada de *Yehōšūa‘*), filho de Josadaque, foi o primeiro sumo sacerdote da comunidade judaica repatriada após o cativeiro babilônico. Juntamente com o governador Zorobabel, Josué desempenhou o papel central na reinstalação do altar dos holocaustos, na retomada dos sacrifícios rituais e na supervisão da reconstrução do Segundo Templo. Nas visões do profeta Zacarias, Josué aparece investido de vestes sacerdotais manchadas, simbolizando a purificação de Israel, e coroado simbolicamente como figura de autoridade cultual em co-liderança com o ramo davídico.",
+      "references": [
+        "**Zacarias 3:1-3**: *\"E ele me mostrou o sumo sacerdote Josué, o qual estava em pé diante do anjo do Senhor, e Satanás estava à sua mão direita, para o resistir... Ora, Josué, vestido de vestes sujas, estava em pé diante do anjo.\"*",
+        "**Zacarias 6:11-12**: *\"Toma prata e ouro, e faze coroas, e põe-nas na cabeça do sumo sacerdote Josué, filho de Josadaque, e dize-lhe: Assim fala o Senhor dos Exércitos, dizendo: Eis aqui o homem cujo nome é Renovo...\"*",
+        "**Esdras 5:2**: *\"Então se levantaram Zorobabel, filho de Salatiel, e Josué, filho de Josadaque, e começaram a edificar a casa de Deus...\"*",
+        "Zacarias 3:1-9, 6:11-13"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-josue-o-sumo-sacerdote"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Zacarias%203%3A1-3**%3A%20*%22E%20ele%20me%20mostrou%20o%20sumo%20sacerdote%20Josu%C3%A9%2C%20o%20qual%20estava%20em%20p%C3%A9%20diante%20do%20anjo%20do%20Senhor%2C%20e%20Satan%C3%A1s%20estava%20%C3%A0%20sua%20m%C3%A3o%20direita%2C%20para%20o%20resistir...%20Ora%2C%20Josu%C3%A9%2C%20vestido%20de%20vestes%20sujas%2C%20estava%20em%20p%C3%A9%20diante%20do%20anjo.%22*%3B%20**Zacarias%206%3A11-12**%3A%20*%22Toma%20prata%20e%20ouro%2C%20e%20faze%20coroas%2C%20e%20p%C3%B5e-nas%20na%20cabe%C3%A7a%20do%20sumo%20sacerdote%20Josu%C3%A9%2C%20filho%20de%20Josadaque%2C%20e%20dize-lhe%3A%20Assim%20fala%20o%20Senhor%20dos%20Ex%C3%A9rcitos%2C%20dizendo%3A%20Eis%20aqui%20o%20homem%20cujo%20nome%20%C3%A9%20Renovo...%22*%3B%20**Esdras%205%3A2**%3A%20*%22Ent%C3%A3o%20se%20levantaram%20Zorobabel%2C%20filho%20de%20Salatiel%2C%20e%20Josu%C3%A9%2C%20filho%20de%20Josadaque%2C%20e%20come%C3%A7aram%20a%20edificar%20a%20casa%20de%20Deus...%22*&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Sumo Sacerdote",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tatenai-e-chefes-da-provincia-alem-do-eufrates",
+      "kind": "person",
+      "label": "Tatenai e chefes da província além do Eufrates",
+      "aliases": [],
+      "summary": "Personificam a vigilância burocrática e os obstáculos administrativos que a comunidade judaica precisa superar diplomaticamente.",
+      "references": ["Esdras 5.3, 6; 6.6, 13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Funcionários imperiais persas que investigam e questionam a legalidade das obras do templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zorobabel",
+      "kind": "person",
+      "label": "Zorobabel",
+      "aliases": ["Zorobabel"],
+      "summary": "Zorobabel (hebraico: *Zĕrubbābel*, \"semente de Babilônia\") foi um líder político e governador (*pachah*) de Judá no final do século VI a.C. Descendente direto da casa real de Davi (neto do rei Jeoaquim ou Jeconias, conforme as genealogias em 1 Crônicas 3:19 e Mateus 1:12-13), Zorobabel emergiu como a figura central do primeiro grande retorno dos exilados babilônicos sob o decreto inicial do rei persa Ciro II (Ciro, o Grande), emitido em 538 a.C. Junto com o sumo sacerdote Josué (Jeshua), ele liderou a repatriação de dezenas de milhares de judeus e assumiu a responsabilidade primária pela restauração do culto cultual em Jerusalém e pela reconstrução do Templo, que culminou na consagração do Segundo Templo em c. 516 a.C.",
+      "references": [
+        "**Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*",
+        "**Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*",
+        "**Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*",
+        "Ageu 1:1, 14; 2:2, 21-23; Esdras 3:2",
+        "Zacarias 4:6-9"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-zorobabel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Esdras%203%3A2-3**%3A%20*%22Ent%C3%A3o%20se%20levantou%20Josu%C3%A9%2C%20o%20filho%20de%20Josadaque%2C%20e%20seus%20irm%C3%A3os%2C%20os%20sacerdotes%2C%20e%20Zorobabel%2C%20o%20filho%20de%20Salatiel%2C%20e%20seus%20irm%C3%A3os%2C%20e%20edificaram%20o%20altar%20do%20Deus%20de%20Israel...%22*%3B%20**Ageu%202%3A4**%3A%20*%22Ora%2C%20pois%2C%20esfor%C3%A7a-te%2C%20%C3%B3%20Zorobabel%2C%20diz%20o%20Senhor%2C%20e%20esfor%C3%A7a-te%2C%20%C3%B3%20Josu%C3%A9%2C%20sumo%20sacerdote%2C%20e%20esfor%C3%A7a-te%20todo%20o%20povo%20da%20terra%2C%20diz%20o%20Senhor%2C%20e%20trabalhai%3B%20porque%20eu%20sou%20convosco%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%22*%3B%20**Zacarias%204%3A6-7**%3A%20*%22Esta%20%C3%A9%20a%20palavra%20do%20Senhor%20a%20Zorobabel%3A%20N%C3%A3o%20por%20for%C3%A7a%20nem%20por%20viol%C3%AAncia%2C%20mas%20pelo%20meu%20Esp%C3%ADrito%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%20Quem%20%C3%A9s%20tu%2C%20%C3%B3%20grande%20monte%3F%20Diante%20de%20Zorobabel%20ser%C3%A1s%20uma%20plan%C3%ADcie...%22*&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Governador de Judá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zorobabel-shesbazar",
+      "kind": "person",
+      "label": "Zorobabel (Shesbazar)",
+      "aliases": [],
+      "summary": "Símbolo da continuidade messiânica davídica em meio à restauração teocrática e sacerdotal.",
+      "references": ["Esdras 2.2; 3.2–8; 4.2–3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Príncipe da casa de Davi e governador que lidera o primeiro retorno e o início da reconstrução do Templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-provincia-alem-do-eufrates-trans-efrates",
+      "kind": "place",
+      "label": "A Província além do Eufrates (Trans-Éfrates)",
+      "aliases": [],
+      "summary": "Região administrativa persa governada por oficiais que fiscalizam e intervêm nas obras judaicas.",
+      "references": ["Esdras 4.10, 16; 5.3; 6.13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "disputado" }
+    },
+    {
+      "id": "place:babilonia-e-susa-ecbatana",
+      "kind": "place",
+      "label": "Babilônia (e Susa / Ecbatana)",
+      "aliases": [],
+      "summary": "Centro imperial e local de residência da diáspora judaica de onde partem os contingentes de retorno.",
+      "references": ["Esdras 1.1; 7.6; 6.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerusalem-cidade-santa",
+      "kind": "place",
+      "label": "Jerusalém (Cidade Santa)",
+      "aliases": [],
+      "summary": "O epicentro cultual e político da restauração, foco da reconstrução das muralhas e do templo.",
+      "references": ["Esdras 1.2; 2.1; 3.1; 7.7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:o-monte-siao-local-do-templo",
+      "kind": "place",
+      "label": "O Monte Sião / Local do Templo",
+      "aliases": [],
+      "summary": "O lugar da habitação de YHWH, onde o altar e o santuário são reerguidos.",
+      "references": ["Esdras 3.3; 5.2; 6.3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:o-rio-aava",
+      "kind": "place",
+      "label": "O Rio Aava",
+      "aliases": [],
+      "summary": "Ponto de acampamento e jejum preparatório para a segunda expedição liderada por Esdras.",
+      "references": ["Esdras 8.15, 21, 31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1",
+      "kind": "prophecy",
+      "label": "O Edito de Ciro e a Restauração (2Cr 36:22-23 / Is 44:28 - 45:1)",
+      "aliases": [],
+      "summary": "Visto como o cumprimento histórico da profecia de Isaías sobre o ungüento persa, avaliado criticamente como legitimação política da política imperial aquemênida.",
+      "references": ["Esd 1, Is 45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:esdras-a-gloria-da-segunda-casa",
+      "kind": "prophecy",
+      "label": "A glória da segunda casa",
+      "aliases": [],
+      "summary": "A conclusão do templo sob Dario é vista sob a ótica das exortações dos profetas contemporâneos Ageu e Zacarias.",
+      "references": ["Ageu 2.9; Esdras 6.14–15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / escatologia" }
+    },
+    {
+      "id": "prophecy:esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao",
+      "kind": "prophecy",
+      "label": "A pureza da semente santa e o repúdio à profanação",
+      "aliases": [],
+      "summary": "Conexão temática direta com a crítica de Malaquias aos casamentos mistos e à infidelidade na aliança.",
+      "references": ["Malaquias 2.11–12; Esdras 9.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / ética da aliança" }
+    },
+    {
+      "id": "prophecy:esdras-o-decreto-de-libertacao-por-ciro",
+      "kind": "prophecy",
+      "label": "O decreto de libertação por Ciro",
+      "aliases": [],
+      "summary": "Cumprimento literal da profecia de Isaías sobre Ciro nomeado como pastor e ungido de YHWH, debatido entre cumprimento preditivo exato e ex-eventu.",
+      "references": ["Isaías 44.28; 45.1; Esdras 1.1–3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / cumprimento histórico" }
+    },
+    {
+      "id": "prophecy:esdras-o-fim-do-cativeiro-apos-70-anos",
+      "kind": "prophecy",
+      "label": "O fim do cativeiro após 70 anos",
+      "aliases": [],
+      "summary": "Esdras enquadra o retorno como cumprimento direto do limite temporal profético estabelecido por Jeremias.",
+      "references": ["Jeremias 25.11–12; 29.10; Esdras 1.1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / cumprimento histórico" }
+    },
+    {
+      "id": "theme:a-assembleia-qahal",
+      "kind": "theme",
+      "label": "A Assembleia (Qahal)",
+      "aliases": [],
+      "summary": "Sujeito coletivo da aliança, responsável por assumir a culpa e restaurar a obediência comunitária.",
+      "references": ["Esdras 10.1, 8, 12, 14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O corpo corporativo dos exilados retornados que ratifica o pacto e a separação dos povos estranhos.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:a-tora-livro-da-lei-de-moises",
+      "kind": "theme",
+      "label": "A Torá (Livro da Lei de Moisés)",
+      "aliases": [],
+      "summary": "A autoridade suprema que define a identidade, a ética e a separação de Israel no pós-exílio.",
+      "references": ["Esdras 6.18; 7.6, 14, 26; 10.3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Código normativo divino que serve como constituição civil e religiosa da comunidade restaurada.",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:os-levitas-e-sacerdotes",
+      "kind": "theme",
+      "label": "Os Levitas e Sacerdotes",
+      "aliases": [],
+      "summary": "Garantes da santidade ritual e intermediários entre a comunidade e YHWH.",
+      "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Corpo sacerdotal responsável pelo ensino da Torá, purificação e condução do culto no templo.",
+        "entityType": "Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos:chapter-esdras-10",
+      "from": "event:esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos",
+      "to": "chapter:esdras:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Grande Assembleia e Anulação dos Casamentos Mistos” cita explicitamente Esdras Esdras 9–10.",
+      "references": ["Esdras Esdras 9–10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos:chapter-esdras-9",
+      "from": "event:esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos",
+      "to": "chapter:esdras:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Grande Assembleia e Anulação dos Casamentos Mistos” cita explicitamente Esdras Esdras 9–10.",
+      "references": ["Esdras Esdras 9–10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-a-viagem-de-esdras-de-babilonia-a-jerusalem:chapter-esdras-7",
+      "from": "event:esdras-a-viagem-de-esdras-de-babilonia-a-jerusalem",
+      "to": "chapter:esdras:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Viagem de Esdras de Babilônia a Jerusalém” cita explicitamente Esdras Esdras 7–8.",
+      "references": ["Esdras Esdras 7–8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-a-viagem-de-esdras-de-babilonia-a-jerusalem:chapter-esdras-8",
+      "from": "event:esdras-a-viagem-de-esdras-de-babilonia-a-jerusalem",
+      "to": "chapter:esdras:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Viagem de Esdras de Babilônia a Jerusalém” cita explicitamente Esdras Esdras 7–8.",
+      "references": ["Esdras Esdras 7–8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-fundacao-do-altar-e-retomada-dos-sacrificios:chapter-esdras-3",
+      "from": "event:esdras-fundacao-do-altar-e-retomada-dos-sacrificios",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Fundação do Altar e Retomada dos Sacrifícios” cita explicitamente Esdras Esdras 3.1–6.",
+      "references": ["Esdras Esdras 3.1–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-interrupcao-e-retomada-das-obras-do-templo:chapter-esdras-4",
+      "from": "event:esdras-interrupcao-e-retomada-das-obras-do-templo",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Interrupção e Retomada das Obras do Templo” cita explicitamente Esdras Esdras 4–6.",
+      "references": ["Esdras Esdras 4–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-interrupcao-e-retomada-das-obras-do-templo:chapter-esdras-5",
+      "from": "event:esdras-interrupcao-e-retomada-das-obras-do-templo",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Interrupção e Retomada das Obras do Templo” cita explicitamente Esdras Esdras 4–6.",
+      "references": ["Esdras Esdras 4–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-interrupcao-e-retomada-das-obras-do-templo:chapter-esdras-6",
+      "from": "event:esdras-interrupcao-e-retomada-das-obras-do-templo",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Interrupção e Retomada das Obras do Templo” cita explicitamente Esdras Esdras 4–6.",
+      "references": ["Esdras Esdras 4–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-esdras-o-decreto-de-ciro-e-a-permissao-de-retorno:chapter-esdras-1",
+      "from": "event:esdras-o-decreto-de-ciro-e-a-permissao-de-retorno",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Decreto de Ciro e a Permissão de Retorno” cita explicitamente Esdras Esdras 1.",
+      "references": ["Esdras Esdras 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-povos-da-terra-am-haaretz:chapter-esdras-10",
+      "from": "people-group:povos-da-terra-am-haaretz",
+      "to": "chapter:esdras:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Povos da Terra (Am_haaretz)” cita explicitamente Esdras 4.1–4; 9.1–2; 10.2.",
+      "references": ["Esdras 4.1–4; 9.1–2; 10.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-povos-da-terra-am-haaretz:chapter-esdras-4",
+      "from": "people-group:povos-da-terra-am-haaretz",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Povos da Terra (Am_haaretz)” cita explicitamente Esdras 4.1–4; 9.1–2; 10.2.",
+      "references": ["Esdras 4.1–4; 9.1–2; 10.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-povos-da-terra-am-haaretz:chapter-esdras-9",
+      "from": "people-group:povos-da-terra-am-haaretz",
+      "to": "chapter:esdras:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Povos da Terra (Am_haaretz)” cita explicitamente Esdras 4.1–4; 9.1–2; 10.2.",
+      "references": ["Esdras 4.1–4; 9.1–2; 10.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ageu:chapter-esdras-5",
+      "from": "person:ageu",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu” cita explicitamente Ageu 1:1; Esdras 5:1.",
+      "references": ["Ageu 1:1; Esdras 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-artaxerxes-i:chapter-esdras-7",
+      "from": "person:artaxerxes-i",
+      "to": "chapter:esdras:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Artaxerxes I” cita explicitamente Esdras 7.1, 7, 11, 21.",
+      "references": ["Esdras 7.1, 7, 11, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-ii-da-persia:chapter-esdras-1",
+      "from": "person:ciro-ii-da-persia",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro II da Pérsia” cita explicitamente Esdras 1.1–8; 6.3.",
+      "references": ["Esdras 1.1–8; 6.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-ii-da-persia:chapter-esdras-6",
+      "from": "person:ciro-ii-da-persia",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro II da Pérsia” cita explicitamente Esdras 1.1–8; 6.3.",
+      "references": ["Esdras 1.1–8; 6.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-dario-i:chapter-esdras-4",
+      "from": "person:dario-i",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Dario I” cita explicitamente Ageu 1:1; Esdras 4:24.",
+      "references": ["Ageu 1:1; Esdras 4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-esdras:chapter-esdras-10",
+      "from": "person:esdras",
+      "to": "chapter:esdras:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esdras” cita explicitamente Esdras 7.1–6, 11–12; 10.1–5.",
+      "references": ["Esdras 7.1–6, 11–12; 10.1–5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-esdras:chapter-esdras-7",
+      "from": "person:esdras",
+      "to": "chapter:esdras:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esdras” cita explicitamente Esdras 7.1–6, 11–12; 10.1–5.",
+      "references": ["Esdras 7.1–6, 11–12; 10.1–5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesua-josue-o-sumo-sacerdote:chapter-esdras-3",
+      "from": "person:jesua-josue-o-sumo-sacerdote",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesua (Josué) o Sumo Sacerdote” cita explicitamente Esdras 3.2, 8; 4.3; 5.2.",
+      "references": ["Esdras 3.2, 8; 4.3; 5.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesua-josue-o-sumo-sacerdote:chapter-esdras-4",
+      "from": "person:jesua-josue-o-sumo-sacerdote",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesua (Josué) o Sumo Sacerdote” cita explicitamente Esdras 3.2, 8; 4.3; 5.2.",
+      "references": ["Esdras 3.2, 8; 4.3; 5.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesua-josue-o-sumo-sacerdote:chapter-esdras-5",
+      "from": "person:jesua-josue-o-sumo-sacerdote",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesua (Josué) o Sumo Sacerdote” cita explicitamente Esdras 3.2, 8; 4.3; 5.2.",
+      "references": ["Esdras 3.2, 8; 4.3; 5.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-o-sumo-sacerdote:chapter-esdras-5",
+      "from": "person:josue-o-sumo-sacerdote",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué, o Sumo Sacerdote” cita explicitamente **Esdras 5:2**: *\"Então se levantaram Zorobabel, filho de Salatiel, e Josué, filho de Josadaque, e começaram a edificar a casa de Deus...\"*.",
+      "references": [
+        "**Esdras 5:2**: *\"Então se levantaram Zorobabel, filho de Salatiel, e Josué, filho de Josadaque, e começaram a edificar a casa de Deus...\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tatenai-e-chefes-da-provincia-alem-do-eufrates:chapter-esdras-5",
+      "from": "person:tatenai-e-chefes-da-provincia-alem-do-eufrates",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tatenai e chefes da província além do Eufrates” cita explicitamente Esdras 5.3, 6; 6.6, 13.",
+      "references": ["Esdras 5.3, 6; 6.6, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tatenai-e-chefes-da-provincia-alem-do-eufrates:chapter-esdras-6",
+      "from": "person:tatenai-e-chefes-da-provincia-alem-do-eufrates",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tatenai e chefes da província além do Eufrates” cita explicitamente Esdras 5.3, 6; 6.6, 13.",
+      "references": ["Esdras 5.3, 6; 6.6, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel-shesbazar:chapter-esdras-2",
+      "from": "person:zorobabel-shesbazar",
+      "to": "chapter:esdras:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel (Shesbazar)” cita explicitamente Esdras 2.2; 3.2–8; 4.2–3.",
+      "references": ["Esdras 2.2; 3.2–8; 4.2–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel-shesbazar:chapter-esdras-3",
+      "from": "person:zorobabel-shesbazar",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel (Shesbazar)” cita explicitamente Esdras 2.2; 3.2–8; 4.2–3.",
+      "references": ["Esdras 2.2; 3.2–8; 4.2–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel-shesbazar:chapter-esdras-4",
+      "from": "person:zorobabel-shesbazar",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel (Shesbazar)” cita explicitamente Esdras 2.2; 3.2–8; 4.2–3.",
+      "references": ["Esdras 2.2; 3.2–8; 4.2–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel:chapter-esdras-3",
+      "from": "person:zorobabel",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel” cita explicitamente **Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*.",
+      "references": [
+        "**Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-alem-do-eufrates-trans-efrates:chapter-esdras-4",
+      "from": "place:a-provincia-alem-do-eufrates-trans-efrates",
+      "to": "chapter:esdras:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província além do Eufrates (Trans-Éfrates)” cita explicitamente Esdras 4.10, 16; 5.3; 6.13.",
+      "references": ["Esdras 4.10, 16; 5.3; 6.13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-alem-do-eufrates-trans-efrates:chapter-esdras-5",
+      "from": "place:a-provincia-alem-do-eufrates-trans-efrates",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província além do Eufrates (Trans-Éfrates)” cita explicitamente Esdras 4.10, 16; 5.3; 6.13.",
+      "references": ["Esdras 4.10, 16; 5.3; 6.13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-alem-do-eufrates-trans-efrates:chapter-esdras-6",
+      "from": "place:a-provincia-alem-do-eufrates-trans-efrates",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província além do Eufrates (Trans-Éfrates)” cita explicitamente Esdras 4.10, 16; 5.3; 6.13.",
+      "references": ["Esdras 4.10, 16; 5.3; 6.13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia-e-susa-ecbatana:chapter-esdras-1",
+      "from": "place:babilonia-e-susa-ecbatana",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia (e Susa / Ecbatana)” cita explicitamente Esdras 1.1; 7.6; 6.2.",
+      "references": ["Esdras 1.1; 7.6; 6.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia-e-susa-ecbatana:chapter-esdras-6",
+      "from": "place:babilonia-e-susa-ecbatana",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia (e Susa / Ecbatana)” cita explicitamente Esdras 1.1; 7.6; 6.2.",
+      "references": ["Esdras 1.1; 7.6; 6.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia-e-susa-ecbatana:chapter-esdras-7",
+      "from": "place:babilonia-e-susa-ecbatana",
+      "to": "chapter:esdras:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia (e Susa / Ecbatana)” cita explicitamente Esdras 1.1; 7.6; 6.2.",
+      "references": ["Esdras 1.1; 7.6; 6.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa:chapter-esdras-1",
+      "from": "place:jerusalem-cidade-santa",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa)” cita explicitamente Esdras 1.2; 2.1; 3.1; 7.7.",
+      "references": ["Esdras 1.2; 2.1; 3.1; 7.7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa:chapter-esdras-2",
+      "from": "place:jerusalem-cidade-santa",
+      "to": "chapter:esdras:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa)” cita explicitamente Esdras 1.2; 2.1; 3.1; 7.7.",
+      "references": ["Esdras 1.2; 2.1; 3.1; 7.7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa:chapter-esdras-3",
+      "from": "place:jerusalem-cidade-santa",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa)” cita explicitamente Esdras 1.2; 2.1; 3.1; 7.7.",
+      "references": ["Esdras 1.2; 2.1; 3.1; 7.7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa:chapter-esdras-7",
+      "from": "place:jerusalem-cidade-santa",
+      "to": "chapter:esdras:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa)” cita explicitamente Esdras 1.2; 2.1; 3.1; 7.7.",
+      "references": ["Esdras 1.2; 2.1; 3.1; 7.7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-siao-local-do-templo:chapter-esdras-3",
+      "from": "place:o-monte-siao-local-do-templo",
+      "to": "chapter:esdras:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sião / Local do Templo” cita explicitamente Esdras 3.3; 5.2; 6.3.",
+      "references": ["Esdras 3.3; 5.2; 6.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-siao-local-do-templo:chapter-esdras-5",
+      "from": "place:o-monte-siao-local-do-templo",
+      "to": "chapter:esdras:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sião / Local do Templo” cita explicitamente Esdras 3.3; 5.2; 6.3.",
+      "references": ["Esdras 3.3; 5.2; 6.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-siao-local-do-templo:chapter-esdras-6",
+      "from": "place:o-monte-siao-local-do-templo",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sião / Local do Templo” cita explicitamente Esdras 3.3; 5.2; 6.3.",
+      "references": ["Esdras 3.3; 5.2; 6.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-rio-aava:chapter-esdras-8",
+      "from": "place:o-rio-aava",
+      "to": "chapter:esdras:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Rio Aava” cita explicitamente Esdras 8.15, 21, 31.",
+      "references": ["Esdras 8.15, 21, 31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1:chapter-esdras-1",
+      "from": "prophecy:2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Edito de Ciro e a Restauração (2Cr 36:22-23 / Is 44:28 - 45:1)” cita explicitamente Esd 1, Is 45.",
+      "references": ["Esd 1, Is 45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-a-gloria-da-segunda-casa:chapter-esdras-6",
+      "from": "prophecy:esdras-a-gloria-da-segunda-casa",
+      "to": "chapter:esdras:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A glória da segunda casa” cita explicitamente Ageu 2.9; Esdras 6.14–15.",
+      "references": ["Ageu 2.9; Esdras 6.14–15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao:chapter-esdras-9",
+      "from": "prophecy:esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao",
+      "to": "chapter:esdras:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A pureza da semente santa e o repúdio à profanação” cita explicitamente Malaquias 2.11–12; Esdras 9.2.",
+      "references": ["Malaquias 2.11–12; Esdras 9.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-decreto-de-libertacao-por-ciro:chapter-esdras-1",
+      "from": "prophecy:esdras-o-decreto-de-libertacao-por-ciro",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O decreto de libertação por Ciro” cita explicitamente Isaías 44.28; 45.1; Esdras 1.1–3.",
+      "references": ["Isaías 44.28; 45.1; Esdras 1.1–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-fim-do-cativeiro-apos-70-anos:chapter-esdras-1",
+      "from": "prophecy:esdras-o-fim-do-cativeiro-apos-70-anos",
+      "to": "chapter:esdras:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O fim do cativeiro após 70 anos” cita explicitamente Jeremias 25.11–12; 29.10; Esdras 1.1.",
+      "references": ["Jeremias 25.11–12; 29.10; Esdras 1.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-10:theme-a-assembleia-qahal",
+      "from": "chapter:esdras:10",
+      "to": "theme:a-assembleia-qahal",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Assembleia (Qahal)” cita explicitamente Esdras 10.1, 8, 12, 14.",
+      "references": ["Esdras 10.1, 8, 12, 14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-10:theme-a-tora-livro-da-lei-de-moises",
+      "from": "chapter:esdras:10",
+      "to": "theme:a-tora-livro-da-lei-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (Livro da Lei de Moisés)” cita explicitamente Esdras 6.18; 7.6, 14, 26; 10.3.",
+      "references": ["Esdras 6.18; 7.6, 14, 26; 10.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-10:theme-os-levitas-e-sacerdotes",
+      "from": "chapter:esdras:10",
+      "to": "theme:os-levitas-e-sacerdotes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas e Sacerdotes” cita explicitamente Esdras 6.18; 7.7; 8.15–30; 10.5.",
+      "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-6:theme-a-tora-livro-da-lei-de-moises",
+      "from": "chapter:esdras:6",
+      "to": "theme:a-tora-livro-da-lei-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (Livro da Lei de Moisés)” cita explicitamente Esdras 6.18; 7.6, 14, 26; 10.3.",
+      "references": ["Esdras 6.18; 7.6, 14, 26; 10.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-6:theme-os-levitas-e-sacerdotes",
+      "from": "chapter:esdras:6",
+      "to": "theme:os-levitas-e-sacerdotes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas e Sacerdotes” cita explicitamente Esdras 6.18; 7.7; 8.15–30; 10.5.",
+      "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-7:theme-a-tora-livro-da-lei-de-moises",
+      "from": "chapter:esdras:7",
+      "to": "theme:a-tora-livro-da-lei-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (Livro da Lei de Moisés)” cita explicitamente Esdras 6.18; 7.6, 14, 26; 10.3.",
+      "references": ["Esdras 6.18; 7.6, 14, 26; 10.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-7:theme-os-levitas-e-sacerdotes",
+      "from": "chapter:esdras:7",
+      "to": "theme:os-levitas-e-sacerdotes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas e Sacerdotes” cita explicitamente Esdras 6.18; 7.7; 8.15–30; 10.5.",
+      "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-esdras-8:theme-os-levitas-e-sacerdotes",
+      "from": "chapter:esdras:8",
+      "to": "theme:os-levitas-e-sacerdotes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas e Sacerdotes” cita explicitamente Esdras 6.18; 7.7; 8.15–30; 10.5.",
+      "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

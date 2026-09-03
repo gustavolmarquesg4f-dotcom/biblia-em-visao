@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "book": "Lamentações",
+  "count": 34,
+  "chapterCount": 5,
+  "nodes": [
+    {
+      "id": "people-group:nabucodonosor-caldeus",
+      "kind": "people-group",
+      "label": "Nabucodonosor / Caldeus",
+      "aliases": [],
+      "summary": "Agência geopolítica babilônica que executou o cerco militar e a deportação de Judá",
+      "references": ["Lamentações 4:12, 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O poder imperial opressor",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:nacoes-vizinhas-edom-filistia",
+      "kind": "people-group",
+      "label": "Nações Vizinhas (Edom/Filístia)",
+      "aliases": [],
+      "summary": "Povos circundantes que se alegraram com a queda de Jerusalém e zombaram de sua ruína",
+      "references": ["Lamentações 1:21, 4:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Espectadores hostis e oportunistas",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:bat-siao-filha-de-siao-jerusalem",
+      "kind": "person",
+      "label": "Bat-Sião (Filha de Sião / Jerusalém)",
+      "aliases": [],
+      "summary": "Metáfora central que encarna o sofrimento físico, a vergonha pública e o pranto inconsolável da comunidade pactual",
+      "references": ["Lamentações 1:6, 2:1-18, 4:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Personificação da cidade sitiada e destruída",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-homem-aflito",
+      "kind": "person",
+      "label": "O Homem Aflito",
+      "aliases": [],
+      "summary": "Figura representativa que articula a experiência extrema do sofrimento sob a ira e a redescoberta da esperança",
+      "references": ["Lamentações 3:1-33"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Voz lírica central do capítulo 3",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:profetas-falsos",
+      "kind": "person",
+      "label": "Profetas Falsos",
+      "aliases": [],
+      "summary": "Líderes religiosos que pregaram falsas visões e paz ilusória, falhando em denunciar o pecado",
+      "references": ["Lamentações 2:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agentes de ilusão espiritual",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:sacerdotes-e-anciaos",
+      "kind": "person",
+      "label": "Sacerdotes e Anciãos",
+      "aliases": [],
+      "summary": "Oficiais cultuais e políticos cujos caminhos profanos profanaram o santuário e provocaram a ruína",
+      "references": ["Lamentações 1:4, 2:10, 4:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança institucional caída",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:yhwh",
+      "kind": "person",
+      "label": "YHWH",
+      "aliases": [],
+      "summary": "Divindade que executa a ira justa contra os pecados de Jerusalém, mas cujas misericórdias não têm fim",
+      "references": ["Lamentações 1:5, 2:1-8, 3:22-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agente soberano do julgamento e único refúgio redentor",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:as-portas-de-jerusalem",
+      "kind": "place",
+      "label": "As Portas de Jerusalém",
+      "aliases": [],
+      "summary": "Locais tradicionais de administração da justiça, agora desolados, silenciosos e abandonados",
+      "references": ["Lamentações 1:4, 2:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "status: Geográfico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-templo-casa-de-yhwh",
+      "kind": "place",
+      "label": "O Templo (Casa de YHWH)",
+      "aliases": [],
+      "summary": "Santuário central onde habitava a glória divina, entregue à devastação e ao fogo",
+      "references": ["Lamentações 1:10, 2:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "status: Geográfico e Simbólico" }
+    },
+    {
+      "id": "place:terra-de-uz-nacoes-exilicas",
+      "kind": "place",
+      "label": "Terra de Uz / Nações Exílicas",
+      "aliases": [],
+      "summary": "Espaços de dispersão e cativeiro onde o povo de Judá experimenta o opróbrio entre os gentios",
+      "references": ["Lamentações 4:22, 5:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "status: Geográfico e Simbólico" }
+    },
+    {
+      "id": "prophecy:lamentacoes-deuteronomio-28-49-57-a-maldicao-do-cerco-e-do-canibalismo",
+      "kind": "prophecy",
+      "label": "Deuteronômio 28:49-57 (A maldição do cerco e do canibalismo)",
+      "aliases": [],
+      "summary": "como as interpretações divergem: Cumprimento histórico exato das advertências da aliança mosaica versus leitura puramente retroprojetada pós-evento.",
+      "references": ["textos relacionados: Lamentações 2:20, 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipo: Oráculo e Cumprimento" }
+    },
+    {
+      "id": "prophecy:lamentacoes-isaias-51-17-23-o-calice-da-furia-de-yhwh",
+      "kind": "prophecy",
+      "label": "Isaías 51:17-23 (O cálice da fúria de YHWH)",
+      "aliases": [],
+      "summary": "como as interpretações divergem: A transição do cálice de juízo de Jerusalém para Edom como padrão escatológico e retributivo.",
+      "references": ["textos relacionados: Lamentações 4:21-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipo: Tipologia" }
+    },
+    {
+      "id": "prophecy:lamentacoes-jeremias-19-8-25-9-11-a-desolacao-de-jerusalem",
+      "kind": "prophecy",
+      "label": "Jeremias 19:8 / 25:9-11 (A desolação de Jerusalém)",
+      "aliases": [],
+      "summary": "como as interpretações divergem: Ligação direta entre o profeta e o texto consolida a autoria tradicional, enquanto críticos veem redação deuteronômica posterior.",
+      "references": ["textos relacionados: Lamentações 1:15, 2:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipo: Alusão e Cumprimento" }
+    },
+    {
+      "id": "prophecy:lamentacoes-miqueias-3-12-siao-sera-lavrada-como-um-campo",
+      "kind": "prophecy",
+      "label": "Miqueias 3:12 (\"Sião será lavrada como um campo\")",
+      "aliases": [],
+      "summary": "como as interpretações divergem: Realização histórica incontroversa da profecia de Miqueias atestando a veracidade da palavra profética.",
+      "references": ["textos relacionados: Lamentações 2:2, 5:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipo: Oráculo e Cumprimento" }
+    },
+    {
+      "id": "theme:o-templo",
+      "kind": "theme",
+      "label": "O Templo",
+      "aliases": [],
+      "summary": "Sede sagrada que foi entregue à profanação e ao fogo pelos inimigos",
+      "references": ["Lamentações 1:10, 2:6, 2:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O centro cultual de culto e habitação de YHWH",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:orfaos-e-viuvas",
+      "kind": "theme",
+      "label": "Órfãos e Viúvas",
+      "aliases": [],
+      "summary": "Segmento populacional desamparado que personifica a perda total de amparo social e familiar",
+      "references": ["Lamentações 5:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Os mais vulneráveis da sociedade em ruínas",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-nabucodonosor-caldeus:chapter-lamentacoes-4",
+      "from": "people-group:nabucodonosor-caldeus",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor / Caldeus” cita explicitamente Lamentações 4:12, 5:2.",
+      "references": ["Lamentações 4:12, 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-nabucodonosor-caldeus:chapter-lamentacoes-5",
+      "from": "people-group:nabucodonosor-caldeus",
+      "to": "chapter:lamentacoes:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor / Caldeus” cita explicitamente Lamentações 4:12, 5:2.",
+      "references": ["Lamentações 4:12, 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-nacoes-vizinhas-edom-filistia:chapter-lamentacoes-1",
+      "from": "people-group:nacoes-vizinhas-edom-filistia",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nações Vizinhas (Edom/Filístia)” cita explicitamente Lamentações 1:21, 4:21.",
+      "references": ["Lamentações 1:21, 4:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-nacoes-vizinhas-edom-filistia:chapter-lamentacoes-4",
+      "from": "people-group:nacoes-vizinhas-edom-filistia",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nações Vizinhas (Edom/Filístia)” cita explicitamente Lamentações 1:21, 4:21.",
+      "references": ["Lamentações 1:21, 4:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bat-siao-filha-de-siao-jerusalem:chapter-lamentacoes-1",
+      "from": "person:bat-siao-filha-de-siao-jerusalem",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bat-Sião (Filha de Sião / Jerusalém)” cita explicitamente Lamentações 1:6, 2:1-18, 4:22.",
+      "references": ["Lamentações 1:6, 2:1-18, 4:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bat-siao-filha-de-siao-jerusalem:chapter-lamentacoes-2",
+      "from": "person:bat-siao-filha-de-siao-jerusalem",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bat-Sião (Filha de Sião / Jerusalém)” cita explicitamente Lamentações 1:6, 2:1-18, 4:22.",
+      "references": ["Lamentações 1:6, 2:1-18, 4:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bat-siao-filha-de-siao-jerusalem:chapter-lamentacoes-4",
+      "from": "person:bat-siao-filha-de-siao-jerusalem",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bat-Sião (Filha de Sião / Jerusalém)” cita explicitamente Lamentações 1:6, 2:1-18, 4:22.",
+      "references": ["Lamentações 1:6, 2:1-18, 4:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-homem-aflito:chapter-lamentacoes-3",
+      "from": "person:o-homem-aflito",
+      "to": "chapter:lamentacoes:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Homem Aflito” cita explicitamente Lamentações 3:1-33.",
+      "references": ["Lamentações 3:1-33"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-profetas-falsos:chapter-lamentacoes-2",
+      "from": "person:profetas-falsos",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Profetas Falsos” cita explicitamente Lamentações 2:14.",
+      "references": ["Lamentações 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sacerdotes-e-anciaos:chapter-lamentacoes-1",
+      "from": "person:sacerdotes-e-anciaos",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sacerdotes e Anciãos” cita explicitamente Lamentações 1:4, 2:10, 4:13.",
+      "references": ["Lamentações 1:4, 2:10, 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sacerdotes-e-anciaos:chapter-lamentacoes-2",
+      "from": "person:sacerdotes-e-anciaos",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sacerdotes e Anciãos” cita explicitamente Lamentações 1:4, 2:10, 4:13.",
+      "references": ["Lamentações 1:4, 2:10, 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sacerdotes-e-anciaos:chapter-lamentacoes-4",
+      "from": "person:sacerdotes-e-anciaos",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sacerdotes e Anciãos” cita explicitamente Lamentações 1:4, 2:10, 4:13.",
+      "references": ["Lamentações 1:4, 2:10, 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-yhwh:chapter-lamentacoes-1",
+      "from": "person:yhwh",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “YHWH” cita explicitamente Lamentações 1:5, 2:1-8, 3:22-23.",
+      "references": ["Lamentações 1:5, 2:1-8, 3:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-yhwh:chapter-lamentacoes-2",
+      "from": "person:yhwh",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “YHWH” cita explicitamente Lamentações 1:5, 2:1-8, 3:22-23.",
+      "references": ["Lamentações 1:5, 2:1-8, 3:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-yhwh:chapter-lamentacoes-3",
+      "from": "person:yhwh",
+      "to": "chapter:lamentacoes:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “YHWH” cita explicitamente Lamentações 1:5, 2:1-8, 3:22-23.",
+      "references": ["Lamentações 1:5, 2:1-8, 3:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-as-portas-de-jerusalem:chapter-lamentacoes-1",
+      "from": "place:as-portas-de-jerusalem",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “As Portas de Jerusalém” cita explicitamente Lamentações 1:4, 2:9.",
+      "references": ["Lamentações 1:4, 2:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-as-portas-de-jerusalem:chapter-lamentacoes-2",
+      "from": "place:as-portas-de-jerusalem",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “As Portas de Jerusalém” cita explicitamente Lamentações 1:4, 2:9.",
+      "references": ["Lamentações 1:4, 2:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-lamentacoes-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Lamentações 1:1, 2:6, 4:11.",
+      "references": ["Lamentações 1:1, 2:6, 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-lamentacoes-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Lamentações 1:1, 2:6, 4:11.",
+      "references": ["Lamentações 1:1, 2:6, 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-lamentacoes-4",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Lamentações 1:1, 2:6, 4:11.",
+      "references": ["Lamentações 1:1, 2:6, 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-casa-de-yhwh:chapter-lamentacoes-1",
+      "from": "place:o-templo-casa-de-yhwh",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo (Casa de YHWH)” cita explicitamente Lamentações 1:10, 2:7.",
+      "references": ["Lamentações 1:10, 2:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-casa-de-yhwh:chapter-lamentacoes-2",
+      "from": "place:o-templo-casa-de-yhwh",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo (Casa de YHWH)” cita explicitamente Lamentações 1:10, 2:7.",
+      "references": ["Lamentações 1:10, 2:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-uz-nacoes-exilicas:chapter-lamentacoes-4",
+      "from": "place:terra-de-uz-nacoes-exilicas",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Uz / Nações Exílicas” cita explicitamente Lamentações 4:22, 5:8.",
+      "references": ["Lamentações 4:22, 5:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-uz-nacoes-exilicas:chapter-lamentacoes-5",
+      "from": "place:terra-de-uz-nacoes-exilicas",
+      "to": "chapter:lamentacoes:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Uz / Nações Exílicas” cita explicitamente Lamentações 4:22, 5:8.",
+      "references": ["Lamentações 4:22, 5:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-deuteronomio-28-49-57-a-maldicao-do-cerco-e-do-canibalismo:chapter-lamentacoes-2",
+      "from": "prophecy:lamentacoes-deuteronomio-28-49-57-a-maldicao-do-cerco-e-do-canibalismo",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deuteronômio 28:49-57 (A maldição do cerco e do canibalismo)” cita explicitamente textos relacionados: Lamentações 2:20, 4:10.",
+      "references": ["textos relacionados: Lamentações 2:20, 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-deuteronomio-28-49-57-a-maldicao-do-cerco-e-do-canibalismo:chapter-lamentacoes-4",
+      "from": "prophecy:lamentacoes-deuteronomio-28-49-57-a-maldicao-do-cerco-e-do-canibalismo",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deuteronômio 28:49-57 (A maldição do cerco e do canibalismo)” cita explicitamente textos relacionados: Lamentações 2:20, 4:10.",
+      "references": ["textos relacionados: Lamentações 2:20, 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-isaias-51-17-23-o-calice-da-furia-de-yhwh:chapter-lamentacoes-4",
+      "from": "prophecy:lamentacoes-isaias-51-17-23-o-calice-da-furia-de-yhwh",
+      "to": "chapter:lamentacoes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 51:17-23 (O cálice da fúria de YHWH)” cita explicitamente textos relacionados: Lamentações 4:21-22.",
+      "references": ["textos relacionados: Lamentações 4:21-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-jeremias-19-8-25-9-11-a-desolacao-de-jerusalem:chapter-lamentacoes-1",
+      "from": "prophecy:lamentacoes-jeremias-19-8-25-9-11-a-desolacao-de-jerusalem",
+      "to": "chapter:lamentacoes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 19:8 / 25:9-11 (A desolação de Jerusalém)” cita explicitamente textos relacionados: Lamentações 1:15, 2:15-16.",
+      "references": ["textos relacionados: Lamentações 1:15, 2:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-jeremias-19-8-25-9-11-a-desolacao-de-jerusalem:chapter-lamentacoes-2",
+      "from": "prophecy:lamentacoes-jeremias-19-8-25-9-11-a-desolacao-de-jerusalem",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 19:8 / 25:9-11 (A desolação de Jerusalém)” cita explicitamente textos relacionados: Lamentações 1:15, 2:15-16.",
+      "references": ["textos relacionados: Lamentações 1:15, 2:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-miqueias-3-12-siao-sera-lavrada-como-um-campo:chapter-lamentacoes-2",
+      "from": "prophecy:lamentacoes-miqueias-3-12-siao-sera-lavrada-como-um-campo",
+      "to": "chapter:lamentacoes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 3:12 (\"Sião será lavrada como um campo\")” cita explicitamente textos relacionados: Lamentações 2:2, 5:18.",
+      "references": ["textos relacionados: Lamentações 2:2, 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lamentacoes-miqueias-3-12-siao-sera-lavrada-como-um-campo:chapter-lamentacoes-5",
+      "from": "prophecy:lamentacoes-miqueias-3-12-siao-sera-lavrada-como-um-campo",
+      "to": "chapter:lamentacoes:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 3:12 (\"Sião será lavrada como um campo\")” cita explicitamente textos relacionados: Lamentações 2:2, 5:18.",
+      "references": ["textos relacionados: Lamentações 2:2, 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lamentacoes-1:theme-o-templo",
+      "from": "chapter:lamentacoes:1",
+      "to": "theme:o-templo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Templo” cita explicitamente Lamentações 1:10, 2:6, 2:7.",
+      "references": ["Lamentações 1:10, 2:6, 2:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lamentacoes-2:theme-o-templo",
+      "from": "chapter:lamentacoes:2",
+      "to": "theme:o-templo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Templo” cita explicitamente Lamentações 1:10, 2:6, 2:7.",
+      "references": ["Lamentações 1:10, 2:6, 2:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lamentacoes-5:theme-orfaos-e-viuvas",
+      "from": "chapter:lamentacoes:5",
+      "to": "theme:orfaos-e-viuvas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Órfãos e Viúvas” cita explicitamente Lamentações 5:3.",
+      "references": ["Lamentações 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

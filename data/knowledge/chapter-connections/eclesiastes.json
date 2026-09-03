@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "book": "Eclesiastes",
+  "count": 32,
+  "chapterCount": 10,
+  "nodes": [
+    {
+      "id": "event:eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer",
+      "kind": "event",
+      "label": "A Investigação Universal da Sabedoria e do Prazer",
+      "aliases": [],
+      "summary": "Qoheleth testa metodicamente a arquitetura do hedonismo, das grandes obras arquitetônicas e da erudição, concluindo que tudo é esforço estéril.",
+      "references": ["Eclesiastes Ec 1:12–2:26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desmistificação da busca autônoma por significado duradouro fora da dependência de Deus.",
+        "entities": "Qoheleth, Riquezas, Prazeres"
+      }
+    },
+    {
+      "id": "event:eclesiastes-a-observacao-da-opressao-sistemica",
+      "kind": "event",
+      "label": "A Observação da Opressão Sistêmica",
+      "aliases": [],
+      "summary": "Qoheleth presencia as lágrimas dos oprimidos sem consolador e conclui que os mortos e os que ainda não nasceram estão em situação melhor.",
+      "references": ["Eclesiastes Ec 4:1–3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Denúncia contundente das estruturas sociopolíticas corrompidas e da fragilidade da justiça terrena.",
+        "entities": "Opressores, Oprimidos, Qoheleth"
+      }
+    },
+    {
+      "id": "event:eclesiastes-o-julgamento-e-o-veredito-do-epilogo",
+      "kind": "event",
+      "label": "O Julgamento e o Veredito do Epílogo",
+      "aliases": [],
+      "summary": "O epilogista avalia criticamente a obra de Qoheleth, reunindo provérbios verdadeiros e emitindo a conclusão final: teme a Deus e guarda os seus mandamentos.",
+      "references": ["Eclesiastes Ec 12:9–14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Síntese canônica que ancora a especulação cética na obediência ética e na certeza do juízo divino.",
+        "entities": "Qoheleth, Epilogista, Deus"
+      }
+    },
+    {
+      "id": "event:eclesiastes-o-poema-dos-tempos-e-estacoes",
+      "kind": "event",
+      "label": "O Poema dos Tempos e Estações",
+      "aliases": [],
+      "summary": "Declaração solene de que há um tempo determinado e um propósito divino para cada evento sob os céus (nascer, morrer, chorar, rir, etc.).",
+      "references": ["Eclesiastes Ec 3:1–8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Subordinação radical da agência e do controle humano aos desígnios soberanos e temporais divinos.",
+        "entities": "Deus, Qoheleth, Humanidade"
+      }
+    },
+    {
+      "id": "person:o-sabio-e-o-tolo-ksil",
+      "kind": "person",
+      "label": "O Sábio e o Tolo (Ksil)",
+      "aliases": [],
+      "summary": "Comparação contínua entre a prudência reflexiva que pondera a vida e a insensatez destrutiva que ignora a realidade",
+      "references": ["Ec 2:14; 7:4; 10:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Arquétipos comportamentais contrastantes",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:qoheleth-o-pregador",
+      "kind": "person",
+      "label": "Qoheleth (O Pregador)",
+      "aliases": [],
+      "summary": "Sábio mestre e observador crítico que investiga sistematicamente a condição humana \"debaixo do sol\"",
+      "references": ["Ec 1:1, 12; 12:9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor/protagonista filosófico do livro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-casa-de-deus-santuario",
+      "kind": "place",
+      "label": "A Casa de Deus (Santuário)",
+      "aliases": [],
+      "summary": "Espaço litúrgico onde o crente deve aproximar-se com reverência silenciosa, pés cautelosos e cumprimento rigoroso de votos",
+      "references": ["Ec 5:1–4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "place:debaixo-do-sol",
+      "kind": "place",
+      "label": "Debaixo do Sol",
+      "aliases": [],
+      "summary": "O domínio empírico da atividade humana, caracterizado pela opacidade, transitoriedade e frustração",
+      "references": ["Ec 1:3; 8:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:o-po-e-a-terra",
+      "kind": "place",
+      "label": "O Pó e a Terra",
+      "aliases": [],
+      "summary": "Origem e destino material do corpo humano, para onde todos os mortais retornam inevitavelmente",
+      "references": ["Ec 3:20; 12:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "theme:a-casa-eterna-sheol",
+      "kind": "theme",
+      "label": "A Casa Eterna / Sheol",
+      "aliases": [],
+      "summary": "O retorno do pó à terra e do espírito a Deus, marcando o fim definitivo da existência terrena",
+      "references": ["Ec 3:21; 12:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destino póstumo na cosmologia antiga",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:a-morte-qebr-mawet",
+      "kind": "theme",
+      "label": "A Morte (Qebr / Mawet)",
+      "aliases": [],
+      "summary": "O destino inexorável que anula todas as distinções socioeconômicas e o prestígio na terra",
+      "references": ["Ec 3:19-20; 9:2-3; 12:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O grande nivelador universal",
+        "entityType": "Conceito/Lugar"
+      }
+    },
+    {
+      "id": "theme:debaixo-do-sol",
+      "kind": "theme",
+      "label": "Debaixo do Sol",
+      "aliases": [],
+      "summary": "A esfera terrestre e mortal onde a existência humana se desenrola sem acesso direto aos mistérios celestes",
+      "references": ["Ec 1:3; 2:17; 8:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário empírico da observação humana",
+        "entityType": "Lugar/Conceito"
+      }
+    },
+    {
+      "id": "theme:deus-elohim",
+      "kind": "theme",
+      "label": "Deus (Elohim)",
+      "aliases": [],
+      "summary": "Criador que concede o tempo, a alegria legítima e exige prestação de contas de todas as obras humanas",
+      "references": ["Ec 3:11, 14; 12:13-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano supremo e juiz final",
+        "entityType": "Pessoa/Conceito"
+      }
+    },
+    {
+      "id": "theme:hevel-vaidade-sopro",
+      "kind": "theme",
+      "label": "Hevel (Vaidade / Sopro)",
+      "aliases": [],
+      "summary": "Termo hebraico que denota fumaça, vapor, inconsistência, absurdidade ou opacidade epistemológica",
+      "references": ["Ec 1:2; 2:11; 12:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Categoria central descritiva da existência",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:os-opressores-e-governantes",
+      "kind": "theme",
+      "label": "Os Opressores e Governantes",
+      "aliases": [],
+      "summary": "Figuras de poder que tiranizam os vulneráveis, cuja impunidade desafia a ordem moral terrena",
+      "references": ["Ec 4:1-3; 5:8; 10:5-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agentes de injustiça social e política",
+        "entityType": "Pessoa/Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer:chapter-eclesiastes-1",
+      "from": "event:eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer",
+      "to": "chapter:eclesiastes:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Investigação Universal da Sabedoria e do Prazer” cita explicitamente Eclesiastes Ec 1:12–2:26.",
+      "references": ["Eclesiastes Ec 1:12–2:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer:chapter-eclesiastes-2",
+      "from": "event:eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer",
+      "to": "chapter:eclesiastes:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Investigação Universal da Sabedoria e do Prazer” cita explicitamente Eclesiastes Ec 1:12–2:26.",
+      "references": ["Eclesiastes Ec 1:12–2:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-eclesiastes-a-observacao-da-opressao-sistemica:chapter-eclesiastes-4",
+      "from": "event:eclesiastes-a-observacao-da-opressao-sistemica",
+      "to": "chapter:eclesiastes:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Observação da Opressão Sistêmica” cita explicitamente Eclesiastes Ec 4:1–3.",
+      "references": ["Eclesiastes Ec 4:1–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-eclesiastes-o-julgamento-e-o-veredito-do-epilogo:chapter-eclesiastes-12",
+      "from": "event:eclesiastes-o-julgamento-e-o-veredito-do-epilogo",
+      "to": "chapter:eclesiastes:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Julgamento e o Veredito do Epílogo” cita explicitamente Eclesiastes Ec 12:9–14.",
+      "references": ["Eclesiastes Ec 12:9–14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-eclesiastes-o-poema-dos-tempos-e-estacoes:chapter-eclesiastes-3",
+      "from": "event:eclesiastes-o-poema-dos-tempos-e-estacoes",
+      "to": "chapter:eclesiastes:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Poema dos Tempos e Estações” cita explicitamente Eclesiastes Ec 3:1–8.",
+      "references": ["Eclesiastes Ec 3:1–8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-sabio-e-o-tolo-ksil:chapter-eclesiastes-10",
+      "from": "person:o-sabio-e-o-tolo-ksil",
+      "to": "chapter:eclesiastes:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Sábio e o Tolo (Ksil)” cita explicitamente Ec 2:14; 7:4; 10:2-3.",
+      "references": ["Ec 2:14; 7:4; 10:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-sabio-e-o-tolo-ksil:chapter-eclesiastes-2",
+      "from": "person:o-sabio-e-o-tolo-ksil",
+      "to": "chapter:eclesiastes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Sábio e o Tolo (Ksil)” cita explicitamente Ec 2:14; 7:4; 10:2-3.",
+      "references": ["Ec 2:14; 7:4; 10:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-sabio-e-o-tolo-ksil:chapter-eclesiastes-7",
+      "from": "person:o-sabio-e-o-tolo-ksil",
+      "to": "chapter:eclesiastes:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Sábio e o Tolo (Ksil)” cita explicitamente Ec 2:14; 7:4; 10:2-3.",
+      "references": ["Ec 2:14; 7:4; 10:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-qoheleth-o-pregador:chapter-eclesiastes-1",
+      "from": "person:qoheleth-o-pregador",
+      "to": "chapter:eclesiastes:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Qoheleth (O Pregador)” cita explicitamente Ec 1:1, 12; 12:9-10.",
+      "references": ["Ec 1:1, 12; 12:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-qoheleth-o-pregador:chapter-eclesiastes-12",
+      "from": "person:qoheleth-o-pregador",
+      "to": "chapter:eclesiastes:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Qoheleth (O Pregador)” cita explicitamente Ec 1:1, 12; 12:9-10.",
+      "references": ["Ec 1:1, 12; 12:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-de-deus-santuario:chapter-eclesiastes-5",
+      "from": "place:a-casa-de-deus-santuario",
+      "to": "chapter:eclesiastes:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa de Deus (Santuário)” cita explicitamente Ec 5:1–4.",
+      "references": ["Ec 5:1–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-debaixo-do-sol:chapter-eclesiastes-1",
+      "from": "place:debaixo-do-sol",
+      "to": "chapter:eclesiastes:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Debaixo do Sol” cita explicitamente Ec 1:3; 8:17.",
+      "references": ["Ec 1:3; 8:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-debaixo-do-sol:chapter-eclesiastes-8",
+      "from": "place:debaixo-do-sol",
+      "to": "chapter:eclesiastes:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Debaixo do Sol” cita explicitamente Ec 1:3; 8:17.",
+      "references": ["Ec 1:3; 8:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-eclesiastes-1",
+      "from": "place:jerusalem",
+      "to": "chapter:eclesiastes:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Ec 1:1, 12.",
+      "references": ["Ec 1:1, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-po-e-a-terra:chapter-eclesiastes-12",
+      "from": "place:o-po-e-a-terra",
+      "to": "chapter:eclesiastes:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Pó e a Terra” cita explicitamente Ec 3:20; 12:7.",
+      "references": ["Ec 3:20; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-po-e-a-terra:chapter-eclesiastes-3",
+      "from": "place:o-po-e-a-terra",
+      "to": "chapter:eclesiastes:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Pó e a Terra” cita explicitamente Ec 3:20; 12:7.",
+      "references": ["Ec 3:20; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-1:theme-debaixo-do-sol",
+      "from": "chapter:eclesiastes:1",
+      "to": "theme:debaixo-do-sol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Debaixo do Sol” cita explicitamente Ec 1:3; 2:17; 8:17.",
+      "references": ["Ec 1:3; 2:17; 8:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-1:theme-hevel-vaidade-sopro",
+      "from": "chapter:eclesiastes:1",
+      "to": "theme:hevel-vaidade-sopro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hevel (Vaidade / Sopro)” cita explicitamente Ec 1:2; 2:11; 12:8.",
+      "references": ["Ec 1:2; 2:11; 12:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-10:theme-os-opressores-e-governantes",
+      "from": "chapter:eclesiastes:10",
+      "to": "theme:os-opressores-e-governantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Opressores e Governantes” cita explicitamente Ec 4:1-3; 5:8; 10:5-7.",
+      "references": ["Ec 4:1-3; 5:8; 10:5-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-12:theme-a-casa-eterna-sheol",
+      "from": "chapter:eclesiastes:12",
+      "to": "theme:a-casa-eterna-sheol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Casa Eterna / Sheol” cita explicitamente Ec 3:21; 12:7.",
+      "references": ["Ec 3:21; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-12:theme-a-morte-qebr-mawet",
+      "from": "chapter:eclesiastes:12",
+      "to": "theme:a-morte-qebr-mawet",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Morte (Qebr / Mawet)” cita explicitamente Ec 3:19-20; 9:2-3; 12:7.",
+      "references": ["Ec 3:19-20; 9:2-3; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-12:theme-deus-elohim",
+      "from": "chapter:eclesiastes:12",
+      "to": "theme:deus-elohim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Deus (Elohim)” cita explicitamente Ec 3:11, 14; 12:13-14.",
+      "references": ["Ec 3:11, 14; 12:13-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-12:theme-hevel-vaidade-sopro",
+      "from": "chapter:eclesiastes:12",
+      "to": "theme:hevel-vaidade-sopro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hevel (Vaidade / Sopro)” cita explicitamente Ec 1:2; 2:11; 12:8.",
+      "references": ["Ec 1:2; 2:11; 12:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-2:theme-debaixo-do-sol",
+      "from": "chapter:eclesiastes:2",
+      "to": "theme:debaixo-do-sol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Debaixo do Sol” cita explicitamente Ec 1:3; 2:17; 8:17.",
+      "references": ["Ec 1:3; 2:17; 8:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-2:theme-hevel-vaidade-sopro",
+      "from": "chapter:eclesiastes:2",
+      "to": "theme:hevel-vaidade-sopro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hevel (Vaidade / Sopro)” cita explicitamente Ec 1:2; 2:11; 12:8.",
+      "references": ["Ec 1:2; 2:11; 12:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-3:theme-a-casa-eterna-sheol",
+      "from": "chapter:eclesiastes:3",
+      "to": "theme:a-casa-eterna-sheol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Casa Eterna / Sheol” cita explicitamente Ec 3:21; 12:7.",
+      "references": ["Ec 3:21; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-3:theme-a-morte-qebr-mawet",
+      "from": "chapter:eclesiastes:3",
+      "to": "theme:a-morte-qebr-mawet",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Morte (Qebr / Mawet)” cita explicitamente Ec 3:19-20; 9:2-3; 12:7.",
+      "references": ["Ec 3:19-20; 9:2-3; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-3:theme-deus-elohim",
+      "from": "chapter:eclesiastes:3",
+      "to": "theme:deus-elohim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Deus (Elohim)” cita explicitamente Ec 3:11, 14; 12:13-14.",
+      "references": ["Ec 3:11, 14; 12:13-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-4:theme-os-opressores-e-governantes",
+      "from": "chapter:eclesiastes:4",
+      "to": "theme:os-opressores-e-governantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Opressores e Governantes” cita explicitamente Ec 4:1-3; 5:8; 10:5-7.",
+      "references": ["Ec 4:1-3; 5:8; 10:5-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-5:theme-os-opressores-e-governantes",
+      "from": "chapter:eclesiastes:5",
+      "to": "theme:os-opressores-e-governantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Opressores e Governantes” cita explicitamente Ec 4:1-3; 5:8; 10:5-7.",
+      "references": ["Ec 4:1-3; 5:8; 10:5-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-8:theme-debaixo-do-sol",
+      "from": "chapter:eclesiastes:8",
+      "to": "theme:debaixo-do-sol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Debaixo do Sol” cita explicitamente Ec 1:3; 2:17; 8:17.",
+      "references": ["Ec 1:3; 2:17; 8:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-eclesiastes-9:theme-a-morte-qebr-mawet",
+      "from": "chapter:eclesiastes:9",
+      "to": "theme:a-morte-qebr-mawet",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Morte (Qebr / Mawet)” cita explicitamente Ec 3:19-20; 9:2-3; 12:7.",
+      "references": ["Ec 3:19-20; 9:2-3; 12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

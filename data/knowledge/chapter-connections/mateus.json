@@ -1,0 +1,2051 @@
+{
+  "schemaVersion": 1,
+  "book": "Mateus",
+  "count": 98,
+  "chapterCount": 23,
+  "nodes": [
+    {
+      "id": "doctrine:cura",
+      "kind": "doctrine",
+      "label": "Cura divina e oração",
+      "aliases": [],
+      "summary": "A declaração de fé afirma que a cura divina é provida na expiação.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cura"],
+      "attributes": {
+        "category": "Ministério",
+        "pentecostalReading": "A igreja ora pelos enfermos e confia na ação soberana de Deus. Fé e cuidado médico não precisam ser inimigos; a plataforma deve evitar culpa, promessas automáticas ou abandono de tratamento.",
+        "distinction": "A afirmação teológica de cura não permite prever quando ou como ela ocorrerá. Luto, doença e limitações humanas devem ser tratados com esperança e compaixão, não acusação.",
+        "source": "Declaração de Fé; Tiago 5; teologia pentecostal pastoral"
+      }
+    },
+    {
+      "id": "doctrine:historia-idb",
+      "kind": "doctrine",
+      "label": "História e identidade da Igreja de Deus",
+      "aliases": [],
+      "summary": "A página nacional informa origem da Igreja de Deus em 1886, na Carolina do Norte, e raízes no Brasil desde 1955, além de destacar sua identidade pentecostal e sua missão global.",
+      "references": ["At 2:1–4; At 13:1–3; Mt 28:18–20"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["historia-idb"],
+      "attributes": {
+        "category": "História",
+        "pentecostalReading": "A história deve ser lembrada como memória institucional, com nomes, documentos, regiões e mudanças verificáveis. O movimento pentecostal também possui histórias plurais, e uma denominação não representa todo o Pentecostalismo.",
+        "distinction": "Datas, números e narrativas históricas precisam permanecer vinculados à fonte e à data de consulta. A enciclopédia não apresentará afirmações institucionais como consenso historiográfico automático.",
+        "source": "Site IDB Nacional; arquivos e história do pentecostalismo"
+      }
+    },
+    {
+      "id": "doctrine:igreja-missao",
+      "kind": "doctrine",
+      "label": "Igreja, Grande Comissão e missão",
+      "aliases": [],
+      "summary": "O site nacional apresenta a missão como comunicação do evangelho completo de Jesus Cristo, guiada pelo Espírito e pelo poder do Pentecostes, em direção à Grande Comissão.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["igreja-missao"],
+      "attributes": {
+        "category": "Eclesiologia",
+        "pentecostalReading": "Missão une anúncio, discipulado, serviço, plantação de igrejas, cuidado de pessoas e testemunho público. Poder espiritual não é dominação: é capacitação para servir e testemunhar.",
+        "distinction": "A missão institucional pode adquirir formas regionais. A plataforma deve registrar documentos da IDB e não inventar um manual de práticas para todas as congregações.",
+        "source": "Site IDB Nacional; Grande Comissão; teologia pentecostal de missão"
+      }
+    },
+    {
+      "id": "doctrine:ordenancas",
+      "kind": "doctrine",
+      "label": "Batismo nas águas, Ceia e lavagem dos pés",
+      "aliases": [],
+      "summary": "A declaração consultada afirma o batismo em água por imersão, a Ceia do Senhor e a lavagem dos pés dos santos.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["ordenancas"],
+      "attributes": {
+        "category": "Igreja",
+        "pentecostalReading": "Essas práticas são sinais visíveis de fé, comunhão, memória, serviço e participação no corpo de Cristo. A lavagem dos pés acentua humildade e serviço mútuo.",
+        "distinction": "Igrejas cristãs divergem sobre o número, o nome e o significado sacramental dessas práticas. A enciclopédia deverá mostrar a compreensão da Igreja de Deus sem desqualificar outras tradições.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:trindade",
+      "kind": "doctrine",
+      "label": "Deus uno e Trindade",
+      "aliases": [],
+      "summary": "A declaração confessa um só Deus eternamente existente em três pessoas: Pai, Filho e Espírito Santo.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["trindade"],
+      "attributes": {
+        "category": "Deus",
+        "pentecostalReading": "Pai, Filho e Espírito não são três deuses, nem três nomes de uma única pessoa. A linguagem trinitária protege a unidade de Deus e a plena divindade de Cristo e do Espírito.",
+        "distinction": "A palavra Trindade não aparece como termo técnico no texto bíblico; trata-se de uma formulação histórica cristã para reunir testemunhos bíblicos sobre Deus.",
+        "source": "Declaração de Fé da Church of God; credos cristãos históricos"
+      }
+    },
+    {
+      "id": "person:abel",
+      "kind": "person",
+      "label": "Abel",
+      "aliases": [],
+      "summary": "Abel fala pouco no relato, mas sua morte reorganiza a narrativa: o sangue do irmão clama do solo e transforma a terra, antes ligada ao trabalho de Adão, em testemunha da injustiça. A tradição posterior lê Abel como modelo de fé, martírio e testemunho, mas o primeiro sentido narrativo é o grito da vítima diante de Deus.",
+      "references": ["Gn 4:1–10", "Mt 23:35", "Hb 11:4", "Hb 12:24"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["abel"],
+      "attributes": {
+        "role": "pastor; irmão assassinado",
+        "tags": ["sangue", "martírio", "fé", "justiça"]
+      }
+    },
+    {
+      "id": "person:herodes-o-grande",
+      "kind": "person",
+      "label": "Herodes o Grande",
+      "aliases": ["Herodes o Grande"],
+      "summary": "Herodes I, o Grande (c. 73/74 a.C. – 4 a.C.), foi um rei cliente romano que governou a Judeia, Samaria, Galileia e territórios adjacentes entre 37 a.C. e 4 a.C. Nomeado pelo Senado Romano como \"Rei dos Judeus\", Herodes destacou-se por sua habilidade política extraordinária, astúcia diplomática e paranoia extrema. Embora fosse idumeu de origem (e, portanto, judeu apenas por conversão forçada de seus ancestrais sob os hasmonianos), ele promoveu colossais projetos arquitetônicos — sendo o mais grandioso a reconstrução e monumentalização do Segundo Templo de Jerusalém. Simultaneamente, sua biografia ficou marcada por execuções sangrentas de membros da própria família real hasmoniana e o episódio neotestamentário do Massacre dos Inocentes em Belém.",
+      "references": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*",
+        "**Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*",
+        "**João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-herodes-o-grande"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Mateus%202%3A1%2C%203**%3A%20*%22Tendo%20nascido%20Jesus%20em%20Bel%C3%A9m%20da%20Judeia%2C%20no%20tempo%20do%20rei%20Herodes%2C%20eis%20que%20uns%20magos%20vieram%20do%20oriente%20a%20Jerusal%C3%A9m...%20E%20o%20rei%20Herodes%2C%20ouvindo%20isto%2C%20perturbou-se%2C%20e%20com%20ele%20toda%20a%20Jerusal%C3%A9m.%22*%3B%20**Lucas%201%3A5**%3A%20*%22Houve%20nos%20dias%20de%20Herodes%2C%20rei%20da%20Judeia%2C%20um%20sacerdote%20chamado%20Zacarias%2C%20da%20turma%20de%20Abias...%22*%3B%20**Jo%C3%A3o%202%3A20**%3A%20*%22Disseram%2C%20pois%2C%20os%20judeus%3A%20Em%20quarenta%20e%20seis%20anos%20foi%20edificado%20este%20templo%2C%20e%20tu%20o%20levantar%C3%A1s%20em%20tr%C3%AAs%20dias%3F%22*&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:isaque",
+      "kind": "person",
+      "label": "Isaque",
+      "aliases": ["Isaque"],
+      "summary": "Isaque (do hebraico יִצְחָק, *Yīṣḥāq*, significando \"ele ri\", em referência ao riso de Abraão e Sara diante do anúncio de seu nascimento) é o filho da promessa de Abraão e Sara. Sua narrativa biográfica é caracterizada por uma aparente passividade e tranquilidade em comparação à intensa mobilidade de seu pai e de seu filho Jacó. O episódio mais marcante de sua juventude é o sacrifício no Monte Moriá, onde, de modo voluntário e submisso, deixa-se amarrar no altar por seu pai, prefigurando a entrega sacrificial. Na idade adulta, casa-se com Rebeca após uma cuidadosa busca de noiva na Mesopotâmia. Isaque herda os poços e as bênçãos de seu pai, sofre com a rivalidade entre seus filhos gêmeos (Esaú e Jacó) e, em idade avançada e cego, é enganado por Jacó e Rebeca, conferindo a bênção primogênita a Jacó [55].",
+      "references": [
+        "Gênesis 21:1–7",
+        "Gênesis 22:1–19",
+        "Gênesis 24:1–67",
+        "Gênesis 27:1–40",
+        "Hebreus 11:17–19",
+        "Gn 21:1–7",
+        "Gn 22",
+        "Gn 24",
+        "Gn 26",
+        "Mt 1:2",
+        "Hb 11:17–20"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-isaque", "isaac"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2021%3A1%E2%80%937%3B%20G%C3%AAnesis%2022%3A1%E2%80%9319%3B%20G%C3%AAnesis%2024%3A1%E2%80%9367&version=ARA",
+        "bookLinksVerified": true,
+        "role": "filho da promessa; patriarca de transição",
+        "tags": ["filho", "poços", "aliança", "continuidade"]
+      }
+    },
+    {
+      "id": "person:jaco",
+      "kind": "person",
+      "label": "Jacó",
+      "aliases": ["Jacó", "Israel"],
+      "summary": "Jacó (do hebraico יַעֲקֹב, *Ya‘ăqōb*, cuja etimologia popular em Gênesis remete a \"aquele que suplanta\", \"enganador\" ou que segura o calcanhar) é o patriarca cujos doze filhos dão origem às doze tribos de Israel. Sua trajetória é uma das mais dinâmicas e psicológicas do Gênesis: começa como um homem astuto que obtém a primogenitura de Esaú por um prato de lentilhas e rouba a bênção paterna com o auxílio da mãe. Foge para Harã, onde trabalha por vinte anos para Labão, sendo por sua vez enganado no casamento com Lia e Raquel. Após acumular grande riqueza e rebanhos, empreende o retorno a Canaã. O ponto de virada espiritual de sua vida ocorre na travessia do rio Jaboque, onde luta misticamente a noite toda com um misterioso oponente (identificado como Deus ou o Anjo do Senhor), tendo seu nome mudado para **Israel** (\"aquele que luta com Deus\") após ferir-se na coxa [71].",
+      "references": [
+        "Gênesis 27:18–29",
+        "Gênesis 28:10–22",
+        "Gênesis 32:22–32",
+        "Gênesis 49:1–33",
+        "Oseias 12:3–4; Romanos 9:10–13",
+        "Gn 25:29–34",
+        "Gn 27",
+        "Gn 28",
+        "Gn 29–31",
+        "Gn 32:22–32",
+        "Gn 35",
+        "Gn 46–49",
+        "Os 12",
+        "Mt 1:2"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-jaco", "jacob"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2027%3A18%E2%80%9329%3B%20G%C3%AAnesis%2028%3A10%E2%80%9322%3B%20G%C3%AAnesis%2032%3A22%E2%80%9332&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; ancestral epônimo de Israel",
+        "tags": ["Israel", "bênção", "luta", "família"]
+      }
+    },
+    {
+      "id": "person:jesus-o-messias",
+      "kind": "person",
+      "label": "Jesus o Messias",
+      "aliases": [],
+      "summary": "Jesus é retratado como o cumprimento supremo da história de Israel, exercendo autoridade docente, taumatúrgica e soteriológica sobre o Reino.",
+      "references": ["Mt 1:1; 2:15; 16:16; 28:18-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Personagem central, Filho de Davi, Filho de Deus, o novo Moisés e Emanuel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:joao-batista",
+      "kind": "person",
+      "label": "João Batista",
+      "aliases": ["João Batista"],
+      "summary": "João Batista é o profeta ascético, filho do sacerdote Zacarias e de Isabel, que atuou nas margens do rio Jordão pregando o arrependimento, anunciando a iminência do Reino dos céus e batizando para a remissão de pecados. Identificado como o precursor do Messias, batizou Jesus e foi posteriormente decapitado por ordem de Herodes Antipas devido a suas repreensões morais e políticas.",
+      "references": [
+        "Mt 3:1-12; 11:2-19; 14:1-12",
+        "Mc 1.4-9; 6.14-29",
+        "Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28",
+        "João 1:6-36; João 3:27-30; João 10:41"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-joao-batista"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta precursor, testemunha da luz e aquele que batiza Jesus, apontando-o como o Cordeiro de Deus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:noe",
+      "kind": "person",
+      "label": "Noé",
+      "aliases": ["Noé"],
+      "summary": "Noé (do hebraico נֹחַ, *Nōaḥ*, significando \"descanso\" ou \"consolação\") é o patriarca justo que encontrou graça aos olhos de Deus em meio a uma geração corrompida pela violência e maldade generalizada. Advertido divinamente sobre um cataclismo universal (o Dilúvio), Noé obedece construindo uma arca de proporções colossais, salvando sua família (esposa, filhos Sem, Cam e Jafé, e suas respectivas noras) e casais de todas as espécies animais. Após o dilúvio, Noé oferece um sacrifício aceitável a Deus, que estabelece a **Aliança Noaica**, selada com o sinal do arco-íris, garantindo a preservação da ordem natural e promulgando leis fundamentais para a convivência humana (incluindo a proibição do consumo de sangue e a sanção da pena capital para o assassinato). Posteriormente, Noé protagoniza o episódio da embriaguez e da maldição de Canaã [27].",
+      "references": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7",
+        "2Pe 2:5",
+        "Gn 6:5–22",
+        "Gn 7–9",
+        "Is 54:9–10",
+        "Mt 24:37–39",
+        "1Pe 3:20–21"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-noe", "noah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%206%3A5%E2%80%9322%3B%20G%C3%AAnesis%207%3A1%E2%80%9324%3B%208%3A1%E2%80%9319%3B%20G%C3%AAnesis%209%3A1%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "justo do dilúvio; novo começo humano",
+        "entityType": "Pessoa",
+        "tags": ["dilúvio", "aliança", "novo começo", "juízo"]
+      }
+    },
+    {
+      "id": "person:poncio-pilatos",
+      "kind": "person",
+      "label": "Pôncio Pilatos",
+      "aliases": ["Pôncio Pilatos"],
+      "summary": "Pôncio Pilatos foi o quinto prefeito (ou procurador) romano da província da Judeia, servindo sob o imperador Tibério César entre os anos 26 e 36 d.C. Sua figura é indissociável do processo de julgamento e condenação à morte de Jesus de Nazaré. Nos Evangelhos, é retratado como um governador pragmático, relutante e politicamente acuado pelas elites sacerdotais judaicas, que lavou as mãos simbolicamente para eximir-se da culpa pelo sangue do réu.",
+      "references": [
+        "Mt 27:2, 11-26, 62-66",
+        "Mc 15.1-15",
+        "Lucas 23:13-15; Lucas 23:22-24",
+        "João 18:29–19:22"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-poncio-pilatos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Governador romano da Judeia que conduz o julgamento de Jesus, demonstrando vacilação diante da pressão sinedrial.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:raquel",
+      "kind": "person",
+      "label": "Raquel",
+      "aliases": ["Raquel"],
+      "summary": "Raquel (do hebraico רָחֵל, *Rāḥēl*, significando \"ovelha\") é a filha mais nova de Labão, a esposa amada de Jacó e mãe de José e Benjamim. Apresentada em Gênesis 29 pastoreando os rebanhos de seu pai, Raquel cativa imediatamente a Jacó, que concorda em servir a Labão por sete anos para obtê-la em casamento — anos que, devido à traição de Labão com a entrega prévia de Lia, pareceram a Jacó \"como poucos dias, pelo amor que tinha a ela\". Envolvida inicialmente na amargura da esterilidade enquanto sua irmã Lia gerava filhos sucessivos, Raquel recorre ao expediente de dar sua serva Bila a Jacó. Anos mais tarde, concebe milagrosamente a José e, finalmente, morre ao dar à luz seu segundo filho, Benjamim, no caminho para Belém, sendo sepultada com grande pesar por Jacó, que erige um pilar sobre sua sepultura [79].",
+      "references": [
+        "Gênesis 29:1–30",
+        "Gênesis 30:1–24",
+        "Gênesis 35:16–20",
+        "Jeremias 31:15 e Mateus 2:18"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-raquel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2029%3A1%E2%80%9330%3B%20G%C3%AAnesis%2030%3A1%E2%80%9324%3B%20G%C3%AAnesis%2035%3A16%E2%80%9320&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:simao-pedro",
+      "kind": "person",
+      "label": "Simão Pedro",
+      "aliases": ["Simão Pedro"],
+      "summary": "Simão, renomeado por Jesus como Pedro (*Petros* ou *Cefas*, significando rocha), foi um pescador da Galileia que se tornou o líder carismático do círculo apostólico. Destacou-se por suas confissões de fé impetuosas, por ter negado Jesus três vezes durante a Paixão, e por seu subsequente restabelecimento no Mar da Galileia, tornando-se uma coluna central da Igreja primitiva em Jerusalém e Antioquia.",
+      "references": [
+        "Mt 16:16-19; 17:24-27; 26:33-35, 69-75",
+        "Mc 1.16; 8.29; 14.66-72",
+        "2Pe 1:1, 1:14-18"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-simao-pedro"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Autor apostólico (segundo a tradição) e testemunha da transfiguração",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:belem-da-judeia",
+      "kind": "place",
+      "label": "Belém da Judeia",
+      "aliases": [],
+      "summary": "Local do nascimento de Jesus, cumprindo a profecia de Miqueias 5:2 como a cidade de Davi.",
+      "references": ["Mt 2:1, 5, 8, 16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:cafarnaum",
+      "kind": "place",
+      "label": "Cafarnaum",
+      "aliases": [],
+      "summary": "Quartel-general do ministério galileu de Jesus, palco de numerosos exorcismos, curas e discursos.",
+      "references": ["Mt 4:13; 8:5; 11:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:monte-das-oliveiras",
+      "kind": "place",
+      "label": "Monte das Oliveiras",
+      "aliases": [],
+      "summary": "Local de transições narrativas cruciais, cenário do discurso escatológico e refúgio noturno antes da prisão.",
+      "references": ["Mt 21:1; 24:3; 26:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:nazare",
+      "kind": "place",
+      "label": "Nazaré",
+      "aliases": [],
+      "summary": "Cidade de infância e juventude de Jesus; local do discurso inaugural rejeitado pelos seus concidadãos.",
+      "references": [
+        "Mt 2:23; 13:54; 4:13",
+        "Lucas 1:26; Lucas 2:39; Lucas 4:16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:o-monte-da-galileia",
+      "kind": "place",
+      "label": "O Monte da Galileia",
+      "aliases": [],
+      "summary": "Local designado por Jesus ressurreto para o encontro final com os discípulos e a proclamação da Grande Comissão.",
+      "references": ["Mt 28:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Geográfico" }
+    },
+    {
+      "id": "place:o-templo-de-jerusalem",
+      "kind": "place",
+      "label": "O Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Centro político-religioso do judaísmo do Segundo Templo; alvo da purificação joanina e cenário de intensos debates festivos sobre a identidade de Jesus.",
+      "references": [
+        "Mt 21:12, 14; 24:1; 27:51",
+        "João 2:14; João 7:14; João 10:23"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "disputado" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-2-15-16-os-quais-mataram-tanto-o-senhor-jesus-como-os-seus-proprios-profetas",
+      "kind": "prophecy",
+      "label": "1 Ts 2:15-16 (\"Os quais mataram tanto o Senhor Jesus como os seus próprios profetas...\")",
+      "aliases": [],
+      "summary": "Alguns exegetas veem um oráculo pós-evento referente à destruição de Jerusalém em 70 d.C., enquanto outros interpretam como retórica polêmica paulina em contexto de perseguição sinagogal.",
+      "references": ["2 Cr 36:16; Mt 23:34-36"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / teologia retributiva" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "kind": "prophecy",
+      "label": "1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")",
+      "aliases": [],
+      "summary": "Leitores fundamentalistas interpretam como evento físico de arrebatamento secreto ou espetacular; a erudição crítica vê linguagem apocalíptica tradicional adaptada para afirmar a soberania de Cristo sobre os poderes imperiais.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tradição escatológica" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "kind": "prophecy",
+      "label": "1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")",
+      "aliases": [],
+      "summary": "Conexão com os oráculos veterotestamentários sobre o Dia do Senhor e o slogan político imperial \"Pax et Securitas\"; divergência entre previsão cronológica e advertência ética de vigilância.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco profético" }
+    },
+    {
+      "id": "prophecy:3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo",
+      "kind": "prophecy",
+      "label": "Acolhimento aos mensageiros e recepção de Cristo",
+      "aliases": [],
+      "summary": "A recepção dos enviados itinerantes é tratada como recepção do próprio Cristo, ecoando ditos tradicionais sobre mensageiros do evangelho.",
+      "references": ["Mateus 10:40-42; Lucas 10:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "prophecy:ageu-ageu-1-9-vos-tendes-correu-para-a-vossa-casa-e-cada-um-de-vos-corre-para-a-sua-casa-enquanto-esta-casa-esta-em-desolacao",
+      "kind": "prophecy",
+      "label": "Ageu 1:9 — \"Vós tendes correu para a vossa casa, e cada um de vós corre para a sua casa, enquanto esta casa está em desolação\"",
+      "aliases": [],
+      "summary": "Princípio de prioridade do Reino de Deus (\"Buscai primeiro o Reino de Deus e a sua justiça\") ecoa a crítica profética ao hedonismo e individualismo materialista.",
+      "references": ["Novo Testamento (Mateus 6:33)"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão ética" }
+    },
+    {
+      "id": "prophecy:ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo",
+      "kind": "prophecy",
+      "label": "Ageu 2:23 — \"Naquele dia... tomar-te-ei, ó Zorobabel... e te farei como anel de selo\"",
+      "aliases": [],
+      "summary": "Genealogias do Novo Testamento registram Zorobabel como ancestral direto de Jesus de Nazaré, interpretando a promessa do anel de selo como cumprida na linhagem real messiânica.",
+      "references": ["Mateus 1:12-13; Lucas 3:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/oráculo" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 2:1 (\"Eu sou a rosa de Sarom, o lírio dos vales\")",
+      "aliases": [],
+      "summary": "Expressão apropriada na liturgia cristã e na iconografia medieval como título cristológico ou mariano, embora no contexto original seja a autoavaliação humilde da mulher.",
+      "references": ["Isaías 35:1–2; Mateus 6:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11",
+      "kind": "prophecy",
+      "label": "A Abominação da Desolação (Daniel 9:27; 11:31; 12:11)",
+      "aliases": [],
+      "summary": "Referência histórica primária à profanação do altar de Jerusalém por Antíoco IV em 167 a.C., reaplicada escatologicamente no discurso escatológico sinótico e em escritos apocalípticos cristãos.",
+      "references": ["Mateus 24:15; Marcos 13:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:daniel-as-setenta-semanas-daniel-9-24-27",
+      "kind": "prophecy",
+      "label": "As Setenta Semanas (Daniel 9:24–27)",
+      "aliases": [],
+      "summary": "Diverge profundamente entre a leitura messianaista/cristológica (cumprida em Cristo ou na destruição do templo em 70 d.C.) e a leitura historicista-futurista (dispensacionalista) ou macabeia (crise de Antíoco IV).",
+      "references": ["Mateus 24:15; Apocalipse; literatura intertestamentária"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14",
+      "kind": "prophecy",
+      "label": "O Filho do Homem vindicado nas nuvens (Daniel 7:13–14)",
+      "aliases": [],
+      "summary": "Base conceitual decisiva para a autocompreensão messiânica neotestamentária, oscilando na exegese entre coletividade (o povo santo) e individualidade messiânica.",
+      "references": ["Mateus 26:64; Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1",
+      "kind": "prophecy",
+      "label": "A profecia do Êxodo como protótipo da redenção escatológica (Isaías 43:16-21; Oséias 11:1)",
+      "aliases": [],
+      "summary": "Divergência entre cumprimento estrito no retorno do exílio babilônico e reinterpretação cristológica universal.",
+      "references": ["Mateus 2:15; Apocalipse 15:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "kind": "prophecy",
+      "label": "Judá e o governo",
+      "aliases": [],
+      "summary": "O poema de Jacó associa Judá a liderança, cetro e expectativa de obediência das nações.",
+      "references": [
+        "Gn 49:8–12",
+        "Nm 24:17",
+        "2Sm 7:12–16",
+        "Mt 1:2–6",
+        "Ap 5:5"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A tradição messiânica relaciona o texto à dinastia davídica e a Cristo; o poema também funciona como bênção tribal dentro do final de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "kind": "prophecy",
+      "label": "Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"",
+      "aliases": [],
+      "summary": "Debatida intensamente entre judeus (aplicada ao Israel coletivo sofredor) e cristãos (aplicada à expiação vicária de Jesus Cristo).",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/alusão/oráculo" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera",
+      "kind": "prophecy",
+      "label": "Isaías 7:14 — Emanuel (\"Eis que a virgem conceberá...\")",
+      "aliases": [],
+      "summary": "Diverge entre o contexto histórico original (sinal político do século VIII AEC sobre o fim da ameaça siro-efraimita) e a releitura messiânica neo-testamentária da encarnação virginal.",
+      "references": ["Mateus 1:22-23, Isaías 8:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/oráculo/recepção posterior" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-31-15-em-rama-se-ouviu-uma-voz-raquel-chora-de-seus-filhos",
+      "kind": "prophecy",
+      "label": "Jer 31:15 (\"Em Ramá se ouviu uma voz... Raquel chora de seus filhos\")",
+      "aliases": [],
+      "summary": "Mateus aplica o lamento de Raquel pela deportação babilônica ao massacre dos inocentes em Belém por Herodes.",
+      "references": ["Mt 2:17-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / recepção posterior" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "kind": "prophecy",
+      "label": "Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")",
+      "aliases": [],
+      "summary": "Jesus utiliza a expressão para justificar a purificação do Templo contra a mercantilização institucional.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas",
+      "kind": "prophecy",
+      "label": "Mateus 12:38-41 / Lucas 11:29-32 (O \"Sinal de Jonas\")",
+      "aliases": [],
+      "summary": "Jesus interpreta a permanência de Jonas no ventre do peixe por três dias e três noites como tipo tipológico de Sua morte, sepultamento e ressurreição, além de contrastar a fé de Nínive com a incredulidade de sua geração.",
+      "references": ["Mateus 16:4; Lucas 11:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Recepção neotestamentária" }
+    },
+    {
+      "id": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "kind": "prophecy",
+      "label": "\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)",
+      "aliases": [],
+      "summary": "Visto no Judaísmo rabínico como o princípio fundamental da Torá; no Novo Testamento, expande-se universalmente pelo ensinamento de Jesus e Paulo.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / recepção ética" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:1 ('Eis que envio o meu mensageiro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação veterotestamentária imediata e a exegese sinótica que o aplica diretamente a João Batista como precursor do Messias.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "kind": "prophecy",
+      "label": "Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')",
+      "aliases": [],
+      "summary": "Diverge entre leituras literais de um regresso histórico corpóreo de Elias no fim dos tempos e leituras tipológicas espirituais cumpridas em João Batista.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:mateus-daniel-7-13-14-eis-que-vinha-com-as-nuvens-do-ceu-um-como-o-filho-do-homem",
+      "kind": "prophecy",
+      "label": "Daniel 7:13-14 — \"Eis que vinha com as nuvens do céu um como o filho do homem\"",
+      "aliases": [],
+      "summary": "No contexto apocalíptico de Daniel, representa o povo dos santos do Altíssimo; Mateus aplica pessoalmente a Jesus como o soberano vindouro que julgará as nações.",
+      "references": ["Mt 24:30; 26:64"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Oráculo escatológico" }
+    },
+    {
+      "id": "prophecy:mateus-isaias-7-14-eis-que-a-virgem-concebera-e-dara-a-luz-um-filho",
+      "kind": "prophecy",
+      "label": "Isaías 7:14 — \"Eis que a virgem conceberá e dará à luz um filho\"",
+      "aliases": [],
+      "summary": "Interpretações divergem entre o contexto histórico original (sinal político para Acaz no séc. VIII a.C. usando *almah* = jovem mulher) e a releitura cristológica messiânica baseada na Septuaginta (*parthenos* = virgem).",
+      "references": ["Mt 1:22-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação direta com fórmula de cumprimento" }
+    },
+    {
+      "id": "prophecy:mateus-isaias-9-1-2-terra-de-zebulom-e-terra-de-naftali-o-povo-que-andava-em-trevas-viu-grande-luz",
+      "kind": "prophecy",
+      "label": "Isaías 9:1-2 — \"Terra de Zebulom e terra de Naftalí... o povo que andava em trevas viu grande luz\"",
+      "aliases": [],
+      "summary": "O texto original celebra a libertação da Galileia da opressão assíria; Mateus o relê como profecia da irrupção da luz messiânica de Jesus na Galileia dos gentios.",
+      "references": ["Mt 4:14-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação direta" }
+    },
+    {
+      "id": "prophecy:mateus-miqueias-5-2-e-tu-belem-de-ti-saira-o-que-ha-de-governar-em-israel",
+      "kind": "prophecy",
+      "label": "Miqueias 5:2 — \"E tu, Belém... de ti sairá o que há de governar em Israel\"",
+      "aliases": [],
+      "summary": "O texto original refere-se ao clã davídico humilde e à restauração pós-exílica; Mateus o emprega tipologicamente para legitimar as origens davídicas de Jesus.",
+      "references": ["Mt 2:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação direta" }
+    },
+    {
+      "id": "prophecy:mateus-oseias-11-1-do-egito-chamei-o-meu-filho",
+      "kind": "prophecy",
+      "label": "Oséias 11:1 — \"Do Egito chamei o meu filho\"",
+      "aliases": [],
+      "summary": "No original, refere-se à saída coletiva de Israel do Egito no Êxodo; Mateus aplica uma tipologia histórico-salvífica onde Jesus recapitula e personifica a história de Israel.",
+      "references": ["Mt 2:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação com fórmula de cumprimento" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel",
+      "kind": "prophecy",
+      "label": "Miqueias 5:2 (\"E tu, Belém Efrata... de ti me sairá o que será governante em Israel\")",
+      "aliases": [],
+      "summary": "Interpretado no judaísmo pós-exílico e no cristianismo primitivo como a promessa do advento do Messias davídico; os evangelhos o aplicam diretamente ao nascimento de Jesus.",
+      "references": ["Mateus 2:5-6; João 7:42"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / alusão messiânica" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae",
+      "kind": "prophecy",
+      "label": "Miqueias 7:6 (\"Pois o filho desonra o pai, a filha se levanta contra sua mãe...\")",
+      "aliases": [],
+      "summary": "Jesus utiliza a descrição miqueana da dissolução dos laços familiares para ilustrar a divisão radical provocada pela exigência do Reino de Deus.",
+      "references": ["Mateus 10:35-36; Lucas 12:53"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão escatológica / ética" }
+    },
+    {
+      "id": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "kind": "prophecy",
+      "label": "\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)",
+      "aliases": [],
+      "summary": "Interpretado na tradição judaica (e messiânica cristã) como uma profecia escatológica sobre a realeza davídica e o Messias, enquanto a erudição crítica o data no contexto da monarquia antiga (período davídico-salomônico) como legitimação da expansão imperial israelita.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "prophecy:oseias-quando-israel-era-menino-eu-o-amei-e-do-egito-chamei-o-meu-filho",
+      "kind": "prophecy",
+      "label": "\"Quando Israel era menino, eu o amei, e do Egito chamei o meu filho\"",
+      "aliases": [],
+      "summary": "Oseias refere-se ao Êxodo histórico de Israel; Mateus relê tipologicamente a infância de Jesus como recapitulação da história de Israel. Divergência entre a exegese histórico-gramatical veterotestamentária e a leitura messiânica tipológica neotestamentária.",
+      "references": ["Mateus 2:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Tipologia" }
+    },
+    {
+      "id": "prophecy:rute-rute-4-18-22-a-genealogia-de-perez-a-davi",
+      "kind": "prophecy",
+      "label": "Rute 4:18-22 (A Genealogia de Perez a Davi)",
+      "aliases": [],
+      "summary": "A inclusão explícita de Rute, a moabita, na genealogia oficial do Messias registrada no Novo Testamento subverte a pureza racial estrita e sela a promessa davídica.",
+      "references": ["Mateus 1:5; Lucas 3:32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / recepção posterior" }
+    },
+    {
+      "id": "prophecy:salmos-deus-meu-deus-meu-por-que-me-desamparaste",
+      "kind": "prophecy",
+      "label": "\"Deus meu, Deus meu, por que me desamparaste?\"",
+      "aliases": [],
+      "summary": "Expressão de lamento extremo de um justo perseguido no Antigo Oriente Próximo; na paixão cristã, adquire cumprimento tipológico direto nos sofrimentos e crucificação de Jesus.",
+      "references": ["Sl 22:1; Mt 27:46; Jo 19:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "prophecy:salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita",
+      "kind": "prophecy",
+      "label": "\"O Senhor disse ao meu senhor: Assenta-te à minha mão direita\"",
+      "aliases": [],
+      "summary": "Interpretado originalmente como oráculo de entronização para o rei davídico; no Novo Testamento, é aplicado à exaltação messiânica e ascensão de Jesus Cristo à destra de Deus.",
+      "references": ["Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/citação" }
+    },
+    {
+      "id": "prophecy:salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular",
+      "kind": "prophecy",
+      "label": "\"Pedra que os construtores rejeitaram tornou-se a pedra angular\"",
+      "aliases": [],
+      "summary": "Liturgia de gratidão e entrada no Templo celebrando a reversão de status de Israel ou do rei; aplicado no Novo Testamento à rejeição e exaltação de Cristo.",
+      "references": ["Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/citação" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-3-12-13-deixarei-no-meio-de-ti-um-povo-pobre-e-humilde",
+      "kind": "prophecy",
+      "label": "Sofonias 3:12-13 (\"Deixarei no meio de ti um povo pobre e humilde...\")",
+      "aliases": [],
+      "summary": "A conexão entre o remnant (anavim) de Sofonias e as bem-aventuranças evangélicas suscita debates sobre se Jesus relê o conceito veterotestamentário em chave estritamente espiritual ou socioeconômica.",
+      "references": ["Mateus 5:3 (\"Bem-aventurados os pobres de espírito\")"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao",
+      "kind": "prophecy",
+      "label": "Zacarias 13:7 (\"Ferir o pastor, e as ovelhas se dispersarão\")",
+      "aliases": [],
+      "summary": "Jesus aplica o texto à sua própria prisão e à fuga dos discípulos, ao passo que no contexto de Zacarias refere-se à catástrofe de líderes infiéis ou à morte de um pastor legítimo.",
+      "references": ["Mateus 26:31, Marcos 14:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/citação" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento",
+      "kind": "prophecy",
+      "label": "Zacarias 9:9 (\"Eis que o teu rei vem a ti... montado sobre um jumento\")",
+      "aliases": [],
+      "summary": "Os evangelistas aplicam diretamente a entrada de Jesus em Jerusalém, enquanto a exegese histórica vê o texto como esperança restauradora para um rei pós-exílico que não se concretizou politicamente.",
+      "references": ["Mateus 21:5, João 12:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "term:dikaiosyne",
+      "kind": "term",
+      "label": "Dikaiosynē",
+      "aliases": ["δικαιοσύνη", "dikaiosynē"],
+      "summary": "Justiça, retidão, condição de estar em relação correta ou ação que manifesta a fidelidade de Deus.",
+      "references": ["Mt 5:6", "Rm 1:16–17", "Fp 3:9"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["dikaiosyne"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo emprega o campo para discutir a fidelidade de Deus, a situação humana, a inclusão de gentios e a vida comunitária; o debate não se resolve por uma definição única.",
+        "translationNote": "‘Justiça’ pode sugerir apenas moralidade individual; em Romanos, o contexto exige considerar tribunal, aliança, fé, comunidade e esperança escatológica."
+      }
+    },
+    {
+      "id": "term:ekklesia",
+      "kind": "term",
+      "label": "Ekklesia",
+      "aliases": ["ἐκκλησία", "ekklēsia"],
+      "summary": "Assembleia, reunião ou comunidade convocada; no Novo Testamento, não significa automaticamente uma instituição moderna com todas as suas estruturas posteriores.",
+      "references": ["Mt 16:18", "At 2:42–47", "1Co 12:12–27"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ekklesia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode designar a reunião local, a rede de comunidades ou a comunidade escatológica. Atos e cartas mostram práticas e conflitos, não apenas uma definição ideal.",
+        "translationNote": "‘Igreja’ é uma tradução histórica, mas o leitor deve recuperar a dimensão de assembleia, participação, disciplina e missão."
+      }
+    },
+    {
+      "id": "term:mammon",
+      "kind": "term",
+      "label": "Mamom",
+      "aliases": ["מָמוֹנָא", "māmônāʾ"],
+      "summary": "Riqueza, patrimônio ou poder econômico quando tratado como senhor rival da lealdade humana.",
+      "references": ["Mt 6:24", "Lc 16:9–13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mammon"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O termo não é simplesmente sinônimo de dinheiro; em Mt 6:24 e Lc 16:9–13, a linguagem personifica a riqueza como poder que reivindica serviço.",
+        "translationNote": "Traduzir por ‘dinheiro’ torna a frase concreta, mas pode reduzir a crítica à posse individual e apagar a dimensão de senhorio e lealdade."
+      }
+    },
+    {
+      "id": "term:parousia",
+      "kind": "term",
+      "label": "Parousia",
+      "aliases": ["παρουσία", "parousia"],
+      "summary": "Presença, chegada ou visita oficial; no discurso escatológico, a palavra nomeia a esperança da presença/manifestação de Cristo.",
+      "references": ["Mt 24:27", "1Ts 4:15", "2Pe 3:4"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["parousia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O termo pode falar de uma visita humana comum ou de uma expectativa escatológica. A leitura deve observar o contraste com ausência, demora, vigilância e ressurreição.",
+        "translationNote": "Traduzir sempre por ‘segunda vinda’ já interpreta o termo. Em alguns textos a tradução ‘presença’ ou ‘chegada’ expõe melhor a discussão."
+      }
+    },
+    {
+      "id": "theme:a-ekklesia",
+      "kind": "theme",
+      "label": "A Ekklesia",
+      "aliases": [],
+      "summary": "Único evangelho sinóptico a utilizar o termo \"ekklesia\", designando a nova comunidade de fé que substitui ou reformula o Israel institucional infiel.",
+      "references": ["Mt 16:18; 18:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade dos discípulos de Jesus fundada sobre a confissão messiânica",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:escribas-e-fariseus",
+      "kind": "theme",
+      "label": "Escribas e Fariseus",
+      "aliases": [],
+      "summary": "Representam o legalismo e a hipocrisia institucional que rejeitam a autoridade de Jesus, sendo severamente denunciados no capítulo 23.",
+      "references": ["Mt 5:20; 15:1-14; 23:1-36", "Mc 2.6; 3.6; 7.1-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Oponentes religiosos e legais",
+        "entityType": "Instituição / Grupo"
+      }
+    },
+    {
+      "id": "theme:filho-do-homem",
+      "kind": "theme",
+      "label": "Filho do Homem",
+      "aliases": [],
+      "summary": "Derivado de Daniel 7, denota tanto a humilhação terrena e autoridade presente de Jesus quanto sua glória escatológica vindoura no juízo final.",
+      "references": ["Mt 8:20; 16:27-28; 24:30; 26:64"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Título cristológico predileto de Jesus em Mateus",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:galileia",
+      "kind": "theme",
+      "label": "Galileia",
+      "aliases": [],
+      "summary": "Chamada de \"Galileia dos gentios\", cumpre a profecia de Isaías como o palco inicial da luz messiânica e da formação dos discípulos.",
+      "references": ["Mt 4:15; 2:22; 28:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região geográfica marginal e cenário principal do ministério terreno de Jesus",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:jerusalem",
+      "kind": "theme",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Apelidada de \"cidade santa\" e \"cidade do grande Rei\", mas caracterizada como o local onde os profetas e o Messias são assassinados.",
+      "references": [
+        "2 Reis 24-25",
+        "Cântico 3:5; 6:4",
+        "Ageu 1:1, 12; 2:2",
+        "Mt 2:1; 4:5; 21:10; 27:53"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário culminante da paixão e símbolo da nação que rejeita os profetas",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:o-reino-dos-ceus",
+      "kind": "theme",
+      "label": "O Reino dos Céus",
+      "aliases": [],
+      "summary": "Termo rabínico usado por Mateus (evitando o nome divino) para indicar a soberania salvífica e escatológica de Deus inaugurada na pessoa de Jesus.",
+      "references": ["Mt 3:2; 4:17; 13:11; 25:34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Categoria teológica central no Evangelho de Mateus",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-abel:chapter-mateus-23",
+      "from": "person:abel",
+      "to": "chapter:mateus:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abel” cita explicitamente Mt 23:35.",
+      "references": ["Mt 23:35"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-herodes-o-grande:chapter-mateus-2",
+      "from": "person:herodes-o-grande",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Herodes o Grande” cita explicitamente **Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*.",
+      "references": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-herodes-o-grande:chapter-mateus-3",
+      "from": "person:herodes-o-grande",
+      "to": "chapter:mateus:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Herodes o Grande” cita explicitamente **Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*.",
+      "references": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-isaque:chapter-mateus-1",
+      "from": "person:isaque",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaque” cita explicitamente Mt 1:2.",
+      "references": ["Mt 1:2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jaco:chapter-mateus-1",
+      "from": "person:jaco",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jacó” cita explicitamente Mt 1:2.",
+      "references": ["Mt 1:2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-o-messias:chapter-mateus-1",
+      "from": "person:jesus-o-messias",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus o Messias” cita explicitamente Mt 1:1; 2:15; 16:16; 28:18-20.",
+      "references": ["Mt 1:1; 2:15; 16:16; 28:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-o-messias:chapter-mateus-16",
+      "from": "person:jesus-o-messias",
+      "to": "chapter:mateus:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus o Messias” cita explicitamente Mt 1:1; 2:15; 16:16; 28:18-20.",
+      "references": ["Mt 1:1; 2:15; 16:16; 28:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-o-messias:chapter-mateus-2",
+      "from": "person:jesus-o-messias",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus o Messias” cita explicitamente Mt 1:1; 2:15; 16:16; 28:18-20.",
+      "references": ["Mt 1:1; 2:15; 16:16; 28:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-o-messias:chapter-mateus-28",
+      "from": "person:jesus-o-messias",
+      "to": "chapter:mateus:28",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus o Messias” cita explicitamente Mt 1:1; 2:15; 16:16; 28:18-20.",
+      "references": ["Mt 1:1; 2:15; 16:16; 28:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-mateus-11",
+      "from": "person:joao-batista",
+      "to": "chapter:mateus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Mt 3:1-12; 11:2-19; 14:1-12.",
+      "references": ["Mt 3:1-12; 11:2-19; 14:1-12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-mateus-14",
+      "from": "person:joao-batista",
+      "to": "chapter:mateus:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Mt 3:1-12; 11:2-19; 14:1-12.",
+      "references": ["Mt 3:1-12; 11:2-19; 14:1-12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-mateus-3",
+      "from": "person:joao-batista",
+      "to": "chapter:mateus:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Mt 3:1-12; 11:2-19; 14:1-12.",
+      "references": ["Mt 3:1-12; 11:2-19; 14:1-12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noe:chapter-mateus-24",
+      "from": "person:noe",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noé” cita explicitamente Mateus 24:37–39.",
+      "references": ["Mateus 24:37–39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-poncio-pilatos:chapter-mateus-27",
+      "from": "person:poncio-pilatos",
+      "to": "chapter:mateus:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pôncio Pilatos” cita explicitamente Mt 27:2, 11-26, 62-66.",
+      "references": ["Mt 27:2, 11-26, 62-66"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-raquel:chapter-mateus-2",
+      "from": "person:raquel",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Raquel” cita explicitamente Jeremias 31:15 e Mateus 2:18.",
+      "references": ["Jeremias 31:15 e Mateus 2:18"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-mateus-16",
+      "from": "person:simao-pedro",
+      "to": "chapter:mateus:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mt 16:16-19; 17:24-27; 26:33-35, 69-75.",
+      "references": ["Mt 16:16-19; 17:24-27; 26:33-35, 69-75"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-mateus-17",
+      "from": "person:simao-pedro",
+      "to": "chapter:mateus:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mt 16:16-19; 17:24-27; 26:33-35, 69-75.",
+      "references": ["Mt 16:16-19; 17:24-27; 26:33-35, 69-75"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-mateus-26",
+      "from": "person:simao-pedro",
+      "to": "chapter:mateus:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mt 16:16-19; 17:24-27; 26:33-35, 69-75.",
+      "references": ["Mt 16:16-19; 17:24-27; 26:33-35, 69-75"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-belem-da-judeia:chapter-mateus-2",
+      "from": "place:belem-da-judeia",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Belém da Judeia” cita explicitamente Mt 2:1, 5, 8, 16.",
+      "references": ["Mt 2:1, 5, 8, 16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cafarnaum:chapter-mateus-11",
+      "from": "place:cafarnaum",
+      "to": "chapter:mateus:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cafarnaum” cita explicitamente Mt 4:13; 8:5; 11:23.",
+      "references": ["Mt 4:13; 8:5; 11:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cafarnaum:chapter-mateus-4",
+      "from": "place:cafarnaum",
+      "to": "chapter:mateus:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cafarnaum” cita explicitamente Mt 4:13; 8:5; 11:23.",
+      "references": ["Mt 4:13; 8:5; 11:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cafarnaum:chapter-mateus-8",
+      "from": "place:cafarnaum",
+      "to": "chapter:mateus:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cafarnaum” cita explicitamente Mt 4:13; 8:5; 11:23.",
+      "references": ["Mt 4:13; 8:5; 11:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-das-oliveiras:chapter-mateus-21",
+      "from": "place:monte-das-oliveiras",
+      "to": "chapter:mateus:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte das Oliveiras” cita explicitamente Mt 21:1; 24:3; 26:30.",
+      "references": ["Mt 21:1; 24:3; 26:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-das-oliveiras:chapter-mateus-24",
+      "from": "place:monte-das-oliveiras",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte das Oliveiras” cita explicitamente Mt 21:1; 24:3; 26:30.",
+      "references": ["Mt 21:1; 24:3; 26:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-das-oliveiras:chapter-mateus-26",
+      "from": "place:monte-das-oliveiras",
+      "to": "chapter:mateus:26",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte das Oliveiras” cita explicitamente Mt 21:1; 24:3; 26:30.",
+      "references": ["Mt 21:1; 24:3; 26:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-mateus-13",
+      "from": "place:nazare",
+      "to": "chapter:mateus:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Mt 2:23; 13:54; 4:13.",
+      "references": ["Mt 2:23; 13:54; 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-mateus-2",
+      "from": "place:nazare",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Mt 2:23; 13:54; 4:13.",
+      "references": ["Mt 2:23; 13:54; 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-mateus-4",
+      "from": "place:nazare",
+      "to": "chapter:mateus:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Mt 2:23; 13:54; 4:13.",
+      "references": ["Mt 2:23; 13:54; 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-da-galileia:chapter-mateus-28",
+      "from": "place:o-monte-da-galileia",
+      "to": "chapter:mateus:28",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte da Galileia” cita explicitamente Mt 28:16.",
+      "references": ["Mt 28:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-mateus-21",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:mateus:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente Mt 21:12, 14; 24:1; 27:51.",
+      "references": ["Mt 21:12, 14; 24:1; 27:51"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-mateus-24",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente Mt 21:12, 14; 24:1; 27:51.",
+      "references": ["Mt 21:12, 14; 24:1; 27:51"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-mateus-27",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:mateus:27",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente Mt 21:12, 14; 24:1; 27:51.",
+      "references": ["Mt 21:12, 14; 24:1; 27:51"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-2-15-16-os-quais-mataram-tanto-o-senhor-jesus-como-os-seus-proprios-profetas:chapter-mateus-23",
+      "from": "prophecy:1-tessalonicenses-1-ts-2-15-16-os-quais-mataram-tanto-o-senhor-jesus-como-os-seus-proprios-profetas",
+      "to": "chapter:mateus:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 2:15-16 (\"Os quais mataram tanto o Senhor Jesus como os seus próprios profetas...\")” cita explicitamente 2 Cr 36:16; Mt 23:34-36.",
+      "references": ["2 Cr 36:16; Mt 23:34-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido:chapter-mateus-24",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")” cita explicitamente Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca:chapter-mateus-24",
+      "from": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")” cita explicitamente Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo:chapter-mateus-10",
+      "from": "prophecy:3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo",
+      "to": "chapter:mateus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acolhimento aos mensageiros e recepção de Cristo” cita explicitamente Mateus 10:40-42; Lucas 10:16.",
+      "references": ["Mateus 10:40-42; Lucas 10:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-1-9-vos-tendes-correu-para-a-vossa-casa-e-cada-um-de-vos-corre-para-a-sua-casa-enquanto-esta-casa-esta-em-desolacao:chapter-mateus-6",
+      "from": "prophecy:ageu-ageu-1-9-vos-tendes-correu-para-a-vossa-casa-e-cada-um-de-vos-corre-para-a-sua-casa-enquanto-esta-casa-esta-em-desolacao",
+      "to": "chapter:mateus:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 1:9 — \"Vós tendes correu para a vossa casa, e cada um de vós corre para a sua casa, enquanto esta casa está em desolação\"” cita explicitamente Novo Testamento (Mateus 6:33).",
+      "references": ["Novo Testamento (Mateus 6:33)"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo:chapter-mateus-1",
+      "from": "prophecy:ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:23 — \"Naquele dia... tomar-te-ei, ó Zorobabel... e te farei como anel de selo\"” cita explicitamente Mateus 1:12-13; Lucas 3:27.",
+      "references": ["Mateus 1:12-13; Lucas 3:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales:chapter-mateus-6",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales",
+      "to": "chapter:mateus:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 2:1 (\"Eu sou a rosa de Sarom, o lírio dos vales\")” cita explicitamente Isaías 35:1–2; Mateus 6:28.",
+      "references": ["Isaías 35:1–2; Mateus 6:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11:chapter-mateus-24",
+      "from": "prophecy:daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Abominação da Desolação (Daniel 9:27; 11:31; 12:11)” cita explicitamente Mateus 24:15; Marcos 13:14.",
+      "references": ["Mateus 24:15; Marcos 13:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-as-setenta-semanas-daniel-9-24-27:chapter-mateus-24",
+      "from": "prophecy:daniel-as-setenta-semanas-daniel-9-24-27",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Setenta Semanas (Daniel 9:24–27)” cita explicitamente Mateus 24:15; Apocalipse; literatura intertestamentária.",
+      "references": ["Mateus 24:15; Apocalipse; literatura intertestamentária"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14:chapter-mateus-26",
+      "from": "prophecy:daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14",
+      "to": "chapter:mateus:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Filho do Homem vindicado nas nuvens (Daniel 7:13–14)” cita explicitamente Mateus 26:64; Apocalipse 1:7.",
+      "references": ["Mateus 26:64; Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1:chapter-mateus-2",
+      "from": "prophecy:exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia do Êxodo como protótipo da redenção escatológica (Isaías 43:16-21; Oséias 11:1)” cita explicitamente Mateus 2:15; Apocalipse 15:3.",
+      "references": ["Mateus 2:15; Apocalipse 15:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-49-8-12-juda-e-o-governo:chapter-mateus-1",
+      "from": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Judá e o governo” cita explicitamente Mt 1:2–6.",
+      "references": ["Mt 1:2–6"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades:chapter-mateus-8",
+      "from": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "to": "chapter:mateus:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"” cita explicitamente Mateus 8:17, 1 Pedro 2:24, Romanos 4:25.",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera:chapter-mateus-1",
+      "from": "prophecy:isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 7:14 — Emanuel (\"Eis que a virgem conceberá...\")” cita explicitamente Mateus 1:22-23, Isaías 8:8.",
+      "references": ["Mateus 1:22-23, Isaías 8:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-31-15-em-rama-se-ouviu-uma-voz-raquel-chora-de-seus-filhos:chapter-mateus-2",
+      "from": "prophecy:jeremias-jer-31-15-em-rama-se-ouviu-uma-voz-raquel-chora-de-seus-filhos",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 31:15 (\"Em Ramá se ouviu uma voz... Raquel chora de seus filhos\")” cita explicitamente Mt 2:17-18.",
+      "references": ["Mt 2:17-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome:chapter-mateus-21",
+      "from": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "to": "chapter:mateus:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")” cita explicitamente Mt 21:13; Mc 11:17; Lc 19:46.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas:chapter-mateus-16",
+      "from": "prophecy:jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas",
+      "to": "chapter:mateus:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mateus 12:38-41 / Lucas 11:29-32 (O \"Sinal de Jonas\")” cita explicitamente Mateus 16:4; Lucas 11:30.",
+      "references": ["Mateus 16:4; Lucas 11:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18:chapter-mateus-22",
+      "from": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "to": "chapter:mateus:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)” cita explicitamente Mt 22:39; Rm 13:9; Tg 2:8.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro:chapter-mateus-11",
+      "from": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "to": "chapter:mateus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:1 ('Eis que envio o meu mensageiro...')” cita explicitamente Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias:chapter-mateus-17",
+      "from": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "to": "chapter:mateus:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')” cita explicitamente Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-daniel-7-13-14-eis-que-vinha-com-as-nuvens-do-ceu-um-como-o-filho-do-homem:chapter-mateus-24",
+      "from": "prophecy:mateus-daniel-7-13-14-eis-que-vinha-com-as-nuvens-do-ceu-um-como-o-filho-do-homem",
+      "to": "chapter:mateus:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:13-14 — \"Eis que vinha com as nuvens do céu um como o filho do homem\"” cita explicitamente Mt 24:30; 26:64.",
+      "references": ["Mt 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-daniel-7-13-14-eis-que-vinha-com-as-nuvens-do-ceu-um-como-o-filho-do-homem:chapter-mateus-26",
+      "from": "prophecy:mateus-daniel-7-13-14-eis-que-vinha-com-as-nuvens-do-ceu-um-como-o-filho-do-homem",
+      "to": "chapter:mateus:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:13-14 — \"Eis que vinha com as nuvens do céu um como o filho do homem\"” cita explicitamente Mt 24:30; 26:64.",
+      "references": ["Mt 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-isaias-7-14-eis-que-a-virgem-concebera-e-dara-a-luz-um-filho:chapter-mateus-1",
+      "from": "prophecy:mateus-isaias-7-14-eis-que-a-virgem-concebera-e-dara-a-luz-um-filho",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 7:14 — \"Eis que a virgem conceberá e dará à luz um filho\"” cita explicitamente Mt 1:22-23.",
+      "references": ["Mt 1:22-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-isaias-9-1-2-terra-de-zebulom-e-terra-de-naftali-o-povo-que-andava-em-trevas-viu-grande-luz:chapter-mateus-4",
+      "from": "prophecy:mateus-isaias-9-1-2-terra-de-zebulom-e-terra-de-naftali-o-povo-que-andava-em-trevas-viu-grande-luz",
+      "to": "chapter:mateus:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 9:1-2 — \"Terra de Zebulom e terra de Naftalí... o povo que andava em trevas viu grande luz\"” cita explicitamente Mt 4:14-16.",
+      "references": ["Mt 4:14-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-miqueias-5-2-e-tu-belem-de-ti-saira-o-que-ha-de-governar-em-israel:chapter-mateus-2",
+      "from": "prophecy:mateus-miqueias-5-2-e-tu-belem-de-ti-saira-o-que-ha-de-governar-em-israel",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 5:2 — \"E tu, Belém... de ti sairá o que há de governar em Israel\"” cita explicitamente Mt 2:5-6.",
+      "references": ["Mt 2:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-mateus-oseias-11-1-do-egito-chamei-o-meu-filho:chapter-mateus-2",
+      "from": "prophecy:mateus-oseias-11-1-do-egito-chamei-o-meu-filho",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Oséias 11:1 — \"Do Egito chamei o meu filho\"” cita explicitamente Mt 2:15.",
+      "references": ["Mt 2:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel:chapter-mateus-2",
+      "from": "prophecy:miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 5:2 (\"E tu, Belém Efrata... de ti me sairá o que será governante em Israel\")” cita explicitamente Mateus 2:5-6; João 7:42.",
+      "references": ["Mateus 2:5-6; João 7:42"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae:chapter-mateus-10",
+      "from": "prophecy:miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae",
+      "to": "chapter:mateus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 7:6 (\"Pois o filho desonra o pai, a filha se levanta contra sua mãe...\")” cita explicitamente Mateus 10:35-36; Lucas 12:53.",
+      "references": ["Mateus 10:35-36; Lucas 12:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17:chapter-mateus-2",
+      "from": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)” cita explicitamente Isaías 11:1; Apocalipse 22:16; Mateus 2:2.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-quando-israel-era-menino-eu-o-amei-e-do-egito-chamei-o-meu-filho:chapter-mateus-2",
+      "from": "prophecy:oseias-quando-israel-era-menino-eu-o-amei-e-do-egito-chamei-o-meu-filho",
+      "to": "chapter:mateus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Quando Israel era menino, eu o amei, e do Egito chamei o meu filho\"” cita explicitamente Mateus 2:15.",
+      "references": ["Mateus 2:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-4-18-22-a-genealogia-de-perez-a-davi:chapter-mateus-1",
+      "from": "prophecy:rute-rute-4-18-22-a-genealogia-de-perez-a-davi",
+      "to": "chapter:mateus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 4:18-22 (A Genealogia de Perez a Davi)” cita explicitamente Mateus 1:5; Lucas 3:32.",
+      "references": ["Mateus 1:5; Lucas 3:32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-deus-meu-deus-meu-por-que-me-desamparaste:chapter-mateus-27",
+      "from": "prophecy:salmos-deus-meu-deus-meu-por-que-me-desamparaste",
+      "to": "chapter:mateus:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Deus meu, Deus meu, por que me desamparaste?\"” cita explicitamente Sl 22:1; Mt 27:46; Jo 19:24.",
+      "references": ["Sl 22:1; Mt 27:46; Jo 19:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita:chapter-mateus-22",
+      "from": "prophecy:salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita",
+      "to": "chapter:mateus:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"O Senhor disse ao meu senhor: Assenta-te à minha mão direita\"” cita explicitamente Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25.",
+      "references": ["Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular:chapter-mateus-21",
+      "from": "prophecy:salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular",
+      "to": "chapter:mateus:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Pedra que os construtores rejeitaram tornou-se a pedra angular\"” cita explicitamente Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7.",
+      "references": ["Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-3-12-13-deixarei-no-meio-de-ti-um-povo-pobre-e-humilde:chapter-mateus-5",
+      "from": "prophecy:sofonias-sofonias-3-12-13-deixarei-no-meio-de-ti-um-povo-pobre-e-humilde",
+      "to": "chapter:mateus:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 3:12-13 (\"Deixarei no meio de ti um povo pobre e humilde...\")” cita explicitamente Mateus 5:3 (\"Bem-aventurados os pobres de espírito\").",
+      "references": ["Mateus 5:3 (\"Bem-aventurados os pobres de espírito\")"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao:chapter-mateus-26",
+      "from": "prophecy:zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao",
+      "to": "chapter:mateus:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 13:7 (\"Ferir o pastor, e as ovelhas se dispersarão\")” cita explicitamente Mateus 26:31, Marcos 14:27.",
+      "references": ["Mateus 26:31, Marcos 14:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento:chapter-mateus-21",
+      "from": "prophecy:zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento",
+      "to": "chapter:mateus:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 9:9 (\"Eis que o teu rei vem a ti... montado sobre um jumento\")” cita explicitamente Mateus 21:5, João 12:15.",
+      "references": ["Mateus 21:5, João 12:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-13:theme-o-reino-dos-ceus",
+      "from": "chapter:mateus:13",
+      "to": "theme:o-reino-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino dos Céus” cita explicitamente Mt 3:2; 4:17; 13:11; 25:34.",
+      "references": ["Mt 3:2; 4:17; 13:11; 25:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-15:theme-escribas-e-fariseus",
+      "from": "chapter:mateus:15",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mt 5:20; 15:1-14; 23:1-36.",
+      "references": ["Mt 5:20; 15:1-14; 23:1-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-16:theme-a-ekklesia",
+      "from": "chapter:mateus:16",
+      "to": "theme:a-ekklesia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Ekklesia” cita explicitamente Mt 16:18; 18:17.",
+      "references": ["Mt 16:18; 18:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-16:theme-filho-do-homem",
+      "from": "chapter:mateus:16",
+      "to": "theme:filho-do-homem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Filho do Homem” cita explicitamente Mt 8:20; 16:27-28; 24:30; 26:64.",
+      "references": ["Mt 8:20; 16:27-28; 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-18:theme-a-ekklesia",
+      "from": "chapter:mateus:18",
+      "to": "theme:a-ekklesia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Ekklesia” cita explicitamente Mt 16:18; 18:17.",
+      "references": ["Mt 16:18; 18:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-2:theme-galileia",
+      "from": "chapter:mateus:2",
+      "to": "theme:galileia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Galileia” cita explicitamente Mt 4:15; 2:22; 28:16.",
+      "references": ["Mt 4:15; 2:22; 28:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-2:theme-jerusalem",
+      "from": "chapter:mateus:2",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Mt 2:1; 4:5; 21:10; 27:53.",
+      "references": ["Mt 2:1; 4:5; 21:10; 27:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-21:theme-jerusalem",
+      "from": "chapter:mateus:21",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Mt 2:1; 4:5; 21:10; 27:53.",
+      "references": ["Mt 2:1; 4:5; 21:10; 27:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-23:theme-escribas-e-fariseus",
+      "from": "chapter:mateus:23",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mt 5:20; 15:1-14; 23:1-36.",
+      "references": ["Mt 5:20; 15:1-14; 23:1-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-24:theme-filho-do-homem",
+      "from": "chapter:mateus:24",
+      "to": "theme:filho-do-homem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Filho do Homem” cita explicitamente Mt 8:20; 16:27-28; 24:30; 26:64.",
+      "references": ["Mt 8:20; 16:27-28; 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-25:theme-o-reino-dos-ceus",
+      "from": "chapter:mateus:25",
+      "to": "theme:o-reino-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino dos Céus” cita explicitamente Mt 3:2; 4:17; 13:11; 25:34.",
+      "references": ["Mt 3:2; 4:17; 13:11; 25:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-26:theme-filho-do-homem",
+      "from": "chapter:mateus:26",
+      "to": "theme:filho-do-homem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Filho do Homem” cita explicitamente Mt 8:20; 16:27-28; 24:30; 26:64.",
+      "references": ["Mt 8:20; 16:27-28; 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-27:theme-jerusalem",
+      "from": "chapter:mateus:27",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Mt 2:1; 4:5; 21:10; 27:53.",
+      "references": ["Mt 2:1; 4:5; 21:10; 27:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-28:doctrine-historia-idb",
+      "from": "chapter:mateus:28",
+      "to": "doctrine:historia-idb",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “História e identidade da Igreja de Deus” cita explicitamente At 2:1–4; At 13:1–3; Mt 28:18–20.",
+      "references": ["At 2:1–4; At 13:1–3; Mt 28:18–20"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-28:doctrine-igreja-missao",
+      "from": "chapter:mateus:28",
+      "to": "doctrine:igreja-missao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Igreja, Grande Comissão e missão” cita explicitamente Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-28:doctrine-ordenancas",
+      "from": "chapter:mateus:28",
+      "to": "doctrine:ordenancas",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Batismo nas águas, Ceia e lavagem dos pés” cita explicitamente Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-28:doctrine-trindade",
+      "from": "chapter:mateus:28",
+      "to": "doctrine:trindade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Deus uno e Trindade” cita explicitamente Mt 28:19; 2Co 13:13; Jo 1:1–18.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-28:theme-galileia",
+      "from": "chapter:mateus:28",
+      "to": "theme:galileia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Galileia” cita explicitamente Mt 4:15; 2:22; 28:16.",
+      "references": ["Mt 4:15; 2:22; 28:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-3:theme-o-reino-dos-ceus",
+      "from": "chapter:mateus:3",
+      "to": "theme:o-reino-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino dos Céus” cita explicitamente Mt 3:2; 4:17; 13:11; 25:34.",
+      "references": ["Mt 3:2; 4:17; 13:11; 25:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-4:theme-galileia",
+      "from": "chapter:mateus:4",
+      "to": "theme:galileia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Galileia” cita explicitamente Mt 4:15; 2:22; 28:16.",
+      "references": ["Mt 4:15; 2:22; 28:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-4:theme-jerusalem",
+      "from": "chapter:mateus:4",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Mt 2:1; 4:5; 21:10; 27:53.",
+      "references": ["Mt 2:1; 4:5; 21:10; 27:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-4:theme-o-reino-dos-ceus",
+      "from": "chapter:mateus:4",
+      "to": "theme:o-reino-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino dos Céus” cita explicitamente Mt 3:2; 4:17; 13:11; 25:34.",
+      "references": ["Mt 3:2; 4:17; 13:11; 25:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-5:theme-escribas-e-fariseus",
+      "from": "chapter:mateus:5",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mt 5:20; 15:1-14; 23:1-36.",
+      "references": ["Mt 5:20; 15:1-14; 23:1-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-8:doctrine-cura",
+      "from": "chapter:mateus:8",
+      "to": "doctrine:cura",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Cura divina e oração” cita explicitamente Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-mateus-8:theme-filho-do-homem",
+      "from": "chapter:mateus:8",
+      "to": "theme:filho-do-homem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Filho do Homem” cita explicitamente Mt 8:20; 16:27-28; 24:30; 26:64.",
+      "references": ["Mt 8:20; 16:27-28; 24:30; 26:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-mateus-16:term-ekklesia",
+      "from": "chapter:mateus:16",
+      "to": "term:ekklesia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Ekklesia” cita explicitamente Mt 16:18.",
+      "references": ["Mt 16:18"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-mateus-24:term-parousia",
+      "from": "chapter:mateus:24",
+      "to": "term:parousia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Parousia” cita explicitamente Mt 24:27.",
+      "references": ["Mt 24:27"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-mateus-5:term-dikaiosyne",
+      "from": "chapter:mateus:5",
+      "to": "term:dikaiosyne",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Dikaiosynē” cita explicitamente Mt 5:6.",
+      "references": ["Mt 5:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-mateus-6:term-mammon",
+      "from": "chapter:mateus:6",
+      "to": "term:mammon",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Mamom” cita explicitamente Mt 6:24.",
+      "references": ["Mt 6:24"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

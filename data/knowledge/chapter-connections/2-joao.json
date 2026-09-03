@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "book": "2 João",
+  "count": 2,
+  "chapterCount": 1,
+  "nodes": [
+    {
+      "id": "person:o-presbitero",
+      "kind": "person",
+      "label": "O Presbítero",
+      "aliases": [],
+      "summary": "Representa a voz da ortodoxia apostólica e a autoridade moral na preservação da tradição sobre Jesus.",
+      "references": ["2 João 1; cf. 3 João 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor autoritário da epístola que se autodenomina \"o presbítero\" (πρεσβύτερος), reivindicando liderança veterana na tradição joanina.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "theme:a-senhora-eleita-e-seus-filhos",
+      "kind": "theme",
+      "label": "A Senhora Eleita e seus filhos",
+      "aliases": [],
+      "summary": "Objeto do cuidado pastoral, exortação e advertência contra desvios doutrinários.",
+      "references": ["2 João 1, 4, 13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatária principal da epístola, interpretada quer como uma mulher proeminente e sua família, quer (mais frequentemente) como uma metáfora para uma igreja local específica e seus membros.",
+        "entityType": "Povo / Comunidade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-o-presbitero:chapter-2-joao-1",
+      "from": "person:o-presbitero",
+      "to": "chapter:2-joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Presbítero” cita explicitamente 2 João 1; cf. 3 João 1.",
+      "references": ["2 João 1; cf. 3 João 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-joao-1:theme-a-senhora-eleita-e-seus-filhos",
+      "from": "chapter:2-joao:1",
+      "to": "theme:a-senhora-eleita-e-seus-filhos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Senhora Eleita e seus filhos” cita explicitamente 2 João 1, 4, 13.",
+      "references": ["2 João 1, 4, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": 1,
+  "book": "Gálatas",
+  "count": 51,
+  "chapterCount": 6,
+  "nodes": [
+    {
+      "id": "doctrine:dons",
+      "kind": "doctrine",
+      "label": "Dons, ministérios e fruto",
+      "aliases": [],
+      "summary": "Os dons são compreendidos como capacitações do Espírito para edificação e missão, nunca como medalhas de superioridade espiritual.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["dons"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O culto pentecostal busca espaço para testemunho, oração, profecia, cura e serviço, mas tudo deve ser julgado pelo amor, pela ordem e pela edificação da comunidade.",
+        "distinction": "Dons e cargos não são idênticos. A plataforma diferenciará carisma, função pastoral, liderança institucional e maturidade cristã.",
+        "source": "Novo Testamento; teologia pentecostal sobre dons"
+      }
+    },
+    {
+      "id": "doctrine:santificacao",
+      "kind": "doctrine",
+      "label": "Santificação e santidade",
+      "aliases": [],
+      "summary": "A declaração afirma a santificação posterior ao novo nascimento, por meio da fé, da Palavra e do Espírito Santo, e apresenta a santidade como padrão de vida do povo de Deus.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["santificacao"],
+      "attributes": {
+        "category": "Vida cristã",
+        "pentecostalReading": "Santidade é obra da graça e prática cotidiana. Ela inclui caráter, corpo, relações, uso do dinheiro, verdade, cuidado do próximo e separação de práticas destrutivas; não deve ser reduzida a aparência externa.",
+        "distinction": "Há debates internos sobre instantaneidade e processo da santificação. A linguagem da plataforma evitará transformar costumes locais em regra universal sem fonte.",
+        "source": "Declaração de Fé; tradição de santidade do pentecostalismo"
+      }
+    },
+    {
+      "id": "event:galatas-a-conversao-e-a-revelacao-damascena-de-paulo",
+      "kind": "event",
+      "label": "A conversão e a revelação damascena de Paulo",
+      "aliases": [],
+      "summary": "Intervenção divina em que Jesus Cristo foi revelado a Paulo, seguida por seu retiro na Arábia e início do ministério apostólico independente.",
+      "references": ["Gálatas Gl 1:11-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fundamenta teológica e biograficamente a independência do evangelho paulino em relação às autoridades humanas de Jerusalém.",
+        "entities": "Paulo de Tarsos, Os Gálatas"
+      }
+    },
+    {
+      "id": "event:galatas-a-crise-de-desvio-doutrinario-dos-galatas",
+      "kind": "event",
+      "label": "A crise de desvio doutrinário dos gálatas",
+      "aliases": [],
+      "summary": "A sedução das comunidades gálatas por falsos mestres, levando-as a buscar o aperfeiçoamento espiritual por meio da carne e de rituais da Torá.",
+      "references": ["Gálatas Gl 3:1-5, 4:8-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desencadeia a redação enérgica e apaixonada da epístola, servindo como advertência permanente contra o legalismo soteriológico.",
+        "entities": "Os Gálatas, Os Agitadores (Judaizantes), Paulo de Tarsos"
+      }
+    },
+    {
+      "id": "event:galatas-a-proclamacao-da-liberdade-em-cristo-e-a-crucificacao-da-carne",
+      "kind": "event",
+      "label": "A proclamação da liberdade em Cristo e a crucificação da carne",
+      "aliases": [],
+      "summary": "Exortação solene de Paulo para que os crentes permaneçam firmes na liberdade com que Cristo os libertou, vivendo guiados e transformados pelo Espírito.",
+      "references": ["Gálatas Gl 5:1-25, 6:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Define o estatuto ético definitivo do crente, substituindo o jugo opressor da lei pela dinâmica transformadora do amor e do fruto do Espírito.",
+        "entities": "Os Gálatas, Paulo de Tarsos, O Espírito Santo"
+      }
+    },
+    {
+      "id": "event:galatas-o-concilio-de-jerusalem-e-o-reconhecimento-apostolico",
+      "kind": "event",
+      "label": "O Concílio de Jerusalém e o reconhecimento apostólico",
+      "aliases": [],
+      "summary": "Paulo expõe seu evangelho aos líderes de Jerusalém, obtendo o reconhecimento oficial de sua missão aos gentios sem imposição da circuncisão a Tito.",
+      "references": ["Gálatas Gl 2:1-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Assegura a validação histórica da universalidade do evangelho cristão livre de barreiras étnico-rituais.",
+        "entities": "Paulo de Tarsos, Pedro (Cefas), Tiago, Barnabé"
+      }
+    },
+    {
+      "id": "event:galatas-o-incidente-em-antioquia",
+      "kind": "event",
+      "label": "O Incidente em Antioquia",
+      "aliases": [],
+      "summary": "Confronto direto entre Paulo e Pedro devido à recusa deste em manter comunhão de mesa com cristãos gentios sob pressão judaizante.",
+      "references": ["Gálatas Gl 2:11-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o princípio fundacional de que a justificação pela fé exclui qualquer exigência de conformidade cultural judaica para a comunhão eclesiástica.",
+        "entities": "Paulo de Tarsos, Pedro (Cefas), Barnabé"
+      }
+    },
+    {
+      "id": "people-group:os-galatas",
+      "kind": "people-group",
+      "label": "Os Gálatas",
+      "aliases": [],
+      "summary": "Comunidades cristãs na Galácia que vacilavam perante a propaganda de mestres judaizantes que exigiam a submissão à circuncisão e às leis rituais.",
+      "references": ["Gl 1:2, 3:1-5, 4:8-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Destinatários da carta", "entityType": "Povo" }
+    },
+    {
+      "id": "person:abraao",
+      "kind": "person",
+      "label": "Abraão",
+      "aliases": ["Abraão"],
+      "summary": "Abraão (originalmente **Abrão**, do hebraico אַבְרָהָם, *’Aḇrāhām*, \"pai de muitas nações\") é o patriarca central do judaísmo, cristianismo e islamismo. Originário de Ur dos Caldeus, Abraão recebe o chamado divino em Harã para deixar sua terra, sua parentela e a casa de seu pai rumo a uma terra que Deus lhe mostraria. A narrativa de sua vida é marcada por testes monumentais de fé: a promessa de uma descendência numerosa dada a um casal idoso e estéril (Sara), a aliança cortada em Gênesis 15, a intercessão por Sodoma e Gomorra, e o ápice dramático da prova no Monte Moriá, onde lhe é exigido o sacrifício de seu filho herdeiro, Isaque, antes de ser detido por um anjo do Senhor [36].",
+      "references": [
+        "Gênesis 12:1–3",
+        "Gênesis 15:1–21",
+        "Gênesis 17:1–14",
+        "Gênesis 22:1–19",
+        "Romanos 4:1–25",
+        "Romanos 4:1-25; 9:7-9",
+        "Gl 3:6-9, 3:29",
+        "Hb 6:13-15; 7:4-9; 11:8-19",
+        "Tiago 2:21-23; Gênesis 22:9-10",
+        "Gn 12:1–9",
+        "Gn 15",
+        "Gn 17",
+        "Gn 18–19",
+        "Gn 22",
+        "Rm 4",
+        "Gl 3",
+        "Hb 11:8–19"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-abraao", "abraham"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A1%E2%80%933%3B%20G%C3%AAnesis%2015%3A1%E2%80%9321%3B%20G%C3%AAnesis%2017%3A1%E2%80%9314&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; receptor da promessa",
+        "entityType": "Pessoa",
+        "tags": ["promessa", "fé", "aliança", "nações"]
+      }
+    },
+    {
+      "id": "person:apostolo-paulo-saulo-de-tarso",
+      "kind": "person",
+      "label": "Apóstolo Paulo (Saulo de Tarso)",
+      "aliases": ["Apóstolo Paulo (Saulo de Tarso)"],
+      "summary": "Saulo, conhecido como Paulo, originou-se de Tarso na Cilícia, sendo um judeu da Diáspora pertencente à tribo de Benjamim, fariseu rigoroso e cidadão romano de nascimento [5] [6]. Inicialmente um zeloso perseguidor das primeiras comunidades messiânicas, experimentou uma convulsão teológica e existencial na estrada de Damasco, onde interpretou a revelação do Cristo ressuscitado como vocação universal para o apostolado aos gentios [7]. Sua trajetória é marcada por viagens missionárias intensas pelo Mediterrâneo Oriental, fundando assembleias (ekklesiai), redigindo cartas normativas e enfrentando constantes conflitos com autoridades judaicas tradicionais e facções judaizantes [8] [9].",
+      "references": [
+        "Romanos 1:1-17",
+        "Gálatas 1-2",
+        "Filipenses 3:4-11",
+        "1 Coríntios 9:1-27"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apostolo-paulo-saulo-de-tarso"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%201%3A1-17%3B%20G%C3%A1latas%201-2%3B%20Filipenses%203%3A4-11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:barnabe",
+      "kind": "person",
+      "label": "Barnabé",
+      "aliases": [],
+      "summary": "Colaborador histórico que acompanhou Paulo nas viagens, mas que também se deixou levar temporariamente pela pressão em Antioquia.",
+      "references": ["Atos 4:36-37, 9:27, 13:2-3", "Gl 2:1, 2:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Companheiro de missão de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:hagar",
+      "kind": "person",
+      "label": "Hagar",
+      "aliases": [],
+      "summary": "Hagar revela o custo social da promessa quando uma família tenta produzir por meios humanos aquilo que Deus prometeu. Expulsa, ela não desaparece: no deserto, é vista, ouvida e abençoada. Gênesis mantém sua dignidade e também a tensão do conflito entre as casas de Sara e Hagar.",
+      "references": ["Gn 16", "Gn 21:8–21", "Gl 4:21–31"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["hagar"],
+      "attributes": {
+        "role": "serva egípcia; mãe de Ismael",
+        "tags": ["deserto", "mulher", "estrangeira", "promessa"]
+      }
+    },
+    {
+      "id": "person:hagar-e-sara",
+      "kind": "person",
+      "label": "Hagar e Sara",
+      "aliases": [],
+      "summary": "Figuras alegorizadas por Paulo para simbolizar, respectivamente, a escravidão sob a lei do Sinai e a liberdade da nova aliança celestial.",
+      "references": ["Gl 4:22-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mulheres e mães na narrativa patriarcal do Gênesis",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo-de-tarso",
+      "kind": "person",
+      "label": "Paulo de Tarso",
+      "aliases": [],
+      "summary": "Autoridade apostólica que defende veementemente a gratuidade da graça, o evangelho universal aos gentios e a independência de seu chamado face aos apóstolos de Jerusalém.",
+      "references": [
+        "2Co 1:1; 10:1; 12:12",
+        "Gl 1:1, 1:11-12, 6:17",
+        "1 Ts 1:1; 2:2; 2:18; 5:27"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo principal e autor principal",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:pedro-cefas",
+      "kind": "person",
+      "label": "Pedro (Cefas)",
+      "aliases": [],
+      "summary": "Figura de grande autoridade que vacilou em Antioquia ao se abster de comer com gentios por temor dos emissários ligados a Tiago.",
+      "references": ["Gl 2:9, 2:11-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo da circuncisão e líder em Jerusalém",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiago-irmao-do-senhor",
+      "kind": "person",
+      "label": "Tiago, irmão do Senhor",
+      "aliases": [],
+      "summary": "Figura central do judeu-cristianismo palestino, conhecido por sua piedade estrita (\"Joelho de Camelo\") e liderança no Concílio de Jerusalém",
+      "references": [
+        "Gl 1:19, 2:9, 2:12",
+        "Tiago 1:1; Atos 15:13; Gálatas 1:19"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autoridade apostólica/patriarcal presumida e líder da comunidade de Jerusalém",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tito",
+      "kind": "person",
+      "label": "Tito",
+      "aliases": ["Tito"],
+      "summary": "Tito era um gentio de origem grega que nunca foi circuncidado, o que o tornou o caso de teste vivo no Concílio de Jerusalém para a liberdade dos gentios em relação à exigência da Torah judaica [95]. Foi um administrador de crises altamente competente, enviado por Paulo para pacificar e organizar a turbulenta igreja de Corinto e estabelecer presbitérios na ilha de Creta [96].",
+      "references": [
+        "Gálatas 2:1-3",
+        "2 Coríntios 7:6-7 e 8:16-24",
+        "Tito 1:5",
+        "2Co 2:13; 7:6-7; 8:16-23",
+        "Tito 1:4; 2:1; 3:12"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tito"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%A1latas%202%3A1-3%3B%202%20Cor%C3%ADntios%207%3A6-7%20e%208%3A16-24%3B%20Tito%201%3A5&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Delegado apostólico e pastor em Creta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:antioquia-da-siria",
+      "kind": "place",
+      "label": "Antioquia da Síria",
+      "aliases": [],
+      "summary": "Base missionária gentílica secundária, onde os seguidores de Jesus foram chamados \"cristãos\" pela primeira vez e ponto de partida das viagens de Paulo.",
+      "references": ["Atos 11:19-26, 13:1, 15:35", "Gl 2:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:arabia",
+      "kind": "place",
+      "label": "Arábia",
+      "aliases": [],
+      "summary": "Local de retiro, reflexão e preparação espiritual de Paulo imediatamente após sua conversão, antes de iniciar sua pregação pública.",
+      "references": ["Gl 1:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:galacia",
+      "kind": "place",
+      "label": "Galácia",
+      "aliases": [],
+      "summary": "Região de atuação missionária de Paulo (localizada no norte ou sul da província romana) cujas comunidades recebem a carta e enfrentam a crise judaizante.",
+      "references": ["Gl 1:2, 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Disputado" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:jerusalem-celestial",
+      "kind": "place",
+      "label": "Jerusalém Celestial",
+      "aliases": [],
+      "summary": "Cidade livre simbolizada por Sara, representando a verdadeira matriz espiritual dos crentes em contraste com a Jerusalém terrenal (Hagar).",
+      "references": ["Gl 4:26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "prophecy:galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las",
+      "kind": "prophecy",
+      "label": "Deuteronômio 27:26 (\"Maldito todo aquele que não permanece em todas as coisas escritas no livro da lei para cumpri-las\")",
+      "aliases": [],
+      "summary": "Paulo argumenta que todos os que confiam nas obras da lei estão sob maldição, pois a falha em um único ponto quebra o pacto; a interpretação rabínica via a lei como um caminho com provisões para o perdão e o arrependimento.",
+      "references": ["Gálatas 3:10, Tiago 2:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "kind": "prophecy",
+      "label": "Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")",
+      "aliases": [],
+      "summary": "Paulo emprega o texto para demonstrar que Abraão foi justificado pela fé séculos antes da instituição da circuncisão e da Torá; o judaísmo rabínico tradicional via a fé de Abraão integrada ao seu mérito de observância dos mandamentos.",
+      "references": ["Gálatas 3:6, Romanos 4:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:galatas-genesis-22-18-12-3-em-ti-serao-benditas-todas-as-nacoes",
+      "kind": "prophecy",
+      "label": "Gênesis 22:18 / 12:3 (\"Em ti serão benditas todas as nações\")",
+      "aliases": [],
+      "summary": "Paulo interpreta a promessa feita a Abraão (\"à sua descendência\", singularizada em Cristo) como a inclusão direta e imediata dos gentios na bênção pactual, sem exigência de conversão étnica.",
+      "references": ["Gálatas 3:8, 3:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / promessa" }
+    },
+    {
+      "id": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo aplica o oráculo profético para ancorar o princípio soteriológico fundamental de que a vida diante de Deus é sustentada pela fé e não por rituais identitários.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido",
+      "kind": "prophecy",
+      "label": "Isaías 54:1 (\"Alegra-te, ó estéril... porque mais são os filhos da solitária do que os da que tem marido\")",
+      "aliases": [],
+      "summary": "Paulo aplica a profecia de Isaías sobre a restauração de Sião à alegoria de Sara (a mulher livre), contrastando-a com Hagar (a Jerusalém terrenal e escrava sob a lei).",
+      "references": ["Gálatas 4:27, Romanos 9:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:genesis-gn-12-1-3-abraao-e-as-familias-da-terra",
+      "kind": "prophecy",
+      "label": "Abraão e as famílias da terra",
+      "aliases": [],
+      "summary": "A eleição de Abraão é formulada como bênção pública, não como privilégio fechado.",
+      "references": [
+        "Gn 12:1–3",
+        "Gn 18:18",
+        "Is 49:6",
+        "At 3:25",
+        "Gl 3:8–14"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "Paulo usa a promessa como chave para pensar a inclusão das nações; a continuidade deve ser estudada sem apagar o contexto de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo e o autor aos Hebreus reinterpretam o texto escatológico original sobre a sobrevivência em meio à invasão caldeia como a base da justificação pela fé e perseverança cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "kind": "prophecy",
+      "label": "Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")",
+      "aliases": [],
+      "summary": "Paulo utiliza o patriarca Abraão para demonstrar que a justificação pela fé antecede a circuncisão e a lei mosaica, enquanto Tiago enfatiza a obra complementar; divergência exegética histórica entre fé e obras.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo reinterpreta o texto profético do Antigo Testamento — originalmente focado na perseverança diante da opressão babilônica — como o princípio soteriológico fundamental da justificação e vida pela fé cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "term:ab",
+      "kind": "term",
+      "label": "Abba",
+      "aliases": ["אַבָּא", "ʾabbāʾ"],
+      "summary": "Forma aramaica de dirigir-se ao pai; comunica intimidade e confiança, sem exigir a tradução infantilizada ‘papai’ em todos os contextos.",
+      "references": ["Mc 14:36", "Rm 8:15", "Gl 4:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ab"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O peso afetivo depende da relação, do ambiente de oração e da tradição de tradução. A palavra pode manter reverência e proximidade simultaneamente.",
+        "translationNote": "Em Mc 14:36 e Rm 8:15; Gl 4:6, preservar o aramaico seguido de explicação evidencia a memória linguística do movimento cristão primitivo."
+      }
+    },
+    {
+      "id": "term:apokalypsis",
+      "kind": "term",
+      "label": "Apokalypsis",
+      "aliases": ["ἀποκάλυψις", "apokalypsis"],
+      "summary": "Revelação ou desvelamento; não equivale simplesmente a destruição do mundo ou a calendário de eventos futuros.",
+      "references": ["Rm 8:18–19", "Gl 1:12", "Ap 1:1"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["apokalypsis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode nomear a manifestação de algo oculto, a revelação de Jesus Cristo e um gênero que interpreta o presente por visões simbólicas.",
+        "translationNote": "A palavra ‘apocalipse’ ganhou no português um sentido popular de catástrofe; a interface sempre mostrará o sentido literário e o uso popular separadamente."
+      }
+    },
+    {
+      "id": "term:pistis",
+      "kind": "term",
+      "label": "Pistis",
+      "aliases": ["πίστις", "pistis"],
+      "summary": "Confiança, fé, fidelidade ou lealdade; o sentido depende do agente, do objeto e da relação construída no texto.",
+      "references": ["Rm 3:21–26", "Gl 5:6", "Hb 11:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pistis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em alguns contextos descreve a confiança de uma pessoa; em outros, a fidelidade que caracteriza uma vida ou uma comunidade. A discussão ‘fé versus fidelidade’ é real, mas não deve ser resolvida por slogans.",
+        "translationNote": "A tradução por ‘fé’ preserva a linguagem confessional; ‘fidelidade’ ilumina certos contextos éticos. O leitor deve acompanhar sintaxe e argumento."
+      }
+    },
+    {
+      "id": "theme:a-lei-tora",
+      "kind": "theme",
+      "label": "A Lei (Torá)",
+      "aliases": [],
+      "summary": "Instrumento divino de validade limitada no tempo histórico, cuja função pedagógica encerrou-se com a inauguração da fé em Cristo.",
+      "references": ["Gl 3:19-25, 5:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tutor temporário e código mosaico",
+        "entityType": "Conceito / Instituição"
+      }
+    },
+    {
+      "id": "theme:o-espirito-santo",
+      "kind": "theme",
+      "label": "O Espírito Santo",
+      "aliases": [],
+      "summary": "Realidade pneumática recebida pela fé (e não pelas obras), que habita nos crentes e capacita a transformação ética e comunitária.",
+      "references": ["Gl 3:2-5, 4:6, 5:16-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agente da filiação e da ética cristã",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:os-agitadores-judaizantes",
+      "kind": "theme",
+      "label": "Os Agitadores (Judaizantes)",
+      "aliases": [],
+      "summary": "Mestres itinerantes que insistiam na necessidade de observância da Torá para a plena pertença ao pacto divino e salvação.",
+      "references": ["Gl 1:7, 5:10, 6:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositores teológicos de Paulo",
+        "entityType": "Povo / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-galatas-a-conversao-e-a-revelacao-damascena-de-paulo:chapter-galatas-1",
+      "from": "event:galatas-a-conversao-e-a-revelacao-damascena-de-paulo",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A conversão e a revelação damascena de Paulo” cita explicitamente Gálatas Gl 1:11-24.",
+      "references": ["Gálatas Gl 1:11-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-a-crise-de-desvio-doutrinario-dos-galatas:chapter-galatas-3",
+      "from": "event:galatas-a-crise-de-desvio-doutrinario-dos-galatas",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A crise de desvio doutrinário dos gálatas” cita explicitamente Gálatas Gl 3:1-5, 4:8-11.",
+      "references": ["Gálatas Gl 3:1-5, 4:8-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-a-crise-de-desvio-doutrinario-dos-galatas:chapter-galatas-4",
+      "from": "event:galatas-a-crise-de-desvio-doutrinario-dos-galatas",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A crise de desvio doutrinário dos gálatas” cita explicitamente Gálatas Gl 3:1-5, 4:8-11.",
+      "references": ["Gálatas Gl 3:1-5, 4:8-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-a-proclamacao-da-liberdade-em-cristo-e-a-crucificacao-da-carne:chapter-galatas-5",
+      "from": "event:galatas-a-proclamacao-da-liberdade-em-cristo-e-a-crucificacao-da-carne",
+      "to": "chapter:galatas:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A proclamação da liberdade em Cristo e a crucificação da carne” cita explicitamente Gálatas Gl 5:1-25, 6:14.",
+      "references": ["Gálatas Gl 5:1-25, 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-a-proclamacao-da-liberdade-em-cristo-e-a-crucificacao-da-carne:chapter-galatas-6",
+      "from": "event:galatas-a-proclamacao-da-liberdade-em-cristo-e-a-crucificacao-da-carne",
+      "to": "chapter:galatas:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A proclamação da liberdade em Cristo e a crucificação da carne” cita explicitamente Gálatas Gl 5:1-25, 6:14.",
+      "references": ["Gálatas Gl 5:1-25, 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-o-concilio-de-jerusalem-e-o-reconhecimento-apostolico:chapter-galatas-2",
+      "from": "event:galatas-o-concilio-de-jerusalem-e-o-reconhecimento-apostolico",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Concílio de Jerusalém e o reconhecimento apostólico” cita explicitamente Gálatas Gl 2:1-10.",
+      "references": ["Gálatas Gl 2:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-galatas-o-incidente-em-antioquia:chapter-galatas-2",
+      "from": "event:galatas-o-incidente-em-antioquia",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Incidente em Antioquia” cita explicitamente Gálatas Gl 2:11-14.",
+      "references": ["Gálatas Gl 2:11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-galatas:chapter-galatas-1",
+      "from": "people-group:os-galatas",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Gálatas” cita explicitamente Gl 1:2, 3:1-5, 4:8-11.",
+      "references": ["Gl 1:2, 3:1-5, 4:8-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-galatas:chapter-galatas-3",
+      "from": "people-group:os-galatas",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Gálatas” cita explicitamente Gl 1:2, 3:1-5, 4:8-11.",
+      "references": ["Gl 1:2, 3:1-5, 4:8-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-galatas:chapter-galatas-4",
+      "from": "people-group:os-galatas",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Gálatas” cita explicitamente Gl 1:2, 3:1-5, 4:8-11.",
+      "references": ["Gl 1:2, 3:1-5, 4:8-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-galatas-3",
+      "from": "person:abraao",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Gl 3:6-9, 3:29.",
+      "references": ["Gl 3:6-9, 3:29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apostolo-paulo-saulo-de-tarso:chapter-galatas-1",
+      "from": "person:apostolo-paulo-saulo-de-tarso",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apóstolo Paulo (Saulo de Tarso)” cita explicitamente Gálatas 1-2.",
+      "references": ["Gálatas 1-2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apostolo-paulo-saulo-de-tarso:chapter-galatas-2",
+      "from": "person:apostolo-paulo-saulo-de-tarso",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apóstolo Paulo (Saulo de Tarso)” cita explicitamente Gálatas 1-2.",
+      "references": ["Gálatas 1-2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-barnabe:chapter-galatas-2",
+      "from": "person:barnabe",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Barnabé” cita explicitamente Gl 2:1, 2:13.",
+      "references": ["Gl 2:1, 2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hagar-e-sara:chapter-galatas-4",
+      "from": "person:hagar-e-sara",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hagar e Sara” cita explicitamente Gl 4:22-31.",
+      "references": ["Gl 4:22-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hagar:chapter-galatas-4",
+      "from": "person:hagar",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hagar” cita explicitamente Gl 4:21–31.",
+      "references": ["Gl 4:21–31"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-galatas-1",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente Gl 1:1, 1:11-12, 6:17.",
+      "references": ["Gl 1:1, 1:11-12, 6:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-galatas-6",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:galatas:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente Gl 1:1, 1:11-12, 6:17.",
+      "references": ["Gl 1:1, 1:11-12, 6:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-pedro-cefas:chapter-galatas-2",
+      "from": "person:pedro-cefas",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pedro (Cefas)” cita explicitamente Gl 2:9, 2:11-14.",
+      "references": ["Gl 2:9, 2:11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiago-irmao-do-senhor:chapter-galatas-1",
+      "from": "person:tiago-irmao-do-senhor",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tiago, irmão do Senhor” cita explicitamente Gl 1:19, 2:9, 2:12.",
+      "references": ["Gl 1:19, 2:9, 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiago-irmao-do-senhor:chapter-galatas-2",
+      "from": "person:tiago-irmao-do-senhor",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tiago, irmão do Senhor” cita explicitamente Gl 1:19, 2:9, 2:12.",
+      "references": ["Gl 1:19, 2:9, 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-galatas-2",
+      "from": "person:tito",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente Gálatas 2:1-3.",
+      "references": ["Gálatas 2:1-3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-antioquia-da-siria:chapter-galatas-2",
+      "from": "place:antioquia-da-siria",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Antioquia da Síria” cita explicitamente Gl 2:11.",
+      "references": ["Gl 2:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-arabia:chapter-galatas-1",
+      "from": "place:arabia",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Arábia” cita explicitamente Gl 1:17.",
+      "references": ["Gl 1:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-galacia:chapter-galatas-1",
+      "from": "place:galacia",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Galácia” cita explicitamente Gl 1:2, 3:1.",
+      "references": ["Gl 1:2, 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-galacia:chapter-galatas-3",
+      "from": "place:galacia",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Galácia” cita explicitamente Gl 1:2, 3:1.",
+      "references": ["Gl 1:2, 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-celestial:chapter-galatas-4",
+      "from": "place:jerusalem-celestial",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém Celestial” cita explicitamente Gl 4:26.",
+      "references": ["Gl 4:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-galatas-1",
+      "from": "place:jerusalem",
+      "to": "chapter:galatas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Gl 1:17-18, 2:1.",
+      "references": ["Gl 1:17-18, 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-galatas-2",
+      "from": "place:jerusalem",
+      "to": "chapter:galatas:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Gl 1:17-18, 2:1.",
+      "references": ["Gl 1:17-18, 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las:chapter-galatas-3",
+      "from": "prophecy:galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deuteronômio 27:26 (\"Maldito todo aquele que não permanece em todas as coisas escritas no livro da lei para cumpri-las\")” cita explicitamente Gálatas 3:10, Tiago 2:10.",
+      "references": ["Gálatas 3:10, Tiago 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica:chapter-galatas-3",
+      "from": "prophecy:galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")” cita explicitamente Gálatas 3:6, Romanos 4:3.",
+      "references": ["Gálatas 3:6, Romanos 4:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-genesis-22-18-12-3-em-ti-serao-benditas-todas-as-nacoes:chapter-galatas-3",
+      "from": "prophecy:galatas-genesis-22-18-12-3-em-ti-serao-benditas-todas-as-nacoes",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 22:18 / 12:3 (\"Em ti serão benditas todas as nações\")” cita explicitamente Gálatas 3:8, 3:16.",
+      "references": ["Gálatas 3:8, 3:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-galatas-3",
+      "from": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Gálatas 3:11, Romanos 1:17, Hebreus 10:38.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido:chapter-galatas-4",
+      "from": "prophecy:galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido",
+      "to": "chapter:galatas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 54:1 (\"Alegra-te, ó estéril... porque mais são os filhos da solitária do que os da que tem marido\")” cita explicitamente Gálatas 4:27, Romanos 9:25.",
+      "references": ["Gálatas 4:27, Romanos 9:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-12-1-3-abraao-e-as-familias-da-terra:chapter-galatas-3",
+      "from": "prophecy:genesis-gn-12-1-3-abraao-e-as-familias-da-terra",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão e as famílias da terra” cita explicitamente Gl 3:8–14.",
+      "references": ["Gl 3:8–14"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-galatas-3",
+      "from": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica:chapter-galatas-3",
+      "from": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")” cita explicitamente Romanos 4:3; Gálatas 3:6; Tiago 2:23.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-galatas-3",
+      "from": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:galatas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-1:theme-os-agitadores-judaizantes",
+      "from": "chapter:galatas:1",
+      "to": "theme:os-agitadores-judaizantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Agitadores (Judaizantes)” cita explicitamente Gl 1:7, 5:10, 6:12-13.",
+      "references": ["Gl 1:7, 5:10, 6:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-3:theme-a-lei-tora",
+      "from": "chapter:galatas:3",
+      "to": "theme:a-lei-tora",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Lei (Torá)” cita explicitamente Gl 3:19-25, 5:3.",
+      "references": ["Gl 3:19-25, 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-3:theme-o-espirito-santo",
+      "from": "chapter:galatas:3",
+      "to": "theme:o-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Espírito Santo” cita explicitamente Gl 3:2-5, 4:6, 5:16-25.",
+      "references": ["Gl 3:2-5, 4:6, 5:16-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-4:theme-o-espirito-santo",
+      "from": "chapter:galatas:4",
+      "to": "theme:o-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Espírito Santo” cita explicitamente Gl 3:2-5, 4:6, 5:16-25.",
+      "references": ["Gl 3:2-5, 4:6, 5:16-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-5:doctrine-dons",
+      "from": "chapter:galatas:5",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-5:doctrine-santificacao",
+      "from": "chapter:galatas:5",
+      "to": "doctrine:santificacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Santificação e santidade” cita explicitamente 1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-5:theme-a-lei-tora",
+      "from": "chapter:galatas:5",
+      "to": "theme:a-lei-tora",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Lei (Torá)” cita explicitamente Gl 3:19-25, 5:3.",
+      "references": ["Gl 3:19-25, 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-5:theme-o-espirito-santo",
+      "from": "chapter:galatas:5",
+      "to": "theme:o-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Espírito Santo” cita explicitamente Gl 3:2-5, 4:6, 5:16-25.",
+      "references": ["Gl 3:2-5, 4:6, 5:16-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-5:theme-os-agitadores-judaizantes",
+      "from": "chapter:galatas:5",
+      "to": "theme:os-agitadores-judaizantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Agitadores (Judaizantes)” cita explicitamente Gl 1:7, 5:10, 6:12-13.",
+      "references": ["Gl 1:7, 5:10, 6:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-galatas-6:theme-os-agitadores-judaizantes",
+      "from": "chapter:galatas:6",
+      "to": "theme:os-agitadores-judaizantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Agitadores (Judaizantes)” cita explicitamente Gl 1:7, 5:10, 6:12-13.",
+      "references": ["Gl 1:7, 5:10, 6:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-galatas-1:term-apokalypsis",
+      "from": "chapter:galatas:1",
+      "to": "term:apokalypsis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Apokalypsis” cita explicitamente Gl 1:12.",
+      "references": ["Gl 1:12"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-galatas-4:term-ab",
+      "from": "chapter:galatas:4",
+      "to": "term:ab",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Abba” cita explicitamente Gl 4:6.",
+      "references": ["Gl 4:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-galatas-5:term-pistis",
+      "from": "chapter:galatas:5",
+      "to": "term:pistis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Pistis” cita explicitamente Gl 5:6.",
+      "references": ["Gl 5:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

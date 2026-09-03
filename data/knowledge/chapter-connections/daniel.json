@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "book": "Daniel",
+  "count": 45,
+  "chapterCount": 12,
+  "nodes": [
+    {
+      "id": "apocryphal-work:greek-additions",
+      "kind": "apocryphal-work",
+      "label": "Acréscimos gregos a Ester e Daniel",
+      "aliases": [],
+      "summary": "Versões gregas preservam orações de Ester e Mardoqueu, Susana, Bel e o Dragão e a Oração de Azarias, que ampliam personagens e teologia narrativa.",
+      "references": ["Est grego · Dn 3; 13–14 · Septuaginta"],
+      "sourceCatalogs": ["apocrypha"],
+      "maturity": "reviewed",
+      "sourceIds": ["greek-additions"],
+      "attributes": {
+        "collection": "Acréscimo grego",
+        "period": "sécs. II–I a.C.",
+        "genre": "Orações e narrativas ampliadas",
+        "lenses": ["católica", "ortodoxa", "protestante", "segundo-templo"],
+        "historicalQuestion": "Como versões antigas podem conservar, adaptar ou expandir formas textuais diferentes das preservadas em hebraico?",
+        "reception": "Partes integrais de Bíblias católicas e ortodoxas; geralmente separadas como apócrifos em edições protestantes."
+      }
+    },
+    {
+      "id": "person:ananias-misael-e-azarias-sadraque-mesaque-e-abednego",
+      "kind": "person",
+      "label": "Ananias, Misael e Azarias (Sadraque, Mesaque e Abednego)",
+      "aliases": [],
+      "summary": "Paradigma do martírio evitado e da fidelidade absoluta a YHWH perante o decreto imperial.",
+      "references": ["Daniel 1:7; 3:12; 3:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Companheiros de Daniel que recusam adorar a estátua de ouro e sobrevivem à fornalha ardente.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:anjo-miguel",
+      "kind": "person",
+      "label": "Anjo Miguel",
+      "aliases": [],
+      "summary": "Figura angélica que assegura a intervenção escatológica e a vitória divina sobre as potestades cósmicas.",
+      "references": ["Daniel 10:13; 10:21; 12:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Príncipe celeste e protetor do povo de Israel no reino espiritual.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:antioco-iv-epiphanes",
+      "kind": "person",
+      "label": "Antíoco IV Epiphanes",
+      "aliases": [],
+      "summary": "O perseguidor histórico que profanou o Templo de Jerusalém, catalisador da crise retratada na segunda metade do livro.",
+      "references": ["Daniel 8:9; 11:21–31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Monarca selêucida (implícito na figura do \"chifre pequeno\" e do rei do norte).",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:belsazar",
+      "kind": "person",
+      "label": "Belsazar",
+      "aliases": [],
+      "summary": "Símbolo da soberba humana punida pelo julgamento divino iminente.",
+      "references": ["Daniel 5:1; 5:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Príncipe regente babilônico (filho/sucessor de Nabonido), famoso pelo banquete profano com os utensílios do templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:ciro-o-grande",
+      "kind": "person",
+      "label": "Ciro o Grande",
+      "aliases": [],
+      "summary": "Agente histórico e escatológico que permitiu o retorno dos judeus e a reconstrução do templo",
+      "references": ["Isaías 44:28, 45:1", "Daniel 1:21; 6:28; 10:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei da Pérsia que emite o decreto permitindo o retorno dos judeus e a reconstrução do templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:daniel-beltessazar",
+      "kind": "person",
+      "label": "Daniel (Beltessazar)",
+      "aliases": [],
+      "summary": "Personagem central que encarna a sabedoria e a resistência do remanescente fiel na diáspora.",
+      "references": ["Daniel 1:6; 6:3; 10:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta e sábio judeu exilado na Babilônia, famoso por interpretar sonhos e manter fidelidade inabalável a YHWH.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nabucodonosor-ii",
+      "kind": "person",
+      "label": "Nabucodonosor II",
+      "aliases": [],
+      "summary": "Representa o poder imperial soberano que, contudo, é subjugado e ensinado pela soberania divina.",
+      "references": [
+        "Jer 25:9; 27:6",
+        "Ezequiel 21:19-22; 29:18-20",
+        "Daniel 1:1; 3:1; 4:37"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei do Império Neobabilônico, instrumento da disciplina divina e posteriormente convertido ao louvor do Deus Altíssimo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-cova-dos-leoes",
+      "kind": "place",
+      "label": "A Cova dos Leões",
+      "aliases": [],
+      "summary": "Fosso subterrâneo onde os leões famintos poupam a vida de Daniel devido à sua inocência perante Deus.",
+      "references": ["Daniel 6:16; 6:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/disputado" }
+    },
+    {
+      "id": "place:a-fornalha-ardente",
+      "kind": "place",
+      "label": "A Fornalha Ardente",
+      "aliases": [],
+      "summary": "Fornalha de fogo em Dura, Babilônia, palco do testemunho e libertação dos três amigos.",
+      "references": ["Daniel 3:6; 3:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/disputado" }
+    },
+    {
+      "id": "place:babilonia",
+      "kind": "place",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Capital imperial neobabilônica, cenário de exílio, opressão cultural e proclamação da soberania divina por meio de milagres na corte.",
+      "references": [
+        "2 Reis 20, 24-25",
+        "2Cr 36:20",
+        "Isaías 13:1, 47:1, 48:14",
+        "Jer 25:12; 50:1-51:64",
+        "Daniel 1:1; 4:30; 5:30"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:rio-ulai",
+      "kind": "place",
+      "label": "Rio Ulai",
+      "aliases": [],
+      "summary": "Curso d'água em Susa associado ao cenário das visões proféticas apocalípticas.",
+      "references": ["Daniel 8:2; 8:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:susa-shushan",
+      "kind": "place",
+      "label": "Susã (Shushan)",
+      "aliases": [],
+      "summary": "Capital de inverno do Império Persa, cenário principal onde se desenrolam as intrigas do palácio, o harém, os banquetes e os éditos.",
+      "references": ["Neemias 1:1; 2:1", "Est 1:2, 2:3, 3:15", "Daniel 8:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "kind": "prophecy",
+      "label": "1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")",
+      "aliases": [],
+      "summary": "O termo *harpazomai* gerou intensa divisão entre dispensacionalistas (arrebatamento secreto pré-tribulacional) e teologia histórica (encontro público e triunfal com Cristo).",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / escatologia corporativa" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12",
+      "kind": "prophecy",
+      "label": "A Profecia dos 70 Anos de Jeremias (2Cr 36:21 / Jr 25:11-12)",
+      "aliases": [],
+      "summary": "Analisada pela crítica histórica como esquema teológico redacional para explicar a duração do exílio, e por leituras teológicas como cronologia exata decretada pela providência divina.",
+      "references": ["Jr 25, Dn 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias",
+      "kind": "prophecy",
+      "label": "Sofrimento dos justos e oposição nos últimos dias",
+      "aliases": [],
+      "summary": "Interpretações divergem entre uma profecia preditiva estrita de catástrofes cronológicas modernas e um retrato sociorreligioso da decadência ética típica do mundo greco-romano pagão e de crises sectárias intracristãs.",
+      "references": [
+        "2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Alusão" }
+    },
+    {
+      "id": "prophecy:apocalipse-daniel-7-1-8-apocalipse-13-1-2",
+      "kind": "prophecy",
+      "label": "Daniel 7:1-8 — Apocalipse 13:1-2",
+      "aliases": [],
+      "summary": "As quatro bestas de Daniel fundem-se na Besta composta de Apocalipse 13; historicistas veem impérios sucessivos, futuristas veem um império escatológico global.",
+      "references": ["Daniel 7; Apocalipse 13; 17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/alusão" }
+    },
+    {
+      "id": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "kind": "prophecy",
+      "label": "A estátua de quatro metais (Daniel 2)",
+      "aliases": [],
+      "summary": "Interpreta-se tradicionalmente na patrística e escolástica como sucessão de impérios (Babilônia, Medo-Persa, Grécia, Roma); a erudição crítica lê como Babilônia, Medo, Pérsia e Grécia (ou império dual macedônio-selêucida).",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "kind": "prophecy",
+      "label": "Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)",
+      "aliases": [],
+      "summary": "Analisado por historiadores como um *vaticinium ex eventu* (profecia redigida após o evento) descrevendo as devastações assíria e babilônica, enquanto leituras teológicas tradicionais mantêm seu caráter preditivo genuíno sobre as consequências morais da quebra da aliança.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-1-1-28-visao-da-merkabah",
+      "kind": "prophecy",
+      "label": "Ezequiel 1:1-28 (Visão da Merkabah)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Enquanto leitores tradicionais veem teofanias literais de seres celestiais, a exegese histórico-crítica analisa a iconografia mesopotâmica (querubins, lamasu) subjacente à imaginação visual do profeta.",
+      "references": ["Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Recepção posterior / Apocalíptica" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-25-11-12-e-29-10-setenta-anos-se-cumprirao-para-a-babilonia",
+      "kind": "prophecy",
+      "label": "Jer 25:11-12 e 29:10 (\"Setenta anos se cumprirão para a Babilônia...\")",
+      "aliases": [],
+      "summary": "Daniel interpreta os 70 anos como marco cronológico exato para o fim do cativeiro, motivando oração intercessória.",
+      "references": ["Dn 9:2; 2Cr 36:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / oráculo" }
+    },
+    {
+      "id": "prophecy:neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem",
+      "kind": "prophecy",
+      "label": "Daniel 9:25 (\"Saiba e entenda: desde a saída da ordem para restaurar e para edificar Jerusalém...\")",
+      "aliases": [],
+      "summary": "Na hermenêutica apocalíptica e cristológica, a ordem de Artaxerxes a Neemias é frequentemente associada ao marco inicial das setenta semanas de Daniel.",
+      "references": ["Neemias 2; Daniel 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "theme:imperio-babilonico",
+      "kind": "theme",
+      "label": "Império Babilônico",
+      "aliases": [],
+      "summary": "Arquétipo do poder mundial idólatra e efêmero frente ao Reino de Deus.",
+      "references": ["Daniel 1:1; 2:38; 5:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Primeira grande potência opressora do exílio judaico, cenário dos capítulos 1 a 5.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:imperio-grego-macedonio",
+      "kind": "theme",
+      "label": "Império Grego (Macedônio)",
+      "aliases": [],
+      "summary": "Potência helenística cujo ramo selêucida oprime severamente a Judeia.",
+      "references": ["Daniel 8:5–8; 8:21; 11:3–4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Terceiro império simbolizado pelo bode e pelo chifre notável, associado a Alexandre o Grande e sucessores.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:imperio-medo-persa",
+      "kind": "theme",
+      "label": "Império Medo-Persa",
+      "aliases": [],
+      "summary": "Segunda potência mundial na progressão das estátuas e bestas.",
+      "references": ["Daniel 5:31; 6:28; 8:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sucessor da Babilônia, associado à lei irrevogável e à administração de Dario e Ciro.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:o-filho-do-homem",
+      "kind": "theme",
+      "label": "O Filho do Homem",
+      "aliases": [],
+      "summary": "Entidade escatológica e representativa do \"povo dos santos do Altíssimo\", com forte ressonância cristológica posterior.",
+      "references": ["Daniel 7:13–14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Figura celestial que recebe domínio, glória e um reino eterno das mãos do Ancião de Dias.",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-ananias-misael-e-azarias-sadraque-mesaque-e-abednego:chapter-daniel-1",
+      "from": "person:ananias-misael-e-azarias-sadraque-mesaque-e-abednego",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ananias, Misael e Azarias (Sadraque, Mesaque e Abednego)” cita explicitamente Daniel 1:7; 3:12; 3:28.",
+      "references": ["Daniel 1:7; 3:12; 3:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ananias-misael-e-azarias-sadraque-mesaque-e-abednego:chapter-daniel-3",
+      "from": "person:ananias-misael-e-azarias-sadraque-mesaque-e-abednego",
+      "to": "chapter:daniel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ananias, Misael e Azarias (Sadraque, Mesaque e Abednego)” cita explicitamente Daniel 1:7; 3:12; 3:28.",
+      "references": ["Daniel 1:7; 3:12; 3:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-anjo-miguel:chapter-daniel-10",
+      "from": "person:anjo-miguel",
+      "to": "chapter:daniel:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Anjo Miguel” cita explicitamente Daniel 10:13; 10:21; 12:1.",
+      "references": ["Daniel 10:13; 10:21; 12:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-anjo-miguel:chapter-daniel-12",
+      "from": "person:anjo-miguel",
+      "to": "chapter:daniel:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Anjo Miguel” cita explicitamente Daniel 10:13; 10:21; 12:1.",
+      "references": ["Daniel 10:13; 10:21; 12:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-antioco-iv-epiphanes:chapter-daniel-11",
+      "from": "person:antioco-iv-epiphanes",
+      "to": "chapter:daniel:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Antíoco IV Epiphanes” cita explicitamente Daniel 8:9; 11:21–31.",
+      "references": ["Daniel 8:9; 11:21–31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-antioco-iv-epiphanes:chapter-daniel-8",
+      "from": "person:antioco-iv-epiphanes",
+      "to": "chapter:daniel:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Antíoco IV Epiphanes” cita explicitamente Daniel 8:9; 11:21–31.",
+      "references": ["Daniel 8:9; 11:21–31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-belsazar:chapter-daniel-5",
+      "from": "person:belsazar",
+      "to": "chapter:daniel:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Belsazar” cita explicitamente Daniel 5:1; 5:30.",
+      "references": ["Daniel 5:1; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-o-grande:chapter-daniel-1",
+      "from": "person:ciro-o-grande",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro o Grande” cita explicitamente Daniel 1:21; 6:28; 10:1.",
+      "references": ["Daniel 1:21; 6:28; 10:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-o-grande:chapter-daniel-10",
+      "from": "person:ciro-o-grande",
+      "to": "chapter:daniel:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro o Grande” cita explicitamente Daniel 1:21; 6:28; 10:1.",
+      "references": ["Daniel 1:21; 6:28; 10:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-o-grande:chapter-daniel-6",
+      "from": "person:ciro-o-grande",
+      "to": "chapter:daniel:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro o Grande” cita explicitamente Daniel 1:21; 6:28; 10:1.",
+      "references": ["Daniel 1:21; 6:28; 10:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-daniel-beltessazar:chapter-daniel-1",
+      "from": "person:daniel-beltessazar",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel (Beltessazar)” cita explicitamente Daniel 1:6; 6:3; 10:11.",
+      "references": ["Daniel 1:6; 6:3; 10:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-daniel-beltessazar:chapter-daniel-10",
+      "from": "person:daniel-beltessazar",
+      "to": "chapter:daniel:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel (Beltessazar)” cita explicitamente Daniel 1:6; 6:3; 10:11.",
+      "references": ["Daniel 1:6; 6:3; 10:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-daniel-beltessazar:chapter-daniel-6",
+      "from": "person:daniel-beltessazar",
+      "to": "chapter:daniel:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel (Beltessazar)” cita explicitamente Daniel 1:6; 6:3; 10:11.",
+      "references": ["Daniel 1:6; 6:3; 10:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-daniel-1",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Daniel 1:1; 3:1; 4:37.",
+      "references": ["Daniel 1:1; 3:1; 4:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-daniel-3",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:daniel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Daniel 1:1; 3:1; 4:37.",
+      "references": ["Daniel 1:1; 3:1; 4:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-daniel-4",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:daniel:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Daniel 1:1; 3:1; 4:37.",
+      "references": ["Daniel 1:1; 3:1; 4:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-cova-dos-leoes:chapter-daniel-6",
+      "from": "place:a-cova-dos-leoes",
+      "to": "chapter:daniel:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Cova dos Leões” cita explicitamente Daniel 6:16; 6:24.",
+      "references": ["Daniel 6:16; 6:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-fornalha-ardente:chapter-daniel-3",
+      "from": "place:a-fornalha-ardente",
+      "to": "chapter:daniel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Fornalha Ardente” cita explicitamente Daniel 3:6; 3:19.",
+      "references": ["Daniel 3:6; 3:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-daniel-1",
+      "from": "place:babilonia",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Daniel 1:1; 4:30; 5:30.",
+      "references": ["Daniel 1:1; 4:30; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-daniel-4",
+      "from": "place:babilonia",
+      "to": "chapter:daniel:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Daniel 1:1; 4:30; 5:30.",
+      "references": ["Daniel 1:1; 4:30; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-daniel-5",
+      "from": "place:babilonia",
+      "to": "chapter:daniel:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Daniel 1:1; 4:30; 5:30.",
+      "references": ["Daniel 1:1; 4:30; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-daniel-1",
+      "from": "place:jerusalem",
+      "to": "chapter:daniel:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Daniel 1:1; 6:10.",
+      "references": ["Daniel 1:1; 6:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-daniel-6",
+      "from": "place:jerusalem",
+      "to": "chapter:daniel:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Daniel 1:1; 6:10.",
+      "references": ["Daniel 1:1; 6:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-rio-ulai:chapter-daniel-8",
+      "from": "place:rio-ulai",
+      "to": "chapter:daniel:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Rio Ulai” cita explicitamente Daniel 8:2; 8:16.",
+      "references": ["Daniel 8:2; 8:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-susa-shushan:chapter-daniel-8",
+      "from": "place:susa-shushan",
+      "to": "chapter:daniel:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Susã (Shushan)” cita explicitamente Daniel 8:2.",
+      "references": ["Daniel 8:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens:chapter-daniel-7",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "to": "chapter:daniel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")” cita explicitamente Dn 7:13; Ap 11:12; 2 Co 12:2.",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12:chapter-daniel-9",
+      "from": "prophecy:2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12",
+      "to": "chapter:daniel:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Profecia dos 70 Anos de Jeremias (2Cr 36:21 / Jr 25:11-12)” cita explicitamente Jr 25, Dn 9.",
+      "references": ["Jr 25, Dn 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias:chapter-daniel-11",
+      "from": "prophecy:2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias",
+      "to": "chapter:daniel:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofrimento dos justos e oposição nos últimos dias” cita explicitamente 2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas.",
+      "references": [
+        "2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias:chapter-daniel-12",
+      "from": "prophecy:2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias",
+      "to": "chapter:daniel:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofrimento dos justos e oposição nos últimos dias” cita explicitamente 2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas.",
+      "references": [
+        "2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-daniel-7-1-8-apocalipse-13-1-2:chapter-daniel-7",
+      "from": "prophecy:apocalipse-daniel-7-1-8-apocalipse-13-1-2",
+      "to": "chapter:daniel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:1-8 — Apocalipse 13:1-2” cita explicitamente Daniel 7; Apocalipse 13; 17.",
+      "references": ["Daniel 7; Apocalipse 13; 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-daniel-7",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:daniel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro:chapter-daniel-9",
+      "from": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "to": "chapter:daniel:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)” cita explicitamente Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-1-1-28-visao-da-merkabah:chapter-daniel-7",
+      "from": "prophecy:ezequiel-ezequiel-1-1-28-visao-da-merkabah",
+      "to": "chapter:daniel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 1:1-28 (Visão da Merkabah)” cita explicitamente Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8.",
+      "references": ["Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-25-11-12-e-29-10-setenta-anos-se-cumprirao-para-a-babilonia:chapter-daniel-9",
+      "from": "prophecy:jeremias-jer-25-11-12-e-29-10-setenta-anos-se-cumprirao-para-a-babilonia",
+      "to": "chapter:daniel:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 25:11-12 e 29:10 (\"Setenta anos se cumprirão para a Babilônia...\")” cita explicitamente Dn 9:2; 2Cr 36:21.",
+      "references": ["Dn 9:2; 2Cr 36:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem:chapter-daniel-9",
+      "from": "prophecy:neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem",
+      "to": "chapter:daniel:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 9:25 (\"Saiba e entenda: desde a saída da ordem para restaurar e para edificar Jerusalém...\")” cita explicitamente Neemias 2; Daniel 9.",
+      "references": ["Neemias 2; Daniel 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-daniel-3:apocryphal-work-greek-additions",
+      "from": "chapter:daniel:3",
+      "to": "apocryphal-work:greek-additions",
+      "type": "canonical-connection",
+      "label": "conexão histórica e literária",
+      "explanation": "O verbete “Acréscimos gregos a Ester e Daniel” cita explicitamente Est grego · Dn 3; 13–14 · Septuaginta.",
+      "references": ["Est grego · Dn 3; 13–14 · Septuaginta"],
+      "sourceCatalog": "explicit-reference:apocrypha",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-1:theme-imperio-babilonico",
+      "from": "chapter:daniel:1",
+      "to": "theme:imperio-babilonico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Babilônico” cita explicitamente Daniel 1:1; 2:38; 5:30.",
+      "references": ["Daniel 1:1; 2:38; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-11:theme-imperio-grego-macedonio",
+      "from": "chapter:daniel:11",
+      "to": "theme:imperio-grego-macedonio",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Grego (Macedônio)” cita explicitamente Daniel 8:5–8; 8:21; 11:3–4.",
+      "references": ["Daniel 8:5–8; 8:21; 11:3–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-2:theme-imperio-babilonico",
+      "from": "chapter:daniel:2",
+      "to": "theme:imperio-babilonico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Babilônico” cita explicitamente Daniel 1:1; 2:38; 5:30.",
+      "references": ["Daniel 1:1; 2:38; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-5:theme-imperio-babilonico",
+      "from": "chapter:daniel:5",
+      "to": "theme:imperio-babilonico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Babilônico” cita explicitamente Daniel 1:1; 2:38; 5:30.",
+      "references": ["Daniel 1:1; 2:38; 5:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-5:theme-imperio-medo-persa",
+      "from": "chapter:daniel:5",
+      "to": "theme:imperio-medo-persa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Medo-Persa” cita explicitamente Daniel 5:31; 6:28; 8:20.",
+      "references": ["Daniel 5:31; 6:28; 8:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-6:theme-imperio-medo-persa",
+      "from": "chapter:daniel:6",
+      "to": "theme:imperio-medo-persa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Medo-Persa” cita explicitamente Daniel 5:31; 6:28; 8:20.",
+      "references": ["Daniel 5:31; 6:28; 8:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-7:theme-o-filho-do-homem",
+      "from": "chapter:daniel:7",
+      "to": "theme:o-filho-do-homem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Filho do Homem” cita explicitamente Daniel 7:13–14.",
+      "references": ["Daniel 7:13–14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-8:theme-imperio-grego-macedonio",
+      "from": "chapter:daniel:8",
+      "to": "theme:imperio-grego-macedonio",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Grego (Macedônio)” cita explicitamente Daniel 8:5–8; 8:21; 11:3–4.",
+      "references": ["Daniel 8:5–8; 8:21; 11:3–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-daniel-8:theme-imperio-medo-persa",
+      "from": "chapter:daniel:8",
+      "to": "theme:imperio-medo-persa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Medo-Persa” cita explicitamente Daniel 5:31; 6:28; 8:20.",
+      "references": ["Daniel 5:31; 6:28; 8:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

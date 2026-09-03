@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "book": "Judas",
+  "count": 20,
+  "chapterCount": 1,
+  "nodes": [
+    {
+      "id": "event:judas-a-destruicao-de-sodoma-gomorra-e-cidades-vizinhas",
+      "kind": "event",
+      "label": "A Destruição de Sodoma, Gomorra e Cidades Vizinhas",
+      "aliases": [],
+      "summary": "Cidades entregues à fornicação e vícios contra a natureza sofrem a pena do fogo eterno como exemplo histórico.",
+      "references": ["Judas 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Serve de advertência visual e permanente sobre as consequências da corrupção moral desenfreada.",
+        "entities": "Sodoma e Gomorra, Habitantes, Deus"
+      }
+    },
+    {
+      "id": "event:judas-a-disputa-pelo-corpo-de-moises",
+      "kind": "event",
+      "label": "A Disputa pelo Corpo de Moisés",
+      "aliases": [],
+      "summary": "O arcanjo Miguel, ao contender com o Diabo sobre o corpo de Moisés, não o oposição com juízo de maldição injuriosa, mas remeteu o caso ao Senhor (\"O Senhor te repreenda\").",
+      "references": ["Judas 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a sobriedade ética e o respeito pelas instâncias espirituais, contrastando com a insolência dos falsos mestres que difamam potestades.",
+        "entities": "Miguel o Arcanjo, Diabo, Moisés"
+      }
+    },
+    {
+      "id": "event:judas-a-infiltracao-oculta-dos-falsos-mestres",
+      "kind": "event",
+      "label": "A Infiltração Oculta dos Falsos Mestres",
+      "aliases": [],
+      "summary": "Indivíduos ímpios entram furtivamente nas assembleias cristãs, pervertendo a doutrina da graça em permissividade moral e negando a autoridade de Cristo.",
+      "references": ["Judas 1:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Gera a urgência imediata de reorientação pastoral e o chamamento à batalha teológica (\"contender pela fé\").",
+        "entities": "Judas, Falsos Mestres, Destinatários"
+      }
+    },
+    {
+      "id": "event:judas-a-profecia-apocaliptica-de-enoque",
+      "kind": "event",
+      "label": "A Profecia Apocalíptica de Enoque",
+      "aliases": [],
+      "summary": "Enoque profetiza a vinda do Senhor com dezenas de milhares de seus santos para executar juízo sobre todos os ímpios por suas obras de impiedade.",
+      "references": ["Judas 1:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Ancoragem escatológica definitiva da certeza do castigo divino contra a arrogância dos opositores.",
+        "entities": "Enoque, Senhor, Ímpios"
+      }
+    },
+    {
+      "id": "event:judas-a-queda-e-prisao-dos-anjos-rebeldes",
+      "kind": "event",
+      "label": "A Queda e Prisão dos Anjos Rebeldes",
+      "aliases": [],
+      "summary": "Anjos que não guardaram seu estado original de habitação são retidos em trevas sob prisões eternas para o juízo do grande Dia.",
+      "references": ["Judas 1:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Ilustra a gravidade cósmica da insubordinação e a certeza do castigo para seres espirituais e humanos rebeldes.",
+        "entities": "Anjos Rebeldes, Deus"
+      }
+    },
+    {
+      "id": "event:judas-o-juizo-historico-sobre-os-desobedientes-no-deserto",
+      "kind": "event",
+      "label": "O Juízo Histórico sobre os Desobedientes no Deserto",
+      "aliases": [],
+      "summary": "Deus salva o povo do Egito, mas posteriormente destrói aqueles que não creram, demonstrando que a libertação inicial não exime de responsabilidade e juízo final.",
+      "references": ["Judas 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o princípio teológico de que o privilégio passado não garante imunidade diante da infidelidade presente.",
+        "entities": "Israel no Deserto, Deus"
+      }
+    },
+    {
+      "id": "people-group:os-destinatarios-chamados-amados-e-guardados",
+      "kind": "people-group",
+      "label": "Os Destinatários (Chamados, Amados e Guardados)",
+      "aliases": [],
+      "summary": "Sujeitos da salvação comum que necessitam de vigilância, edificação e discernimento pastoral.",
+      "references": ["Judas 1:1, 3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade cristã genérica (provavelmente de matiz judaico-helenística) alvo da epístola, exortada a contender pela fé.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:balaao",
+      "kind": "person",
+      "label": "Balaão",
+      "aliases": ["Balaão (בִּלְעָם)"],
+      "summary": "Balaão, filho de Beor, é um adivinho ou profeta pagão originário de Petor, na Mesopotâmia (rio Eufrates). Contratado por Balaque, rei de Moabe, para amaldiçoar o povo de Israel que acampava nas planícies moabitas após o êxodo, Balaão vê-se divinamente impedido por YHWH de proferir maldições, sendo forçado a pronunciar quatro oráculos de bênção magníficos sobre Israel. O episódio mais célebre de sua narrativa é o momento em que sua jumenta, dotada miraculosamente de fala, repreende-o por sua cegueira espiritual diante do Anjo do Senhor armado com uma espada.",
+      "references": ["2Pe 2:15-16", "Judas 1:11"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-balaao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta mercenário do Antigo Testamento associado ao erro por ganância e sedução do povo de Deus à apostasia e imoralidade.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:caim",
+      "kind": "person",
+      "label": "Caim",
+      "aliases": [],
+      "summary": "Caim encena a expansão da queda: a ruptura com Deus aparece agora dentro da família. O texto dá espaço à advertência divina antes do crime — ‘o pecado jaz à porta’ — e depois preserva a tensão entre juízo e proteção. Caim é condenado a uma vida de deslocamento, mas recebe um sinal que impede a vingança ilimitada.",
+      "references": [
+        "Judas 1:11",
+        "Gn 4:1–16",
+        "Gn 4:17–24",
+        "Hb 11:4",
+        "1Jo 3:11–12",
+        "Jd 11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["cain"],
+      "attributes": {
+        "role": "primeiro filho; irmão que se torna assassino",
+        "entityType": "Pessoa",
+        "tags": ["violência", "ciúme", "juízo", "misericórdia"]
+      }
+    },
+    {
+      "id": "person:cora",
+      "kind": "person",
+      "label": "Corá",
+      "aliases": [],
+      "summary": "Arquétipo da insubordinação e contestação da ordem teológica estabelecida.",
+      "references": ["Judas 1:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder da rebelião contra a autoridade sacerdotal de Moisés e Arão no deserto, destruído pelo juízo divino.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:enoque-o-setimo-depois-de-adao",
+      "kind": "person",
+      "label": "Enoque (o sétimo depois de Adão)",
+      "aliases": [],
+      "summary": "Autoridade profética intertestamentária legitimada para atestar o juízo vindouro contra os ímpios.",
+      "references": ["Judas 1:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Patriarca antediluviano cuja profecia apocalíptica sobre a vinda do Senhor com miríades de santos é citada diretamente por Judas.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jesus-cristo",
+      "kind": "person",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O protagonista central do evangelho, cujo ministério encarna a misericórdia divina, o perdão dos pecados e a inversão radical das estruturas sociais vigentes.",
+      "references": [
+        "Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27",
+        "Romanos 1:3-4; 3:24-26",
+        "Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27",
+        "Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12",
+        "Judas 1:4"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e soberano supremo cuja graça está sendo pervertida pelos infiltradores e cuja autoridade é negada na práxis dos falsos mestres.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:judas-judas-de-jerusalem",
+      "kind": "person",
+      "label": "Judas (Judas de Jerusalém)",
+      "aliases": [],
+      "summary": "Apresenta-se com modéstia relacional (\"irmão de Tiago\") enquanto desdobra uma autoridade profética inflexível contra desvios doutrinários.",
+      "references": ["Judas 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor da epístola, identificado como servo de Jesus Cristo e irmão de Tiago, atuando como líder judeu-cristão com autoridade moral na igreja primitiva.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiago-o-justo",
+      "kind": "person",
+      "label": "Tiago, o Justo",
+      "aliases": [],
+      "summary": "Figura moderadora que propõe o compromisso sobre a observância da Torá pelos gentios para preservar a unidade comunitária.",
+      "references": ["Atos 12:17, 15:13-21, 21:18", "Judas 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Irmão do Senhor e líder da igreja de Jerusalém, cuja menção serve de validação e âncora de autoridade para Judas.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-comunidade-eclesial-destinataria",
+      "kind": "place",
+      "label": "A Comunidade Eclesial Destinatária",
+      "aliases": [],
+      "summary": "Espaço geográfico-social indeterminado (provavelmente na Ásia Menor ou Síria) onde os leitores enfrentam a crise de infiltração.",
+      "references": ["Judas 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "sociorreligioso/disputado" }
+    },
+    {
+      "id": "place:o-abismo-cadeias-eternas-tartaro",
+      "kind": "place",
+      "label": "O Abismo / Cadeias Eternas (Tártaro)",
+      "aliases": [],
+      "summary": "Espaço cósmico de confinamento reservado para os anjos que abandonaram sua dignidade.",
+      "references": ["Judas 1:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/teológico" }
+    },
+    {
+      "id": "place:o-egito",
+      "kind": "place",
+      "label": "O Egito",
+      "aliases": [],
+      "summary": "Local de escravidão inicial de onde o povo foi libertado, servindo de ponto de partida para o exemplo histórico de apostasia no deserto.",
+      "references": ["Judas 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:sodoma-e-gomorra",
+      "kind": "place",
+      "label": "Sodoma e Gomorra",
+      "aliases": [],
+      "summary": "Cidades da planície destruídas por fogo e enxofre devido à perversão sexual extrema, usadas como paradigma escatológico de juízo.",
+      "references": ["2Pe 2:6", "Judas 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "theme:falsos-mestres-infiltradores",
+      "kind": "theme",
+      "label": "Falsos Mestres / Infiltradores",
+      "aliases": [],
+      "summary": "O principal perigo sociorreligioso combatido na epístola, caracterizados por divisões, sensualidade e falta do Espírito.",
+      "references": ["Judas 1:4, 8, 12-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Indivíduos que se introduziram ocultamente na comunidade, convertendo a graça em libertinagem, praticando imoralidade e rejeitando o senhorio de Cristo.",
+        "entityType": "Grupo/Instituição"
+      }
+    },
+    {
+      "id": "theme:miguel-o-arcanjo",
+      "kind": "theme",
+      "label": "Miguel o Arcanjo",
+      "aliases": [],
+      "summary": "Personagem de tradição intertestamentária usado por Judas para contrastar com a arrogância dos falsos mestres que difamam glorias celestiais.",
+      "references": ["Judas 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Arcanjo que contendia com o Diabo a respeito do corpo de Moisés, exemplificando modéstia verbal e recusa de difamação caluniosa contra potestades.",
+        "entityType": "Pessoa/Anjo"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-judas-a-destruicao-de-sodoma-gomorra-e-cidades-vizinhas:chapter-judas-1",
+      "from": "event:judas-a-destruicao-de-sodoma-gomorra-e-cidades-vizinhas",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Destruição de Sodoma, Gomorra e Cidades Vizinhas” cita explicitamente Judas 1:7.",
+      "references": ["Judas 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-judas-a-disputa-pelo-corpo-de-moises:chapter-judas-1",
+      "from": "event:judas-a-disputa-pelo-corpo-de-moises",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Disputa pelo Corpo de Moisés” cita explicitamente Judas 1:9.",
+      "references": ["Judas 1:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-judas-a-infiltracao-oculta-dos-falsos-mestres:chapter-judas-1",
+      "from": "event:judas-a-infiltracao-oculta-dos-falsos-mestres",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Infiltração Oculta dos Falsos Mestres” cita explicitamente Judas 1:3-4.",
+      "references": ["Judas 1:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-judas-a-profecia-apocaliptica-de-enoque:chapter-judas-1",
+      "from": "event:judas-a-profecia-apocaliptica-de-enoque",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Profecia Apocalíptica de Enoque” cita explicitamente Judas 1:14-15.",
+      "references": ["Judas 1:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-judas-a-queda-e-prisao-dos-anjos-rebeldes:chapter-judas-1",
+      "from": "event:judas-a-queda-e-prisao-dos-anjos-rebeldes",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda e Prisão dos Anjos Rebeldes” cita explicitamente Judas 1:6.",
+      "references": ["Judas 1:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-judas-o-juizo-historico-sobre-os-desobedientes-no-deserto:chapter-judas-1",
+      "from": "event:judas-o-juizo-historico-sobre-os-desobedientes-no-deserto",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo Histórico sobre os Desobedientes no Deserto” cita explicitamente Judas 1:5.",
+      "references": ["Judas 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-destinatarios-chamados-amados-e-guardados:chapter-judas-1",
+      "from": "people-group:os-destinatarios-chamados-amados-e-guardados",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Destinatários (Chamados, Amados e Guardados)” cita explicitamente Judas 1:1, 3.",
+      "references": ["Judas 1:1, 3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaao:chapter-judas-1",
+      "from": "person:balaao",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão” cita explicitamente Judas 1:11.",
+      "references": ["Judas 1:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-caim:chapter-judas-1",
+      "from": "person:caim",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Caim” cita explicitamente Judas 1:11.",
+      "references": ["Judas 1:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cora:chapter-judas-1",
+      "from": "person:cora",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Corá” cita explicitamente Judas 1:11.",
+      "references": ["Judas 1:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-enoque-o-setimo-depois-de-adao:chapter-judas-1",
+      "from": "person:enoque-o-setimo-depois-de-adao",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Enoque (o sétimo depois de Adão)” cita explicitamente Judas 1:14-15.",
+      "references": ["Judas 1:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-judas-1",
+      "from": "person:jesus-cristo",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Judas 1:4.",
+      "references": ["Judas 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-judas-judas-de-jerusalem:chapter-judas-1",
+      "from": "person:judas-judas-de-jerusalem",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Judas (Judas de Jerusalém)” cita explicitamente Judas 1:1.",
+      "references": ["Judas 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiago-o-justo:chapter-judas-1",
+      "from": "person:tiago-o-justo",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tiago, o Justo” cita explicitamente Judas 1:1.",
+      "references": ["Judas 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-comunidade-eclesial-destinataria:chapter-judas-1",
+      "from": "place:a-comunidade-eclesial-destinataria",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Comunidade Eclesial Destinatária” cita explicitamente Judas 1:3.",
+      "references": ["Judas 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-abismo-cadeias-eternas-tartaro:chapter-judas-1",
+      "from": "place:o-abismo-cadeias-eternas-tartaro",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Abismo / Cadeias Eternas (Tártaro)” cita explicitamente Judas 1:6.",
+      "references": ["Judas 1:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-egito:chapter-judas-1",
+      "from": "place:o-egito",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Egito” cita explicitamente Judas 1:5.",
+      "references": ["Judas 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sodoma-e-gomorra:chapter-judas-1",
+      "from": "place:sodoma-e-gomorra",
+      "to": "chapter:judas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sodoma e Gomorra” cita explicitamente Judas 1:7.",
+      "references": ["Judas 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-judas-1:theme-falsos-mestres-infiltradores",
+      "from": "chapter:judas:1",
+      "to": "theme:falsos-mestres-infiltradores",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Falsos Mestres / Infiltradores” cita explicitamente Judas 1:4, 8, 12-19.",
+      "references": ["Judas 1:4, 8, 12-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-judas-1:theme-miguel-o-arcanjo",
+      "from": "chapter:judas:1",
+      "to": "theme:miguel-o-arcanjo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Miguel o Arcanjo” cita explicitamente Judas 1:9.",
+      "references": ["Judas 1:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

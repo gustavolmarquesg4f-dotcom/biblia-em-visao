@@ -1,0 +1,910 @@
+{
+  "schemaVersion": 1,
+  "book": "Deuteronômio",
+  "count": 50,
+  "chapterCount": 23,
+  "nodes": [
+    {
+      "id": "people-group:esau-edom",
+      "kind": "people-group",
+      "label": "Esaú / Edom",
+      "aliases": ["Esaú", "Edom"],
+      "summary": "Esaú não deve ser reduzido a vilão. Ele é caçador, homem do campo, irmão enganado e depois agente de reconciliação. A genealogia de Gênesis 36 o transforma em Edom, povo com território, chefes e reis; as tensões posteriores entre Israel e Edom dependem dessa memória ambivalente de parentesco e rivalidade.",
+      "references": [
+        "Gn 25:19–34",
+        "Gn 27",
+        "Gn 32–33",
+        "Gn 36",
+        "Dt 23:7–8",
+        "Ob 1–21"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["esau"],
+      "attributes": {
+        "role": "irmão de Jacó; ancestral de Edom",
+        "tags": ["Edom", "irmão", "Seir", "reconciliação"]
+      }
+    },
+    {
+      "id": "people-group:israel-o-povo",
+      "kind": "people-group",
+      "label": "Israel (O Povo)",
+      "aliases": [],
+      "summary": "A nova geração de israelitas posicionada às margens de Canaã, convocada a escolher entre a fidelidade a YHWH e a apostasia.",
+      "references": ["Deut 5:1-3; 7:6-8; 29:10-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Coletividade congregada como sujeito da aliança e herdeiro da terra",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:os-cananeus-e-povos-circunvizinhos",
+      "kind": "people-group",
+      "label": "Os Cananeus e Povos Circunvizinhos",
+      "aliases": [],
+      "summary": "Povos cujas práticas religiosas e cultuais são severamente condenadas por Israel, servindo tanto como advertência teológica quanto como alvos de deslocamento geopolítico.",
+      "references": ["Deut 7:1-5; 20:16-18; 23:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Povos nativos de Canaã e nações limítrofes (Moabe, Amom, Edom)",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:josue-yehoshua",
+      "kind": "person",
+      "label": "Josué (Yehoshua)",
+      "aliases": [],
+      "summary": "Servo de Moisés designado para guiar o povo através do Jordão e consolidar a ocupação de Canaã sob a égide da Torá.",
+      "references": ["Deut 1:38; 31:7-8; 34:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sucessor de Moisés e líder militar encarregado da conquista da terra",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:moises",
+      "kind": "person",
+      "label": "Moisés",
+      "aliases": ["Moisés (מֹשֶׁה)"],
+      "summary": "Moisés é o personagem central do Pentateuco (Torá), cuja trajetória abrange desde seu nascimento sob o decreto de infanticídio do Faraó, seu salvamento nas águas do Nilo pela filha do Faraó, sua criação na corte egípcia, seu exílio na terra de Midiã após matar um capataz egípcio, o chamado divino na sarça ardente, até o retorno ao Egito para liderar as dez pragas e o êxodo. Ele é retratado simultaneamente como legislador, profeta supremo, libertador e intercessor singular, cujo rosto brilhava após falar com YHWH no Monte Sinai.",
+      "references": [
+        "Êxodo 2:1-4:31; 33:12-23",
+        "Êx 19; Lv 1:1; Nm 1",
+        "Êxodo 2 – Deuteronômio 34; Números 12:3",
+        "Deut 1:1; 33:1; 34:5",
+        "Hb 3:2-5; 8:5; 11:24-28"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-moises"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Servo fiel na casa de Deus",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:cades-barneia",
+      "kind": "place",
+      "label": "Cades-Barneia",
+      "aliases": [],
+      "summary": "Oásis estratégico na fronteira meridional de Canaã, palco do fracasso dos espias e da rebelião que gerou a condenação ao nomadismo.",
+      "references": ["Números 13:26; Números 20:1", "Deut 1:2, 19; 9:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Histórico" }
+    },
+    {
+      "id": "place:monte-horebe-sinai",
+      "kind": "place",
+      "label": "Monte Horebe / Sinai",
+      "aliases": [],
+      "summary": "O monte sagrado da revelação, onde ocorreu a sarça ardente e a outorga da Torá e da Aliança.",
+      "references": ["Êxodo 3:1; 19:11", "Deut 4:10, 15; 5:2; 9:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:monte-nebo-pisga",
+      "kind": "place",
+      "label": "Monte Nebo / Pisga",
+      "aliases": [],
+      "summary": "Cume montanhoso na cordilheira de Abarim, de onde Moisés avistou toda a terra de Canaã antes de falecer",
+      "references": ["Deut 32:49; 34:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:montes-ebal-e-gerizim",
+      "kind": "place",
+      "label": "Montes Ebal e Gerizim",
+      "aliases": [],
+      "summary": "Situação geográfica onde se realizaria a cerimônia solene de bênçãos (Gerizim) e maldições (Ebal)",
+      "references": ["Deut 11:29; 27:4-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:o-deserto-midbar",
+      "kind": "place",
+      "label": "O Deserto (Midbar)",
+      "aliases": [],
+      "summary": "Lugar de provação, transição e morada temporária onde a aliança foi codificada",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "kind": "place",
+      "label": "O Santuário Central (\"O lugar que YHWH escolher\")",
+      "aliases": [],
+      "summary": "O local único de culto que substituirá os altares locais, identificado posteriormente pela teologia deuteronomista com o Templo de Jerusalém",
+      "references": ["Deut 12:5, 14, 18; 16:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Disputado / Simbólico" }
+    },
+    {
+      "id": "place:planicies-de-moabe",
+      "kind": "place",
+      "label": "Planícies de Moabe",
+      "aliases": [],
+      "summary": "Cenário imediato de todos os discursos e atos finais de Moisés antes da travessia do Jordão",
+      "references": ["Deut 1:5; 29:1; 34:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera",
+      "kind": "prophecy",
+      "label": "Ezequiel 18:20 (A alma que pecar, essa morrerá)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Discussões sobre se o texto abole a culpa corporativa ou se constitui uma diretriz pastoral para os exilados lidarem com a responsabilidade sob o julgamento nacional.",
+      "references": ["Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Citação / Alusão ética" }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-3-3-4-deus-veio-de-tema",
+      "kind": "prophecy",
+      "label": "Habacuque 3:3-4 (\"Deus veio de Temã...\")",
+      "aliases": [],
+      "summary": "Utiliza imagens tradicionais das teofanias do Sinai para ilustrar a intervenção libertadora soberana de Deus na história.",
+      "references": ["Salmo 68; Deuteronômio 33:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "kind": "prophecy",
+      "label": "\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"",
+      "aliases": [],
+      "summary": "Interpretado na tradição deuteronômica como garantia condicional de assistência divina atrelada à obediência, e na recepção cristã como promessa universal de presença perene (Hebreus)",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Promessa" }
+    },
+    {
+      "id": "prophecy:judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9",
+      "kind": "prophecy",
+      "label": "\"Eis que veio o Senhor com milhares de seus santos, para fazer juízo contra todos...\" (1 Enoque 1:9)",
+      "aliases": [],
+      "summary": "Judas cita explicitamente o apócrifo 1 Enoque como profecia proferida por \"Enoque, o sétimo depois de Adão\", validando a escatologia do juízo final através de literatura extracanônica amplamente lida no judaísmo do Segundo Templo.",
+      "references": ["1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/recepção posterior" }
+    },
+    {
+      "id": "prophecy:numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8",
+      "kind": "prophecy",
+      "label": "\"Se houver entre vós profeta de YHWH, em visão me farei conhecer a ele, em sonhos falarei com ele. Não assim com o meu servo Moisés... boca a boca falarei com ele...\" (Números 12:6-8)",
+      "aliases": [],
+      "summary": "Estabelece o padrão supremo da profecia mosaica na Bíblia hebraica, servindo de base hermenêutica para a tipologia do \"profeta como Moisés\" em Deuteronômio e no Novo Testamento.",
+      "references": ["Deuteronômio 18:15-18; Hebreus 3:2-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / oráculo" }
+    },
+    {
+      "id": "term:torah",
+      "kind": "term",
+      "label": "Torah",
+      "aliases": ["תּוֹרָה", "tôrāh"],
+      "summary": "Instrução, ensino ou orientação; pode nomear o Pentateuco como coleção, mas não se reduz à ideia moderna de código jurídico.",
+      "references": ["Dt 6:1–9", "Sl 1:1–3", "Ne 8:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["torah"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Em diferentes contextos pode significar uma instrução específica, o ensino sacerdotal, a tradição escrita ou os cinco livros de Moisés.",
+        "translationNote": "‘Lei’ é uma tradução tradicional, mas pode sugerir apenas norma punitiva. ‘Instrução’ comunica melhor alguns usos narrativos e sapienciais."
+      }
+    },
+    {
+      "id": "theme:a-tora-devarim-instrucao",
+      "kind": "theme",
+      "label": "A Torá (*Devarim* / Instrução)",
+      "aliases": [],
+      "summary": "Escritura normativa e pública que deve ser ensinada diligentemente, guardada no coração e lida publicamente a cada sete anos.",
+      "references": ["Deut 4:1, 8; 17:18-19; 31:11-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O corpo de leis, estatutos e ordenanças divinas reveladas por Moisés",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-profeta-semelhante-a-moises",
+      "kind": "theme",
+      "label": "O Profeta Semelhante a Moisés",
+      "aliases": [],
+      "summary": "Instituição profética garantida por Deus para que Israel não recorra à adivinhação pagã, encontrando cumprimento supremo na tradição judaica e neotestamentária.",
+      "references": ["Deut 18:15-18; 34:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediador escatológico e normativo da palavra de YHWH",
+        "entityType": "Conceito / Pessoa"
+      }
+    },
+    {
+      "id": "theme:o-rei",
+      "kind": "theme",
+      "label": "O Rei",
+      "aliases": [],
+      "summary": "Figura régia cuja existência é antecipada, mas rigidamente controlada: deve ser israelita, abster-se de acumulação excessiva de cavalos e riquezas, e copiar/ler a Torá diariamente.",
+      "references": ["Deut 17:14-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Monarca israelita regulado e limitado pela autoridade da Torá",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "kind": "theme",
+      "label": "O Santuário Central (\"O lugar que YHWH escolher\")",
+      "aliases": [],
+      "summary": "Instituição inovadora no Deuteronômio que abole os altares locais (*bamot*) e centraliza o ritual religioso, combatendo o sincretismo.",
+      "references": ["Deut 12:5; 16:6; 26:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Único centro legítimo de sacrifício e culto a YHWH em Israel",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "kind": "theme",
+      "label": "Os Vulneráveis (Órfão, Viúva e Estrangeiro / *Ger*)",
+      "aliases": [],
+      "summary": "Estratos desfavorecidos da sociedade que recebem mandamentos específicos de justiça social, fundamentados na memória histórica da escravidão egípcia.",
+      "references": ["Deut 10:18-19; 16:11; 24:17-21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Classes sociais protegidas pela legislação compassiva de Deuteronômio",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:sacerdotes-leviticos-aronidas",
+      "kind": "theme",
+      "label": "Sacerdotes levíticos (Arônidas)",
+      "aliases": [],
+      "summary": "Oferecem sacrifícios, ensinam a Torá e discernem entre o puro e o impuro",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediadores cultuais",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:yhwh",
+      "kind": "theme",
+      "label": "YHWH",
+      "aliases": [],
+      "summary": "Deus único, zeloso e libertador, que exige exclusividade cultual absoluta e estabelece as leis éticas e sociais para o seu povo.",
+      "references": [
+        "Deut 6:4-5; 10:12-17; 32:39",
+        "Sl 2, 23, 93, 100",
+        "Naum 1:2-3, 7"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus soberano de Israel, juiz das nações e protetor dos oprimidos",
+        "entityType": "Pessoa/Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-esau-edom:chapter-deuteronomio-23",
+      "from": "people-group:esau-edom",
+      "to": "chapter:deuteronomio:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esaú / Edom” cita explicitamente Dt 23:7–8.",
+      "references": ["Dt 23:7–8"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-israel-o-povo:chapter-deuteronomio-29",
+      "from": "people-group:israel-o-povo",
+      "to": "chapter:deuteronomio:29",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Israel (O Povo)” cita explicitamente Deut 5:1-3; 7:6-8; 29:10-15.",
+      "references": ["Deut 5:1-3; 7:6-8; 29:10-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-israel-o-povo:chapter-deuteronomio-5",
+      "from": "people-group:israel-o-povo",
+      "to": "chapter:deuteronomio:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Israel (O Povo)” cita explicitamente Deut 5:1-3; 7:6-8; 29:10-15.",
+      "references": ["Deut 5:1-3; 7:6-8; 29:10-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-israel-o-povo:chapter-deuteronomio-7",
+      "from": "people-group:israel-o-povo",
+      "to": "chapter:deuteronomio:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Israel (O Povo)” cita explicitamente Deut 5:1-3; 7:6-8; 29:10-15.",
+      "references": ["Deut 5:1-3; 7:6-8; 29:10-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-cananeus-e-povos-circunvizinhos:chapter-deuteronomio-20",
+      "from": "people-group:os-cananeus-e-povos-circunvizinhos",
+      "to": "chapter:deuteronomio:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Cananeus e Povos Circunvizinhos” cita explicitamente Deut 7:1-5; 20:16-18; 23:3-4.",
+      "references": ["Deut 7:1-5; 20:16-18; 23:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-cananeus-e-povos-circunvizinhos:chapter-deuteronomio-23",
+      "from": "people-group:os-cananeus-e-povos-circunvizinhos",
+      "to": "chapter:deuteronomio:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Cananeus e Povos Circunvizinhos” cita explicitamente Deut 7:1-5; 20:16-18; 23:3-4.",
+      "references": ["Deut 7:1-5; 20:16-18; 23:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-cananeus-e-povos-circunvizinhos:chapter-deuteronomio-7",
+      "from": "people-group:os-cananeus-e-povos-circunvizinhos",
+      "to": "chapter:deuteronomio:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Cananeus e Povos Circunvizinhos” cita explicitamente Deut 7:1-5; 20:16-18; 23:3-4.",
+      "references": ["Deut 7:1-5; 20:16-18; 23:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-yehoshua:chapter-deuteronomio-1",
+      "from": "person:josue-yehoshua",
+      "to": "chapter:deuteronomio:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Yehoshua)” cita explicitamente Deut 1:38; 31:7-8; 34:9.",
+      "references": ["Deut 1:38; 31:7-8; 34:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-yehoshua:chapter-deuteronomio-31",
+      "from": "person:josue-yehoshua",
+      "to": "chapter:deuteronomio:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Yehoshua)” cita explicitamente Deut 1:38; 31:7-8; 34:9.",
+      "references": ["Deut 1:38; 31:7-8; 34:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-yehoshua:chapter-deuteronomio-34",
+      "from": "person:josue-yehoshua",
+      "to": "chapter:deuteronomio:34",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Yehoshua)” cita explicitamente Deut 1:38; 31:7-8; 34:9.",
+      "references": ["Deut 1:38; 31:7-8; 34:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-deuteronomio-1",
+      "from": "person:moises",
+      "to": "chapter:deuteronomio:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Deut 1:1; 33:1; 34:5.",
+      "references": ["Deut 1:1; 33:1; 34:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-deuteronomio-33",
+      "from": "person:moises",
+      "to": "chapter:deuteronomio:33",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Deut 1:1; 33:1; 34:5.",
+      "references": ["Deut 1:1; 33:1; 34:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-deuteronomio-34",
+      "from": "person:moises",
+      "to": "chapter:deuteronomio:34",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2 – Deuteronômio 34; Números 12:3.",
+      "references": ["Êxodo 2 – Deuteronômio 34; Números 12:3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cades-barneia:chapter-deuteronomio-1",
+      "from": "place:cades-barneia",
+      "to": "chapter:deuteronomio:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cades-Barneia” cita explicitamente Deut 1:2, 19; 9:23.",
+      "references": ["Deut 1:2, 19; 9:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cades-barneia:chapter-deuteronomio-9",
+      "from": "place:cades-barneia",
+      "to": "chapter:deuteronomio:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cades-Barneia” cita explicitamente Deut 1:2, 19; 9:23.",
+      "references": ["Deut 1:2, 19; 9:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-horebe-sinai:chapter-deuteronomio-4",
+      "from": "place:monte-horebe-sinai",
+      "to": "chapter:deuteronomio:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Horebe / Sinai” cita explicitamente Deut 4:10, 15; 5:2; 9:8.",
+      "references": ["Deut 4:10, 15; 5:2; 9:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-horebe-sinai:chapter-deuteronomio-5",
+      "from": "place:monte-horebe-sinai",
+      "to": "chapter:deuteronomio:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Horebe / Sinai” cita explicitamente Deut 4:10, 15; 5:2; 9:8.",
+      "references": ["Deut 4:10, 15; 5:2; 9:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-horebe-sinai:chapter-deuteronomio-9",
+      "from": "place:monte-horebe-sinai",
+      "to": "chapter:deuteronomio:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Horebe / Sinai” cita explicitamente Deut 4:10, 15; 5:2; 9:8.",
+      "references": ["Deut 4:10, 15; 5:2; 9:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-nebo-pisga:chapter-deuteronomio-32",
+      "from": "place:monte-nebo-pisga",
+      "to": "chapter:deuteronomio:32",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Nebo / Pisga” cita explicitamente Deut 32:49; 34:1.",
+      "references": ["Deut 32:49; 34:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-nebo-pisga:chapter-deuteronomio-34",
+      "from": "place:monte-nebo-pisga",
+      "to": "chapter:deuteronomio:34",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Nebo / Pisga” cita explicitamente Deut 32:49; 34:1.",
+      "references": ["Deut 32:49; 34:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-montes-ebal-e-gerizim:chapter-deuteronomio-11",
+      "from": "place:montes-ebal-e-gerizim",
+      "to": "chapter:deuteronomio:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Montes Ebal e Gerizim” cita explicitamente Deut 11:29; 27:4-13.",
+      "references": ["Deut 11:29; 27:4-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-montes-ebal-e-gerizim:chapter-deuteronomio-27",
+      "from": "place:montes-ebal-e-gerizim",
+      "to": "chapter:deuteronomio:27",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Montes Ebal e Gerizim” cita explicitamente Deut 11:29; 27:4-13.",
+      "references": ["Deut 11:29; 27:4-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto-midbar:chapter-deuteronomio-8",
+      "from": "place:o-deserto-midbar",
+      "to": "chapter:deuteronomio:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto (Midbar)” cita explicitamente Lv 16:10; Dt 8:2; Am 5:25.",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santuario-central-o-lugar-que-yhwh-escolher:chapter-deuteronomio-12",
+      "from": "place:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "to": "chapter:deuteronomio:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santuário Central (\"O lugar que YHWH escolher\")” cita explicitamente Deut 12:5, 14, 18; 16:6.",
+      "references": ["Deut 12:5, 14, 18; 16:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santuario-central-o-lugar-que-yhwh-escolher:chapter-deuteronomio-16",
+      "from": "place:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "to": "chapter:deuteronomio:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santuário Central (\"O lugar que YHWH escolher\")” cita explicitamente Deut 12:5, 14, 18; 16:6.",
+      "references": ["Deut 12:5, 14, 18; 16:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-planicies-de-moabe:chapter-deuteronomio-1",
+      "from": "place:planicies-de-moabe",
+      "to": "chapter:deuteronomio:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Planícies de Moabe” cita explicitamente Deut 1:5; 29:1; 34:1.",
+      "references": ["Deut 1:5; 29:1; 34:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-planicies-de-moabe:chapter-deuteronomio-29",
+      "from": "place:planicies-de-moabe",
+      "to": "chapter:deuteronomio:29",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Planícies de Moabe” cita explicitamente Deut 1:5; 29:1; 34:1.",
+      "references": ["Deut 1:5; 29:1; 34:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-planicies-de-moabe:chapter-deuteronomio-34",
+      "from": "place:planicies-de-moabe",
+      "to": "chapter:deuteronomio:34",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Planícies de Moabe” cita explicitamente Deut 1:5; 29:1; 34:1.",
+      "references": ["Deut 1:5; 29:1; 34:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera:chapter-deuteronomio-24",
+      "from": "prophecy:ezequiel-ezequiel-18-20-a-alma-que-pecar-essa-morrera",
+      "to": "chapter:deuteronomio:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 18:20 (A alma que pecar, essa morrerá)” cita explicitamente Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6.",
+      "references": ["Textos relacionados: Deuteronômio 24:16; 2 Reis 14:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-3-3-4-deus-veio-de-tema:chapter-deuteronomio-33",
+      "from": "prophecy:habacuque-habacuque-3-3-4-deus-veio-de-tema",
+      "to": "chapter:deuteronomio:33",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 3:3-4 (\"Deus veio de Temã...\")” cita explicitamente Salmo 68; Deuteronômio 33:2.",
+      "references": ["Salmo 68; Deuteronômio 33:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo:chapter-deuteronomio-31",
+      "from": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "to": "chapter:deuteronomio:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"” cita explicitamente Josué 1:5; Deuteronômio 31:8; Hebreus 13:5.",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9:chapter-deuteronomio-33",
+      "from": "prophecy:judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9",
+      "to": "chapter:deuteronomio:33",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que veio o Senhor com milhares de seus santos, para fazer juízo contra todos...\" (1 Enoque 1:9)” cita explicitamente 1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2.",
+      "references": ["1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8:chapter-deuteronomio-18",
+      "from": "prophecy:numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8",
+      "to": "chapter:deuteronomio:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Se houver entre vós profeta de YHWH, em visão me farei conhecer a ele, em sonhos falarei com ele. Não assim com o meu servo Moisés... boca a boca falarei com ele...\" (Números 12:6-8)” cita explicitamente Deuteronômio 18:15-18; Hebreus 3:2-5.",
+      "references": ["Deuteronômio 18:15-18; Hebreus 3:2-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-10:theme-os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "from": "chapter:deuteronomio:10",
+      "to": "theme:os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Vulneráveis (Órfão, Viúva e Estrangeiro / *Ger*)” cita explicitamente Deut 10:18-19; 16:11; 24:17-21.",
+      "references": ["Deut 10:18-19; 16:11; 24:17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-10:theme-yhwh",
+      "from": "chapter:deuteronomio:10",
+      "to": "theme:yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH” cita explicitamente Deut 6:4-5; 10:12-17; 32:39.",
+      "references": ["Deut 6:4-5; 10:12-17; 32:39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-12:theme-o-santuario-central-o-lugar-que-yhwh-escolher",
+      "from": "chapter:deuteronomio:12",
+      "to": "theme:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Santuário Central (\"O lugar que YHWH escolher\")” cita explicitamente Deut 12:5; 16:6; 26:2.",
+      "references": ["Deut 12:5; 16:6; 26:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-16:theme-o-santuario-central-o-lugar-que-yhwh-escolher",
+      "from": "chapter:deuteronomio:16",
+      "to": "theme:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Santuário Central (\"O lugar que YHWH escolher\")” cita explicitamente Deut 12:5; 16:6; 26:2.",
+      "references": ["Deut 12:5; 16:6; 26:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-16:theme-os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "from": "chapter:deuteronomio:16",
+      "to": "theme:os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Vulneráveis (Órfão, Viúva e Estrangeiro / *Ger*)” cita explicitamente Deut 10:18-19; 16:11; 24:17-21.",
+      "references": ["Deut 10:18-19; 16:11; 24:17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-17:theme-a-tora-devarim-instrucao",
+      "from": "chapter:deuteronomio:17",
+      "to": "theme:a-tora-devarim-instrucao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (*Devarim* / Instrução)” cita explicitamente Deut 4:1, 8; 17:18-19; 31:11-12.",
+      "references": ["Deut 4:1, 8; 17:18-19; 31:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-17:theme-o-rei",
+      "from": "chapter:deuteronomio:17",
+      "to": "theme:o-rei",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Rei” cita explicitamente Deut 17:14-20.",
+      "references": ["Deut 17:14-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-18:theme-o-profeta-semelhante-a-moises",
+      "from": "chapter:deuteronomio:18",
+      "to": "theme:o-profeta-semelhante-a-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Profeta Semelhante a Moisés” cita explicitamente Deut 18:15-18; 34:10.",
+      "references": ["Deut 18:15-18; 34:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-24:theme-os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "from": "chapter:deuteronomio:24",
+      "to": "theme:os-vulneraveis-orfao-viuva-e-estrangeiro-ger",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Vulneráveis (Órfão, Viúva e Estrangeiro / *Ger*)” cita explicitamente Deut 10:18-19; 16:11; 24:17-21.",
+      "references": ["Deut 10:18-19; 16:11; 24:17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-26:theme-o-santuario-central-o-lugar-que-yhwh-escolher",
+      "from": "chapter:deuteronomio:26",
+      "to": "theme:o-santuario-central-o-lugar-que-yhwh-escolher",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Santuário Central (\"O lugar que YHWH escolher\")” cita explicitamente Deut 12:5; 16:6; 26:2.",
+      "references": ["Deut 12:5; 16:6; 26:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-31:theme-a-tora-devarim-instrucao",
+      "from": "chapter:deuteronomio:31",
+      "to": "theme:a-tora-devarim-instrucao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (*Devarim* / Instrução)” cita explicitamente Deut 4:1, 8; 17:18-19; 31:11-12.",
+      "references": ["Deut 4:1, 8; 17:18-19; 31:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-32:theme-yhwh",
+      "from": "chapter:deuteronomio:32",
+      "to": "theme:yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH” cita explicitamente Deut 6:4-5; 10:12-17; 32:39.",
+      "references": ["Deut 6:4-5; 10:12-17; 32:39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-33:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:deuteronomio:33",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-34:theme-o-profeta-semelhante-a-moises",
+      "from": "chapter:deuteronomio:34",
+      "to": "theme:o-profeta-semelhante-a-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Profeta Semelhante a Moisés” cita explicitamente Deut 18:15-18; 34:10.",
+      "references": ["Deut 18:15-18; 34:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-4:theme-a-tora-devarim-instrucao",
+      "from": "chapter:deuteronomio:4",
+      "to": "theme:a-tora-devarim-instrucao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá (*Devarim* / Instrução)” cita explicitamente Deut 4:1, 8; 17:18-19; 31:11-12.",
+      "references": ["Deut 4:1, 8; 17:18-19; 31:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-deuteronomio-6:theme-yhwh",
+      "from": "chapter:deuteronomio:6",
+      "to": "theme:yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH” cita explicitamente Deut 6:4-5; 10:12-17; 32:39.",
+      "references": ["Deut 6:4-5; 10:12-17; 32:39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-deuteronomio-6:term-torah",
+      "from": "chapter:deuteronomio:6",
+      "to": "term:torah",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Torah” cita explicitamente Dt 6:1–9.",
+      "references": ["Dt 6:1–9"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

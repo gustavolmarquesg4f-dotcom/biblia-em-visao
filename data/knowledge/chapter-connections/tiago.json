@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "book": "Tiago",
+  "count": 31,
+  "chapterCount": 5,
+  "nodes": [
+    {
+      "id": "doctrine:cura",
+      "kind": "doctrine",
+      "label": "Cura divina e oração",
+      "aliases": [],
+      "summary": "A declaração de fé afirma que a cura divina é provida na expiação.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cura"],
+      "attributes": {
+        "category": "Ministério",
+        "pentecostalReading": "A igreja ora pelos enfermos e confia na ação soberana de Deus. Fé e cuidado médico não precisam ser inimigos; a plataforma deve evitar culpa, promessas automáticas ou abandono de tratamento.",
+        "distinction": "A afirmação teológica de cura não permite prever quando ou como ela ocorrerá. Luto, doença e limitações humanas devem ser tratados com esperança e compaixão, não acusação.",
+        "source": "Declaração de Fé; Tiago 5; teologia pentecostal pastoral"
+      }
+    },
+    {
+      "id": "event:tiago-a-crise-da-lingua-e-o-conflito-de-mestres",
+      "kind": "event",
+      "label": "A Crise da Língua e o Conflito de Mestres",
+      "aliases": [],
+      "summary": "Disputas internas motivadas pelo desejo desmedido de ensinar e pelo uso descontrolado e difamatório da língua",
+      "references": ["Tiago Tiago 3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Exposição da hipocrisia e contraste entre a sabedoria terrena e a sabedoria celeste",
+        "entities": "A Língua, Sabedoria do Alto, Mestres"
+      }
+    },
+    {
+      "id": "event:tiago-a-crise-de-parcialidade-nas-assembleias",
+      "kind": "event",
+      "label": "A Crise de Parcialidade nas Assembleias",
+      "aliases": [],
+      "summary": "Favoritismo discriminatório em favor de ricos em detrimento de pobres nas reuniões litúrgicas da comunidade",
+      "references": ["Tiago Tiago 2:1-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Denúncia contundente da quebra da lei do amor ao próximo e da incompatibilidade entre o evangelho e o classismo",
+        "entities": "Rico Opressor, Doze Tribos na Dispersão"
+      }
+    },
+    {
+      "id": "event:tiago-a-cura-pela-oracao-da-fe-e-restauracao-de-errantes",
+      "kind": "event",
+      "label": "A Cura pela Oração da Fé e Restauração de Errantes",
+      "aliases": [],
+      "summary": "Prática pastoral de unção com óleo pelos presbíteros, confissão de pecados e resgate de irmãos desviados",
+      "references": ["Tiago Tiago 5:12-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Institucionalização da cura comunitária e da disciplina restaurativa no judeu-cristianismo",
+        "entities": "Presbíteros da Igreja, Doze Tribos"
+      }
+    },
+    {
+      "id": "event:tiago-a-provacao-inicial-da-fe-e-audicao-da-palavra",
+      "kind": "event",
+      "label": "A Provação Inicial da Fé e Audição da Palavra",
+      "aliases": [],
+      "summary": "Os crentes enfrentam tribulações diversas e são chamados a ouvir a palavra divina e praticá-la sem engano",
+      "references": ["Tiago Tiago 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o tom sapiencial e ético de toda a epístola, vinculando teste de fé à integridade moral",
+        "entities": "Tiago, Doze Tribos na Dispersão"
+      }
+    },
+    {
+      "id": "event:tiago-o-debate-pratico-sobre-fe-e-obras",
+      "kind": "event",
+      "label": "O Debate Prático sobre Fé e Obras",
+      "aliases": [],
+      "summary": "Formulação do argumento teológico demonstrando que a fé desacompanhada de obras é morta",
+      "references": ["Tiago Tiago 2:14-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consolidação da ortodoxia ética no cristianismo primitivo através dos exemplos de Abraão e Raabe",
+        "entities": "Abraão, Raabe, Doze Tribos"
+      }
+    },
+    {
+      "id": "event:tiago-o-juizo-escatologico-sobre-os-opressores-e-exortacao-a-paciencia",
+      "kind": "event",
+      "label": "O Juízo Escatológico sobre os Opressores e Exortação à Paciência",
+      "aliases": [],
+      "summary": "Acumulação injusta de riquezas por proprietários de terras e denúncia de sua condenação iminente, exigindo paciência dos crentes",
+      "references": ["Tiago Tiago 5:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Enquadramento escatológico da justiça divina e exortação à perseverança até a Parusia",
+        "entities": "Rico Opressor, Elias, Doze Tribos"
+      }
+    },
+    {
+      "id": "people-group:as-doze-tribos-na-dispersao",
+      "kind": "people-group",
+      "label": "As Doze Tribos na Dispersão",
+      "aliases": [],
+      "summary": "Designação teológica que aplica a identidade de Israel restaurado à comunidade cristã de origem judaica espalhada pelo mundo mediterrâneo",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários simbólicos e reais da epístola",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:abraao",
+      "kind": "person",
+      "label": "Abraão",
+      "aliases": ["Abraão"],
+      "summary": "Abraão (originalmente **Abrão**, do hebraico אַבְרָהָם, *’Aḇrāhām*, \"pai de muitas nações\") é o patriarca central do judaísmo, cristianismo e islamismo. Originário de Ur dos Caldeus, Abraão recebe o chamado divino em Harã para deixar sua terra, sua parentela e a casa de seu pai rumo a uma terra que Deus lhe mostraria. A narrativa de sua vida é marcada por testes monumentais de fé: a promessa de uma descendência numerosa dada a um casal idoso e estéril (Sara), a aliança cortada em Gênesis 15, a intercessão por Sodoma e Gomorra, e o ápice dramático da prova no Monte Moriá, onde lhe é exigido o sacrifício de seu filho herdeiro, Isaque, antes de ser detido por um anjo do Senhor [36].",
+      "references": [
+        "Gênesis 12:1–3",
+        "Gênesis 15:1–21",
+        "Gênesis 17:1–14",
+        "Gênesis 22:1–19",
+        "Romanos 4:1–25",
+        "Romanos 4:1-25; 9:7-9",
+        "Gl 3:6-9, 3:29",
+        "Hb 6:13-15; 7:4-9; 11:8-19",
+        "Tiago 2:21-23; Gênesis 22:9-10",
+        "Gn 12:1–9",
+        "Gn 15",
+        "Gn 17",
+        "Gn 18–19",
+        "Gn 22",
+        "Rm 4",
+        "Gl 3",
+        "Hb 11:8–19"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-abraao", "abraham"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A1%E2%80%933%3B%20G%C3%AAnesis%2015%3A1%E2%80%9321%3B%20G%C3%AAnesis%2017%3A1%E2%80%9314&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; receptor da promessa",
+        "entityType": "Pessoa",
+        "tags": ["promessa", "fé", "aliança", "nações"]
+      }
+    },
+    {
+      "id": "person:elias",
+      "kind": "person",
+      "label": "Elias",
+      "aliases": [],
+      "summary": "Profeta veterotestamentário citado como homem sujeito às mesmas paixões, cuja oração encerrou e reabriu os céus em tempo de seca",
+      "references": ["1Rs 17-21", "Tiago 5:17-18; 1 Reis 17:1; 18:41-45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Paradigma profético da eficácia da oração",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:raabe",
+      "kind": "person",
+      "label": "Raabe",
+      "aliases": ["Raabe (רָחָב)"],
+      "summary": "Raabe é uma mulher cananeia, residente em Jericó, que exercia a profissão de hospedeira ou prostituta (*zonah*). Quando Josué envia dois espias a Jericó, Raabe os esconde em seu telhado sob o linho e despacha os oficiais do rei em direção falsa. Em troca de sua proteção, ela faz um pacto de que ela e sua família sejam poupadas quando a cidade for destruída, selando o acordo com o sinal do cordão escarlate na janela. Raabe abandona o paganismo cananeu e confessa a soberania do Deus de Israel.",
+      "references": ["Josué 2:1-24; 6:25", "Tiago 2:25; Josué 2:1-6"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-raabe"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Exemplo de fé e hospitalidade entre os gentios",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiago-irmao-do-senhor",
+      "kind": "person",
+      "label": "Tiago, irmão do Senhor",
+      "aliases": [],
+      "summary": "Figura central do judeu-cristianismo palestino, conhecido por sua piedade estrita (\"Joelho de Camelo\") e liderança no Concílio de Jerusalém",
+      "references": [
+        "Gl 1:19, 2:9, 2:12",
+        "Tiago 1:1; Atos 15:13; Gálatas 1:19"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autoridade apostólica/patriarcal presumida e líder da comunidade de Jerusalém",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-dispersao-diaspora",
+      "kind": "place",
+      "label": "A Dispersão (Diaspora)",
+      "aliases": [],
+      "summary": "Destino geográfico e teológico dos crentes judeus espalhados pelo Império Romano",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "place:a-sinagoga-assembleia-synagoge",
+      "kind": "place",
+      "label": "A Sinagoga / Assembleia (Synagōgē)",
+      "aliases": [],
+      "summary": "Espaço físico de reunião cultual e tribunal local das comunidades cristãs primitivas",
+      "references": ["Tiago 2:2; 5:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:o-tribunal-juizo-divino",
+      "kind": "place",
+      "label": "O Tribunal / Juízo Divino",
+      "aliases": [],
+      "summary": "Instância escatológica final onde a justiça dos opressores será julgada e a paciência dos justos recompensada",
+      "references": ["Tiago 5:4; 2:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "prophecy:galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las",
+      "kind": "prophecy",
+      "label": "Deuteronômio 27:26 (\"Maldito todo aquele que não permanece em todas as coisas escritas no livro da lei para cumpri-las\")",
+      "aliases": [],
+      "summary": "Paulo argumenta que todos os que confiam nas obras da lei estão sob maldição, pois a falha em um único ponto quebra o pacto; a interpretação rabínica via a lei como um caminho com provisões para o perdão e o arrependimento.",
+      "references": ["Gálatas 3:10, Tiago 2:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "kind": "prophecy",
+      "label": "\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)",
+      "aliases": [],
+      "summary": "Visto no Judaísmo rabínico como o princípio fundamental da Torá; no Novo Testamento, expande-se universalmente pelo ensinamento de Jesus e Paulo.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / recepção ética" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-3-34",
+      "kind": "prophecy",
+      "label": "Pr 3:34",
+      "aliases": [],
+      "summary": "Os apóstolos Tiago e Pedro citam textualmente este provérbio para estabelecer a regra fundamental do governo espiritual de Deus sobre a comunidade da fé.",
+      "references": ["Tg 4:6; 1Pe 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / ética apostólica" }
+    },
+    {
+      "id": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "kind": "prophecy",
+      "label": "Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")",
+      "aliases": [],
+      "summary": "Paulo utiliza o patriarca Abraão para demonstrar que a justificação pela fé antecede a circuncisão e a lei mosaica, enquanto Tiago enfatiza a obra complementar; divergência exegética histórica entre fé e obras.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "theme:a-lingua-glossa",
+      "kind": "theme",
+      "label": "A Língua (Glōssa)",
+      "aliases": [],
+      "summary": "Órgão corporal indomável que reflete o caráter moral e espiritual do indivíduo, exigindo controle divino",
+      "references": ["Tiago 3:2-8; 1:26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instrumento microcósmico de destruição e bênção",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:lei-da-liberdade-nomos-eleutherias",
+      "kind": "theme",
+      "label": "Lei da Liberdade (Nomos Eleutherias)",
+      "aliases": [],
+      "summary": "A revelação divina internalizada que guia a conduta justa, contrastada com o legalismo ritualístico e o formalismo vazio",
+      "references": ["Tiago 1:25; 2:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Norma ética suprema e normativa do crente",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:presbiteros-da-igreja-presbyteroi",
+      "kind": "theme",
+      "label": "Presbíteros da Igreja (Presbyteroi)",
+      "aliases": [],
+      "summary": "Oficiais eclesiásticos convocados para ungir os enfermos com óleo e interceder em oração congregacional",
+      "references": ["Tiago 5:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança congregacional encarregada do cuidado pastoral e espiritual",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:rico-opressor",
+      "kind": "theme",
+      "label": "Rico Opressor",
+      "aliases": [],
+      "summary": "Proprietários de terras e elites mercantis que exploram trabalhadores e perseguem os cristãos vulneráveis",
+      "references": ["Tiago 2:6; 5:1-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Antagonista socioeconômico da comunidade",
+        "entityType": "Povo/Instituição"
+      }
+    },
+    {
+      "id": "theme:sabedoria-do-alto-sophia-anothen",
+      "kind": "theme",
+      "label": "Sabedoria do Alto (Sophia anōthen)",
+      "aliases": [],
+      "summary": "Princípio espiritual puro, pacífico e imparcial que contrasta com a sabedoria terrena, sensual e demoníaca",
+      "references": ["Tiago 3:15-17; 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Atributo divino moral e relacional concedido aos crentes",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-tiago-a-crise-da-lingua-e-o-conflito-de-mestres:chapter-tiago-3",
+      "from": "event:tiago-a-crise-da-lingua-e-o-conflito-de-mestres",
+      "to": "chapter:tiago:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Crise da Língua e o Conflito de Mestres” cita explicitamente Tiago Tiago 3.",
+      "references": ["Tiago Tiago 3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-tiago-a-crise-de-parcialidade-nas-assembleias:chapter-tiago-2",
+      "from": "event:tiago-a-crise-de-parcialidade-nas-assembleias",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Crise de Parcialidade nas Assembleias” cita explicitamente Tiago Tiago 2:1-13.",
+      "references": ["Tiago Tiago 2:1-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-tiago-a-cura-pela-oracao-da-fe-e-restauracao-de-errantes:chapter-tiago-5",
+      "from": "event:tiago-a-cura-pela-oracao-da-fe-e-restauracao-de-errantes",
+      "to": "chapter:tiago:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Cura pela Oração da Fé e Restauração de Errantes” cita explicitamente Tiago Tiago 5:12-20.",
+      "references": ["Tiago Tiago 5:12-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-tiago-a-provacao-inicial-da-fe-e-audicao-da-palavra:chapter-tiago-1",
+      "from": "event:tiago-a-provacao-inicial-da-fe-e-audicao-da-palavra",
+      "to": "chapter:tiago:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Provação Inicial da Fé e Audição da Palavra” cita explicitamente Tiago Tiago 1.",
+      "references": ["Tiago Tiago 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-tiago-o-debate-pratico-sobre-fe-e-obras:chapter-tiago-2",
+      "from": "event:tiago-o-debate-pratico-sobre-fe-e-obras",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Debate Prático sobre Fé e Obras” cita explicitamente Tiago Tiago 2:14-26.",
+      "references": ["Tiago Tiago 2:14-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-tiago-o-juizo-escatologico-sobre-os-opressores-e-exortacao-a-paciencia:chapter-tiago-5",
+      "from": "event:tiago-o-juizo-escatologico-sobre-os-opressores-e-exortacao-a-paciencia",
+      "to": "chapter:tiago:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo Escatológico sobre os Opressores e Exortação à Paciência” cita explicitamente Tiago Tiago 5:1-11.",
+      "references": ["Tiago Tiago 5:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-as-doze-tribos-na-dispersao:chapter-tiago-1",
+      "from": "people-group:as-doze-tribos-na-dispersao",
+      "to": "chapter:tiago:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Doze Tribos na Dispersão” cita explicitamente Tiago 1:1; 1 Pedro 1:1.",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-tiago-2",
+      "from": "person:abraao",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Tiago 2:21-23; Gênesis 22:9-10.",
+      "references": ["Tiago 2:21-23; Gênesis 22:9-10"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-tiago-5",
+      "from": "person:elias",
+      "to": "chapter:tiago:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente Tiago 5:17-18; 1 Reis 17:1; 18:41-45.",
+      "references": ["Tiago 5:17-18; 1 Reis 17:1; 18:41-45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-raabe:chapter-tiago-2",
+      "from": "person:raabe",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Raabe” cita explicitamente Tiago 2:25; Josué 2:1-6.",
+      "references": ["Tiago 2:25; Josué 2:1-6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiago-irmao-do-senhor:chapter-tiago-1",
+      "from": "person:tiago-irmao-do-senhor",
+      "to": "chapter:tiago:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tiago, irmão do Senhor” cita explicitamente Tiago 1:1; Atos 15:13; Gálatas 1:19.",
+      "references": ["Tiago 1:1; Atos 15:13; Gálatas 1:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-dispersao-diaspora:chapter-tiago-1",
+      "from": "place:a-dispersao-diaspora",
+      "to": "chapter:tiago:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Dispersão (Diaspora)” cita explicitamente Tiago 1:1; 1 Pedro 1:1.",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-sinagoga-assembleia-synagoge:chapter-tiago-2",
+      "from": "place:a-sinagoga-assembleia-synagoge",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Sinagoga / Assembleia (Synagōgē)” cita explicitamente Tiago 2:2; 5:14.",
+      "references": ["Tiago 2:2; 5:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-sinagoga-assembleia-synagoge:chapter-tiago-5",
+      "from": "place:a-sinagoga-assembleia-synagoge",
+      "to": "chapter:tiago:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Sinagoga / Assembleia (Synagōgē)” cita explicitamente Tiago 2:2; 5:14.",
+      "references": ["Tiago 2:2; 5:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-tiago-1",
+      "from": "place:jerusalem",
+      "to": "chapter:tiago:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Atos 15:13; Gálatas 2:9; Tiago 1:1.",
+      "references": ["Atos 15:13; Gálatas 2:9; Tiago 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-tribunal-juizo-divino:chapter-tiago-2",
+      "from": "place:o-tribunal-juizo-divino",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Tribunal / Juízo Divino” cita explicitamente Tiago 5:4; 2:13.",
+      "references": ["Tiago 5:4; 2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-tribunal-juizo-divino:chapter-tiago-5",
+      "from": "place:o-tribunal-juizo-divino",
+      "to": "chapter:tiago:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Tribunal / Juízo Divino” cita explicitamente Tiago 5:4; 2:13.",
+      "references": ["Tiago 5:4; 2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las:chapter-tiago-2",
+      "from": "prophecy:galatas-deuteronomio-27-26-maldito-todo-aquele-que-nao-permanece-em-todas-as-coisas-escritas-no-livro-da-lei-para-cumpri-las",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deuteronômio 27:26 (\"Maldito todo aquele que não permanece em todas as coisas escritas no livro da lei para cumpri-las\")” cita explicitamente Gálatas 3:10, Tiago 2:10.",
+      "references": ["Gálatas 3:10, Tiago 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18:chapter-tiago-2",
+      "from": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)” cita explicitamente Mt 22:39; Rm 13:9; Tg 2:8.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-3-34:chapter-tiago-4",
+      "from": "prophecy:proverbios-pr-3-34",
+      "to": "chapter:tiago:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 3:34” cita explicitamente Tg 4:6; 1Pe 5:5.",
+      "references": ["Tg 4:6; 1Pe 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica:chapter-tiago-2",
+      "from": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "to": "chapter:tiago:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")” cita explicitamente Romanos 4:3; Gálatas 3:6; Tiago 2:23.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-1:theme-a-lingua-glossa",
+      "from": "chapter:tiago:1",
+      "to": "theme:a-lingua-glossa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Língua (Glōssa)” cita explicitamente Tiago 3:2-8; 1:26.",
+      "references": ["Tiago 3:2-8; 1:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-1:theme-lei-da-liberdade-nomos-eleutherias",
+      "from": "chapter:tiago:1",
+      "to": "theme:lei-da-liberdade-nomos-eleutherias",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Lei da Liberdade (Nomos Eleutherias)” cita explicitamente Tiago 1:25; 2:12.",
+      "references": ["Tiago 1:25; 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-1:theme-sabedoria-do-alto-sophia-anothen",
+      "from": "chapter:tiago:1",
+      "to": "theme:sabedoria-do-alto-sophia-anothen",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sabedoria do Alto (Sophia anōthen)” cita explicitamente Tiago 3:15-17; 1:5.",
+      "references": ["Tiago 3:15-17; 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-2:theme-lei-da-liberdade-nomos-eleutherias",
+      "from": "chapter:tiago:2",
+      "to": "theme:lei-da-liberdade-nomos-eleutherias",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Lei da Liberdade (Nomos Eleutherias)” cita explicitamente Tiago 1:25; 2:12.",
+      "references": ["Tiago 1:25; 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-2:theme-rico-opressor",
+      "from": "chapter:tiago:2",
+      "to": "theme:rico-opressor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Rico Opressor” cita explicitamente Tiago 2:6; 5:1-6.",
+      "references": ["Tiago 2:6; 5:1-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-3:theme-a-lingua-glossa",
+      "from": "chapter:tiago:3",
+      "to": "theme:a-lingua-glossa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Língua (Glōssa)” cita explicitamente Tiago 3:2-8; 1:26.",
+      "references": ["Tiago 3:2-8; 1:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-3:theme-sabedoria-do-alto-sophia-anothen",
+      "from": "chapter:tiago:3",
+      "to": "theme:sabedoria-do-alto-sophia-anothen",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sabedoria do Alto (Sophia anōthen)” cita explicitamente Tiago 3:15-17; 1:5.",
+      "references": ["Tiago 3:15-17; 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-5:doctrine-cura",
+      "from": "chapter:tiago:5",
+      "to": "doctrine:cura",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Cura divina e oração” cita explicitamente Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-5:theme-presbiteros-da-igreja-presbyteroi",
+      "from": "chapter:tiago:5",
+      "to": "theme:presbiteros-da-igreja-presbyteroi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Presbíteros da Igreja (Presbyteroi)” cita explicitamente Tiago 5:14.",
+      "references": ["Tiago 5:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tiago-5:theme-rico-opressor",
+      "from": "chapter:tiago:5",
+      "to": "theme:rico-opressor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Rico Opressor” cita explicitamente Tiago 2:6; 5:1-6.",
+      "references": ["Tiago 2:6; 5:1-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

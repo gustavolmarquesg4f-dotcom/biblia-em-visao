@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "book": "Naum",
+  "count": 21,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "person:naum-de-elcos",
+      "kind": "person",
+      "label": "Naum de Elcos",
+      "aliases": [],
+      "summary": "É a voz literária e receptora da visão profética contra Nínive, cujo nome significa \"consolação\"",
+      "references": ["Naum 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta autor da mensagem e figura enigmática cuja proveniência geográfica (Elcos) permanece debatida entre a Galileia, a Judeia ou o Egito",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-mensageiro-sobre-os-montes",
+      "kind": "person",
+      "label": "O Mensageiro sobre os Montes",
+      "aliases": [],
+      "summary": "Personifica o anúncio escatológico e histórico da intervenção salvadora de Deus na história humana",
+      "references": ["Naum 1:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Figura simbólica que traz os pés formosos proclamando a paz e a restauração a Judá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:basa-e-carmelo",
+      "kind": "place",
+      "label": "Basã e Carmelo",
+      "aliases": [],
+      "summary": "Regiões férteis e montanhosas de Israel cujos \"florescimentos\" murcham diante da presença teofânica de Deus",
+      "references": ["Naum 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:ninive",
+      "kind": "place",
+      "label": "Nínive",
+      "aliases": [],
+      "summary": "Capital imperial assíria, caracterizada na narrativa como cidade grande de três dias de caminhada e símbolo máximo da alteridade opressora que encontra misericórdia divina mediante arrependimento.",
+      "references": [
+        "2 Reis 18-19",
+        "Jonas 1:2; 3:2-4; 4:11",
+        "Naum 1:1; 2:8; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:o-libano",
+      "kind": "place",
+      "label": "O Líbano",
+      "aliases": [],
+      "summary": "Região famosa por seus cedros majestosos, cuja glória murcha metaforicamente ante o juízo implacável",
+      "references": ["Naum 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:os-montes-de-juda",
+      "kind": "place",
+      "label": "Os Montes de Judá",
+      "aliases": [],
+      "summary": "Espaço físico de onde ecoam os pés do mensageiro trazendo boas-novas de paz e liberdade para o povo de Deus",
+      "references": ["Naum 1:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:os-rios-de-ninive-tigre-canais",
+      "kind": "place",
+      "label": "Os Rios de Nínive (Tigre/Canais)",
+      "aliases": [],
+      "summary": "Portões fluviais da capital assíria que são abertos e destruídos durante o cerco militar",
+      "references": ["Naum 2:6; 3:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive",
+      "kind": "prophecy",
+      "label": "Naum 1:1-3 (O Juízo definitivo contra Nínive)",
+      "aliases": [],
+      "summary": "Enquanto Jonas relata a suspensão temporária do juízo sobre Nínive devido ao arrependimento, o livro de Naum profetiza e celebra a destruição definitiva da mesma cidade séculos depois por sua crueldade contumaz.",
+      "references": ["Naum 3:1-19; Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo complementar / Contraste canônico" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto",
+      "kind": "prophecy",
+      "label": "Sofonias 2:13-15 (\"E fará de Nínive um deserto...\")",
+      "aliases": [],
+      "summary": "O cumprimento literal da profecia contra Nínive (destruída em 612 a.C. por babilônios e medos) é tomado por historiadores como prova de predição vaticinium ex eventu ou genuína antecipação profética, gerando divergências quanto à datação exata do texto.",
+      "references": ["Naum 3:1-19 e Isaías 13:19-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo histórico-profético" }
+    },
+    {
+      "id": "theme:belial-o-destruidor",
+      "kind": "theme",
+      "label": "Belial (O Destruidor)",
+      "aliases": [],
+      "summary": "Descrito como aquele que tramou o mal contra YHWH e cuja influência política e militar será cortada para sempre",
+      "references": ["Naum 1:11, 15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Potência ou agente de destruição e iniquidade associado ao domínio tirânico da Assíria",
+        "entityType": "Conceito/Pessoa"
+      }
+    },
+    {
+      "id": "theme:imperio-assirio-assur",
+      "kind": "theme",
+      "label": "Império Assírio (Aššur)",
+      "aliases": [],
+      "summary": "Representa a quintessência do poder imperial tirânico que desafia a soberania divina e oprime as nações vassalas, incluindo Judá",
+      "references": ["Naum 3:4, 18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Potência hegemônica do Oriente Próximo Antigo, famosa por sua crueldade militar, deportações em massa e tributos extorsivos",
+        "entityType": "Povo/Instituição"
+      }
+    },
+    {
+      "id": "theme:juda",
+      "kind": "theme",
+      "label": "Judá",
+      "aliases": [],
+      "summary": "Comunidade pactual que experimenta injustiça interna, opressão dos vulneráveis e que se tornará alvo do juízo babilônico.",
+      "references": ["Naum 1:15; 2:2", "Hab 1:4; 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nação da aliança em estado de declínio moral e social",
+        "entityType": "Povo / Instituição"
+      }
+    },
+    {
+      "id": "theme:ninive",
+      "kind": "theme",
+      "label": "Nínive",
+      "aliases": [],
+      "summary": "Alvo central da ira divina, descrita metaforicamente como uma prostituta sedutora e um covil de leões que será completamente arrasado",
+      "references": ["Jonas 1:2; 3:3", "Naum 1:14; 2:8; 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital imperial da Assíria, caracterizada como \"cidade sanguinária\", centro de opressão geopolítica global",
+        "entityType": "Lugar/Povo"
+      }
+    },
+    {
+      "id": "theme:os-pastores-e-nobres-da-assiria",
+      "kind": "theme",
+      "label": "Os Pastores e Nobres da Assíria",
+      "aliases": [],
+      "summary": "Dormem um sono eterno e encontram seus exércitos dispersos pelos montes, sem líder para salvá-los da ruína",
+      "references": ["Naum 3:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "A elite governante, militar e sacerdotal do Império Assírio",
+        "entityType": "Pessoa/Instituição"
+      }
+    },
+    {
+      "id": "theme:yhwh",
+      "kind": "theme",
+      "label": "YHWH",
+      "aliases": [],
+      "summary": "Deus único, zeloso e libertador, que exige exclusividade cultual absoluta e estabelece as leis éticas e sociais para o seu povo.",
+      "references": [
+        "Deut 6:4-5; 10:12-17; 32:39",
+        "Sl 2, 23, 93, 100",
+        "Naum 1:2-3, 7"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus soberano de Israel, juiz das nações e protetor dos oprimidos",
+        "entityType": "Pessoa/Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-naum-de-elcos:chapter-naum-1",
+      "from": "person:naum-de-elcos",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Naum de Elcos” cita explicitamente Naum 1:1.",
+      "references": ["Naum 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-mensageiro-sobre-os-montes:chapter-naum-1",
+      "from": "person:o-mensageiro-sobre-os-montes",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Mensageiro sobre os Montes” cita explicitamente Naum 1:15.",
+      "references": ["Naum 1:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-basa-e-carmelo:chapter-naum-1",
+      "from": "place:basa-e-carmelo",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Basã e Carmelo” cita explicitamente Naum 1:4.",
+      "references": ["Naum 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-naum-1",
+      "from": "place:ninive",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:1; 2:8; 3:1.",
+      "references": ["Naum 1:1; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-naum-2",
+      "from": "place:ninive",
+      "to": "chapter:naum:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:1; 2:8; 3:1.",
+      "references": ["Naum 1:1; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-naum-3",
+      "from": "place:ninive",
+      "to": "chapter:naum:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:1; 2:8; 3:1.",
+      "references": ["Naum 1:1; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-libano:chapter-naum-1",
+      "from": "place:o-libano",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Líbano” cita explicitamente Naum 1:4.",
+      "references": ["Naum 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-os-montes-de-juda:chapter-naum-1",
+      "from": "place:os-montes-de-juda",
+      "to": "chapter:naum:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Os Montes de Judá” cita explicitamente Naum 1:15.",
+      "references": ["Naum 1:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-os-rios-de-ninive-tigre-canais:chapter-naum-2",
+      "from": "place:os-rios-de-ninive-tigre-canais",
+      "to": "chapter:naum:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Os Rios de Nínive (Tigre/Canais)” cita explicitamente Naum 2:6; 3:8.",
+      "references": ["Naum 2:6; 3:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-os-rios-de-ninive-tigre-canais:chapter-naum-3",
+      "from": "place:os-rios-de-ninive-tigre-canais",
+      "to": "chapter:naum:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Os Rios de Nínive (Tigre/Canais)” cita explicitamente Naum 2:6; 3:8.",
+      "references": ["Naum 2:6; 3:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive:chapter-naum-3",
+      "from": "prophecy:jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive",
+      "to": "chapter:naum:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Naum 1:1-3 (O Juízo definitivo contra Nínive)” cita explicitamente Naum 3:1-19; Sofonias 2:13-15.",
+      "references": ["Naum 3:1-19; Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto:chapter-naum-3",
+      "from": "prophecy:sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto",
+      "to": "chapter:naum:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 2:13-15 (\"E fará de Nínive um deserto...\")” cita explicitamente Naum 3:1-19 e Isaías 13:19-22.",
+      "references": ["Naum 3:1-19 e Isaías 13:19-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-1:theme-belial-o-destruidor",
+      "from": "chapter:naum:1",
+      "to": "theme:belial-o-destruidor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Belial (O Destruidor)” cita explicitamente Naum 1:11, 15.",
+      "references": ["Naum 1:11, 15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-1:theme-juda",
+      "from": "chapter:naum:1",
+      "to": "theme:juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Judá” cita explicitamente Naum 1:15; 2:2.",
+      "references": ["Naum 1:15; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-1:theme-ninive",
+      "from": "chapter:naum:1",
+      "to": "theme:ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:14; 2:8; 3:1.",
+      "references": ["Naum 1:14; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-1:theme-yhwh",
+      "from": "chapter:naum:1",
+      "to": "theme:yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH” cita explicitamente Naum 1:2-3, 7.",
+      "references": ["Naum 1:2-3, 7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-2:theme-juda",
+      "from": "chapter:naum:2",
+      "to": "theme:juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Judá” cita explicitamente Naum 1:15; 2:2.",
+      "references": ["Naum 1:15; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-2:theme-ninive",
+      "from": "chapter:naum:2",
+      "to": "theme:ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:14; 2:8; 3:1.",
+      "references": ["Naum 1:14; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-3:theme-imperio-assirio-assur",
+      "from": "chapter:naum:3",
+      "to": "theme:imperio-assirio-assur",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Assírio (Aššur)” cita explicitamente Naum 3:4, 18.",
+      "references": ["Naum 3:4, 18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-3:theme-ninive",
+      "from": "chapter:naum:3",
+      "to": "theme:ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nínive” cita explicitamente Naum 1:14; 2:8; 3:1.",
+      "references": ["Naum 1:14; 2:8; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-naum-3:theme-os-pastores-e-nobres-da-assiria",
+      "from": "chapter:naum:3",
+      "to": "theme:os-pastores-e-nobres-da-assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Pastores e Nobres da Assíria” cita explicitamente Naum 3:18.",
+      "references": ["Naum 3:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

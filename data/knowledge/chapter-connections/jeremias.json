@@ -1,0 +1,1100 @@
+{
+  "schemaVersion": 1,
+  "book": "Jeremias",
+  "count": 54,
+  "chapterCount": 30,
+  "nodes": [
+    {
+      "id": "event:jeremias-a-queda-de-jerusalem-e-o-exilio",
+      "kind": "event",
+      "label": "A Queda de Jerusalém e o Exílio",
+      "aliases": [],
+      "summary": "Ruína das muralhas, destruição do Templo, cegamento e deportação de Zedequias",
+      "references": ["Jeremias 39:1-18; 52:1-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Cumprimento literal dos oráculos de juízo e término provisório do reino davídico autônomo",
+        "entities": "Nabucodonosor, Zedequias, Nabuzaradã, Jeremias"
+      }
+    },
+    {
+      "id": "event:jeremias-a-queima-do-rolo-por-jeoaquim",
+      "kind": "event",
+      "label": "A Queima do Rolo por Jeoaquim",
+      "aliases": [],
+      "summary": "O rei Jeoaquim corta e queima o rolo contendo os oráculos ditados por Jeremias a Baruque",
+      "references": ["Jeremias 36:1-32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Simboliza a rejeição obstinada da palavra escrita e resulta no juízo definitivo sobre a dinastia",
+        "entities": "Jeoaquim, Baruque, Jeremias"
+      }
+    },
+    {
+      "id": "event:jeremias-o-cerco-final-e-a-compra-do-campo-em-anatote",
+      "kind": "event",
+      "label": "O Cerco Final e a Compra do Campo em Anatote",
+      "aliases": [],
+      "summary": "Durante o cerco caldeu, Jeremias compra um terreno em Anatote como ato de esperança",
+      "references": ["Jeremias 32:1-44"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a certeza teológica da repovoação e retorno à terra apesar da catástrofe",
+        "entities": "Jeremias, Hanameel, Baruch"
+      }
+    },
+    {
+      "id": "event:jeremias-o-chamado-profetico-de-jeremias",
+      "kind": "event",
+      "label": "O Chamado Profético de Jeremias",
+      "aliases": [],
+      "summary": "Jeremias é consagrado desde o ventre materno como profeta às nações",
+      "references": ["Jeremias 1:1-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a autoridade divina do profeta e o escopo internacional de seu ministério",
+        "entities": "Jeremias ben Hilquias, YHVH"
+      }
+    },
+    {
+      "id": "event:jeremias-o-sermao-do-templo",
+      "kind": "event",
+      "label": "O Sermão do Templo",
+      "aliases": [],
+      "summary": "Jeremias condena a falsa segurança ritual no Templo, ameaçando-o com a ruína",
+      "references": ["Jeremias 7:1-15; 26:1-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desmistifica a inviolabilidade institucional e demarca o conflito com sacerdotes e falsos profetas",
+        "entities": "Jeremias, Sacerdotes, Povo de Judá, Príncipes"
+      }
+    },
+    {
+      "id": "person:baruque-ben-nerias",
+      "kind": "person",
+      "label": "Baruque ben Nerias",
+      "aliases": [],
+      "summary": "Companheiro de Jeremias, registrador dos oráculos e redator do rolo queimado por Jeoaquim",
+      "references": ["Jer 36:4; 45:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Escriba e discípulo", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:gedalias",
+      "kind": "person",
+      "label": "Gedalias",
+      "aliases": [],
+      "summary": "Nomeado por Babilônia sobre o remanescente em Mispa, cujo assassinato desencadeou a fuga para o Egito",
+      "references": ["Jer 40:5; 41:1-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Governador de Judá", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:hananias",
+      "kind": "person",
+      "label": "Hananias",
+      "aliases": [],
+      "summary": "Opositor de Jeremias que profetizou a quebra do jugo babilônico em dois anos",
+      "references": ["Jer 28:1-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Falso profeta de Gibeom",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jeremias-ben-hilquias",
+      "kind": "person",
+      "label": "Jeremias ben Hilquias",
+      "aliases": [],
+      "summary": "Porta-voz de YHVH durante o colapso de Judá, marcado por intensa angústia pessoal e conflito político",
+      "references": ["Jer 1:1; 20:7-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Profeta de Anatote", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:nabucodonosor-ii",
+      "kind": "person",
+      "label": "Nabucodonosor II",
+      "aliases": [],
+      "summary": "Representa o poder imperial soberano que, contudo, é subjugado e ensinado pela soberania divina.",
+      "references": [
+        "Jer 25:9; 27:6",
+        "Ezequiel 21:19-22; 29:18-20",
+        "Daniel 1:1; 3:1; 4:37"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei do Império Neobabilônico, instrumento da disciplina divina e posteriormente convertido ao louvor do Deus Altíssimo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:raquel",
+      "kind": "person",
+      "label": "Raquel",
+      "aliases": ["Raquel"],
+      "summary": "Raquel (do hebraico רָחֵל, *Rāḥēl*, significando \"ovelha\") é a filha mais nova de Labão, a esposa amada de Jacó e mãe de José e Benjamim. Apresentada em Gênesis 29 pastoreando os rebanhos de seu pai, Raquel cativa imediatamente a Jacó, que concorda em servir a Labão por sete anos para obtê-la em casamento — anos que, devido à traição de Labão com a entrega prévia de Lia, pareceram a Jacó \"como poucos dias, pelo amor que tinha a ela\". Envolvida inicialmente na amargura da esterilidade enquanto sua irmã Lia gerava filhos sucessivos, Raquel recorre ao expediente de dar sua serva Bila a Jacó. Anos mais tarde, concebe milagrosamente a José e, finalmente, morre ao dar à luz seu segundo filho, Benjamim, no caminho para Belém, sendo sepultada com grande pesar por Jacó, que erige um pilar sobre sua sepultura [79].",
+      "references": [
+        "Gênesis 29:1–30",
+        "Gênesis 30:1–24",
+        "Gênesis 35:16–20",
+        "Jeremias 31:15 e Mateus 2:18"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-raquel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2029%3A1%E2%80%9330%3B%20G%C3%AAnesis%2030%3A1%E2%80%9324%3B%20G%C3%AAnesis%2035%3A16%E2%80%9320&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:zedequias",
+      "kind": "person",
+      "label": "Zedequias",
+      "aliases": [],
+      "summary": "Monarca vacilante que oscilou entre a resistência anti-babilônica e o conselho secreto de Jeremias",
+      "references": ["Jer 37:1-21; 52:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Último rei de Judá", "entityType": "Pessoa" }
+    },
+    {
+      "id": "place:anatote",
+      "kind": "place",
+      "label": "Anatote",
+      "aliases": [],
+      "summary": "Aldeia sacerdotal natal de Jeremias na tribo de Benjamim, locus de suas raízes familiares",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:babilonia",
+      "kind": "place",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Capital imperial neobabilônica, cenário de exílio, opressão cultural e proclamação da soberania divina por meio de milagres na corte.",
+      "references": [
+        "2 Reis 20, 24-25",
+        "2Cr 36:20",
+        "Isaías 13:1, 47:1, 48:14",
+        "Jer 25:12; 50:1-51:64",
+        "Daniel 1:1; 4:30; 5:30"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-egito-tafnes-migdol",
+      "kind": "place",
+      "label": "O Egito (Tafnes / Migdol)",
+      "aliases": [],
+      "summary": "Destino de fuga proibido pelo profeta para o remanescente rebelde após o assassinato de Gedalias",
+      "references": ["Jer 43:1-13; 44:1-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:tema",
+      "kind": "place",
+      "label": "Temã",
+      "aliases": [],
+      "summary": "Região e cidade importante no norte de Edom, famosa na antiguidade pela sabedoria de seus habitantes.",
+      "references": ["Jó 2:11; Jeremias 49:7", "Obadias 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:terra-de-uz",
+      "kind": "place",
+      "label": "Terra de Uz",
+      "aliases": [],
+      "summary": "Cenário principal onde residia Jó, associado tradicionalmente a Edom ou à Arábia do Norte, denotando sabedoria oriental não-israelita.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/disputado" }
+    },
+    {
+      "id": "place:vale-de-ben-hinom-tofete",
+      "kind": "place",
+      "label": "Vale de Ben-Hinom (Tofete)",
+      "aliases": [],
+      "summary": "Local de sacrifícios infantis a Moloque, redefinido como Vale da Matança",
+      "references": ["Jer 7:31-32; 19:2-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "kind": "prophecy",
+      "label": "1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")",
+      "aliases": [],
+      "summary": "Conexão com os oráculos veterotestamentários sobre o Dia do Senhor e o slogan político imperial \"Pax et Securitas\"; divergência entre previsão cronológica e advertência ética de vigilância.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco profético" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28",
+      "kind": "prophecy",
+      "label": "A Profecia de Hulda sobre a Ruína Adiada (2Cr 34:23-28)",
+      "aliases": [],
+      "summary": "Acadêmicos debatem se a predição foi formulada *ex eventu* após a queda de Jerusalém, ao passo que tradições confessionais afirmam seu caráter preditivo genuíno.",
+      "references": ["2Rs 22, Jr 34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12",
+      "kind": "prophecy",
+      "label": "A Profecia dos 70 Anos de Jeremias (2Cr 36:21 / Jr 25:11-12)",
+      "aliases": [],
+      "summary": "Analisada pela crítica histórica como esquema teológico redacional para explicar a duração do exílio, e por leituras teológicas como cronologia exata decretada pela providência divina.",
+      "references": ["Jr 25, Dn 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:amos-amos-1-2-o-senhor-rugira-de-siao",
+      "kind": "prophecy",
+      "label": "Amós 1:2 (\"O SENHOR rugirá de Sião...\")",
+      "aliases": [],
+      "summary": "A imagem do rugido divino a partir de Jerusalém é reutilizada por profetas posteriores para anunciar o julgamento cósmico.",
+      "references": ["Joel 3:16; Jeremias 25:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco teológico" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "kind": "prophecy",
+      "label": "Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)",
+      "aliases": [],
+      "summary": "Analisado por historiadores como um *vaticinium ex eventu* (profecia redigida após o evento) descrevendo as devastações assíria e babilônica, enquanto leituras teológicas tradicionais mantêm seu caráter preditivo genuíno sobre as consequências morais da quebra da aliança.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "kind": "prophecy",
+      "label": "Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)",
+      "aliases": [],
+      "summary": "O texto aponta para uma futura conversão interior e retorno físico à terra após a dispersão, servindo de base para as teologias da Nova Aliança e escatologias judaico-cristãs sobre a redenção final.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / oráculo" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado",
+      "kind": "prophecy",
+      "label": "Ec 3:1-8 (\"Tudo tem o seu tempo determinado...\")",
+      "aliases": [],
+      "summary": "Enquanto leitores judeus viam a soberania providencial na história, leitores cristãos expandiram para a economia redentora escatológica.",
+      "references": ["Sl 104; Jr 18:1-10; Rm 8:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:esdras-o-fim-do-cativeiro-apos-70-anos",
+      "kind": "prophecy",
+      "label": "O fim do cativeiro após 70 anos",
+      "aliases": [],
+      "summary": "Esdras enquadra o retorno como cumprimento direto do limite temporal profético estabelecido por Jeremias.",
+      "references": ["Jeremias 25.11–12; 29.10; Esdras 1.1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / cumprimento histórico" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "kind": "prophecy",
+      "label": "Ezequiel 36:26-27 (Novo coração e novo espírito)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Teólogos reformados e pentecostais interpretam como prefiguração direta da regeneração do Novo Testamento e do batismo no Espírito Santo, ao passo que leitores judaicos enfatizam a renovação da aliança nacional e obediência à Torá.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Oráculo / Alusão soteriológica" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-3-12-portanto-por-vossa-causa-siao-sera-lavrada-como-um-campo",
+      "kind": "prophecy",
+      "label": "Miqueias 3:12 (\"Portanto, por vossa causa, Sião será lavrada como um campo...\")",
+      "aliases": [],
+      "summary": "Citações históricas posteriores mostram que este oráculo foi lembrado e evitou a execução de Jeremias durante o reinado de Jeoaquim, evidenciando o peso da autoridade profética de Miqueias.",
+      "references": ["Jeremias 26:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / cumprimento histórico" }
+    },
+    {
+      "id": "prophecy:neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada",
+      "kind": "prophecy",
+      "label": "Jeremias 31:38-40 (\"Eis que vêm dias, diz o Senhor, em que esta cidade será edificada...\")",
+      "aliases": [],
+      "summary": "A expansão geográfica e reconstrução espacial de Jerusalém sob Neemias dialoga diretamente com as promessas de reconstrução urbana de Jeremias.",
+      "references": ["Neemias 3; Jeremias 31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-3-4-a-soberba-do-teu-coracao-te-enganou",
+      "kind": "prophecy",
+      "label": "Obadias 1:3-4 (\"A soberba do teu coração te enganou...\")",
+      "aliases": [],
+      "summary": "O texto de Jeremias utiliza quase verbatim o oráculo de Obadias contra Edom, gerando intenso debate acadêmico sobre dependência literária mútua ou fonte comum pré-existente.",
+      "references": ["Jeremias 49:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-1-2-3-arrebatarei-tudo-de-sobre-a-terra",
+      "kind": "prophecy",
+      "label": "Sofonias 1:2-3 (\"Arrebatarei tudo de sobre a terra...\")",
+      "aliases": [],
+      "summary": "Enquanto o relato de Gênesis aponta para o dilúvio histórico primitivo, Sofonias utiliza a linguagem de descriação como oráculo escatológico, gerando debates se o texto antecipa um cataclismo físico global ou uma hipérbole retórica de juízo sociopolítico.",
+      "references": ["Gênesis 6:7 (Dilúvio Universal) e Jeremias 4:23-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "theme:anatote",
+      "kind": "theme",
+      "label": "Anatote",
+      "aliases": [],
+      "summary": "Terra natal de Jeremias e local de sua primeira aquisição simbólica de terras durante o cerco",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cidade sacerdotal na terra de Benjamim",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:nova-alianca-berit-hadashah",
+      "kind": "theme",
+      "label": "Nova Aliança (Berit Hadashah)",
+      "aliases": [],
+      "summary": "Aliança interiorizada, escrita no coração, contrastada com a aliança do Sinai quebrada por Israel",
+      "references": ["Jer 31:31-34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Promessa escatológica",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:recabitas",
+      "kind": "theme",
+      "label": "Recabitas",
+      "aliases": [],
+      "summary": "Grupo fiel à tradição ancestral de Jonadabe, elogiado por sua obediência face à desobediência de Judá",
+      "references": ["Jer 35:1-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Clã quenita nômade",
+        "entityType": "Povo / Grupo"
+      }
+    },
+    {
+      "id": "theme:templo-de-jerusalem",
+      "kind": "theme",
+      "label": "Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Local do famoso \"Sermão do Templo\", onde Jeremias denuncia a falsa confiança institucional",
+      "references": ["1 Cr 22; 28-29", "Jer 7:1-15; 26:1-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário central de culto",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:uz",
+      "kind": "theme",
+      "label": "Uz",
+      "aliases": [],
+      "summary": "Região limítrofe no Oriente Próximo (provavelmente na Arábia do Norte ou Edom), associada a povos vizinhos e sabedoria oriental",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário geográfico de origem de Jó",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-jeremias-a-queda-de-jerusalem-e-o-exilio:chapter-jeremias-39",
+      "from": "event:jeremias-a-queda-de-jerusalem-e-o-exilio",
+      "to": "chapter:jeremias:39",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda de Jerusalém e o Exílio” cita explicitamente Jeremias 39:1-18; 52:1-30.",
+      "references": ["Jeremias 39:1-18; 52:1-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-a-queda-de-jerusalem-e-o-exilio:chapter-jeremias-52",
+      "from": "event:jeremias-a-queda-de-jerusalem-e-o-exilio",
+      "to": "chapter:jeremias:52",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda de Jerusalém e o Exílio” cita explicitamente Jeremias 39:1-18; 52:1-30.",
+      "references": ["Jeremias 39:1-18; 52:1-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-a-queima-do-rolo-por-jeoaquim:chapter-jeremias-36",
+      "from": "event:jeremias-a-queima-do-rolo-por-jeoaquim",
+      "to": "chapter:jeremias:36",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queima do Rolo por Jeoaquim” cita explicitamente Jeremias 36:1-32.",
+      "references": ["Jeremias 36:1-32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-o-cerco-final-e-a-compra-do-campo-em-anatote:chapter-jeremias-32",
+      "from": "event:jeremias-o-cerco-final-e-a-compra-do-campo-em-anatote",
+      "to": "chapter:jeremias:32",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Cerco Final e a Compra do Campo em Anatote” cita explicitamente Jeremias 32:1-44.",
+      "references": ["Jeremias 32:1-44"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-o-chamado-profetico-de-jeremias:chapter-jeremias-1",
+      "from": "event:jeremias-o-chamado-profetico-de-jeremias",
+      "to": "chapter:jeremias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Chamado Profético de Jeremias” cita explicitamente Jeremias 1:1-19.",
+      "references": ["Jeremias 1:1-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-o-sermao-do-templo:chapter-jeremias-26",
+      "from": "event:jeremias-o-sermao-do-templo",
+      "to": "chapter:jeremias:26",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Sermão do Templo” cita explicitamente Jeremias 7:1-15; 26:1-16.",
+      "references": ["Jeremias 7:1-15; 26:1-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jeremias-o-sermao-do-templo:chapter-jeremias-7",
+      "from": "event:jeremias-o-sermao-do-templo",
+      "to": "chapter:jeremias:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Sermão do Templo” cita explicitamente Jeremias 7:1-15; 26:1-16.",
+      "references": ["Jeremias 7:1-15; 26:1-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-baruque-ben-nerias:chapter-jeremias-36",
+      "from": "person:baruque-ben-nerias",
+      "to": "chapter:jeremias:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Baruque ben Nerias” cita explicitamente Jer 36:4; 45:1-5.",
+      "references": ["Jer 36:4; 45:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-baruque-ben-nerias:chapter-jeremias-45",
+      "from": "person:baruque-ben-nerias",
+      "to": "chapter:jeremias:45",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Baruque ben Nerias” cita explicitamente Jer 36:4; 45:1-5.",
+      "references": ["Jer 36:4; 45:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-gedalias:chapter-jeremias-40",
+      "from": "person:gedalias",
+      "to": "chapter:jeremias:40",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gedalias” cita explicitamente Jer 40:5; 41:1-18.",
+      "references": ["Jer 40:5; 41:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-gedalias:chapter-jeremias-41",
+      "from": "person:gedalias",
+      "to": "chapter:jeremias:41",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gedalias” cita explicitamente Jer 40:5; 41:1-18.",
+      "references": ["Jer 40:5; 41:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hananias:chapter-jeremias-28",
+      "from": "person:hananias",
+      "to": "chapter:jeremias:28",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hananias” cita explicitamente Jer 28:1-17.",
+      "references": ["Jer 28:1-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeremias-ben-hilquias:chapter-jeremias-1",
+      "from": "person:jeremias-ben-hilquias",
+      "to": "chapter:jeremias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias ben Hilquias” cita explicitamente Jer 1:1; 20:7-18.",
+      "references": ["Jer 1:1; 20:7-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeremias-ben-hilquias:chapter-jeremias-20",
+      "from": "person:jeremias-ben-hilquias",
+      "to": "chapter:jeremias:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias ben Hilquias” cita explicitamente Jer 1:1; 20:7-18.",
+      "references": ["Jer 1:1; 20:7-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-jeremias-25",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Jer 25:9; 27:6.",
+      "references": ["Jer 25:9; 27:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-jeremias-27",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:jeremias:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Jer 25:9; 27:6.",
+      "references": ["Jer 25:9; 27:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-raquel:chapter-jeremias-31",
+      "from": "person:raquel",
+      "to": "chapter:jeremias:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Raquel” cita explicitamente Jeremias 31:15 e Mateus 2:18.",
+      "references": ["Jeremias 31:15 e Mateus 2:18"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zedequias:chapter-jeremias-37",
+      "from": "person:zedequias",
+      "to": "chapter:jeremias:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zedequias” cita explicitamente Jer 37:1-21; 52:1-11.",
+      "references": ["Jer 37:1-21; 52:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zedequias:chapter-jeremias-52",
+      "from": "person:zedequias",
+      "to": "chapter:jeremias:52",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zedequias” cita explicitamente Jer 37:1-21; 52:1-11.",
+      "references": ["Jer 37:1-21; 52:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-anatote:chapter-jeremias-1",
+      "from": "place:anatote",
+      "to": "chapter:jeremias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Anatote” cita explicitamente Jer 1:1; 32:6-15.",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-anatote:chapter-jeremias-32",
+      "from": "place:anatote",
+      "to": "chapter:jeremias:32",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Anatote” cita explicitamente Jer 1:1; 32:6-15.",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-jeremias-25",
+      "from": "place:babilonia",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Jer 25:12; 50:1-51:64.",
+      "references": ["Jer 25:12; 50:1-51:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-jeremias-50",
+      "from": "place:babilonia",
+      "to": "chapter:jeremias:50",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Jer 25:12; 50:1-51:64.",
+      "references": ["Jer 25:12; 50:1-51:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-jeremias-51",
+      "from": "place:babilonia",
+      "to": "chapter:jeremias:51",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Jer 25:12; 50:1-51:64.",
+      "references": ["Jer 25:12; 50:1-51:64"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-jeremias-19",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:jeremias:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Jer 2:2; 19:1-15; 39:1-8.",
+      "references": ["Jer 2:2; 19:1-15; 39:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-jeremias-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:jeremias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Jer 2:2; 19:1-15; 39:1-8.",
+      "references": ["Jer 2:2; 19:1-15; 39:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-jeremias-39",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:jeremias:39",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Jer 2:2; 19:1-15; 39:1-8.",
+      "references": ["Jer 2:2; 19:1-15; 39:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-egito-tafnes-migdol:chapter-jeremias-43",
+      "from": "place:o-egito-tafnes-migdol",
+      "to": "chapter:jeremias:43",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Egito (Tafnes / Migdol)” cita explicitamente Jer 43:1-13; 44:1-30.",
+      "references": ["Jer 43:1-13; 44:1-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-egito-tafnes-migdol:chapter-jeremias-44",
+      "from": "place:o-egito-tafnes-migdol",
+      "to": "chapter:jeremias:44",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Egito (Tafnes / Migdol)” cita explicitamente Jer 43:1-13; 44:1-30.",
+      "references": ["Jer 43:1-13; 44:1-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tema:chapter-jeremias-49",
+      "from": "place:tema",
+      "to": "chapter:jeremias:49",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Temã” cita explicitamente Jó 2:11; Jeremias 49:7.",
+      "references": ["Jó 2:11; Jeremias 49:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-uz:chapter-jeremias-25",
+      "from": "place:terra-de-uz",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Uz” cita explicitamente Jó 1:1; Jeremias 25:20.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-vale-de-ben-hinom-tofete:chapter-jeremias-19",
+      "from": "place:vale-de-ben-hinom-tofete",
+      "to": "chapter:jeremias:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Vale de Ben-Hinom (Tofete)” cita explicitamente Jer 7:31-32; 19:2-6.",
+      "references": ["Jer 7:31-32; 19:2-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-vale-de-ben-hinom-tofete:chapter-jeremias-7",
+      "from": "place:vale-de-ben-hinom-tofete",
+      "to": "chapter:jeremias:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Vale de Ben-Hinom (Tofete)” cita explicitamente Jer 7:31-32; 19:2-6.",
+      "references": ["Jer 7:31-32; 19:2-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca:chapter-jeremias-6",
+      "from": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "to": "chapter:jeremias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")” cita explicitamente Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28:chapter-jeremias-34",
+      "from": "prophecy:2-cronicas-a-profecia-de-hulda-sobre-a-ruina-adiada-2cr-34-23-28",
+      "to": "chapter:jeremias:34",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Profecia de Hulda sobre a Ruína Adiada (2Cr 34:23-28)” cita explicitamente 2Rs 22, Jr 34.",
+      "references": ["2Rs 22, Jr 34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12:chapter-jeremias-25",
+      "from": "prophecy:2-cronicas-a-profecia-dos-70-anos-de-jeremias-2cr-36-21-jr-25-11-12",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Profecia dos 70 Anos de Jeremias (2Cr 36:21 / Jr 25:11-12)” cita explicitamente Jr 25, Dn 9.",
+      "references": ["Jr 25, Dn 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-1-2-o-senhor-rugira-de-siao:chapter-jeremias-25",
+      "from": "prophecy:amos-amos-1-2-o-senhor-rugira-de-siao",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 1:2 (\"O SENHOR rugirá de Sião...\")” cita explicitamente Joel 3:16; Jeremias 25:30.",
+      "references": ["Joel 3:16; Jeremias 25:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro:chapter-jeremias-24",
+      "from": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "to": "chapter:jeremias:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)” cita explicitamente Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio:chapter-jeremias-31",
+      "from": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "to": "chapter:jeremias:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)” cita explicitamente Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado:chapter-jeremias-18",
+      "from": "prophecy:eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado",
+      "to": "chapter:jeremias:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 3:1-8 (\"Tudo tem o seu tempo determinado...\")” cita explicitamente Sl 104; Jr 18:1-10; Rm 8:28.",
+      "references": ["Sl 104; Jr 18:1-10; Rm 8:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-fim-do-cativeiro-apos-70-anos:chapter-jeremias-25",
+      "from": "prophecy:esdras-o-fim-do-cativeiro-apos-70-anos",
+      "to": "chapter:jeremias:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O fim do cativeiro após 70 anos” cita explicitamente Jeremias 25.11–12; 29.10; Esdras 1.1.",
+      "references": ["Jeremias 25.11–12; 29.10; Esdras 1.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-fim-do-cativeiro-apos-70-anos:chapter-jeremias-29",
+      "from": "prophecy:esdras-o-fim-do-cativeiro-apos-70-anos",
+      "to": "chapter:jeremias:29",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O fim do cativeiro após 70 anos” cita explicitamente Jeremias 25.11–12; 29.10; Esdras 1.1.",
+      "references": ["Jeremias 25.11–12; 29.10; Esdras 1.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito:chapter-jeremias-31",
+      "from": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "to": "chapter:jeremias:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:26-27 (Novo coração e novo espírito)” cita explicitamente Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-3-12-portanto-por-vossa-causa-siao-sera-lavrada-como-um-campo:chapter-jeremias-26",
+      "from": "prophecy:miqueias-miqueias-3-12-portanto-por-vossa-causa-siao-sera-lavrada-como-um-campo",
+      "to": "chapter:jeremias:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 3:12 (\"Portanto, por vossa causa, Sião será lavrada como um campo...\")” cita explicitamente Jeremias 26:18-19.",
+      "references": ["Jeremias 26:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada:chapter-jeremias-31",
+      "from": "prophecy:neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada",
+      "to": "chapter:jeremias:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 31:38-40 (\"Eis que vêm dias, diz o Senhor, em que esta cidade será edificada...\")” cita explicitamente Neemias 3; Jeremias 31.",
+      "references": ["Neemias 3; Jeremias 31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-3-4-a-soberba-do-teu-coracao-te-enganou:chapter-jeremias-49",
+      "from": "prophecy:obadias-obadias-1-3-4-a-soberba-do-teu-coracao-te-enganou",
+      "to": "chapter:jeremias:49",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:3-4 (\"A soberba do teu coração te enganou...\")” cita explicitamente Jeremias 49:16.",
+      "references": ["Jeremias 49:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-1-2-3-arrebatarei-tudo-de-sobre-a-terra:chapter-jeremias-4",
+      "from": "prophecy:sofonias-sofonias-1-2-3-arrebatarei-tudo-de-sobre-a-terra",
+      "to": "chapter:jeremias:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 1:2-3 (\"Arrebatarei tudo de sobre a terra...\")” cita explicitamente Gênesis 6:7 (Dilúvio Universal) e Jeremias 4:23-26.",
+      "references": ["Gênesis 6:7 (Dilúvio Universal) e Jeremias 4:23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-1:theme-anatote",
+      "from": "chapter:jeremias:1",
+      "to": "theme:anatote",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anatote” cita explicitamente Jer 1:1; 32:6-15.",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-25:theme-uz",
+      "from": "chapter:jeremias:25",
+      "to": "theme:uz",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Uz” cita explicitamente Jó 1:1; Jeremias 25:20.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-26:theme-templo-de-jerusalem",
+      "from": "chapter:jeremias:26",
+      "to": "theme:templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Templo de Jerusalém” cita explicitamente Jer 7:1-15; 26:1-19.",
+      "references": ["Jer 7:1-15; 26:1-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-31:theme-nova-alianca-berit-hadashah",
+      "from": "chapter:jeremias:31",
+      "to": "theme:nova-alianca-berit-hadashah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nova Aliança (Berit Hadashah)” cita explicitamente Jer 31:31-34.",
+      "references": ["Jer 31:31-34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-32:theme-anatote",
+      "from": "chapter:jeremias:32",
+      "to": "theme:anatote",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anatote” cita explicitamente Jer 1:1; 32:6-15.",
+      "references": ["Jer 1:1; 32:6-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-35:theme-recabitas",
+      "from": "chapter:jeremias:35",
+      "to": "theme:recabitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Recabitas” cita explicitamente Jer 35:1-19.",
+      "references": ["Jer 35:1-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jeremias-7:theme-templo-de-jerusalem",
+      "from": "chapter:jeremias:7",
+      "to": "theme:templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Templo de Jerusalém” cita explicitamente Jer 7:1-15; 26:1-19.",
+      "references": ["Jer 7:1-15; 26:1-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

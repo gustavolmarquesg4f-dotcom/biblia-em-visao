@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": 1,
+  "book": "Hebreus",
+  "count": 75,
+  "chapterCount": 13,
+  "nodes": [
+    {
+      "id": "doctrine:cristo",
+      "kind": "doctrine",
+      "label": "Jesus Cristo: encarnação, cruz e ressurreição",
+      "aliases": [],
+      "summary": "Jesus é confessado como Filho unigênito do Pai, concebido pelo Espírito Santo, nascido de Maria, crucificado, sepultado, ressuscitado, ascendido e intercessor.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cristo"],
+      "attributes": {
+        "category": "Cristologia",
+        "pentecostalReading": "Cristo é o centro do evangelho completo: salvação, reconciliação, santidade, cura, missão e esperança futura são lidos a partir de sua pessoa e obra.",
+        "distinction": "A confissão de fé é uma afirmação teológica da igreja; a pesquisa histórica distingue entre reconstrução do Jesus histórico e confissão cristológica das primeiras comunidades.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:culto-santidade",
+      "kind": "doctrine",
+      "label": "Culto, oração e vida comunitária",
+      "aliases": [],
+      "summary": "O culto pentecostal reúne Palavra, oração, louvor, testemunho, dons, comunhão e resposta à missão.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["culto-santidade"],
+      "attributes": {
+        "category": "Prática cristã",
+        "pentecostalReading": "Espontaneidade e ordem não são opostos. O culto deve criar espaço para o Espírito, proteger pessoas vulneráveis, respeitar a Palavra e produzir uma comunidade de amor, verdade e serviço.",
+        "distinction": "Estilos musicais, duração, vestimentas e formas de reunião são práticas culturais; não devem ser confundidos automaticamente com doutrina essencial.",
+        "source": "Atos; 1 Coríntios; princípios pentecostais de culto"
+      }
+    },
+    {
+      "id": "doctrine:santificacao",
+      "kind": "doctrine",
+      "label": "Santificação e santidade",
+      "aliases": [],
+      "summary": "A declaração afirma a santificação posterior ao novo nascimento, por meio da fé, da Palavra e do Espírito Santo, e apresenta a santidade como padrão de vida do povo de Deus.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["santificacao"],
+      "attributes": {
+        "category": "Vida cristã",
+        "pentecostalReading": "Santidade é obra da graça e prática cotidiana. Ela inclui caráter, corpo, relações, uso do dinheiro, verdade, cuidado do próximo e separação de práticas destrutivas; não deve ser reduzida a aparência externa.",
+        "distinction": "Há debates internos sobre instantaneidade e processo da santificação. A linguagem da plataforma evitará transformar costumes locais em regra universal sem fonte.",
+        "source": "Declaração de Fé; tradição de santidade do pentecostalismo"
+      }
+    },
+    {
+      "id": "people-group:comunidade-de-leitores-hebreus",
+      "kind": "people-group",
+      "label": "Comunidade de Leitores (Hebreus)",
+      "aliases": [],
+      "summary": "Grupo de cristãos de origem judaica em risco de apostasia ou fadiga espiritual, chamados à maturidade e perseverança.",
+      "references": ["Hb 2:1-4; 6:9-12; 10:32-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários da epístola",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:abel",
+      "kind": "person",
+      "label": "Abel",
+      "aliases": [],
+      "summary": "Abel fala pouco no relato, mas sua morte reorganiza a narrativa: o sangue do irmão clama do solo e transforma a terra, antes ligada ao trabalho de Adão, em testemunha da injustiça. A tradição posterior lê Abel como modelo de fé, martírio e testemunho, mas o primeiro sentido narrativo é o grito da vítima diante de Deus.",
+      "references": ["Gn 4:1–10", "Mt 23:35", "Hb 11:4", "Hb 12:24"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["abel"],
+      "attributes": {
+        "role": "pastor; irmão assassinado",
+        "tags": ["sangue", "martírio", "fé", "justiça"]
+      }
+    },
+    {
+      "id": "person:abraao",
+      "kind": "person",
+      "label": "Abraão",
+      "aliases": ["Abraão"],
+      "summary": "Abraão (originalmente **Abrão**, do hebraico אַבְרָהָם, *’Aḇrāhām*, \"pai de muitas nações\") é o patriarca central do judaísmo, cristianismo e islamismo. Originário de Ur dos Caldeus, Abraão recebe o chamado divino em Harã para deixar sua terra, sua parentela e a casa de seu pai rumo a uma terra que Deus lhe mostraria. A narrativa de sua vida é marcada por testes monumentais de fé: a promessa de uma descendência numerosa dada a um casal idoso e estéril (Sara), a aliança cortada em Gênesis 15, a intercessão por Sodoma e Gomorra, e o ápice dramático da prova no Monte Moriá, onde lhe é exigido o sacrifício de seu filho herdeiro, Isaque, antes de ser detido por um anjo do Senhor [36].",
+      "references": [
+        "Gênesis 12:1–3",
+        "Gênesis 15:1–21",
+        "Gênesis 17:1–14",
+        "Gênesis 22:1–19",
+        "Romanos 4:1–25",
+        "Romanos 4:1-25; 9:7-9",
+        "Gl 3:6-9, 3:29",
+        "Hb 6:13-15; 7:4-9; 11:8-19",
+        "Tiago 2:21-23; Gênesis 22:9-10",
+        "Gn 12:1–9",
+        "Gn 15",
+        "Gn 17",
+        "Gn 18–19",
+        "Gn 22",
+        "Rm 4",
+        "Gl 3",
+        "Hb 11:8–19"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-abraao", "abraham"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A1%E2%80%933%3B%20G%C3%AAnesis%2015%3A1%E2%80%9321%3B%20G%C3%AAnesis%2017%3A1%E2%80%9314&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; receptor da promessa",
+        "entityType": "Pessoa",
+        "tags": ["promessa", "fé", "aliança", "nações"]
+      }
+    },
+    {
+      "id": "person:caim",
+      "kind": "person",
+      "label": "Caim",
+      "aliases": [],
+      "summary": "Caim encena a expansão da queda: a ruptura com Deus aparece agora dentro da família. O texto dá espaço à advertência divina antes do crime — ‘o pecado jaz à porta’ — e depois preserva a tensão entre juízo e proteção. Caim é condenado a uma vida de deslocamento, mas recebe um sinal que impede a vingança ilimitada.",
+      "references": [
+        "Judas 1:11",
+        "Gn 4:1–16",
+        "Gn 4:17–24",
+        "Hb 11:4",
+        "1Jo 3:11–12",
+        "Jd 11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["cain"],
+      "attributes": {
+        "role": "primeiro filho; irmão que se torna assassino",
+        "entityType": "Pessoa",
+        "tags": ["violência", "ciúme", "juízo", "misericórdia"]
+      }
+    },
+    {
+      "id": "person:isaque",
+      "kind": "person",
+      "label": "Isaque",
+      "aliases": ["Isaque"],
+      "summary": "Isaque (do hebraico יִצְחָק, *Yīṣḥāq*, significando \"ele ri\", em referência ao riso de Abraão e Sara diante do anúncio de seu nascimento) é o filho da promessa de Abraão e Sara. Sua narrativa biográfica é caracterizada por uma aparente passividade e tranquilidade em comparação à intensa mobilidade de seu pai e de seu filho Jacó. O episódio mais marcante de sua juventude é o sacrifício no Monte Moriá, onde, de modo voluntário e submisso, deixa-se amarrar no altar por seu pai, prefigurando a entrega sacrificial. Na idade adulta, casa-se com Rebeca após uma cuidadosa busca de noiva na Mesopotâmia. Isaque herda os poços e as bênçãos de seu pai, sofre com a rivalidade entre seus filhos gêmeos (Esaú e Jacó) e, em idade avançada e cego, é enganado por Jacó e Rebeca, conferindo a bênção primogênita a Jacó [55].",
+      "references": [
+        "Gênesis 21:1–7",
+        "Gênesis 22:1–19",
+        "Gênesis 24:1–67",
+        "Gênesis 27:1–40",
+        "Hebreus 11:17–19",
+        "Gn 21:1–7",
+        "Gn 22",
+        "Gn 24",
+        "Gn 26",
+        "Mt 1:2",
+        "Hb 11:17–20"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-isaque", "isaac"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2021%3A1%E2%80%937%3B%20G%C3%AAnesis%2022%3A1%E2%80%9319%3B%20G%C3%AAnesis%2024%3A1%E2%80%9367&version=ARA",
+        "bookLinksVerified": true,
+        "role": "filho da promessa; patriarca de transição",
+        "tags": ["filho", "poços", "aliança", "continuidade"]
+      }
+    },
+    {
+      "id": "person:jesus-cristo",
+      "kind": "person",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O protagonista central do evangelho, cujo ministério encarna a misericórdia divina, o perdão dos pecados e a inversão radical das estruturas sociais vigentes.",
+      "references": [
+        "Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27",
+        "Romanos 1:3-4; 3:24-26",
+        "Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27",
+        "Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12",
+        "Judas 1:4"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e soberano supremo cuja graça está sendo pervertida pelos infiltradores e cuja autoridade é negada na práxis dos falsos mestres.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jose",
+      "kind": "person",
+      "label": "José",
+      "aliases": ["José"],
+      "summary": "José (do hebraico יוֹסֵף, *Yōsēp̄*, significando \"que Iahweh acrescente\") é o filho predileto de Jacó e Raquel, cuja narrativa épica ocupa os capítulos finais do livro de Gênesis (Gn 37–50). Devido ao favoritismo do pai e aos seus sonhos proféticos de que seus irmãos e pais se curvariam perante ele, José é vendido por seus irmãos invejosos como escravo a caravanas demidianitas rumo ao Egito. No Egito, após resistir com integridade às investidas da esposa de Potifará, é injustamente encarcerado. Sua habilidade divina em interpretar os sonhos do Faraó sobre sete anos de abundância seguidos por sete anos de fome catastrófica eleva-o da prisão ao posto de **Vizinho do Egito** (segundo homem mais poderoso do império). Quando a fome atinge Canaã, seus irmãos vêm ao Egito em busca de trigo; José, após testar o caráter deles e ver o arrependimento genuíno (especialmente em relação a Benjamim), revela sua identidade, perdoa-os heroicamente, reconcilia-se com sua família e estabelece clã e rebanho na fértil terra de Gósen [95].",
+      "references": [
+        "Gênesis 37:1–36",
+        "Gênesis 39:1–23",
+        "Gênesis 41:1–45",
+        "Gênesis 45:1–15",
+        "Gênesis 50:15–21",
+        "Gn 37",
+        "Gn 39–41",
+        "Gn 42–45",
+        "Gn 46–50",
+        "At 7:9–14",
+        "Hb 11:22"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-jose", "joseph"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2037%3A1%E2%80%9336%3B%20G%C3%AAnesis%2039%3A1%E2%80%9323%3B%20G%C3%AAnesis%2041%3A1%E2%80%9345&version=ARA",
+        "bookLinksVerified": true,
+        "role": "filho de Jacó; administrador no Egito",
+        "tags": ["sonhos", "Egito", "providência", "reconciliação"]
+      }
+    },
+    {
+      "id": "person:melquisedeque",
+      "kind": "person",
+      "label": "Melquisedeque",
+      "aliases": [],
+      "summary": "Tipo histórico do sacerdócio eterno de Cristo, superior ao levítico por abençoar Abraão e não possuir registro genealógico de início ou fim.",
+      "references": ["Sl 110:4", "Hb 5:6; 7:1-17; Gn 14:18-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Salém e Sacerdote do Deus Altíssimo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:moises",
+      "kind": "person",
+      "label": "Moisés",
+      "aliases": ["Moisés (מֹשֶׁה)"],
+      "summary": "Moisés é o personagem central do Pentateuco (Torá), cuja trajetória abrange desde seu nascimento sob o decreto de infanticídio do Faraó, seu salvamento nas águas do Nilo pela filha do Faraó, sua criação na corte egípcia, seu exílio na terra de Midiã após matar um capataz egípcio, o chamado divino na sarça ardente, até o retorno ao Egito para liderar as dez pragas e o êxodo. Ele é retratado simultaneamente como legislador, profeta supremo, libertador e intercessor singular, cujo rosto brilhava após falar com YHWH no Monte Sinai.",
+      "references": [
+        "Êxodo 2:1-4:31; 33:12-23",
+        "Êx 19; Lv 1:1; Nm 1",
+        "Êxodo 2 – Deuteronômio 34; Números 12:3",
+        "Deut 1:1; 33:1; 34:5",
+        "Hb 3:2-5; 8:5; 11:24-28"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-moises"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Servo fiel na casa de Deus",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:noe",
+      "kind": "person",
+      "label": "Noé",
+      "aliases": ["Noé"],
+      "summary": "Noé (do hebraico נֹחַ, *Nōaḥ*, significando \"descanso\" ou \"consolação\") é o patriarca justo que encontrou graça aos olhos de Deus em meio a uma geração corrompida pela violência e maldade generalizada. Advertido divinamente sobre um cataclismo universal (o Dilúvio), Noé obedece construindo uma arca de proporções colossais, salvando sua família (esposa, filhos Sem, Cam e Jafé, e suas respectivas noras) e casais de todas as espécies animais. Após o dilúvio, Noé oferece um sacrifício aceitável a Deus, que estabelece a **Aliança Noaica**, selada com o sinal do arco-íris, garantindo a preservação da ordem natural e promulgando leis fundamentais para a convivência humana (incluindo a proibição do consumo de sangue e a sanção da pena capital para o assassinato). Posteriormente, Noé protagoniza o episódio da embriaguez e da maldição de Canaã [27].",
+      "references": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7",
+        "2Pe 2:5",
+        "Gn 6:5–22",
+        "Gn 7–9",
+        "Is 54:9–10",
+        "Mt 24:37–39",
+        "1Pe 3:20–21"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-noe", "noah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%206%3A5%E2%80%9322%3B%20G%C3%AAnesis%207%3A1%E2%80%9324%3B%208%3A1%E2%80%9319%3B%20G%C3%AAnesis%209%3A1%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "justo do dilúvio; novo começo humano",
+        "entityType": "Pessoa",
+        "tags": ["dilúvio", "aliança", "novo começo", "juízo"]
+      }
+    },
+    {
+      "id": "person:sara",
+      "kind": "person",
+      "label": "Sara",
+      "aliases": ["Sara"],
+      "summary": "Sara (inicialmente **Sarai**, do hebraico שָׂרָה, *Śārāh*, \"princesa\") é a esposa de Abraão e matriarca principal do povo de Israel. Acompanhou seu marido desde Ur e Harã, enfrentando perigos nos tribunais do Egito e de Gerar, onde foi apresentada por Abraão como sua irmã para proteger sua própria vida. Estéril durante a maior parte de sua vida, Sara toma a iniciativa cultural da época de dar sua serva egípcia Hagar a Abraão como concubina para gerar um herdeiro (Ismael). Anos mais tarde, em sua velhice avançada, Sara recebe a promessa angelical de que conceberá um filho natural, rindo intimamente de incredulidade. Cumprindo-se a promessa, dá à luz Isaque, exclamando: \"Deus me deu motivo de riso; todo o que o ouvir vai rir-se comigo\" (Gn 21:6) [46].",
+      "references": [
+        "Gênesis 12:10–20; 20:1–18",
+        "Gênesis 16:1–6",
+        "Gênesis 18:10–15",
+        "Gênesis 21:1–7",
+        "Hebreus 11:11; 1 Pedro 3:6",
+        "Gn 11:29–30",
+        "Gn 12:10–20",
+        "Gn 16",
+        "Gn 18:1–15",
+        "Gn 21",
+        "1Pe 3:5–6"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-sara", "sarah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A10%E2%80%9320%3B%2020%3A1%E2%80%9318%3B%20G%C3%AAnesis%2016%3A1%E2%80%936%3B%20G%C3%AAnesis%2018%3A10%E2%80%9315&version=ARA",
+        "bookLinksVerified": true,
+        "role": "matriarca; mãe de Isaque",
+        "tags": ["esterilidade", "promessa", "maternidade", "aliança"]
+      }
+    },
+    {
+      "id": "place:a-jerusalem-celestial-monte-siao",
+      "kind": "place",
+      "label": "A Jerusalém Celestial / Monte Sião",
+      "aliases": [],
+      "summary": "A cidade do Deus vivo, pátria espiritual definitiva para a qual peregrinam os crentes.",
+      "references": ["Hb 12:22; 13:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/escatológico" }
+    },
+    {
+      "id": "place:o-deserto-canaa-massa-e-meriba",
+      "kind": "place",
+      "label": "O Deserto (Canaã / Massá e Meribá)",
+      "aliases": [],
+      "summary": "Local histórico de peregrinação e rebelião de Israel, símbolo da prova da fé e da incredulidade.",
+      "references": ["Hb 3:8-9; 4:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/histórico" }
+    },
+    {
+      "id": "place:o-fora-do-arraial-golgota",
+      "kind": "place",
+      "label": "O \"Fora do Arraial\" (Gólgota)",
+      "aliases": [],
+      "summary": "Lugar de execução e ignomínia de Jesus, para onde os crentes são chamados a ir, soportando o seu vitupério.",
+      "references": ["Hb 13:11-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "kind": "place",
+      "label": "O Santo dos Santos (Kodesh HaKodashim)",
+      "aliases": [],
+      "summary": "O espaço mais interior do santuário onde a presença de Deus habitava e o sumo sacerdote entrava no Yom Kippur",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Arquitetônico" }
+    },
+    {
+      "id": "place:o-santuario-celestial-tabernaculo-verdadeiro",
+      "kind": "place",
+      "label": "O Santuário Celestial / Tabernáculo Verdadeiro",
+      "aliases": [],
+      "summary": "Habitação divina arquetípica onde Cristo atua como Sumo Sacerdote celestial.",
+      "references": ["Hb 8:2; 9:11; 9:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-tabernaculo-terreno-tenda-e-templo",
+      "kind": "place",
+      "label": "O Tabernáculo Terreno (Tenda e Templo)",
+      "aliases": [],
+      "summary": "Estrutura cultual mosaica que servia de cópia e sombra das realidades celestiais.",
+      "references": ["Hb 9:1-9; 13:10-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/histórico" }
+    },
+    {
+      "id": "prophecy:2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho",
+      "kind": "prophecy",
+      "label": "\"Quando teus dias forem completos... levantarei depois de ti a tua semente... eu lhe serei por pai, e ele me será por filho.\"",
+      "aliases": [],
+      "summary": "Divergência exegética: Leituras históricas/minimalistas veem o texto como profecia ex eventu focada em Salomão e na dinastia davídica terrena; leituras teológicas/messiânicas apontam para um cumprimento escatológico definitivo em Jesus Cristo.",
+      "references": ["2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "type": "Oráculo / Promessa Dinástica (Aliança Davídica)"
+      }
+    },
+    {
+      "id": "prophecy:ageu-ageu-2-6-7-ainda-uma-vez-daqui-a-pouco-abalarei-os-ceus-e-a-terra",
+      "kind": "prophecy",
+      "label": "Ageu 2:6-7 — \"Ainda uma vez, daqui a pouco, abalarei os céus e a terra...\"",
+      "aliases": [],
+      "summary": "O autor de Hebreus utiliza o texto de Ageu para contrastar a instabilidade do mundo criado e dos reinos terrenos com o Reino inabalável recebido pelos crentes na nova aliança.",
+      "references": ["Hebreus 12:26-28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo aplica o oráculo profético para ancorar o princípio soteriológico fundamental de que a vida diante de Deus é sustentada pela fé e não por rituais identitários.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "kind": "prophecy",
+      "label": "A semente da mulher",
+      "aliases": [],
+      "summary": "O texto anuncia inimizade entre serpente e descendência e uma ferida decisiva na cabeça da serpente.",
+      "references": ["Gn 3:15", "Rm 16:20", "Hb 2:14", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A leitura cristã tradicional vê aqui um protoevangelho; a exegese histórico-literária também considera a função do oráculo dentro da narrativa da queda."
+      }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo e o autor aos Hebreus reinterpretam o texto escatológico original sobre a sobrevivência em meio à invasão caldeia como a base da justificação pela fé e perseverança cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:hebreus-habacuque-2-3-4-o-justo-vivera-pela-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:3-4 (\"O justo viverá pela fé\")",
+      "aliases": [],
+      "summary": "Interpretação original focada na paciência diante da opressão caldéia, reaproveitada em Hebreus para a perseverança escatológica diante da perseguição e volta de Cristo.",
+      "references": ["Hb 10:37-38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação e alusão adaptada" }
+    },
+    {
+      "id": "prophecy:hebreus-jeremias-31-31-34-eis-que-virao-dias-diz-o-senhor-em-que-firmarei-nova-alianca",
+      "kind": "prophecy",
+      "label": "Jeremias 31:31-34 (\"Eis que virão dias, diz o Senhor, em que firmarei nova aliança...\")",
+      "aliases": [],
+      "summary": "Divergência entre judeus rabínicos (cumprimento escatológico futuro nacional) e a hermenêutica cristã (inauguração na morte e ressurreição de Cristo).",
+      "references": ["Hb 8:8-12; 10:16-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação extensa (a mais longa do NT)" }
+    },
+    {
+      "id": "prophecy:hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque",
+      "kind": "prophecy",
+      "label": "Salmo 110:4 (\"Tu és sacerdote para sempre, segundo a ordem de Melquisedeque\")",
+      "aliases": [],
+      "summary": "Debate sobre como um salmo dinástico real pôde ser aplicado a um sacerdócio não aarônico e eterno no judaísmo antigo e na exegese cristã.",
+      "references": ["Hb 5:6; 6:20; 7:17, 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação direta e tipologia" }
+    },
+    {
+      "id": "prophecy:hebreus-salmo-2-7-tu-es-meu-filho-eu-hoje-te-gerei",
+      "kind": "prophecy",
+      "label": "Salmo 2:7 (\"Tu és meu Filho, eu hoje te gerei\")",
+      "aliases": [],
+      "summary": "Divergência entre interpretação messiânica real (coronation psalm) e a leitura cristológica de filiação eterna e exaltação.",
+      "references": ["Hb 1:5; 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação direta" }
+    },
+    {
+      "id": "prophecy:hebreus-salmo-95-7-11-hoje-se-ouvirdes-a-sua-voz-nao-endurecais-os-vossos-coracoes",
+      "kind": "prophecy",
+      "label": "Salmo 95:7-11 (\"Hoje, se ouvirdes a sua voz, não endureçais os vossos corações...\")",
+      "aliases": [],
+      "summary": "Transição do repouso geográfico de Canaã (Josué) para o repouso escatológico permanente em Deus.",
+      "references": ["Hb 3:7-11; 4:3-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação e exortação" }
+    },
+    {
+      "id": "prophecy:jo-jo-5-17-jo-34-31-32",
+      "kind": "prophecy",
+      "label": "Jó 5:17 / Jó 34:31-32",
+      "aliases": [],
+      "summary": "A disciplina divina como prova de amor e correção paterna, retomada na literatura sapiencial e na carta aos Hebreus.",
+      "references": ["Provérbios 3:11-12; Hebreus 12:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45",
+      "kind": "prophecy",
+      "label": "As promessas de descanso e herança integral da terra (Josué 21:43-45)",
+      "aliases": [],
+      "summary": "Tensão exegética entre o cumprimento aparente sob Josué e a reflexão teológica posterior (Salmo 95 / Hebreus) de que o verdadeiro \"descanso sabático\" (katapausis) escatológico ainda aguarda o povo de Deus",
+      "references": ["Josué 21:43-45; Josué 23:14; Hebreus 4:8-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Promessa Teológica" }
+    },
+    {
+      "id": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "kind": "prophecy",
+      "label": "\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"",
+      "aliases": [],
+      "summary": "Interpretado na tradição deuteronômica como garantia condicional de assistência divina atrelada à obediência, e na recepção cristã como promessa universal de presença perene (Hebreus)",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Promessa" }
+    },
+    {
+      "id": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "kind": "prophecy",
+      "label": "O ritual do Bode Expiatório (Lv 16:8-10, 21-22)",
+      "aliases": [],
+      "summary": "Visto por autores neotestamentários como tipo prefigurativo do sacrifício perfeito de Cristo que remove definitivamente o pecado.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / foreshadowing soteriológico" }
+    },
+    {
+      "id": "prophecy:numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8",
+      "kind": "prophecy",
+      "label": "\"Se houver entre vós profeta de YHWH, em visão me farei conhecer a ele, em sonhos falarei com ele. Não assim com o meu servo Moisés... boca a boca falarei com ele...\" (Números 12:6-8)",
+      "aliases": [],
+      "summary": "Estabelece o padrão supremo da profecia mosaica na Bíblia hebraica, servindo de base hermenêutica para a tipologia do \"profeta como Moisés\" em Deuteronômio e no Novo Testamento.",
+      "references": ["Deuteronômio 18:15-18; Hebreus 3:2-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / oráculo" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-3-11-12",
+      "kind": "prophecy",
+      "label": "Pr 3:11-12",
+      "aliases": [],
+      "summary": "O autor de Hebreus aplica diretamente este provérbio salomônico para explicar o sentido teológico do sofrimento e da correção divina na vida dos crentes neotestamentários.",
+      "references": ["Hb 12:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / recepção neotestamentária" }
+    },
+    {
+      "id": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo reinterpreta o texto profético do Antigo Testamento — originalmente focado na perseverança diante da opressão babilônica — como o princípio soteriológico fundamental da justificação e vida pela fé cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:salmos-sacrificio-e-oferta-nao-quiseste-eis-que-venho",
+      "kind": "prophecy",
+      "label": "\"Sacrifício e oferta não quiseste... eis que venho\"",
+      "aliases": [],
+      "summary": "Prioridade da obediência interior sobre o ritual sacrificial; aplicado na carta aos Hebreus à encarnação e obediência sacrificial perfeita de Cristo.",
+      "references": ["Sl 40:6-8; Hb 10:5-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alocução" }
+    },
+    {
+      "id": "prophecy:salmos-tu-es-meu-filho-eu-hoje-te-gerei",
+      "kind": "prophecy",
+      "label": "\"Tu és meu Filho, eu hoje te gerei\"",
+      "aliases": [],
+      "summary": "Fórmula de adopção real no antigo Israel associada à entronização do monarca; reinterpretada no Novo Testamento à luz da ressurreição e filiação eterna de Cristo.",
+      "references": ["Sl 2:7; At 13:33; Hb 1:5, 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/oráculo" }
+    },
+    {
+      "id": "prophecy:tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe",
+      "kind": "prophecy",
+      "label": "\"Acolheu os espias e os despachou por outro caminho\" (Raabe)",
+      "aliases": [],
+      "summary": "Releitura de um evento histórico de salvamento gentílico como evidência soteriológica de fé ativa, contrastando com interpretações que veem Raabe apenas como exemplo de heroísmo nacional.",
+      "references": ["Josué 2:1-21; Hebreus 11:31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "term:logos",
+      "kind": "term",
+      "label": "Logos",
+      "aliases": ["λόγος", "logos"],
+      "summary": "Palavra, discurso, mensagem, razão, relato ou princípio articulador; em João 1, recebe função cristológica singular.",
+      "references": ["Jo 1:1–18", "At 6:7", "Hb 4:12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["logos"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O sentido resulta do gênero, do contexto e das relações intertextuais. Não deve ser preenchido automaticamente com toda a filosofia grega nem reduzido a ‘palavra’ sem análise.",
+        "translationNote": "Em João 1, a tradução tradicional ‘Verbo’ preserva uma história teológica, enquanto ‘Palavra’ é mais transparente; ambas precisam de comentário contextual."
+      }
+    },
+    {
+      "id": "term:pistis",
+      "kind": "term",
+      "label": "Pistis",
+      "aliases": ["πίστις", "pistis"],
+      "summary": "Confiança, fé, fidelidade ou lealdade; o sentido depende do agente, do objeto e da relação construída no texto.",
+      "references": ["Rm 3:21–26", "Gl 5:6", "Hb 11:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pistis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em alguns contextos descreve a confiança de uma pessoa; em outros, a fidelidade que caracteriza uma vida ou uma comunidade. A discussão ‘fé versus fidelidade’ é real, mas não deve ser resolvida por slogans.",
+        "translationNote": "A tradução por ‘fé’ preserva a linguagem confessional; ‘fidelidade’ ilumina certos contextos éticos. O leitor deve acompanhar sintaxe e argumento."
+      }
+    },
+    {
+      "id": "theme:a-galeria-da-fe-herois-do-antigo-testamento",
+      "kind": "theme",
+      "label": "A Galeria da Fé (Heróis do Antigo Testamento)",
+      "aliases": [],
+      "summary": "Lista exemplares de personagens bíblicos que confiaram nas promessas divinas sem ver o seu cumprimento terreno pleno.",
+      "references": ["Hb 11:1-40"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunhas da perseverança",
+        "entityType": "Povo/Grupo"
+      }
+    },
+    {
+      "id": "theme:a-nova-alianca",
+      "kind": "theme",
+      "label": "A Nova Aliança",
+      "aliases": [],
+      "summary": "Pacto definitivo profetizado por Jeremias, caracterizado pela internalização da lei e pelo perdão pleno dos pecados.",
+      "references": ["Hb 8:6-13; 10:16-18; 12:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Aliança superior baseada em melhores promessas",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-santuario-celestial",
+      "kind": "theme",
+      "label": "O Santuário Celestial",
+      "aliases": [],
+      "summary": "O verdadeiro tabernáculo no qual Cristo entrou com seu próprio sangue para efetuar a redenção eterna.",
+      "references": ["Hb 8:1-5; 9:11-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Habitação de Deus e arquétipo verdadeiro",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:os-anjos",
+      "kind": "theme",
+      "label": "Os Anjos",
+      "aliases": [],
+      "summary": "Seres espirituais elevados, mas inferiores a Cristo, que é o Filho adorado por eles e Senhor do mundo vindouro.",
+      "references": ["Hb 1:4-14; 2:2-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mensageiros celestiais",
+        "entityType": "Pessoa/Ser Celestial"
+      }
+    },
+    {
+      "id": "theme:sacerdocio-aaronico-levitico",
+      "kind": "theme",
+      "label": "Sacerdócio Aarônico (Levítico)",
+      "aliases": [],
+      "summary": "Sistema sacerdotal transitório e falível, baseado em leis carnais, substituído pelo sacerdócio eterno e perfeito de Cristo.",
+      "references": ["Hb 7:11-28; 8:4-7; 9:1-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sistema sacrificial terrestre",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:tenda-do-encontro-ohel-moed",
+      "kind": "theme",
+      "label": "Tenda do Encontro (Ohel Moed)",
+      "aliases": [],
+      "summary": "O espaço de encontro entre Deus e Israel, centro do culto levítico",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário móvel no deserto",
+        "entityType": "Lugar / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-comunidade-de-leitores-hebreus:chapter-hebreus-10",
+      "from": "people-group:comunidade-de-leitores-hebreus",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Comunidade de Leitores (Hebreus)” cita explicitamente Hb 2:1-4; 6:9-12; 10:32-39.",
+      "references": ["Hb 2:1-4; 6:9-12; 10:32-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-comunidade-de-leitores-hebreus:chapter-hebreus-2",
+      "from": "people-group:comunidade-de-leitores-hebreus",
+      "to": "chapter:hebreus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Comunidade de Leitores (Hebreus)” cita explicitamente Hb 2:1-4; 6:9-12; 10:32-39.",
+      "references": ["Hb 2:1-4; 6:9-12; 10:32-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-comunidade-de-leitores-hebreus:chapter-hebreus-6",
+      "from": "people-group:comunidade-de-leitores-hebreus",
+      "to": "chapter:hebreus:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Comunidade de Leitores (Hebreus)” cita explicitamente Hb 2:1-4; 6:9-12; 10:32-39.",
+      "references": ["Hb 2:1-4; 6:9-12; 10:32-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abel:chapter-hebreus-11",
+      "from": "person:abel",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abel” cita explicitamente Hb 11:4.",
+      "references": ["Hb 11:4"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abel:chapter-hebreus-12",
+      "from": "person:abel",
+      "to": "chapter:hebreus:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abel” cita explicitamente Hb 12:24.",
+      "references": ["Hb 12:24"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-hebreus-11",
+      "from": "person:abraao",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Hb 6:13-15; 7:4-9; 11:8-19.",
+      "references": ["Hb 6:13-15; 7:4-9; 11:8-19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-hebreus-6",
+      "from": "person:abraao",
+      "to": "chapter:hebreus:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Hb 6:13-15; 7:4-9; 11:8-19.",
+      "references": ["Hb 6:13-15; 7:4-9; 11:8-19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-hebreus-7",
+      "from": "person:abraao",
+      "to": "chapter:hebreus:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Hb 6:13-15; 7:4-9; 11:8-19.",
+      "references": ["Hb 6:13-15; 7:4-9; 11:8-19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-caim:chapter-hebreus-11",
+      "from": "person:caim",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Caim” cita explicitamente Hb 11:4.",
+      "references": ["Hb 11:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-isaque:chapter-hebreus-11",
+      "from": "person:isaque",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaque” cita explicitamente Hebreus 11:17–19.",
+      "references": ["Hebreus 11:17–19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-hebreus-1",
+      "from": "person:jesus-cristo",
+      "to": "chapter:hebreus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12.",
+      "references": ["Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-hebreus-4",
+      "from": "person:jesus-cristo",
+      "to": "chapter:hebreus:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12.",
+      "references": ["Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-hebreus-8",
+      "from": "person:jesus-cristo",
+      "to": "chapter:hebreus:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12.",
+      "references": ["Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-hebreus-9",
+      "from": "person:jesus-cristo",
+      "to": "chapter:hebreus:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12.",
+      "references": ["Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jose:chapter-hebreus-11",
+      "from": "person:jose",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “José” cita explicitamente Hb 11:22.",
+      "references": ["Hb 11:22"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-melquisedeque:chapter-hebreus-5",
+      "from": "person:melquisedeque",
+      "to": "chapter:hebreus:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Melquisedeque” cita explicitamente Hb 5:6; 7:1-17; Gn 14:18-20.",
+      "references": ["Hb 5:6; 7:1-17; Gn 14:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-melquisedeque:chapter-hebreus-7",
+      "from": "person:melquisedeque",
+      "to": "chapter:hebreus:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Melquisedeque” cita explicitamente Hb 5:6; 7:1-17; Gn 14:18-20.",
+      "references": ["Hb 5:6; 7:1-17; Gn 14:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-hebreus-11",
+      "from": "person:moises",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Hb 3:2-5; 8:5; 11:24-28.",
+      "references": ["Hb 3:2-5; 8:5; 11:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-hebreus-3",
+      "from": "person:moises",
+      "to": "chapter:hebreus:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Hb 3:2-5; 8:5; 11:24-28.",
+      "references": ["Hb 3:2-5; 8:5; 11:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-hebreus-8",
+      "from": "person:moises",
+      "to": "chapter:hebreus:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Hb 3:2-5; 8:5; 11:24-28.",
+      "references": ["Hb 3:2-5; 8:5; 11:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noe:chapter-hebreus-11",
+      "from": "person:noe",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noé” cita explicitamente Hebreus 11:7.",
+      "references": ["Hebreus 11:7"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sara:chapter-hebreus-11",
+      "from": "person:sara",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sara” cita explicitamente Hebreus 11:11; 1 Pedro 3:6.",
+      "references": ["Hebreus 11:11; 1 Pedro 3:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-jerusalem-celestial-monte-siao:chapter-hebreus-12",
+      "from": "place:a-jerusalem-celestial-monte-siao",
+      "to": "chapter:hebreus:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Jerusalém Celestial / Monte Sião” cita explicitamente Hb 12:22; 13:14.",
+      "references": ["Hb 12:22; 13:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-jerusalem-celestial-monte-siao:chapter-hebreus-13",
+      "from": "place:a-jerusalem-celestial-monte-siao",
+      "to": "chapter:hebreus:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Jerusalém Celestial / Monte Sião” cita explicitamente Hb 12:22; 13:14.",
+      "references": ["Hb 12:22; 13:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto-canaa-massa-e-meriba:chapter-hebreus-3",
+      "from": "place:o-deserto-canaa-massa-e-meriba",
+      "to": "chapter:hebreus:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto (Canaã / Massá e Meribá)” cita explicitamente Hb 3:8-9; 4:8.",
+      "references": ["Hb 3:8-9; 4:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto-canaa-massa-e-meriba:chapter-hebreus-4",
+      "from": "place:o-deserto-canaa-massa-e-meriba",
+      "to": "chapter:hebreus:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto (Canaã / Massá e Meribá)” cita explicitamente Hb 3:8-9; 4:8.",
+      "references": ["Hb 3:8-9; 4:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-fora-do-arraial-golgota:chapter-hebreus-13",
+      "from": "place:o-fora-do-arraial-golgota",
+      "to": "chapter:hebreus:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O \"Fora do Arraial\" (Gólgota)” cita explicitamente Hb 13:11-13.",
+      "references": ["Hb 13:11-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santo-dos-santos-kodesh-hakodashim:chapter-hebreus-9",
+      "from": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "to": "chapter:hebreus:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santo dos Santos (Kodesh HaKodashim)” cita explicitamente Lv 16:2; 1 Rs 8:6; Hb 9:3.",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santuario-celestial-tabernaculo-verdadeiro:chapter-hebreus-8",
+      "from": "place:o-santuario-celestial-tabernaculo-verdadeiro",
+      "to": "chapter:hebreus:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santuário Celestial / Tabernáculo Verdadeiro” cita explicitamente Hb 8:2; 9:11; 9:24.",
+      "references": ["Hb 8:2; 9:11; 9:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santuario-celestial-tabernaculo-verdadeiro:chapter-hebreus-9",
+      "from": "place:o-santuario-celestial-tabernaculo-verdadeiro",
+      "to": "chapter:hebreus:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santuário Celestial / Tabernáculo Verdadeiro” cita explicitamente Hb 8:2; 9:11; 9:24.",
+      "references": ["Hb 8:2; 9:11; 9:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-tabernaculo-terreno-tenda-e-templo:chapter-hebreus-13",
+      "from": "place:o-tabernaculo-terreno-tenda-e-templo",
+      "to": "chapter:hebreus:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Tabernáculo Terreno (Tenda e Templo)” cita explicitamente Hb 9:1-9; 13:10-11.",
+      "references": ["Hb 9:1-9; 13:10-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-tabernaculo-terreno-tenda-e-templo:chapter-hebreus-9",
+      "from": "place:o-tabernaculo-terreno-tenda-e-templo",
+      "to": "chapter:hebreus:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Tabernáculo Terreno (Tenda e Templo)” cita explicitamente Hb 9:1-9; 13:10-11.",
+      "references": ["Hb 9:1-9; 13:10-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho:chapter-hebreus-1",
+      "from": "prophecy:2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho",
+      "to": "chapter:hebreus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Quando teus dias forem completos... levantarei depois de ti a tua semente... eu lhe serei por pai, e ele me será por filho.\"” cita explicitamente 2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5.",
+      "references": ["2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-6-7-ainda-uma-vez-daqui-a-pouco-abalarei-os-ceus-e-a-terra:chapter-hebreus-12",
+      "from": "prophecy:ageu-ageu-2-6-7-ainda-uma-vez-daqui-a-pouco-abalarei-os-ceus-e-a-terra",
+      "to": "chapter:hebreus:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:6-7 — \"Ainda uma vez, daqui a pouco, abalarei os céus e a terra...\"” cita explicitamente Hebreus 12:26-28.",
+      "references": ["Hebreus 12:26-28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-hebreus-10",
+      "from": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Gálatas 3:11, Romanos 1:17, Hebreus 10:38.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-3-15-a-semente-da-mulher:chapter-hebreus-2",
+      "from": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "to": "chapter:hebreus:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A semente da mulher” cita explicitamente Hb 2:14.",
+      "references": ["Hb 2:14"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-hebreus-10",
+      "from": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-habacuque-2-3-4-o-justo-vivera-pela-fe:chapter-hebreus-10",
+      "from": "prophecy:hebreus-habacuque-2-3-4-o-justo-vivera-pela-fe",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:3-4 (\"O justo viverá pela fé\")” cita explicitamente Hb 10:37-38.",
+      "references": ["Hb 10:37-38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-jeremias-31-31-34-eis-que-virao-dias-diz-o-senhor-em-que-firmarei-nova-alianca:chapter-hebreus-10",
+      "from": "prophecy:hebreus-jeremias-31-31-34-eis-que-virao-dias-diz-o-senhor-em-que-firmarei-nova-alianca",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 31:31-34 (\"Eis que virão dias, diz o Senhor, em que firmarei nova aliança...\")” cita explicitamente Hb 8:8-12; 10:16-17.",
+      "references": ["Hb 8:8-12; 10:16-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-jeremias-31-31-34-eis-que-virao-dias-diz-o-senhor-em-que-firmarei-nova-alianca:chapter-hebreus-8",
+      "from": "prophecy:hebreus-jeremias-31-31-34-eis-que-virao-dias-diz-o-senhor-em-que-firmarei-nova-alianca",
+      "to": "chapter:hebreus:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 31:31-34 (\"Eis que virão dias, diz o Senhor, em que firmarei nova aliança...\")” cita explicitamente Hb 8:8-12; 10:16-17.",
+      "references": ["Hb 8:8-12; 10:16-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque:chapter-hebreus-5",
+      "from": "prophecy:hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque",
+      "to": "chapter:hebreus:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 110:4 (\"Tu és sacerdote para sempre, segundo a ordem de Melquisedeque\")” cita explicitamente Hb 5:6; 6:20; 7:17, 21.",
+      "references": ["Hb 5:6; 6:20; 7:17, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque:chapter-hebreus-6",
+      "from": "prophecy:hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque",
+      "to": "chapter:hebreus:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 110:4 (\"Tu és sacerdote para sempre, segundo a ordem de Melquisedeque\")” cita explicitamente Hb 5:6; 6:20; 7:17, 21.",
+      "references": ["Hb 5:6; 6:20; 7:17, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque:chapter-hebreus-7",
+      "from": "prophecy:hebreus-salmo-110-4-tu-es-sacerdote-para-sempre-segundo-a-ordem-de-melquisedeque",
+      "to": "chapter:hebreus:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 110:4 (\"Tu és sacerdote para sempre, segundo a ordem de Melquisedeque\")” cita explicitamente Hb 5:6; 6:20; 7:17, 21.",
+      "references": ["Hb 5:6; 6:20; 7:17, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-2-7-tu-es-meu-filho-eu-hoje-te-gerei:chapter-hebreus-1",
+      "from": "prophecy:hebreus-salmo-2-7-tu-es-meu-filho-eu-hoje-te-gerei",
+      "to": "chapter:hebreus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 2:7 (\"Tu és meu Filho, eu hoje te gerei\")” cita explicitamente Hb 1:5; 5:5.",
+      "references": ["Hb 1:5; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-2-7-tu-es-meu-filho-eu-hoje-te-gerei:chapter-hebreus-5",
+      "from": "prophecy:hebreus-salmo-2-7-tu-es-meu-filho-eu-hoje-te-gerei",
+      "to": "chapter:hebreus:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 2:7 (\"Tu és meu Filho, eu hoje te gerei\")” cita explicitamente Hb 1:5; 5:5.",
+      "references": ["Hb 1:5; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-95-7-11-hoje-se-ouvirdes-a-sua-voz-nao-endurecais-os-vossos-coracoes:chapter-hebreus-3",
+      "from": "prophecy:hebreus-salmo-95-7-11-hoje-se-ouvirdes-a-sua-voz-nao-endurecais-os-vossos-coracoes",
+      "to": "chapter:hebreus:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 95:7-11 (\"Hoje, se ouvirdes a sua voz, não endureçais os vossos corações...\")” cita explicitamente Hb 3:7-11; 4:3-7.",
+      "references": ["Hb 3:7-11; 4:3-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-hebreus-salmo-95-7-11-hoje-se-ouvirdes-a-sua-voz-nao-endurecais-os-vossos-coracoes:chapter-hebreus-4",
+      "from": "prophecy:hebreus-salmo-95-7-11-hoje-se-ouvirdes-a-sua-voz-nao-endurecais-os-vossos-coracoes",
+      "to": "chapter:hebreus:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 95:7-11 (\"Hoje, se ouvirdes a sua voz, não endureçais os vossos corações...\")” cita explicitamente Hb 3:7-11; 4:3-7.",
+      "references": ["Hb 3:7-11; 4:3-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jo-jo-5-17-jo-34-31-32:chapter-hebreus-12",
+      "from": "prophecy:jo-jo-5-17-jo-34-31-32",
+      "to": "chapter:hebreus:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó 5:17 / Jó 34:31-32” cita explicitamente Provérbios 3:11-12; Hebreus 12:5-6.",
+      "references": ["Provérbios 3:11-12; Hebreus 12:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45:chapter-hebreus-4",
+      "from": "prophecy:josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45",
+      "to": "chapter:hebreus:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As promessas de descanso e herança integral da terra (Josué 21:43-45)” cita explicitamente Josué 21:43-45; Josué 23:14; Hebreus 4:8-9.",
+      "references": ["Josué 21:43-45; Josué 23:14; Hebreus 4:8-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo:chapter-hebreus-13",
+      "from": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "to": "chapter:hebreus:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"” cita explicitamente Josué 1:5; Deuteronômio 31:8; Hebreus 13:5.",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22:chapter-hebreus-9",
+      "from": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "to": "chapter:hebreus:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O ritual do Bode Expiatório (Lv 16:8-10, 21-22)” cita explicitamente Is 53:4-6; Jo 1:29; Hb 9:12-14.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8:chapter-hebreus-3",
+      "from": "prophecy:numeros-se-houver-entre-vos-profeta-de-yhwh-em-visao-me-farei-conhecer-a-ele-em-sonhos-falarei-com-ele-nao-assim-com-o-meu-servo-moises-boca-a-boca-falarei-com-ele-numeros-12-6-8",
+      "to": "chapter:hebreus:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Se houver entre vós profeta de YHWH, em visão me farei conhecer a ele, em sonhos falarei com ele. Não assim com o meu servo Moisés... boca a boca falarei com ele...\" (Números 12:6-8)” cita explicitamente Deuteronômio 18:15-18; Hebreus 3:2-5.",
+      "references": ["Deuteronômio 18:15-18; Hebreus 3:2-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-3-11-12:chapter-hebreus-12",
+      "from": "prophecy:proverbios-pr-3-11-12",
+      "to": "chapter:hebreus:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 3:11-12” cita explicitamente Hb 12:5-6.",
+      "references": ["Hb 12:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-hebreus-10",
+      "from": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-sacrificio-e-oferta-nao-quiseste-eis-que-venho:chapter-hebreus-10",
+      "from": "prophecy:salmos-sacrificio-e-oferta-nao-quiseste-eis-que-venho",
+      "to": "chapter:hebreus:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Sacrifício e oferta não quiseste... eis que venho\"” cita explicitamente Sl 40:6-8; Hb 10:5-7.",
+      "references": ["Sl 40:6-8; Hb 10:5-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-tu-es-meu-filho-eu-hoje-te-gerei:chapter-hebreus-1",
+      "from": "prophecy:salmos-tu-es-meu-filho-eu-hoje-te-gerei",
+      "to": "chapter:hebreus:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Tu és meu Filho, eu hoje te gerei\"” cita explicitamente Sl 2:7; At 13:33; Hb 1:5, 5:5.",
+      "references": ["Sl 2:7; At 13:33; Hb 1:5, 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-tu-es-meu-filho-eu-hoje-te-gerei:chapter-hebreus-5",
+      "from": "prophecy:salmos-tu-es-meu-filho-eu-hoje-te-gerei",
+      "to": "chapter:hebreus:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Tu és meu Filho, eu hoje te gerei\"” cita explicitamente Sl 2:7; At 13:33; Hb 1:5, 5:5.",
+      "references": ["Sl 2:7; At 13:33; Hb 1:5, 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe:chapter-hebreus-11",
+      "from": "prophecy:tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe",
+      "to": "chapter:hebreus:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Acolheu os espias e os despachou por outro caminho\" (Raabe)” cita explicitamente Josué 2:1-21; Hebreus 11:31.",
+      "references": ["Josué 2:1-21; Hebreus 11:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-1:theme-os-anjos",
+      "from": "chapter:hebreus:1",
+      "to": "theme:os-anjos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Anjos” cita explicitamente Hb 1:4-14; 2:2-5.",
+      "references": ["Hb 1:4-14; 2:2-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-10:doctrine-culto-santidade",
+      "from": "chapter:hebreus:10",
+      "to": "doctrine:culto-santidade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Culto, oração e vida comunitária” cita explicitamente At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-10:theme-a-nova-alianca",
+      "from": "chapter:hebreus:10",
+      "to": "theme:a-nova-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Nova Aliança” cita explicitamente Hb 8:6-13; 10:16-18; 12:24.",
+      "references": ["Hb 8:6-13; 10:16-18; 12:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-11:theme-a-galeria-da-fe-herois-do-antigo-testamento",
+      "from": "chapter:hebreus:11",
+      "to": "theme:a-galeria-da-fe-herois-do-antigo-testamento",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Galeria da Fé (Heróis do Antigo Testamento)” cita explicitamente Hb 11:1-40.",
+      "references": ["Hb 11:1-40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-12:doctrine-santificacao",
+      "from": "chapter:hebreus:12",
+      "to": "doctrine:santificacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Santificação e santidade” cita explicitamente 1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-12:theme-a-nova-alianca",
+      "from": "chapter:hebreus:12",
+      "to": "theme:a-nova-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Nova Aliança” cita explicitamente Hb 8:6-13; 10:16-18; 12:24.",
+      "references": ["Hb 8:6-13; 10:16-18; 12:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-2:theme-os-anjos",
+      "from": "chapter:hebreus:2",
+      "to": "theme:os-anjos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Anjos” cita explicitamente Hb 1:4-14; 2:2-5.",
+      "references": ["Hb 1:4-14; 2:2-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-7:doctrine-cristo",
+      "from": "chapter:hebreus:7",
+      "to": "doctrine:cristo",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Jesus Cristo: encarnação, cruz e ressurreição” cita explicitamente Lc 1:26–38; 1Co 15:3–8; Hb 7:25.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-7:theme-sacerdocio-aaronico-levitico",
+      "from": "chapter:hebreus:7",
+      "to": "theme:sacerdocio-aaronico-levitico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdócio Aarônico (Levítico)” cita explicitamente Hb 7:11-28; 8:4-7; 9:1-10.",
+      "references": ["Hb 7:11-28; 8:4-7; 9:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-8:theme-a-nova-alianca",
+      "from": "chapter:hebreus:8",
+      "to": "theme:a-nova-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Nova Aliança” cita explicitamente Hb 8:6-13; 10:16-18; 12:24.",
+      "references": ["Hb 8:6-13; 10:16-18; 12:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-8:theme-o-santuario-celestial",
+      "from": "chapter:hebreus:8",
+      "to": "theme:o-santuario-celestial",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Santuário Celestial” cita explicitamente Hb 8:1-5; 9:11-24.",
+      "references": ["Hb 8:1-5; 9:11-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-8:theme-sacerdocio-aaronico-levitico",
+      "from": "chapter:hebreus:8",
+      "to": "theme:sacerdocio-aaronico-levitico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdócio Aarônico (Levítico)” cita explicitamente Hb 7:11-28; 8:4-7; 9:1-10.",
+      "references": ["Hb 7:11-28; 8:4-7; 9:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-8:theme-tenda-do-encontro-ohel-moed",
+      "from": "chapter:hebreus:8",
+      "to": "theme:tenda-do-encontro-ohel-moed",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tenda do Encontro (Ohel Moed)” cita explicitamente Êx 33; Lv 1:1; Hb 8.",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-9:theme-o-santuario-celestial",
+      "from": "chapter:hebreus:9",
+      "to": "theme:o-santuario-celestial",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Santuário Celestial” cita explicitamente Hb 8:1-5; 9:11-24.",
+      "references": ["Hb 8:1-5; 9:11-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-hebreus-9:theme-sacerdocio-aaronico-levitico",
+      "from": "chapter:hebreus:9",
+      "to": "theme:sacerdocio-aaronico-levitico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdócio Aarônico (Levítico)” cita explicitamente Hb 7:11-28; 8:4-7; 9:1-10.",
+      "references": ["Hb 7:11-28; 8:4-7; 9:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-hebreus-11:term-pistis",
+      "from": "chapter:hebreus:11",
+      "to": "term:pistis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Pistis” cita explicitamente Hb 11:1–2.",
+      "references": ["Hb 11:1–2"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-hebreus-4:term-logos",
+      "from": "chapter:hebreus:4",
+      "to": "term:logos",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Logos” cita explicitamente Hb 4:12.",
+      "references": ["Hb 4:12"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

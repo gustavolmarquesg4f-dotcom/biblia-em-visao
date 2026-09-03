@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Samuel",
+  "count": 60,
+  "chapterCount": 24,
+  "nodes": [
+    {
+      "id": "person:absalao",
+      "kind": "person",
+      "label": "Absalão",
+      "aliases": [],
+      "summary": "Príncipe carismático e ambicioso que lidera uma rebelião fratricida pelo trono",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Terceiro filho de Davi", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:bate-seba",
+      "kind": "person",
+      "label": "Bate-Seba",
+      "aliases": [],
+      "summary": "Vítima de abuso de poder real que ascende politicamente como mãe de Salomão",
+      "references": ["2 Sm 11, 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rainha-mãe, esposa de Urias e depois de Davi",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:davi",
+      "kind": "person",
+      "label": "Davi",
+      "aliases": ["Davi"],
+      "summary": "Davi, filho de Jessé, pastor de Belém, rei de Judá e posteriormente de todo o Israel unificado (c. 1010–970 a.C.), é a figura central da história monárquica e messiânica de Israel. Embora sua biografia narrativa esteja nos livros de Samuel e Crônicas, sua inclusão fulcral no presente dossiê decorre de seu papel inquestionável como o **principal autor e patrono do Saltério (*Tehilim*)**, a coletânea de 150 salmos que constitui o hinário litúrgico e espiritual do Judaísmo e do Cristianismo. Davi unifica a poesia cultual, a experiência emocional profunda do crente (lamentos, louvores, arrependimento) e a promessa teológica da aliança perpétua (Aliança Davídica).",
+      "references": [
+        "1Sm 16-31",
+        "2 Sm 1–24",
+        "1Rs 1-2",
+        "1 Cr 11-29",
+        "Sl 3, 18, 51, 101, 138"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-davi"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei de Israel e figura central associada à autoria e experiência dos salmos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:joab",
+      "kind": "person",
+      "label": "Joab",
+      "aliases": [],
+      "summary": "Estrategista militar pragmático, implacável na eliminação de rivais, frequentemente operando acima da autoridade real",
+      "references": ["2 Sm 2, 11, 18, 20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comandante do exército de Davi",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:mephibosheth-mefibosete",
+      "kind": "person",
+      "label": "Mephibosheth (Mefiboséte)",
+      "aliases": [],
+      "summary": "Sobrevivente da dinastia saulita beneficiado pela clemência davídica, posteriormente caluniado por Ziba",
+      "references": ["2 Sm 4, 9, 16, 19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filho de Jônatas, neto de Saul",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nata",
+      "kind": "person",
+      "label": "Natã",
+      "aliases": [],
+      "summary": "Agente da palavra divina que confronta o pecado real e transmite a Aliança Davídica",
+      "references": ["2 Sm 7, 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta da corte e conselheiro teológico",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:eira-de-arauna-orna",
+      "kind": "place",
+      "label": "Eira de Araúna (Ornã)",
+      "aliases": [],
+      "summary": "Local em Jerusalém onde a praga cessou e que se tornou o altar e terreno para o futuro Templo.",
+      "references": ["2 Sm 24:18-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Sagrado" }
+    },
+    {
+      "id": "place:hebron",
+      "kind": "place",
+      "label": "Hebron",
+      "aliases": [],
+      "summary": "Primeira capital de Davi onde reinou sobre Judá por sete anos e meio antes da unificação.",
+      "references": ["2 Sm 2:1-4; 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Político" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:maanaim",
+      "kind": "place",
+      "label": "Maanaim",
+      "aliases": [],
+      "summary": "Cidade transjordaniana que serviu de refúgio seguro para Davi durante a fuga de Absalão.",
+      "references": ["2 Sm 17:24, 27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:raba-dos-amonitas",
+      "kind": "place",
+      "label": "Rabá (dos Amonitas)",
+      "aliases": [],
+      "summary": "Local da campanha militar onde ocorreu o episódio de Bate-Seba e Urias, e a tomada da cidade por Davi e Joab.",
+      "references": ["2 Sm 11:1; 12:26-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Disputado" }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel",
+      "kind": "prophecy",
+      "label": "1 Cr 11:2 — \"Também outrora, sendo Saul ainda rei, eras tu o que saías e entravas com Israel; e o Senhor teu Deus te disse: Tu apascentarás o meu povo Israel...\"",
+      "aliases": [],
+      "summary": "A invocação da palavra divina passada legitima a transição dinástica perante os líderes tribais de Israel.",
+      "references": ["2 Sm 5:2; Nm 27:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / alusão" }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino",
+      "kind": "prophecy",
+      "label": "1 Cr 17:11-14 — \"Quando os teus dias forem completos... levantarei a tua semente depois de ti... e confirmarei o seu reino\"",
+      "aliases": [],
+      "summary": "Enquanto 2 Samuel 7 enfatiza a disciplina e a relação paterna, 1 Crônicas atenua os aspectos negativos da falibilidade salomônica, projetando a aliança para uma esperança dinástica perene que encontra cumprimento messiânico no Novo Testamento.",
+      "references": ["2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / recepção posterior" }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome",
+      "kind": "prophecy",
+      "label": "1 Cr 22:9-10 — \"Eis que te nascerá um filho, que será homem de repouso... Salomão será o seu nome... ele edificará uma casa ao meu nome\"",
+      "aliases": [],
+      "summary": "Promessa específica associada à paz do reinado de Salomão como pré-requisito para a construção do santuário.",
+      "references": ["2 Sm 7:12-13; 1 Rs 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "promessa / oráculo" }
+    },
+    {
+      "id": "prophecy:1-samuel-1sm-15-28-yhwh-rasgou-de-ti-o-reino-de-israel-hoje-e-o-deu-ao-teu-proximo-que-e-melhor-do-que-tu",
+      "kind": "prophecy",
+      "label": "1Sm 15:28 (\"Yhwh rasgou de ti o reino de Israel hoje e o deu ao teu próximo, que é melhor do que tu\")",
+      "aliases": [],
+      "summary": "Determina a derrocada dinástica de Saul e a transferência irrevogável da soberania para a casa de Davi.",
+      "references": ["1Sm 16:1-13; 2Sm 7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo de rejeição" }
+    },
+    {
+      "id": "prophecy:2-reis-a-promessa-perpetua-a-lampada-de-davi-2-reis-8-19",
+      "kind": "prophecy",
+      "label": "A promessa perpétua à lâmpada de Davi (2 Reis 8:19)",
+      "aliases": [],
+      "summary": "Tensão entre o colapso físico da dinastia e a fidelidade divina à aliança davídica.",
+      "references": ["2 Samuel 7; Salmo 132"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / alusão" }
+    },
+    {
+      "id": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "kind": "prophecy",
+      "label": "\"Portanto, não se apartará a espada jamais da tua casa...\"",
+      "aliases": [],
+      "summary": "Divergência exegética: Historiadores analisam como etiologia retroativa para justificar as tragédias sucessórias e golpes de Estado; teólogos entendem como expressão da retribuição moral imanente no governo divino.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo Profético Condenatório (Natã)" }
+    },
+    {
+      "id": "prophecy:2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho",
+      "kind": "prophecy",
+      "label": "\"Quando teus dias forem completos... levantarei depois de ti a tua semente... eu lhe serei por pai, e ele me será por filho.\"",
+      "aliases": [],
+      "summary": "Divergência exegética: Leituras históricas/minimalistas veem o texto como profecia ex eventu focada em Salomão e na dinastia davídica terrena; leituras teológicas/messiânicas apontam para um cumprimento escatológico definitivo em Jesus Cristo.",
+      "references": ["2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "type": "Oráculo / Promessa Dinástica (Aliança Davídica)"
+      }
+    },
+    {
+      "id": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "kind": "prophecy",
+      "label": "Judá e o governo",
+      "aliases": [],
+      "summary": "O poema de Jacó associa Judá a liderança, cetro e expectativa de obediência das nações.",
+      "references": [
+        "Gn 49:8–12",
+        "Nm 24:17",
+        "2Sm 7:12–16",
+        "Mt 1:2–6",
+        "Ap 5:5"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A tradição messiânica relaciona o texto à dinastia davídica e a Cristo; o poema também funciona como bênção tribal dentro do final de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20",
+      "kind": "prophecy",
+      "label": "A Parábola de Jotão e a Maldição de Siquém (9:7-20)",
+      "aliases": [],
+      "summary": "Divergência exegética: Fábula política que profetiza a autodestruição mútua entre Abimeleque e Siquém.",
+      "references": ["Juízes 9:7-20; 2 Samuel 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Oráculo poético" }
+    },
+    {
+      "id": "theme:alianca-davidica",
+      "kind": "theme",
+      "label": "Aliança Davídica",
+      "aliases": [],
+      "summary": "Eixo teológico que garante a estabilidade da linhagem de Davi condicionada à disciplina divina",
+      "references": ["2 Sm 7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Promessa perpétua de dinastia",
+        "entityType": "Conceito / Instituição"
+      }
+    },
+    {
+      "id": "theme:arca-da-alianca",
+      "kind": "theme",
+      "label": "Arca da Aliança",
+      "aliases": [],
+      "summary": "Santuário móvel cuja captura e deslocamentos revelam que o Deus de Israel não pode ser manipulado como amuleto bélico",
+      "references": ["1Sm 4-7", "2 Sm 6", "1 Cr 13-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "símbolo da presença divina",
+        "entityType": "Conceito / Objeto"
+      }
+    },
+    {
+      "id": "theme:siao-jerusalem",
+      "kind": "theme",
+      "label": "Sião / Jerusalém",
+      "aliases": [],
+      "summary": "Monte santo onde reside a presença de YHWH e de onde brota a salvação e a fonte para o vale de Acitim.",
+      "references": [
+        "2 Sm 5, 6",
+        "Sl 48, 78, 125, 132",
+        "Isaías 1:8, 2:3, 52:1",
+        "Joel 2:32, 3:16-18"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Centro cultual e refúgio inviolável para os que invocam o nome do Senhor",
+        "entityType": "Lugar / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-13",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-14",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-15",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-16",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-17",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-absalao:chapter-2-samuel-18",
+      "from": "person:absalao",
+      "to": "chapter:2-samuel:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Absalão” cita explicitamente 2 Sm 13–18.",
+      "references": ["2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bate-seba:chapter-2-samuel-11",
+      "from": "person:bate-seba",
+      "to": "chapter:2-samuel:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bate-Seba” cita explicitamente 2 Sm 11, 12.",
+      "references": ["2 Sm 11, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-1",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-10",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-11",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-12",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-13",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-14",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-15",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-16",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-17",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-18",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-19",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-2",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-20",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-21",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-22",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-23",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-24",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-3",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-4",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-5",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-6",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-7",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-8",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-2-samuel-9",
+      "from": "person:davi",
+      "to": "chapter:2-samuel:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 2 Sm 1–24.",
+      "references": ["2 Sm 1–24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joab:chapter-2-samuel-2",
+      "from": "person:joab",
+      "to": "chapter:2-samuel:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joab” cita explicitamente 2 Sm 2, 11, 18, 20.",
+      "references": ["2 Sm 2, 11, 18, 20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-mephibosheth-mefibosete:chapter-2-samuel-4",
+      "from": "person:mephibosheth-mefibosete",
+      "to": "chapter:2-samuel:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mephibosheth (Mefiboséte)” cita explicitamente 2 Sm 4, 9, 16, 19.",
+      "references": ["2 Sm 4, 9, 16, 19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nata:chapter-2-samuel-7",
+      "from": "person:nata",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Natã” cita explicitamente 2 Sm 7, 12.",
+      "references": ["2 Sm 7, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-eira-de-arauna-orna:chapter-2-samuel-24",
+      "from": "place:eira-de-arauna-orna",
+      "to": "chapter:2-samuel:24",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Eira de Araúna (Ornã)” cita explicitamente 2 Sm 24:18-25.",
+      "references": ["2 Sm 24:18-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebron:chapter-2-samuel-2",
+      "from": "place:hebron",
+      "to": "chapter:2-samuel:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebron” cita explicitamente 2 Sm 2:1-4; 5:5.",
+      "references": ["2 Sm 2:1-4; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebron:chapter-2-samuel-5",
+      "from": "place:hebron",
+      "to": "chapter:2-samuel:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebron” cita explicitamente 2 Sm 2:1-4; 5:5.",
+      "references": ["2 Sm 2:1-4; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-2-samuel-5",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:2-samuel:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente 2 Sm 5:6-9; 6:12-19.",
+      "references": ["2 Sm 5:6-9; 6:12-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-2-samuel-6",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:2-samuel:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente 2 Sm 5:6-9; 6:12-19.",
+      "references": ["2 Sm 5:6-9; 6:12-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-maanaim:chapter-2-samuel-17",
+      "from": "place:maanaim",
+      "to": "chapter:2-samuel:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Maanaim” cita explicitamente 2 Sm 17:24, 27.",
+      "references": ["2 Sm 17:24, 27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-raba-dos-amonitas:chapter-2-samuel-11",
+      "from": "place:raba-dos-amonitas",
+      "to": "chapter:2-samuel:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Rabá (dos Amonitas)” cita explicitamente 2 Sm 11:1; 12:26-31.",
+      "references": ["2 Sm 11:1; 12:26-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-raba-dos-amonitas:chapter-2-samuel-12",
+      "from": "place:raba-dos-amonitas",
+      "to": "chapter:2-samuel:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Rabá (dos Amonitas)” cita explicitamente 2 Sm 11:1; 12:26-31.",
+      "references": ["2 Sm 11:1; 12:26-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel:chapter-2-samuel-5",
+      "from": "prophecy:1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel",
+      "to": "chapter:2-samuel:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 11:2 — \"Também outrora, sendo Saul ainda rei, eras tu o que saías e entravas com Israel; e o Senhor teu Deus te disse: Tu apascentarás o meu povo Israel...\"” cita explicitamente 2 Sm 5:2; Nm 27:17.",
+      "references": ["2 Sm 5:2; Nm 27:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino:chapter-2-samuel-7",
+      "from": "prophecy:1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 17:11-14 — \"Quando os teus dias forem completos... levantarei a tua semente depois de ti... e confirmarei o seu reino\"” cita explicitamente 2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33.",
+      "references": ["2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome:chapter-2-samuel-7",
+      "from": "prophecy:1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 22:9-10 — \"Eis que te nascerá um filho, que será homem de repouso... Salomão será o seu nome... ele edificará uma casa ao meu nome\"” cita explicitamente 2 Sm 7:12-13; 1 Rs 5:5.",
+      "references": ["2 Sm 7:12-13; 1 Rs 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-samuel-1sm-15-28-yhwh-rasgou-de-ti-o-reino-de-israel-hoje-e-o-deu-ao-teu-proximo-que-e-melhor-do-que-tu:chapter-2-samuel-7",
+      "from": "prophecy:1-samuel-1sm-15-28-yhwh-rasgou-de-ti-o-reino-de-israel-hoje-e-o-deu-ao-teu-proximo-que-e-melhor-do-que-tu",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1Sm 15:28 (\"Yhwh rasgou de ti o reino de Israel hoje e o deu ao teu próximo, que é melhor do que tu\")” cita explicitamente 1Sm 16:1-13; 2Sm 7.",
+      "references": ["1Sm 16:1-13; 2Sm 7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-reis-a-promessa-perpetua-a-lampada-de-davi-2-reis-8-19:chapter-2-samuel-7",
+      "from": "prophecy:2-reis-a-promessa-perpetua-a-lampada-de-davi-2-reis-8-19",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa perpétua à lâmpada de Davi (2 Reis 8:19)” cita explicitamente 2 Samuel 7; Salmo 132.",
+      "references": ["2 Samuel 7; Salmo 132"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-12",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-13",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-14",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-15",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-16",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-17",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa:chapter-2-samuel-18",
+      "from": "prophecy:2-samuel-portanto-nao-se-apartara-a-espada-jamais-da-tua-casa",
+      "to": "chapter:2-samuel:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Portanto, não se apartará a espada jamais da tua casa...\"” cita explicitamente 2 Sm 12:10; 2 Sm 13–18.",
+      "references": ["2 Sm 12:10; 2 Sm 13–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho:chapter-2-samuel-7",
+      "from": "prophecy:2-samuel-quando-teus-dias-forem-completos-levantarei-depois-de-ti-a-tua-semente-eu-lhe-serei-por-pai-e-ele-me-sera-por-filho",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Quando teus dias forem completos... levantarei depois de ti a tua semente... eu lhe serei por pai, e ele me será por filho.\"” cita explicitamente 2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5.",
+      "references": ["2 Sm 7:12-16; Sl 89; At 2:30; Hb 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-49-8-12-juda-e-o-governo:chapter-2-samuel-7",
+      "from": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "to": "chapter:2-samuel:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Judá e o governo” cita explicitamente 2Sm 7:12–16.",
+      "references": ["2Sm 7:12–16"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20:chapter-2-samuel-12",
+      "from": "prophecy:juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20",
+      "to": "chapter:2-samuel:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Parábola de Jotão e a Maldição de Siquém (9:7-20)” cita explicitamente Juízes 9:7-20; 2 Samuel 12.",
+      "references": ["Juízes 9:7-20; 2 Samuel 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-samuel-5:theme-siao-jerusalem",
+      "from": "chapter:2-samuel:5",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente 2 Sm 5, 6.",
+      "references": ["2 Sm 5, 6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-samuel-6:theme-arca-da-alianca",
+      "from": "chapter:2-samuel:6",
+      "to": "theme:arca-da-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Arca da Aliança” cita explicitamente 2 Sm 6.",
+      "references": ["2 Sm 6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-samuel-7:theme-alianca-davidica",
+      "from": "chapter:2-samuel:7",
+      "to": "theme:alianca-davidica",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Aliança Davídica” cita explicitamente 2 Sm 7.",
+      "references": ["2 Sm 7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

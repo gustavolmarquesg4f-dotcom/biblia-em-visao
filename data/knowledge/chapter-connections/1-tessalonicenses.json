@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "book": "1 Tessalonicenses",
+  "count": 29,
+  "chapterCount": 5,
+  "nodes": [
+    {
+      "id": "doctrine:escatologia",
+      "kind": "doctrine",
+      "label": "Segunda vinda, milênio e ressurreição",
+      "aliases": [],
+      "summary": "A declaração consultada confessa uma segunda vinda premilenial em duas etapas, ressurreição corporal, vida eterna para os justos e punição eterna para os ímpios.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escatologia"],
+      "attributes": {
+        "category": "Escatologia",
+        "pentecostalReading": "A esperança futura sustenta vigilância, perseverança e missão, não especulação sensacionalista. A ressurreição é corporal e a consumação envolve justiça, renovação e presença de Deus.",
+        "distinction": "Cristãos divergem entre pré, pós e amilenismo e sobre a ordem dos eventos. O verbete registra a posição premilenial da declaração consultada e apresenta outras leituras em comparação.",
+        "source": "Declaração de Fé; 1 Tessalonicenses; 1 Coríntios; Apocalipse"
+      }
+    },
+    {
+      "id": "doctrine:santificacao",
+      "kind": "doctrine",
+      "label": "Santificação e santidade",
+      "aliases": [],
+      "summary": "A declaração afirma a santificação posterior ao novo nascimento, por meio da fé, da Palavra e do Espírito Santo, e apresenta a santidade como padrão de vida do povo de Deus.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["santificacao"],
+      "attributes": {
+        "category": "Vida cristã",
+        "pentecostalReading": "Santidade é obra da graça e prática cotidiana. Ela inclui caráter, corpo, relações, uso do dinheiro, verdade, cuidado do próximo e separação de práticas destrutivas; não deve ser reduzida a aparência externa.",
+        "distinction": "Há debates internos sobre instantaneidade e processo da santificação. A linguagem da plataforma evitará transformar costumes locais em regra universal sem fonte.",
+        "source": "Declaração de Fé; tradição de santidade do pentecostalismo"
+      }
+    },
+    {
+      "id": "event:1-tessalonicenses-a-circulacao-e-leitura-publica-da-epistola",
+      "kind": "event",
+      "label": "A circulação e leitura pública da epístola",
+      "aliases": [],
+      "summary": "Paulo ordena solenemente que a carta seja lida a todos os irmãos da comunidade após sua chegada a Tessalônica.",
+      "references": ["1 Tessalonicenses 1 Ts 5:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consolidou a autoridade escrita do apóstolo e estabeleceu o padrão de leitura litúrgico-comunitária das epístolas no cristianismo primitivo.",
+        "entities": "Paulo, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:1-tessalonicenses-a-fundacao-tumultuada-da-igreja-em-tessalonica",
+      "kind": "event",
+      "label": "A fundação tumultuada da igreja em Tessalônica",
+      "aliases": [],
+      "summary": "A pregação de Paulo na sinagoga por três sábados gerou conversões significativas de gentios tementes a Deus e mulheres proeminentes, culminando em um motim instigado por judeus rivais na casa de Jasão.",
+      "references": ["1 Tessalonicenses At 17:1-9; 1 Ts 1:6; 2:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conduziu à expulsão forçada de Paulo e seus companheiros para Bereia, deixando a nova comunidade exposta à hostilidade local, mas com sólida identidade de sofrimento partilhado.",
+        "entities": "Paulo, Silvano, Timóteo, Jasão, Politarcas, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:1-tessalonicenses-a-morte-de-membros-da-comunidade-antes-da-parusia",
+      "kind": "event",
+      "label": "A morte de membros da comunidade antes da Parúsia",
+      "aliases": [],
+      "summary": "O falecimento de alguns crentes tessalonicenses gerou pânico e luto desesperado na igreja, que temia que os mortos perdessem os privilégios da salvação escatológica de Cristo.",
+      "references": ["1 Tessalonicenses 1 Ts 4:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Motivou a célebre revelação paulina sobre a ordem da ressurreição e o arrebatamento na vinda do Senhor para consolo duradouro dos fiéis.",
+        "entities": "Igreja dos Tessalonicenses, Jesus Cristo"
+      }
+    },
+    {
+      "id": "event:1-tessalonicenses-a-recepcao-do-relatorio-de-timoteo-em-corinto",
+      "kind": "event",
+      "label": "A recepção do relatório de Timóteo em Corinto",
+      "aliases": [],
+      "summary": "Timóteo retorna a Corinto trazendo notícias animadoras de que os tessalonicenses guardavam boa lembrança dos apóstolos e mantinham firmeza inabalável.",
+      "references": ["1 Tessalonicenses 1 Ts 3:6-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desencadeou a explosão de gratidão de Paulo e o impulso imediato para redigir esta epístola com orientações complementares.",
+        "entities": "Paulo, Timóteo, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:1-tessalonicenses-o-envio-de-timoteo-de-atenas-para-tessalonica",
+      "kind": "event",
+      "label": "O envio de Timóteo de Atenas para Tessalônica",
+      "aliases": [],
+      "summary": "Diante da intensa preocupação com a estabilidade espiritual dos novos convertidos, Paulo despacha Timóteo de Atenas para verificar a firmeza da fé deles frente às aflições.",
+      "references": ["1 Tessalonicenses 1 Ts 3:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra o cuidado pastoral de Paulo e resultou no retorno consolador de Timóteo a Corinto com boas notícias sobre a fé e o amor da igreja.",
+        "entities": "Paulo, Timóteo, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "person:paulo-de-tarso",
+      "kind": "person",
+      "label": "Paulo de Tarso",
+      "aliases": [],
+      "summary": "Autoridade apostólica que defende veementemente a gratuidade da graça, o evangelho universal aos gentios e a independência de seu chamado face aos apóstolos de Jerusalém.",
+      "references": [
+        "2Co 1:1; 10:1; 12:12",
+        "Gl 1:1, 1:11-12, 6:17",
+        "1 Ts 1:1; 2:2; 2:18; 5:27"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo principal e autor principal",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:silvano-silas",
+      "kind": "person",
+      "label": "Silvano (Silas)",
+      "aliases": [],
+      "summary": "Colaborador apostólico associado a Paulo e Timóteo na evangelização de Tessalônica e na redação da epístola.",
+      "references": [
+        "1 Ts 1:1; At 15:22-40",
+        "2 Tessalonicenses 1:1",
+        "1Pe 5:12"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Amanuense ou portador encarregado de transcrever e entregar a epístola.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:atenas",
+      "kind": "place",
+      "label": "Atenas",
+      "aliases": [],
+      "summary": "Metrópole cultural grega de onde Paulo enviou Timóteo de volta a Tessalônica devido à sua profunda angústia pastoral.",
+      "references": ["Atos 17:15-34", "1 Ts 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:corinto",
+      "kind": "place",
+      "label": "Corinto",
+      "aliases": [],
+      "summary": "Metrópole comercial com dois portos (Cencreia e Lequeu), famosa pelo templo de Afrodite e cultos mistericos, representando o desafio cultural ao evangelho.",
+      "references": [
+        "Romanos 16:1; 16:23",
+        "1 Coríntios 1:2; Atos 18:1",
+        "2Co 1:1; 10:1",
+        "At 18:1; 1 Ts 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:judeia",
+      "kind": "place",
+      "label": "Judeia",
+      "aliases": [],
+      "summary": "Região de origem das igrejas cristãs que sofreram com a oposição judaica, servindo de termo de comparação para o sofrimento dos tessalonicenses.",
+      "references": ["1 Ts 2:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico / histórico" }
+    },
+    {
+      "id": "place:macedonia-e-acaia",
+      "kind": "place",
+      "label": "Macedônia e Acaia",
+      "aliases": [],
+      "summary": "Províncias romanas do norte e sul da Grécia onde a fé dos tessalonicenses ecoou exemplarmente.",
+      "references": ["1 Ts 1:7-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico / regional" }
+    },
+    {
+      "id": "place:tessalonica",
+      "kind": "place",
+      "label": "Tessalônica",
+      "aliases": [],
+      "summary": "Capital próspera e porto estratégico da província romana da Macedônia (via Egnácia), centro urbano de onde o evangelho irradiou para a região.",
+      "references": ["At 17:1; 1 Ts 1:8", "2 Tessalonicenses 1:1; Atos 17:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "term:parousia",
+      "kind": "term",
+      "label": "Parousia",
+      "aliases": ["παρουσία", "parousia"],
+      "summary": "Presença, chegada ou visita oficial; no discurso escatológico, a palavra nomeia a esperança da presença/manifestação de Cristo.",
+      "references": ["Mt 24:27", "1Ts 4:15", "2Pe 3:4"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["parousia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O termo pode falar de uma visita humana comum ou de uma expectativa escatológica. A leitura deve observar o contraste com ausência, demora, vigilância e ressurreição.",
+        "translationNote": "Traduzir sempre por ‘segunda vinda’ já interpreta o termo. Em alguns textos a tradução ‘presença’ ou ‘chegada’ expõe melhor a discussão."
+      }
+    },
+    {
+      "id": "theme:igreja-dos-tessalonicenses",
+      "kind": "theme",
+      "label": "Igreja dos Tessalonicenses",
+      "aliases": [],
+      "summary": "Comunidade cristã composta majoritariamente por gentios convertidos, destacada pela fé operosa, amor e firmeza sob perseguição.",
+      "references": ["1 Ts 1:1; 1:9-10; 2:14", "2 Tessalonicenses 1:1; 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatária da epístola",
+        "entityType": "Povo / Comunidade"
+      }
+    },
+    {
+      "id": "theme:imperio-romano",
+      "kind": "theme",
+      "label": "Império Romano",
+      "aliases": [],
+      "summary": "Contexto de soberania imperial e culto cívico onde a proclamação de \"Jesus como Senhor\" desafiava implicitamente a pax romana e o culto ao imperador.",
+      "references": ["1 Ts 1:9-10; 5:3", "Filemom 1:1-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Contexto macropolítico estruturante",
+        "entityType": "Povo/Instituição"
+      }
+    },
+    {
+      "id": "theme:jesus-cristo",
+      "kind": "theme",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O Filho de Deus ressuscitado cuja vinda iminente (parúsia) constitui o eixo central da esperança e da ética da comunidade.",
+      "references": ["1 Ts 1:10; 4:14-16; 5:9, 23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e Juiz escatológico",
+        "entityType": "Pessoa / Divindade"
+      }
+    },
+    {
+      "id": "theme:judeus-opositores",
+      "kind": "theme",
+      "label": "Judeus opositores",
+      "aliases": [],
+      "summary": "Grupo em Tessalônica e na Judeia que perseguiu os cristãos e tentou impedir a proclamação do evangelho aos gentios.",
+      "references": ["1 Ts 2:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversários históricos da missão paulina",
+        "entityType": "Povo / Grupo social"
+      }
+    },
+    {
+      "id": "theme:satanas",
+      "kind": "theme",
+      "label": "Satanás",
+      "aliases": [],
+      "summary": "Entidade espiritual maligna descrita por Paulo como responsável por impedir temporariamente sua viagem de retorno a Tessalônica.",
+      "references": ["1 Ts 2:18", "2 Tessalonicenses 2:9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instigador da atividade enganadora",
+        "entityType": "Pessoa / Entidade espiritual"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-a-circulacao-e-leitura-publica-da-epistola:chapter-1-tessalonicenses-5",
+      "from": "event:1-tessalonicenses-a-circulacao-e-leitura-publica-da-epistola",
+      "to": "chapter:1-tessalonicenses:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A circulação e leitura pública da epístola” cita explicitamente 1 Tessalonicenses 1 Ts 5:27.",
+      "references": ["1 Tessalonicenses 1 Ts 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-a-fundacao-tumultuada-da-igreja-em-tessalonica:chapter-1-tessalonicenses-1",
+      "from": "event:1-tessalonicenses-a-fundacao-tumultuada-da-igreja-em-tessalonica",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A fundação tumultuada da igreja em Tessalônica” cita explicitamente 1 Tessalonicenses At 17:1-9; 1 Ts 1:6; 2:1-2.",
+      "references": ["1 Tessalonicenses At 17:1-9; 1 Ts 1:6; 2:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-a-fundacao-tumultuada-da-igreja-em-tessalonica:chapter-1-tessalonicenses-2",
+      "from": "event:1-tessalonicenses-a-fundacao-tumultuada-da-igreja-em-tessalonica",
+      "to": "chapter:1-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A fundação tumultuada da igreja em Tessalônica” cita explicitamente 1 Tessalonicenses At 17:1-9; 1 Ts 1:6; 2:1-2.",
+      "references": ["1 Tessalonicenses At 17:1-9; 1 Ts 1:6; 2:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-a-morte-de-membros-da-comunidade-antes-da-parusia:chapter-1-tessalonicenses-4",
+      "from": "event:1-tessalonicenses-a-morte-de-membros-da-comunidade-antes-da-parusia",
+      "to": "chapter:1-tessalonicenses:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A morte de membros da comunidade antes da Parúsia” cita explicitamente 1 Tessalonicenses 1 Ts 4:13.",
+      "references": ["1 Tessalonicenses 1 Ts 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-a-recepcao-do-relatorio-de-timoteo-em-corinto:chapter-1-tessalonicenses-3",
+      "from": "event:1-tessalonicenses-a-recepcao-do-relatorio-de-timoteo-em-corinto",
+      "to": "chapter:1-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A recepção do relatório de Timóteo em Corinto” cita explicitamente 1 Tessalonicenses 1 Ts 3:6-10.",
+      "references": ["1 Tessalonicenses 1 Ts 3:6-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-tessalonicenses-o-envio-de-timoteo-de-atenas-para-tessalonica:chapter-1-tessalonicenses-3",
+      "from": "event:1-tessalonicenses-o-envio-de-timoteo-de-atenas-para-tessalonica",
+      "to": "chapter:1-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O envio de Timóteo de Atenas para Tessalônica” cita explicitamente 1 Tessalonicenses 1 Ts 3:1-5.",
+      "references": ["1 Tessalonicenses 1 Ts 3:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-1-tessalonicenses-1",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 1 Ts 1:1; 2:2; 2:18; 5:27.",
+      "references": ["1 Ts 1:1; 2:2; 2:18; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-1-tessalonicenses-2",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:1-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 1 Ts 1:1; 2:2; 2:18; 5:27.",
+      "references": ["1 Ts 1:1; 2:2; 2:18; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-1-tessalonicenses-5",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:1-tessalonicenses:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 1 Ts 1:1; 2:2; 2:18; 5:27.",
+      "references": ["1 Ts 1:1; 2:2; 2:18; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-silvano-silas:chapter-1-tessalonicenses-1",
+      "from": "person:silvano-silas",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Silvano (Silas)” cita explicitamente 1 Ts 1:1; At 15:22-40.",
+      "references": ["1 Ts 1:1; At 15:22-40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-1-tessalonicenses-1",
+      "from": "person:timoteo",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 1 Ts 1:1; 3:2; At 16:1-3.",
+      "references": ["1 Ts 1:1; 3:2; At 16:1-3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-1-tessalonicenses-3",
+      "from": "person:timoteo",
+      "to": "chapter:1-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 1 Tessalonicenses 3:1-6.",
+      "references": ["1 Tessalonicenses 3:1-6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-atenas:chapter-1-tessalonicenses-3",
+      "from": "place:atenas",
+      "to": "chapter:1-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Atenas” cita explicitamente 1 Ts 3:1.",
+      "references": ["1 Ts 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-corinto:chapter-1-tessalonicenses-1",
+      "from": "place:corinto",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Corinto” cita explicitamente At 18:1; 1 Ts 1:1.",
+      "references": ["At 18:1; 1 Ts 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-judeia:chapter-1-tessalonicenses-2",
+      "from": "place:judeia",
+      "to": "chapter:1-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Judeia” cita explicitamente 1 Ts 2:14.",
+      "references": ["1 Ts 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-macedonia-e-acaia:chapter-1-tessalonicenses-1",
+      "from": "place:macedonia-e-acaia",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Macedônia e Acaia” cita explicitamente 1 Ts 1:7-8.",
+      "references": ["1 Ts 1:7-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tessalonica:chapter-1-tessalonicenses-1",
+      "from": "place:tessalonica",
+      "to": "chapter:1-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tessalônica” cita explicitamente At 17:1; 1 Ts 1:8.",
+      "references": ["At 17:1; 1 Ts 1:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-1:theme-igreja-dos-tessalonicenses",
+      "from": "chapter:1-tessalonicenses:1",
+      "to": "theme:igreja-dos-tessalonicenses",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja dos Tessalonicenses” cita explicitamente 1 Ts 1:1; 1:9-10; 2:14.",
+      "references": ["1 Ts 1:1; 1:9-10; 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-1:theme-imperio-romano",
+      "from": "chapter:1-tessalonicenses:1",
+      "to": "theme:imperio-romano",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Romano” cita explicitamente 1 Ts 1:9-10; 5:3.",
+      "references": ["1 Ts 1:9-10; 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-1:theme-jesus-cristo",
+      "from": "chapter:1-tessalonicenses:1",
+      "to": "theme:jesus-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente 1 Ts 1:10; 4:14-16; 5:9, 23.",
+      "references": ["1 Ts 1:10; 4:14-16; 5:9, 23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-2:theme-igreja-dos-tessalonicenses",
+      "from": "chapter:1-tessalonicenses:2",
+      "to": "theme:igreja-dos-tessalonicenses",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja dos Tessalonicenses” cita explicitamente 1 Ts 1:1; 1:9-10; 2:14.",
+      "references": ["1 Ts 1:1; 1:9-10; 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-2:theme-judeus-opositores",
+      "from": "chapter:1-tessalonicenses:2",
+      "to": "theme:judeus-opositores",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Judeus opositores” cita explicitamente 1 Ts 2:14-15.",
+      "references": ["1 Ts 2:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-2:theme-satanas",
+      "from": "chapter:1-tessalonicenses:2",
+      "to": "theme:satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Satanás” cita explicitamente 1 Ts 2:18.",
+      "references": ["1 Ts 2:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-4:doctrine-escatologia",
+      "from": "chapter:1-tessalonicenses:4",
+      "to": "doctrine:escatologia",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Segunda vinda, milênio e ressurreição” cita explicitamente 1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-4:doctrine-santificacao",
+      "from": "chapter:1-tessalonicenses:4",
+      "to": "doctrine:santificacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Santificação e santidade” cita explicitamente 1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-4:theme-jesus-cristo",
+      "from": "chapter:1-tessalonicenses:4",
+      "to": "theme:jesus-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente 1 Ts 1:10; 4:14-16; 5:9, 23.",
+      "references": ["1 Ts 1:10; 4:14-16; 5:9, 23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-5:theme-imperio-romano",
+      "from": "chapter:1-tessalonicenses:5",
+      "to": "theme:imperio-romano",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Romano” cita explicitamente 1 Ts 1:9-10; 5:3.",
+      "references": ["1 Ts 1:9-10; 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-tessalonicenses-5:theme-jesus-cristo",
+      "from": "chapter:1-tessalonicenses:5",
+      "to": "theme:jesus-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente 1 Ts 1:10; 4:14-16; 5:9, 23.",
+      "references": ["1 Ts 1:10; 4:14-16; 5:9, 23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-tessalonicenses-4:term-parousia",
+      "from": "chapter:1-tessalonicenses:4",
+      "to": "term:parousia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Parousia” cita explicitamente 1Ts 4:15.",
+      "references": ["1Ts 4:15"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

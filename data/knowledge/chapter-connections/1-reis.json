@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": 1,
+  "book": "1 Reis",
+  "count": 69,
+  "chapterCount": 22,
+  "nodes": [
+    {
+      "id": "event:1-reis-a-dedicacao-do-templo-de-jerusalem",
+      "kind": "event",
+      "label": "A Dedicação do Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Salomão reúne a assembleia de Israel, traslada a Arca da Aliança e profere a oração de dedicação, seguida por sacrifícios maciços e a descida da glória (Kabod) de Javé.",
+      "references": ["1 Reis 1Rs 8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consagra o Templo como centro indiscutível do culto javista e estabelece a responsabilidade ética do povo perante a aliança para a conservação da terra.",
+        "entities": "Salomão, Templo de Jerusalém, Sacerdotes, Assembleia de Israel"
+      }
+    },
+    {
+      "id": "event:1-reis-a-morte-de-acabe-em-ramote-de-gileade",
+      "kind": "event",
+      "label": "A Morte de Acabe em Ramote de Gileade",
+      "aliases": [],
+      "summary": "Acabe e Josafá entram em guerra contra a Síria (Aram); apesar do alerta do profeta Micaías, Acabe é atingido por uma flecha perdida e morre em seu carro de combate.",
+      "references": ["1 Reis 1Rs 22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Cumpre rigorosamente a profecia de Micaías e de Elias, demonstrando que a palavra de Javé prevalece sobre as conspirações militares e o otimismo dos falsos profetas.",
+        "entities": "Acabe, Micaías, Josafá, Profetas de Javé"
+      }
+    },
+    {
+      "id": "event:1-reis-a-secessao-e-a-divisao-do-reino",
+      "kind": "event",
+      "label": "A Secessão e a Divisão do Reino",
+      "aliases": [],
+      "summary": "Diante da recusa de Roboão em aliviar o jugo fiscal, as tribos do Norte se revoltam, aclamam Jeroboão e dividem o estado unificado em Israel e Judá.",
+      "references": ["1 Reis 1Rs 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca o fim do império davídico-salomônico, gerando dois reinos em constante tensão e institucionalizando o cisma cultual no Norte.",
+        "entities": "Roboão, Jeroboão I, Reino de Israel, Judá"
+      }
+    },
+    {
+      "id": "event:1-reis-o-caso-da-vinha-de-nabote",
+      "kind": "event",
+      "label": "O Caso da Vinha de Nabote",
+      "aliases": [],
+      "summary": "Jezabel arquiteta um julgamento fraudulento e o assassinato de Nabote para confiscar sua vinha ancestral, provocando a veemente denúncia e o oráculo de condenação de Elias contra a casa de Acabe.",
+      "references": ["1 Reis 1Rs 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Evidencia o abuso de poder real contra os direitos fundiários baseados na aliança e sela a condenação irrevogável da dinastia de Acabe.",
+        "entities": "Acabe, Jezabel, Nabote, Elias"
+      }
+    },
+    {
+      "id": "event:1-reis-o-confronto-no-monte-carmelo",
+      "kind": "event",
+      "label": "O Confronto no Monte Carmelo",
+      "aliases": [],
+      "summary": "Elias convoca o povo e os 450 profetas de Baal para um teste de divindade por meio de fogo celestial, culminando na vitória de Javé e na execução dos sacerdotes baalitas.",
+      "references": ["1 Reis 1Rs 18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a supremacia absoluta de Javé sobre as forças da natureza e do panteão cananeu, restabelecendo temporariamente a lealdade cultual em Israel.",
+        "entities": "Elias, Acabe, Profetas de Baal, Povo de Israel"
+      }
+    },
+    {
+      "id": "person:acabe",
+      "kind": "person",
+      "label": "Acabe",
+      "aliases": [],
+      "summary": "Monarca de grande projeção política e militar, casado com Jezabel, cuja introdução oficial do culto a Baal gerou o mais intenso conflito profético da monarquia.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sétimo rei de Israel", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:davi",
+      "kind": "person",
+      "label": "Davi",
+      "aliases": ["Davi"],
+      "summary": "Davi, filho de Jessé, pastor de Belém, rei de Judá e posteriormente de todo o Israel unificado (c. 1010–970 a.C.), é a figura central da história monárquica e messiânica de Israel. Embora sua biografia narrativa esteja nos livros de Samuel e Crônicas, sua inclusão fulcral no presente dossiê decorre de seu papel inquestionável como o **principal autor e patrono do Saltério (*Tehilim*)**, a coletânea de 150 salmos que constitui o hinário litúrgico e espiritual do Judaísmo e do Cristianismo. Davi unifica a poesia cultual, a experiência emocional profunda do crente (lamentos, louvores, arrependimento) e a promessa teológica da aliança perpétua (Aliança Davídica).",
+      "references": [
+        "1Sm 16-31",
+        "2 Sm 1–24",
+        "1Rs 1-2",
+        "1 Cr 11-29",
+        "Sl 3, 18, 51, 101, 138"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-davi"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei de Israel e figura central associada à autoria e experiência dos salmos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:elias",
+      "kind": "person",
+      "label": "Elias",
+      "aliases": [],
+      "summary": "Profeta veterotestamentário citado como homem sujeito às mesmas paixões, cuja oração encerrou e reabriu os céus em tempo de seca",
+      "references": ["1Rs 17-21", "Tiago 5:17-18; 1 Reis 17:1; 18:41-45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Paradigma profético da eficácia da oração",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jeroboao-i",
+      "kind": "person",
+      "label": "Jeroboão I",
+      "aliases": [],
+      "summary": "Fundador da secessão do Norte, instituiu centros cultuais rivais (Betel e Dã) com bezerros de ouro para consolidar a separação política.",
+      "references": ["1Rs 11-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Primeiro rei de Israel (Reino do Norte)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jezabel",
+      "kind": "person",
+      "label": "Jezabel",
+      "aliases": [],
+      "summary": "Princesa fenícia de Sidom que promoveu ativamente o culto a Baal e a perseguição sistemática aos profetas de Javé.",
+      "references": ["1Rs 16, 18, 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rainha de Israel (esposa de Acabe)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:salomao",
+      "kind": "person",
+      "label": "Salomão",
+      "aliases": ["Salomão"],
+      "summary": "Salomão, filho de Davi e Bate-Seba, foi o terceiro rei de Israel unificado, governando durante a chamada \"Idade de Ouro\" de Israel (c. 970–930 a.C.). Embora sua narrativa biográfica primordial conste em 1 Reis e 2 Crônicas, sua relevância para o cânon estende-se profundamente ao domínio da **literatura sapiencial e poética**, sendo tradicionalmente creditado como o autor ou patrocinador principal de **Provérbios, Eclesiastes (*Coélet*) e Cântico dos Cânticos**. Salomão personifica o ápice da sabedoria administrativa, cosmológica e poética do Antigo Oriente Próximo, além de ter sido o construtor do Templo de Jerusalém.",
+      "references": [
+        "1Rs 1-11",
+        "2Cr 1:1 - 9:31",
+        "1Rs 4:29-34; Pr 1:1; 10:1; 25:1",
+        "Cântico 1:1; 3:7; 8:11"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-salomao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei / Referência de opulência",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:betel",
+      "kind": "place",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal centro religioso e político do Reino do Norte, contendo um dos santuários de bezerros de ouro; alvo principal das denúncias de idolatria e falsa religiosidade de Amós.",
+      "references": [
+        "1Rs 12, 13",
+        "2 Reis 2, 10, 23",
+        "Oseias 4:15, 10:5, 12:4",
+        "Amós 3:14; 4:4; 7:13",
+        "Zacarias 7:2",
+        "Gn 12:8",
+        "Gn 28:10–22",
+        "Gn 35:1–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["bethel"],
+      "attributes": { "status": "geográfico", "x": 49, "y": 48 }
+    },
+    {
+      "id": "place:jerusalem-e-a-corte-real",
+      "kind": "place",
+      "label": "Jerusalém e a Corte Real",
+      "aliases": [],
+      "summary": "Centro de poder político, onde a literatura sapiencial cortesã foi produzida, compilada e ensinada aos príncipes e jovens aristocratas.",
+      "references": ["Pr 1:1; 25:1; 1Rs 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/institucional" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:monte-carmelo",
+      "kind": "place",
+      "label": "Monte Carmelo",
+      "aliases": [],
+      "summary": "Cordilheira costeira sobranceira ao Mediterrâneo, palco do grande desafio entre Elias e os profetas de Baal.",
+      "references": ["1Rs 18", "2 Reis 2, 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "kind": "place",
+      "label": "O Santo dos Santos (Kodesh HaKodashim)",
+      "aliases": [],
+      "summary": "O espaço mais interior do santuário onde a presença de Deus habitava e o sumo sacerdote entrava no Yom Kippur",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Arquitetônico" }
+    },
+    {
+      "id": "place:ofir",
+      "kind": "place",
+      "label": "Ofir",
+      "aliases": [],
+      "summary": "Destino das frotas navais de Salomão no Mar Vermelho (Ezion-Geber), fonte de imensas riquezas em ouro e marfim.",
+      "references": ["1Rs 9, 10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/geográfico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome",
+      "kind": "prophecy",
+      "label": "1 Cr 22:9-10 — \"Eis que te nascerá um filho, que será homem de repouso... Salomão será o seu nome... ele edificará uma casa ao meu nome\"",
+      "aliases": [],
+      "summary": "Promessa específica associada à paz do reinado de Salomão como pré-requisito para a construção do santuário.",
+      "references": ["2 Sm 7:12-13; 1 Rs 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "promessa / oráculo" }
+    },
+    {
+      "id": "prophecy:1-reis-a-profecia-de-micaias-ben-imla-sobre-a-morte-de-acabe-1rs-22-17-19-22",
+      "kind": "prophecy",
+      "label": "A profecia de Micaías ben-Imlá sobre a morte de Acabe (1Rs 22:17, 19-22)",
+      "aliases": [],
+      "summary": "Visão do concilio celestial onde um espírito mentiroso é autorizado a induzir os falsos profetas a enganarem Acabe.",
+      "references": ["1Rs 22:17-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23",
+      "kind": "prophecy",
+      "label": "O julgamento de Elias sobre a casa de Acabe e Jezabel (1Rs 21:19, 23)",
+      "aliases": [],
+      "summary": "Previsão da morte violenta de Acabe e da execução ignominiosa de Jezabel em Jizreel, devorada pelos cães.",
+      "references": ["1Rs 21:19, 23; 2Rs 9:25-36"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2",
+      "kind": "prophecy",
+      "label": "O oráculo do homem de Deus de Judá contra o altar de Betel (1Rs 13:2)",
+      "aliases": [],
+      "summary": "Profecia pronunciada contra o altar de Jeroboão, cumprida séculos mais tarde na reforma do rei Josias de Judá.",
+      "references": ["1Rs 13:2; 2Rs 23:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:1-samuel-1sm-2-31-36-eis-que-vem-dias-em-que-cortarei-o-teu-braco-e-o-braco-da-casa-de-teu-pai",
+      "kind": "prophecy",
+      "label": "1Sm 2:31-36 (\"Eis que vêm dias em que cortarei o teu braço e o braço da casa de teu pai...\")",
+      "aliases": [],
+      "summary": "Anuncia o fim da linhagem sacerdotal de Eli em Siló, cumprido historicamente séculos depois sob Salomão.",
+      "references": ["1Rs 2:26-27 (remoção de Abiatar)"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Cumprimento histórico" }
+    },
+    {
+      "id": "prophecy:2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10",
+      "kind": "prophecy",
+      "label": "A profecia de Aías de Silo contra a casa de Acabe (cumprida em 2 Reis 9-10)",
+      "aliases": [],
+      "summary": "Diversidade exegética entre cumprimento imediato histórico e ressonâncias teológicas sobre a culpa intergeracional.",
+      "references": ["1 Reis 21:21-24; 2 Reis 9:7-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "kind": "prophecy",
+      "label": "Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)",
+      "aliases": [],
+      "summary": "Analisado por historiadores como um *vaticinium ex eventu* (profecia redigida após o evento) descrevendo as devastações assíria e babilônica, enquanto leituras teológicas tradicionais mantêm seu caráter preditivo genuíno sobre as consequências morais da quebra da aliança.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque",
+      "kind": "prophecy",
+      "label": "Ec 7:20 (\"Não há homem justo sobre a terra que faça o bem e nunca peque\")",
+      "aliases": [],
+      "summary": "O apóstolo Paulo utiliza esta premissa sapiencial para fundamentar a universalidade do pecado e a necessidade da justificação pela fé em Cristo.",
+      "references": ["1 Rs 8:46; Sl 14:3; Rm 3:10-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26",
+      "kind": "prophecy",
+      "label": "A maldição sobre quem reedificar a cidade de Jericó (Josué 6:26)",
+      "aliases": [],
+      "summary": "Cumprimento histórico registrado séculos depois nos dias de Acabe com Hiel de Betel; ilustra a infalibilidade da palavra profética na Historiografia Deuteronomista",
+      "references": ["Josué 6:26; 1 Reis 16:34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Profecia / Execução" }
+    },
+    {
+      "id": "prophecy:tiago-elias-era-homem-sujeito-as-mesmas-paixoes-que-nos",
+      "kind": "prophecy",
+      "label": "\"Elias era homem sujeito às mesmas paixões que nós...\"",
+      "aliases": [],
+      "summary": "Utilização da eficácia da oração do profeta veterotestamentário para encorajar a comunidade contemporânea sobre o poder real da intercessão justa.",
+      "references": ["1 Reis 17:1; 18:41-45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/exemplo" }
+    },
+    {
+      "id": "theme:fenicia-tiro-e-sidom",
+      "kind": "theme",
+      "label": "Fenícia (Tiro e Sidom)",
+      "aliases": [],
+      "summary": "Potência mercantil marítima cuja aliança com Omri e Acabe introduziu o culto a Baal-Melqart em Israel.",
+      "references": ["1Rs 5, 16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Parceira comercial e fonte de influência religiosa",
+        "entityType": "Povo / Estado"
+      }
+    },
+    {
+      "id": "theme:o-reino-de-israel-norte-efraim",
+      "kind": "theme",
+      "label": "O Reino de Israel (Norte / Efraim)",
+      "aliases": [],
+      "summary": "Reunião de dez tribos secessionistas marcadas por instabilidade dinástica e frequentes desvios cultuais.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Entidade política setentrional",
+        "entityType": "Povo / Estado"
+      }
+    },
+    {
+      "id": "theme:o-templo-de-jerusalem",
+      "kind": "theme",
+      "label": "O Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Edifício monumental construído por Salomão que substituiu o Tabernáculo nômade e institucionalizou a teologia do Nome e da dinastia davídica.",
+      "references": ["1Rs 6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário central e casa do nome de Javé",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:os-profetas-de-jave",
+      "kind": "theme",
+      "label": "Os Profetas de Javé",
+      "aliases": [],
+      "summary": "Grupo de intermediários e confrontadores que fiscalizam a conduta moral e cultual dos reis em nome da aliança mosaica.",
+      "references": ["1Rs 13, 18, 22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Portadores da palavra divina",
+        "entityType": "Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-1-reis-a-dedicacao-do-templo-de-jerusalem:chapter-1-reis-8",
+      "from": "event:1-reis-a-dedicacao-do-templo-de-jerusalem",
+      "to": "chapter:1-reis:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Dedicação do Templo de Jerusalém” cita explicitamente 1 Reis 1Rs 8.",
+      "references": ["1 Reis 1Rs 8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-reis-a-morte-de-acabe-em-ramote-de-gileade:chapter-1-reis-22",
+      "from": "event:1-reis-a-morte-de-acabe-em-ramote-de-gileade",
+      "to": "chapter:1-reis:22",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Morte de Acabe em Ramote de Gileade” cita explicitamente 1 Reis 1Rs 22.",
+      "references": ["1 Reis 1Rs 22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-reis-a-secessao-e-a-divisao-do-reino:chapter-1-reis-12",
+      "from": "event:1-reis-a-secessao-e-a-divisao-do-reino",
+      "to": "chapter:1-reis:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Secessão e a Divisão do Reino” cita explicitamente 1 Reis 1Rs 12.",
+      "references": ["1 Reis 1Rs 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-reis-o-caso-da-vinha-de-nabote:chapter-1-reis-21",
+      "from": "event:1-reis-o-caso-da-vinha-de-nabote",
+      "to": "chapter:1-reis:21",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Caso da Vinha de Nabote” cita explicitamente 1 Reis 1Rs 21.",
+      "references": ["1 Reis 1Rs 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-reis-o-confronto-no-monte-carmelo:chapter-1-reis-18",
+      "from": "event:1-reis-o-confronto-no-monte-carmelo",
+      "to": "chapter:1-reis:18",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Confronto no Monte Carmelo” cita explicitamente 1 Reis 1Rs 18.",
+      "references": ["1 Reis 1Rs 18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-16",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-17",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-18",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-19",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-20",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-21",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-acabe:chapter-1-reis-22",
+      "from": "person:acabe",
+      "to": "chapter:1-reis:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acabe” cita explicitamente 1Rs 16-22.",
+      "references": ["1Rs 16-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-reis-1",
+      "from": "person:davi",
+      "to": "chapter:1-reis:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1Rs 1-2.",
+      "references": ["1Rs 1-2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-reis-2",
+      "from": "person:davi",
+      "to": "chapter:1-reis:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1Rs 1-2.",
+      "references": ["1Rs 1-2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-1-reis-17",
+      "from": "person:elias",
+      "to": "chapter:1-reis:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente 1Rs 17-21.",
+      "references": ["1Rs 17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-1-reis-18",
+      "from": "person:elias",
+      "to": "chapter:1-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente 1Rs 17-21.",
+      "references": ["1Rs 17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-1-reis-19",
+      "from": "person:elias",
+      "to": "chapter:1-reis:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente 1Rs 17-21.",
+      "references": ["1Rs 17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-1-reis-20",
+      "from": "person:elias",
+      "to": "chapter:1-reis:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente 1Rs 17-21.",
+      "references": ["1Rs 17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elias:chapter-1-reis-21",
+      "from": "person:elias",
+      "to": "chapter:1-reis:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elias” cita explicitamente 1Rs 17-21.",
+      "references": ["1Rs 17-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboao-i:chapter-1-reis-11",
+      "from": "person:jeroboao-i",
+      "to": "chapter:1-reis:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboão I” cita explicitamente 1Rs 11-14.",
+      "references": ["1Rs 11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboao-i:chapter-1-reis-12",
+      "from": "person:jeroboao-i",
+      "to": "chapter:1-reis:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboão I” cita explicitamente 1Rs 11-14.",
+      "references": ["1Rs 11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboao-i:chapter-1-reis-13",
+      "from": "person:jeroboao-i",
+      "to": "chapter:1-reis:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboão I” cita explicitamente 1Rs 11-14.",
+      "references": ["1Rs 11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboao-i:chapter-1-reis-14",
+      "from": "person:jeroboao-i",
+      "to": "chapter:1-reis:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboão I” cita explicitamente 1Rs 11-14.",
+      "references": ["1Rs 11-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jezabel:chapter-1-reis-16",
+      "from": "person:jezabel",
+      "to": "chapter:1-reis:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jezabel” cita explicitamente 1Rs 16, 18, 21.",
+      "references": ["1Rs 16, 18, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-1",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-10",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-11",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-2",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-3",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-4",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-5",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-6",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-7",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-8",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-1-reis-9",
+      "from": "person:salomao",
+      "to": "chapter:1-reis:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente 1Rs 1-11.",
+      "references": ["1Rs 1-11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-1-reis-12",
+      "from": "place:betel",
+      "to": "chapter:1-reis:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente 1Rs 12, 13.",
+      "references": ["1Rs 12, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-e-a-corte-real:chapter-1-reis-4",
+      "from": "place:jerusalem-e-a-corte-real",
+      "to": "chapter:1-reis:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém e a Corte Real” cita explicitamente Pr 1:1; 25:1; 1Rs 4.",
+      "references": ["Pr 1:1; 25:1; 1Rs 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-1-reis-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:1-reis:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente 1Rs 2, 6, 8, 14.",
+      "references": ["1Rs 2, 6, 8, 14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-carmelo:chapter-1-reis-18",
+      "from": "place:monte-carmelo",
+      "to": "chapter:1-reis:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Carmelo” cita explicitamente 1Rs 18.",
+      "references": ["1Rs 18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santo-dos-santos-kodesh-hakodashim:chapter-1-reis-8",
+      "from": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "to": "chapter:1-reis:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santo dos Santos (Kodesh HaKodashim)” cita explicitamente Lv 16:2; 1 Rs 8:6; Hb 9:3.",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ofir:chapter-1-reis-9",
+      "from": "place:ofir",
+      "to": "chapter:1-reis:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ofir” cita explicitamente 1Rs 9, 10.",
+      "references": ["1Rs 9, 10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-1-reis-16",
+      "from": "place:samaria",
+      "to": "chapter:1-reis:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente 1Rs 16, 18, 22.",
+      "references": ["1Rs 16, 18, 22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome:chapter-1-reis-5",
+      "from": "prophecy:1-cronicas-1-cr-22-9-10-eis-que-te-nascera-um-filho-que-sera-homem-de-repouso-salomao-sera-o-seu-nome-ele-edificara-uma-casa-ao-meu-nome",
+      "to": "chapter:1-reis:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 22:9-10 — \"Eis que te nascerá um filho, que será homem de repouso... Salomão será o seu nome... ele edificará uma casa ao meu nome\"” cita explicitamente 2 Sm 7:12-13; 1 Rs 5:5.",
+      "references": ["2 Sm 7:12-13; 1 Rs 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-a-profecia-de-micaias-ben-imla-sobre-a-morte-de-acabe-1rs-22-17-19-22:chapter-1-reis-22",
+      "from": "prophecy:1-reis-a-profecia-de-micaias-ben-imla-sobre-a-morte-de-acabe-1rs-22-17-19-22",
+      "to": "chapter:1-reis:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia de Micaías ben-Imlá sobre a morte de Acabe (1Rs 22:17, 19-22)” cita explicitamente 1Rs 22:17-22.",
+      "references": ["1Rs 22:17-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23:chapter-1-reis-21",
+      "from": "prophecy:1-reis-o-julgamento-de-elias-sobre-a-casa-de-acabe-e-jezabel-1rs-21-19-23",
+      "to": "chapter:1-reis:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O julgamento de Elias sobre a casa de Acabe e Jezabel (1Rs 21:19, 23)” cita explicitamente 1Rs 21:19, 23; 2Rs 9:25-36.",
+      "references": ["1Rs 21:19, 23; 2Rs 9:25-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2:chapter-1-reis-13",
+      "from": "prophecy:1-reis-o-oraculo-do-homem-de-deus-de-juda-contra-o-altar-de-betel-1rs-13-2",
+      "to": "chapter:1-reis:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O oráculo do homem de Deus de Judá contra o altar de Betel (1Rs 13:2)” cita explicitamente 1Rs 13:2; 2Rs 23:15-16.",
+      "references": ["1Rs 13:2; 2Rs 23:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-samuel-1sm-2-31-36-eis-que-vem-dias-em-que-cortarei-o-teu-braco-e-o-braco-da-casa-de-teu-pai:chapter-1-reis-2",
+      "from": "prophecy:1-samuel-1sm-2-31-36-eis-que-vem-dias-em-que-cortarei-o-teu-braco-e-o-braco-da-casa-de-teu-pai",
+      "to": "chapter:1-reis:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1Sm 2:31-36 (\"Eis que vêm dias em que cortarei o teu braço e o braço da casa de teu pai...\")” cita explicitamente 1Rs 2:26-27 (remoção de Abiatar).",
+      "references": ["1Rs 2:26-27 (remoção de Abiatar)"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10:chapter-1-reis-21",
+      "from": "prophecy:2-reis-a-profecia-de-aias-de-silo-contra-a-casa-de-acabe-cumprida-em-2-reis-9-10",
+      "to": "chapter:1-reis:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia de Aías de Silo contra a casa de Acabe (cumprida em 2 Reis 9-10)” cita explicitamente 1 Reis 21:21-24; 2 Reis 9:7-10.",
+      "references": ["1 Reis 21:21-24; 2 Reis 9:7-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro:chapter-1-reis-8",
+      "from": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "to": "chapter:1-reis:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)” cita explicitamente Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque:chapter-1-reis-8",
+      "from": "prophecy:eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque",
+      "to": "chapter:1-reis:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 7:20 (\"Não há homem justo sobre a terra que faça o bem e nunca peque\")” cita explicitamente 1 Rs 8:46; Sl 14:3; Rm 3:10-12.",
+      "references": ["1 Rs 8:46; Sl 14:3; Rm 3:10-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26:chapter-1-reis-16",
+      "from": "prophecy:josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26",
+      "to": "chapter:1-reis:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A maldição sobre quem reedificar a cidade de Jericó (Josué 6:26)” cita explicitamente Josué 6:26; 1 Reis 16:34.",
+      "references": ["Josué 6:26; 1 Reis 16:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-elias-era-homem-sujeito-as-mesmas-paixoes-que-nos:chapter-1-reis-17",
+      "from": "prophecy:tiago-elias-era-homem-sujeito-as-mesmas-paixoes-que-nos",
+      "to": "chapter:1-reis:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Elias era homem sujeito às mesmas paixões que nós...\"” cita explicitamente 1 Reis 17:1; 18:41-45.",
+      "references": ["1 Reis 17:1; 18:41-45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-elias-era-homem-sujeito-as-mesmas-paixoes-que-nos:chapter-1-reis-18",
+      "from": "prophecy:tiago-elias-era-homem-sujeito-as-mesmas-paixoes-que-nos",
+      "to": "chapter:1-reis:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Elias era homem sujeito às mesmas paixões que nós...\"” cita explicitamente 1 Reis 17:1; 18:41-45.",
+      "references": ["1 Reis 17:1; 18:41-45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-12:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:12",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-13:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:13",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-13:theme-os-profetas-de-jave",
+      "from": "chapter:1-reis:13",
+      "to": "theme:os-profetas-de-jave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Profetas de Javé” cita explicitamente 1Rs 13, 18, 22.",
+      "references": ["1Rs 13, 18, 22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-14:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:14",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-15:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:15",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-16:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:16",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-17:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:17",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-18:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:18",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-19:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:19",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-20:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:20",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-21:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:21",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-22:theme-o-reino-de-israel-norte-efraim",
+      "from": "chapter:1-reis:22",
+      "to": "theme:o-reino-de-israel-norte-efraim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Reino de Israel (Norte / Efraim)” cita explicitamente 1Rs 12-22.",
+      "references": ["1Rs 12-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-5:theme-fenicia-tiro-e-sidom",
+      "from": "chapter:1-reis:5",
+      "to": "theme:fenicia-tiro-e-sidom",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Fenícia (Tiro e Sidom)” cita explicitamente 1Rs 5, 16.",
+      "references": ["1Rs 5, 16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-6:theme-o-templo-de-jerusalem",
+      "from": "chapter:1-reis:6",
+      "to": "theme:o-templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente 1Rs 6-8.",
+      "references": ["1Rs 6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-7:theme-o-templo-de-jerusalem",
+      "from": "chapter:1-reis:7",
+      "to": "theme:o-templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente 1Rs 6-8.",
+      "references": ["1Rs 6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-reis-8:theme-o-templo-de-jerusalem",
+      "from": "chapter:1-reis:8",
+      "to": "theme:o-templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente 1Rs 6-8.",
+      "references": ["1Rs 6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "book": "Habacuque",
+  "count": 22,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "people-group:caldeus-babilonios",
+      "kind": "people-group",
+      "label": "Caldeus (Babilônios)",
+      "aliases": [],
+      "summary": "Império expansionista da Mesopotâmia caracterizado pela violência implacável, autoidolatria militar e crueldade sistemática contra os povos conquistados.",
+      "references": ["Hab 1:6; 2:5-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instrumento militar de juízo divino",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:habacuque",
+      "kind": "person",
+      "label": "Habacuque",
+      "aliases": [],
+      "summary": "Figura enigmática que atua como intercessor e questionador teológico, simbolizando o crente que luta honestamente com as perplexidades da providência divina.",
+      "references": ["Hab 1:1; 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta de Judá e autor nominal do livro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-torre-de-vigilia",
+      "kind": "place",
+      "label": "A Torre de Vigília",
+      "aliases": [],
+      "summary": "Espaço físico-mental de expectativa, paciência e recepção da palavra profética.",
+      "references": ["Hab 2:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:babilonia-territorio-caldeu",
+      "kind": "place",
+      "label": "Babilônia (Território Caldeu)",
+      "aliases": [],
+      "summary": "Sede do império opressor caracterizado pela hybris (soberba) e violência imperial.",
+      "references": ["Hab 1:6; 2:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerusalem-juda",
+      "kind": "place",
+      "label": "Jerusalém / Judá",
+      "aliases": [],
+      "summary": "Centro geopolítico e cultual onde ocorre a corrupção interna e para onde o juízo babilônico se dirige.",
+      "references": ["Hab 1:4; 2:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:o-templo-santo",
+      "kind": "place",
+      "label": "O Templo Santo",
+      "aliases": [],
+      "summary": "Morada terrestre de Yahweh diante da qual toda a terra deve emudecer em reverência.",
+      "references": ["Hab 2:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "institucional" }
+    },
+    {
+      "id": "place:tema-para",
+      "kind": "place",
+      "label": "Temã / Parã",
+      "aliases": [],
+      "summary": "Regiões montanhosas ao sul de Israel associadas à teofania do Sinai e à revelação histórica de Deus.",
+      "references": ["Hab 3:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:naum-ai-da-cidade-sanguinaria-naum-3-1",
+      "kind": "prophecy",
+      "label": "\"Ai da cidade sanguinária...\" (Naum 3:1)",
+      "aliases": [],
+      "summary": "Condenação moral dos impérios que prosperam à base da exploração violenta.",
+      "references": ["Habacuque 2:12; Ezequiel 22:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo de juízo" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus",
+      "kind": "prophecy",
+      "label": "Sofonias 1:7 (\"Cale-se diante do Senhor Deus...\")",
+      "aliases": [],
+      "summary": "A injunção ao silêncio cósmico ante a teofania divina é interpretada ora como reverência cultual no templo pós-exílico, ora como a paralisação absoluta da atividade humana diante do tribunal escatológico.",
+      "references": ["Habacuque 2:20 e Zacarias 2:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "theme:idolos-de-madeira-e-pedra",
+      "kind": "theme",
+      "label": "Ídolos de Madeira e Pedra",
+      "aliases": [],
+      "summary": "Representações vãs da autossubsistência humana que contrastam frontalmente com o Deus vivo que habita em seu templo santo.",
+      "references": ["Hab 3:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deidades mudas e sem fôlego",
+        "entityType": "Conceito / Instituição"
+      }
+    },
+    {
+      "id": "theme:juda",
+      "kind": "theme",
+      "label": "Judá",
+      "aliases": [],
+      "summary": "Comunidade pactual que experimenta injustiça interna, opressão dos vulneráveis e que se tornará alvo do juízo babilônico.",
+      "references": ["Naum 1:15; 2:2", "Hab 1:4; 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nação da aliança em estado de declínio moral e social",
+        "entityType": "Povo / Instituição"
+      }
+    },
+    {
+      "id": "theme:o-justo",
+      "kind": "theme",
+      "label": "O Justo",
+      "aliases": [],
+      "summary": "Categoria teológica daqueles cuja postura existencial é marcada pela lealdade inabalável a Deus em meio ao caos histórico.",
+      "references": ["Hab 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O remanescente fiel que vive pela fé",
+        "entityType": "Conceito / Grupo"
+      }
+    },
+    {
+      "id": "theme:tema-e-monte-para",
+      "kind": "theme",
+      "label": "Temã e Monte Parã",
+      "aliases": [],
+      "summary": "Regiões geográficas associadas à revelação primitiva de Yahweh no deserto, evocadas como garantia de sua ação salvífica presente.",
+      "references": ["Hab 3:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário da teofania divina no passado",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:torre-de-vigilia-mishmeret",
+      "kind": "theme",
+      "label": "Torre de Vigília (Mishmeret)",
+      "aliases": [],
+      "summary": "Espaço liminar onde o profeta se isola para aguardar e registrar a revelação divina com clareza inabalável.",
+      "references": ["Hab 2:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ponto de observação espiritual e física",
+        "entityType": "Lugar / Conceito"
+      }
+    },
+    {
+      "id": "theme:yahweh",
+      "kind": "theme",
+      "label": "Yahweh",
+      "aliases": [],
+      "summary": "O Criador que governa as nações, levanta impérios e responde às lamentações humanas segundo sua justiça e santidade inegociáveis.",
+      "references": [
+        "Gên 17; Lv 11:44; Ap 21",
+        "Juízes 2:1-5; 6:14",
+        "Miqueias 1:2-3; 6:1-8; 7:18-20",
+        "Hab 1:12; 2:20; 3:3"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano da história",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-caldeus-babilonios:chapter-habacuque-1",
+      "from": "people-group:caldeus-babilonios",
+      "to": "chapter:habacuque:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Caldeus (Babilônios)” cita explicitamente Hab 1:6; 2:5-20.",
+      "references": ["Hab 1:6; 2:5-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-caldeus-babilonios:chapter-habacuque-2",
+      "from": "people-group:caldeus-babilonios",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Caldeus (Babilônios)” cita explicitamente Hab 1:6; 2:5-20.",
+      "references": ["Hab 1:6; 2:5-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-habacuque:chapter-habacuque-1",
+      "from": "person:habacuque",
+      "to": "chapter:habacuque:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque” cita explicitamente Hab 1:1; 3:1.",
+      "references": ["Hab 1:1; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-habacuque:chapter-habacuque-3",
+      "from": "person:habacuque",
+      "to": "chapter:habacuque:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque” cita explicitamente Hab 1:1; 3:1.",
+      "references": ["Hab 1:1; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-torre-de-vigilia:chapter-habacuque-2",
+      "from": "place:a-torre-de-vigilia",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Torre de Vigília” cita explicitamente Hab 2:1.",
+      "references": ["Hab 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia-territorio-caldeu:chapter-habacuque-1",
+      "from": "place:babilonia-territorio-caldeu",
+      "to": "chapter:habacuque:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia (Território Caldeu)” cita explicitamente Hab 1:6; 2:5.",
+      "references": ["Hab 1:6; 2:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia-territorio-caldeu:chapter-habacuque-2",
+      "from": "place:babilonia-territorio-caldeu",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia (Território Caldeu)” cita explicitamente Hab 1:6; 2:5.",
+      "references": ["Hab 1:6; 2:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-juda:chapter-habacuque-1",
+      "from": "place:jerusalem-juda",
+      "to": "chapter:habacuque:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém / Judá” cita explicitamente Hab 1:4; 2:17.",
+      "references": ["Hab 1:4; 2:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-juda:chapter-habacuque-2",
+      "from": "place:jerusalem-juda",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém / Judá” cita explicitamente Hab 1:4; 2:17.",
+      "references": ["Hab 1:4; 2:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-santo:chapter-habacuque-2",
+      "from": "place:o-templo-santo",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo Santo” cita explicitamente Hab 2:20.",
+      "references": ["Hab 2:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tema-para:chapter-habacuque-3",
+      "from": "place:tema-para",
+      "to": "chapter:habacuque:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Temã / Parã” cita explicitamente Hab 3:3.",
+      "references": ["Hab 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-ai-da-cidade-sanguinaria-naum-3-1:chapter-habacuque-2",
+      "from": "prophecy:naum-ai-da-cidade-sanguinaria-naum-3-1",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ai da cidade sanguinária...\" (Naum 3:1)” cita explicitamente Habacuque 2:12; Ezequiel 22:2-3.",
+      "references": ["Habacuque 2:12; Ezequiel 22:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus:chapter-habacuque-2",
+      "from": "prophecy:sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus",
+      "to": "chapter:habacuque:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 1:7 (\"Cale-se diante do Senhor Deus...\")” cita explicitamente Habacuque 2:20 e Zacarias 2:13.",
+      "references": ["Habacuque 2:20 e Zacarias 2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-1:theme-juda",
+      "from": "chapter:habacuque:1",
+      "to": "theme:juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Judá” cita explicitamente Hab 1:4; 2:4.",
+      "references": ["Hab 1:4; 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-1:theme-yahweh",
+      "from": "chapter:habacuque:1",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Hab 1:12; 2:20; 3:3.",
+      "references": ["Hab 1:12; 2:20; 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-2:theme-juda",
+      "from": "chapter:habacuque:2",
+      "to": "theme:juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Judá” cita explicitamente Hab 1:4; 2:4.",
+      "references": ["Hab 1:4; 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-2:theme-o-justo",
+      "from": "chapter:habacuque:2",
+      "to": "theme:o-justo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Justo” cita explicitamente Hab 2:4.",
+      "references": ["Hab 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-2:theme-torre-de-vigilia-mishmeret",
+      "from": "chapter:habacuque:2",
+      "to": "theme:torre-de-vigilia-mishmeret",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Torre de Vigília (Mishmeret)” cita explicitamente Hab 2:1.",
+      "references": ["Hab 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-2:theme-yahweh",
+      "from": "chapter:habacuque:2",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Hab 1:12; 2:20; 3:3.",
+      "references": ["Hab 1:12; 2:20; 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-3:theme-idolos-de-madeira-e-pedra",
+      "from": "chapter:habacuque:3",
+      "to": "theme:idolos-de-madeira-e-pedra",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Ídolos de Madeira e Pedra” cita explicitamente Hab 3:18-19.",
+      "references": ["Hab 3:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-3:theme-tema-e-monte-para",
+      "from": "chapter:habacuque:3",
+      "to": "theme:tema-e-monte-para",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Temã e Monte Parã” cita explicitamente Hab 3:3.",
+      "references": ["Hab 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-habacuque-3:theme-yahweh",
+      "from": "chapter:habacuque:3",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Hab 1:12; 2:20; 3:3.",
+      "references": ["Hab 1:12; 2:20; 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "book": "1 Pedro",
+  "count": 28,
+  "chapterCount": 5,
+  "nodes": [
+    {
+      "id": "doctrine:igreja-missao",
+      "kind": "doctrine",
+      "label": "Igreja, Grande Comissão e missão",
+      "aliases": [],
+      "summary": "O site nacional apresenta a missão como comunicação do evangelho completo de Jesus Cristo, guiada pelo Espírito e pelo poder do Pentecostes, em direção à Grande Comissão.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["igreja-missao"],
+      "attributes": {
+        "category": "Eclesiologia",
+        "pentecostalReading": "Missão une anúncio, discipulado, serviço, plantação de igrejas, cuidado de pessoas e testemunho público. Poder espiritual não é dominação: é capacitação para servir e testemunhar.",
+        "distinction": "A missão institucional pode adquirir formas regionais. A plataforma deve registrar documentos da IDB e não inventar um manual de práticas para todas as congregações.",
+        "source": "Site IDB Nacional; Grande Comissão; teologia pentecostal de missão"
+      }
+    },
+    {
+      "id": "doctrine:santificacao",
+      "kind": "doctrine",
+      "label": "Santificação e santidade",
+      "aliases": [],
+      "summary": "A declaração afirma a santificação posterior ao novo nascimento, por meio da fé, da Palavra e do Espírito Santo, e apresenta a santidade como padrão de vida do povo de Deus.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["santificacao"],
+      "attributes": {
+        "category": "Vida cristã",
+        "pentecostalReading": "Santidade é obra da graça e prática cotidiana. Ela inclui caráter, corpo, relações, uso do dinheiro, verdade, cuidado do próximo e separação de práticas destrutivas; não deve ser reduzida a aparência externa.",
+        "distinction": "Há debates internos sobre instantaneidade e processo da santificação. A linguagem da plataforma evitará transformar costumes locais em regra universal sem fonte.",
+        "source": "Declaração de Fé; tradição de santidade do pentecostalismo"
+      }
+    },
+    {
+      "id": "people-group:a-diaspora-da-asia-menor-ponto-galacia-capadocia-asia-e-bitinia",
+      "kind": "people-group",
+      "label": "A Diáspora da Ásia Menor (Ponto, Galácia, Capadócia, Ásia e Bitínia)",
+      "aliases": [],
+      "summary": "Comunidades cristãs urbanas e rurais enfrentando ostracismo social e calúnias locais.",
+      "references": ["1Pe 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários gentios e judeus-cristãos vivendo como estrangeiros (paroikoi).",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:as-doze-tribos-na-dispersao",
+      "kind": "people-group",
+      "label": "As Doze Tribos na Dispersão",
+      "aliases": [],
+      "summary": "Designação teológica que aplica a identidade de Israel restaurado à comunidade cristã de origem judaica espalhada pelo mundo mediterrâneo",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatários simbólicos e reais da epístola",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:marcos-joao-marcos",
+      "kind": "person",
+      "label": "Marcos (João Marcos)",
+      "aliases": [],
+      "summary": "Filho espiritual de Pedro e figura-chave na transmissão da tradição evangélica romana.",
+      "references": ["1Pe 5:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Companheiro de Pedro em \"Babilônia\" que envia saudações.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:noe",
+      "kind": "person",
+      "label": "Noé",
+      "aliases": ["Noé"],
+      "summary": "Noé (do hebraico נֹחַ, *Nōaḥ*, significando \"descanso\" ou \"consolação\") é o patriarca justo que encontrou graça aos olhos de Deus em meio a uma geração corrompida pela violência e maldade generalizada. Advertido divinamente sobre um cataclismo universal (o Dilúvio), Noé obedece construindo uma arca de proporções colossais, salvando sua família (esposa, filhos Sem, Cam e Jafé, e suas respectivas noras) e casais de todas as espécies animais. Após o dilúvio, Noé oferece um sacrifício aceitável a Deus, que estabelece a **Aliança Noaica**, selada com o sinal do arco-íris, garantindo a preservação da ordem natural e promulgando leis fundamentais para a convivência humana (incluindo a proibição do consumo de sangue e a sanção da pena capital para o assassinato). Posteriormente, Noé protagoniza o episódio da embriaguez e da maldição de Canaã [27].",
+      "references": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7",
+        "2Pe 2:5",
+        "Gn 6:5–22",
+        "Gn 7–9",
+        "Is 54:9–10",
+        "Mt 24:37–39",
+        "1Pe 3:20–21"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-noe", "noah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%206%3A5%E2%80%9322%3B%20G%C3%AAnesis%207%3A1%E2%80%9324%3B%208%3A1%E2%80%9319%3B%20G%C3%AAnesis%209%3A1%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "justo do dilúvio; novo começo humano",
+        "entityType": "Pessoa",
+        "tags": ["dilúvio", "aliança", "novo começo", "juízo"]
+      }
+    },
+    {
+      "id": "person:pedro-simao-pedro",
+      "kind": "person",
+      "label": "Pedro (Simão Pedro)",
+      "aliases": [],
+      "summary": "Figura central da liderança apostólica primitiva cujo nome legitima a carta, associada à tradição romana.",
+      "references": ["1Pe 1:1; 5:1, 13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo remetente e testemunha dos sofrimentos de Cristo, que escreve para consolar os expatriados.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:sara",
+      "kind": "person",
+      "label": "Sara",
+      "aliases": ["Sara"],
+      "summary": "Sara (inicialmente **Sarai**, do hebraico שָׂרָה, *Śārāh*, \"princesa\") é a esposa de Abraão e matriarca principal do povo de Israel. Acompanhou seu marido desde Ur e Harã, enfrentando perigos nos tribunais do Egito e de Gerar, onde foi apresentada por Abraão como sua irmã para proteger sua própria vida. Estéril durante a maior parte de sua vida, Sara toma a iniciativa cultural da época de dar sua serva egípcia Hagar a Abraão como concubina para gerar um herdeiro (Ismael). Anos mais tarde, em sua velhice avançada, Sara recebe a promessa angelical de que conceberá um filho natural, rindo intimamente de incredulidade. Cumprindo-se a promessa, dá à luz Isaque, exclamando: \"Deus me deu motivo de riso; todo o que o ouvir vai rir-se comigo\" (Gn 21:6) [46].",
+      "references": [
+        "Gênesis 12:10–20; 20:1–18",
+        "Gênesis 16:1–6",
+        "Gênesis 18:10–15",
+        "Gênesis 21:1–7",
+        "Hebreus 11:11; 1 Pedro 3:6",
+        "Gn 11:29–30",
+        "Gn 12:10–20",
+        "Gn 16",
+        "Gn 18:1–15",
+        "Gn 21",
+        "1Pe 3:5–6"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-sara", "sarah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A10%E2%80%9320%3B%2020%3A1%E2%80%9318%3B%20G%C3%AAnesis%2016%3A1%E2%80%936%3B%20G%C3%AAnesis%2018%3A10%E2%80%9315&version=ARA",
+        "bookLinksVerified": true,
+        "role": "matriarca; mãe de Isaque",
+        "tags": ["esterilidade", "promessa", "maternidade", "aliança"]
+      }
+    },
+    {
+      "id": "person:silvano-silas",
+      "kind": "person",
+      "label": "Silvano (Silas)",
+      "aliases": [],
+      "summary": "Colaborador apostólico associado a Paulo e Timóteo na evangelização de Tessalônica e na redação da epístola.",
+      "references": [
+        "1 Ts 1:1; At 15:22-40",
+        "2 Tessalonicenses 1:1",
+        "1Pe 5:12"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Amanuense ou portador encarregado de transcrever e entregar a epístola.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-dispersao-diaspora",
+      "kind": "place",
+      "label": "A Dispersão (Diaspora)",
+      "aliases": [],
+      "summary": "Destino geográfico e teológico dos crentes judeus espalhados pelo Império Romano",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "prophecy:1-pedro-exodo-19-5-6-reino-de-sacerdotes-e-povo-santo",
+      "kind": "prophecy",
+      "label": "Êxodo 19:5-6 (Reino de Sacerdotes e Povo Santo)",
+      "aliases": [],
+      "summary": "Os títulos atribuídos a Israel no Sinai são transferidos corporativamente para a Igreja gentio-judaica. Diverge-se sobre se isso constitui supersessionismo ou expansão escatológica do povo de Deus.",
+      "references": ["1Pe 2:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Releitura" }
+    },
+    {
+      "id": "prophecy:1-pedro-isaias-28-16-e-salmo-118-22-a-pedra-angular-rejeitada",
+      "kind": "prophecy",
+      "label": "Isaías 28:16 e Salmo 118:22 (A Pedra Angular Rejeitada)",
+      "aliases": [],
+      "summary": "Cristo é a pedra viva rejeitada pelos construtores humanos mas escolhida por Deus, tornando-se pedra de tropeço para os desobedientes. Diverge-se sobre a natureza determinista da rejeição.",
+      "references": ["1Pe 2:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Tipologia" }
+    },
+    {
+      "id": "prophecy:1-pedro-isaias-53-4-12-o-servo-sofredor",
+      "kind": "prophecy",
+      "label": "Isaías 53:4-12 (O Servo Sofredor)",
+      "aliases": [],
+      "summary": "O retrato do Servo que levou nossos pecados em seu corpo é aplicado diretamente à expiação de Cristo e ao modelo de paciência no sofrimento injusto. As interpretações divergem entre leituras estritamente vicárias e exemplares.",
+      "references": ["1Pe 2:22-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Tipologia" }
+    },
+    {
+      "id": "prophecy:1-pedro-salmo-34-12-16-vida-longa-e-dias-bons",
+      "kind": "prophecy",
+      "label": "Salmo 34:12-16 (Vida Longa e Dias Bons)",
+      "aliases": [],
+      "summary": "O salmo de Davi sobre o temor do Senhor e a retidão lingual é aplicado para exortar os crentes perseguidos a responderem à injúria com bênção. Diverge-se quanto ao alcance retórico e soteriológico da promessa de prosperidade terrena.",
+      "references": ["1Pe 3:10-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "kind": "prophecy",
+      "label": "Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"",
+      "aliases": [],
+      "summary": "Debatida intensamente entre judeus (aplicada ao Israel coletivo sofredor) e cristãos (aplicada à expiação vicária de Jesus Cristo).",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/alusão/oráculo" }
+    },
+    {
+      "id": "prophecy:levitico-sede-santos-porque-eu-sou-santo-lv-11-44",
+      "kind": "prophecy",
+      "label": "\"Sede santos, porque eu sou santo\" (Lv 11:44)",
+      "aliases": [],
+      "summary": "Citado na literatura apostólica para fundamentar a ética cristã de santidade diante da graça redentora.",
+      "references": ["1 Pe 1:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / exigência ética contínua" }
+    },
+    {
+      "id": "prophecy:oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada",
+      "kind": "prophecy",
+      "label": "\"Chamarei meu povo ao que não era meu povo; e à que não era amada, Amada\"",
+      "aliases": [],
+      "summary": "Paulo e Pedro aplicam os nomes simbólicos Lo-Ami e Lo-Ruama à inclusão soberana dos gentios na Igreja cristã. Divergência sobre se o oráculo original esgotava-se no Israel do norte restaurado ou comportava desdobramento universalista.",
+      "references": ["Romanos 9:25-26, 1 Pedro 2:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-3-34",
+      "kind": "prophecy",
+      "label": "Pr 3:34",
+      "aliases": [],
+      "summary": "Os apóstolos Tiago e Pedro citam textualmente este provérbio para estabelecer a regra fundamental do governo espiritual de Deus sobre a comunidade da fé.",
+      "references": ["Tg 4:6; 1Pe 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / ética apostólica" }
+    },
+    {
+      "id": "prophecy:romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco",
+      "kind": "prophecy",
+      "label": "Isaías 28:16 & 8:14 (\"Eis que ponho em Sião uma pedra de tropeço\")",
+      "aliases": [],
+      "summary": "Combinação de textos messiânicos veterotestamentários para explicar o escândalo da rejeição de Israel ao Messias crucificado, transformado em pedra de tropeço e fundamento seguro.",
+      "references": ["Romanos 9:32-33; 10:11; 1 Pedro 2:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "prophecy:salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular",
+      "kind": "prophecy",
+      "label": "\"Pedra que os construtores rejeitaram tornou-se a pedra angular\"",
+      "aliases": [],
+      "summary": "Liturgia de gratidão e entrada no Templo celebrando a reversão de status de Israel ou do rei; aplicado no Novo Testamento à rejeição e exaltação de Cristo.",
+      "references": ["Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/citação" }
+    },
+    {
+      "id": "prophecy:tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes",
+      "kind": "prophecy",
+      "label": "\"Deus resiste aos soberbos, mas dá graça aos humildes\"",
+      "aliases": [],
+      "summary": "Divergência de interpretação entre aplicação moral individual e inversão escatológica socioeconômica nas comunidades oprimidas.",
+      "references": ["Provérbios 3:34 (LXX); 1 Pedro 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "term:charisma",
+      "kind": "term",
+      "label": "Charisma",
+      "aliases": ["χάρισμα", "charisma"],
+      "summary": "Dom concedido pela graça, especialmente em contextos de serviço e edificação comunitária.",
+      "references": ["Rm 12:6–8", "1Co 12:4–11", "1Pe 4:10–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charisma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo usa o termo para dons diversos, vida, celibato e participação no corpo; não nomeia automaticamente performance pública ou status espiritual.",
+        "translationNote": "A tradução por ‘dom espiritual’ é útil, mas alguns contextos pedem ‘dom’ sem estreitar o sentido ao extraordinário."
+      }
+    },
+    {
+      "id": "theme:autoridades-civis-rei-e-governadores",
+      "kind": "theme",
+      "label": "Autoridades Civis (Rei e Governadores)",
+      "aliases": [],
+      "summary": "Alvo de submissão cívica estratégica para silenciar a ignorância dos insensatos.",
+      "references": ["1Pe 2:13-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Estrutura de poder do Império Romano encarregada de punir os malfeitores e louvar os benfeitores.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:babilonia",
+      "kind": "theme",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Símbolo do cativeiro e da oposição imperial ao reino de Deus, centro de onde a carta foi escrita.",
+      "references": ["2 Reis 24-25", "Isaías 13:1, 39:6, 47:1", "1Pe 5:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Metonímia teológica para a cidade de Roma imperial corrupta e perseguidora.",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:codigo-de-santidade-kedushah",
+      "kind": "theme",
+      "label": "Código de Santidade (Kedushah)",
+      "aliases": [],
+      "summary": "Enfatiza a santidade imitativa de Deus em todas as esferas da vida",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Conjunto de leis ético-rituais (cap. 17-26)",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-adversario-o-diabo",
+      "kind": "theme",
+      "label": "O Adversário (O Diabo)",
+      "aliases": [],
+      "summary": "Força espiritual malévola por trás da hostilidade imperial contra a irmandade global.",
+      "references": ["1Pe 5:8-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rugindo como um leão, buscando a quem tragar através da pressão social e do sofrimento.",
+        "entityType": "Pessoa / Conceito"
+      }
+    },
+    {
+      "id": "theme:sacerdocio-real-e-povo-de-deus",
+      "kind": "theme",
+      "label": "Sacerdócio Real e Povo de Deus",
+      "aliases": [],
+      "summary": "Nova comunidade cultual que substitui ou cumpre as prerrogativas sacerdotais do antigo Israel.",
+      "references": ["1Pe 2:9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Identidade coletiva da comunidade cristã derivada do Êxodo.",
+        "entityType": "Instituição / Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-a-diaspora-da-asia-menor-ponto-galacia-capadocia-asia-e-bitinia:chapter-1-pedro-1",
+      "from": "people-group:a-diaspora-da-asia-menor-ponto-galacia-capadocia-asia-e-bitinia",
+      "to": "chapter:1-pedro:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Diáspora da Ásia Menor (Ponto, Galácia, Capadócia, Ásia e Bitínia)” cita explicitamente 1Pe 1:1.",
+      "references": ["1Pe 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-as-doze-tribos-na-dispersao:chapter-1-pedro-1",
+      "from": "people-group:as-doze-tribos-na-dispersao",
+      "to": "chapter:1-pedro:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Doze Tribos na Dispersão” cita explicitamente Tiago 1:1; 1 Pedro 1:1.",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-marcos-joao-marcos:chapter-1-pedro-5",
+      "from": "person:marcos-joao-marcos",
+      "to": "chapter:1-pedro:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Marcos (João Marcos)” cita explicitamente 1Pe 5:13.",
+      "references": ["1Pe 5:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noe:chapter-1-pedro-3",
+      "from": "person:noe",
+      "to": "chapter:1-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noé” cita explicitamente 1Pe 3:20–21.",
+      "references": ["1Pe 3:20–21"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-pedro-simao-pedro:chapter-1-pedro-1",
+      "from": "person:pedro-simao-pedro",
+      "to": "chapter:1-pedro:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pedro (Simão Pedro)” cita explicitamente 1Pe 1:1; 5:1, 13.",
+      "references": ["1Pe 1:1; 5:1, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-pedro-simao-pedro:chapter-1-pedro-5",
+      "from": "person:pedro-simao-pedro",
+      "to": "chapter:1-pedro:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pedro (Simão Pedro)” cita explicitamente 1Pe 1:1; 5:1, 13.",
+      "references": ["1Pe 1:1; 5:1, 13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sara:chapter-1-pedro-3",
+      "from": "person:sara",
+      "to": "chapter:1-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sara” cita explicitamente Hebreus 11:11; 1 Pedro 3:6.",
+      "references": ["Hebreus 11:11; 1 Pedro 3:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-silvano-silas:chapter-1-pedro-5",
+      "from": "person:silvano-silas",
+      "to": "chapter:1-pedro:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Silvano (Silas)” cita explicitamente 1Pe 5:12.",
+      "references": ["1Pe 5:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-dispersao-diaspora:chapter-1-pedro-1",
+      "from": "place:a-dispersao-diaspora",
+      "to": "chapter:1-pedro:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Dispersão (Diaspora)” cita explicitamente Tiago 1:1; 1 Pedro 1:1.",
+      "references": ["Tiago 1:1; 1 Pedro 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-pedro-exodo-19-5-6-reino-de-sacerdotes-e-povo-santo:chapter-1-pedro-2",
+      "from": "prophecy:1-pedro-exodo-19-5-6-reino-de-sacerdotes-e-povo-santo",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Êxodo 19:5-6 (Reino de Sacerdotes e Povo Santo)” cita explicitamente 1Pe 2:9.",
+      "references": ["1Pe 2:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-pedro-isaias-28-16-e-salmo-118-22-a-pedra-angular-rejeitada:chapter-1-pedro-2",
+      "from": "prophecy:1-pedro-isaias-28-16-e-salmo-118-22-a-pedra-angular-rejeitada",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 28:16 e Salmo 118:22 (A Pedra Angular Rejeitada)” cita explicitamente 1Pe 2:6-8.",
+      "references": ["1Pe 2:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-pedro-isaias-53-4-12-o-servo-sofredor:chapter-1-pedro-2",
+      "from": "prophecy:1-pedro-isaias-53-4-12-o-servo-sofredor",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:4-12 (O Servo Sofredor)” cita explicitamente 1Pe 2:22-25.",
+      "references": ["1Pe 2:22-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-pedro-salmo-34-12-16-vida-longa-e-dias-bons:chapter-1-pedro-3",
+      "from": "prophecy:1-pedro-salmo-34-12-16-vida-longa-e-dias-bons",
+      "to": "chapter:1-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 34:12-16 (Vida Longa e Dias Bons)” cita explicitamente 1Pe 3:10-12.",
+      "references": ["1Pe 3:10-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades:chapter-1-pedro-2",
+      "from": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"” cita explicitamente Mateus 8:17, 1 Pedro 2:24, Romanos 4:25.",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-sede-santos-porque-eu-sou-santo-lv-11-44:chapter-1-pedro-1",
+      "from": "prophecy:levitico-sede-santos-porque-eu-sou-santo-lv-11-44",
+      "to": "chapter:1-pedro:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Sede santos, porque eu sou santo\" (Lv 11:44)” cita explicitamente 1 Pe 1:15-16.",
+      "references": ["1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada:chapter-1-pedro-2",
+      "from": "prophecy:oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Chamarei meu povo ao que não era meu povo; e à que não era amada, Amada\"” cita explicitamente Romanos 9:25-26, 1 Pedro 2:10.",
+      "references": ["Romanos 9:25-26, 1 Pedro 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-3-34:chapter-1-pedro-5",
+      "from": "prophecy:proverbios-pr-3-34",
+      "to": "chapter:1-pedro:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 3:34” cita explicitamente Tg 4:6; 1Pe 5:5.",
+      "references": ["Tg 4:6; 1Pe 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco:chapter-1-pedro-2",
+      "from": "prophecy:romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 28:16 & 8:14 (\"Eis que ponho em Sião uma pedra de tropeço\")” cita explicitamente Romanos 9:32-33; 10:11; 1 Pedro 2:6.",
+      "references": ["Romanos 9:32-33; 10:11; 1 Pedro 2:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular:chapter-1-pedro-2",
+      "from": "prophecy:salmos-pedra-que-os-construtores-rejeitaram-tornou-se-a-pedra-angular",
+      "to": "chapter:1-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Pedra que os construtores rejeitaram tornou-se a pedra angular\"” cita explicitamente Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7.",
+      "references": ["Sl 118:22-23; Mt 21:42; At 4:11; 1 Pe 2:4-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes:chapter-1-pedro-5",
+      "from": "prophecy:tiago-deus-resiste-aos-soberbos-mas-da-graca-aos-humildes",
+      "to": "chapter:1-pedro:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Deus resiste aos soberbos, mas dá graça aos humildes\"” cita explicitamente Provérbios 3:34 (LXX); 1 Pedro 5:5.",
+      "references": ["Provérbios 3:34 (LXX); 1 Pedro 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-1:doctrine-santificacao",
+      "from": "chapter:1-pedro:1",
+      "to": "doctrine:santificacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Santificação e santidade” cita explicitamente 1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16.",
+      "references": ["1Ts 4:3; Hb 12:14; Gl 5:16–25; 1Pe 1:15–16"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-1:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:1-pedro:1",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-2:doctrine-igreja-missao",
+      "from": "chapter:1-pedro:2",
+      "to": "doctrine:igreja-missao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Igreja, Grande Comissão e missão” cita explicitamente Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-2:theme-autoridades-civis-rei-e-governadores",
+      "from": "chapter:1-pedro:2",
+      "to": "theme:autoridades-civis-rei-e-governadores",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Autoridades Civis (Rei e Governadores)” cita explicitamente 1Pe 2:13-14.",
+      "references": ["1Pe 2:13-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-2:theme-sacerdocio-real-e-povo-de-deus",
+      "from": "chapter:1-pedro:2",
+      "to": "theme:sacerdocio-real-e-povo-de-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdócio Real e Povo de Deus” cita explicitamente 1Pe 2:9-10.",
+      "references": ["1Pe 2:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-5:theme-babilonia",
+      "from": "chapter:1-pedro:5",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente 1Pe 5:13.",
+      "references": ["1Pe 5:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-pedro-5:theme-o-adversario-o-diabo",
+      "from": "chapter:1-pedro:5",
+      "to": "theme:o-adversario-o-diabo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Adversário (O Diabo)” cita explicitamente 1Pe 5:8-9.",
+      "references": ["1Pe 5:8-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-pedro-4:term-charisma",
+      "from": "chapter:1-pedro:4",
+      "to": "term:charisma",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charisma” cita explicitamente 1Pe 4:10–11.",
+      "references": ["1Pe 4:10–11"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}
