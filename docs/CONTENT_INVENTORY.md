@@ -1,6 +1,6 @@
 # Bíblia em Visão — inventário do acervo
 
-> Relatório gerado por `pnpm inventory:content` a partir da revisão de dados `58c24babfc4a`. Nenhum estudo ou conteúdo foi alterado durante o inventário.
+> Relatório gerado por `pnpm inventory:content` a partir da revisão de dados `9af7f4af1e63`. Nenhum estudo ou conteúdo foi alterado durante o inventário.
 
 ## Resumo executivo
 
@@ -154,39 +154,110 @@ As lentes registradas já permitem diferenciar recepção católica, ortodoxa, p
 
 ## Arquivos públicos de dados
 
-| Arquivo                                             | Tamanho atual |
-| --------------------------------------------------- | ------------: |
-| `advanced-book-dossiers.json`                       |     1772.4 KB |
-| `biography-book-links.json`                         |       45.6 KB |
-| `biography-catalog.json`                            |     1167.5 KB |
-| `capitulos-Atos.json`                               |       47.5 KB |
-| `chapter-coverage.json`                             |     5128.4 KB |
-| `deep-dossier-catalog.json`                         |     3071.3 KB |
-| `knowledge/apocrypha.json`                          |        9.8 KB |
-| `knowledge/books.json`                              |       36.3 KB |
-| `knowledge/chapters.json`                           |      697.7 KB |
-| `knowledge/doctrines.json`                          |       14.8 KB |
-| `knowledge/events.json`                             |      242.6 KB |
-| `knowledge/formation.json`                          |        4.6 KB |
-| `knowledge/manifest.json`                           |        0.8 KB |
-| `knowledge/people-groups.json`                      |       26.4 KB |
-| `knowledge/people.json`                             |      256.3 KB |
-| `knowledge/places.json`                             |      114.5 KB |
-| `knowledge/prophecies.json`                         |      160.0 KB |
-| `knowledge/relations.json`                          |        0.9 KB |
-| `knowledge/relations/appears-in-001.json`           |      322.8 KB |
-| `knowledge/relations/appears-in-002.json`           |      365.6 KB |
-| `knowledge/relations/appears-in-003.json`           |      104.9 KB |
-| `knowledge/relations/canonical-connection-001.json` |      155.4 KB |
-| `knowledge/relations/contains-001.json`             |      259.6 KB |
-| `knowledge/relations/contains-002.json`             |      177.6 KB |
-| `knowledge/relations/develops-theme-001.json`       |      171.6 KB |
-| `knowledge/relations/participates-in-001.json`      |       66.0 KB |
-| `knowledge/terms.json`                              |       17.9 KB |
-| `knowledge/themes.json`                             |      322.6 KB |
-| `relational-books-catalog.json`                     |     2205.4 KB |
+| Arquivo                                                   | Tamanho atual |
+| --------------------------------------------------------- | ------------: |
+| `advanced-book-dossiers.json`                             |     1772.4 KB |
+| `biography-book-links.json`                               |       45.6 KB |
+| `biography-catalog.json`                                  |     1167.5 KB |
+| `capitulos-Atos.json`                                     |       47.5 KB |
+| `chapter-coverage.json`                                   |     5128.4 KB |
+| `deep-dossier-catalog.json`                               |     3071.3 KB |
+| `knowledge/apocrypha.json`                                |        9.8 KB |
+| `knowledge/books.json`                                    |       36.3 KB |
+| `knowledge/chapter-connections/1-corintios.json`          |       64.4 KB |
+| `knowledge/chapter-connections/1-cronicas.json`           |       45.6 KB |
+| `knowledge/chapter-connections/1-joao.json`               |       14.9 KB |
+| `knowledge/chapter-connections/1-pedro.json`              |       33.9 KB |
+| `knowledge/chapter-connections/1-reis.json`               |       53.2 KB |
+| `knowledge/chapter-connections/1-samuel.json`             |       76.5 KB |
+| `knowledge/chapter-connections/1-tessalonicenses.json`    |       29.7 KB |
+| `knowledge/chapter-connections/1-timoteo.json`            |       28.7 KB |
+| `knowledge/chapter-connections/2-corintios.json`          |       34.1 KB |
+| `knowledge/chapter-connections/2-cronicas.json`           |       83.8 KB |
+| `knowledge/chapter-connections/2-joao.json`               |        2.4 KB |
+| `knowledge/chapter-connections/2-pedro.json`              |       24.1 KB |
+| `knowledge/chapter-connections/2-reis.json`               |       49.4 KB |
+| `knowledge/chapter-connections/2-samuel.json`             |       42.6 KB |
+| `knowledge/chapter-connections/2-tessalonicenses.json`    |       26.3 KB |
+| `knowledge/chapter-connections/2-timoteo.json`            |       24.8 KB |
+| `knowledge/chapter-connections/3-joao.json`               |        5.0 KB |
+| `knowledge/chapter-connections/ageu.json`                 |       27.1 KB |
+| `knowledge/chapter-connections/amos.json`                 |       31.5 KB |
+| `knowledge/chapter-connections/apocalipse.json`           |      102.9 KB |
+| `knowledge/chapter-connections/atos.json`                 |      112.2 KB |
+| `knowledge/chapter-connections/cantico-dos-canticos.json` |       21.5 KB |
+| `knowledge/chapter-connections/colossenses.json`          |       26.4 KB |
+| `knowledge/chapter-connections/daniel.json`               |       39.0 KB |
+| `knowledge/chapter-connections/deuteronomio.json`         |       42.0 KB |
+| `knowledge/chapter-connections/eclesiastes.json`          |       24.7 KB |
+| `knowledge/chapter-connections/efesios.json`              |       34.1 KB |
+| `knowledge/chapter-connections/esdras.json`               |       50.7 KB |
+| `knowledge/chapter-connections/ester.json`                |       24.7 KB |
+| `knowledge/chapter-connections/exodo.json`                |       37.6 KB |
+| `knowledge/chapter-connections/ezequiel.json`             |       32.8 KB |
+| `knowledge/chapter-connections/filemom.json`              |       17.8 KB |
+| `knowledge/chapter-connections/filipenses.json`           |        5.6 KB |
+| `knowledge/chapter-connections/galatas.json`              |       52.8 KB |
+| `knowledge/chapter-connections/genesis.json`              |      132.0 KB |
+| `knowledge/chapter-connections/habacuque.json`            |       17.7 KB |
+| `knowledge/chapter-connections/hebreus.json`              |       77.0 KB |
+| `knowledge/chapter-connections/isaias.json`               |       78.8 KB |
+| `knowledge/chapter-connections/jeremias.json`             |       49.1 KB |
+| `knowledge/chapter-connections/jo.json`                   |       59.0 KB |
+| `knowledge/chapter-connections/joao.json`                 |       66.3 KB |
+| `knowledge/chapter-connections/joel.json`                 |       25.6 KB |
+| `knowledge/chapter-connections/jonas.json`                |       25.3 KB |
+| `knowledge/chapter-connections/josue.json`                |       39.4 KB |
+| `knowledge/chapter-connections/judas.json`                |       22.9 KB |
+| `knowledge/chapter-connections/juizes.json`               |       36.5 KB |
+| `knowledge/chapter-connections/lamentacoes.json`          |       27.0 KB |
+| `knowledge/chapter-connections/levitico.json`             |       32.2 KB |
+| `knowledge/chapter-connections/lucas.json`                |       60.9 KB |
+| `knowledge/chapter-connections/malaquias.json`            |       23.4 KB |
+| `knowledge/chapter-connections/marcos.json`               |       45.4 KB |
+| `knowledge/chapter-connections/mateus.json`               |      104.7 KB |
+| `knowledge/chapter-connections/miqueias.json`             |       27.1 KB |
+| `knowledge/chapter-connections/naum.json`                 |       17.9 KB |
+| `knowledge/chapter-connections/neemias.json`              |       42.9 KB |
+| `knowledge/chapter-connections/numeros.json`              |       49.9 KB |
+| `knowledge/chapter-connections/obadias.json`              |       18.9 KB |
+| `knowledge/chapter-connections/oseias.json`               |       22.8 KB |
+| `knowledge/chapter-connections/proverbios.json`           |       36.4 KB |
+| `knowledge/chapter-connections/romanos.json`              |       87.0 KB |
+| `knowledge/chapter-connections/rute.json`                 |       35.2 KB |
+| `knowledge/chapter-connections/salmos.json`               |       55.7 KB |
+| `knowledge/chapter-connections/sofonias.json`             |       29.5 KB |
+| `knowledge/chapter-connections/tiago.json`                |       33.0 KB |
+| `knowledge/chapter-connections/tito.json`                 |       15.6 KB |
+| `knowledge/chapter-connections/zacarias.json`             |       39.2 KB |
+| `knowledge/chapters.json`                                 |      697.7 KB |
+| `knowledge/doctrines.json`                                |       14.8 KB |
+| `knowledge/events.json`                                   |      242.6 KB |
+| `knowledge/formation.json`                                |        4.6 KB |
+| `knowledge/manifest.json`                                 |        4.4 KB |
+| `knowledge/people-groups.json`                            |       26.4 KB |
+| `knowledge/people.json`                                   |      256.3 KB |
+| `knowledge/places.json`                                   |      114.5 KB |
+| `knowledge/prophecies.json`                               |      160.0 KB |
+| `knowledge/relations.json`                                |        1.4 KB |
+| `knowledge/relations/appears-in-001.json`                 |      356.9 KB |
+| `knowledge/relations/appears-in-002.json`                 |      307.1 KB |
+| `knowledge/relations/appears-in-003.json`                 |      304.2 KB |
+| `knowledge/relations/appears-in-004.json`                 |      323.0 KB |
+| `knowledge/relations/appears-in-005.json`                 |      393.1 KB |
+| `knowledge/relations/appears-in-006.json`                 |      330.3 KB |
+| `knowledge/relations/canonical-connection-001.json`       |      156.0 KB |
+| `knowledge/relations/contains-001.json`                   |      259.6 KB |
+| `knowledge/relations/contains-002.json`                   |      177.6 KB |
+| `knowledge/relations/develops-theme-001.json`             |      355.6 KB |
+| `knowledge/relations/develops-theme-002.json`             |       98.7 KB |
+| `knowledge/relations/participates-in-001.json`            |       66.0 KB |
+| `knowledge/relations/related-term-001.json`               |       25.3 KB |
+| `knowledge/terms.json`                                    |       17.9 KB |
+| `knowledge/themes.json`                                   |      322.6 KB |
+| `relational-books-catalog.json`                           |     2205.4 KB |
 
-Total aproximado: **16.6 MB** de JSON público. O tamanho confirma a necessidade futura de dividir o acervo por livro e carregar somente o conteúdo solicitado.
+Total aproximado: **20.8 MB** de JSON público. O tamanho confirma a necessidade futura de dividir o acervo por livro e carregar somente o conteúdo solicitado.
 
 ## Lacunas identificadas na Fase 1
 

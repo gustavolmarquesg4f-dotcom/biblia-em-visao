@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "book": "Rute",
+  "count": 40,
+  "chapterCount": 4,
+  "nodes": [
+    {
+      "id": "event:rute-a-fome-em-belem-e-a-migracao-para-moabe",
+      "kind": "event",
+      "label": "A Fome em Belém e a Migração para Moabe",
+      "aliases": [],
+      "summary": "Uma severa escassez de alimentos em Belém obriga Elimeleque a migrar com sua esposa Noemi e seus dois filhos para as terras de Moabe.",
+      "references": ["Rute 1:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o cenário de deslocamento, luto e ruptura familiar que desencadeia toda a trama teológica.",
+        "entities": "Elimeleque, Noemi, Malom, Quiliom, Moabe, Belém de Judá"
+      }
+    },
+    {
+      "id": "event:rute-a-morte-dos-homens-da-familia-e-a-decisao-de-retorno",
+      "kind": "event",
+      "label": "A Morte dos Homens da Família e a Decisão de Retorno",
+      "aliases": [],
+      "summary": "Após a morte de Elimeleque e de seus filhos, Noemi decide retornar a Belém. Orfa permanece em Moabe, enquanto Rute faz o célebre juramento de lealdade a Noemi e ao seu Deus.",
+      "references": ["Rute 1:3-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca a inversão geográfica e o pacto intergeracional e intercultural entre a israelita amargurada e a moabita devota.",
+        "entities": "Noemi, Rute, Orfa, Belém de Judá, Moabe"
+      }
+    },
+    {
+      "id": "event:rute-a-negociacao-no-portal-e-o-casamento",
+      "kind": "event",
+      "label": "A Negociação no Portal e o Casamento",
+      "aliases": [],
+      "summary": "Boaz reúne os anciãos no portal da cidade, o parente mais próximo renuncia ao direito de resgate, e Boaz adquire as terras e toma Rute por esposa.",
+      "references": ["Rute 4:1-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Formaliza legalmente o resgate patrimonial e dinástico perante a comunidade de Belém.",
+        "entities": "Boaz, O Parente Próximo, Anciãos de Belém, Rute"
+      }
+    },
+    {
+      "id": "event:rute-o-encontro-na-eira-de-belem-leem",
+      "kind": "event",
+      "label": "O Encontro na Eira de Belém-Leém",
+      "aliases": [],
+      "summary": "Seguindo as orientações de Noemi, Rute vai à eira à noite, descobre os pés de Boaz e solicita formalmente que ele exerça o papel de parente resgatador (go'el).",
+      "references": ["Rute 3:1-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a agência feminina e o compromisso de Boaz em resolver legalmente a situação de resgate no dia seguinte.",
+        "entities": "Rute, Noemi, Boaz, Go'el"
+      }
+    },
+    {
+      "id": "event:rute-o-nascimento-de-obed-e-a-restauracao-de-noemi",
+      "kind": "event",
+      "label": "O Nascimento de Obed e a Restauração de Noemi",
+      "aliases": [],
+      "summary": "Rute dá à luz a Obed, que é acolhido por Noemi como seu próprio filho restaurador, seguido pela inclusão da genealogia até Davi.",
+      "references": ["Rute 4:13-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conclui a narrativa transformando a tragédia individual em bênção nacional e dinástica, ligando a história privada ao plano salvífico de Israel.",
+        "entities": "Rute, Boaz, Obed, Noemi, Davi"
+      }
+    },
+    {
+      "id": "event:rute-o-retorno-a-belem-e-o-respigamento-nos-campos-de-boaz",
+      "kind": "event",
+      "label": "O Retorno a Belém e o Respigamento nos Campos de Boaz",
+      "aliases": [],
+      "summary": "Noemi e Rute chegam a Belém no início da colheita. Rute respiga cevada nos campos de Boaz, que a acolhe generosamente e lhe oferece proteção e provisão.",
+      "references": ["Rute 1:19-2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Inicia a reversão da sorte (shuv) de Noemi por meio da providência agrícola e da generosidade ética de Boaz.",
+        "entities": "Noemi, Rute, Boaz, Belém de Judá, Go'el"
+      }
+    },
+    {
+      "id": "people-group:moabe-moabitas",
+      "kind": "people-group",
+      "label": "Moabe / Moabitas",
+      "aliases": [],
+      "summary": "Território de refúgio durante a fome, historicamente associado à animosidade contra Israel, mas redimido parcialmente pela figura de Rute",
+      "references": ["Rute 1:1; 1:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região e nação vizinha hostil, descendentes de Ló",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:boaz",
+      "kind": "person",
+      "label": "Boaz",
+      "aliases": [],
+      "summary": "Homem rico, íntegro e piedoso de Belém que cumpre generosamente as leis de resgate e solidariedade familiar, encarnando o hésed divino",
+      "references": ["Rute 2:1; 3:12; 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Parente resgatador (go'el), proprietário rural e marido de Rute",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:elimeleque",
+      "kind": "person",
+      "label": "Elimeleque",
+      "aliases": [],
+      "summary": "Chefe de família de Belém cuja decisão de emigrar para Moabe devido à fome deflagra a tragédia inicial da narrativa",
+      "references": ["Rute 1:2; 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Marido falecido de Noemi",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lia",
+      "kind": "person",
+      "label": "Lia",
+      "aliases": ["Lia"],
+      "summary": "Lia (do hebraico לֵאָה, *Lē’āh*, significando \"cansada\" ou \"vacilante\", embora algumas etimologias sugiram \"vaca selvagem\") é a filha mais velha de Labão e a primeira esposa de Jacó. Introduzida na narrativa através de um ato de engano arquitetado por seu pai durante as bodas noturnas, Lia é descrita pelo texto bíblico com uma nuance psicológica dolorosa: \"Lia tinha os olhos delicados [ou fracos], mas Raquel era formosa de porte e de parecer\" (Gn 29:17). Embora não fosse amada por Jacó na mesma intensidade que sua irmã Raquel, Deus contempla sua aflição e abre-lhe a matriz, tornando-a mãe prolífica de seis filhos (Reúbem, Simeão, Levi, Judá, Issacar e Zebulum) e de uma filha (Diná). No final de sua vida, Lia é sepultada com honra na Cova de Macpela, ao lado de Abraão, Sara, Isaque e Rebeca [87].",
+      "references": [
+        "Gênesis 29:16–35",
+        "Gênesis 30:9–21",
+        "Gênesis 49:31",
+        "Rute 4:11"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-lia"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2029%3A16%E2%80%9335%3B%20G%C3%AAnesis%2030%3A9%E2%80%9321%3B%20G%C3%AAnesis%2049%3A31&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:malom-e-quiliom",
+      "kind": "person",
+      "label": "Malom e Quiliom",
+      "aliases": [],
+      "summary": "Maridos das mulheres moabitas Orfa e Rute, cuja morte prematura em Moabe deixa Noemi sem herdeiros diretos",
+      "references": ["Rute 1:2; 4:9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filhos falecidos de Noemi e Elimeleque",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:noemi",
+      "kind": "person",
+      "label": "Noemi",
+      "aliases": [],
+      "summary": "Mulher israelita cujo retorno a Belém, inicialmente marcado pelo vazio e amargura (\"Mara\"), é transformado pela providência e pela lealdade de sua nora",
+      "references": ["Rute 1:2; 1:20; 4:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sogra de Rute, matriarca de Belém amargurada pela perda familiar",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-parente-proximo-peloni-almoni",
+      "kind": "person",
+      "label": "O Parente Próximo (Peloni Almoni)",
+      "aliases": [],
+      "summary": "Personagem anônimo que recusa resgatar o campo de Noemi por temer prejudicar a sua própria herança, abrindo caminho para Boaz",
+      "references": ["Rute 4:1; 4:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "O parente com direito de resgate prioritário (go'el)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:obed",
+      "kind": "person",
+      "label": "Obed",
+      "aliases": [],
+      "summary": "O elo geracional crucial que assegura a continuidade da linhagem de Elimeleque e conecta a narrativa dos Juízes à dinastia real",
+      "references": ["Rute 4:17; 4:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filho de Boaz e Rute, avô do rei Davi",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:orfa",
+      "kind": "person",
+      "label": "Orfa",
+      "aliases": [],
+      "summary": "Nora de Noemi que, diferentemente de Rute, aceita a recomendação de retornar à sua terra natal e divindades em Moabe",
+      "references": ["Rute 1:14; 1:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nora moabita que retorna ao seu povo e deuses",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:rute",
+      "kind": "person",
+      "label": "Rute",
+      "aliases": ["Rute"],
+      "summary": "Rute, uma mulher moabita, é a protagonista epônima do livro de Rute, cuja narrativa transcorre \"nos dias em que julgavam os juízes\" [103]. Após a morte de seu marido hebraico Queliom (filho de Elimeleque e Noemi), que havia emigrado de Belém para as terras de Moabe devido a uma fome severa, Rute demonstra lealdade inabalável (*hesed*) à sua sogra Noemi, que decide retornar a Judá [104]. Recusando-se a abandonar Noemi, Rute pronuncia um dos votos mais célebres da literatura universal: \"Aonde quer que fores, irei; e onde quer que pousares, ali pousarei; o teu povo é o meu povo, e o teu Deus é o meu Deus\" [105]. Chegando a Belém na época da colheita de cevada, Rute vai respigar nos campos de Boaz, um parente rico e influente de Elimeleque [106]. Impulsionado pela generosidade e cumprindo as leis do remidor (*goel*), Boaz acolhe Rute, resgata as propriedades da família de Noemi e casa-se com Rute [107]. Desta união nasce Obede, que será pai de Jessé e avô do rei Davi, inserindo Rute (uma estrangeira moabita) diretamente na linhagem messiânica de Jesus Cristo [108].",
+      "references": ["Rute 1:4; 2:2; 4:13"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-rute"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Protagonista estrangeira (moabita), símbolo de lealdade (hésed) e ancestral davídica",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-eira-de-belem",
+      "kind": "place",
+      "label": "A Eira de Belém",
+      "aliases": [],
+      "summary": "Local de debulha de cereais onde se desenrola a cena noturna crucial da proposta de casamento e resgate",
+      "references": ["Rute 3:2; 3:6; 3:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:belem-de-juda",
+      "kind": "place",
+      "label": "Belém de Judá",
+      "aliases": [],
+      "summary": "Cidade natal de Elimeleque, palco do respigamento, das transações legais e berço davídico e messiânico",
+      "references": ["Rute 1:1; 2:4; 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:moabe-terras-de",
+      "kind": "place",
+      "label": "Moabe (Terras de)",
+      "aliases": [],
+      "summary": "Região transjordaniana pagã onde a família israelita se estabelece e onde as noras moabitas são originárias",
+      "references": ["Rute 1:1; 1:22; 4:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/disputado" }
+    },
+    {
+      "id": "place:o-portal-da-cidade-de-belem",
+      "kind": "place",
+      "label": "O Portal da Cidade de Belém",
+      "aliases": [],
+      "summary": "Centro jurídico, político e comercial onde os anciãos se reuniam para deliberar contratos e litígios legais",
+      "references": ["Rute 4:1; 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "institucional/disputado" }
+    },
+    {
+      "id": "place:os-campos-de-boaz",
+      "kind": "place",
+      "label": "Os Campos de Boaz",
+      "aliases": [],
+      "summary": "Local de trabalho agrícola onde ocorre o encontro de Rute com Boaz e a provisão providencial",
+      "references": ["Rute 2:3; 2:8; 2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "term:hesed",
+      "kind": "term",
+      "label": "Hesed",
+      "aliases": ["חֶסֶד", "ḥesed"],
+      "summary": "Vocabulário de lealdade relacional, bondade comprometida e ação favorável que sustenta uma relação.",
+      "references": ["Êx 34:6", "Rt 1:8", "Sl 136:1", "Os 6:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["hesed"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Dependendo do contexto pode apontar para misericórdia, lealdade, benevolência, fidelidade ou amor constante. Nenhum equivalente isolado resolve todos os usos.",
+        "translationNote": "Traduzir sempre por ‘misericórdia’ ou sempre por ‘amor’ pode esconder a dimensão de compromisso. A análise deve observar quem age, com quem, em qual relação e com qual consequência narrativa."
+      }
+    },
+    {
+      "id": "theme:anciaos-de-belem",
+      "kind": "theme",
+      "label": "Anciãos de Belém",
+      "aliases": [],
+      "summary": "Grupo de líderes locais que autenticam a transação imobiliária e o contrato matrimonial de Boaz conforme os costumes jurídicos israelitas",
+      "references": ["Rute 4:2; 4:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunhas legais e judiciais no portal da cidade",
+        "entityType": "Instituição / Grupo"
+      }
+    },
+    {
+      "id": "theme:belem-de-juda",
+      "kind": "theme",
+      "label": "Belém de Judá",
+      "aliases": [],
+      "summary": "Vila agrícola na Judeia que serve de palco para a restauração de Noemi e prefigura o nascimento messiânico",
+      "references": ["Rute 1:1; 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário principal e cidade natal de Elimeleque e Boaz",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:go-el-parente-resgatador",
+      "kind": "theme",
+      "label": "Go'el (Parente Resgatador)",
+      "aliases": [],
+      "summary": "Costume do levirato e do resgate patrimonial (ga'al) que visa preservar o nome e o patrimônio de um parente falecido",
+      "references": ["Rute 3:9; 4:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instituição jurídica e familiar de resgate de propriedades e parentes",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:hesed-amor-leal-misericordia",
+      "kind": "theme",
+      "label": "Hesed (Amor Leal / Misericórdia)",
+      "aliases": [],
+      "summary": "Lealdade ativa, compromisso relacional e bondade excedente que transcende as obrigações estritamente legais",
+      "references": ["Rute 1:8; 2:20; 3:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Princípio ético e teológico central da narrativa",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-rute-a-fome-em-belem-e-a-migracao-para-moabe:chapter-rute-1",
+      "from": "event:rute-a-fome-em-belem-e-a-migracao-para-moabe",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Fome em Belém e a Migração para Moabe” cita explicitamente Rute 1:1-2.",
+      "references": ["Rute 1:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-a-morte-dos-homens-da-familia-e-a-decisao-de-retorno:chapter-rute-1",
+      "from": "event:rute-a-morte-dos-homens-da-familia-e-a-decisao-de-retorno",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Morte dos Homens da Família e a Decisão de Retorno” cita explicitamente Rute 1:3-18.",
+      "references": ["Rute 1:3-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-a-negociacao-no-portal-e-o-casamento:chapter-rute-4",
+      "from": "event:rute-a-negociacao-no-portal-e-o-casamento",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Negociação no Portal e o Casamento” cita explicitamente Rute 4:1-12.",
+      "references": ["Rute 4:1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-o-encontro-na-eira-de-belem-leem:chapter-rute-3",
+      "from": "event:rute-o-encontro-na-eira-de-belem-leem",
+      "to": "chapter:rute:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Encontro na Eira de Belém-Leém” cita explicitamente Rute 3:1-18.",
+      "references": ["Rute 3:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-o-nascimento-de-obed-e-a-restauracao-de-noemi:chapter-rute-4",
+      "from": "event:rute-o-nascimento-de-obed-e-a-restauracao-de-noemi",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Nascimento de Obed e a Restauração de Noemi” cita explicitamente Rute 4:13-22.",
+      "references": ["Rute 4:13-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-o-retorno-a-belem-e-o-respigamento-nos-campos-de-boaz:chapter-rute-1",
+      "from": "event:rute-o-retorno-a-belem-e-o-respigamento-nos-campos-de-boaz",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Retorno a Belém e o Respigamento nos Campos de Boaz” cita explicitamente Rute 1:19-2:23.",
+      "references": ["Rute 1:19-2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-rute-o-retorno-a-belem-e-o-respigamento-nos-campos-de-boaz:chapter-rute-2",
+      "from": "event:rute-o-retorno-a-belem-e-o-respigamento-nos-campos-de-boaz",
+      "to": "chapter:rute:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Retorno a Belém e o Respigamento nos Campos de Boaz” cita explicitamente Rute 1:19-2:23.",
+      "references": ["Rute 1:19-2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-moabe-moabitas:chapter-rute-1",
+      "from": "people-group:moabe-moabitas",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moabe / Moabitas” cita explicitamente Rute 1:1; 1:22.",
+      "references": ["Rute 1:1; 1:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-boaz:chapter-rute-2",
+      "from": "person:boaz",
+      "to": "chapter:rute:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Boaz” cita explicitamente Rute 2:1; 3:12; 4:10.",
+      "references": ["Rute 2:1; 3:12; 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-boaz:chapter-rute-3",
+      "from": "person:boaz",
+      "to": "chapter:rute:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Boaz” cita explicitamente Rute 2:1; 3:12; 4:10.",
+      "references": ["Rute 2:1; 3:12; 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-boaz:chapter-rute-4",
+      "from": "person:boaz",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Boaz” cita explicitamente Rute 2:1; 3:12; 4:10.",
+      "references": ["Rute 2:1; 3:12; 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elimeleque:chapter-rute-1",
+      "from": "person:elimeleque",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elimeleque” cita explicitamente Rute 1:2; 1:3.",
+      "references": ["Rute 1:2; 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lia:chapter-rute-4",
+      "from": "person:lia",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lia” cita explicitamente Rute 4:11.",
+      "references": ["Rute 4:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-malom-e-quiliom:chapter-rute-1",
+      "from": "person:malom-e-quiliom",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malom e Quiliom” cita explicitamente Rute 1:2; 4:9-10.",
+      "references": ["Rute 1:2; 4:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-malom-e-quiliom:chapter-rute-4",
+      "from": "person:malom-e-quiliom",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malom e Quiliom” cita explicitamente Rute 1:2; 4:9-10.",
+      "references": ["Rute 1:2; 4:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noemi:chapter-rute-1",
+      "from": "person:noemi",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noemi” cita explicitamente Rute 1:2; 1:20; 4:14.",
+      "references": ["Rute 1:2; 1:20; 4:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noemi:chapter-rute-4",
+      "from": "person:noemi",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noemi” cita explicitamente Rute 1:2; 1:20; 4:14.",
+      "references": ["Rute 1:2; 1:20; 4:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-parente-proximo-peloni-almoni:chapter-rute-4",
+      "from": "person:o-parente-proximo-peloni-almoni",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Parente Próximo (Peloni Almoni)” cita explicitamente Rute 4:1; 4:6.",
+      "references": ["Rute 4:1; 4:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-obed:chapter-rute-4",
+      "from": "person:obed",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obed” cita explicitamente Rute 4:17; 4:21.",
+      "references": ["Rute 4:17; 4:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-orfa:chapter-rute-1",
+      "from": "person:orfa",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Orfa” cita explicitamente Rute 1:14; 1:15.",
+      "references": ["Rute 1:14; 1:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-rute:chapter-rute-1",
+      "from": "person:rute",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute” cita explicitamente Rute 1:4; 2:2; 4:13.",
+      "references": ["Rute 1:4; 2:2; 4:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-rute:chapter-rute-2",
+      "from": "person:rute",
+      "to": "chapter:rute:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute” cita explicitamente Rute 1:4; 2:2; 4:13.",
+      "references": ["Rute 1:4; 2:2; 4:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-rute:chapter-rute-4",
+      "from": "person:rute",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute” cita explicitamente Rute 1:4; 2:2; 4:13.",
+      "references": ["Rute 1:4; 2:2; 4:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-eira-de-belem:chapter-rute-3",
+      "from": "place:a-eira-de-belem",
+      "to": "chapter:rute:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Eira de Belém” cita explicitamente Rute 3:2; 3:6; 3:14.",
+      "references": ["Rute 3:2; 3:6; 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-belem-de-juda:chapter-rute-1",
+      "from": "place:belem-de-juda",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Belém de Judá” cita explicitamente Rute 1:1; 2:4; 4:11.",
+      "references": ["Rute 1:1; 2:4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-belem-de-juda:chapter-rute-2",
+      "from": "place:belem-de-juda",
+      "to": "chapter:rute:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Belém de Judá” cita explicitamente Rute 1:1; 2:4; 4:11.",
+      "references": ["Rute 1:1; 2:4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-belem-de-juda:chapter-rute-4",
+      "from": "place:belem-de-juda",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Belém de Judá” cita explicitamente Rute 1:1; 2:4; 4:11.",
+      "references": ["Rute 1:1; 2:4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-moabe-terras-de:chapter-rute-1",
+      "from": "place:moabe-terras-de",
+      "to": "chapter:rute:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Moabe (Terras de)” cita explicitamente Rute 1:1; 1:22; 4:3.",
+      "references": ["Rute 1:1; 1:22; 4:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-moabe-terras-de:chapter-rute-4",
+      "from": "place:moabe-terras-de",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Moabe (Terras de)” cita explicitamente Rute 1:1; 1:22; 4:3.",
+      "references": ["Rute 1:1; 1:22; 4:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-portal-da-cidade-de-belem:chapter-rute-4",
+      "from": "place:o-portal-da-cidade-de-belem",
+      "to": "chapter:rute:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Portal da Cidade de Belém” cita explicitamente Rute 4:1; 4:11.",
+      "references": ["Rute 4:1; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-os-campos-de-boaz:chapter-rute-2",
+      "from": "place:os-campos-de-boaz",
+      "to": "chapter:rute:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Os Campos de Boaz” cita explicitamente Rute 2:3; 2:8; 2:23.",
+      "references": ["Rute 2:3; 2:8; 2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-1:theme-belem-de-juda",
+      "from": "chapter:rute:1",
+      "to": "theme:belem-de-juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Belém de Judá” cita explicitamente Rute 1:1; 4:11.",
+      "references": ["Rute 1:1; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-1:theme-hesed-amor-leal-misericordia",
+      "from": "chapter:rute:1",
+      "to": "theme:hesed-amor-leal-misericordia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hesed (Amor Leal / Misericórdia)” cita explicitamente Rute 1:8; 2:20; 3:10.",
+      "references": ["Rute 1:8; 2:20; 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-2:theme-hesed-amor-leal-misericordia",
+      "from": "chapter:rute:2",
+      "to": "theme:hesed-amor-leal-misericordia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hesed (Amor Leal / Misericórdia)” cita explicitamente Rute 1:8; 2:20; 3:10.",
+      "references": ["Rute 1:8; 2:20; 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-3:theme-go-el-parente-resgatador",
+      "from": "chapter:rute:3",
+      "to": "theme:go-el-parente-resgatador",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Go'el (Parente Resgatador)” cita explicitamente Rute 3:9; 4:4.",
+      "references": ["Rute 3:9; 4:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-3:theme-hesed-amor-leal-misericordia",
+      "from": "chapter:rute:3",
+      "to": "theme:hesed-amor-leal-misericordia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hesed (Amor Leal / Misericórdia)” cita explicitamente Rute 1:8; 2:20; 3:10.",
+      "references": ["Rute 1:8; 2:20; 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-4:theme-anciaos-de-belem",
+      "from": "chapter:rute:4",
+      "to": "theme:anciaos-de-belem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anciãos de Belém” cita explicitamente Rute 4:2; 4:9.",
+      "references": ["Rute 4:2; 4:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-4:theme-belem-de-juda",
+      "from": "chapter:rute:4",
+      "to": "theme:belem-de-juda",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Belém de Judá” cita explicitamente Rute 1:1; 4:11.",
+      "references": ["Rute 1:1; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-rute-4:theme-go-el-parente-resgatador",
+      "from": "chapter:rute:4",
+      "to": "theme:go-el-parente-resgatador",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Go'el (Parente Resgatador)” cita explicitamente Rute 3:9; 4:4.",
+      "references": ["Rute 3:9; 4:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-rute-1:term-hesed",
+      "from": "chapter:rute:1",
+      "to": "term:hesed",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Hesed” cita explicitamente Rt 1:8.",
+      "references": ["Rt 1:8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

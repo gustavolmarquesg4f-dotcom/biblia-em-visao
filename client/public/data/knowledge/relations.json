@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 3640,
+  "count": 6772,
   "chunkSize": 700,
   "files": [
     {
@@ -16,24 +16,49 @@
     {
       "type": "appears-in",
       "file": "relations/appears-in-003.json",
-      "count": 262
+      "count": 700
+    },
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-004.json",
+      "count": 700
+    },
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-005.json",
+      "count": 700
+    },
+    {
+      "type": "appears-in",
+      "file": "relations/appears-in-006.json",
+      "count": 637
     },
     {
       "type": "canonical-connection",
       "file": "relations/canonical-connection-001.json",
-      "count": 321
+      "count": 322
     },
     { "type": "contains", "file": "relations/contains-001.json", "count": 700 },
     { "type": "contains", "file": "relations/contains-002.json", "count": 489 },
     {
       "type": "develops-theme",
       "file": "relations/develops-theme-001.json",
-      "count": 316
+      "count": 700
+    },
+    {
+      "type": "develops-theme",
+      "file": "relations/develops-theme-002.json",
+      "count": 209
     },
     {
       "type": "participates-in",
       "file": "relations/participates-in-001.json",
       "count": 152
+    },
+    {
+      "type": "related-term",
+      "file": "relations/related-term-001.json",
+      "count": 63
     }
   ]
 }

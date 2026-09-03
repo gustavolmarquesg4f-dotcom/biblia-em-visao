@@ -20,6 +20,7 @@ import {
 import { theologyEntries } from "../client/src/lib/pentecostal-data.ts";
 import {
   canonicalKnowledgeLabel,
+  extractCanonicalChapterReferences,
   makeKnowledgeId,
   parseKnowledgeId,
   slugifyKnowledgeLabel,
@@ -587,6 +588,105 @@ for (const module of studyModules) {
   });
 }
 
+const alternateBookAliases: Partial<Record<string, string[]>> = {
+  Êxodo: ["Ex"],
+  Números: ["Num"],
+  Deuteronômio: ["Deut"],
+  Esdras: ["Esd"],
+  Ester: ["Est"],
+  Provérbios: ["Pr"],
+  "Cântico dos Cânticos": ["Cântico", "Cânticos", "Cantares"],
+  Jeremias: ["Jer"],
+  Ezequiel: ["Ezeq"],
+  Habacuque: ["Hab"],
+  Mateus: ["Mat"],
+  Marcos: ["Mar"],
+  Lucas: ["Luc"],
+  Romanos: ["Rom"],
+  Filemom: ["Flm"],
+  Apocalipse: ["Apoc"],
+};
+const referenceBooks = bibleBooks.map(book => ({
+  name: book.name,
+  short: book.short,
+  chapters: book.chapters,
+  aliases: unique([
+    ...(alternateBookAliases[book.name] ?? []),
+    book.short.replace(/^(\d)(?=\p{L})/u, "$1 "),
+    book.name.normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
+  ]),
+}));
+const chapterEntityRelationsByKind: Partial<Record<KnowledgeKind, number>> = {};
+const chaptersWithExplicitConnections = new Set<string>();
+const entitiesWithExplicitChapterConnections = new Set<string>();
+
+for (const knowledgeNode of nodes.values()) {
+  if (
+    knowledgeNode.kind === "book" ||
+    knowledgeNode.kind === "chapter" ||
+    knowledgeNode.kind === "formation-study" ||
+    !knowledgeNode.references.length
+  )
+    continue;
+
+  for (const match of extractCanonicalChapterReferences(
+    knowledgeNode.references,
+    referenceBooks
+  )) {
+    const chapterId = makeKnowledgeId("chapter", match.book, match.chapter);
+    if (!nodes.has(chapterId)) continue;
+    const explanation = `O verbete “${knowledgeNode.label}” cita explicitamente ${match.reference}.`;
+    const sourceCatalog = `explicit-reference:${knowledgeNode.sourceCatalogs[0]}`;
+
+    if (knowledgeNode.kind === "theme" || knowledgeNode.kind === "doctrine") {
+      addRelation("develops-theme", chapterId, knowledgeNode.id, {
+        label:
+          knowledgeNode.kind === "doctrine"
+            ? "dialoga com doutrina"
+            : "desenvolve tema",
+        explanation,
+        references: [match.reference],
+        sourceCatalog,
+        confidence:
+          knowledgeNode.kind === "doctrine" ? "contextual" : "high",
+      });
+    } else if (knowledgeNode.kind === "term") {
+      addRelation("related-term", chapterId, knowledgeNode.id, {
+        label: "explica termo",
+        explanation,
+        references: [match.reference],
+        sourceCatalog,
+      });
+    } else if (knowledgeNode.kind === "apocryphal-work") {
+      addRelation("canonical-connection", chapterId, knowledgeNode.id, {
+        label: "conexão histórica e literária",
+        explanation,
+        references: [match.reference],
+        sourceCatalog,
+        confidence: "contextual",
+      });
+    } else {
+      addRelation("appears-in", knowledgeNode.id, chapterId, {
+        label:
+          knowledgeNode.kind === "place"
+            ? "cenário citado em"
+            : knowledgeNode.kind === "event"
+              ? "acontecimento citado em"
+              : "aparece em",
+        explanation,
+        references: [match.reference],
+        sourceCatalog,
+        confidence: knowledgeNode.kind === "prophecy" ? "debated" : "high",
+      });
+    }
+
+    chaptersWithExplicitConnections.add(chapterId);
+    entitiesWithExplicitChapterConnections.add(knowledgeNode.id);
+    chapterEntityRelationsByKind[knowledgeNode.kind] =
+      (chapterEntityRelationsByKind[knowledgeNode.kind] ?? 0) + 1;
+  }
+}
+
 const nodesByKind = Object.fromEntries(
   Array.from(nodes.values())
     .sort((a, b) => a.id.localeCompare(b.id))
@@ -600,6 +700,27 @@ const nodesByKind = Object.fromEntries(
 
 const relationList = Array.from(relations.values()).sort((a, b) =>
   a.id.localeCompare(b.id)
+);
+const chapterConnectionRelations = relationList.filter(relation =>
+  relation.sourceCatalog.startsWith("explicit-reference:")
+);
+const chapterConnectionGroups = chapterConnectionRelations.reduce(
+  (map, relation) => {
+    const chapterId = relation.from.startsWith("chapter:")
+      ? relation.from
+      : relation.to;
+    const bookSlug = chapterId.split(":")[1];
+    const group = map.get(bookSlug) ?? [];
+    group.push(relation);
+    map.set(bookSlug, group);
+    return map;
+  },
+  new Map<string, KnowledgeRelation[]>()
+);
+const chapterConnectionFiles = Object.fromEntries(
+  Array.from(chapterConnectionGroups.keys())
+    .sort()
+    .map(bookSlug => [bookSlug, `chapter-connections/${bookSlug}.json`])
 );
 const unresolvedRelations = relationList.filter(
   relation => !nodes.has(relation.from) || !nodes.has(relation.to)
@@ -634,6 +755,10 @@ const fileByKind: Record<KnowledgeKind, string> = {
 
 const activeKinds = (Object.keys(nodesByKind) as KnowledgeKind[]).sort();
 const relationDirectory = path.join(outputDirectory, "relations");
+const chapterConnectionDirectory = path.join(
+  outputDirectory,
+  "chapter-connections"
+);
 const relationFiles: Array<{
   type: KnowledgeRelationType;
   file: string;
@@ -667,6 +792,12 @@ const manifest = {
   ),
   files: Object.fromEntries(activeKinds.map(kind => [kind, fileByKind[kind]])),
   relationsFile: "relations.json",
+  chapterConnections: {
+    relationCount: chapterConnectionRelations.length,
+    chapterCount: chaptersWithExplicitConnections.size,
+    entityCount: entitiesWithExplicitChapterConnections.size,
+    files: chapterConnectionFiles,
+  },
 };
 
 const validation = {
@@ -677,7 +808,10 @@ const validation = {
     biographyRecords.length === 119 &&
     unresolvedRelations.length === 0 &&
     malformedNodeIds.length === 0 &&
-    suspiciousBiographyAssociations.length === 0,
+    suspiciousBiographyAssociations.length === 0 &&
+    chaptersWithExplicitConnections.size > 0 &&
+    entitiesWithExplicitChapterConnections.size > 0 &&
+    chapterConnectionGroups.size === bibleBooks.length,
   counts: {
     nodes: nodes.size,
     relations: relationList.length,
@@ -699,6 +833,22 @@ const validation = {
     stableNodeIds: malformedNodeIds.length === 0,
     noSuspiciousBiographyAssociations:
       suspiciousBiographyAssociations.length === 0,
+    explicitChapterConnections:
+      chaptersWithExplicitConnections.size > 0 &&
+      entitiesWithExplicitChapterConnections.size > 0,
+    chapterConnectionFileForEveryBook:
+      chapterConnectionGroups.size === bibleBooks.length,
+  },
+  chapterConnections: {
+    relations: Object.values(chapterEntityRelationsByKind).reduce(
+      (total, count) => total + (count ?? 0),
+      0
+    ),
+    chapters: chaptersWithExplicitConnections.size,
+    entities: entitiesWithExplicitChapterConnections.size,
+    files: chapterConnectionGroups.size,
+    byKind: chapterEntityRelationsByKind,
+    method: "Somente referências bíblicas explícitas presentes nos verbetes.",
   },
   unresolvedRelations: unresolvedRelations.map(relation => relation.id),
   malformedNodeIds,
@@ -709,6 +859,8 @@ await fs.mkdir(outputDirectory, { recursive: true });
 await fs.mkdir(auditDirectory, { recursive: true });
 await fs.rm(relationDirectory, { recursive: true, force: true });
 await fs.mkdir(relationDirectory, { recursive: true });
+await fs.rm(chapterConnectionDirectory, { recursive: true, force: true });
+await fs.mkdir(chapterConnectionDirectory, { recursive: true });
 for (const kind of activeKinds) {
   await fs.writeFile(
     path.join(outputDirectory, fileByKind[kind]),
@@ -756,6 +908,36 @@ for (const relationFile of relationFiles) {
         part,
         count: chunk.length,
         relations: chunk,
+      }),
+      { parser: "json" }
+    ),
+    "utf8"
+  );
+}
+for (const [bookSlug, bookRelations] of chapterConnectionGroups) {
+  const chapterIds = new Set<string>();
+  const relatedIds = new Set<string>();
+  for (const relation of bookRelations) {
+    const chapterId = relation.from.startsWith("chapter:")
+      ? relation.from
+      : relation.to;
+    chapterIds.add(chapterId);
+    relatedIds.add(relation.from === chapterId ? relation.to : relation.from);
+  }
+  const relatedNodes = Array.from(relatedIds)
+    .map(id => nodes.get(id))
+    .filter((item): item is KnowledgeNode => Boolean(item))
+    .sort((left, right) => left.id.localeCompare(right.id));
+  await fs.writeFile(
+    path.join(chapterConnectionDirectory, `${bookSlug}.json`),
+    await format(
+      JSON.stringify({
+        schemaVersion: 1,
+        book: bookBySlug.get(bookSlug)?.name ?? bookSlug,
+        count: bookRelations.length,
+        chapterCount: chapterIds.size,
+        nodes: relatedNodes,
+        relations: bookRelations,
       }),
       { parser: "json" }
     ),

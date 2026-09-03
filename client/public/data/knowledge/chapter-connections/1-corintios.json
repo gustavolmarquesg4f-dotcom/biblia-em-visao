@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "book": "1 Coríntios",
+  "count": 59,
+  "chapterCount": 14,
+  "nodes": [
+    {
+      "id": "doctrine:cristo",
+      "kind": "doctrine",
+      "label": "Jesus Cristo: encarnação, cruz e ressurreição",
+      "aliases": [],
+      "summary": "Jesus é confessado como Filho unigênito do Pai, concebido pelo Espírito Santo, nascido de Maria, crucificado, sepultado, ressuscitado, ascendido e intercessor.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cristo"],
+      "attributes": {
+        "category": "Cristologia",
+        "pentecostalReading": "Cristo é o centro do evangelho completo: salvação, reconciliação, santidade, cura, missão e esperança futura são lidos a partir de sua pessoa e obra.",
+        "distinction": "A confissão de fé é uma afirmação teológica da igreja; a pesquisa histórica distingue entre reconstrução do Jesus histórico e confissão cristológica das primeiras comunidades.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:culto-santidade",
+      "kind": "doctrine",
+      "label": "Culto, oração e vida comunitária",
+      "aliases": [],
+      "summary": "O culto pentecostal reúne Palavra, oração, louvor, testemunho, dons, comunhão e resposta à missão.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["culto-santidade"],
+      "attributes": {
+        "category": "Prática cristã",
+        "pentecostalReading": "Espontaneidade e ordem não são opostos. O culto deve criar espaço para o Espírito, proteger pessoas vulneráveis, respeitar a Palavra e produzir uma comunidade de amor, verdade e serviço.",
+        "distinction": "Estilos musicais, duração, vestimentas e formas de reunião são práticas culturais; não devem ser confundidos automaticamente com doutrina essencial.",
+        "source": "Atos; 1 Coríntios; princípios pentecostais de culto"
+      }
+    },
+    {
+      "id": "doctrine:cura",
+      "kind": "doctrine",
+      "label": "Cura divina e oração",
+      "aliases": [],
+      "summary": "A declaração de fé afirma que a cura divina é provida na expiação.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cura"],
+      "attributes": {
+        "category": "Ministério",
+        "pentecostalReading": "A igreja ora pelos enfermos e confia na ação soberana de Deus. Fé e cuidado médico não precisam ser inimigos; a plataforma deve evitar culpa, promessas automáticas ou abandono de tratamento.",
+        "distinction": "A afirmação teológica de cura não permite prever quando ou como ela ocorrerá. Luto, doença e limitações humanas devem ser tratados com esperança e compaixão, não acusação.",
+        "source": "Declaração de Fé; Tiago 5; teologia pentecostal pastoral"
+      }
+    },
+    {
+      "id": "doctrine:dons",
+      "kind": "doctrine",
+      "label": "Dons, ministérios e fruto",
+      "aliases": [],
+      "summary": "Os dons são compreendidos como capacitações do Espírito para edificação e missão, nunca como medalhas de superioridade espiritual.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["dons"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O culto pentecostal busca espaço para testemunho, oração, profecia, cura e serviço, mas tudo deve ser julgado pelo amor, pela ordem e pela edificação da comunidade.",
+        "distinction": "Dons e cargos não são idênticos. A plataforma diferenciará carisma, função pastoral, liderança institucional e maturidade cristã.",
+        "source": "Novo Testamento; teologia pentecostal sobre dons"
+      }
+    },
+    {
+      "id": "doctrine:escatologia",
+      "kind": "doctrine",
+      "label": "Segunda vinda, milênio e ressurreição",
+      "aliases": [],
+      "summary": "A declaração consultada confessa uma segunda vinda premilenial em duas etapas, ressurreição corporal, vida eterna para os justos e punição eterna para os ímpios.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escatologia"],
+      "attributes": {
+        "category": "Escatologia",
+        "pentecostalReading": "A esperança futura sustenta vigilância, perseverança e missão, não especulação sensacionalista. A ressurreição é corporal e a consumação envolve justiça, renovação e presença de Deus.",
+        "distinction": "Cristãos divergem entre pré, pós e amilenismo e sobre a ordem dos eventos. O verbete registra a posição premilenial da declaração consultada e apresenta outras leituras em comparação.",
+        "source": "Declaração de Fé; 1 Tessalonicenses; 1 Coríntios; Apocalipse"
+      }
+    },
+    {
+      "id": "doctrine:espirito",
+      "kind": "doctrine",
+      "label": "Espírito Santo e sua presença",
+      "aliases": [],
+      "summary": "O Espírito Santo é confessado como pessoa divina e agente da regeneração, santificação, capacitação e missão da igreja.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["espirito"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O Espírito não é apenas uma força ou metáfora: conduz, convence, distribui dons, forma caráter e envia a igreja. A experiência carismática deve permanecer ligada ao fruto do Espírito e ao amor.",
+        "distinction": "As tradições cristãs divergem sobre dons, cessacionismo, batismo no Espírito e evidências. A enciclopédia apresentará a posição pentecostal como uma tradição teológica situada.",
+        "source": "Declaração de Fé; teologia pentecostal"
+      }
+    },
+    {
+      "id": "doctrine:ordenancas",
+      "kind": "doctrine",
+      "label": "Batismo nas águas, Ceia e lavagem dos pés",
+      "aliases": [],
+      "summary": "A declaração consultada afirma o batismo em água por imersão, a Ceia do Senhor e a lavagem dos pés dos santos.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["ordenancas"],
+      "attributes": {
+        "category": "Igreja",
+        "pentecostalReading": "Essas práticas são sinais visíveis de fé, comunhão, memória, serviço e participação no corpo de Cristo. A lavagem dos pés acentua humildade e serviço mútuo.",
+        "distinction": "Igrejas cristãs divergem sobre o número, o nome e o significado sacramental dessas práticas. A enciclopédia deverá mostrar a compreensão da Igreja de Deus sem desqualificar outras tradições.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "event:1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo",
+      "kind": "event",
+      "label": "Chegada das Notícias de Cloé e Envio de Timóteo",
+      "aliases": [],
+      "summary": "Membros da casa de Cloé informam Paulo sobre divisões e escândalos em Corinto, levando Paulo a enviar Timóteo para lembrar os corintios de seus caminhos.",
+      "references": ["1 Coríntios 1 Coríntios 1:11; 4:17; 16:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Mobilização de resposta epistolar e pastoral imediata por parte de Paulo frente ao desvio comunitário.",
+        "entities": "Família de Cloé, Paulo, Timóteo, Igreja de Deus em Corinto"
+      }
+    },
+    {
+      "id": "event:1-corintios-crise-na-ceia-do-senhor-e-exclusao-social",
+      "kind": "event",
+      "label": "Crise na Ceia do Senhor e Exclusão Social",
+      "aliases": [],
+      "summary": "Os crentes ricos de Corinto realizam banquetes separados, humilhando os membros pobres e desrespeitando o significado comunitário da Ceia.",
+      "references": ["1 Coríntios 1 Coríntios 11:17-34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Repreensão severa de Paulo, estabelecendo o vínculo inquebrantável entre comunhão sacramental, amor fraternal e julgamento divino.",
+        "entities": "Igreja de Deus em Corinto, Jesus Cristo"
+      }
+    },
+    {
+      "id": "event:1-corintios-debate-e-defesa-da-ressurreicao-corporal",
+      "kind": "event",
+      "label": "Debate e Defesa da Ressurreição Corporal",
+      "aliases": [],
+      "summary": "Surgimento de céticos em Corinto que negavam a ressurreição física dos mortos, influenciados por dualismos helenísticos.",
+      "references": ["1 Coríntios 1 Coríntios 15:1-58"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Formulação teológica sistemática da ressurreição de Cristo como garantia absoluta da vitória sobre a morte e da ressurreição futura dos crentes.",
+        "entities": "Paulo, Jesus Cristo, Igreja de Deus em Corinto"
+      }
+    },
+    {
+      "id": "event:1-corintios-fundacao-da-igreja-em-corinto",
+      "kind": "event",
+      "label": "Fundação da Igreja em Corinto",
+      "aliases": [],
+      "summary": "Paulo chega a Corinto durante sua segunda viagem missionária, prega na sinagoga e entre os gentios, fundando a comunidade cristã com o apoio de Áquila e Priscila e o patrocínio de Crispo e Estéfanas.",
+      "references": ["1 Coríntios Atos 18:1-17; 1 Coríntios 3:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelecimento de um bastião cristiano em um centro nevrálgico do comércio mediterrâneo, gerando o contexto sociológico abordado na epístola.",
+        "entities": "Paulo, Áquila, Priscila, Crispo, Sóshenes, Igreja de Deus em Corinto"
+      }
+    },
+    {
+      "id": "event:1-corintios-resposta-a-carta-dos-corintios-e-redacao-de-1-corintios",
+      "kind": "event",
+      "label": "Resposta à Carta dos Coríntios e Redação de 1 Coríntios",
+      "aliases": [],
+      "summary": "Paulo recebe uma carta de consulta da comunidade coríntia sobre casamento, carnes sacrificadas aos ídolos e dons, redigindo 1 Coríntios em Éfeso.",
+      "references": ["1 Coríntios 1 Coríntios 7:1; 16:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Produção de um dos documentos eclesiológicos mais densos do cristianismo primitivo, normatizando a ética comunitária.",
+        "entities": "Paulo, Estéfanas, Fortunato, Acaico, Igreja de Deus em Corinto"
+      }
+    },
+    {
+      "id": "person:adao",
+      "kind": "person",
+      "label": "Adão",
+      "aliases": ["Adão"],
+      "summary": "Adão (do hebraico אָדָם, *’ādām*, significando \"humanidade\", \"homem\" ou tirado da \"terra vermelha\", *’ădāmāh*) é apresentado no livro de Gênesis como o primeiro ser humano, plasmado diretamente pelo Criador a partir do pó da terra e animado pelo sopro vital (*nishmat chayyim*) [6]. Colocado no Jardim do Éden para cultivar e guardar o espaço sagrado, Adão recebe a responsabilidade de nomear os animais e exercer domínio sobre a criação. A narrativa culmina com a criação de sua companheira, Eva, a partir de sua costela. A desobediência ao comer do fruto proibido da árvore do conhecimento do bem e do mal, instigada pela serpente, resulta na queda da humanidade, na introdução do pecado e da morte no cosmos, e na expulsão do Éden, marcando o início da condição humana marcada pelo labor e pela mortalidade [7].",
+      "references": [
+        "Gênesis 1:26–27; 2:7–25",
+        "Gênesis 3:1–24",
+        "Romanos 5:12–21",
+        "1 Coríntios 15:45–49",
+        "1 Cr 1:1",
+        "Romanos 5:12-21",
+        "Gn 1:26–28",
+        "Gn 2:7–25",
+        "Gn 3:1–24",
+        "Gn 5:1–5",
+        "Rm 5:12–21",
+        "1Co 15:20–49"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-adao", "adam"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%201%3A26%E2%80%9327%3B%202%3A7%E2%80%9325%3B%20G%C3%AAnesis%203%3A1%E2%80%9324%3B%20Romanos%205%3A12%E2%80%9321&version=ARA",
+        "bookLinksVerified": true,
+        "role": "humano primordial; imagem de Deus",
+        "entityType": "Pessoa",
+        "tags": ["imagem de Deus", "queda", "solo", "morte"]
+      }
+    },
+    {
+      "id": "person:apolo",
+      "kind": "person",
+      "label": "Apolo",
+      "aliases": ["Apolo"],
+      "summary": "Apolo era um judeu alexandrino, homem eloqüente e versado nas Escrituras, que chegou a Éfeso e Corinto pregando fervorosamente com base no batismo de João, antes de ser instruído com mais precisão por Prisca e Áquila [121]. Tornou-se um orador brilhante e rivalizou em popularidade retórica com Paulo na comunidade de Corinto [122].",
+      "references": [
+        "Atos 18:24-28",
+        "1 Coríntios 1:12 e 3:4-6",
+        "Tito 3:13",
+        "1 Coríntios 1:12; 3:4-6; 16:12"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apolo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2018%3A24-28%3B%201%20Cor%C3%ADntios%201%3A12%20e%203%3A4-6%3B%20Tito%203%3A13&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Mestre eloquente e figura central em uma das facções de Corinto",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:apostolo-paulo-saulo-de-tarso",
+      "kind": "person",
+      "label": "Apóstolo Paulo (Saulo de Tarso)",
+      "aliases": ["Apóstolo Paulo (Saulo de Tarso)"],
+      "summary": "Saulo, conhecido como Paulo, originou-se de Tarso na Cilícia, sendo um judeu da Diáspora pertencente à tribo de Benjamim, fariseu rigoroso e cidadão romano de nascimento [5] [6]. Inicialmente um zeloso perseguidor das primeiras comunidades messiânicas, experimentou uma convulsão teológica e existencial na estrada de Damasco, onde interpretou a revelação do Cristo ressuscitado como vocação universal para o apostolado aos gentios [7]. Sua trajetória é marcada por viagens missionárias intensas pelo Mediterrâneo Oriental, fundando assembleias (ekklesiai), redigindo cartas normativas e enfrentando constantes conflitos com autoridades judaicas tradicionais e facções judaizantes [8] [9].",
+      "references": [
+        "Romanos 1:1-17",
+        "Gálatas 1-2",
+        "Filipenses 3:4-11",
+        "1 Coríntios 9:1-27"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apostolo-paulo-saulo-de-tarso"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%201%3A1-17%3B%20G%C3%A1latas%201-2%3B%20Filipenses%203%3A4-11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:aquila",
+      "kind": "person",
+      "label": "Áquila",
+      "aliases": ["Áquila"],
+      "summary": "Áquila era um judeu nascido na província do Ponto (Ásia Menor), marido de Prisca, artesão de tendas e cooperador leal de Paulo [70]. Sua trajetória reflete a diáspora judaica e a rápida penetração do movimento cristão nas redes comerciais do Império Romano [71].",
+      "references": ["Atos 18:2-3", "1 Coríntios 16:19"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-aquila"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2018%3A2-3%3B%201%20Cor%C3%ADntios%2016%3A19&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:cefas-pedro",
+      "kind": "person",
+      "label": "Cefas (Pedro)",
+      "aliases": [],
+      "summary": "Símbolo de autoridade apostólica judaico-cristã invocado por uma facção coríntia",
+      "references": ["1 Coríntios 1:12; 3:22; 9:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo da circuncisão, associado a um grupo faccional em Corinto",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:estefanas-fortunato-e-acaico",
+      "kind": "person",
+      "label": "Estéfanas, Fortunato e Acaico",
+      "aliases": [],
+      "summary": "Mensageiros que trouxeram a carta de consulta dos corintios e supriram a ausência da comunidade",
+      "references": ["1 Coríntios 16:15-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Delegação coríntia visitante de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:soshenes",
+      "kind": "person",
+      "label": "Sóshenes",
+      "aliases": [],
+      "summary": "Associado a Paulo na abertura da carta, possivelmente o ex-arqui-sinagoga de Corinto (cf. Atos 18:17)",
+      "references": ["1 Coríntios 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Irmão e co-destinatário da saudação epistolar",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-assembleia-a-ekklesia",
+      "kind": "place",
+      "label": "A Assembleia / A Ekklesia",
+      "aliases": [],
+      "summary": "O espaço de reunião comunitária dos crentes, frequentemente desorganizado por lutas de status e desordem carismática.",
+      "references": ["1 Coríntios 11:18; 14:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "place:cencreia",
+      "kind": "place",
+      "label": "Cencreia",
+      "aliases": [],
+      "summary": "Porto oriental de Corinto, onde havia uma comunidade cristã associada e de onde Febe possivelmente operava.",
+      "references": ["Romanos 16:1", "1 Coríntios 1:2; cf. Romanos 16:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:corinto",
+      "kind": "place",
+      "label": "Corinto",
+      "aliases": [],
+      "summary": "Metrópole comercial com dois portos (Cencreia e Lequeu), famosa pelo templo de Afrodite e cultos mistericos, representando o desafio cultural ao evangelho.",
+      "references": [
+        "Romanos 16:1; 16:23",
+        "1 Coríntios 1:2; Atos 18:1",
+        "2Co 1:1; 10:1",
+        "At 18:1; 1 Ts 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:efeso",
+      "kind": "place",
+      "label": "Éfeso",
+      "aliases": [],
+      "summary": "Metrópole da província romana da Ásia, centro de culto a Ártemis e feitiçaria, destinatária primária (embora ausente em manuscritos antigos)",
+      "references": [
+        "Atos 18:19, 19:1-41, 20:17",
+        "1 Coríntios 16:8; Atos 19:1",
+        "Contexto urbano e sociorreligioso de sincretismo, onde o evangelho confrontou poderes mágicos e o culto imperial.",
+        "1 Tm 1:3",
+        "2 Timóteo 1:18; 4:12"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:templos-pagaos-saloes-de-banquete",
+      "kind": "place",
+      "label": "Templos Pagãos / Salões de Banquete",
+      "aliases": [],
+      "summary": "Espaços onde ocorriam festas cívicas e religiosas ligadas a ídolos, gerando dilemas éticos sobre carne sacrificada.",
+      "references": ["1 Coríntios 8:10; 10:14-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Disputado" }
+    },
+    {
+      "id": "prophecy:1-corintios-genesis-2-7",
+      "kind": "prophecy",
+      "label": "Gênesis 2:7",
+      "aliases": [],
+      "summary": "Contraste tipológico entre o primeiro Adão (alma vivente) e o último Adão (espírito vivificante). Teólogos debatem a extensão soteriológica desta tipologia antropológica.",
+      "references": ["1 Coríntios 15:45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Alusão" }
+    },
+    {
+      "id": "prophecy:1-corintios-isaias-25-8",
+      "kind": "prophecy",
+      "label": "Isaías 25:8",
+      "aliases": [],
+      "summary": "O triunfo escatológico em que a morte foi tragada pela vitória é aplicado à ressurreição final dos corpos. A divergência reside na transição entre a escatologia nacional e a cósmico-individual.",
+      "references": ["1 Coríntios 15:54"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Oráculo" }
+    },
+    {
+      "id": "prophecy:1-corintios-isaias-29-14",
+      "kind": "prophecy",
+      "label": "Isaías 29:14",
+      "aliases": [],
+      "summary": "Paulo utiliza o oráculo de Isaías para demonstrar que Deus destrói a sabedoria dos sábios deste mundo através da mensagem da cruz. Divergências ocorrem entre leituras literais veterotestamentárias e a reaplicação tipológica cristológica.",
+      "references": ["1 Coríntios 1:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:1-corintios-jeremias-9-24",
+      "kind": "prophecy",
+      "label": "Jeremias 9:24",
+      "aliases": [],
+      "summary": "A exortação de que quem se gloria, glorie-se no Senhor é invocada para nivelar qualquer vangloria humana. A recepção posterior enfatiza a exclusão do mérito na soteriologia.",
+      "references": ["1 Coríntios 1:31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:1-corintios-salmos-8-6",
+      "kind": "prophecy",
+      "label": "Salmos 8:6",
+      "aliases": [],
+      "summary": "Afirmação de que todas as coisas foram sujeitas debaixo dos pés de Cristo, interpretada no contexto da soberania cósmica sobre a morte.",
+      "references": ["1 Coríntios 15:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "kind": "prophecy",
+      "label": "1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")",
+      "aliases": [],
+      "summary": "Leitores fundamentalistas interpretam como evento físico de arrebatamento secreto ou espetacular; a erudição crítica vê linguagem apocalíptica tradicional adaptada para afirmar a soberania de Cristo sobre os poderes imperiais.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tradição escatológica" }
+    },
+    {
+      "id": "prophecy:exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46",
+      "kind": "prophecy",
+      "label": "O Cordeiro Pascal como substituto escatológico (Êxodo 12:46)",
+      "aliases": [],
+      "summary": "Debate entre leituras cultuais do templo judaico antigo e leituras soteriológicas cristãs da morte expiatória.",
+      "references": ["João 19:36; 1 Coríntios 5:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia" }
+    },
+    {
+      "id": "prophecy:jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive",
+      "kind": "prophecy",
+      "label": "Jó 19:25 (\"Porque eu sei que o meu Redentor vive...\")",
+      "aliases": [],
+      "summary": "Interpretado na patrística e liturgia cristã como anúncio da ressurreição corporal de Cristo, embora no contexto original exprime a esperança de Jó em uma vindicação jurídica ainda em vida.",
+      "references": ["Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/recepção posterior" }
+    },
+    {
+      "id": "prophecy:oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara",
+      "kind": "prophecy",
+      "label": "\"Vinde, e tornemos para o Senhor, porque ele toreou, e nos sarará...\"",
+      "aliases": [],
+      "summary": "A promessa de revitalização ao \"terceiro dia\" é aludida na patrística e no NT como reflexo da ressurreição. Debate acadêmico sobre se o texto original aludia à rápida recuperação nacional ou a uma pré-figuração escatológica-messiânica.",
+      "references": ["Oseias 6:1-3; 1 Coríntios 15:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Alusão" }
+    },
+    {
+      "id": "prophecy:salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita",
+      "kind": "prophecy",
+      "label": "\"O Senhor disse ao meu senhor: Assenta-te à minha mão direita\"",
+      "aliases": [],
+      "summary": "Interpretado originalmente como oráculo de entronização para o rei davídico; no Novo Testamento, é aplicado à exaltação messiânica e ascensão de Jesus Cristo à destra de Deus.",
+      "references": ["Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/citação" }
+    },
+    {
+      "id": "term:agape",
+      "kind": "term",
+      "label": "Agapē",
+      "aliases": ["ἀγάπη", "agapē"],
+      "summary": "Amor orientado ao bem do outro e à fidelidade comunitária, sem que o termo possa ser reduzido a sentimento sem conflito.",
+      "references": ["Jo 13:34–35", "1Co 13", "1Jo 4:7–12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["agape"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João e Paulo, o amor inclui ação, discernimento, renúncia ao privilégio e compromisso com a verdade; não é mera aprovação.",
+        "translationNote": "A distinção popular entre eros, philia e agapē é simplificada demais para servir como regra exegética. O contexto literário é decisivo."
+      }
+    },
+    {
+      "id": "term:charisma",
+      "kind": "term",
+      "label": "Charisma",
+      "aliases": ["χάρισμα", "charisma"],
+      "summary": "Dom concedido pela graça, especialmente em contextos de serviço e edificação comunitária.",
+      "references": ["Rm 12:6–8", "1Co 12:4–11", "1Pe 4:10–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charisma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo usa o termo para dons diversos, vida, celibato e participação no corpo; não nomeia automaticamente performance pública ou status espiritual.",
+        "translationNote": "A tradução por ‘dom espiritual’ é útil, mas alguns contextos pedem ‘dom’ sem estreitar o sentido ao extraordinário."
+      }
+    },
+    {
+      "id": "term:ekklesia",
+      "kind": "term",
+      "label": "Ekklesia",
+      "aliases": ["ἐκκλησία", "ekklēsia"],
+      "summary": "Assembleia, reunião ou comunidade convocada; no Novo Testamento, não significa automaticamente uma instituição moderna com todas as suas estruturas posteriores.",
+      "references": ["Mt 16:18", "At 2:42–47", "1Co 12:12–27"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ekklesia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode designar a reunião local, a rede de comunidades ou a comunidade escatológica. Atos e cartas mostram práticas e conflitos, não apenas uma definição ideal.",
+        "translationNote": "‘Igreja’ é uma tradução histórica, mas o leitor deve recuperar a dimensão de assembleia, participação, disciplina e missão."
+      }
+    },
+    {
+      "id": "term:eschaton",
+      "kind": "term",
+      "label": "Eschaton",
+      "aliases": ["ἔσχατος", "eschatos"],
+      "summary": "Último, extremo ou derradeiro; pode descrever tempo, posição, prioridade social ou horizonte escatológico.",
+      "references": ["Jo 6:39–40", "1Co 15:45", "Ap 22:13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["eschaton"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João pode opor primeiro e último; em cartas e Apocalipse participa de uma imaginação de consumação. Não deve ser transformado imediatamente em cronograma.",
+        "translationNote": "‘Fim’ é uma possibilidade em algumas expressões, mas ‘último’ ou ‘derradeiro’ preserva melhor a polissemia."
+      }
+    },
+    {
+      "id": "term:pneuma",
+      "kind": "term",
+      "label": "Pneuma",
+      "aliases": ["πνεῦμα", "pneuma"],
+      "summary": "Vento, sopro, espírito, disposição interior ou Espírito Santo, conforme o contexto literário e sintático.",
+      "references": ["Jo 3:5–8", "At 2:1–21", "1Co 12:4–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pneuma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O Novo Testamento explora a plasticidade do termo; em João, Paulo e Lucas, a mesma palavra participa de argumentos diferentes sobre vida, discernimento e missão.",
+        "translationNote": "O tradutor deve distinguir espírito humano, espírito imundo e Espírito Santo sem apagar os jogos semânticos que o autor constrói."
+      }
+    },
+    {
+      "id": "theme:a-ceia-do-senhor",
+      "kind": "theme",
+      "label": "A Ceia do Senhor",
+      "aliases": [],
+      "summary": "Refeição cultual que comemora a morte sacrificial de Cristo e exige exame de consciência e igualdade social",
+      "references": ["1 Coríntios 11:20-34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ordinança memorial e sacramental da comunidade",
+        "entityType": "Instituição / Ritual"
+      }
+    },
+    {
+      "id": "theme:a-familia-de-cloe",
+      "kind": "theme",
+      "label": "A família de Cloé",
+      "aliases": [],
+      "summary": "Grupo cujos relatos serviram de base primária para os capítulos 1 a 6 da epístola",
+      "references": ["1 Coríntios 1:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Informantes de Paulo em Éfeso sobre as contendas em Corinto",
+        "entityType": "Povo / Grupo"
+      }
+    },
+    {
+      "id": "theme:corinto",
+      "kind": "theme",
+      "label": "Corinto",
+      "aliases": [],
+      "summary": "Cenário urbano plural, comercial e moralmente permissivo onde a igreja está plantada",
+      "references": ["1 Coríntios 1:2; Atos 18:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cidade cosmopolita, capital da província romana da Acaia",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:corpo-de-cristo",
+      "kind": "theme",
+      "label": "Corpo de Cristo",
+      "aliases": [],
+      "summary": "Unidade mística e orgânica dos crentes onde cada membro possui função insubstituível e interdependente",
+      "references": ["1 Coríntios 12:12-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Metáfora eclesiológica fundamental",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:igreja-de-deus-em-corinto",
+      "kind": "theme",
+      "label": "Igreja de Deus em Corinto",
+      "aliases": [],
+      "summary": "Corpo congregacional destinatário da carta, composto por gentios e judeus convertidos",
+      "references": ["1 Coríntios 1:2; 11:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade de crentes chamada à santidade e atormentada por divisões",
+        "entityType": "Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo:chapter-1-corintios-1",
+      "from": "event:1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Chegada das Notícias de Cloé e Envio de Timóteo” cita explicitamente 1 Coríntios 1 Coríntios 1:11; 4:17; 16:10.",
+      "references": ["1 Coríntios 1 Coríntios 1:11; 4:17; 16:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo:chapter-1-corintios-16",
+      "from": "event:1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Chegada das Notícias de Cloé e Envio de Timóteo” cita explicitamente 1 Coríntios 1 Coríntios 1:11; 4:17; 16:10.",
+      "references": ["1 Coríntios 1 Coríntios 1:11; 4:17; 16:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo:chapter-1-corintios-4",
+      "from": "event:1-corintios-chegada-das-noticias-de-cloe-e-envio-de-timoteo",
+      "to": "chapter:1-corintios:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Chegada das Notícias de Cloé e Envio de Timóteo” cita explicitamente 1 Coríntios 1 Coríntios 1:11; 4:17; 16:10.",
+      "references": ["1 Coríntios 1 Coríntios 1:11; 4:17; 16:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-crise-na-ceia-do-senhor-e-exclusao-social:chapter-1-corintios-11",
+      "from": "event:1-corintios-crise-na-ceia-do-senhor-e-exclusao-social",
+      "to": "chapter:1-corintios:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Crise na Ceia do Senhor e Exclusão Social” cita explicitamente 1 Coríntios 1 Coríntios 11:17-34.",
+      "references": ["1 Coríntios 1 Coríntios 11:17-34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-debate-e-defesa-da-ressurreicao-corporal:chapter-1-corintios-15",
+      "from": "event:1-corintios-debate-e-defesa-da-ressurreicao-corporal",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Debate e Defesa da Ressurreição Corporal” cita explicitamente 1 Coríntios 1 Coríntios 15:1-58.",
+      "references": ["1 Coríntios 1 Coríntios 15:1-58"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-fundacao-da-igreja-em-corinto:chapter-1-corintios-3",
+      "from": "event:1-corintios-fundacao-da-igreja-em-corinto",
+      "to": "chapter:1-corintios:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Fundação da Igreja em Corinto” cita explicitamente 1 Coríntios Atos 18:1-17; 1 Coríntios 3:6.",
+      "references": ["1 Coríntios Atos 18:1-17; 1 Coríntios 3:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-resposta-a-carta-dos-corintios-e-redacao-de-1-corintios:chapter-1-corintios-16",
+      "from": "event:1-corintios-resposta-a-carta-dos-corintios-e-redacao-de-1-corintios",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Resposta à Carta dos Coríntios e Redação de 1 Coríntios” cita explicitamente 1 Coríntios 1 Coríntios 7:1; 16:12.",
+      "references": ["1 Coríntios 1 Coríntios 7:1; 16:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-corintios-resposta-a-carta-dos-corintios-e-redacao-de-1-corintios:chapter-1-corintios-7",
+      "from": "event:1-corintios-resposta-a-carta-dos-corintios-e-redacao-de-1-corintios",
+      "to": "chapter:1-corintios:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Resposta à Carta dos Coríntios e Redação de 1 Coríntios” cita explicitamente 1 Coríntios 1 Coríntios 7:1; 16:12.",
+      "references": ["1 Coríntios 1 Coríntios 7:1; 16:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-adao:chapter-1-corintios-15",
+      "from": "person:adao",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Adão” cita explicitamente 1 Coríntios 15:45–49.",
+      "references": ["1 Coríntios 15:45–49"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apolo:chapter-1-corintios-1",
+      "from": "person:apolo",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apolo” cita explicitamente 1 Coríntios 1:12 e 3:4-6.",
+      "references": ["1 Coríntios 1:12 e 3:4-6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apolo:chapter-1-corintios-16",
+      "from": "person:apolo",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apolo” cita explicitamente 1 Coríntios 1:12; 3:4-6; 16:12.",
+      "references": ["1 Coríntios 1:12; 3:4-6; 16:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apolo:chapter-1-corintios-3",
+      "from": "person:apolo",
+      "to": "chapter:1-corintios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apolo” cita explicitamente 1 Coríntios 1:12; 3:4-6; 16:12.",
+      "references": ["1 Coríntios 1:12; 3:4-6; 16:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apostolo-paulo-saulo-de-tarso:chapter-1-corintios-9",
+      "from": "person:apostolo-paulo-saulo-de-tarso",
+      "to": "chapter:1-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apóstolo Paulo (Saulo de Tarso)” cita explicitamente 1 Coríntios 9:1-27.",
+      "references": ["1 Coríntios 9:1-27"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-aquila:chapter-1-corintios-16",
+      "from": "person:aquila",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Áquila” cita explicitamente 1 Coríntios 16:19.",
+      "references": ["1 Coríntios 16:19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cefas-pedro:chapter-1-corintios-1",
+      "from": "person:cefas-pedro",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cefas (Pedro)” cita explicitamente 1 Coríntios 1:12; 3:22; 9:5.",
+      "references": ["1 Coríntios 1:12; 3:22; 9:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cefas-pedro:chapter-1-corintios-3",
+      "from": "person:cefas-pedro",
+      "to": "chapter:1-corintios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cefas (Pedro)” cita explicitamente 1 Coríntios 1:12; 3:22; 9:5.",
+      "references": ["1 Coríntios 1:12; 3:22; 9:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cefas-pedro:chapter-1-corintios-9",
+      "from": "person:cefas-pedro",
+      "to": "chapter:1-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cefas (Pedro)” cita explicitamente 1 Coríntios 1:12; 3:22; 9:5.",
+      "references": ["1 Coríntios 1:12; 3:22; 9:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-estefanas-fortunato-e-acaico:chapter-1-corintios-16",
+      "from": "person:estefanas-fortunato-e-acaico",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Estéfanas, Fortunato e Acaico” cita explicitamente 1 Coríntios 16:15-17.",
+      "references": ["1 Coríntios 16:15-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-1-corintios-1",
+      "from": "person:paulo",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 1 Coríntios 1:1; 3:6; 9:1-2.",
+      "references": ["1 Coríntios 1:1; 3:6; 9:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-1-corintios-3",
+      "from": "person:paulo",
+      "to": "chapter:1-corintios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 1 Coríntios 1:1; 3:6; 9:1-2.",
+      "references": ["1 Coríntios 1:1; 3:6; 9:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-1-corintios-9",
+      "from": "person:paulo",
+      "to": "chapter:1-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 1 Coríntios 1:1; 3:6; 9:1-2.",
+      "references": ["1 Coríntios 1:1; 3:6; 9:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-soshenes:chapter-1-corintios-1",
+      "from": "person:soshenes",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sóshenes” cita explicitamente 1 Coríntios 1:1.",
+      "references": ["1 Coríntios 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-assembleia-a-ekklesia:chapter-1-corintios-11",
+      "from": "place:a-assembleia-a-ekklesia",
+      "to": "chapter:1-corintios:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Assembleia / A Ekklesia” cita explicitamente 1 Coríntios 11:18; 14:23.",
+      "references": ["1 Coríntios 11:18; 14:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-assembleia-a-ekklesia:chapter-1-corintios-14",
+      "from": "place:a-assembleia-a-ekklesia",
+      "to": "chapter:1-corintios:14",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Assembleia / A Ekklesia” cita explicitamente 1 Coríntios 11:18; 14:23.",
+      "references": ["1 Coríntios 11:18; 14:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cencreia:chapter-1-corintios-1",
+      "from": "place:cencreia",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cencreia” cita explicitamente 1 Coríntios 1:2; cf. Romanos 16:1.",
+      "references": ["1 Coríntios 1:2; cf. Romanos 16:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-corinto:chapter-1-corintios-1",
+      "from": "place:corinto",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Corinto” cita explicitamente 1 Coríntios 1:2; Atos 18:1.",
+      "references": ["1 Coríntios 1:2; Atos 18:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-efeso:chapter-1-corintios-16",
+      "from": "place:efeso",
+      "to": "chapter:1-corintios:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Éfeso” cita explicitamente 1 Coríntios 16:8; Atos 19:1.",
+      "references": ["1 Coríntios 16:8; Atos 19:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-templos-pagaos-saloes-de-banquete:chapter-1-corintios-10",
+      "from": "place:templos-pagaos-saloes-de-banquete",
+      "to": "chapter:1-corintios:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Templos Pagãos / Salões de Banquete” cita explicitamente 1 Coríntios 8:10; 10:14-22.",
+      "references": ["1 Coríntios 8:10; 10:14-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-templos-pagaos-saloes-de-banquete:chapter-1-corintios-8",
+      "from": "place:templos-pagaos-saloes-de-banquete",
+      "to": "chapter:1-corintios:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Templos Pagãos / Salões de Banquete” cita explicitamente 1 Coríntios 8:10; 10:14-22.",
+      "references": ["1 Coríntios 8:10; 10:14-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-corintios-genesis-2-7:chapter-1-corintios-15",
+      "from": "prophecy:1-corintios-genesis-2-7",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 2:7” cita explicitamente 1 Coríntios 15:45.",
+      "references": ["1 Coríntios 15:45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-corintios-isaias-25-8:chapter-1-corintios-15",
+      "from": "prophecy:1-corintios-isaias-25-8",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 25:8” cita explicitamente 1 Coríntios 15:54.",
+      "references": ["1 Coríntios 15:54"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-corintios-isaias-29-14:chapter-1-corintios-1",
+      "from": "prophecy:1-corintios-isaias-29-14",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 29:14” cita explicitamente 1 Coríntios 1:19.",
+      "references": ["1 Coríntios 1:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-corintios-jeremias-9-24:chapter-1-corintios-1",
+      "from": "prophecy:1-corintios-jeremias-9-24",
+      "to": "chapter:1-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 9:24” cita explicitamente 1 Coríntios 1:31.",
+      "references": ["1 Coríntios 1:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-corintios-salmos-8-6:chapter-1-corintios-15",
+      "from": "prophecy:1-corintios-salmos-8-6",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmos 8:6” cita explicitamente 1 Coríntios 15:27.",
+      "references": ["1 Coríntios 15:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido:chapter-1-corintios-15",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")” cita explicitamente Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46:chapter-1-corintios-5",
+      "from": "prophecy:exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46",
+      "to": "chapter:1-corintios:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Cordeiro Pascal como substituto escatológico (Êxodo 12:46)” cita explicitamente João 19:36; 1 Coríntios 5:7.",
+      "references": ["João 19:36; 1 Coríntios 5:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive:chapter-1-corintios-15",
+      "from": "prophecy:jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó 19:25 (\"Porque eu sei que o meu Redentor vive...\")” cita explicitamente Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5.",
+      "references": ["Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara:chapter-1-corintios-15",
+      "from": "prophecy:oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vinde, e tornemos para o Senhor, porque ele toreou, e nos sarará...\"” cita explicitamente Oseias 6:1-3; 1 Coríntios 15:4.",
+      "references": ["Oseias 6:1-3; 1 Coríntios 15:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita:chapter-1-corintios-15",
+      "from": "prophecy:salmos-o-senhor-disse-ao-meu-senhor-assenta-te-a-minha-mao-direita",
+      "to": "chapter:1-corintios:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"O Senhor disse ao meu senhor: Assenta-te à minha mão direita\"” cita explicitamente Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25.",
+      "references": ["Sl 110:1; At 2:34-35; Mt 22:44; 1 Co 15:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-1:theme-a-familia-de-cloe",
+      "from": "chapter:1-corintios:1",
+      "to": "theme:a-familia-de-cloe",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A família de Cloé” cita explicitamente 1 Coríntios 1:11.",
+      "references": ["1 Coríntios 1:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-1:theme-corinto",
+      "from": "chapter:1-corintios:1",
+      "to": "theme:corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Corinto” cita explicitamente 1 Coríntios 1:2; Atos 18:1.",
+      "references": ["1 Coríntios 1:2; Atos 18:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-1:theme-igreja-de-deus-em-corinto",
+      "from": "chapter:1-corintios:1",
+      "to": "theme:igreja-de-deus-em-corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja de Deus em Corinto” cita explicitamente 1 Coríntios 1:2; 11:22.",
+      "references": ["1 Coríntios 1:2; 11:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-11:doctrine-ordenancas",
+      "from": "chapter:1-corintios:11",
+      "to": "doctrine:ordenancas",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Batismo nas águas, Ceia e lavagem dos pés” cita explicitamente Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-11:theme-a-ceia-do-senhor",
+      "from": "chapter:1-corintios:11",
+      "to": "theme:a-ceia-do-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Ceia do Senhor” cita explicitamente 1 Coríntios 11:20-34.",
+      "references": ["1 Coríntios 11:20-34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-11:theme-igreja-de-deus-em-corinto",
+      "from": "chapter:1-corintios:11",
+      "to": "theme:igreja-de-deus-em-corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja de Deus em Corinto” cita explicitamente 1 Coríntios 1:2; 11:22.",
+      "references": ["1 Coríntios 1:2; 11:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-12:doctrine-cura",
+      "from": "chapter:1-corintios:12",
+      "to": "doctrine:cura",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Cura divina e oração” cita explicitamente Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-12:doctrine-dons",
+      "from": "chapter:1-corintios:12",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-12:doctrine-espirito",
+      "from": "chapter:1-corintios:12",
+      "to": "doctrine:espirito",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Espírito Santo e sua presença” cita explicitamente Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-12:theme-corpo-de-cristo",
+      "from": "chapter:1-corintios:12",
+      "to": "theme:corpo-de-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Corpo de Cristo” cita explicitamente 1 Coríntios 12:12-27.",
+      "references": ["1 Coríntios 12:12-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-13:doctrine-dons",
+      "from": "chapter:1-corintios:13",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-14:doctrine-culto-santidade",
+      "from": "chapter:1-corintios:14",
+      "to": "doctrine:culto-santidade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Culto, oração e vida comunitária” cita explicitamente At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-14:doctrine-dons",
+      "from": "chapter:1-corintios:14",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-15:doctrine-cristo",
+      "from": "chapter:1-corintios:15",
+      "to": "doctrine:cristo",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Jesus Cristo: encarnação, cruz e ressurreição” cita explicitamente Lc 1:26–38; 1Co 15:3–8; Hb 7:25.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-corintios-15:doctrine-escatologia",
+      "from": "chapter:1-corintios:15",
+      "to": "doctrine:escatologia",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Segunda vinda, milênio e ressurreição” cita explicitamente 1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:related-term:chapter-1-corintios-12:term-charisma",
+      "from": "chapter:1-corintios:12",
+      "to": "term:charisma",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charisma” cita explicitamente 1Co 12:4–11.",
+      "references": ["1Co 12:4–11"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-corintios-12:term-ekklesia",
+      "from": "chapter:1-corintios:12",
+      "to": "term:ekklesia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Ekklesia” cita explicitamente 1Co 12:12–27.",
+      "references": ["1Co 12:12–27"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-corintios-12:term-pneuma",
+      "from": "chapter:1-corintios:12",
+      "to": "term:pneuma",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Pneuma” cita explicitamente 1Co 12:4–11.",
+      "references": ["1Co 12:4–11"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-corintios-13:term-agape",
+      "from": "chapter:1-corintios:13",
+      "to": "term:agape",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Agapē” cita explicitamente 1Co 13.",
+      "references": ["1Co 13"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-1-corintios-15:term-eschaton",
+      "from": "chapter:1-corintios:15",
+      "to": "term:eschaton",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Eschaton” cita explicitamente 1Co 15:45.",
+      "references": ["1Co 15:45"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

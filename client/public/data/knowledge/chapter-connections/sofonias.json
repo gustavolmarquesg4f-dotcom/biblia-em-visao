@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "book": "Sofonias",
+  "count": 28,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "event:sofonias-a-conversao-universal-dos-labios-e-o-regozijo-divino-em-siao",
+      "kind": "event",
+      "label": "A Conversão Universal dos Lábios e o Regozijo Divino em Sião",
+      "aliases": [],
+      "summary": "Transformação dos povos para invocar a Iavé com um só ombro, seguida pelo cântico de júbilo de Deus sobre seu povo restaurado",
+      "references": ["Sofonias 3:9-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Apoteose escatológica do livro, unindo julgamento e graça redentora em escala global",
+        "entities": "Remanescente Humilde, Sião"
+      }
+    },
+    {
+      "id": "event:sofonias-a-invocacao-do-arrependimento-e-a-busca-dos-mansos",
+      "kind": "event",
+      "label": "A Invocação do Arrependimento e a Busca dos Mansos",
+      "aliases": [],
+      "summary": "Apelo urgente para que a nação se reúna antes que o decreto da ira se execute, buscando justiça e humildade",
+      "references": ["Sofonias 2:1-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Última janela de oportunidade soteriológica para evitar a catástrofe histórica iminente",
+        "entities": "Remanescente Humilde, Sofonias"
+      }
+    },
+    {
+      "id": "event:sofonias-anuncio-do-juizo-universal-e-descriacao-cosmica",
+      "kind": "event",
+      "label": "Anúncio do Juízo Universal e Descriação Cósmica",
+      "aliases": [],
+      "summary": "Iavé declara a remoção total de todas as coisas da face da terra, afetando homens, animais, aves e peixes",
+      "references": ["Sofonias 1:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Reverte o relato criacional do Gênesis, estabelecendo o tom de julgamento absoluto sobre a criação corrompida",
+        "entities": "Sofonias, Criação"
+      }
+    },
+    {
+      "id": "event:sofonias-derrocada-das-nacoes-vizinhas-e-destruicao-de-ninive",
+      "kind": "event",
+      "label": "Derrocada das Nações Vizinhas e Destruição de Nínive",
+      "aliases": [],
+      "summary": "Anúncio da ruína de Gaza, Ascalom, Moabe, Amom e a espetacular desolação de Nínive, a cidade soberba",
+      "references": ["Sofonias 2:4-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Redefinição geopolítica global sob o domínio soberano de Iavé, que humilha impérios mundiais",
+        "entities": "Assíria, Filisteus, Moabe"
+      }
+    },
+    {
+      "id": "event:sofonias-julgamento-da-cidade-opressora-e-corrupcao-institucional",
+      "kind": "event",
+      "label": "Julgamento da Cidade Opressora e Corrupção Institucional",
+      "aliases": [],
+      "summary": "Acusação detalhada contra Jerusalém, cujos líderes corromperam a justiça, a profecia e o sacerdócio",
+      "references": ["Sofonias 3:1-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstração de que a opressão social interna é tão ofensiva a Deus quanto a idolatria externa",
+        "entities": "Jerusalém, Juízes e Profetas"
+      }
+    },
+    {
+      "id": "event:sofonias-o-banquete-sacrificial-de-iave-contra-a-aristocracia",
+      "kind": "event",
+      "label": "O Banquete Sacrificial de Iavé contra a Aristocracia",
+      "aliases": [],
+      "summary": "Convocação ao silêncio sagrado enquanto Iavé prepara seu sacrifício, convidando os inimigos internos (príncipes e vestidos estrangeiros)",
+      "references": ["Sofonias 1:7-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Inversão irônica onde os líderes de Judá tornam-se a hóstia sacrificada sob a ira divina",
+        "entities": "Sofonias, Príncipes de Judá"
+      }
+    },
+    {
+      "id": "event:sofonias-purificacao-do-culto-em-jerusalem-e-punicao-dos-idolatras",
+      "kind": "event",
+      "label": "Purificação do Culto em Jerusalém e Punição dos Idólatras",
+      "aliases": [],
+      "summary": "O profeta denuncia e condena os adoradores de Baal, os sacerdotes idólatras, os adoradores dos astros e os que juram por Moloque",
+      "references": ["Sofonias 1:4-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desmantelamento da legitimidade das práticas sincréticas toleradas no oficialato judaico",
+        "entities": "Sofonias, Sacerdotes de Baal"
+      }
+    },
+    {
+      "id": "people-group:assiria-ninive",
+      "kind": "people-group",
+      "label": "Assíria (Nínive)",
+      "aliases": [],
+      "summary": "Símbolo máximo da soberba geopolítica humana destinada à humilhação e ruína total",
+      "references": ["Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Império hegemônico do Oriente Próximo e sua capital imperial",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:filisteus-quereteus",
+      "kind": "people-group",
+      "label": "Filisteus (Quereteus)",
+      "aliases": [],
+      "summary": "Alvo de julgamento devido à inimizade histórica contra o pacto de Iavé",
+      "references": ["Sofonias 2:5-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Habitantes da costa marítima sudoeste de Canaã",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:moabe-e-amom",
+      "kind": "people-group",
+      "label": "Moabe e Amom",
+      "aliases": [],
+      "summary": "Acusadas de insultar e ultrajar o povo de Deus, enfrentando desolação perpétua",
+      "references": ["Sofonias 2:8-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nações vizinhas transjordanianas, descendentes de Ló",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:cusi",
+      "kind": "person",
+      "label": "Cusi",
+      "aliases": [],
+      "summary": "Nome de origem possivelmente etíope/cusita ou nome hebraico descritivo, alvo de especulação acadêmica sobre ascendência mista",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Pai de Sofonias na linhagem profética",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:ezequias",
+      "kind": "person",
+      "label": "Ezequias",
+      "aliases": [],
+      "summary": "Promotor da grande purificação cultual, da reunificação da Páscoa e beneficiário do livramento divino contra a Assíria.",
+      "references": [
+        "2 Reis 18-20",
+        "2Cr 29:1 - 32:33",
+        "Isaías 36:1, 38:5, 39:8",
+        "Sofonias 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Judá, tataravô de Sofonias",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josias",
+      "kind": "person",
+      "label": "Josias",
+      "aliases": [],
+      "summary": "Último grande rei reformador que restaurou o Templo, encontrou o Livro da Lei e celebrou uma Páscoa memorável antes de sua trágica morte em Megido.",
+      "references": ["2 Reis 22-23", "2Cr 34:1 - 35:27", "Sofonias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Judá durante cujo reinado (640–609 a.C.) o profeta exerceu seu ministério",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:sofonias",
+      "kind": "person",
+      "label": "Sofonias",
+      "aliases": [],
+      "summary": "Sua linhagem real legitima sua denúncia contra a aristocracia corrupta, operando como voz crítica interna ao sistema político de Judá",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta autor do livro, filho de Cusi e descendente em quarta geração do rei Ezequias",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:cush-etiopia",
+      "kind": "place",
+      "label": "Cush (Etiópia)",
+      "aliases": [],
+      "summary": "Território meridional remoto mencionado como alvo do juízo de Iavé pela espada",
+      "references": ["Sofonias 2:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:filistia-gaza-ascalom-ecrom-asdode",
+      "kind": "place",
+      "label": "Filistia (Gaza, Ascalom, Ecrom, Asdode)",
+      "aliases": [],
+      "summary": "Região costeira sudoeste, alvo de julgamento por sua hostilidade histórica contra Judá",
+      "references": ["Sofonias 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:moabe-e-amom",
+      "kind": "place",
+      "label": "Moabe e Amom",
+      "aliases": [],
+      "summary": "Territórios transjordanianos a leste, castigados por sua soberba e zombaria contra o povo de Deus",
+      "references": ["Sofonias 2:8-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:ninive-assiria",
+      "kind": "place",
+      "label": "Nínive (Assíria)",
+      "aliases": [],
+      "summary": "Capital do Império Assírio, símbolo máximo de orgulho imperial transformada em deserto para habitação de animais",
+      "references": ["Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "prophecy:jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive",
+      "kind": "prophecy",
+      "label": "Naum 1:1-3 (O Juízo definitivo contra Nínive)",
+      "aliases": [],
+      "summary": "Enquanto Jonas relata a suspensão temporária do juízo sobre Nínive devido ao arrependimento, o livro de Naum profetiza e celebra a destruição definitiva da mesma cidade séculos depois por sua crueldade contumaz.",
+      "references": ["Naum 3:1-19; Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo complementar / Contraste canônico" }
+    },
+    {
+      "id": "prophecy:naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8",
+      "kind": "prophecy",
+      "label": "\"E Nínive era como um tanque de águas...\" (Naum 2:8)",
+      "aliases": [],
+      "summary": "Profecias convergentes que anunciam o fim catastrófico da superpotência assíria.",
+      "references": ["Isaías 10:12; Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Recepção histórica" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto",
+      "kind": "prophecy",
+      "label": "Obadias 1:15 (\"Porque o dia do Senhor está perto...\")",
+      "aliases": [],
+      "summary": "Conexão temática e terminológica com a tradição profética clássica do Dia do Senhor, interpretada por alguns como eco litúrgico compartilhado e por outros como dependência direta.",
+      "references": ["Joel 1:15, 3:14; Sofonias 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Recepção posterior" }
+    },
+    {
+      "id": "theme:baal",
+      "kind": "theme",
+      "label": "Baal",
+      "aliases": [],
+      "summary": "Representa a apostasia religiosa e a infiltração de cultos estrangeiros no oficialato judaico",
+      "references": ["Sofonias 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Divindade cananeia, cujo culto sincretista é severamente condenado",
+        "entityType": "Povo/Conceito"
+      }
+    },
+    {
+      "id": "theme:cush-etiopia",
+      "kind": "theme",
+      "label": "Cush (Etiópia)",
+      "aliases": [],
+      "summary": "Objeto do juízo universal, demonstrando que o braço de Iavé alcança os confins da terra",
+      "references": ["Sofonias 2:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região meridional distante associada ao horizonte geográfico do mundo conhecido",
+        "entityType": "Povo/Lugar"
+      }
+    },
+    {
+      "id": "theme:dia-do-senhor-yom-yhwh",
+      "kind": "theme",
+      "label": "Dia do Senhor (Yom YHWH)",
+      "aliases": [],
+      "summary": "Eixo central de toda a teologia do livro, combinando terror e esperança",
+      "references": ["Sofonias 1:7, 14-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Evento escatológico e histórico de intervenção judicial divina de julgamento e salvação",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:jerusalem-a-cidade-rebelde",
+      "kind": "theme",
+      "label": "Jerusalém (A Cidade Rebelde)",
+      "aliases": [],
+      "summary": "Destinatária principal das acusações de rebeldia, opressão e contaminação cultual",
+      "references": ["Sofonias 3:1-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital política e religiosa de Judá, epicentro da corrupção institucional",
+        "entityType": "Lugar/Instituição"
+      }
+    },
+    {
+      "id": "theme:remanescente-humilde-anavim",
+      "kind": "theme",
+      "label": "Remanescente Humilde (Anavim)",
+      "aliases": [],
+      "summary": "Núcleo teológico da restauração pós-juízo, imune à soberba da aristocracia",
+      "references": ["Sofonias 3:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo social e espiritual constituído pelos pobres e aflitos que confiam em Iavé",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-sofonias-a-conversao-universal-dos-labios-e-o-regozijo-divino-em-siao:chapter-sofonias-3",
+      "from": "event:sofonias-a-conversao-universal-dos-labios-e-o-regozijo-divino-em-siao",
+      "to": "chapter:sofonias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Conversão Universal dos Lábios e o Regozijo Divino em Sião” cita explicitamente Sofonias 3:9-20.",
+      "references": ["Sofonias 3:9-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-a-invocacao-do-arrependimento-e-a-busca-dos-mansos:chapter-sofonias-2",
+      "from": "event:sofonias-a-invocacao-do-arrependimento-e-a-busca-dos-mansos",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Invocação do Arrependimento e a Busca dos Mansos” cita explicitamente Sofonias 2:1-3.",
+      "references": ["Sofonias 2:1-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-anuncio-do-juizo-universal-e-descriacao-cosmica:chapter-sofonias-1",
+      "from": "event:sofonias-anuncio-do-juizo-universal-e-descriacao-cosmica",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Anúncio do Juízo Universal e Descriação Cósmica” cita explicitamente Sofonias 1:2-3.",
+      "references": ["Sofonias 1:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-derrocada-das-nacoes-vizinhas-e-destruicao-de-ninive:chapter-sofonias-2",
+      "from": "event:sofonias-derrocada-das-nacoes-vizinhas-e-destruicao-de-ninive",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Derrocada das Nações Vizinhas e Destruição de Nínive” cita explicitamente Sofonias 2:4-15.",
+      "references": ["Sofonias 2:4-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-julgamento-da-cidade-opressora-e-corrupcao-institucional:chapter-sofonias-3",
+      "from": "event:sofonias-julgamento-da-cidade-opressora-e-corrupcao-institucional",
+      "to": "chapter:sofonias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Julgamento da Cidade Opressora e Corrupção Institucional” cita explicitamente Sofonias 3:1-7.",
+      "references": ["Sofonias 3:1-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-o-banquete-sacrificial-de-iave-contra-a-aristocracia:chapter-sofonias-1",
+      "from": "event:sofonias-o-banquete-sacrificial-de-iave-contra-a-aristocracia",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Banquete Sacrificial de Iavé contra a Aristocracia” cita explicitamente Sofonias 1:7-13.",
+      "references": ["Sofonias 1:7-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-sofonias-purificacao-do-culto-em-jerusalem-e-punicao-dos-idolatras:chapter-sofonias-1",
+      "from": "event:sofonias-purificacao-do-culto-em-jerusalem-e-punicao-dos-idolatras",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Purificação do Culto em Jerusalém e Punição dos Idólatras” cita explicitamente Sofonias 1:4-6.",
+      "references": ["Sofonias 1:4-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-assiria-ninive:chapter-sofonias-2",
+      "from": "people-group:assiria-ninive",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Assíria (Nínive)” cita explicitamente Sofonias 2:13-15.",
+      "references": ["Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filisteus-quereteus:chapter-sofonias-2",
+      "from": "people-group:filisteus-quereteus",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filisteus (Quereteus)” cita explicitamente Sofonias 2:5-7.",
+      "references": ["Sofonias 2:5-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-moabe-e-amom:chapter-sofonias-2",
+      "from": "people-group:moabe-e-amom",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moabe e Amom” cita explicitamente Sofonias 2:8-10.",
+      "references": ["Sofonias 2:8-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cusi:chapter-sofonias-1",
+      "from": "person:cusi",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cusi” cita explicitamente Sofonias 1:1.",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-sofonias-1",
+      "from": "person:ezequias",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente Sofonias 1:1.",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josias:chapter-sofonias-1",
+      "from": "person:josias",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josias” cita explicitamente Sofonias 1:1.",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sofonias:chapter-sofonias-1",
+      "from": "person:sofonias",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias” cita explicitamente Sofonias 1:1.",
+      "references": ["Sofonias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cush-etiopia:chapter-sofonias-2",
+      "from": "place:cush-etiopia",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cush (Etiópia)” cita explicitamente Sofonias 2:12.",
+      "references": ["Sofonias 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-filistia-gaza-ascalom-ecrom-asdode:chapter-sofonias-2",
+      "from": "place:filistia-gaza-ascalom-ecrom-asdode",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Filistia (Gaza, Ascalom, Ecrom, Asdode)” cita explicitamente Sofonias 2:4.",
+      "references": ["Sofonias 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-sofonias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Sofonias 1:4; 3:14.",
+      "references": ["Sofonias 1:4; 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-sofonias-3",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:sofonias:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Sofonias 1:4; 3:14.",
+      "references": ["Sofonias 1:4; 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-moabe-e-amom:chapter-sofonias-2",
+      "from": "place:moabe-e-amom",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Moabe e Amom” cita explicitamente Sofonias 2:8-10.",
+      "references": ["Sofonias 2:8-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive-assiria:chapter-sofonias-2",
+      "from": "place:ninive-assiria",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive (Assíria)” cita explicitamente Sofonias 2:13-15.",
+      "references": ["Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive:chapter-sofonias-2",
+      "from": "prophecy:jonas-naum-1-1-3-o-juizo-definitivo-contra-ninive",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Naum 1:1-3 (O Juízo definitivo contra Nínive)” cita explicitamente Naum 3:1-19; Sofonias 2:13-15.",
+      "references": ["Naum 3:1-19; Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8:chapter-sofonias-2",
+      "from": "prophecy:naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8",
+      "to": "chapter:sofonias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"E Nínive era como um tanque de águas...\" (Naum 2:8)” cita explicitamente Isaías 10:12; Sofonias 2:13-15.",
+      "references": ["Isaías 10:12; Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto:chapter-sofonias-1",
+      "from": "prophecy:obadias-obadias-1-15-porque-o-dia-do-senhor-esta-perto",
+      "to": "chapter:sofonias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:15 (\"Porque o dia do Senhor está perto...\")” cita explicitamente Joel 1:15, 3:14; Sofonias 1:7.",
+      "references": ["Joel 1:15, 3:14; Sofonias 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-sofonias-1:theme-baal",
+      "from": "chapter:sofonias:1",
+      "to": "theme:baal",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Baal” cita explicitamente Sofonias 1:4.",
+      "references": ["Sofonias 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-sofonias-1:theme-dia-do-senhor-yom-yhwh",
+      "from": "chapter:sofonias:1",
+      "to": "theme:dia-do-senhor-yom-yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Dia do Senhor (Yom YHWH)” cita explicitamente Sofonias 1:7, 14-18.",
+      "references": ["Sofonias 1:7, 14-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-sofonias-2:theme-cush-etiopia",
+      "from": "chapter:sofonias:2",
+      "to": "theme:cush-etiopia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Cush (Etiópia)” cita explicitamente Sofonias 2:12.",
+      "references": ["Sofonias 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-sofonias-3:theme-jerusalem-a-cidade-rebelde",
+      "from": "chapter:sofonias:3",
+      "to": "theme:jerusalem-a-cidade-rebelde",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (A Cidade Rebelde)” cita explicitamente Sofonias 3:1-4.",
+      "references": ["Sofonias 3:1-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-sofonias-3:theme-remanescente-humilde-anavim",
+      "from": "chapter:sofonias:3",
+      "to": "theme:remanescente-humilde-anavim",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Remanescente Humilde (Anavim)” cita explicitamente Sofonias 3:12-13.",
+      "references": ["Sofonias 3:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

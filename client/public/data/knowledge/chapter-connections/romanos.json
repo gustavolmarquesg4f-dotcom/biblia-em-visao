@@ -1,0 +1,1798 @@
+{
+  "schemaVersion": 1,
+  "book": "Romanos",
+  "count": 76,
+  "chapterCount": 15,
+  "nodes": [
+    {
+      "id": "doctrine:culto-santidade",
+      "kind": "doctrine",
+      "label": "Culto, oração e vida comunitária",
+      "aliases": [],
+      "summary": "O culto pentecostal reúne Palavra, oração, louvor, testemunho, dons, comunhão e resposta à missão.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["culto-santidade"],
+      "attributes": {
+        "category": "Prática cristã",
+        "pentecostalReading": "Espontaneidade e ordem não são opostos. O culto deve criar espaço para o Espírito, proteger pessoas vulneráveis, respeitar a Palavra e produzir uma comunidade de amor, verdade e serviço.",
+        "distinction": "Estilos musicais, duração, vestimentas e formas de reunião são práticas culturais; não devem ser confundidos automaticamente com doutrina essencial.",
+        "source": "Atos; 1 Coríntios; princípios pentecostais de culto"
+      }
+    },
+    {
+      "id": "doctrine:dons",
+      "kind": "doctrine",
+      "label": "Dons, ministérios e fruto",
+      "aliases": [],
+      "summary": "Os dons são compreendidos como capacitações do Espírito para edificação e missão, nunca como medalhas de superioridade espiritual.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["dons"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O culto pentecostal busca espaço para testemunho, oração, profecia, cura e serviço, mas tudo deve ser julgado pelo amor, pela ordem e pela edificação da comunidade.",
+        "distinction": "Dons e cargos não são idênticos. A plataforma diferenciará carisma, função pastoral, liderança institucional e maturidade cristã.",
+        "source": "Novo Testamento; teologia pentecostal sobre dons"
+      }
+    },
+    {
+      "id": "doctrine:espirito",
+      "kind": "doctrine",
+      "label": "Espírito Santo e sua presença",
+      "aliases": [],
+      "summary": "O Espírito Santo é confessado como pessoa divina e agente da regeneração, santificação, capacitação e missão da igreja.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["espirito"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O Espírito não é apenas uma força ou metáfora: conduz, convence, distribui dons, forma caráter e envia a igreja. A experiência carismática deve permanecer ligada ao fruto do Espírito e ao amor.",
+        "distinction": "As tradições cristãs divergem sobre dons, cessacionismo, batismo no Espírito e evidências. A enciclopédia apresentará a posição pentecostal como uma tradição teológica situada.",
+        "source": "Declaração de Fé; teologia pentecostal"
+      }
+    },
+    {
+      "id": "doctrine:ordenancas",
+      "kind": "doctrine",
+      "label": "Batismo nas águas, Ceia e lavagem dos pés",
+      "aliases": [],
+      "summary": "A declaração consultada afirma o batismo em água por imersão, a Ceia do Senhor e a lavagem dos pés dos santos.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["ordenancas"],
+      "attributes": {
+        "category": "Igreja",
+        "pentecostalReading": "Essas práticas são sinais visíveis de fé, comunhão, memória, serviço e participação no corpo de Cristo. A lavagem dos pés acentua humildade e serviço mútuo.",
+        "distinction": "Igrejas cristãs divergem sobre o número, o nome e o significado sacramental dessas práticas. A enciclopédia deverá mostrar a compreensão da Igreja de Deus sem desqualificar outras tradições.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:salvacao",
+      "kind": "doctrine",
+      "label": "Arrependimento, justificação e novo nascimento",
+      "aliases": [],
+      "summary": "Todos pecaram; o arrependimento é necessário para o perdão, e justificação, regeneração e novo nascimento são recebidos pela fé no sangue de Jesus Cristo.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["salvacao"],
+      "attributes": {
+        "category": "Salvação",
+        "pentecostalReading": "A salvação é recebida pela graça mediante a fé e se torna vida transformada. A experiência de conversão não é um mero assentimento intelectual, mas entrada em uma nova relação com Cristo e sua comunidade.",
+        "distinction": "Tradições cristãs usam termos semelhantes com modelos distintos de sacramentos, cooperação humana, segurança da salvação e perseverança; a enciclopédia deve registrar essas diferenças.",
+        "source": "Declaração de Fé; teologia pentecostal clássica"
+      }
+    },
+    {
+      "id": "event:romanos-a-conspiracao-e-viagem-missionaria-prevista-para-a-espanha",
+      "kind": "event",
+      "label": "A Conspiração e Viagem Missionária Prevista para a Espanha",
+      "aliases": [],
+      "summary": "Paulo relata seu plano de entregar a coleta para os santos em Jerusalém e viajar para a Espanha, passando por Roma.",
+      "references": ["Romanos 15:14–33"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Revela a visão geopolítica e eclesial de Paulo de expandir o evangelho até os confins do Ocidente mediterrâneo.",
+        "entities": "Paulo, Roma, Febe"
+      }
+    },
+    {
+      "id": "event:romanos-a-recomendacao-de-febe-e-saudacao-as-redes-domesticas",
+      "kind": "event",
+      "label": "A Recomendação de Febe e Saudação às Redes Domésticas",
+      "aliases": [],
+      "summary": "Envio oficial da portadora da carta e saudação nominal a dezenas de colaboradores, mulheres líderes, escravos e libertos na capital imperial.",
+      "references": ["Romanos 16:1–23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a densidade das redes sociais e ministeriais do cristianismo primitivo no coração do Império Romano.",
+        "entities": "Febe, Prisca e Aquila, Roma, Paulo"
+      }
+    },
+    {
+      "id": "event:romanos-a-revelacao-universal-da-ira-de-deus",
+      "kind": "event",
+      "label": "A Revelação Universal da Ira de Deus",
+      "aliases": [],
+      "summary": "Exposição sistemática da culpabilidade humana, mostrando que tanto os gentios idólatras quanto os judeus transgressores da lei estão sob o poder do pecado.",
+      "references": ["Romanos 1:18–3:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a necessidade absoluta da intervenção salvífica em Cristo, eliminando qualquer vanglória humana.",
+        "entities": "Paulo, Gentios, Israel, Pecado"
+      }
+    },
+    {
+      "id": "event:romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao",
+      "kind": "event",
+      "label": "O Debate sobre a Lei e o Pecado em Adão",
+      "aliases": [],
+      "summary": "Explicação teológica de como a morte entrou no mundo por Adão e como a lei operou para avultar a transgressão, gerando o dilema existencial do crente.",
+      "references": ["Romanos 5:12–7:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fundamenta a libertação ontológica do domínio do pecado e a morte para a lei mediante a união com Cristo.",
+        "entities": "Adão, Jesus Cristo, Lei de Moisés, Pecado"
+      }
+    },
+    {
+      "id": "people-group:gentios",
+      "kind": "people-group",
+      "label": "Gentios",
+      "aliases": [],
+      "summary": "Povos sem a lei mosaica que alcançaram a justiça mediante a fé em Cristo, integrados na mesma oliveira cultivada.",
+      "references": ["Romanos 1:5; 11:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nações não-judeus destinatárias da graça",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:israel",
+      "kind": "people-group",
+      "label": "Israel",
+      "aliases": [],
+      "summary": "Comunidade histórica com privilégios divinos (adoção, glória, alianças, leis) cuja rejeição parcial e temporária serve à inclusão dos gentios.",
+      "references": ["Romanos 9:4-5; 11:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Povo eleito da aliança mosaica",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:abraao",
+      "kind": "person",
+      "label": "Abraão",
+      "aliases": ["Abraão"],
+      "summary": "Abraão (originalmente **Abrão**, do hebraico אַבְרָהָם, *’Aḇrāhām*, \"pai de muitas nações\") é o patriarca central do judaísmo, cristianismo e islamismo. Originário de Ur dos Caldeus, Abraão recebe o chamado divino em Harã para deixar sua terra, sua parentela e a casa de seu pai rumo a uma terra que Deus lhe mostraria. A narrativa de sua vida é marcada por testes monumentais de fé: a promessa de uma descendência numerosa dada a um casal idoso e estéril (Sara), a aliança cortada em Gênesis 15, a intercessão por Sodoma e Gomorra, e o ápice dramático da prova no Monte Moriá, onde lhe é exigido o sacrifício de seu filho herdeiro, Isaque, antes de ser detido por um anjo do Senhor [36].",
+      "references": [
+        "Gênesis 12:1–3",
+        "Gênesis 15:1–21",
+        "Gênesis 17:1–14",
+        "Gênesis 22:1–19",
+        "Romanos 4:1–25",
+        "Romanos 4:1-25; 9:7-9",
+        "Gl 3:6-9, 3:29",
+        "Hb 6:13-15; 7:4-9; 11:8-19",
+        "Tiago 2:21-23; Gênesis 22:9-10",
+        "Gn 12:1–9",
+        "Gn 15",
+        "Gn 17",
+        "Gn 18–19",
+        "Gn 22",
+        "Rm 4",
+        "Gl 3",
+        "Hb 11:8–19"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-abraao", "abraham"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2012%3A1%E2%80%933%3B%20G%C3%AAnesis%2015%3A1%E2%80%9321%3B%20G%C3%AAnesis%2017%3A1%E2%80%9314&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; receptor da promessa",
+        "entityType": "Pessoa",
+        "tags": ["promessa", "fé", "aliança", "nações"]
+      }
+    },
+    {
+      "id": "person:adao",
+      "kind": "person",
+      "label": "Adão",
+      "aliases": ["Adão"],
+      "summary": "Adão (do hebraico אָדָם, *’ādām*, significando \"humanidade\", \"homem\" ou tirado da \"terra vermelha\", *’ădāmāh*) é apresentado no livro de Gênesis como o primeiro ser humano, plasmado diretamente pelo Criador a partir do pó da terra e animado pelo sopro vital (*nishmat chayyim*) [6]. Colocado no Jardim do Éden para cultivar e guardar o espaço sagrado, Adão recebe a responsabilidade de nomear os animais e exercer domínio sobre a criação. A narrativa culmina com a criação de sua companheira, Eva, a partir de sua costela. A desobediência ao comer do fruto proibido da árvore do conhecimento do bem e do mal, instigada pela serpente, resulta na queda da humanidade, na introdução do pecado e da morte no cosmos, e na expulsão do Éden, marcando o início da condição humana marcada pelo labor e pela mortalidade [7].",
+      "references": [
+        "Gênesis 1:26–27; 2:7–25",
+        "Gênesis 3:1–24",
+        "Romanos 5:12–21",
+        "1 Coríntios 15:45–49",
+        "1 Cr 1:1",
+        "Romanos 5:12-21",
+        "Gn 1:26–28",
+        "Gn 2:7–25",
+        "Gn 3:1–24",
+        "Gn 5:1–5",
+        "Rm 5:12–21",
+        "1Co 15:20–49"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-adao", "adam"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%201%3A26%E2%80%9327%3B%202%3A7%E2%80%9325%3B%20G%C3%AAnesis%203%3A1%E2%80%9324%3B%20Romanos%205%3A12%E2%80%9321&version=ARA",
+        "bookLinksVerified": true,
+        "role": "humano primordial; imagem de Deus",
+        "entityType": "Pessoa",
+        "tags": ["imagem de Deus", "queda", "solo", "morte"]
+      }
+    },
+    {
+      "id": "person:apostolo-paulo-saulo-de-tarso",
+      "kind": "person",
+      "label": "Apóstolo Paulo (Saulo de Tarso)",
+      "aliases": ["Apóstolo Paulo (Saulo de Tarso)"],
+      "summary": "Saulo, conhecido como Paulo, originou-se de Tarso na Cilícia, sendo um judeu da Diáspora pertencente à tribo de Benjamim, fariseu rigoroso e cidadão romano de nascimento [5] [6]. Inicialmente um zeloso perseguidor das primeiras comunidades messiânicas, experimentou uma convulsão teológica e existencial na estrada de Damasco, onde interpretou a revelação do Cristo ressuscitado como vocação universal para o apostolado aos gentios [7]. Sua trajetória é marcada por viagens missionárias intensas pelo Mediterrâneo Oriental, fundando assembleias (ekklesiai), redigindo cartas normativas e enfrentando constantes conflitos com autoridades judaicas tradicionais e facções judaizantes [8] [9].",
+      "references": [
+        "Romanos 1:1-17",
+        "Gálatas 1-2",
+        "Filipenses 3:4-11",
+        "1 Coríntios 9:1-27"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apostolo-paulo-saulo-de-tarso"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%201%3A1-17%3B%20G%C3%A1latas%201-2%3B%20Filipenses%203%3A4-11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:febe",
+      "kind": "person",
+      "label": "Febe",
+      "aliases": [],
+      "summary": "Irmã na fé recomendada por Paulo à igreja em Roma, encarregada de transportar e provavelmente ler/explicar a epístola.",
+      "references": ["Romanos 16:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Diaconisa de Cencreia e portadora da carta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:febe-de-cencreia",
+      "kind": "person",
+      "label": "Febe de Cencréia",
+      "aliases": ["Febe de Cencréia"],
+      "summary": "Febe é mencionada explicitamente em Romanos 16:1-2 como diaconisa (*diakonos*) da igreja em Cencréia, porto oriental de Corinto, e portadora da epístola aos Romanos [32]. A designação de *prostatis* (geralmente traduzida como protetora, patrona ou benfeitora) indica que ela exercia alta posição socioeconômica e exercia patrocínio sobre a comunidade cristã e sobre o próprio apóstolo [33].",
+      "references": ["Romanos 16:1-2"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-febe-de-cencreia"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%2016%3A1-2&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:jaco",
+      "kind": "person",
+      "label": "Jacó",
+      "aliases": ["Jacó", "Israel"],
+      "summary": "Jacó (do hebraico יַעֲקֹב, *Ya‘ăqōb*, cuja etimologia popular em Gênesis remete a \"aquele que suplanta\", \"enganador\" ou que segura o calcanhar) é o patriarca cujos doze filhos dão origem às doze tribos de Israel. Sua trajetória é uma das mais dinâmicas e psicológicas do Gênesis: começa como um homem astuto que obtém a primogenitura de Esaú por um prato de lentilhas e rouba a bênção paterna com o auxílio da mãe. Foge para Harã, onde trabalha por vinte anos para Labão, sendo por sua vez enganado no casamento com Lia e Raquel. Após acumular grande riqueza e rebanhos, empreende o retorno a Canaã. O ponto de virada espiritual de sua vida ocorre na travessia do rio Jaboque, onde luta misticamente a noite toda com um misterioso oponente (identificado como Deus ou o Anjo do Senhor), tendo seu nome mudado para **Israel** (\"aquele que luta com Deus\") após ferir-se na coxa [71].",
+      "references": [
+        "Gênesis 27:18–29",
+        "Gênesis 28:10–22",
+        "Gênesis 32:22–32",
+        "Gênesis 49:1–33",
+        "Oseias 12:3–4; Romanos 9:10–13",
+        "Gn 25:29–34",
+        "Gn 27",
+        "Gn 28",
+        "Gn 29–31",
+        "Gn 32:22–32",
+        "Gn 35",
+        "Gn 46–49",
+        "Os 12",
+        "Mt 1:2"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-jaco", "jacob"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2027%3A18%E2%80%9329%3B%20G%C3%AAnesis%2028%3A10%E2%80%9322%3B%20G%C3%AAnesis%2032%3A22%E2%80%9332&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; ancestral epônimo de Israel",
+        "tags": ["Israel", "bênção", "luta", "família"]
+      }
+    },
+    {
+      "id": "person:jesus-cristo",
+      "kind": "person",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O protagonista central do evangelho, cujo ministério encarna a misericórdia divina, o perdão dos pecados e a inversão radical das estruturas sociais vigentes.",
+      "references": [
+        "Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27",
+        "Romanos 1:3-4; 3:24-26",
+        "Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27",
+        "Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12",
+        "Judas 1:4"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e soberano supremo cuja graça está sendo pervertida pelos infiltradores e cuja autoridade é negada na práxis dos falsos mestres.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:junia-e-andronico",
+      "kind": "person",
+      "label": "Júnia (e Andrônico)",
+      "aliases": ["Júnia (e Andrônico)"],
+      "summary": "Júnia, juntamente com Andrônico, é citada em Romanos 16:7 como parentes e companheiros de prisão de Paulo, destacados entre os apóstolos e convertidos a Cristo antes do próprio Paulo [46]. A identidade de Júnia foi objeto de um intenso debate textual e histórico ao longo dos séculos [47].",
+      "references": ["Romanos 16:7"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-junia-e-andronico"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Romanos%2016%3A7&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:prisca-e-aquila",
+      "kind": "person",
+      "label": "Prisca e Aquila",
+      "aliases": [],
+      "summary": "Judeus cristãos retornados a Roma após o Édito de Cláudio, que abrigam igreja em sua casa e arriscaram a vida por Paulo.",
+      "references": ["Romanos 16:3-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Casal de líderes e cooperadores em Cristo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:prisca-priscila",
+      "kind": "person",
+      "label": "Prisca (Priscila)",
+      "aliases": ["Prisca (Priscila)"],
+      "summary": "Prisca (frequentemente chamada pelo diminutivo Priscila) era uma mulher judeu-cristã de elevada projeção, esposa de Áquila, parceira íntima de Paulo em Corinto, Éfeso e Roma [58]. É notável o fato de que, em várias passagens do Novo Testamento, seu nome aparece antes do de seu marido, indicando proeminência social ou ministerial superior [59].",
+      "references": ["Atos 18:24-26", "Romanos 16:3-4"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-prisca-priscila"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2018%3A24-26%3B%20Romanos%2016%3A3-4&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:rebeca",
+      "kind": "person",
+      "label": "Rebeca",
+      "aliases": ["Rebeca"],
+      "summary": "Rebeca (do hebraico רִבְقָה, *Riḇqāh*, significando \"laço\" ou \"cativante\") é a esposa de Isaque e uma das matriarcas fundamentais de Israel. Sua introdução na narrativa bíblica (Gênesis 24) destaca-se por sua extraordinária hospitalidade junto ao poço em Harã, oferecendo água não apenas ao servo de Abraão, mas também dessedentando todos os seus camelos. Estéril por muitos anos, sua gravidez dos gêmeos Esaú e Jacó é marcada por uma luta intrauterina que leva Deus a revelar-lhe o célebre oráculo: \"Dois povos há no teu ventre, e dois povos se dividirão das tuas entranhas... e o maior servirá ao menor\" (Gn 25:23). Rebeca favorece abertamente a Jacó e arquiteta com astúcia o plano para que ele receba a bênção patriarcal fingindo ser Esaú [63].",
+      "references": [
+        "Gênesis 24:10–27",
+        "Gênesis 25:21–26",
+        "Gênesis 27:5–17",
+        "Romanos 9:10–13",
+        "Gn 24",
+        "Gn 25:19–28",
+        "Gn 27",
+        "Gn 28:1–5"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-rebeca", "rebekah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2024%3A10%E2%80%9327%3B%20G%C3%AAnesis%2025%3A21%E2%80%9326%3B%20G%C3%AAnesis%2027%3A5%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "matriarca; mãe de Esaú e Jacó",
+        "tags": ["oráculo", "maternidade", "primogenitura", "bênção"]
+      }
+    },
+    {
+      "id": "place:cencreia",
+      "kind": "place",
+      "label": "Cencreia",
+      "aliases": [],
+      "summary": "Porto oriental de Corinto, onde havia uma comunidade cristã associada e de onde Febe possivelmente operava.",
+      "references": ["Romanos 16:1", "1 Coríntios 1:2; cf. Romanos 16:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:corinto",
+      "kind": "place",
+      "label": "Corinto",
+      "aliases": [],
+      "summary": "Metrópole comercial com dois portos (Cencreia e Lequeu), famosa pelo templo de Afrodite e cultos mistericos, representando o desafio cultural ao evangelho.",
+      "references": [
+        "Romanos 16:1; 16:23",
+        "1 Coríntios 1:2; Atos 18:1",
+        "2Co 1:1; 10:1",
+        "At 18:1; 1 Ts 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:espanha",
+      "kind": "place",
+      "label": "Espanha",
+      "aliases": [],
+      "summary": "Extremo ocidental do mundo mediterrâneo conhecido, alvo estratégico da missão paulina após a visita a Roma.",
+      "references": ["Romanos 15:24; 15:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:roma",
+      "kind": "place",
+      "label": "Roma",
+      "aliases": [],
+      "summary": "Capital do Império Romano, destino final da jornada de Paulo e clímax teleológico da expansão do Evangelho (\"até aos confins da terra\").",
+      "references": [
+        "Atos 1:8, 28:14-31",
+        "Romanos 1:7; 1:15",
+        "2 Timóteo 1:17; 4:16-17"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "prophecy:3-joao-imitar-o-que-e-bom",
+      "kind": "prophecy",
+      "label": "Imitar o que é bom",
+      "aliases": [],
+      "summary": "O imperativo \"não imites o mal, mas o bem\" conecta-se à ética sapiencial judaica de separação moral e imitação de modelos virtuosos.",
+      "references": ["Salmo 37:27; Romanos 12:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 8:6 (\"o fogo do Senhor, labareda do Senhor\")",
+      "aliases": [],
+      "summary": "Enquanto o texto original exalta a intensidade inextinguível do amor eros humano, a tradição teológica posterior o conecta ao amor ágape e à perseverança na aliança com Deus.",
+      "references": ["Isaías 43:2; Romanos 8:35-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "kind": "prophecy",
+      "label": "Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)",
+      "aliases": [],
+      "summary": "O texto aponta para uma futura conversão interior e retorno físico à terra após a dispersão, servindo de base para as teologias da Nova Aliança e escatologias judaico-cristãs sobre a redenção final.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / oráculo" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado",
+      "kind": "prophecy",
+      "label": "Ec 3:1-8 (\"Tudo tem o seu tempo determinado...\")",
+      "aliases": [],
+      "summary": "Enquanto leitores judeus viam a soberania providencial na história, leitores cristãos expandiram para a economia redentora escatológica.",
+      "references": ["Sl 104; Jr 18:1-10; Rm 8:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque",
+      "kind": "prophecy",
+      "label": "Ec 7:20 (\"Não há homem justo sobre a terra que faça o bem e nunca peque\")",
+      "aliases": [],
+      "summary": "O apóstolo Paulo utiliza esta premissa sapiencial para fundamentar a universalidade do pecado e a necessidade da justificação pela fé em Cristo.",
+      "references": ["1 Rs 8:46; Sl 14:3; Rm 3:10-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos",
+      "kind": "prophecy",
+      "label": "Ezequiel 37:1-14 (O Vale dos Ossos Secos)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: O contexto primário refere-se claramente à restauração sociopolítica de Israel do exílio, mas na recepção judaica e cristã posterior passou a ser interpretado como prova tipológica da ressurreição corporal individual dos mortos.",
+      "references": ["Textos relacionados: Isaías 26:19; Romanos 11:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Tipologia / Oráculo de ressurreição" }
+    },
+    {
+      "id": "prophecy:galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "kind": "prophecy",
+      "label": "Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")",
+      "aliases": [],
+      "summary": "Paulo emprega o texto para demonstrar que Abraão foi justificado pela fé séculos antes da instituição da circuncisão e da Torá; o judaísmo rabínico tradicional via a fé de Abraão integrada ao seu mérito de observância dos mandamentos.",
+      "references": ["Gálatas 3:6, Romanos 4:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo aplica o oráculo profético para ancorar o princípio soteriológico fundamental de que a vida diante de Deus é sustentada pela fé e não por rituais identitários.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido",
+      "kind": "prophecy",
+      "label": "Isaías 54:1 (\"Alegra-te, ó estéril... porque mais são os filhos da solitária do que os da que tem marido\")",
+      "aliases": [],
+      "summary": "Paulo aplica a profecia de Isaías sobre a restauração de Sião à alegoria de Sara (a mulher livre), contrastando-a com Hagar (a Jerusalém terrenal e escrava sob a lei).",
+      "references": ["Gálatas 4:27, Romanos 9:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "kind": "prophecy",
+      "label": "A semente da mulher",
+      "aliases": [],
+      "summary": "O texto anuncia inimizade entre serpente e descendência e uma ferida decisiva na cabeça da serpente.",
+      "references": ["Gn 3:15", "Rm 16:20", "Hb 2:14", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A leitura cristã tradicional vê aqui um protoevangelho; a exegese histórico-literária também considera a função do oráculo dentro da narrativa da queda."
+      }
+    },
+    {
+      "id": "prophecy:genesis-gn-50-20-mal-planejado-vida-preservada",
+      "kind": "prophecy",
+      "label": "Mal planejado, vida preservada",
+      "aliases": [],
+      "summary": "José interpreta a ação dos irmãos em uma moldura de providência sem chamar o mal de bem.",
+      "references": ["Gn 50:20", "At 7:9–14", "Rm 8:28", "Fp 1:12–14"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A frase não é uma licença para justificar abuso; ela vem depois de confronto, choro, prova e responsabilidade."
+      }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo e o autor aos Hebreus reinterpretam o texto escatológico original sobre a sobrevivência em meio à invasão caldeia como a base da justificação pela fé e perseverança cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "kind": "prophecy",
+      "label": "Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"",
+      "aliases": [],
+      "summary": "Debatida intensamente entre judeus (aplicada ao Israel coletivo sofredor) e cristãos (aplicada à expiação vicária de Jesus Cristo).",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/alusão/oráculo" }
+    },
+    {
+      "id": "prophecy:joel-joel-2-28-32-e-derramarei-o-meu-espirito-sobre-toda-a-carne",
+      "kind": "prophecy",
+      "label": "Joel 2:28-32 (\"E derramarei o meu Espírito sobre toda a carne...\")",
+      "aliases": [],
+      "summary": "Pedro cita o texto no Pentecostes como cumprimento inaugural dos \"últimos dias\", enquanto leituras apocalípticas estendem os sinais cósmicos para a parusia final.",
+      "references": ["Atos 2:16-21; Romanos 10:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Recepção Posterior" }
+    },
+    {
+      "id": "prophecy:joel-joel-2-32-todo-aquele-que-invocar-o-nome-do-senhor-sera-salvo",
+      "kind": "prophecy",
+      "label": "Joel 2:32 (\"Todo aquele que invocar o nome do Senhor será salvo\")",
+      "aliases": [],
+      "summary": "Paulo aplica a promessa universal de invocação tanto a judeus quanto a gentios na economia da graça cristã.",
+      "references": ["Atos 2:21; Romanos 10:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Teologia Soteriológica" }
+    },
+    {
+      "id": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "kind": "prophecy",
+      "label": "\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)",
+      "aliases": [],
+      "summary": "Visto no Judaísmo rabínico como o princípio fundamental da Torá; no Novo Testamento, expande-se universalmente pelo ensinamento de Jesus e Paulo.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / recepção ética" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-1-2-3-amei-a-jaco-e-aborreci-a-esau",
+      "kind": "prophecy",
+      "label": "Malaquias 1:2–3 ('Amei a Jacó e aborreci a Esaú...')",
+      "aliases": [],
+      "summary": "Diverge entre uma leitura histórico-nacional (eleição de Israel corporativo vs. Edom) e a teologia paulina da predestinação soteriológica individual.",
+      "references": ["Romanos 9:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15",
+      "kind": "prophecy",
+      "label": "\"Eis sobre os montículos os pés do que traz boas-novas...\" (Naum 1:15)",
+      "aliases": [],
+      "summary": "Enquanto Naum aplica o oráculo à queda da Assíria e ao alívio de Judá, Paulo reutiliza a imagem escatologicamente para a proclamação universal do evangelho.",
+      "references": ["Isaías 52:7; Romanos 10:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Tipologia" }
+    },
+    {
+      "id": "prophecy:oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada",
+      "kind": "prophecy",
+      "label": "\"Chamarei meu povo ao que não era meu povo; e à que não era amada, Amada\"",
+      "aliases": [],
+      "summary": "Paulo e Pedro aplicam os nomes simbólicos Lo-Ami e Lo-Ruama à inclusão soberana dos gentios na Igreja cristã. Divergência sobre se o oráculo original esgotava-se no Israel do norte restaurado ou comportava desdobramento universalista.",
+      "references": ["Romanos 9:25-26, 1 Pedro 2:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-25-21-22",
+      "kind": "prophecy",
+      "label": "Pr 25:21-22",
+      "aliases": [],
+      "summary": "Paulo utiliza este provérbio para fundamentar a ética cristã do amor aos inimigos e da não-retaliação, demonstrando a continuidade ética entre os Testamentos.",
+      "references": ["Rm 12:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / ética do Reino" }
+    },
+    {
+      "id": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "kind": "prophecy",
+      "label": "Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")",
+      "aliases": [],
+      "summary": "Paulo utiliza o patriarca Abraão para demonstrar que a justificação pela fé antecede a circuncisão e a lei mosaica, enquanto Tiago enfatiza a obra complementar; divergência exegética histórica entre fé e obras.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "kind": "prophecy",
+      "label": "Habacuque 2:4 (\"O justo viverá por sua fé\")",
+      "aliases": [],
+      "summary": "Paulo reinterpreta o texto profético do Antigo Testamento — originalmente focado na perseverança diante da opressão babilônica — como o princípio soteriológico fundamental da justificação e vida pela fé cristã.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco",
+      "kind": "prophecy",
+      "label": "Isaías 28:16 & 8:14 (\"Eis que ponho em Sião uma pedra de tropeço\")",
+      "aliases": [],
+      "summary": "Combinação de textos messiânicos veterotestamentários para explicar o escândalo da rejeição de Israel ao Messias crucificado, transformado em pedra de tropeço e fundamento seguro.",
+      "references": ["Romanos 9:32-33; 10:11; 1 Pedro 2:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "prophecy:romanos-isaias-59-20-21-27-9-o-libertador-vira-de-siao",
+      "kind": "prophecy",
+      "label": "Isaías 59:20-21 & 27:9 (\"O Libertador virá de Sião\")",
+      "aliases": [],
+      "summary": "Paulo sintetiza passagens proféticas para afirmar o mistério da salvação futura de \"todo o Israel\", gerando intensos debates escatológicos entre futuristas, dispensacionalistas e teólogos reformados.",
+      "references": ["Romanos 11:26-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/alusão" }
+    },
+    {
+      "id": "prophecy:romanos-salmo-32-1-2-bem-aventurados-aqueles-cujas-iniquidades-sao-perdoadas",
+      "kind": "prophecy",
+      "label": "Salmo 32:1-2 (\"Bem-aventurados aqueles cujas iniquidades são perdoadas\")",
+      "aliases": [],
+      "summary": "Aplicado por Paulo para fundamentar teologicamente a imputação da justiça sem obras, utilizando a experiência de Davi como prova da gratuidade do perdão divino.",
+      "references": ["Romanos 4:7-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "term:ab",
+      "kind": "term",
+      "label": "Abba",
+      "aliases": ["אַבָּא", "ʾabbāʾ"],
+      "summary": "Forma aramaica de dirigir-se ao pai; comunica intimidade e confiança, sem exigir a tradução infantilizada ‘papai’ em todos os contextos.",
+      "references": ["Mc 14:36", "Rm 8:15", "Gl 4:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ab"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O peso afetivo depende da relação, do ambiente de oração e da tradição de tradução. A palavra pode manter reverência e proximidade simultaneamente.",
+        "translationNote": "Em Mc 14:36 e Rm 8:15; Gl 4:6, preservar o aramaico seguido de explicação evidencia a memória linguística do movimento cristão primitivo."
+      }
+    },
+    {
+      "id": "term:apokalypsis",
+      "kind": "term",
+      "label": "Apokalypsis",
+      "aliases": ["ἀποκάλυψις", "apokalypsis"],
+      "summary": "Revelação ou desvelamento; não equivale simplesmente a destruição do mundo ou a calendário de eventos futuros.",
+      "references": ["Rm 8:18–19", "Gl 1:12", "Ap 1:1"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["apokalypsis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode nomear a manifestação de algo oculto, a revelação de Jesus Cristo e um gênero que interpreta o presente por visões simbólicas.",
+        "translationNote": "A palavra ‘apocalipse’ ganhou no português um sentido popular de catástrofe; a interface sempre mostrará o sentido literário e o uso popular separadamente."
+      }
+    },
+    {
+      "id": "term:charisma",
+      "kind": "term",
+      "label": "Charisma",
+      "aliases": ["χάρισμα", "charisma"],
+      "summary": "Dom concedido pela graça, especialmente em contextos de serviço e edificação comunitária.",
+      "references": ["Rm 12:6–8", "1Co 12:4–11", "1Pe 4:10–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charisma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo usa o termo para dons diversos, vida, celibato e participação no corpo; não nomeia automaticamente performance pública ou status espiritual.",
+        "translationNote": "A tradução por ‘dom espiritual’ é útil, mas alguns contextos pedem ‘dom’ sem estreitar o sentido ao extraordinário."
+      }
+    },
+    {
+      "id": "term:dikaiosyne",
+      "kind": "term",
+      "label": "Dikaiosynē",
+      "aliases": ["δικαιοσύνη", "dikaiosynē"],
+      "summary": "Justiça, retidão, condição de estar em relação correta ou ação que manifesta a fidelidade de Deus.",
+      "references": ["Mt 5:6", "Rm 1:16–17", "Fp 3:9"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["dikaiosyne"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Paulo emprega o campo para discutir a fidelidade de Deus, a situação humana, a inclusão de gentios e a vida comunitária; o debate não se resolve por uma definição única.",
+        "translationNote": "‘Justiça’ pode sugerir apenas moralidade individual; em Romanos, o contexto exige considerar tribunal, aliança, fé, comunidade e esperança escatológica."
+      }
+    },
+    {
+      "id": "term:pistis",
+      "kind": "term",
+      "label": "Pistis",
+      "aliases": ["πίστις", "pistis"],
+      "summary": "Confiança, fé, fidelidade ou lealdade; o sentido depende do agente, do objeto e da relação construída no texto.",
+      "references": ["Rm 3:21–26", "Gl 5:6", "Hb 11:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pistis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em alguns contextos descreve a confiança de uma pessoa; em outros, a fidelidade que caracteriza uma vida ou uma comunidade. A discussão ‘fé versus fidelidade’ é real, mas não deve ser resolvida por slogans.",
+        "translationNote": "A tradução por ‘fé’ preserva a linguagem confessional; ‘fidelidade’ ilumina certos contextos éticos. O leitor deve acompanhar sintaxe e argumento."
+      }
+    },
+    {
+      "id": "theme:justificacao",
+      "kind": "theme",
+      "label": "Justificação",
+      "aliases": [],
+      "summary": "Declaração divina de retidão conferida gratuitamente ao pecador com base na redenção propiciatória operada por Cristo.",
+      "references": ["Romanos 3:24-28; 5:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ato forense e relacional de absolvição",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:lei-de-moises",
+      "kind": "theme",
+      "label": "Lei de Moisés",
+      "aliases": [],
+      "summary": "Instrumento divino que revela e intensifica a transgressão humana, incapaz de conferir vida ou justificação diante de Deus.",
+      "references": ["Romanos 3:19-20; 7:7-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Código mosaico e norma veterotestamentária",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:pecado",
+      "kind": "theme",
+      "label": "Pecado",
+      "aliases": [],
+      "summary": "Potência cósmica que escraviza a humanidade através de Adão, reinando por meio da morte até ser quebrada pela graça.",
+      "references": ["Romanos 5:21; 6:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Poder soteriológico e força alienante",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:roma",
+      "kind": "theme",
+      "label": "Roma",
+      "aliases": [],
+      "summary": "Metrópole cosmopolita onde a fé cristã floresceu em diversas \"igrejas domésticas\" marcadas por tensões étnicas e culturais.",
+      "references": ["Romanos 1:7; 15:23-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital imperial e sede da comunidade destinatária",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-romanos-a-conspiracao-e-viagem-missionaria-prevista-para-a-espanha:chapter-romanos-15",
+      "from": "event:romanos-a-conspiracao-e-viagem-missionaria-prevista-para-a-espanha",
+      "to": "chapter:romanos:15",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Conspiração e Viagem Missionária Prevista para a Espanha” cita explicitamente Romanos 15:14–33.",
+      "references": ["Romanos 15:14–33"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-a-recomendacao-de-febe-e-saudacao-as-redes-domesticas:chapter-romanos-16",
+      "from": "event:romanos-a-recomendacao-de-febe-e-saudacao-as-redes-domesticas",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Recomendação de Febe e Saudação às Redes Domésticas” cita explicitamente Romanos 16:1–23.",
+      "references": ["Romanos 16:1–23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-a-revelacao-universal-da-ira-de-deus:chapter-romanos-1",
+      "from": "event:romanos-a-revelacao-universal-da-ira-de-deus",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revelação Universal da Ira de Deus” cita explicitamente Romanos 1:18–3:20.",
+      "references": ["Romanos 1:18–3:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-a-revelacao-universal-da-ira-de-deus:chapter-romanos-2",
+      "from": "event:romanos-a-revelacao-universal-da-ira-de-deus",
+      "to": "chapter:romanos:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revelação Universal da Ira de Deus” cita explicitamente Romanos 1:18–3:20.",
+      "references": ["Romanos 1:18–3:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-a-revelacao-universal-da-ira-de-deus:chapter-romanos-3",
+      "from": "event:romanos-a-revelacao-universal-da-ira-de-deus",
+      "to": "chapter:romanos:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revelação Universal da Ira de Deus” cita explicitamente Romanos 1:18–3:20.",
+      "references": ["Romanos 1:18–3:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao:chapter-romanos-5",
+      "from": "event:romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao",
+      "to": "chapter:romanos:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Debate sobre a Lei e o Pecado em Adão” cita explicitamente Romanos 5:12–7:25.",
+      "references": ["Romanos 5:12–7:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao:chapter-romanos-6",
+      "from": "event:romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao",
+      "to": "chapter:romanos:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Debate sobre a Lei e o Pecado em Adão” cita explicitamente Romanos 5:12–7:25.",
+      "references": ["Romanos 5:12–7:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao:chapter-romanos-7",
+      "from": "event:romanos-o-debate-sobre-a-lei-e-o-pecado-em-adao",
+      "to": "chapter:romanos:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Debate sobre a Lei e o Pecado em Adão” cita explicitamente Romanos 5:12–7:25.",
+      "references": ["Romanos 5:12–7:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-gentios:chapter-romanos-1",
+      "from": "people-group:gentios",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gentios” cita explicitamente Romanos 1:5; 11:13.",
+      "references": ["Romanos 1:5; 11:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-gentios:chapter-romanos-11",
+      "from": "people-group:gentios",
+      "to": "chapter:romanos:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gentios” cita explicitamente Romanos 1:5; 11:13.",
+      "references": ["Romanos 1:5; 11:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-israel:chapter-romanos-11",
+      "from": "people-group:israel",
+      "to": "chapter:romanos:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Israel” cita explicitamente Romanos 9:4-5; 11:25-27.",
+      "references": ["Romanos 9:4-5; 11:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-israel:chapter-romanos-9",
+      "from": "people-group:israel",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Israel” cita explicitamente Romanos 9:4-5; 11:25-27.",
+      "references": ["Romanos 9:4-5; 11:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-romanos-4",
+      "from": "person:abraao",
+      "to": "chapter:romanos:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Romanos 4:1–25.",
+      "references": ["Romanos 4:1–25"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-abraao:chapter-romanos-9",
+      "from": "person:abraao",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão” cita explicitamente Romanos 4:1-25; 9:7-9.",
+      "references": ["Romanos 4:1-25; 9:7-9"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-adao:chapter-romanos-5",
+      "from": "person:adao",
+      "to": "chapter:romanos:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Adão” cita explicitamente Romanos 5:12–21.",
+      "references": ["Romanos 5:12–21"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apostolo-paulo-saulo-de-tarso:chapter-romanos-1",
+      "from": "person:apostolo-paulo-saulo-de-tarso",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apóstolo Paulo (Saulo de Tarso)” cita explicitamente Romanos 1:1-17.",
+      "references": ["Romanos 1:1-17"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-febe-de-cencreia:chapter-romanos-16",
+      "from": "person:febe-de-cencreia",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Febe de Cencréia” cita explicitamente Romanos 16:1-2.",
+      "references": ["Romanos 16:1-2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-febe:chapter-romanos-16",
+      "from": "person:febe",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Febe” cita explicitamente Romanos 16:1-2.",
+      "references": ["Romanos 16:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jaco:chapter-romanos-9",
+      "from": "person:jaco",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jacó” cita explicitamente Oseias 12:3–4; Romanos 9:10–13.",
+      "references": ["Oseias 12:3–4; Romanos 9:10–13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-romanos-1",
+      "from": "person:jesus-cristo",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Romanos 1:3-4; 3:24-26.",
+      "references": ["Romanos 1:3-4; 3:24-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-romanos-3",
+      "from": "person:jesus-cristo",
+      "to": "chapter:romanos:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Romanos 1:3-4; 3:24-26.",
+      "references": ["Romanos 1:3-4; 3:24-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-junia-e-andronico:chapter-romanos-16",
+      "from": "person:junia-e-andronico",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Júnia (e Andrônico)” cita explicitamente Romanos 16:7.",
+      "references": ["Romanos 16:7"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-romanos-1",
+      "from": "person:paulo",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Romanos 1:1; 15:24-28.",
+      "references": ["Romanos 1:1; 15:24-28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-romanos-15",
+      "from": "person:paulo",
+      "to": "chapter:romanos:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Romanos 1:1; 15:24-28.",
+      "references": ["Romanos 1:1; 15:24-28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-prisca-e-aquila:chapter-romanos-16",
+      "from": "person:prisca-e-aquila",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Prisca e Aquila” cita explicitamente Romanos 16:3-5.",
+      "references": ["Romanos 16:3-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-prisca-priscila:chapter-romanos-16",
+      "from": "person:prisca-priscila",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Prisca (Priscila)” cita explicitamente Romanos 16:3-4.",
+      "references": ["Romanos 16:3-4"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-rebeca:chapter-romanos-9",
+      "from": "person:rebeca",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rebeca” cita explicitamente Romanos 9:10–13.",
+      "references": ["Romanos 9:10–13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cencreia:chapter-romanos-16",
+      "from": "place:cencreia",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cencreia” cita explicitamente Romanos 16:1.",
+      "references": ["Romanos 16:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-corinto:chapter-romanos-16",
+      "from": "place:corinto",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Corinto” cita explicitamente Romanos 16:1; 16:23.",
+      "references": ["Romanos 16:1; 16:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-espanha:chapter-romanos-15",
+      "from": "place:espanha",
+      "to": "chapter:romanos:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Espanha” cita explicitamente Romanos 15:24; 15:28.",
+      "references": ["Romanos 15:24; 15:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-romanos-15",
+      "from": "place:jerusalem",
+      "to": "chapter:romanos:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Romanos 15:25-26.",
+      "references": ["Romanos 15:25-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-roma:chapter-romanos-1",
+      "from": "place:roma",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Roma” cita explicitamente Romanos 1:7; 1:15.",
+      "references": ["Romanos 1:7; 1:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-3-joao-imitar-o-que-e-bom:chapter-romanos-12",
+      "from": "prophecy:3-joao-imitar-o-que-e-bom",
+      "to": "chapter:romanos:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Imitar o que é bom” cita explicitamente Salmo 37:27; Romanos 12:9.",
+      "references": ["Salmo 37:27; Romanos 12:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor:chapter-romanos-8",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor",
+      "to": "chapter:romanos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 8:6 (\"o fogo do Senhor, labareda do Senhor\")” cita explicitamente Isaías 43:2; Romanos 8:35-39.",
+      "references": ["Isaías 43:2; Romanos 8:35-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio:chapter-romanos-10",
+      "from": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "to": "chapter:romanos:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)” cita explicitamente Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado:chapter-romanos-8",
+      "from": "prophecy:eclesiastes-ec-3-1-8-tudo-tem-o-seu-tempo-determinado",
+      "to": "chapter:romanos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 3:1-8 (\"Tudo tem o seu tempo determinado...\")” cita explicitamente Sl 104; Jr 18:1-10; Rm 8:28.",
+      "references": ["Sl 104; Jr 18:1-10; Rm 8:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque:chapter-romanos-3",
+      "from": "prophecy:eclesiastes-ec-7-20-nao-ha-homem-justo-sobre-a-terra-que-faca-o-bem-e-nunca-peque",
+      "to": "chapter:romanos:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 7:20 (\"Não há homem justo sobre a terra que faça o bem e nunca peque\")” cita explicitamente 1 Rs 8:46; Sl 14:3; Rm 3:10-12.",
+      "references": ["1 Rs 8:46; Sl 14:3; Rm 3:10-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos:chapter-romanos-11",
+      "from": "prophecy:ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos",
+      "to": "chapter:romanos:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 37:1-14 (O Vale dos Ossos Secos)” cita explicitamente Textos relacionados: Isaías 26:19; Romanos 11:15.",
+      "references": ["Textos relacionados: Isaías 26:19; Romanos 11:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica:chapter-romanos-4",
+      "from": "prophecy:galatas-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "to": "chapter:romanos:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")” cita explicitamente Gálatas 3:6, Romanos 4:3.",
+      "references": ["Gálatas 3:6, Romanos 4:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-romanos-1",
+      "from": "prophecy:galatas-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Gálatas 3:11, Romanos 1:17, Hebreus 10:38.",
+      "references": ["Gálatas 3:11, Romanos 1:17, Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido:chapter-romanos-9",
+      "from": "prophecy:galatas-isaias-54-1-alegra-te-o-esteril-porque-mais-sao-os-filhos-da-solitaria-do-que-os-da-que-tem-marido",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 54:1 (\"Alegra-te, ó estéril... porque mais são os filhos da solitária do que os da que tem marido\")” cita explicitamente Gálatas 4:27, Romanos 9:25.",
+      "references": ["Gálatas 4:27, Romanos 9:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-3-15-a-semente-da-mulher:chapter-romanos-16",
+      "from": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "to": "chapter:romanos:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A semente da mulher” cita explicitamente Rm 16:20.",
+      "references": ["Rm 16:20"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-50-20-mal-planejado-vida-preservada:chapter-romanos-8",
+      "from": "prophecy:genesis-gn-50-20-mal-planejado-vida-preservada",
+      "to": "chapter:romanos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mal planejado, vida preservada” cita explicitamente Rm 8:28.",
+      "references": ["Rm 8:28"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-romanos-1",
+      "from": "prophecy:habacuque-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades:chapter-romanos-4",
+      "from": "prophecy:isaias-isaias-53-4-5-verdadeiramente-ele-tom-sobre-si-as-nossas-enfermidades",
+      "to": "chapter:romanos:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:4-5 — \"Verdadeiramente ele tom sobre si as nossas enfermidades...\"” cita explicitamente Mateus 8:17, 1 Pedro 2:24, Romanos 4:25.",
+      "references": ["Mateus 8:17, 1 Pedro 2:24, Romanos 4:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joel-joel-2-28-32-e-derramarei-o-meu-espirito-sobre-toda-a-carne:chapter-romanos-10",
+      "from": "prophecy:joel-joel-2-28-32-e-derramarei-o-meu-espirito-sobre-toda-a-carne",
+      "to": "chapter:romanos:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 2:28-32 (\"E derramarei o meu Espírito sobre toda a carne...\")” cita explicitamente Atos 2:16-21; Romanos 10:13.",
+      "references": ["Atos 2:16-21; Romanos 10:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joel-joel-2-32-todo-aquele-que-invocar-o-nome-do-senhor-sera-salvo:chapter-romanos-10",
+      "from": "prophecy:joel-joel-2-32-todo-aquele-que-invocar-o-nome-do-senhor-sera-salvo",
+      "to": "chapter:romanos:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 2:32 (\"Todo aquele que invocar o nome do Senhor será salvo\")” cita explicitamente Atos 2:21; Romanos 10:13.",
+      "references": ["Atos 2:21; Romanos 10:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18:chapter-romanos-13",
+      "from": "prophecy:levitico-amaras-ao-teu-proximo-como-a-ti-mesmo-lv-19-18",
+      "to": "chapter:romanos:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Amarás ao teu próximo como a ti mesmo\" (Lv 19:18)” cita explicitamente Mt 22:39; Rm 13:9; Tg 2:8.",
+      "references": ["Mt 22:39; Rm 13:9; Tg 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-1-2-3-amei-a-jaco-e-aborreci-a-esau:chapter-romanos-9",
+      "from": "prophecy:malaquias-malaquias-1-2-3-amei-a-jaco-e-aborreci-a-esau",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 1:2–3 ('Amei a Jacó e aborreci a Esaú...')” cita explicitamente Romanos 9:13.",
+      "references": ["Romanos 9:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15:chapter-romanos-10",
+      "from": "prophecy:naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15",
+      "to": "chapter:romanos:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis sobre os montículos os pés do que traz boas-novas...\" (Naum 1:15)” cita explicitamente Isaías 52:7; Romanos 10:15.",
+      "references": ["Isaías 52:7; Romanos 10:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada:chapter-romanos-9",
+      "from": "prophecy:oseias-chamarei-meu-povo-ao-que-nao-era-meu-povo-e-a-que-nao-era-amada-amada",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Chamarei meu povo ao que não era meu povo; e à que não era amada, Amada\"” cita explicitamente Romanos 9:25-26, 1 Pedro 2:10.",
+      "references": ["Romanos 9:25-26, 1 Pedro 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-25-21-22:chapter-romanos-12",
+      "from": "prophecy:proverbios-pr-25-21-22",
+      "to": "chapter:romanos:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 25:21-22” cita explicitamente Rm 12:20.",
+      "references": ["Rm 12:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica:chapter-romanos-4",
+      "from": "prophecy:romanos-genesis-15-6-abraao-creu-em-deus-e-isso-lhe-foi-imputado-para-justica",
+      "to": "chapter:romanos:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 15:6 (\"Abraão creu em Deus, e isso lhe foi imputado para justiça\")” cita explicitamente Romanos 4:3; Gálatas 3:6; Tiago 2:23.",
+      "references": ["Romanos 4:3; Gálatas 3:6; Tiago 2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-habacuque-2-4-o-justo-vivera-por-sua-fe:chapter-romanos-1",
+      "from": "prophecy:romanos-habacuque-2-4-o-justo-vivera-por-sua-fe",
+      "to": "chapter:romanos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:4 (\"O justo viverá por sua fé\")” cita explicitamente Romanos 1:17; Gálatas 3:11; Hebreus 10:38.",
+      "references": ["Romanos 1:17; Gálatas 3:11; Hebreus 10:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco:chapter-romanos-10",
+      "from": "prophecy:romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco",
+      "to": "chapter:romanos:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 28:16 & 8:14 (\"Eis que ponho em Sião uma pedra de tropeço\")” cita explicitamente Romanos 9:32-33; 10:11; 1 Pedro 2:6.",
+      "references": ["Romanos 9:32-33; 10:11; 1 Pedro 2:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco:chapter-romanos-9",
+      "from": "prophecy:romanos-isaias-28-16-8-14-eis-que-ponho-em-siao-uma-pedra-de-tropeco",
+      "to": "chapter:romanos:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 28:16 & 8:14 (\"Eis que ponho em Sião uma pedra de tropeço\")” cita explicitamente Romanos 9:32-33; 10:11; 1 Pedro 2:6.",
+      "references": ["Romanos 9:32-33; 10:11; 1 Pedro 2:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-isaias-59-20-21-27-9-o-libertador-vira-de-siao:chapter-romanos-11",
+      "from": "prophecy:romanos-isaias-59-20-21-27-9-o-libertador-vira-de-siao",
+      "to": "chapter:romanos:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 59:20-21 & 27:9 (\"O Libertador virá de Sião\")” cita explicitamente Romanos 11:26-27.",
+      "references": ["Romanos 11:26-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-romanos-salmo-32-1-2-bem-aventurados-aqueles-cujas-iniquidades-sao-perdoadas:chapter-romanos-4",
+      "from": "prophecy:romanos-salmo-32-1-2-bem-aventurados-aqueles-cujas-iniquidades-sao-perdoadas",
+      "to": "chapter:romanos:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 32:1-2 (\"Bem-aventurados aqueles cujas iniquidades são perdoadas\")” cita explicitamente Romanos 4:7-8.",
+      "references": ["Romanos 4:7-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-1:theme-roma",
+      "from": "chapter:romanos:1",
+      "to": "theme:roma",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Roma” cita explicitamente Romanos 1:7; 15:23-24.",
+      "references": ["Romanos 1:7; 15:23-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-12:doctrine-culto-santidade",
+      "from": "chapter:romanos:12",
+      "to": "doctrine:culto-santidade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Culto, oração e vida comunitária” cita explicitamente At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25.",
+      "references": ["At 2:42–47; 1Co 14:26–33; Rm 12:1–2; Hb 10:24–25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-12:doctrine-dons",
+      "from": "chapter:romanos:12",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-15:theme-roma",
+      "from": "chapter:romanos:15",
+      "to": "theme:roma",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Roma” cita explicitamente Romanos 1:7; 15:23-24.",
+      "references": ["Romanos 1:7; 15:23-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-3:doctrine-salvacao",
+      "from": "chapter:romanos:3",
+      "to": "doctrine:salvacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Arrependimento, justificação e novo nascimento” cita explicitamente Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-3:theme-justificacao",
+      "from": "chapter:romanos:3",
+      "to": "theme:justificacao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Justificação” cita explicitamente Romanos 3:24-28; 5:1.",
+      "references": ["Romanos 3:24-28; 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-3:theme-lei-de-moises",
+      "from": "chapter:romanos:3",
+      "to": "theme:lei-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Lei de Moisés” cita explicitamente Romanos 3:19-20; 7:7-12.",
+      "references": ["Romanos 3:19-20; 7:7-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-5:theme-justificacao",
+      "from": "chapter:romanos:5",
+      "to": "theme:justificacao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Justificação” cita explicitamente Romanos 3:24-28; 5:1.",
+      "references": ["Romanos 3:24-28; 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-5:theme-pecado",
+      "from": "chapter:romanos:5",
+      "to": "theme:pecado",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Pecado” cita explicitamente Romanos 5:21; 6:12-14.",
+      "references": ["Romanos 5:21; 6:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-6:doctrine-ordenancas",
+      "from": "chapter:romanos:6",
+      "to": "doctrine:ordenancas",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Batismo nas águas, Ceia e lavagem dos pés” cita explicitamente Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-6:theme-pecado",
+      "from": "chapter:romanos:6",
+      "to": "theme:pecado",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Pecado” cita explicitamente Romanos 5:21; 6:12-14.",
+      "references": ["Romanos 5:21; 6:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-7:theme-lei-de-moises",
+      "from": "chapter:romanos:7",
+      "to": "theme:lei-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Lei de Moisés” cita explicitamente Romanos 3:19-20; 7:7-12.",
+      "references": ["Romanos 3:19-20; 7:7-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-romanos-8:doctrine-espirito",
+      "from": "chapter:romanos:8",
+      "to": "doctrine:espirito",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Espírito Santo e sua presença” cita explicitamente Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:related-term:chapter-romanos-1:term-dikaiosyne",
+      "from": "chapter:romanos:1",
+      "to": "term:dikaiosyne",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Dikaiosynē” cita explicitamente Rm 1:16–17.",
+      "references": ["Rm 1:16–17"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-romanos-12:term-charisma",
+      "from": "chapter:romanos:12",
+      "to": "term:charisma",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charisma” cita explicitamente Rm 12:6–8.",
+      "references": ["Rm 12:6–8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-romanos-3:term-pistis",
+      "from": "chapter:romanos:3",
+      "to": "term:pistis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Pistis” cita explicitamente Rm 3:21–26.",
+      "references": ["Rm 3:21–26"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-romanos-8:term-ab",
+      "from": "chapter:romanos:8",
+      "to": "term:ab",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Abba” cita explicitamente Rm 8:15.",
+      "references": ["Rm 8:15"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-romanos-8:term-apokalypsis",
+      "from": "chapter:romanos:8",
+      "to": "term:apokalypsis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Apokalypsis” cita explicitamente Rm 8:18–19.",
+      "references": ["Rm 8:18–19"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

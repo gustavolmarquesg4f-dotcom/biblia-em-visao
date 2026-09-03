@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   canonicalKnowledgeLabel,
+  extractCanonicalChapterReferences,
   extractCanonicalBookNames,
   makeKnowledgeId,
   parseKnowledgeId,
@@ -10,10 +11,10 @@ import {
 } from "@shared/knowledge-model";
 
 const books: CanonicalBookReference[] = [
-  { name: "Gênesis", short: "Gn" },
+  { name: "Gênesis", short: "Gn", chapters: 50 },
   { name: "Oseias", short: "Os" },
   { name: "Naum", short: "Na" },
-  { name: "João", short: "Jo" },
+  { name: "João", short: "Jo", chapters: 21 },
   { name: "1 João", short: "1Jo" },
   { name: "2 Coríntios", short: "2Co" },
   { name: "1 Timóteo", short: "1Tm" },
@@ -38,6 +39,49 @@ describe("identificadores globais", () => {
       parts: ["abraao"],
     });
     expect(parseKnowledgeId("desconhecido:abraao")).toBeNull();
+  });
+});
+
+describe("extração de capítulos explícitos", () => {
+  it("herda o livro depois de ponto e vírgula", () => {
+    expect(
+      extractCanonicalChapterReferences(["Gn 12:1–3; 15:1–6; 17:1"], books).map(
+        ({ book, chapter }) => `${book} ${chapter}`
+      )
+    ).toEqual(["Gênesis 12", "Gênesis 15", "Gênesis 17"]);
+  });
+
+  it("distingue intervalo de capítulos de intervalo de versículos", () => {
+    expect(
+      extractCanonicalChapterReferences(
+        ["Gn 1:1–2:3; Jo 13:1–17; Jo 14–16"],
+        books
+      ).map(({ book, chapter }) => `${book} ${chapter}`)
+    ).toEqual([
+      "Gênesis 1",
+      "Gênesis 2",
+      "João 13",
+      "João 14",
+      "João 15",
+      "João 16",
+    ]);
+  });
+
+  it("aceita capítulos repetidos após vírgula, mas ignora versículos soltos", () => {
+    expect(
+      extractCanonicalChapterReferences(
+        ["Gn 4:1, 4:8, 4:10; Gn 5:2, 8, 9"],
+        books
+      ).map(({ book, chapter }) => `${book} ${chapter}`)
+    ).toEqual(["Gênesis 4", "Gênesis 5"]);
+  });
+
+  it("não confunde Evangelho e cartas de João", () => {
+    expect(
+      extractCanonicalChapterReferences(["1 João 4:8; Jo 3:16"], books).map(
+        ({ book, chapter }) => `${book} ${chapter}`
+      )
+    ).toEqual(["João 3", "1 João 4"]);
   });
 });
 

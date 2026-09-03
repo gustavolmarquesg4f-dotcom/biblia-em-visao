@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Pedro",
+  "count": 20,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "doctrine:escrituras",
+      "kind": "doctrine",
+      "label": "Bíblia e inspiração verbal",
+      "aliases": [],
+      "summary": "A declaração de fé consultada afirma a inspiração verbal da Bíblia e a reconhece como expressão escrita da Palavra de Deus.",
+      "references": ["2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escrituras"],
+      "attributes": {
+        "category": "Escrituras",
+        "pentecostalReading": "A Escritura é a autoridade fundante para doutrina, vida, culto e missão. A leitura pentecostal acrescenta a ação atual do Espírito sem colocar experiência individual acima do texto.",
+        "distinction": "Esta é uma formulação confessional. A pesquisa acadêmica também estuda composição, transmissão e gêneros sem operar com a mesma afirmação dogmática de inspiração.",
+        "source": "Declaração de Fé da Church of God; site IDB Nacional"
+      }
+    },
+    {
+      "id": "person:balaao",
+      "kind": "person",
+      "label": "Balaão",
+      "aliases": ["Balaão (בִּלְעָם)"],
+      "summary": "Balaão, filho de Beor, é um adivinho ou profeta pagão originário de Petor, na Mesopotâmia (rio Eufrates). Contratado por Balaque, rei de Moabe, para amaldiçoar o povo de Israel que acampava nas planícies moabitas após o êxodo, Balaão vê-se divinamente impedido por YHWH de proferir maldições, sendo forçado a pronunciar quatro oráculos de bênção magníficos sobre Israel. O episódio mais célebre de sua narrativa é o momento em que sua jumenta, dotada miraculosamente de fala, repreende-o por sua cegueira espiritual diante do Anjo do Senhor armado com uma espada.",
+      "references": ["2Pe 2:15-16", "Judas 1:11"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-balaao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta mercenário do Antigo Testamento associado ao erro por ganância e sedução do povo de Deus à apostasia e imoralidade.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lo",
+      "kind": "person",
+      "label": "Ló",
+      "aliases": [],
+      "summary": "A trajetória de Ló acompanha a transformação do espaço: ele olha para a planície, aproxima-se de Sodoma, senta-se à porta da cidade e, depois do juízo, foge para Zoar e para uma caverna. O personagem conecta riqueza, hospitalidade, violência urbana, juízo e sobrevivência familiar.",
+      "references": [
+        "2Pe 2:7-8",
+        "Gn 13:5–13",
+        "Gn 14",
+        "Gn 18:16–33",
+        "Gn 19",
+        "Lc 17:28–32",
+        "2Pe 2:7–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["lot"],
+      "attributes": {
+        "role": "sobrinho de Abraão; habitante de Sodoma",
+        "entityType": "Pessoa",
+        "tags": ["Sodoma", "hospitalidade", "juízo", "deslocamento"]
+      }
+    },
+    {
+      "id": "person:noe",
+      "kind": "person",
+      "label": "Noé",
+      "aliases": ["Noé"],
+      "summary": "Noé (do hebraico נֹחַ, *Nōaḥ*, significando \"descanso\" ou \"consolação\") é o patriarca justo que encontrou graça aos olhos de Deus em meio a uma geração corrompida pela violência e maldade generalizada. Advertido divinamente sobre um cataclismo universal (o Dilúvio), Noé obedece construindo uma arca de proporções colossais, salvando sua família (esposa, filhos Sem, Cam e Jafé, e suas respectivas noras) e casais de todas as espécies animais. Após o dilúvio, Noé oferece um sacrifício aceitável a Deus, que estabelece a **Aliança Noaica**, selada com o sinal do arco-íris, garantindo a preservação da ordem natural e promulgando leis fundamentais para a convivência humana (incluindo a proibição do consumo de sangue e a sanção da pena capital para o assassinato). Posteriormente, Noé protagoniza o episódio da embriaguez e da maldição de Canaã [27].",
+      "references": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7",
+        "2Pe 2:5",
+        "Gn 6:5–22",
+        "Gn 7–9",
+        "Is 54:9–10",
+        "Mt 24:37–39",
+        "1Pe 3:20–21"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-noe", "noah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%206%3A5%E2%80%9322%3B%20G%C3%AAnesis%207%3A1%E2%80%9324%3B%208%3A1%E2%80%9319%3B%20G%C3%AAnesis%209%3A1%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "justo do dilúvio; novo começo humano",
+        "entityType": "Pessoa",
+        "tags": ["dilúvio", "aliança", "novo começo", "juízo"]
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:simao-pedro",
+      "kind": "person",
+      "label": "Simão Pedro",
+      "aliases": ["Simão Pedro"],
+      "summary": "Simão, renomeado por Jesus como Pedro (*Petros* ou *Cefas*, significando rocha), foi um pescador da Galileia que se tornou o líder carismático do círculo apostólico. Destacou-se por suas confissões de fé impetuosas, por ter negado Jesus três vezes durante a Paixão, e por seu subsequente restabelecimento no Mar da Galileia, tornando-se uma coluna central da Igreja primitiva em Jerusalém e Antioquia.",
+      "references": [
+        "Mt 16:16-19; 17:24-27; 26:33-35, 69-75",
+        "Mc 1.16; 8.29; 14.66-72",
+        "2Pe 1:1, 1:14-18"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-simao-pedro"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Autor apostólico (segundo a tradição) e testemunha da transfiguração",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:monte-santo-tabor-hermom",
+      "kind": "place",
+      "label": "Monte Santo (Tabor / Hermom)",
+      "aliases": [],
+      "summary": "Local da transfiguração onde a glória divina foi visivelmente revelada aos apóstolos.",
+      "references": ["2Pe 1:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:o-novo-ceu-e-a-nova-terra",
+      "kind": "place",
+      "label": "O Novo Céu e a Nova Terra",
+      "aliases": [],
+      "summary": "Morada futura onde impera a justiça, almejada ativamente pelos crentes vigilantes.",
+      "references": ["2Pe 3:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico/Escatológico" }
+    },
+    {
+      "id": "place:o-tartaro",
+      "kind": "place",
+      "label": "O Tártaro",
+      "aliases": [],
+      "summary": "Região abissal de trevas onde os anjos pecadores foram confinados em correntes atadas ao juízo.",
+      "references": ["2Pe 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Disputado/Simbólico" }
+    },
+    {
+      "id": "place:sodoma-e-gomorra",
+      "kind": "place",
+      "label": "Sodoma e Gomorra",
+      "aliases": [],
+      "summary": "Cidades da planície destruídas por fogo e enxofre devido à perversão sexual extrema, usadas como paradigma escatológico de juízo.",
+      "references": ["2Pe 2:6", "Judas 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "kind": "prophecy",
+      "label": "1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")",
+      "aliases": [],
+      "summary": "Conexão com os oráculos veterotestamentários sobre o Dia do Senhor e o slogan político imperial \"Pax et Securitas\"; divergência entre previsão cronológica e advertência ética de vigilância.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco profético" }
+    },
+    {
+      "id": "prophecy:1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios",
+      "kind": "prophecy",
+      "label": "\"Nos últimos tempos, alguns apostatarão da fé, dando ouvidos a espíritos enganadores e a doutrinas de demônios\"",
+      "aliases": [],
+      "summary": "Interpretado por exegetas ora como profecia sobre o gnosticismo do século II, ora como advertência geral contra desvios sectários em qualquer era da igreja.",
+      "references": ["1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Previsão escatológica" }
+    },
+    {
+      "id": "prophecy:2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias",
+      "kind": "prophecy",
+      "label": "A profecia sobre os escarnecedores nos últimos dias",
+      "aliases": [],
+      "summary": "Os zombadores céticos que questionam a parúsia são interpretados como cumprimento de expectativas escatológicas sobre a crise final.",
+      "references": ["Sl 1:1; Is 5:19; 2Pe 3:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Reinterpretação" }
+    },
+    {
+      "id": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "kind": "prophecy",
+      "label": "Isaías 65:17 — Apocalipse 21:1",
+      "aliases": [],
+      "summary": "A promessa de novos céus e nova terra; divergências entre aniquilação material do cosmos e renovação qualitativa e redentora da criação.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-26-11",
+      "kind": "prophecy",
+      "label": "Pr 26:11",
+      "aliases": [],
+      "summary": "O apóstolo Pedro emprega a metáfora proverbial para descrever apóstatas que retornam à corrupção moral após conhecerem o caminho da verdade.",
+      "references": ["2Pe 2:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / recepção posterior" }
+    },
+    {
+      "id": "term:parousia",
+      "kind": "term",
+      "label": "Parousia",
+      "aliases": ["παρουσία", "parousia"],
+      "summary": "Presença, chegada ou visita oficial; no discurso escatológico, a palavra nomeia a esperança da presença/manifestação de Cristo.",
+      "references": ["Mt 24:27", "1Ts 4:15", "2Pe 3:4"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["parousia"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O termo pode falar de uma visita humana comum ou de uma expectativa escatológica. A leitura deve observar o contraste com ausência, demora, vigilância e ressurreição.",
+        "translationNote": "Traduzir sempre por ‘segunda vinda’ já interpreta o termo. Em alguns textos a tradução ‘presença’ ou ‘chegada’ expõe melhor a discussão."
+      }
+    },
+    {
+      "id": "theme:anjos-caidos-tartaro",
+      "kind": "theme",
+      "label": "Anjos Caídos / Tártaro",
+      "aliases": [],
+      "summary": "Prisão onde espíritos rebeldes aguardam acorrentados o veredito do juízo final, refletindo motivos enoquianos",
+      "references": ["2Pe 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região subterrânea de confinamento e cativeiro espiritual",
+        "entityType": "Instituição/Mito"
+      }
+    },
+    {
+      "id": "theme:falsos-mestres-escarnecedores",
+      "kind": "theme",
+      "label": "Falsos Mestres / Escarnecedores",
+      "aliases": [],
+      "summary": "Pregadores libertinos que negam o juízo escatológico, promovem a licenciosidade e distorcem as epístolas paulinas",
+      "references": ["2Pe 2:1-3, 3:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositores teológicos e morais na comunidade",
+        "entityType": "Povo/Grupo"
+      }
+    },
+    {
+      "id": "theme:novo-ceu-e-nova-terra",
+      "kind": "theme",
+      "label": "Novo Céu e Nova Terra",
+      "aliases": [],
+      "summary": "Ordem renovada purificada pelo fogo que substituirá o cosmos corrompido, constituindo o lar definitivo dos justos",
+      "references": ["2Pe 3:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Realidade cosmológica futura de justiça absoluta",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-balaao:chapter-2-pedro-2",
+      "from": "person:balaao",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão” cita explicitamente 2Pe 2:15-16.",
+      "references": ["2Pe 2:15-16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lo:chapter-2-pedro-2",
+      "from": "person:lo",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ló” cita explicitamente 2Pe 2:7-8.",
+      "references": ["2Pe 2:7-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noe:chapter-2-pedro-2",
+      "from": "person:noe",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noé” cita explicitamente 2Pe 2:5.",
+      "references": ["2Pe 2:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-2-pedro-3",
+      "from": "person:paulo",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 2Pe 3:15-16.",
+      "references": ["2Pe 3:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-2-pedro-1",
+      "from": "person:simao-pedro",
+      "to": "chapter:2-pedro:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente 2Pe 1:1, 1:14-18.",
+      "references": ["2Pe 1:1, 1:14-18"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-santo-tabor-hermom:chapter-2-pedro-1",
+      "from": "place:monte-santo-tabor-hermom",
+      "to": "chapter:2-pedro:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Santo (Tabor / Hermom)” cita explicitamente 2Pe 1:18.",
+      "references": ["2Pe 1:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-novo-ceu-e-a-nova-terra:chapter-2-pedro-3",
+      "from": "place:o-novo-ceu-e-a-nova-terra",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Novo Céu e a Nova Terra” cita explicitamente 2Pe 3:13.",
+      "references": ["2Pe 3:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-tartaro:chapter-2-pedro-2",
+      "from": "place:o-tartaro",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Tártaro” cita explicitamente 2Pe 2:4.",
+      "references": ["2Pe 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sodoma-e-gomorra:chapter-2-pedro-2",
+      "from": "place:sodoma-e-gomorra",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sodoma e Gomorra” cita explicitamente 2Pe 2:6.",
+      "references": ["2Pe 2:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca:chapter-2-pedro-3",
+      "from": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")” cita explicitamente Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios:chapter-2-pedro-3",
+      "from": "prophecy:1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Nos últimos tempos, alguns apostatarão da fé, dando ouvidos a espíritos enganadores e a doutrinas de demônios\"” cita explicitamente 1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3.",
+      "references": ["1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias:chapter-2-pedro-3",
+      "from": "prophecy:2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia sobre os escarnecedores nos últimos dias” cita explicitamente Sl 1:1; Is 5:19; 2Pe 3:3-4.",
+      "references": ["Sl 1:1; Is 5:19; 2Pe 3:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-isaias-65-17-apocalipse-21-1:chapter-2-pedro-3",
+      "from": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "to": "chapter:2-pedro:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 65:17 — Apocalipse 21:1” cita explicitamente Isaías 65-66; 2 Pedro 3; Apocalipse 21.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-26-11:chapter-2-pedro-2",
+      "from": "prophecy:proverbios-pr-26-11",
+      "to": "chapter:2-pedro:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 26:11” cita explicitamente 2Pe 2:22.",
+      "references": ["2Pe 2:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-pedro-1:doctrine-escrituras",
+      "from": "chapter:2-pedro:1",
+      "to": "doctrine:escrituras",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Bíblia e inspiração verbal” cita explicitamente 2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105.",
+      "references": ["2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-pedro-2:theme-anjos-caidos-tartaro",
+      "from": "chapter:2-pedro:2",
+      "to": "theme:anjos-caidos-tartaro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anjos Caídos / Tártaro” cita explicitamente 2Pe 2:4.",
+      "references": ["2Pe 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-pedro-2:theme-falsos-mestres-escarnecedores",
+      "from": "chapter:2-pedro:2",
+      "to": "theme:falsos-mestres-escarnecedores",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Falsos Mestres / Escarnecedores” cita explicitamente 2Pe 2:1-3, 3:3-4.",
+      "references": ["2Pe 2:1-3, 3:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-pedro-3:theme-falsos-mestres-escarnecedores",
+      "from": "chapter:2-pedro:3",
+      "to": "theme:falsos-mestres-escarnecedores",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Falsos Mestres / Escarnecedores” cita explicitamente 2Pe 2:1-3, 3:3-4.",
+      "references": ["2Pe 2:1-3, 3:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-pedro-3:theme-novo-ceu-e-nova-terra",
+      "from": "chapter:2-pedro:3",
+      "to": "theme:novo-ceu-e-nova-terra",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Novo Céu e Nova Terra” cita explicitamente 2Pe 3:13.",
+      "references": ["2Pe 3:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-2-pedro-3:term-parousia",
+      "from": "chapter:2-pedro:3",
+      "to": "term:parousia",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Parousia” cita explicitamente 2Pe 3:4.",
+      "references": ["2Pe 3:4"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

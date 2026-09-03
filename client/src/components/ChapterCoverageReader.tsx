@@ -2,11 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, ExternalLink, Layers3, Loader2, MapPinned, Route, Search, ShieldCheck } from "lucide-react";
 import type { Book } from "@/lib/bible-data";
 import { chapterCoverageForBook, loadChapterCoverage, type ChapterCoverageRecord } from "@/lib/chapter-coverage-data";
+import { makeKnowledgeId } from "@shared/knowledge-model";
+import ChapterKnowledgeGuide from "@/components/ChapterKnowledgeGuide";
 import "@/chapter-coverage-reader.css";
 
 type Props = {
   book: Book;
   onFocusPlace?: (placeId: string) => void;
+  onOpenEntity?: (entityId: string) => void;
 };
 
 const layerLabels = [
@@ -18,7 +21,7 @@ const layerLabels = [
 const depthLabel = (depth: ChapterCoverageRecord["editorialDepth"]) => depth === "Foco ampliado" ? "foco ampliado" : depth === "Comentário textual enriquecido" ? "comentário textual" : "núcleo";
 const depthClass = (depth: ChapterCoverageRecord["editorialDepth"]) => depth === "Foco ampliado" ? "is-focus" : depth === "Comentário textual enriquecido" ? "is-enriched" : "";
 
-export default function ChapterCoverageReader({ book, onFocusPlace }: Props) {
+export default function ChapterCoverageReader({ book, onFocusPlace, onOpenEntity }: Props) {
   const readChapterFromUrl = () => { if (typeof window === "undefined") return 1; const value = Number(new URLSearchParams(window.location.search).get("cap")); return Number.isInteger(value) && value > 0 ? value : 1; };
   const [chapters, setChapters] = useState<ChapterCoverageRecord[]>([]);
   const [activeChapter, setActiveChapter] = useState(() => readChapterFromUrl());
@@ -78,6 +81,8 @@ export default function ChapterCoverageReader({ book, onFocusPlace }: Props) {
       <article className="chapter-coverage-record" id={`chapter-record-${book.id}`}>
         <div className="chapter-coverage-record-top"><div><span>{active.reference} · ficha {activeIndex + 1}/{chapters.length}</span><h3>{active.title}</h3></div><span className={`chapter-depth-badge ${depthClass(active.editorialDepth)}`}>{active.editorialDepth}</span></div>
         <div className="chapter-coverage-layers">{layerLabels.map(([label, key]) => <section key={key} className={`chapter-layer chapter-layer--${key.replace("Layer", "").toLowerCase()}`}><span>{label}</span><p>{active[key]}</p></section>)}</div>
+
+        <ChapterKnowledgeGuide chapterId={makeKnowledgeId("chapter", book.name, active.chapter)} reference={active.reference} onOpenEntity={onOpenEntity} />
 
         <section className="chapter-coverage-map-card" aria-label={`Contexto cartográfico de ${active.reference}`}>
           <div className="chapter-coverage-map-card-head"><div><span><MapPinned size={14} /> Contexto cartográfico por capítulo</span><h4>{active.cartography.placeLabel} <em>· {active.cartography.region}</em></h4></div><button type="button" onClick={() => onFocusPlace?.(`place-${active.cartography.placeId}`)} disabled={!onFocusPlace} title={onFocusPlace ? `Focar ${active.cartography.placeLabel} no atlas` : "Abra o atlas pelo menu para explorar o lugar"}><MapPinned size={14} /> Focar no atlas</button></div>

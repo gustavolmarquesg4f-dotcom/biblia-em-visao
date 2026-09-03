@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "book": "Ageu",
+  "count": 27,
+  "chapterCount": 2,
+  "nodes": [
+    {
+      "id": "event:ageu-a-consulta-sacerdotal-sobre-pureza-e-impureza",
+      "kind": "event",
+      "label": "A Consulta Sacerdotal sobre Pureza e Impureza",
+      "aliases": [],
+      "summary": "No vigésimo quarto dia do nono mês (Kislev), Ageu interroga os sacerdotes sobre a contaminação ritual, demonstrando que a desobediência espalhava impureza, mas a obediência a partir daquele dia atrairia bênçãos agrícolas.",
+      "references": ["Ageu Ageu 2:10-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelecimento de nexo teológico entre pureza ritual, obediência ética e prosperidade material na terra.",
+        "entities": "Ageu, Sacerdotes, Remanescente do povo"
+      }
+    },
+    {
+      "id": "event:ageu-a-obediencia-comunitaria-e-o-inicio-das-obras",
+      "kind": "event",
+      "label": "A Obediência Comunitária e o Início das Obras",
+      "aliases": [],
+      "summary": "Em 24 de Elul de 520 a.C., após três semanas do chamamento, o povo atende à palavra profética com temor reverente, e Iahweh assegura \"Eu estou convoco\". As obras são iniciadas.",
+      "references": ["Ageu Ageu 1:12-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Retomada concreta da reconstrução estrutural do Templo sob a liderança conjunta civil e sacerdotal.",
+        "entities": "Ageu, Zorobabel, Josué, Remanescente do povo"
+      }
+    },
+    {
+      "id": "event:ageu-o-oraculo-da-festa-dos-tabernaculos-sobre-a-gloria-do-templo",
+      "kind": "event",
+      "label": "O Oráculo da Festa dos Tabernáculos sobre a Glória do Templo",
+      "aliases": [],
+      "summary": "No vigésimo primeiro dia do sétimo mês (Tishri), Ageu conforta os que pranteavam a modéstia do novo templo em comparação ao de Salomão, prometendo que a glória futura o superará.",
+      "references": ["Ageu Ageu 2:1-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Deslocamento da ênfase material para a promessa de presença divina universal e paz escatológica.",
+        "entities": "Ageu, Zorobabel, Josué, Remanescente do povo"
+      }
+    },
+    {
+      "id": "event:ageu-o-oraculo-messianico-a-zorobabel",
+      "kind": "event",
+      "label": "O Oráculo Messiânico a Zorobabel",
+      "aliases": [],
+      "summary": "No mesmo dia 24 de Kislev, Ageu profere um segundo oráculo assegurando o abalo dos reinos gentílicos e a consagração de Zorobabel como anel de selo de Iahweh.",
+      "references": ["Ageu Ageu 2:20-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Projeção da esperança dinástica davídica em meio à opressão do Império Persa.",
+        "entities": "Ageu, Zorobabel"
+      }
+    },
+    {
+      "id": "event:ageu-o-primeiro-oraculo-e-a-convocacao-ao-trabalho",
+      "kind": "event",
+      "label": "O Primeiro Oráculo e a Convocação ao Trabalho",
+      "aliases": [],
+      "summary": "Em 1 de Elul (agosto/setembro de 520 a.C.), Ageu confronta o povo sobre o descaso com o Templo, apontando que a crise econômica é castigo divino.",
+      "references": ["Ageu Ageu 1:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desperta a consciência cultual da comunidade e culmina na decisão de reiniciar a construção.",
+        "entities": "Ageu, Zorobabel, Josué, Remanescente do povo"
+      }
+    },
+    {
+      "id": "people-group:remanescente-do-povo-kol-ha-am",
+      "kind": "people-group",
+      "label": "Remanescente do povo (Kol Ha'am)",
+      "aliases": [],
+      "summary": "O corpo social em Yehud que ouviu a voz do profeta e respondeu com obediência à reconstrução do Templo.",
+      "references": ["Ageu 1:12; 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade de repatriados judaicos",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:ageu",
+      "kind": "person",
+      "label": "Ageu",
+      "aliases": [],
+      "summary": "Porta-voz de Iahweh cujo ministério durou cerca de quatro meses no ano 520 a.C., encarregado de exortar a comunidade a reconstruir o Templo.",
+      "references": ["Ageu 1:1; Esdras 5:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Profeta pós-exílico", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:dario-i",
+      "kind": "person",
+      "label": "Dario I",
+      "aliases": [],
+      "summary": "Soberano cujo segundo ano de reinado marcou o marco cronológico dos oráculos de Ageu e cuja administração permitiu a continuação das obras do Templo.",
+      "references": ["Ageu 1:1; Esdras 4:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Imperador do Império Persa (Dario Histaspes)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josue-jozadaque",
+      "kind": "person",
+      "label": "Josué (Jozadaque)",
+      "aliases": [],
+      "summary": "Líder religioso de Yehud que colaborou com Zorobabel na liderança da reconstrução cultual e comunitária.",
+      "references": ["Ageu 1:1, 12; 2:2, 4; Zacarias 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sumo Sacerdote", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:zorobabel",
+      "kind": "person",
+      "label": "Zorobabel",
+      "aliases": ["Zorobabel"],
+      "summary": "Zorobabel (hebraico: *Zĕrubbābel*, \"semente de Babilônia\") foi um líder político e governador (*pachah*) de Judá no final do século VI a.C. Descendente direto da casa real de Davi (neto do rei Jeoaquim ou Jeconias, conforme as genealogias em 1 Crônicas 3:19 e Mateus 1:12-13), Zorobabel emergiu como a figura central do primeiro grande retorno dos exilados babilônicos sob o decreto inicial do rei persa Ciro II (Ciro, o Grande), emitido em 538 a.C. Junto com o sumo sacerdote Josué (Jeshua), ele liderou a repatriação de dezenas de milhares de judeus e assumiu a responsabilidade primária pela restauração do culto cultual em Jerusalém e pela reconstrução do Templo, que culminou na consagração do Segundo Templo em c. 516 a.C.",
+      "references": [
+        "**Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*",
+        "**Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*",
+        "**Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*",
+        "Ageu 1:1, 14; 2:2, 21-23; Esdras 3:2",
+        "Zacarias 4:6-9"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-zorobabel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Esdras%203%3A2-3**%3A%20*%22Ent%C3%A3o%20se%20levantou%20Josu%C3%A9%2C%20o%20filho%20de%20Josadaque%2C%20e%20seus%20irm%C3%A3os%2C%20os%20sacerdotes%2C%20e%20Zorobabel%2C%20o%20filho%20de%20Salatiel%2C%20e%20seus%20irm%C3%A3os%2C%20e%20edificaram%20o%20altar%20do%20Deus%20de%20Israel...%22*%3B%20**Ageu%202%3A4**%3A%20*%22Ora%2C%20pois%2C%20esfor%C3%A7a-te%2C%20%C3%B3%20Zorobabel%2C%20diz%20o%20Senhor%2C%20e%20esfor%C3%A7a-te%2C%20%C3%B3%20Josu%C3%A9%2C%20sumo%20sacerdote%2C%20e%20esfor%C3%A7a-te%20todo%20o%20povo%20da%20terra%2C%20diz%20o%20Senhor%2C%20e%20trabalhai%3B%20porque%20eu%20sou%20convosco%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%22*%3B%20**Zacarias%204%3A6-7**%3A%20*%22Esta%20%C3%A9%20a%20palavra%20do%20Senhor%20a%20Zorobabel%3A%20N%C3%A3o%20por%20for%C3%A7a%20nem%20por%20viol%C3%AAncia%2C%20mas%20pelo%20meu%20Esp%C3%ADrito%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%20Quem%20%C3%A9s%20tu%2C%20%C3%B3%20grande%20monte%3F%20Diante%20de%20Zorobabel%20ser%C3%A1s%20uma%20plan%C3%ADcie...%22*&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Governador de Judá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-casa-do-senhor-monte-moria",
+      "kind": "place",
+      "label": "A Casa do Senhor / Monte Moriá",
+      "aliases": [],
+      "summary": "Local físico do santuário em ruínas e posteriormente em reconstrução, ponto de encontro entre Iahweh e seu povo.",
+      "references": ["Ageu 1:2, 8, 9; 2:3, 7, 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/geográfico" }
+    },
+    {
+      "id": "place:a-provincia-de-yehud",
+      "kind": "place",
+      "label": "A Província de Yehud",
+      "aliases": [],
+      "summary": "Designação persa para a província de Judá, cenário socioeconômico de penúria e escassez relatado pelo profeta.",
+      "references": ["Ageu 1:1; 2:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:ceus-e-terra-nacoes",
+      "kind": "place",
+      "label": "Céus e Terra / Nações",
+      "aliases": [],
+      "summary": "Arena cósmica do poder de Iahweh, que promete abalar todas as nações imperiais para redirecionar recursos para o seu santuário.",
+      "references": ["Ageu 2:6, 21-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/cosmológico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "prophecy:esdras-a-gloria-da-segunda-casa",
+      "kind": "prophecy",
+      "label": "A glória da segunda casa",
+      "aliases": [],
+      "summary": "A conclusão do templo sob Dario é vista sob a ótica das exortações dos profetas contemporâneos Ageu e Zacarias.",
+      "references": ["Ageu 2.9; Esdras 6.14–15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / escatologia" }
+    },
+    {
+      "id": "theme:a-casa-do-senhor-templo",
+      "kind": "theme",
+      "label": "A Casa do Senhor (Templo)",
+      "aliases": [],
+      "summary": "Instituição cultual cuja negligência provocava crise econômica e cuja reconstrução atrairia a glória divina e a paz.",
+      "references": ["Ageu 1:2, 4, 8, 9; 2:3, 7, 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário central de culto a Iahweh",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:anel-de-selo",
+      "kind": "theme",
+      "label": "Anel de selo",
+      "aliases": [],
+      "summary": "Metáfora régia conferida a Zorobabel, indicando a restauração da legitimidade davídica sob a soberania de Iahweh.",
+      "references": ["Ageu 2:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Símbolo de autoridade real e representação divina",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:imperio-persa",
+      "kind": "theme",
+      "label": "Império Persa",
+      "aliases": [],
+      "summary": "Potência imperial cujos tronos e reinos seriam abalados por Iahweh, moldando o horizonte geopolítico do livro.",
+      "references": ["Ageu 2:6, 21-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Hegemonia geopolítica mundial",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:jerusalem",
+      "kind": "theme",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Apelidada de \"cidade santa\" e \"cidade do grande Rei\", mas caracterizada como o local onde os profetas e o Messias são assassinados.",
+      "references": [
+        "2 Reis 24-25",
+        "Cântico 3:5; 6:4",
+        "Ageu 1:1, 12; 2:2",
+        "Mt 2:1; 4:5; 21:10; 27:53"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário culminante da paixão e símbolo da nação que rejeita os profetas",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-ageu-a-consulta-sacerdotal-sobre-pureza-e-impureza:chapter-ageu-2",
+      "from": "event:ageu-a-consulta-sacerdotal-sobre-pureza-e-impureza",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Consulta Sacerdotal sobre Pureza e Impureza” cita explicitamente Ageu Ageu 2:10-19.",
+      "references": ["Ageu Ageu 2:10-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-ageu-a-obediencia-comunitaria-e-o-inicio-das-obras:chapter-ageu-1",
+      "from": "event:ageu-a-obediencia-comunitaria-e-o-inicio-das-obras",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Obediência Comunitária e o Início das Obras” cita explicitamente Ageu Ageu 1:12-15.",
+      "references": ["Ageu Ageu 1:12-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-ageu-o-oraculo-da-festa-dos-tabernaculos-sobre-a-gloria-do-templo:chapter-ageu-2",
+      "from": "event:ageu-o-oraculo-da-festa-dos-tabernaculos-sobre-a-gloria-do-templo",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Oráculo da Festa dos Tabernáculos sobre a Glória do Templo” cita explicitamente Ageu Ageu 2:1-9.",
+      "references": ["Ageu Ageu 2:1-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-ageu-o-oraculo-messianico-a-zorobabel:chapter-ageu-2",
+      "from": "event:ageu-o-oraculo-messianico-a-zorobabel",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Oráculo Messiânico a Zorobabel” cita explicitamente Ageu Ageu 2:20-23.",
+      "references": ["Ageu Ageu 2:20-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-ageu-o-primeiro-oraculo-e-a-convocacao-ao-trabalho:chapter-ageu-1",
+      "from": "event:ageu-o-primeiro-oraculo-e-a-convocacao-ao-trabalho",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Oráculo e a Convocação ao Trabalho” cita explicitamente Ageu Ageu 1:1-11.",
+      "references": ["Ageu Ageu 1:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-remanescente-do-povo-kol-ha-am:chapter-ageu-1",
+      "from": "people-group:remanescente-do-povo-kol-ha-am",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Remanescente do povo (Kol Ha'am)” cita explicitamente Ageu 1:12; 2:2.",
+      "references": ["Ageu 1:12; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-remanescente-do-povo-kol-ha-am:chapter-ageu-2",
+      "from": "people-group:remanescente-do-povo-kol-ha-am",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Remanescente do povo (Kol Ha'am)” cita explicitamente Ageu 1:12; 2:2.",
+      "references": ["Ageu 1:12; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ageu:chapter-ageu-1",
+      "from": "person:ageu",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu” cita explicitamente Ageu 1:1; Esdras 5:1.",
+      "references": ["Ageu 1:1; Esdras 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-dario-i:chapter-ageu-1",
+      "from": "person:dario-i",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Dario I” cita explicitamente Ageu 1:1; Esdras 4:24.",
+      "references": ["Ageu 1:1; Esdras 4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-jozadaque:chapter-ageu-1",
+      "from": "person:josue-jozadaque",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Jozadaque)” cita explicitamente Ageu 1:1, 12; 2:2, 4; Zacarias 3:1.",
+      "references": ["Ageu 1:1, 12; 2:2, 4; Zacarias 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-jozadaque:chapter-ageu-2",
+      "from": "person:josue-jozadaque",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Jozadaque)” cita explicitamente Ageu 1:1, 12; 2:2, 4; Zacarias 3:1.",
+      "references": ["Ageu 1:1, 12; 2:2, 4; Zacarias 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel:chapter-ageu-1",
+      "from": "person:zorobabel",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel” cita explicitamente Ageu 1:1, 14; 2:2, 21-23; Esdras 3:2.",
+      "references": ["Ageu 1:1, 14; 2:2, 21-23; Esdras 3:2"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel:chapter-ageu-2",
+      "from": "person:zorobabel",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel” cita explicitamente **Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*.",
+      "references": [
+        "**Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-do-senhor-monte-moria:chapter-ageu-1",
+      "from": "place:a-casa-do-senhor-monte-moria",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa do Senhor / Monte Moriá” cita explicitamente Ageu 1:2, 8, 9; 2:3, 7, 9.",
+      "references": ["Ageu 1:2, 8, 9; 2:3, 7, 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-do-senhor-monte-moria:chapter-ageu-2",
+      "from": "place:a-casa-do-senhor-monte-moria",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa do Senhor / Monte Moriá” cita explicitamente Ageu 1:2, 8, 9; 2:3, 7, 9.",
+      "references": ["Ageu 1:2, 8, 9; 2:3, 7, 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-de-yehud:chapter-ageu-1",
+      "from": "place:a-provincia-de-yehud",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província de Yehud” cita explicitamente Ageu 1:1; 2:14.",
+      "references": ["Ageu 1:1; 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-de-yehud:chapter-ageu-2",
+      "from": "place:a-provincia-de-yehud",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província de Yehud” cita explicitamente Ageu 1:1; 2:14.",
+      "references": ["Ageu 1:1; 2:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ceus-e-terra-nacoes:chapter-ageu-2",
+      "from": "place:ceus-e-terra-nacoes",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Céus e Terra / Nações” cita explicitamente Ageu 2:6, 21-22.",
+      "references": ["Ageu 2:6, 21-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-ageu-1",
+      "from": "place:jerusalem",
+      "to": "chapter:ageu:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Ageu 1:1, 12, 14; 2:2.",
+      "references": ["Ageu 1:1, 12, 14; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-ageu-2",
+      "from": "place:jerusalem",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Ageu 1:1, 12, 14; 2:2.",
+      "references": ["Ageu 1:1, 12, 14; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-a-gloria-da-segunda-casa:chapter-ageu-2",
+      "from": "prophecy:esdras-a-gloria-da-segunda-casa",
+      "to": "chapter:ageu:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A glória da segunda casa” cita explicitamente Ageu 2.9; Esdras 6.14–15.",
+      "references": ["Ageu 2.9; Esdras 6.14–15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-1:theme-a-casa-do-senhor-templo",
+      "from": "chapter:ageu:1",
+      "to": "theme:a-casa-do-senhor-templo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Casa do Senhor (Templo)” cita explicitamente Ageu 1:2, 4, 8, 9; 2:3, 7, 9.",
+      "references": ["Ageu 1:2, 4, 8, 9; 2:3, 7, 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-1:theme-jerusalem",
+      "from": "chapter:ageu:1",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Ageu 1:1, 12; 2:2.",
+      "references": ["Ageu 1:1, 12; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-2:theme-a-casa-do-senhor-templo",
+      "from": "chapter:ageu:2",
+      "to": "theme:a-casa-do-senhor-templo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Casa do Senhor (Templo)” cita explicitamente Ageu 1:2, 4, 8, 9; 2:3, 7, 9.",
+      "references": ["Ageu 1:2, 4, 8, 9; 2:3, 7, 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-2:theme-anel-de-selo",
+      "from": "chapter:ageu:2",
+      "to": "theme:anel-de-selo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anel de selo” cita explicitamente Ageu 2:23.",
+      "references": ["Ageu 2:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-2:theme-imperio-persa",
+      "from": "chapter:ageu:2",
+      "to": "theme:imperio-persa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Persa” cita explicitamente Ageu 2:6, 21-22.",
+      "references": ["Ageu 2:6, 21-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ageu-2:theme-jerusalem",
+      "from": "chapter:ageu:2",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Ageu 1:1, 12; 2:2.",
+      "references": ["Ageu 1:1, 12; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

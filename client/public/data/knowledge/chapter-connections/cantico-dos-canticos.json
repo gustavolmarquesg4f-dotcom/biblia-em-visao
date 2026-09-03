@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "book": "Cântico dos Cânticos",
+  "count": 27,
+  "chapterCount": 8,
+  "nodes": [
+    {
+      "id": "people-group:filhas-de-jerusalem",
+      "kind": "people-group",
+      "label": "Filhas de Jerusalém",
+      "aliases": [],
+      "summary": "Grupo de mulheres citadinas que testemunham, questionam e participam dialogicamente da dinâmica amorosa, funcionando como audiência lírica.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Coro / Interlocutoras", "entityType": "Povo" }
+    },
+    {
+      "id": "person:a-amada-shulamit",
+      "kind": "person",
+      "label": "A Amada (Shulamit)",
+      "aliases": [],
+      "summary": "Voz central que expressa o desejo, a autonomia corporal, os sonhos e a fidelidade inabalável no poema.",
+      "references": ["Cântico 1:2; 2:16; 6:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Protagonista feminina", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:irmaos-da-amada",
+      "kind": "person",
+      "label": "Irmãos da Amada",
+      "aliases": [],
+      "summary": "Parentes protetores que vigiam a sexualidade da irmã mais nova e discutem estratégias de tutela familiar (\"Temos uma irmã pequena\").",
+      "references": ["Cântico 8:8-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Família / Guardiões", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:o-amado",
+      "kind": "person",
+      "label": "O Amado",
+      "aliases": [],
+      "summary": "Parceiro romântico que louva a beleza da Amada, pastoreia entre os lírios e responde com devoção apaixonada.",
+      "references": ["Cântico 2:1; 5:1; 6:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Protagonista masculino", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:salomao",
+      "kind": "person",
+      "label": "Salomão",
+      "aliases": ["Salomão"],
+      "summary": "Salomão, filho de Davi e Bate-Seba, foi o terceiro rei de Israel unificado, governando durante a chamada \"Idade de Ouro\" de Israel (c. 970–930 a.C.). Embora sua narrativa biográfica primordial conste em 1 Reis e 2 Crônicas, sua relevância para o cânon estende-se profundamente ao domínio da **literatura sapiencial e poética**, sendo tradicionalmente creditado como o autor ou patrocinador principal de **Provérbios, Eclesiastes (*Coélet*) e Cântico dos Cânticos**. Salomão personifica o ápice da sabedoria administrativa, cosmológica e poética do Antigo Oriente Próximo, além de ter sido o construtor do Templo de Jerusalém.",
+      "references": [
+        "1Rs 1-11",
+        "2Cr 1:1 - 9:31",
+        "1Rs 4:29-34; Pr 1:1; 10:1; 25:1",
+        "Cântico 1:1; 3:7; 8:11"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-salomao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei / Referência de opulência",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:carmelo",
+      "kind": "place",
+      "label": "Carmelo",
+      "aliases": [],
+      "summary": "Promontório costeiro verdejante e fértil, cujos cumes servem de metáfora para a imponência da cabeça da Amada.",
+      "references": ["Cântico 7:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:damasco",
+      "kind": "place",
+      "label": "Damasco",
+      "aliases": [],
+      "summary": "Cidade comercial síria de grande importância estratégica e comercial, associada à torre que olha para a face de damasco.",
+      "references": ["Cântico 7:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:en-gedi",
+      "kind": "place",
+      "label": "En-Gedi",
+      "aliases": [],
+      "summary": "Oásis fértil às margens do Mar Morto, famoso por suas fontes termais e vinhas de hena.",
+      "references": ["Cântico 1:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:libano",
+      "kind": "place",
+      "label": "Líbano",
+      "aliases": [],
+      "summary": "Cordilheira montanhosa célebre por seus cedros, neve e fragrâncias, evocando o exotismo e a grandeza dos amados.",
+      "references": ["Cântico 4:8; 4:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:tirza",
+      "kind": "place",
+      "label": "Tirza",
+      "aliases": [],
+      "summary": "Cidade de Israel célebre por sua beleza cênica, equiparada a Jerusalém no elogio recíproco.",
+      "references": ["Cântico 6:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "theme:en-gedi",
+      "kind": "theme",
+      "label": "En-Gedi",
+      "aliases": [],
+      "summary": "Manancial no deserto da Judeia célebre por suas vinhas de hena, simbolizando fecundidade e frescor no cenário árido.",
+      "references": ["Cântico 1:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Oásis geográfico", "entityType": "Lugar" }
+    },
+    {
+      "id": "theme:jerusalem",
+      "kind": "theme",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Apelidada de \"cidade santa\" e \"cidade do grande Rei\", mas caracterizada como o local onde os profetas e o Messias são assassinados.",
+      "references": [
+        "2 Reis 24-25",
+        "Cântico 3:5; 6:4",
+        "Ageu 1:1, 12; 2:2",
+        "Mt 2:1; 4:5; 21:10; 27:53"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário culminante da paixão e símbolo da nação que rejeita os profetas",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:libano",
+      "kind": "theme",
+      "label": "Líbano",
+      "aliases": [],
+      "summary": "Cadeia montanhosa ao norte associada a fragrâncias, cedros e fontes de águas vivas, usada para descrever a imponência do amado e os aromas da noiva.",
+      "references": ["Cântico 4:8; 4:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Região geográfica / Símbolo de majestade",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:shalhevetyah-labareda-do-senhor",
+      "kind": "theme",
+      "label": "Shalhevetyah (Labareda do Senhor)",
+      "aliases": [],
+      "summary": "Termo teológico isolado que descreve a intensidade suprema e a origem transcendente da chama do amor verdadeiro.",
+      "references": ["Cântico 8:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Teologia do Amor", "entityType": "Conceito" }
+    },
+    {
+      "id": "theme:tirza",
+      "kind": "theme",
+      "label": "Tirza",
+      "aliases": [],
+      "summary": "Antiga capital do Reino do Norte (Israel), mencionada por sua beleza estética em paralelo a Jerusalém.",
+      "references": ["Cântico 6:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Cidade antiga", "entityType": "Lugar" }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-filhas-de-jerusalem:chapter-cantico-dos-canticos-1",
+      "from": "people-group:filhas-de-jerusalem",
+      "to": "chapter:cantico-dos-canticos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filhas de Jerusalém” cita explicitamente Cântico 1:5; 3:5; 5:8; 8:4.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filhas-de-jerusalem:chapter-cantico-dos-canticos-3",
+      "from": "people-group:filhas-de-jerusalem",
+      "to": "chapter:cantico-dos-canticos:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filhas de Jerusalém” cita explicitamente Cântico 1:5; 3:5; 5:8; 8:4.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filhas-de-jerusalem:chapter-cantico-dos-canticos-5",
+      "from": "people-group:filhas-de-jerusalem",
+      "to": "chapter:cantico-dos-canticos:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filhas de Jerusalém” cita explicitamente Cântico 1:5; 3:5; 5:8; 8:4.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filhas-de-jerusalem:chapter-cantico-dos-canticos-8",
+      "from": "people-group:filhas-de-jerusalem",
+      "to": "chapter:cantico-dos-canticos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filhas de Jerusalém” cita explicitamente Cântico 1:5; 3:5; 5:8; 8:4.",
+      "references": ["Cântico 1:5; 3:5; 5:8; 8:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-amada-shulamit:chapter-cantico-dos-canticos-1",
+      "from": "person:a-amada-shulamit",
+      "to": "chapter:cantico-dos-canticos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Amada (Shulamit)” cita explicitamente Cântico 1:2; 2:16; 6:13.",
+      "references": ["Cântico 1:2; 2:16; 6:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-amada-shulamit:chapter-cantico-dos-canticos-2",
+      "from": "person:a-amada-shulamit",
+      "to": "chapter:cantico-dos-canticos:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Amada (Shulamit)” cita explicitamente Cântico 1:2; 2:16; 6:13.",
+      "references": ["Cântico 1:2; 2:16; 6:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-amada-shulamit:chapter-cantico-dos-canticos-6",
+      "from": "person:a-amada-shulamit",
+      "to": "chapter:cantico-dos-canticos:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Amada (Shulamit)” cita explicitamente Cântico 1:2; 2:16; 6:13.",
+      "references": ["Cântico 1:2; 2:16; 6:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-irmaos-da-amada:chapter-cantico-dos-canticos-8",
+      "from": "person:irmaos-da-amada",
+      "to": "chapter:cantico-dos-canticos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Irmãos da Amada” cita explicitamente Cântico 8:8-9.",
+      "references": ["Cântico 8:8-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-amado:chapter-cantico-dos-canticos-2",
+      "from": "person:o-amado",
+      "to": "chapter:cantico-dos-canticos:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Amado” cita explicitamente Cântico 2:1; 5:1; 6:3.",
+      "references": ["Cântico 2:1; 5:1; 6:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-amado:chapter-cantico-dos-canticos-5",
+      "from": "person:o-amado",
+      "to": "chapter:cantico-dos-canticos:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Amado” cita explicitamente Cântico 2:1; 5:1; 6:3.",
+      "references": ["Cântico 2:1; 5:1; 6:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-amado:chapter-cantico-dos-canticos-6",
+      "from": "person:o-amado",
+      "to": "chapter:cantico-dos-canticos:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Amado” cita explicitamente Cântico 2:1; 5:1; 6:3.",
+      "references": ["Cântico 2:1; 5:1; 6:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-cantico-dos-canticos-1",
+      "from": "person:salomao",
+      "to": "chapter:cantico-dos-canticos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente Cântico 1:1; 3:7; 8:11.",
+      "references": ["Cântico 1:1; 3:7; 8:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-cantico-dos-canticos-3",
+      "from": "person:salomao",
+      "to": "chapter:cantico-dos-canticos:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente Cântico 1:1; 3:7; 8:11.",
+      "references": ["Cântico 1:1; 3:7; 8:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-salomao:chapter-cantico-dos-canticos-8",
+      "from": "person:salomao",
+      "to": "chapter:cantico-dos-canticos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salomão” cita explicitamente Cântico 1:1; 3:7; 8:11.",
+      "references": ["Cântico 1:1; 3:7; 8:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-carmelo:chapter-cantico-dos-canticos-7",
+      "from": "place:carmelo",
+      "to": "chapter:cantico-dos-canticos:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Carmelo” cita explicitamente Cântico 7:5.",
+      "references": ["Cântico 7:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-damasco:chapter-cantico-dos-canticos-7",
+      "from": "place:damasco",
+      "to": "chapter:cantico-dos-canticos:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Damasco” cita explicitamente Cântico 7:4.",
+      "references": ["Cântico 7:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-en-gedi:chapter-cantico-dos-canticos-1",
+      "from": "place:en-gedi",
+      "to": "chapter:cantico-dos-canticos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “En-Gedi” cita explicitamente Cântico 1:14.",
+      "references": ["Cântico 1:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-cantico-dos-canticos-3",
+      "from": "place:jerusalem",
+      "to": "chapter:cantico-dos-canticos:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Cântico 3:5; 5:7.",
+      "references": ["Cântico 3:5; 5:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-cantico-dos-canticos-5",
+      "from": "place:jerusalem",
+      "to": "chapter:cantico-dos-canticos:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Cântico 3:5; 5:7.",
+      "references": ["Cântico 3:5; 5:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-libano:chapter-cantico-dos-canticos-4",
+      "from": "place:libano",
+      "to": "chapter:cantico-dos-canticos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Líbano” cita explicitamente Cântico 4:8; 4:15.",
+      "references": ["Cântico 4:8; 4:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tirza:chapter-cantico-dos-canticos-6",
+      "from": "place:tirza",
+      "to": "chapter:cantico-dos-canticos:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tirza” cita explicitamente Cântico 6:4.",
+      "references": ["Cântico 6:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-1:theme-en-gedi",
+      "from": "chapter:cantico-dos-canticos:1",
+      "to": "theme:en-gedi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “En-Gedi” cita explicitamente Cântico 1:14.",
+      "references": ["Cântico 1:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-3:theme-jerusalem",
+      "from": "chapter:cantico-dos-canticos:3",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Cântico 3:5; 6:4.",
+      "references": ["Cântico 3:5; 6:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-4:theme-libano",
+      "from": "chapter:cantico-dos-canticos:4",
+      "to": "theme:libano",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Líbano” cita explicitamente Cântico 4:8; 4:15.",
+      "references": ["Cântico 4:8; 4:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-6:theme-jerusalem",
+      "from": "chapter:cantico-dos-canticos:6",
+      "to": "theme:jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Cântico 3:5; 6:4.",
+      "references": ["Cântico 3:5; 6:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-6:theme-tirza",
+      "from": "chapter:cantico-dos-canticos:6",
+      "to": "theme:tirza",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tirza” cita explicitamente Cântico 6:4.",
+      "references": ["Cântico 6:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-cantico-dos-canticos-8:theme-shalhevetyah-labareda-do-senhor",
+      "from": "chapter:cantico-dos-canticos:8",
+      "to": "theme:shalhevetyah-labareda-do-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Shalhevetyah (Labareda do Senhor)” cita explicitamente Cântico 8:6.",
+      "references": ["Cântico 8:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

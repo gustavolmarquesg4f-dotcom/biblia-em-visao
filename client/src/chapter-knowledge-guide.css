@@ -1,0 +1,283 @@
+/* Fase 4 — contexto relacional auditável dentro de cada estudo de capítulo. */
+.chapter-knowledge {
+  --chapter-knowledge-ink: #18303d;
+  --chapter-knowledge-wine: #8b4f4e;
+  --chapter-knowledge-gold: #b38a4f;
+  margin: 1.4rem 0;
+  padding: 1.15rem;
+  border: 1px solid rgba(40, 67, 81, 0.2);
+  border-top: 4px solid var(--chapter-knowledge-ink);
+  background: #f7f1e7;
+}
+.chapter-knowledge--state {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  border-top-width: 2px;
+  padding: 1rem;
+  color: #557078;
+}
+.chapter-knowledge--state > svg {
+  flex: 0 0 auto;
+  color: var(--chapter-knowledge-wine);
+}
+.chapter-knowledge--state div {
+  display: grid;
+  gap: 0.2rem;
+}
+.chapter-knowledge--state strong {
+  font:
+    500 1rem/1.3 Georgia,
+    serif;
+  color: var(--chapter-knowledge-ink);
+}
+.chapter-knowledge--state span {
+  font-size: 0.7rem;
+}
+.chapter-knowledge--empty {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.8rem;
+  align-items: start;
+  border-top-color: #8a735e;
+}
+.chapter-knowledge--empty > svg {
+  margin-top: 0.15rem;
+  color: var(--chapter-knowledge-wine);
+}
+.chapter-knowledge--empty span,
+.chapter-knowledge__head > div:first-child > span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--chapter-knowledge-wine);
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.chapter-knowledge--empty h4 {
+  margin: 0.35rem 0;
+  font:
+    500 1.1rem/1.25 Georgia,
+    serif;
+  color: var(--chapter-knowledge-ink);
+}
+.chapter-knowledge--empty p {
+  margin: 0;
+  color: #61757a;
+  font-size: 0.72rem;
+  line-height: 1.6;
+}
+.chapter-knowledge__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 9.5rem;
+  gap: 1.3rem;
+  align-items: end;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(40, 67, 81, 0.16);
+}
+.chapter-knowledge__head h4 {
+  margin: 0.5rem 0 0.35rem;
+  font:
+    400 clamp(1.35rem, 2.5vw, 1.9rem) / 1.05 Georgia,
+    serif;
+  color: var(--chapter-knowledge-ink);
+  letter-spacing: -0.025em;
+}
+.chapter-knowledge__head p {
+  max-width: 46rem;
+  margin: 0;
+  color: #587079;
+  font-size: 0.76rem;
+  line-height: 1.6;
+}
+.chapter-knowledge__proof {
+  display: grid;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--chapter-knowledge-gold);
+}
+.chapter-knowledge__proof strong {
+  font:
+    400 2.25rem/0.9 Georgia,
+    serif;
+  color: var(--chapter-knowledge-ink);
+}
+.chapter-knowledge__proof span {
+  margin-top: 0.35rem;
+  color: var(--chapter-knowledge-wine);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.chapter-knowledge__proof small {
+  margin-top: 0.35rem;
+  color: #6c7d7e;
+  font-size: 0.6rem;
+  line-height: 1.35;
+}
+.chapter-knowledge__groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 1rem;
+  border: 1px solid rgba(40, 67, 81, 0.14);
+  background: rgba(40, 67, 81, 0.14);
+}
+.chapter-knowledge__group {
+  min-width: 0;
+  padding: 0.9rem;
+  background: #fcfaf5;
+}
+.chapter-knowledge__group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chapter-knowledge__group-head span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--chapter-knowledge-wine);
+  font-size: 0.6rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.chapter-knowledge__group-head strong {
+  font:
+    400 1.25rem/1 Georgia,
+    serif;
+  color: var(--chapter-knowledge-ink);
+}
+.chapter-knowledge__group > p {
+  margin: 0.35rem 0 0.75rem;
+  color: #758284;
+  font-size: 0.64rem;
+}
+.chapter-knowledge__cards {
+  display: grid;
+  gap: 0.35rem;
+}
+.chapter-knowledge__cards button {
+  display: grid;
+  grid-template-columns: 1rem minmax(0, 1fr) 0.75rem;
+  gap: 0.45rem;
+  align-items: start;
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid rgba(40, 67, 81, 0.12);
+  background: #f5eee3;
+  color: var(--chapter-knowledge-ink);
+  text-align: left;
+  cursor: pointer;
+}
+.chapter-knowledge__cards button:hover {
+  border-color: rgba(139, 79, 78, 0.38);
+  background: #ede1d3;
+}
+.chapter-knowledge__cards button:disabled {
+  cursor: default;
+}
+.chapter-knowledge__cards button > svg:first-child {
+  margin-top: 0.12rem;
+  color: var(--chapter-knowledge-wine);
+}
+.chapter-knowledge__cards button > svg:last-child {
+  margin-top: 0.12rem;
+  color: #8a735e;
+}
+.chapter-knowledge__cards button span {
+  min-width: 0;
+  display: grid;
+  gap: 0.18rem;
+}
+.chapter-knowledge__cards strong {
+  font-size: 0.7rem;
+  line-height: 1.3;
+}
+.chapter-knowledge__cards small {
+  color: #7b898b;
+  font-size: 0.56rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.chapter-knowledge__cards em {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #667a80;
+  font-size: 0.62rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+.chapter-knowledge__missing {
+  display: block;
+  padding: 0.6rem;
+  border: 1px dashed rgba(40, 67, 81, 0.18);
+  color: #899494;
+  font-size: 0.63rem;
+  line-height: 1.4;
+}
+.chapter-knowledge__more {
+  margin-top: 0.55rem;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(139, 79, 78, 0.3);
+  background: transparent;
+  color: var(--chapter-knowledge-wine);
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.chapter-knowledge__foot {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-top: 0.8rem;
+  color: #687a7d;
+  font-size: 0.6rem;
+  line-height: 1.4;
+}
+.chapter-knowledge__foot svg {
+  flex: 0 0 auto;
+  color: var(--chapter-knowledge-gold);
+}
+.chapter-knowledge__foot small {
+  margin-left: auto;
+  white-space: nowrap;
+  color: #89725f;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+@media (max-width: 700px) {
+  .chapter-knowledge {
+    padding: 0.9rem;
+  }
+  .chapter-knowledge__head {
+    grid-template-columns: 1fr;
+  }
+  .chapter-knowledge__proof {
+    grid-template-columns: auto 1fr;
+    gap: 0.1rem 0.5rem;
+    align-items: end;
+  }
+  .chapter-knowledge__proof strong {
+    grid-row: span 2;
+  }
+  .chapter-knowledge__proof small {
+    grid-column: 1/-1;
+  }
+  .chapter-knowledge__groups {
+    grid-template-columns: 1fr;
+  }
+  .chapter-knowledge__foot {
+    align-items: flex-start;
+  }
+  .chapter-knowledge__foot small {
+    display: none;
+  }
+}

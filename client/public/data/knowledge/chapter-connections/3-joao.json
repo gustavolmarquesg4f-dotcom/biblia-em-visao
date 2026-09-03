@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "book": "3 João",
+  "count": 5,
+  "chapterCount": 1,
+  "nodes": [
+    {
+      "id": "person:gaio",
+      "kind": "person",
+      "label": "Gaio",
+      "aliases": [],
+      "summary": "Membro fiel da igreja local elogiado por sua hospitalidade generosa aos irmãos itinerantes e adesão à verdade.",
+      "references": ["3 João 1, 5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Anfitrião e destinatário principal",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-presbitero",
+      "kind": "person",
+      "label": "O Presbítero",
+      "aliases": [],
+      "summary": "Representa a voz da ortodoxia apostólica e a autoridade moral na preservação da tradição sobre Jesus.",
+      "references": ["2 João 1; cf. 3 João 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor autoritário da epístola que se autodenomina \"o presbítero\" (πρεσβύτερος), reivindicando liderança veterana na tradição joanina.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-presbitero-anciao",
+      "kind": "person",
+      "label": "O Presbítero (Ancião)",
+      "aliases": [],
+      "summary": "Líder idoso da comunidade joanina, autor da carta, que exerce jurisdição moral e eclesial sobre igrejas da província da Ásia.",
+      "references": ["3 João 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autoridade apostólica/pastoral",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:comunidade-de-gaio-provincia-da-asia",
+      "kind": "place",
+      "label": "Comunidade de Gaio (Província da Ásia)",
+      "aliases": [],
+      "summary": "Cenário da recepção da carta e local onde Gaio exerce hospitalidade e enfrenta o conflito com Diótrefes.",
+      "references": ["3 João 1, 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "theme:a-verdade",
+      "kind": "theme",
+      "label": "A Verdade",
+      "aliases": [],
+      "summary": "Padrão absoluto de ensino e conduta cristã que une os crentes e valida o ministério itinerante.",
+      "references": ["3 João 1, 3, 4, 8, 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Norma teológica e ética",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-gaio:chapter-3-joao-1",
+      "from": "person:gaio",
+      "to": "chapter:3-joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gaio” cita explicitamente 3 João 1, 5.",
+      "references": ["3 João 1, 5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-presbitero-anciao:chapter-3-joao-1",
+      "from": "person:o-presbitero-anciao",
+      "to": "chapter:3-joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Presbítero (Ancião)” cita explicitamente 3 João 1.",
+      "references": ["3 João 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-presbitero:chapter-3-joao-1",
+      "from": "person:o-presbitero",
+      "to": "chapter:3-joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Presbítero” cita explicitamente 2 João 1; cf. 3 João 1.",
+      "references": ["2 João 1; cf. 3 João 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-comunidade-de-gaio-provincia-da-asia:chapter-3-joao-1",
+      "from": "place:comunidade-de-gaio-provincia-da-asia",
+      "to": "chapter:3-joao:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Comunidade de Gaio (Província da Ásia)” cita explicitamente 3 João 1, 9.",
+      "references": ["3 João 1, 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-3-joao-1:theme-a-verdade",
+      "from": "chapter:3-joao:1",
+      "to": "theme:a-verdade",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Verdade” cita explicitamente 3 João 1, 3, 4, 8, 12.",
+      "references": ["3 João 1, 3, 4, 8, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

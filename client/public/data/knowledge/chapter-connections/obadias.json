@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "book": "Obadias",
+  "count": 19,
+  "chapterCount": 1,
+  "nodes": [
+    {
+      "id": "people-group:casa-de-jaco-juda-israel",
+      "kind": "people-group",
+      "label": "Casa de Jacó (Judá/Israel)",
+      "aliases": [],
+      "summary": "Comunidade da aliança que sofreu devastação militar, mas que está destinada à vindicação e à vitória escatológica.",
+      "references": ["Obadias 1:10, 1:17, 1:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Vítima e agente de restauração",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:edom",
+      "kind": "people-group",
+      "label": "Edom",
+      "aliases": [],
+      "summary": "Nação descendente de Esaú, habitante da região montanhosa de Seir, acusada de hostilidade fratricida contra Judá.",
+      "references": ["Obadias 1:1, 1:8, 1:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversário histórico e teológico",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:esau-edom",
+      "kind": "people-group",
+      "label": "Esaú / Edom",
+      "aliases": ["Esaú", "Edom"],
+      "summary": "Esaú não deve ser reduzido a vilão. Ele é caçador, homem do campo, irmão enganado e depois agente de reconciliação. A genealogia de Gênesis 36 o transforma em Edom, povo com território, chefes e reis; as tensões posteriores entre Israel e Edom dependem dessa memória ambivalente de parentesco e rivalidade.",
+      "references": [
+        "Gn 25:19–34",
+        "Gn 27",
+        "Gn 32–33",
+        "Gn 36",
+        "Dt 23:7–8",
+        "Ob 1–21"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["esau"],
+      "attributes": {
+        "role": "irmão de Jacó; ancestral de Edom",
+        "tags": ["Edom", "irmão", "Seir", "reconciliação"]
+      }
+    },
+    {
+      "id": "people-group:os-aliados-de-edom",
+      "kind": "people-group",
+      "label": "Os aliados de Edom",
+      "aliases": [],
+      "summary": "Povos confederados e parceiros comerciais de Edom que o enganaram e expulsaram de suas fronteiras.",
+      "references": ["Obadias 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Cúmplices e traidores", "entityType": "Povo" }
+    },
+    {
+      "id": "person:obadias",
+      "kind": "person",
+      "label": "Obadias",
+      "aliases": [],
+      "summary": "Profeta cujo nome significa \"Servo de Javé\", cuja identidade exata permanece obscura devido à multiplicidade de homônimos bíblicos.",
+      "references": ["Obadias 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Autor/Mensageiro", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:os-fugitivos-de-juda",
+      "kind": "person",
+      "label": "Os fugitivos de Judá",
+      "aliases": [],
+      "summary": "Sobreviventes da tomada de Jerusalém que foram capturados ou entregues por Edom aos inimigos.",
+      "references": ["Obadias 1:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Vítimas de perseguição", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:os-salvadores-libertadores",
+      "kind": "person",
+      "label": "Os salvadores (Libertadores)",
+      "aliases": [],
+      "summary": "Líderes levantados no Monte Sião para julgar os montes de Edom no desdobramento do Reino de Deus.",
+      "references": ["Obadias 1:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Agentes de justiça", "entityType": "Pessoa" }
+    },
+    {
+      "id": "place:edom-terra-de-seir",
+      "kind": "place",
+      "label": "Edom (Terra de Seir)",
+      "aliases": [],
+      "summary": "Território montanhoso ao sul do Mar Morto, habitado pelos descendentes de Esaú, caracterizado por desfiladeiros rochosos defensivos.",
+      "references": ["Obadias 1:8, 1:9, 1:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-neguebe",
+      "kind": "place",
+      "label": "O Neguebe",
+      "aliases": [],
+      "summary": "Região árida ao sul de Judá que será reocupada e integrada ao território restaurado de Israel.",
+      "references": ["Obadias 1:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:os-montes-de-esau-edom",
+      "kind": "place",
+      "label": "Os Montes de Esãu (Edom)",
+      "aliases": [],
+      "summary": "Território montanhoso periférico que será julgado pelos libertadores vindos de Sião.",
+      "references": ["Obadias 1:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:sefela",
+      "kind": "place",
+      "label": "Sefelá",
+      "aliases": [],
+      "summary": "Faixa de colinas e vales férteis entre as montanhas da Judeia e a planície costeira, severamente afetada pelas invasões.",
+      "references": ["Obadias 1:19", "Miqueias 1:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:sela-petra",
+      "kind": "place",
+      "label": "Sela (Petra)",
+      "aliases": [],
+      "summary": "Capital fortificada de Edom, símbolo supremo de soberba humana e falsa invulnerabilidade.",
+      "references": ["Obadias 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Símbolo" }
+    },
+    {
+      "id": "place:tema",
+      "kind": "place",
+      "label": "Temã",
+      "aliases": [],
+      "summary": "Região e cidade importante no norte de Edom, famosa na antiguidade pela sabedoria de seus habitantes.",
+      "references": ["Jó 2:11; Jeremias 49:7", "Obadias 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor",
+      "kind": "prophecy",
+      "label": "Obadias 1:21 (\"E subirão salvadores ao monte Sião para julgar os montes de Esaú; e o reino será do Senhor\")",
+      "aliases": [],
+      "summary": "Interpretado no judaísmo pós-bíblico em chave messiânica contra Roma (Edom como arquétipo de Roma), e no NT como consumação do Reino de Deus em Cristo.",
+      "references": ["Apocalipse 11:15; Obadias 1:21 na literatura rabínica"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Recepção posterior/Escatológica" }
+    },
+    {
+      "id": "theme:jave-o-senhor",
+      "kind": "theme",
+      "label": "Javé (O Senhor)",
+      "aliases": [],
+      "summary": "Deus de Israel que decreta o julgamento das nações e estabelece o seu Reino definitivo.",
+      "references": ["Obadias 1:1, 1:15, 1:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Juiz supremo e soberano universal",
+        "entityType": "Instituição/Divindade"
+      }
+    },
+    {
+      "id": "theme:o-monte-siao",
+      "kind": "theme",
+      "label": "O Monte Sião",
+      "aliases": [],
+      "summary": "Colina sagrada de Jerusalém que servirá de refúgio e centro administrativo do Reino restaurado.",
+      "references": ["Obadias 1:17, 1:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Centro cultual e geopolítico",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:sabios-de-edom",
+      "kind": "theme",
+      "label": "Sábios de Edom",
+      "aliases": [],
+      "summary": "Classe de eruditos e políticos cuja sabedoria e discernimento político são destruídos por intervenção divina.",
+      "references": ["Obadias 1:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Intelectuais e conselheiros",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:sela-petra",
+      "kind": "theme",
+      "label": "Sela (Petra)",
+      "aliases": [],
+      "summary": "Capital rochosa de Edom, encravada em desfiladeiros inacessíveis, cuja altivez é diretamente desafiada por Javé.",
+      "references": ["Obadias 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Símbolo de soberba fortificada",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-casa-de-jaco-juda-israel:chapter-obadias-1",
+      "from": "people-group:casa-de-jaco-juda-israel",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Casa de Jacó (Judá/Israel)” cita explicitamente Obadias 1:10, 1:17, 1:18.",
+      "references": ["Obadias 1:10, 1:17, 1:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-edom:chapter-obadias-1",
+      "from": "people-group:edom",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Edom” cita explicitamente Obadias 1:1, 1:8, 1:18.",
+      "references": ["Obadias 1:1, 1:8, 1:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-esau-edom:chapter-obadias-1",
+      "from": "people-group:esau-edom",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esaú / Edom” cita explicitamente Ob 1–21.",
+      "references": ["Ob 1–21"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-aliados-de-edom:chapter-obadias-1",
+      "from": "people-group:os-aliados-de-edom",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os aliados de Edom” cita explicitamente Obadias 1:7.",
+      "references": ["Obadias 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-obadias:chapter-obadias-1",
+      "from": "person:obadias",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias” cita explicitamente Obadias 1:1.",
+      "references": ["Obadias 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-os-fugitivos-de-juda:chapter-obadias-1",
+      "from": "person:os-fugitivos-de-juda",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os fugitivos de Judá” cita explicitamente Obadias 1:14.",
+      "references": ["Obadias 1:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-os-salvadores-libertadores:chapter-obadias-1",
+      "from": "person:os-salvadores-libertadores",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os salvadores (Libertadores)” cita explicitamente Obadias 1:21.",
+      "references": ["Obadias 1:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-edom-terra-de-seir:chapter-obadias-1",
+      "from": "place:edom-terra-de-seir",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Edom (Terra de Seir)” cita explicitamente Obadias 1:8, 1:9, 1:19.",
+      "references": ["Obadias 1:8, 1:9, 1:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-obadias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Obadias 1:11, 1:17, 1:21.",
+      "references": ["Obadias 1:11, 1:17, 1:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-neguebe:chapter-obadias-1",
+      "from": "place:o-neguebe",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Neguebe” cita explicitamente Obadias 1:19.",
+      "references": ["Obadias 1:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-os-montes-de-esau-edom:chapter-obadias-1",
+      "from": "place:os-montes-de-esau-edom",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Os Montes de Esãu (Edom)” cita explicitamente Obadias 1:21.",
+      "references": ["Obadias 1:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sefela:chapter-obadias-1",
+      "from": "place:sefela",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sefelá” cita explicitamente Obadias 1:19.",
+      "references": ["Obadias 1:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sela-petra:chapter-obadias-1",
+      "from": "place:sela-petra",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sela (Petra)” cita explicitamente Obadias 1:3.",
+      "references": ["Obadias 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tema:chapter-obadias-1",
+      "from": "place:tema",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Temã” cita explicitamente Obadias 1:9.",
+      "references": ["Obadias 1:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor:chapter-obadias-1",
+      "from": "prophecy:obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor",
+      "to": "chapter:obadias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:21 (\"E subirão salvadores ao monte Sião para julgar os montes de Esaú; e o reino será do Senhor\")” cita explicitamente Apocalipse 11:15; Obadias 1:21 na literatura rabínica.",
+      "references": ["Apocalipse 11:15; Obadias 1:21 na literatura rabínica"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-obadias-1:theme-jave-o-senhor",
+      "from": "chapter:obadias:1",
+      "to": "theme:jave-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Javé (O Senhor)” cita explicitamente Obadias 1:1, 1:15, 1:21.",
+      "references": ["Obadias 1:1, 1:15, 1:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-obadias-1:theme-o-monte-siao",
+      "from": "chapter:obadias:1",
+      "to": "theme:o-monte-siao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Monte Sião” cita explicitamente Obadias 1:17, 1:21.",
+      "references": ["Obadias 1:17, 1:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-obadias-1:theme-sabios-de-edom",
+      "from": "chapter:obadias:1",
+      "to": "theme:sabios-de-edom",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sábios de Edom” cita explicitamente Obadias 1:8.",
+      "references": ["Obadias 1:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-obadias-1:theme-sela-petra",
+      "from": "chapter:obadias:1",
+      "to": "theme:sela-petra",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sela (Petra)” cita explicitamente Obadias 1:3.",
+      "references": ["Obadias 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

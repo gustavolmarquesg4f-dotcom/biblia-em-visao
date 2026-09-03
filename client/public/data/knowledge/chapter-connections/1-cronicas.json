@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "book": "1 Crônicas",
+  "count": 62,
+  "chapterCount": 24,
+  "nodes": [
+    {
+      "id": "event:1-cronicas-a-alianca-divina-com-davi",
+      "kind": "event",
+      "label": "A Aliança Divina com Davi",
+      "aliases": [],
+      "summary": "O profeta Natã transmite a palavra de Deus a Davi, recusando sua oferta de construir o templo, mas prometendo uma casa perpétua",
+      "references": ["1 Crônicas 17:1-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fundamenta teologicamente a eternidade da dinastia davídica e a futura construção do templo por seu descendente",
+        "entities": "Davi, Natã, Deus"
+      }
+    },
+    {
+      "id": "event:1-cronicas-conquista-de-jerusalem-siao",
+      "kind": "event",
+      "label": "Conquista de Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Davi e seus exércitos tomam a fortaleza de Jebus, transformando-a na capital política e religiosa de Israel",
+      "references": ["1 Crônicas 11:4-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece Jerusalém como o centro nevrálgico da nação unificada e da monarquia davídica",
+        "entities": "Davi, Joabe, Jebuseus"
+      }
+    },
+    {
+      "id": "event:1-cronicas-morte-de-saul-no-monte-gilboa",
+      "kind": "event",
+      "label": "Morte de Saul no Monte Gilboa",
+      "aliases": [],
+      "summary": "Saul e seus filhos são derrotados pelos filisteus; Saul comete suicídio e os filisteus expõem seu corpo",
+      "references": ["1 Crônicas 10:1-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca o fim da dinastia saulítica e legitima a transição para o reinado davídico por infidelidade a Deus",
+        "entities": "Saul, Filisteus, Davi"
+      }
+    },
+    {
+      "id": "event:1-cronicas-o-censo-e-a-compra-da-eira-de-ornam",
+      "kind": "event",
+      "label": "O Censo e a Compra da Eira de Ornam",
+      "aliases": [],
+      "summary": "Incitado por Satanás, Davi realiza um censo militar; uma praga assola Israel até que Davi compra a eira de Ornam e erige um altar",
+      "references": ["1 Crônicas 21:1-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Identifica o local do futuro Templo (Monte Moriá) através do perdão divino e do sacrifício vicário",
+        "entities": "Davi, Ornam, Anjo do Senhor, Gad"
+      }
+    },
+    {
+      "id": "event:1-cronicas-trasladacao-da-arca-para-jerusalem",
+      "kind": "event",
+      "label": "Trasladação da Arca para Jerusalém",
+      "aliases": [],
+      "summary": "A tentativa inicial frustrada pela morte de Uzá, seguida pelo transporte bem-sucedido com alegria e rituais levíticos",
+      "references": ["1 Crônicas 13:1-14, 15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consagra Jerusalém como centro espiritual da nação e institucionaliza o louvor musical",
+        "entities": "Davi, Levitas, Uzá, Obed-Edom"
+      }
+    },
+    {
+      "id": "person:adao",
+      "kind": "person",
+      "label": "Adão",
+      "aliases": ["Adão"],
+      "summary": "Adão (do hebraico אָדָם, *’ādām*, significando \"humanidade\", \"homem\" ou tirado da \"terra vermelha\", *’ădāmāh*) é apresentado no livro de Gênesis como o primeiro ser humano, plasmado diretamente pelo Criador a partir do pó da terra e animado pelo sopro vital (*nishmat chayyim*) [6]. Colocado no Jardim do Éden para cultivar e guardar o espaço sagrado, Adão recebe a responsabilidade de nomear os animais e exercer domínio sobre a criação. A narrativa culmina com a criação de sua companheira, Eva, a partir de sua costela. A desobediência ao comer do fruto proibido da árvore do conhecimento do bem e do mal, instigada pela serpente, resulta na queda da humanidade, na introdução do pecado e da morte no cosmos, e na expulsão do Éden, marcando o início da condição humana marcada pelo labor e pela mortalidade [7].",
+      "references": [
+        "Gênesis 1:26–27; 2:7–25",
+        "Gênesis 3:1–24",
+        "Romanos 5:12–21",
+        "1 Coríntios 15:45–49",
+        "1 Cr 1:1",
+        "Romanos 5:12-21",
+        "Gn 1:26–28",
+        "Gn 2:7–25",
+        "Gn 3:1–24",
+        "Gn 5:1–5",
+        "Rm 5:12–21",
+        "1Co 15:20–49"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-adao", "adam"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%201%3A26%E2%80%9327%3B%202%3A7%E2%80%9325%3B%20G%C3%AAnesis%203%3A1%E2%80%9324%3B%20Romanos%205%3A12%E2%80%9321&version=ARA",
+        "bookLinksVerified": true,
+        "role": "humano primordial; imagem de Deus",
+        "entityType": "Pessoa",
+        "tags": ["imagem de Deus", "queda", "solo", "morte"]
+      }
+    },
+    {
+      "id": "person:asafe",
+      "kind": "person",
+      "label": "Asafe",
+      "aliases": ["Asafe"],
+      "summary": "Asafe era um levita da linhagem de Gérson, apontado por rei Davi como um dos principais músicos e mestres do coro do santuário em Jerusalém (1 Crônicas 6:39; 15:17-19). Mais do que um mero executante musical, Asafe é identificado nas Escrituras como um **vidente (*hozēh*) e profeta cultual** (2 Crônicas 29:30), sendo o autor ou inspirador de **12 salmos no Saltério** (os Salmos 50 e 73 a 83). Sua contribuição literária e teológica é monumental, especialmente por abordar crises existenciais profundas sobre a justiça de Deus diante da aparente prosperidade dos ímpios.",
+      "references": ["1 Cr 15:17; 16:5", "Sl 50, 73, 78, 83"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-asafe"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Cantor, vidente e líder levítico associado a salmos didáticos e proféticos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:davi",
+      "kind": "person",
+      "label": "Davi",
+      "aliases": ["Davi"],
+      "summary": "Davi, filho de Jessé, pastor de Belém, rei de Judá e posteriormente de todo o Israel unificado (c. 1010–970 a.C.), é a figura central da história monárquica e messiânica de Israel. Embora sua biografia narrativa esteja nos livros de Samuel e Crônicas, sua inclusão fulcral no presente dossiê decorre de seu papel inquestionável como o **principal autor e patrono do Saltério (*Tehilim*)**, a coletânea de 150 salmos que constitui o hinário litúrgico e espiritual do Judaísmo e do Cristianismo. Davi unifica a poesia cultual, a experiência emocional profunda do crente (lamentos, louvores, arrependimento) e a promessa teológica da aliança perpétua (Aliança Davídica).",
+      "references": [
+        "1Sm 16-31",
+        "2 Sm 1–24",
+        "1Rs 1-2",
+        "1 Cr 11-29",
+        "Sl 3, 18, 51, 101, 138"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-davi"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Rei de Israel e figura central associada à autoria e experiência dos salmos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:hema",
+      "kind": "person",
+      "label": "Hemã",
+      "aliases": [],
+      "summary": "Profeta-músico e neto de Samuel, líder dos levitas na adoração",
+      "references": ["1 Cr 6:33; 15:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "músico e levita", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:jedutum",
+      "kind": "person",
+      "label": "Jedutum",
+      "aliases": [],
+      "summary": "Um dos diretores musicais do templo, associado à profecia com instrumentos",
+      "references": ["1 Cr 16:41; 25:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "músico e levita", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:joabe",
+      "kind": "person",
+      "label": "Joabe",
+      "aliases": [],
+      "summary": "Chefe militar influente que executou o censo e participou das campanhas de Davi",
+      "references": ["1 Cr 11:6; 21:1-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "comandante do exército de Davi",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-chronicler-o-cronista",
+      "kind": "person",
+      "label": "O Chronicler (O Cronista)",
+      "aliases": [],
+      "summary": "Figura anônima identificada pela crítica como sacerdote ou levita pós-exílico responsável pela redação unificada de Crônicas-Ezra-Neemias.",
+      "references": ["1Cr 1:1 - 2Cr 36:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Autor/Compilador", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:ornam-arauna",
+      "kind": "person",
+      "label": "Ornam (Araúna)",
+      "aliases": [],
+      "summary": "Dono da eira no Monte Moriá comprada por Davi para o altar e futuro Templo",
+      "references": ["1 Cr 21:15-28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "jebuseu", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:samuel",
+      "kind": "person",
+      "label": "Samuel",
+      "aliases": ["Samuel"],
+      "summary": "Samuel é o último grande juiz de Israel, profeta instituidor de reis e sacerdote levita, cujos inícios são narrados em I Samuel 1–3 e cuja liderança abrange a transição crítica da confederação tribal para a monarquia centralizada [120]. Filho de Elcana e Ana, consagrado em Siló desde a infância, Samuel recebe seu primeiro chamado profético noturno no santuário, estabelecendo-se em todo o Israel como profeta reconhecido por Iahweh [121]. Após a morte de Eli e a destruição de Siló, Samuel emerge como líder indiscutível, convocando o povo ao arrependimento em Mispá e obtendo uma vitória militar decisiva sobre os filisteus através da intercessão e do sacrifício [122]. Em sua velhice, diante da corrupção de seus próprios filhos nomeados como juízes, o povo de Israel exige a instituição de um rei \"como todas as nações\" [123]. Embora relutante e interpretando o pedido como rejeição à soberania direta de Iahweh, Samuel unge Saul como o primeiro rei de Israel e, posteriormente, devido à desobediência de Saul, viaja a Belém para ungir secretamente a Davi como seu sucessor dinástico [124]. Samuel falece antes de Saul, mas retorna em uma célebre e enigmática sessão necromântica na Endor para profetizar a derrocada final de Saul [125].",
+      "references": ["1Sm 1-25", "1 Cr 9:22; 11:3"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-samuel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "profeta e juiz",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:saul",
+      "kind": "person",
+      "label": "Saul",
+      "aliases": ["Saul"],
+      "summary": "Saul, filho de Quis, da menor tribo de Israel (Benjamim), é ungido por Samuel como o primeiro rei de Israel, conforme narrado nos capítulos 9 a 31 de I Samuel [136]. Descrito fisicamente como um homem de imponência incomparável — \"mais alto do que qualquer outro povo dos ombros para cima\" —, Saul inicia seu reinado com vitórias militares expressivas contra os amonitas em Jabes-Gileade [137]. Contudo, seu reinado logo degenera em sucessivas crises de desobediência ritual e estratégica às ordens divinas transmitidas por Samuel: oferece o sacrifício sem a presença do profeta em Gilgal e poupa o rei Agague e o melhor dos despojos na campanha contra os amalequitas [138]. Devido a essas transgressões, Samuel profetiza que o reino lhe seria rasgado e dado a outro melhor do que ele [139]. A partir de então, Saul é acometido por tormentos mentais e espirituais (\"um espírito maligno da parte de Iahweh\"), desenvolvendo uma obsessão persecutória paranoica contra o jovem Davi, seu genro e herdeiro ungido [140]. Em sua derrocada final, abandonado por Deus e pelas consultas proféticas, Saul recorre a uma médium em Endor para invocar o espírito de Samuel [141]. No dia seguinte, cercado pelas forças filisteias no monte Gilboa, vendo seus filhos (incluindo Jônatas) mortos, Saul comete suicídio atirando-se sobre sua própria espada [142].",
+      "references": ["1Sm 9-31", "1 Cr 10:1-14"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-saul"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "primeiro rei de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zadoque",
+      "kind": "person",
+      "label": "Zadoque",
+      "aliases": [],
+      "summary": "Patriarca da linhagem sacerdotal legítima apoiada por Davi e Salomão",
+      "references": ["1 Cr 16:39; 24:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "sacerdote principal", "entityType": "Pessoa" }
+    },
+    {
+      "id": "place:gibeom",
+      "kind": "place",
+      "label": "Gibeom",
+      "aliases": [],
+      "summary": "Local onde se encontrava o Tabernáculo mosaico original e o altar de bronze durante o reinado de Davi",
+      "references": ["1 Cr 16:39; 21:29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:hebrom",
+      "kind": "place",
+      "label": "Hebrom",
+      "aliases": [],
+      "summary": "Cidade conquistada por Calebe, associada aos patriarcas e designada cidade de refúgio e levítica",
+      "references": ["Josué 14:13-15; 20:7", "1 Cr 3:1-4; 11:1-3", "2Cr 11:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerusalem-siao-cidade-de-davi",
+      "kind": "place",
+      "label": "Jerusalém (Sião / Cidade de Davi)",
+      "aliases": [],
+      "summary": "Capital política e espiritual do reino unido, lar da Arca e local escolhido para o Templo",
+      "references": ["1 Cr 11:4-7; 15:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico / simbólico" }
+    },
+    {
+      "id": "place:monte-gilboa",
+      "kind": "place",
+      "label": "Monte Gilboa",
+      "aliases": [],
+      "summary": "Cenário da batalha desastrosa em que Saul e seus filhos pereceram perante os filisteus",
+      "references": ["1Sm 31", "1 Cr 10:1-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:monte-moria-eira-de-ornam",
+      "kind": "place",
+      "label": "Monte Moriá (Eira de Ornam)",
+      "aliases": [],
+      "summary": "Local da eira comprado por Davi, designado como o sítio sagrado para o altar e o futuro Templo",
+      "references": ["1 Cr 21:18-28; 22:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico / simbólico" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-promessa-a-nata-sobre-a-casa-de-davi-2cr-17-11-14-2sm-7",
+      "kind": "prophecy",
+      "label": "A Promessa a Natã sobre a Casa de Davi (2Cr 17:11-14 / 2Sm 7)",
+      "aliases": [],
+      "summary": "Interpretações divergem entre uma leitura estritamente dinástica-histórica para o período monárquico e uma leitura messiânica escatológica na teologia cristã primitiva.",
+      "references": ["1Cr 17, Sl 89"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "theme:arca-da-alianca",
+      "kind": "theme",
+      "label": "Arca da Aliança",
+      "aliases": [],
+      "summary": "Santuário móvel cuja captura e deslocamentos revelam que o Deus de Israel não pode ser manipulado como amuleto bélico",
+      "references": ["1Sm 4-7", "2 Sm 6", "1 Cr 13-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "símbolo da presença divina",
+        "entityType": "Conceito / Objeto"
+      }
+    },
+    {
+      "id": "theme:templo-de-jerusalem",
+      "kind": "theme",
+      "label": "Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Local do famoso \"Sermão do Templo\", onde Jeremias denuncia a falsa confiança institucional",
+      "references": ["1 Cr 22; 28-29", "Jer 7:1-15; 26:1-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário central de culto",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:tribo-de-levi",
+      "kind": "theme",
+      "label": "Tribo de Levi",
+      "aliases": [],
+      "summary": "Responsável pelo transporte da Arca, serviço do santuário, música e administração",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "tribo sacerdotal e levítica",
+        "entityType": "Povo / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-1-cronicas-a-alianca-divina-com-davi:chapter-1-cronicas-17",
+      "from": "event:1-cronicas-a-alianca-divina-com-davi",
+      "to": "chapter:1-cronicas:17",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Aliança Divina com Davi” cita explicitamente 1 Crônicas 17:1-27.",
+      "references": ["1 Crônicas 17:1-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-cronicas-conquista-de-jerusalem-siao:chapter-1-cronicas-11",
+      "from": "event:1-cronicas-conquista-de-jerusalem-siao",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Conquista de Jerusalém (Sião)” cita explicitamente 1 Crônicas 11:4-9.",
+      "references": ["1 Crônicas 11:4-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-cronicas-morte-de-saul-no-monte-gilboa:chapter-1-cronicas-10",
+      "from": "event:1-cronicas-morte-de-saul-no-monte-gilboa",
+      "to": "chapter:1-cronicas:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Morte de Saul no Monte Gilboa” cita explicitamente 1 Crônicas 10:1-14.",
+      "references": ["1 Crônicas 10:1-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-cronicas-o-censo-e-a-compra-da-eira-de-ornam:chapter-1-cronicas-21",
+      "from": "event:1-cronicas-o-censo-e-a-compra-da-eira-de-ornam",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Censo e a Compra da Eira de Ornam” cita explicitamente 1 Crônicas 21:1-30.",
+      "references": ["1 Crônicas 21:1-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-1-cronicas-trasladacao-da-arca-para-jerusalem:chapter-1-cronicas-13",
+      "from": "event:1-cronicas-trasladacao-da-arca-para-jerusalem",
+      "to": "chapter:1-cronicas:13",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Trasladação da Arca para Jerusalém” cita explicitamente 1 Crônicas 13:1-14, 15-16.",
+      "references": ["1 Crônicas 13:1-14, 15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-adao:chapter-1-cronicas-1",
+      "from": "person:adao",
+      "to": "chapter:1-cronicas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Adão” cita explicitamente 1 Cr 1:1.",
+      "references": ["1 Cr 1:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-asafe:chapter-1-cronicas-15",
+      "from": "person:asafe",
+      "to": "chapter:1-cronicas:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Asafe” cita explicitamente 1 Cr 15:17; 16:5.",
+      "references": ["1 Cr 15:17; 16:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-asafe:chapter-1-cronicas-16",
+      "from": "person:asafe",
+      "to": "chapter:1-cronicas:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Asafe” cita explicitamente 1 Cr 15:17; 16:5.",
+      "references": ["1 Cr 15:17; 16:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-11",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-12",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-13",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-14",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-15",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-16",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-17",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-18",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-19",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-20",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-21",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-22",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-23",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-24",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-25",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-26",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-27",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-28",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:28",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-davi:chapter-1-cronicas-29",
+      "from": "person:davi",
+      "to": "chapter:1-cronicas:29",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Davi” cita explicitamente 1 Cr 11-29.",
+      "references": ["1 Cr 11-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hema:chapter-1-cronicas-15",
+      "from": "person:hema",
+      "to": "chapter:1-cronicas:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hemã” cita explicitamente 1 Cr 6:33; 15:17.",
+      "references": ["1 Cr 6:33; 15:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-hema:chapter-1-cronicas-6",
+      "from": "person:hema",
+      "to": "chapter:1-cronicas:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Hemã” cita explicitamente 1 Cr 6:33; 15:17.",
+      "references": ["1 Cr 6:33; 15:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jedutum:chapter-1-cronicas-16",
+      "from": "person:jedutum",
+      "to": "chapter:1-cronicas:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jedutum” cita explicitamente 1 Cr 16:41; 25:1.",
+      "references": ["1 Cr 16:41; 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jedutum:chapter-1-cronicas-25",
+      "from": "person:jedutum",
+      "to": "chapter:1-cronicas:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jedutum” cita explicitamente 1 Cr 16:41; 25:1.",
+      "references": ["1 Cr 16:41; 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joabe:chapter-1-cronicas-11",
+      "from": "person:joabe",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joabe” cita explicitamente 1 Cr 11:6; 21:1-6.",
+      "references": ["1 Cr 11:6; 21:1-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joabe:chapter-1-cronicas-21",
+      "from": "person:joabe",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joabe” cita explicitamente 1 Cr 11:6; 21:1-6.",
+      "references": ["1 Cr 11:6; 21:1-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-chronicler-o-cronista:chapter-1-cronicas-1",
+      "from": "person:o-chronicler-o-cronista",
+      "to": "chapter:1-cronicas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Chronicler (O Cronista)” cita explicitamente 1Cr 1:1 - 2Cr 36:23.",
+      "references": ["1Cr 1:1 - 2Cr 36:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ornam-arauna:chapter-1-cronicas-21",
+      "from": "person:ornam-arauna",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ornam (Araúna)” cita explicitamente 1 Cr 21:15-28.",
+      "references": ["1 Cr 21:15-28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-samuel:chapter-1-cronicas-11",
+      "from": "person:samuel",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Samuel” cita explicitamente 1 Cr 9:22; 11:3.",
+      "references": ["1 Cr 9:22; 11:3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-samuel:chapter-1-cronicas-9",
+      "from": "person:samuel",
+      "to": "chapter:1-cronicas:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Samuel” cita explicitamente 1 Cr 9:22; 11:3.",
+      "references": ["1 Cr 9:22; 11:3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-saul:chapter-1-cronicas-10",
+      "from": "person:saul",
+      "to": "chapter:1-cronicas:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Saul” cita explicitamente 1 Cr 10:1-14.",
+      "references": ["1 Cr 10:1-14"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zadoque:chapter-1-cronicas-16",
+      "from": "person:zadoque",
+      "to": "chapter:1-cronicas:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zadoque” cita explicitamente 1 Cr 16:39; 24:3.",
+      "references": ["1 Cr 16:39; 24:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zadoque:chapter-1-cronicas-24",
+      "from": "person:zadoque",
+      "to": "chapter:1-cronicas:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zadoque” cita explicitamente 1 Cr 16:39; 24:3.",
+      "references": ["1 Cr 16:39; 24:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeom:chapter-1-cronicas-16",
+      "from": "place:gibeom",
+      "to": "chapter:1-cronicas:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeom” cita explicitamente 1 Cr 16:39; 21:29.",
+      "references": ["1 Cr 16:39; 21:29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeom:chapter-1-cronicas-21",
+      "from": "place:gibeom",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeom” cita explicitamente 1 Cr 16:39; 21:29.",
+      "references": ["1 Cr 16:39; 21:29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebrom:chapter-1-cronicas-11",
+      "from": "place:hebrom",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebrom” cita explicitamente 1 Cr 3:1-4; 11:1-3.",
+      "references": ["1 Cr 3:1-4; 11:1-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebrom:chapter-1-cronicas-3",
+      "from": "place:hebrom",
+      "to": "chapter:1-cronicas:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebrom” cita explicitamente 1 Cr 3:1-4; 11:1-3.",
+      "references": ["1 Cr 3:1-4; 11:1-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao-cidade-de-davi:chapter-1-cronicas-11",
+      "from": "place:jerusalem-siao-cidade-de-davi",
+      "to": "chapter:1-cronicas:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião / Cidade de Davi)” cita explicitamente 1 Cr 11:4-7; 15:1.",
+      "references": ["1 Cr 11:4-7; 15:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao-cidade-de-davi:chapter-1-cronicas-15",
+      "from": "place:jerusalem-siao-cidade-de-davi",
+      "to": "chapter:1-cronicas:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião / Cidade de Davi)” cita explicitamente 1 Cr 11:4-7; 15:1.",
+      "references": ["1 Cr 11:4-7; 15:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-gilboa:chapter-1-cronicas-10",
+      "from": "place:monte-gilboa",
+      "to": "chapter:1-cronicas:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Gilboa” cita explicitamente 1 Cr 10:1-8.",
+      "references": ["1 Cr 10:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-moria-eira-de-ornam:chapter-1-cronicas-21",
+      "from": "place:monte-moria-eira-de-ornam",
+      "to": "chapter:1-cronicas:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Moriá (Eira de Ornam)” cita explicitamente 1 Cr 21:18-28; 22:1.",
+      "references": ["1 Cr 21:18-28; 22:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-moria-eira-de-ornam:chapter-1-cronicas-22",
+      "from": "place:monte-moria-eira-de-ornam",
+      "to": "chapter:1-cronicas:22",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Moriá (Eira de Ornam)” cita explicitamente 1 Cr 21:18-28; 22:1.",
+      "references": ["1 Cr 21:18-28; 22:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-promessa-a-nata-sobre-a-casa-de-davi-2cr-17-11-14-2sm-7:chapter-1-cronicas-17",
+      "from": "prophecy:2-cronicas-a-promessa-a-nata-sobre-a-casa-de-davi-2cr-17-11-14-2sm-7",
+      "to": "chapter:1-cronicas:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Promessa a Natã sobre a Casa de Davi (2Cr 17:11-14 / 2Sm 7)” cita explicitamente 1Cr 17, Sl 89.",
+      "references": ["1Cr 17, Sl 89"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-13:theme-arca-da-alianca",
+      "from": "chapter:1-cronicas:13",
+      "to": "theme:arca-da-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Arca da Aliança” cita explicitamente 1 Cr 13-16.",
+      "references": ["1 Cr 13-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-14:theme-arca-da-alianca",
+      "from": "chapter:1-cronicas:14",
+      "to": "theme:arca-da-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Arca da Aliança” cita explicitamente 1 Cr 13-16.",
+      "references": ["1 Cr 13-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-15:theme-arca-da-alianca",
+      "from": "chapter:1-cronicas:15",
+      "to": "theme:arca-da-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Arca da Aliança” cita explicitamente 1 Cr 13-16.",
+      "references": ["1 Cr 13-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-16:theme-arca-da-alianca",
+      "from": "chapter:1-cronicas:16",
+      "to": "theme:arca-da-alianca",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Arca da Aliança” cita explicitamente 1 Cr 13-16.",
+      "references": ["1 Cr 13-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-22:theme-templo-de-jerusalem",
+      "from": "chapter:1-cronicas:22",
+      "to": "theme:templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Templo de Jerusalém” cita explicitamente 1 Cr 22; 28-29.",
+      "references": ["1 Cr 22; 28-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-23:theme-tribo-de-levi",
+      "from": "chapter:1-cronicas:23",
+      "to": "theme:tribo-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tribo de Levi” cita explicitamente 1 Cr 6:1-81; 23-26.",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-24:theme-tribo-de-levi",
+      "from": "chapter:1-cronicas:24",
+      "to": "theme:tribo-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tribo de Levi” cita explicitamente 1 Cr 6:1-81; 23-26.",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-25:theme-tribo-de-levi",
+      "from": "chapter:1-cronicas:25",
+      "to": "theme:tribo-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tribo de Levi” cita explicitamente 1 Cr 6:1-81; 23-26.",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-26:theme-tribo-de-levi",
+      "from": "chapter:1-cronicas:26",
+      "to": "theme:tribo-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tribo de Levi” cita explicitamente 1 Cr 6:1-81; 23-26.",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-28:theme-templo-de-jerusalem",
+      "from": "chapter:1-cronicas:28",
+      "to": "theme:templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Templo de Jerusalém” cita explicitamente 1 Cr 22; 28-29.",
+      "references": ["1 Cr 22; 28-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-29:theme-templo-de-jerusalem",
+      "from": "chapter:1-cronicas:29",
+      "to": "theme:templo-de-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Templo de Jerusalém” cita explicitamente 1 Cr 22; 28-29.",
+      "references": ["1 Cr 22; 28-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-1-cronicas-6:theme-tribo-de-levi",
+      "from": "chapter:1-cronicas:6",
+      "to": "theme:tribo-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tribo de Levi” cita explicitamente 1 Cr 6:1-81; 23-26.",
+      "references": ["1 Cr 6:1-81; 23-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

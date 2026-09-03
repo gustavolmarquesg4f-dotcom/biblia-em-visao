@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "book": "Colossenses",
+  "count": 26,
+  "chapterCount": 4,
+  "nodes": [
+    {
+      "id": "person:aristarco",
+      "kind": "person",
+      "label": "Aristarco",
+      "aliases": [],
+      "summary": "Colaborador judeu de Paulo que envia saudações aos colossenses a partir da prisão",
+      "references": ["Cl 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Companheiro de cativeiro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:arquipo",
+      "kind": "person",
+      "label": "Arquipo",
+      "aliases": [],
+      "summary": "Designado como \"companheiro de lutas\", possivelmente exercendo liderança pastoral ou ministerial na comunidade local.",
+      "references": ["Cl 4:17", "Filemom 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Co-destinatário, associado à igreja em Colossos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:demas",
+      "kind": "person",
+      "label": "Demas",
+      "aliases": [],
+      "summary": "Cooperador de Paulo mencionado nas saudações finais, cujo distanciamento posterior é registrado em outras epístolas",
+      "references": ["Cl 4:14", "2 Timóteo 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Antigo colaborador de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:epafras",
+      "kind": "person",
+      "label": "Epafras",
+      "aliases": ["Epafras"],
+      "summary": "Epafras era natural de Colossos, fundador e líder da igreja colossense (e provavelmente das comunidades de Laodicéia e Hierápolis), descrito por Paulo como \"amado conservo\" e \"fiel ministro de Cristo\" que lutava continuamente em oração pelas igrejas do Lico [145].",
+      "references": [
+        "Colossenses 1:7-8",
+        "Colossenses 4:12-13",
+        "Filemom 23",
+        "Cl 1:7, 4:12-13",
+        "Filemom 1:23"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-epafras"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Colossenses%201%3A7-8%3B%20Colossenses%204%3A12-13%3B%20Filemom%2023&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Companheiro de prisão de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:justo-jesus",
+      "kind": "person",
+      "label": "Justo (Jesus)",
+      "aliases": [],
+      "summary": "Membro do círculo íntimo de Paulo da circuncisão que trabalhou pelo Reino de Deus",
+      "references": ["Cl 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Cooperador judaico", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:lucas",
+      "kind": "person",
+      "label": "Lucas",
+      "aliases": [],
+      "summary": "Único companheiro presente junto a Paulo na prisão romana durante o ocaso de sua vida.",
+      "references": ["Cl 4:14", "2 Timóteo 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Médico e companheiro de ministério",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lucas-o-medico-e-historiador",
+      "kind": "person",
+      "label": "Lucas (O Médico e Historiador)",
+      "aliases": ["Lucas (O Médico e Historiador)"],
+      "summary": "Lucas, tradicionalmente identificado como o médico amado mencionado por Paulo, foi o autor do Terceiro Evangelho e dos Atos dos Apóstolos, além de companheiro de viagens de Paulo em suas rotas marítimas e episódios de prisão (\"nós\" em Atos) [109].",
+      "references": ["Colossenses 4:14", "Atos 16:10-17", "2 Timóteo 4:11"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-lucas-o-medico-e-historiador"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Colossenses%204%3A14%3B%20Atos%2016%3A10-17%3B%202%20Tim%C3%B3teo%204%3A11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:marcos",
+      "kind": "person",
+      "label": "Marcos",
+      "aliases": [],
+      "summary": "Auxiliar de Paulo cuja acolhimento é recomendado à igreja de Colossos",
+      "references": ["Cl 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Primo de Barnabé", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:onesimos",
+      "kind": "person",
+      "label": "Onesímos",
+      "aliases": [],
+      "summary": "Irmão fiel e amado, natural de Colossos, associado a Tíquico na entrega da epístola",
+      "references": ["Cl 4:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Membro da comunidade e fugitivo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo-o-apostolo",
+      "kind": "person",
+      "label": "Paulo, o Apóstolo",
+      "aliases": [],
+      "summary": "Apóstolo de Cristo Jesus por vontade de Deus, que escreve para consolidar a fé dos colossenses e combater falsos ensinos",
+      "references": ["Cl 1:1, 1:23, 4:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autor principal (atribuído)",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiquico",
+      "kind": "person",
+      "label": "Tíquico",
+      "aliases": ["Tíquico"],
+      "summary": "Tíquico era um discípulo da província da Ásia (provavelmente de Éfeso), descrito por Paulo como \"amado irmão, fiel ministro e conservo no Senhor\" (Cl 4:7) [133]. Desempenhou o papel crucial de mensageiro postal, portador e leitor oficial das epístolas paulinas aos Efésios e Colossenses, além de emissário em missões delicadas [134].",
+      "references": ["Atos 20:4", "Efésios 6:21-22", "Tito 3:12", "Cl 4:7-8"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tiquico"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2020%3A4%3B%20Ef%C3%A9sios%206%3A21-22%3B%20Tito%203%3A12&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Portador da carta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:colossos",
+      "kind": "place",
+      "label": "Colossos",
+      "aliases": [],
+      "summary": "Cidade antiga da Frígia, situada no vale do rio Lico, outrora próspera, mas em declínio no século I devido ao crescimento de Laodiceia e Hierápolis",
+      "references": [
+        "Cenário físico da comunidade destinatária da epístola",
+        "Filemom 1:2, Colossenses 1:2"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:colossenses-dn-7-concepcao-apocaliptica-dos-tronos-e-poderes",
+      "kind": "prophecy",
+      "label": "Dn 7 / Concepção apocalíptica dos tronos e poderes",
+      "aliases": [],
+      "summary": "A desarmamento e exposição pública dos principados e potestades na cruz reinterpretam a teologia apocalíptica intertestamentária, mostrando a derrota dos poderes cósmicos.",
+      "references": ["Cl 2:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Recepção posterior / Polêmica apocalíptica" }
+    },
+    {
+      "id": "prophecy:colossenses-ez-36-26-27-jr-31-circuncisao-do-coracao-nova-alianca",
+      "kind": "prophecy",
+      "label": "Ez 36:26-27 / Jr 31 (Circuncisão do coração / Nova Aliança)",
+      "aliases": [],
+      "summary": "A circuncisão \"não feita por mãos\", efetuada no batismo e na morte de Cristo, substitui e espiritualiza o sinal físico da aliança mosaica, gerando debates entre judeu-cristãos sobre a obrigatoriedade da lei.",
+      "references": ["Cl 2:11-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão soteriológica" }
+    },
+    {
+      "id": "prophecy:colossenses-is-43-7-gn-1-27-criacao-a-imagem-de-deus",
+      "kind": "prophecy",
+      "label": "Is 43:7 / Gn 1:27 (Criação à imagem de Deus)",
+      "aliases": [],
+      "summary": "Cristo é identificado como a imagem perfeita e o agente criador pré-existente, redefinindo a teologia da criação judaica ao subordinar todo o cosmos à pessoa do Filho.",
+      "references": ["Cl 1:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Releitura criacional" }
+    },
+    {
+      "id": "prophecy:colossenses-lv-19-codigos-de-santidade-veterotestamentarios",
+      "kind": "prophecy",
+      "label": "Lv 19 / Códigos de santidade veterotestamentários",
+      "aliases": [],
+      "summary": "A transição dos vícios da carne para as vestes da compaixão e perdão reflete a ética sacerdotal do Antigo Testamento, adaptada universalmente para a comunidade eclesial gentia-judaica.",
+      "references": ["Cl 3:8-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão ética e parenética" }
+    },
+    {
+      "id": "prophecy:colossenses-sal-110-1-sentar-se-a-direita-de-deus",
+      "kind": "prophecy",
+      "label": "Sal 110:1 (Sentar-se à direita de Deus)",
+      "aliases": [],
+      "summary": "Aplicação direta da exaltação de Cristo à direita de Deus como base para a busca das coisas lá do alto, divergindo de leituras estritamente messiânicas terrestres do judaísmo do Segundo Templo.",
+      "references": ["Cl 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Releitura cristológica" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-8-22-31",
+      "kind": "prophecy",
+      "label": "Pr 8:22-31",
+      "aliases": [],
+      "summary": "Padres da Igreja e teólogos modernos debatem se a Sabedoria personificada é uma profecia ontológica da pré-existência do Filho ou mera hipóstase literária.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / cristologia patrística" }
+    },
+    {
+      "id": "theme:igreja-de-colossos",
+      "kind": "theme",
+      "label": "Igreja de Colossos",
+      "aliases": [],
+      "summary": "Corpo de crentes gentios e judeus na cidade frígia, alvo de ameaças sincretistas, mas elogiados por sua fé e amor",
+      "references": ["Cl 1:2, 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade destinatária",
+        "entityType": "Povo / Instituição"
+      }
+    },
+    {
+      "id": "theme:laodiceia-e-hierapolis",
+      "kind": "theme",
+      "label": "Laodiceia e Hierápolis",
+      "aliases": [],
+      "summary": "Comunidades vizinhas na bacia do rio Lico que compartilhavam laços estreitos e circulação de cartas apostólicas",
+      "references": ["Cl 4:13, 4:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cidades irmãs no Lico",
+        "entityType": "Lugar / Instituição"
+      }
+    },
+    {
+      "id": "theme:plenitude-pleroma",
+      "kind": "theme",
+      "label": "Plenitude (Pleroma)",
+      "aliases": [],
+      "summary": "A totalidade da divindade que habita corporalmente em Cristo, refutando qualquer necessidade de intermediários espirituais",
+      "references": ["Cl 1:19, 2:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Atributo divino em Cristo",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:rudimentos-do-mundo-stoicheia",
+      "kind": "theme",
+      "label": "Rudimentos do mundo (Stoicheia)",
+      "aliases": [],
+      "summary": "Princípios elementares ou entidades espirituais do cosmos que tentavam subjugar os crentes através de rituais e filosofias",
+      "references": ["Cl 2:8, 2:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Forças cosmológicas / sistemas rituais",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-aristarco:chapter-colossenses-4",
+      "from": "person:aristarco",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Aristarco” cita explicitamente Cl 4:10.",
+      "references": ["Cl 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arquipo:chapter-colossenses-4",
+      "from": "person:arquipo",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arquipo” cita explicitamente Cl 4:17.",
+      "references": ["Cl 4:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-demas:chapter-colossenses-4",
+      "from": "person:demas",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Demas” cita explicitamente Cl 4:14.",
+      "references": ["Cl 4:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-epafras:chapter-colossenses-1",
+      "from": "person:epafras",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Epafras” cita explicitamente Colossenses 1:7-8.",
+      "references": ["Colossenses 1:7-8"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-epafras:chapter-colossenses-4",
+      "from": "person:epafras",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Epafras” cita explicitamente Colossenses 4:12-13.",
+      "references": ["Colossenses 4:12-13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-justo-jesus:chapter-colossenses-4",
+      "from": "person:justo-jesus",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Justo (Jesus)” cita explicitamente Cl 4:11.",
+      "references": ["Cl 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lucas-o-medico-e-historiador:chapter-colossenses-4",
+      "from": "person:lucas-o-medico-e-historiador",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lucas (O Médico e Historiador)” cita explicitamente Colossenses 4:14.",
+      "references": ["Colossenses 4:14"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lucas:chapter-colossenses-4",
+      "from": "person:lucas",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lucas” cita explicitamente Cl 4:14.",
+      "references": ["Cl 4:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-marcos:chapter-colossenses-4",
+      "from": "person:marcos",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Marcos” cita explicitamente Cl 4:10.",
+      "references": ["Cl 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-onesimos:chapter-colossenses-4",
+      "from": "person:onesimos",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Onesímos” cita explicitamente Cl 4:9.",
+      "references": ["Cl 4:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-o-apostolo:chapter-colossenses-1",
+      "from": "person:paulo-o-apostolo",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo, o Apóstolo” cita explicitamente Cl 1:1, 1:23, 4:18.",
+      "references": ["Cl 1:1, 1:23, 4:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-o-apostolo:chapter-colossenses-4",
+      "from": "person:paulo-o-apostolo",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo, o Apóstolo” cita explicitamente Cl 1:1, 1:23, 4:18.",
+      "references": ["Cl 1:1, 1:23, 4:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-colossenses-1",
+      "from": "person:timoteo",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente Cl 1:1.",
+      "references": ["Cl 1:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiquico:chapter-colossenses-4",
+      "from": "person:tiquico",
+      "to": "chapter:colossenses:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tíquico” cita explicitamente Cl 4:7-8.",
+      "references": ["Cl 4:7-8"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-colossos:chapter-colossenses-1",
+      "from": "place:colossos",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Colossos” cita explicitamente Filemom 1:2, Colossenses 1:2.",
+      "references": ["Filemom 1:2, Colossenses 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-colossenses-dn-7-concepcao-apocaliptica-dos-tronos-e-poderes:chapter-colossenses-2",
+      "from": "prophecy:colossenses-dn-7-concepcao-apocaliptica-dos-tronos-e-poderes",
+      "to": "chapter:colossenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Dn 7 / Concepção apocalíptica dos tronos e poderes” cita explicitamente Cl 2:15.",
+      "references": ["Cl 2:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-colossenses-ez-36-26-27-jr-31-circuncisao-do-coracao-nova-alianca:chapter-colossenses-2",
+      "from": "prophecy:colossenses-ez-36-26-27-jr-31-circuncisao-do-coracao-nova-alianca",
+      "to": "chapter:colossenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ez 36:26-27 / Jr 31 (Circuncisão do coração / Nova Aliança)” cita explicitamente Cl 2:11-12.",
+      "references": ["Cl 2:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-colossenses-is-43-7-gn-1-27-criacao-a-imagem-de-deus:chapter-colossenses-1",
+      "from": "prophecy:colossenses-is-43-7-gn-1-27-criacao-a-imagem-de-deus",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Is 43:7 / Gn 1:27 (Criação à imagem de Deus)” cita explicitamente Cl 1:15-16.",
+      "references": ["Cl 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-colossenses-lv-19-codigos-de-santidade-veterotestamentarios:chapter-colossenses-3",
+      "from": "prophecy:colossenses-lv-19-codigos-de-santidade-veterotestamentarios",
+      "to": "chapter:colossenses:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lv 19 / Códigos de santidade veterotestamentários” cita explicitamente Cl 3:8-12.",
+      "references": ["Cl 3:8-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-colossenses-sal-110-1-sentar-se-a-direita-de-deus:chapter-colossenses-3",
+      "from": "prophecy:colossenses-sal-110-1-sentar-se-a-direita-de-deus",
+      "to": "chapter:colossenses:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sal 110:1 (Sentar-se à direita de Deus)” cita explicitamente Cl 3:1.",
+      "references": ["Cl 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-8-22-31:chapter-colossenses-1",
+      "from": "prophecy:proverbios-pr-8-22-31",
+      "to": "chapter:colossenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 8:22-31” cita explicitamente Jo 1:1-3; Cl 1:15-17; Ap 3:14.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-colossenses-1:theme-igreja-de-colossos",
+      "from": "chapter:colossenses:1",
+      "to": "theme:igreja-de-colossos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja de Colossos” cita explicitamente Cl 1:2, 1:4.",
+      "references": ["Cl 1:2, 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-colossenses-1:theme-plenitude-pleroma",
+      "from": "chapter:colossenses:1",
+      "to": "theme:plenitude-pleroma",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Plenitude (Pleroma)” cita explicitamente Cl 1:19, 2:9.",
+      "references": ["Cl 1:19, 2:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-colossenses-2:theme-plenitude-pleroma",
+      "from": "chapter:colossenses:2",
+      "to": "theme:plenitude-pleroma",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Plenitude (Pleroma)” cita explicitamente Cl 1:19, 2:9.",
+      "references": ["Cl 1:19, 2:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-colossenses-2:theme-rudimentos-do-mundo-stoicheia",
+      "from": "chapter:colossenses:2",
+      "to": "theme:rudimentos-do-mundo-stoicheia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Rudimentos do mundo (Stoicheia)” cita explicitamente Cl 2:8, 2:20.",
+      "references": ["Cl 2:8, 2:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-colossenses-4:theme-laodiceia-e-hierapolis",
+      "from": "chapter:colossenses:4",
+      "to": "theme:laodiceia-e-hierapolis",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Laodiceia e Hierápolis” cita explicitamente Cl 4:13, 4:15-16.",
+      "references": ["Cl 4:13, 4:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

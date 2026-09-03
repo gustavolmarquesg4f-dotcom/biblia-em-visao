@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "book": "Oseias",
+  "count": 26,
+  "chapterCount": 12,
+  "nodes": [
+    {
+      "id": "event:oseias-a-contenda-juridica-rib-de-jave-contra-israel",
+      "kind": "event",
+      "label": "A Contenda Jurídica (*Rib*) de Javé contra Israel",
+      "aliases": [],
+      "summary": "Deus instaura um processo formal contra os habitantes da terra por falta de verdade, lealdade e conhecimento de Deus.",
+      "references": ["Oseias Oseias 4:1-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a corrupção total da sociedade israelita, resultando em esterilidade ecológica e ruína social.",
+        "entities": "Javé, Efraim, Sacerdotes, Israel"
+      }
+    },
+    {
+      "id": "event:oseias-a-recompra-e-reclusao-de-gomer",
+      "kind": "event",
+      "label": "A Recompra e Reclusão de Gômer",
+      "aliases": [],
+      "summary": "Oseias compra sua esposa adúltera por prata e cevada, impondo-lhe um período de isolamento antes da restauração conjugal.",
+      "references": ["Oseias Oseias 3:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Simboliza profeticamente o resgate amoroso e paciente de Javé por Israel durante o exílio e sua futura reintegração.",
+        "entities": "Oseias, Gômer, Javé"
+      }
+    },
+    {
+      "id": "event:oseias-o-anuncio-do-cativeiro-assirio",
+      "kind": "event",
+      "label": "O Anúncio do Cativeiro Assírio",
+      "aliases": [],
+      "summary": "Profecia detalhando que Israel retornará ao Egito figurativo e comerá pão impuro sob o julgo da Assíria.",
+      "references": ["Oseias Oseias 9:3-6, 10:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca a dissolução política e histórica do Reino do Norte com a queda de Samaria em 722 BCE.",
+        "entities": "Assíria, Efraim, Samaria, Javé"
+      }
+    },
+    {
+      "id": "event:oseias-o-apelo-ao-arrependimento-e-promessa-de-cura",
+      "kind": "event",
+      "label": "O Apelo ao Arrependimento e Promessa de Cura",
+      "aliases": [],
+      "summary": "O profeta exorta Israel a retornar a Javé com palavras de confissão, recebendo em troca a promessa de cura e viço perpétuo.",
+      "references": ["Oseias Oseias 14:1-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Abre horizontes escatológicos de restauração da aliança para além do castigo histórico.",
+        "entities": "Efraim, Javé, Oseias"
+      }
+    },
+    {
+      "id": "event:oseias-o-casamento-profetico-com-gomer",
+      "kind": "event",
+      "label": "O Casamento Profético com Gômer",
+      "aliases": [],
+      "summary": "Oseias recebe ordem divina de desposar uma mulher promíscua e gerar filhos com nomes simbólicos.",
+      "references": ["Oseias Oseias 1:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o paradigma profético encarnado da infidelidade de Israel e da dor pactual de Deus.",
+        "entities": "Oseias, Gômer, Javé, Jezreel, Lo-Ruama, Lo-Ami"
+      }
+    },
+    {
+      "id": "person:jaco",
+      "kind": "person",
+      "label": "Jacó",
+      "aliases": ["Jacó", "Israel"],
+      "summary": "Jacó (do hebraico יַעֲקֹב, *Ya‘ăqōb*, cuja etimologia popular em Gênesis remete a \"aquele que suplanta\", \"enganador\" ou que segura o calcanhar) é o patriarca cujos doze filhos dão origem às doze tribos de Israel. Sua trajetória é uma das mais dinâmicas e psicológicas do Gênesis: começa como um homem astuto que obtém a primogenitura de Esaú por um prato de lentilhas e rouba a bênção paterna com o auxílio da mãe. Foge para Harã, onde trabalha por vinte anos para Labão, sendo por sua vez enganado no casamento com Lia e Raquel. Após acumular grande riqueza e rebanhos, empreende o retorno a Canaã. O ponto de virada espiritual de sua vida ocorre na travessia do rio Jaboque, onde luta misticamente a noite toda com um misterioso oponente (identificado como Deus ou o Anjo do Senhor), tendo seu nome mudado para **Israel** (\"aquele que luta com Deus\") após ferir-se na coxa [71].",
+      "references": [
+        "Gênesis 27:18–29",
+        "Gênesis 28:10–22",
+        "Gênesis 32:22–32",
+        "Gênesis 49:1–33",
+        "Oseias 12:3–4; Romanos 9:10–13",
+        "Gn 25:29–34",
+        "Gn 27",
+        "Gn 28",
+        "Gn 29–31",
+        "Gn 32:22–32",
+        "Gn 35",
+        "Gn 46–49",
+        "Os 12",
+        "Mt 1:2"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-jaco", "jacob"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%2027%3A18%E2%80%9329%3B%20G%C3%AAnesis%2028%3A10%E2%80%9322%3B%20G%C3%AAnesis%2032%3A22%E2%80%9332&version=ARA",
+        "bookLinksVerified": true,
+        "role": "patriarca; ancestral epônimo de Israel",
+        "tags": ["Israel", "bênção", "luta", "família"]
+      }
+    },
+    {
+      "id": "place:betel",
+      "kind": "place",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal centro religioso e político do Reino do Norte, contendo um dos santuários de bezerros de ouro; alvo principal das denúncias de idolatria e falsa religiosidade de Amós.",
+      "references": [
+        "1Rs 12, 13",
+        "2 Reis 2, 10, 23",
+        "Oseias 4:15, 10:5, 12:4",
+        "Amós 3:14; 4:4; 7:13",
+        "Zacarias 7:2",
+        "Gn 12:8",
+        "Gn 28:10–22",
+        "Gn 35:1–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["bethel"],
+      "attributes": { "status": "geográfico", "x": 49, "y": 48 }
+    },
+    {
+      "id": "place:egito",
+      "kind": "place",
+      "label": "Egito",
+      "aliases": [],
+      "summary": "Antiga casa de escravidão e símbolo de refúgio geopolítico falho para onde Israel ameaça retornar.",
+      "references": ["Isaías 19:1, 30:1-3, 31:1", "Oseias 7:11, 8:13, 11:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:gibeia",
+      "kind": "place",
+      "label": "Gibeia",
+      "aliases": [],
+      "summary": "Localidade associada a um crime hediondo no período dos Juízes, servindo de arquétipo para a depravação moral de Israel.",
+      "references": ["Oseias 9:9, 10:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Histórico" }
+    },
+    {
+      "id": "place:gileade",
+      "kind": "place",
+      "label": "Gileade",
+      "aliases": [],
+      "summary": "Região transjordaniana marcada por banditismo, violência e apostasia generalizada.",
+      "references": ["Oseias 6:8, 12:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Fronteiriço" }
+    },
+    {
+      "id": "place:guilgal",
+      "kind": "place",
+      "label": "Guilgal",
+      "aliases": [],
+      "summary": "Antigo local sagrado da conquista israelita, corrompido em centro de práticas idolátricas e cultuais vazias.",
+      "references": ["Oseias 4:15, 9:15, 12:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Religioso" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "prophecy:oseias-eles-beijam-os-bezerros-por-isso-serao-como-a-nevoa-da-manha",
+      "kind": "prophecy",
+      "label": "\"Eles beijam os bezerros... por isso serão como a névoa da manhã...\"",
+      "aliases": [],
+      "summary": "Anúncio do fim do culto estatal de Jeroboão e dispersão nacional, cumprido na invasão assíria de 722 BCE. Consenso histórico sobre a efetivação do oráculo.",
+      "references": ["Oseias 13:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo de Juízo" }
+    },
+    {
+      "id": "prophecy:oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara",
+      "kind": "prophecy",
+      "label": "\"Vinde, e tornemos para o Senhor, porque ele toreou, e nos sarará...\"",
+      "aliases": [],
+      "summary": "A promessa de revitalização ao \"terceiro dia\" é aludida na patrística e no NT como reflexo da ressurreição. Debate acadêmico sobre se o texto original aludia à rápida recuperação nacional ou a uma pré-figuração escatológica-messiânica.",
+      "references": ["Oseias 6:1-3; 1 Coríntios 15:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Alusão" }
+    },
+    {
+      "id": "term:hesed",
+      "kind": "term",
+      "label": "Hesed",
+      "aliases": ["חֶסֶד", "ḥesed"],
+      "summary": "Vocabulário de lealdade relacional, bondade comprometida e ação favorável que sustenta uma relação.",
+      "references": ["Êx 34:6", "Rt 1:8", "Sl 136:1", "Os 6:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["hesed"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Dependendo do contexto pode apontar para misericórdia, lealdade, benevolência, fidelidade ou amor constante. Nenhum equivalente isolado resolve todos os usos.",
+        "translationNote": "Traduzir sempre por ‘misericórdia’ ou sempre por ‘amor’ pode esconder a dimensão de compromisso. A análise deve observar quem age, com quem, em qual relação e com qual consequência narrativa."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-oseias-a-contenda-juridica-rib-de-jave-contra-israel:chapter-oseias-4",
+      "from": "event:oseias-a-contenda-juridica-rib-de-jave-contra-israel",
+      "to": "chapter:oseias:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Contenda Jurídica (*Rib*) de Javé contra Israel” cita explicitamente Oseias Oseias 4:1-3.",
+      "references": ["Oseias Oseias 4:1-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-oseias-a-recompra-e-reclusao-de-gomer:chapter-oseias-3",
+      "from": "event:oseias-a-recompra-e-reclusao-de-gomer",
+      "to": "chapter:oseias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Recompra e Reclusão de Gômer” cita explicitamente Oseias Oseias 3:1-5.",
+      "references": ["Oseias Oseias 3:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-oseias-o-anuncio-do-cativeiro-assirio:chapter-oseias-10",
+      "from": "event:oseias-o-anuncio-do-cativeiro-assirio",
+      "to": "chapter:oseias:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Anúncio do Cativeiro Assírio” cita explicitamente Oseias Oseias 9:3-6, 10:6.",
+      "references": ["Oseias Oseias 9:3-6, 10:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-oseias-o-anuncio-do-cativeiro-assirio:chapter-oseias-9",
+      "from": "event:oseias-o-anuncio-do-cativeiro-assirio",
+      "to": "chapter:oseias:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Anúncio do Cativeiro Assírio” cita explicitamente Oseias Oseias 9:3-6, 10:6.",
+      "references": ["Oseias Oseias 9:3-6, 10:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-oseias-o-apelo-ao-arrependimento-e-promessa-de-cura:chapter-oseias-14",
+      "from": "event:oseias-o-apelo-ao-arrependimento-e-promessa-de-cura",
+      "to": "chapter:oseias:14",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Apelo ao Arrependimento e Promessa de Cura” cita explicitamente Oseias Oseias 14:1-8.",
+      "references": ["Oseias Oseias 14:1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-oseias-o-casamento-profetico-com-gomer:chapter-oseias-1",
+      "from": "event:oseias-o-casamento-profetico-com-gomer",
+      "to": "chapter:oseias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Casamento Profético com Gômer” cita explicitamente Oseias Oseias 1:2-3.",
+      "references": ["Oseias Oseias 1:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jaco:chapter-oseias-12",
+      "from": "person:jaco",
+      "to": "chapter:oseias:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jacó” cita explicitamente Oseias 12:3–4; Romanos 9:10–13.",
+      "references": ["Oseias 12:3–4; Romanos 9:10–13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-oseias-10",
+      "from": "place:betel",
+      "to": "chapter:oseias:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Oseias 4:15, 10:5, 12:4.",
+      "references": ["Oseias 4:15, 10:5, 12:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-oseias-12",
+      "from": "place:betel",
+      "to": "chapter:oseias:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Oseias 4:15, 10:5, 12:4.",
+      "references": ["Oseias 4:15, 10:5, 12:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-oseias-4",
+      "from": "place:betel",
+      "to": "chapter:oseias:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Oseias 4:15, 10:5, 12:4.",
+      "references": ["Oseias 4:15, 10:5, 12:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-oseias-11",
+      "from": "place:egito",
+      "to": "chapter:oseias:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Oseias 7:11, 8:13, 11:5.",
+      "references": ["Oseias 7:11, 8:13, 11:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-oseias-7",
+      "from": "place:egito",
+      "to": "chapter:oseias:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Oseias 7:11, 8:13, 11:5.",
+      "references": ["Oseias 7:11, 8:13, 11:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-oseias-8",
+      "from": "place:egito",
+      "to": "chapter:oseias:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Oseias 7:11, 8:13, 11:5.",
+      "references": ["Oseias 7:11, 8:13, 11:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeia:chapter-oseias-10",
+      "from": "place:gibeia",
+      "to": "chapter:oseias:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeia” cita explicitamente Oseias 9:9, 10:9.",
+      "references": ["Oseias 9:9, 10:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeia:chapter-oseias-9",
+      "from": "place:gibeia",
+      "to": "chapter:oseias:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeia” cita explicitamente Oseias 9:9, 10:9.",
+      "references": ["Oseias 9:9, 10:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gileade:chapter-oseias-12",
+      "from": "place:gileade",
+      "to": "chapter:oseias:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gileade” cita explicitamente Oseias 6:8, 12:11.",
+      "references": ["Oseias 6:8, 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gileade:chapter-oseias-6",
+      "from": "place:gileade",
+      "to": "chapter:oseias:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gileade” cita explicitamente Oseias 6:8, 12:11.",
+      "references": ["Oseias 6:8, 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-guilgal:chapter-oseias-12",
+      "from": "place:guilgal",
+      "to": "chapter:oseias:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Guilgal” cita explicitamente Oseias 4:15, 9:15, 12:11.",
+      "references": ["Oseias 4:15, 9:15, 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-guilgal:chapter-oseias-4",
+      "from": "place:guilgal",
+      "to": "chapter:oseias:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Guilgal” cita explicitamente Oseias 4:15, 9:15, 12:11.",
+      "references": ["Oseias 4:15, 9:15, 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-guilgal:chapter-oseias-9",
+      "from": "place:guilgal",
+      "to": "chapter:oseias:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Guilgal” cita explicitamente Oseias 4:15, 9:15, 12:11.",
+      "references": ["Oseias 4:15, 9:15, 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-oseias-10",
+      "from": "place:samaria",
+      "to": "chapter:oseias:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Oseias 7:1, 8:5, 10:5.",
+      "references": ["Oseias 7:1, 8:5, 10:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-oseias-7",
+      "from": "place:samaria",
+      "to": "chapter:oseias:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Oseias 7:1, 8:5, 10:5.",
+      "references": ["Oseias 7:1, 8:5, 10:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-oseias-8",
+      "from": "place:samaria",
+      "to": "chapter:oseias:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Oseias 7:1, 8:5, 10:5.",
+      "references": ["Oseias 7:1, 8:5, 10:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-eles-beijam-os-bezerros-por-isso-serao-como-a-nevoa-da-manha:chapter-oseias-13",
+      "from": "prophecy:oseias-eles-beijam-os-bezerros-por-isso-serao-como-a-nevoa-da-manha",
+      "to": "chapter:oseias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eles beijam os bezerros... por isso serão como a névoa da manhã...\"” cita explicitamente Oseias 13:2-3.",
+      "references": ["Oseias 13:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara:chapter-oseias-6",
+      "from": "prophecy:oseias-vinde-e-tornemos-para-o-senhor-porque-ele-toreou-e-nos-sarara",
+      "to": "chapter:oseias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vinde, e tornemos para o Senhor, porque ele toreou, e nos sarará...\"” cita explicitamente Oseias 6:1-3; 1 Coríntios 15:4.",
+      "references": ["Oseias 6:1-3; 1 Coríntios 15:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:related-term:chapter-oseias-6:term-hesed",
+      "from": "chapter:oseias:6",
+      "to": "term:hesed",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Hesed” cita explicitamente Os 6:6.",
+      "references": ["Os 6:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": 1,
+  "book": "Lucas",
+  "count": 63,
+  "chapterCount": 20,
+  "nodes": [
+    {
+      "id": "doctrine:cristo",
+      "kind": "doctrine",
+      "label": "Jesus Cristo: encarnação, cruz e ressurreição",
+      "aliases": [],
+      "summary": "Jesus é confessado como Filho unigênito do Pai, concebido pelo Espírito Santo, nascido de Maria, crucificado, sepultado, ressuscitado, ascendido e intercessor.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cristo"],
+      "attributes": {
+        "category": "Cristologia",
+        "pentecostalReading": "Cristo é o centro do evangelho completo: salvação, reconciliação, santidade, cura, missão e esperança futura são lidos a partir de sua pessoa e obra.",
+        "distinction": "A confissão de fé é uma afirmação teológica da igreja; a pesquisa histórica distingue entre reconstrução do Jesus histórico e confissão cristológica das primeiras comunidades.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "people-group:mulheres-discipulas-maria-madalena-joana-susana",
+      "kind": "people-group",
+      "label": "Mulheres Discípulas (Maria Madalena, Joana, Susana)",
+      "aliases": [],
+      "summary": "Grupo de mulheres galileias que sustentavam Jesus com seus bens e foram as primeiras testemunhas da ressurreição no túmulo vazio.",
+      "references": ["Lucas 8:1-3; Lucas 23:55-24:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Provedoras e testemunhas oculares do ministério",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:samaritanos",
+      "kind": "people-group",
+      "label": "Samaritanos",
+      "aliases": [],
+      "summary": "Habitantes da Samaria com quem Jesus interage de forma positiva, desconstruindo preconceitos étnicos através de parábolas e curas.",
+      "references": ["Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo étnico-religioso detestado pelos judeus ortodoxos",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:herodes-o-grande",
+      "kind": "person",
+      "label": "Herodes o Grande",
+      "aliases": ["Herodes o Grande"],
+      "summary": "Herodes I, o Grande (c. 73/74 a.C. – 4 a.C.), foi um rei cliente romano que governou a Judeia, Samaria, Galileia e territórios adjacentes entre 37 a.C. e 4 a.C. Nomeado pelo Senado Romano como \"Rei dos Judeus\", Herodes destacou-se por sua habilidade política extraordinária, astúcia diplomática e paranoia extrema. Embora fosse idumeu de origem (e, portanto, judeu apenas por conversão forçada de seus ancestrais sob os hasmonianos), ele promoveu colossais projetos arquitetônicos — sendo o mais grandioso a reconstrução e monumentalização do Segundo Templo de Jerusalém. Simultaneamente, sua biografia ficou marcada por execuções sangrentas de membros da própria família real hasmoniana e o episódio neotestamentário do Massacre dos Inocentes em Belém.",
+      "references": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*",
+        "**Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*",
+        "**João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-herodes-o-grande"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Mateus%202%3A1%2C%203**%3A%20*%22Tendo%20nascido%20Jesus%20em%20Bel%C3%A9m%20da%20Judeia%2C%20no%20tempo%20do%20rei%20Herodes%2C%20eis%20que%20uns%20magos%20vieram%20do%20oriente%20a%20Jerusal%C3%A9m...%20E%20o%20rei%20Herodes%2C%20ouvindo%20isto%2C%20perturbou-se%2C%20e%20com%20ele%20toda%20a%20Jerusal%C3%A9m.%22*%3B%20**Lucas%201%3A5**%3A%20*%22Houve%20nos%20dias%20de%20Herodes%2C%20rei%20da%20Judeia%2C%20um%20sacerdote%20chamado%20Zacarias%2C%20da%20turma%20de%20Abias...%22*%3B%20**Jo%C3%A3o%202%3A20**%3A%20*%22Disseram%2C%20pois%2C%20os%20judeus%3A%20Em%20quarenta%20e%20seis%20anos%20foi%20edificado%20este%20templo%2C%20e%20tu%20o%20levantar%C3%A1s%20em%20tr%C3%AAs%20dias%3F%22*&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:jesus-cristo",
+      "kind": "person",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O protagonista central do evangelho, cujo ministério encarna a misericórdia divina, o perdão dos pecados e a inversão radical das estruturas sociais vigentes.",
+      "references": [
+        "Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27",
+        "Romanos 1:3-4; 3:24-26",
+        "Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27",
+        "Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12",
+        "Judas 1:4"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e soberano supremo cuja graça está sendo pervertida pelos infiltradores e cuja autoridade é negada na práxis dos falsos mestres.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:joao-batista",
+      "kind": "person",
+      "label": "João Batista",
+      "aliases": ["João Batista"],
+      "summary": "João Batista é o profeta ascético, filho do sacerdote Zacarias e de Isabel, que atuou nas margens do rio Jordão pregando o arrependimento, anunciando a iminência do Reino dos céus e batizando para a remissão de pecados. Identificado como o precursor do Messias, batizou Jesus e foi posteriormente decapitado por ordem de Herodes Antipas devido a suas repreensões morais e políticas.",
+      "references": [
+        "Mt 3:1-12; 11:2-19; 14:1-12",
+        "Mc 1.4-9; 6.14-29",
+        "Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28",
+        "João 1:6-36; João 3:27-30; João 10:41"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-joao-batista"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta precursor, testemunha da luz e aquele que batiza Jesus, apontando-o como o Cordeiro de Deus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lo",
+      "kind": "person",
+      "label": "Ló",
+      "aliases": [],
+      "summary": "A trajetória de Ló acompanha a transformação do espaço: ele olha para a planície, aproxima-se de Sodoma, senta-se à porta da cidade e, depois do juízo, foge para Zoar e para uma caverna. O personagem conecta riqueza, hospitalidade, violência urbana, juízo e sobrevivência familiar.",
+      "references": [
+        "2Pe 2:7-8",
+        "Gn 13:5–13",
+        "Gn 14",
+        "Gn 18:16–33",
+        "Gn 19",
+        "Lc 17:28–32",
+        "2Pe 2:7–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["lot"],
+      "attributes": {
+        "role": "sobrinho de Abraão; habitante de Sodoma",
+        "entityType": "Pessoa",
+        "tags": ["Sodoma", "hospitalidade", "juízo", "deslocamento"]
+      }
+    },
+    {
+      "id": "person:maria-mae-de-jesus",
+      "kind": "person",
+      "label": "Maria, Mãe de Jesus",
+      "aliases": ["Maria, Mãe de Jesus"],
+      "summary": "Maria (Miriam em aramaico/hebraico) é a jovem virgem de Nazaré que, segundo a narrativa lucana e mateana, concebeu Jesus por obra do Espírito Santo. Sua trajetória inclui a Anunciação pelo anjo Gabriel, a Visitação a sua prima Isabel, o nascimento de Jesus em Belém, a fuga para o Egito, a apresentação no Templo, a presença nos momentos cruciais do ministério público, o doloroso testemunho da crucificação aos pés da cruz e a participação na comunidade apostólica reunida em Jerusalém no Pentecostes.",
+      "references": ["Lucas 1:28-38; Lucas 1:46-55; Lucas 2:19"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-maria-mae-de-jesus"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Modelo de fé, obediência e receptividade à Palavra",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:poncio-pilatos",
+      "kind": "person",
+      "label": "Pôncio Pilatos",
+      "aliases": ["Pôncio Pilatos"],
+      "summary": "Pôncio Pilatos foi o quinto prefeito (ou procurador) romano da província da Judeia, servindo sob o imperador Tibério César entre os anos 26 e 36 d.C. Sua figura é indissociável do processo de julgamento e condenação à morte de Jesus de Nazaré. Nos Evangelhos, é retratado como um governador pragmático, relutante e politicamente acuado pelas elites sacerdotais judaicas, que lavou as mãos simbolicamente para eximir-se da culpa pelo sangue do réu.",
+      "references": [
+        "Mt 27:2, 11-26, 62-66",
+        "Mc 15.1-15",
+        "Lucas 23:13-15; Lucas 23:22-24",
+        "João 18:29–19:22"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-poncio-pilatos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Governador romano da Judeia que conduz o julgamento de Jesus, demonstrando vacilação diante da pressão sinedrial.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:teofilo",
+      "kind": "person",
+      "label": "Teófilo",
+      "aliases": [],
+      "summary": "Personagem de alto estatuto social (\"excelentíssimo\"), patrono ou leitor ideal a quem Lucas dedica seu evangelho e o livro de Atos para certificar a solidez da tradição cristã.",
+      "references": ["Lucas 1:3-4; Atos 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatário da obra lucana",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zaqueu",
+      "kind": "person",
+      "label": "Zaqueu",
+      "aliases": [],
+      "summary": "Homem rico e marginalizado que se converte após receber Jesus em casa, demonstrando a salvação aos perdidos e a reparação financeira.",
+      "references": ["Lucas 19:1-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cobrador de impostos chefe em Jericó",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:emaus",
+      "kind": "place",
+      "label": "Emaús",
+      "aliases": [],
+      "summary": "Aldeia próxima a Jerusalém onde o Cristo ressuscitado se revela aos dois discípulos na fração do pão.",
+      "references": ["Lucas 24:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:galileia",
+      "kind": "place",
+      "label": "Galileia",
+      "aliases": [],
+      "summary": "Região periférica e cosmopolita onde se desenrola a maior parte do ministério galileu de Jesus, cura e ensino.",
+      "references": ["Lucas 4:14; Lucas 8:26; Lucas 23:55"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:nazare",
+      "kind": "place",
+      "label": "Nazaré",
+      "aliases": [],
+      "summary": "Cidade de infância e juventude de Jesus; local do discurso inaugural rejeitado pelos seus concidadãos.",
+      "references": [
+        "Mt 2:23; 13:54; 4:13",
+        "Lucas 1:26; Lucas 2:39; Lucas 4:16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:sodoma-e-vale-do-jordao",
+      "kind": "place",
+      "label": "Sodoma e vale do Jordão",
+      "aliases": [],
+      "summary": "Espaço de fertilidade escolhida por Ló e de juízo contra violência e injustiça.",
+      "references": ["Gn 13:10–13", "Gn 18–19", "Lc 17:28–30"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["sodom"],
+      "attributes": { "status": "disputado", "x": 48, "y": 73 }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino",
+      "kind": "prophecy",
+      "label": "1 Cr 17:11-14 — \"Quando os teus dias forem completos... levantarei a tua semente depois de ti... e confirmarei o seu reino\"",
+      "aliases": [],
+      "summary": "Enquanto 2 Samuel 7 enfatiza a disciplina e a relação paterna, 1 Crônicas atenua os aspectos negativos da falibilidade salomônica, projetando a aliança para uma esperança dinástica perene que encontra cumprimento messiânico no Novo Testamento.",
+      "references": ["2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / recepção posterior" }
+    },
+    {
+      "id": "prophecy:1-samuel-1sm-2-10-yhwh-julgara-os-confins-da-terra-dara-forca-ao-seu-rei-e-exaltara-o-poder-do-seu-ungido",
+      "kind": "prophecy",
+      "label": "1Sm 2:10 (\"Yhwh julgará os confins da terra; dará força ao seu rei e exaltará o poder do seu ungido\")",
+      "aliases": [],
+      "summary": "Antecipa teologicamente a figura do Messias real, conectando a esperança dinástica davídica ao plano escatológico de Deus.",
+      "references": ["Salmos 2; Lucas 1:46-55"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação/Tipologia" }
+    },
+    {
+      "id": "prophecy:3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo",
+      "kind": "prophecy",
+      "label": "Acolhimento aos mensageiros e recepção de Cristo",
+      "aliases": [],
+      "summary": "A recepção dos enviados itinerantes é tratada como recepção do próprio Cristo, ecoando ditos tradicionais sobre mensageiros do evangelho.",
+      "references": ["Mateus 10:40-42; Lucas 10:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "prophecy:ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo",
+      "kind": "prophecy",
+      "label": "Ageu 2:23 — \"Naquele dia... tomar-te-ei, ó Zorobabel... e te farei como anel de selo\"",
+      "aliases": [],
+      "summary": "Genealogias do Novo Testamento registram Zorobabel como ancestral direto de Jesus de Nazaré, interpretando a promessa do anel de selo como cumprida na linhagem real messiânica.",
+      "references": ["Mateus 1:12-13; Lucas 3:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/oráculo" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "kind": "prophecy",
+      "label": "Ec 11:1 (\"Lança o teu pão sobre as águas...\")",
+      "aliases": [],
+      "summary": "Interpretado na tradição ora como prudência comercial de diversificação de riscos, ora como mandamento ético de generosidade cujos frutos retornam.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/recepção posterior" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-61-1-2-o-espirito-do-senhor-deus-esta-sobre-mim",
+      "kind": "prophecy",
+      "label": "Isaías 61:1-2 — \"O Espírito do Senhor Deus está sobre mim...\"",
+      "aliases": [],
+      "summary": "A autoclassificação messiânica de Jesus na sinagoga de Nazaré, interrompendo o texto antes do dia da vingança para inaugurar o ano aceitável.",
+      "references": ["Lucas 4:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/citação" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-31-31-34-eis-que-dias-vem-em-que-farei-uma-nova-alianca",
+      "kind": "prophecy",
+      "label": "Jer 31:31-34 (\"Eis que dias vêm... em que farei uma nova aliança\")",
+      "aliases": [],
+      "summary": "O NT interpreta esta profecia como realizada na morte e sacrifício de Cristo; o judaísmo rabínico a entende no contexto da restauração nacional de Israel.",
+      "references": ["Heb 8:8-12; 10:16-17; Lc 22:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "kind": "prophecy",
+      "label": "Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")",
+      "aliases": [],
+      "summary": "Jesus utiliza a expressão para justificar a purificação do Templo contra a mercantilização institucional.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas",
+      "kind": "prophecy",
+      "label": "Mateus 12:38-41 / Lucas 11:29-32 (O \"Sinal de Jonas\")",
+      "aliases": [],
+      "summary": "Jesus interpreta a permanência de Jonas no ventre do peixe por três dias e três noites como tipo tipológico de Sua morte, sepultamento e ressurreição, além de contrastar a fé de Nínive com a incredulidade de sua geração.",
+      "references": ["Mateus 16:4; Lucas 11:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Recepção neotestamentária" }
+    },
+    {
+      "id": "prophecy:juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5",
+      "kind": "prophecy",
+      "label": "\"Eis que tu conceberás e darás à luz um filho... nazireu\" (13:5)",
+      "aliases": [],
+      "summary": "Divergência exegética: Paralelo tipológico com Samuel e João Batista, debatido entre literalismo e tipologia.",
+      "references": ["Juízes 13:3-7; Lucas 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Anúncio Divino" }
+    },
+    {
+      "id": "prophecy:levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10",
+      "kind": "prophecy",
+      "label": "\"E santificareis o ano quinquagésimo... ano de jubileu\" (Lv 25:10)",
+      "aliases": [],
+      "summary": "Jesus aplica o texto do Jubileu em Nazaré para inaugurar o ano aceitável do Senhor, gerando debates entre leituras literais e escatológicas.",
+      "references": ["Is 61:1-2; Lc 4:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / messianismo socioeconômico" }
+    },
+    {
+      "id": "prophecy:lucas-daniel-7-13-14",
+      "kind": "prophecy",
+      "label": "Daniel 7:13-14",
+      "aliases": [],
+      "summary": "O Filho do Homem vindo nas nuvens com poder e grande glória; divergências acadêmicas sobre se a figura é coletiva (o povo dos santos) ou estritamente individual.",
+      "references": ["Lucas 21:27; Lucas 22:69"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Tipologia" }
+    },
+    {
+      "id": "prophecy:lucas-isaias-40-3-5",
+      "kind": "prophecy",
+      "label": "Isaías 40:3-5",
+      "aliases": [],
+      "summary": "João Batista é identificado como a voz que clama no deserto para aplainar os caminhos do Senhor; divergências ocorrem na aplicação escatológica imediata versus eclesiológica.",
+      "references": ["Lucas 3:4-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Oráculo" }
+    },
+    {
+      "id": "prophecy:lucas-isaias-61-1-2",
+      "kind": "prophecy",
+      "label": "Isaías 61:1-2",
+      "aliases": [],
+      "summary": "Jesus lê o rolo em Nazaré e declara cumprida a escritura do Ano Aceitável do Senhor; divergências envolvem se o cumprimento é literal-social ou estritamente espiritual.",
+      "references": ["Lucas 4:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação/Oráculo" }
+    },
+    {
+      "id": "prophecy:lucas-salmo-110-1",
+      "kind": "prophecy",
+      "label": "Salmo 110:1",
+      "aliases": [],
+      "summary": "Jesus questiona os escribas sobre o Cristo ser filho de Davi ao mesmo tempo em que Davi o chama de Senhor; divergências sobre a autoria davídica e a cristologia alta implícita.",
+      "references": ["Lucas 20:42-43"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação/Tipologia" }
+    },
+    {
+      "id": "prophecy:lucas-zacarias-13-7",
+      "kind": "prophecy",
+      "label": "Zacarias 13:7",
+      "aliases": [],
+      "summary": "Ferir o pastor e as ovelhas se dispersarem, aplicado por Jesus à sua paixão iminente; divergências sobre o grau de determinismo profético na narrativa da cruz.",
+      "references": ["Lucas 22:37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Tipologia" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "kind": "prophecy",
+      "label": "Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')",
+      "aliases": [],
+      "summary": "Diverge entre leituras literais de um regresso histórico corpóreo de Elias no fim dos tempos e leituras tipológicas espirituais cumpridas em João Batista.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae",
+      "kind": "prophecy",
+      "label": "Miqueias 7:6 (\"Pois o filho desonra o pai, a filha se levanta contra sua mãe...\")",
+      "aliases": [],
+      "summary": "Jesus utiliza a descrição miqueana da dissolução dos laços familiares para ilustrar a divisão radical provocada pela exigência do Reino de Deus.",
+      "references": ["Mateus 10:35-36; Lucas 12:53"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão escatológica / ética" }
+    },
+    {
+      "id": "prophecy:rute-rute-4-18-22-a-genealogia-de-perez-a-davi",
+      "kind": "prophecy",
+      "label": "Rute 4:18-22 (A Genealogia de Perez a Davi)",
+      "aliases": [],
+      "summary": "A inclusão explícita de Rute, a moabita, na genealogia oficial do Messias registrada no Novo Testamento subverte a pureza racial estrita e sela a promessa davídica.",
+      "references": ["Mateus 1:5; Lucas 3:32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / recepção posterior" }
+    },
+    {
+      "id": "term:charis",
+      "kind": "term",
+      "label": "Charis",
+      "aliases": ["χάρις", "charis"],
+      "summary": "Graça, favor, benevolência ou gratidão; em Paulo, descreve a iniciativa generosa de Deus e também o efeito comunitário dessa iniciativa.",
+      "references": ["Lc 1:30", "Jo 1:14–17", "Ef 2:8–10"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Não é uma substância abstrata armazenada na pessoa. O termo pode nomear o favor recebido, a ação de agradecer e o dom que reorganiza relações.",
+        "translationNote": "‘Graça’ é tradição indispensável, mas precisa ser lida em contraste com mérito, patronagem, dívida e reciprocidade no mundo antigo."
+      }
+    },
+    {
+      "id": "term:mammon",
+      "kind": "term",
+      "label": "Mamom",
+      "aliases": ["מָמוֹנָא", "māmônāʾ"],
+      "summary": "Riqueza, patrimônio ou poder econômico quando tratado como senhor rival da lealdade humana.",
+      "references": ["Mt 6:24", "Lc 16:9–13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mammon"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O termo não é simplesmente sinônimo de dinheiro; em Mt 6:24 e Lc 16:9–13, a linguagem personifica a riqueza como poder que reivindica serviço.",
+        "translationNote": "Traduzir por ‘dinheiro’ torna a frase concreta, mas pode reduzir a crítica à posse individual e apagar a dimensão de senhorio e lealdade."
+      }
+    },
+    {
+      "id": "theme:ano-do-jubileu",
+      "kind": "theme",
+      "label": "Ano do Jubileu",
+      "aliases": [],
+      "summary": "A cada 50 anos, dívidas são perdoadas, escravos libertados e terras retornam às famílias originais",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Lei socioeconômica de restituição",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:fariseus",
+      "kind": "theme",
+      "label": "Fariseus",
+      "aliases": [],
+      "summary": "Rigoristas na observância da Torá oral e escrita, frequentemente em conflito com Jesus devido a questões de pureza ritual, sábado e compaixão pelas classes marginais.",
+      "references": ["Lucas 5:30; Lucas 11:37-54; Lucas 16:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo religioso e socioespiritual do judaísmo do Segundo Templo",
+        "entityType": "Povo/Instituição"
+      }
+    },
+    {
+      "id": "theme:os-doze-apostolos",
+      "kind": "theme",
+      "label": "Os Doze Apóstolos",
+      "aliases": [],
+      "summary": "Discípulos comissionados por Jesus para testemunhar o Reino, enviados em missão e presentes na Última Ceia.",
+      "references": ["Lucas 6:13; Lucas 9:1-2; Lucas 22:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo escolhido por Jesus para a liderança e testemunho",
+        "entityType": "Povo/Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-mulheres-discipulas-maria-madalena-joana-susana:chapter-lucas-23",
+      "from": "people-group:mulheres-discipulas-maria-madalena-joana-susana",
+      "to": "chapter:lucas:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mulheres Discípulas (Maria Madalena, Joana, Susana)” cita explicitamente Lucas 8:1-3; Lucas 23:55-24:10.",
+      "references": ["Lucas 8:1-3; Lucas 23:55-24:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-mulheres-discipulas-maria-madalena-joana-susana:chapter-lucas-24",
+      "from": "people-group:mulheres-discipulas-maria-madalena-joana-susana",
+      "to": "chapter:lucas:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mulheres Discípulas (Maria Madalena, Joana, Susana)” cita explicitamente Lucas 8:1-3; Lucas 23:55-24:10.",
+      "references": ["Lucas 8:1-3; Lucas 23:55-24:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-mulheres-discipulas-maria-madalena-joana-susana:chapter-lucas-8",
+      "from": "people-group:mulheres-discipulas-maria-madalena-joana-susana",
+      "to": "chapter:lucas:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mulheres Discípulas (Maria Madalena, Joana, Susana)” cita explicitamente Lucas 8:1-3; Lucas 23:55-24:10.",
+      "references": ["Lucas 8:1-3; Lucas 23:55-24:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-samaritanos:chapter-lucas-10",
+      "from": "people-group:samaritanos",
+      "to": "chapter:lucas:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Samaritanos” cita explicitamente Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18.",
+      "references": ["Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-samaritanos:chapter-lucas-17",
+      "from": "people-group:samaritanos",
+      "to": "chapter:lucas:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Samaritanos” cita explicitamente Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18.",
+      "references": ["Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-samaritanos:chapter-lucas-9",
+      "from": "people-group:samaritanos",
+      "to": "chapter:lucas:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Samaritanos” cita explicitamente Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18.",
+      "references": ["Lucas 9:52-56; Lucas 10:33; Lucas 17:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-herodes-o-grande:chapter-lucas-1",
+      "from": "person:herodes-o-grande",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Herodes o Grande” cita explicitamente **Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*.",
+      "references": [
+        "**Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-lucas-1",
+      "from": "person:jesus-cristo",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27.",
+      "references": ["Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-lucas-24",
+      "from": "person:jesus-cristo",
+      "to": "chapter:lucas:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27.",
+      "references": ["Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-lucas-4",
+      "from": "person:jesus-cristo",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27.",
+      "references": ["Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-lucas-1",
+      "from": "person:joao-batista",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28.",
+      "references": ["Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-lucas-3",
+      "from": "person:joao-batista",
+      "to": "chapter:lucas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28.",
+      "references": ["Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-lucas-7",
+      "from": "person:joao-batista",
+      "to": "chapter:lucas:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28.",
+      "references": ["Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lo:chapter-lucas-17",
+      "from": "person:lo",
+      "to": "chapter:lucas:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ló” cita explicitamente Lc 17:28–32.",
+      "references": ["Lc 17:28–32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-maria-mae-de-jesus:chapter-lucas-1",
+      "from": "person:maria-mae-de-jesus",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Maria, Mãe de Jesus” cita explicitamente Lucas 1:28-38; Lucas 1:46-55; Lucas 2:19.",
+      "references": ["Lucas 1:28-38; Lucas 1:46-55; Lucas 2:19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-maria-mae-de-jesus:chapter-lucas-2",
+      "from": "person:maria-mae-de-jesus",
+      "to": "chapter:lucas:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Maria, Mãe de Jesus” cita explicitamente Lucas 1:28-38; Lucas 1:46-55; Lucas 2:19.",
+      "references": ["Lucas 1:28-38; Lucas 1:46-55; Lucas 2:19"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-poncio-pilatos:chapter-lucas-23",
+      "from": "person:poncio-pilatos",
+      "to": "chapter:lucas:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pôncio Pilatos” cita explicitamente Lucas 23:13-15; Lucas 23:22-24.",
+      "references": ["Lucas 23:13-15; Lucas 23:22-24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-teofilo:chapter-lucas-1",
+      "from": "person:teofilo",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Teófilo” cita explicitamente Lucas 1:3-4; Atos 1:1.",
+      "references": ["Lucas 1:3-4; Atos 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zaqueu:chapter-lucas-19",
+      "from": "person:zaqueu",
+      "to": "chapter:lucas:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zaqueu” cita explicitamente Lucas 19:1-10.",
+      "references": ["Lucas 19:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-emaus:chapter-lucas-24",
+      "from": "place:emaus",
+      "to": "chapter:lucas:24",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Emaús” cita explicitamente Lucas 24:13.",
+      "references": ["Lucas 24:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-galileia:chapter-lucas-23",
+      "from": "place:galileia",
+      "to": "chapter:lucas:23",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Galileia” cita explicitamente Lucas 4:14; Lucas 8:26; Lucas 23:55.",
+      "references": ["Lucas 4:14; Lucas 8:26; Lucas 23:55"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-galileia:chapter-lucas-4",
+      "from": "place:galileia",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Galileia” cita explicitamente Lucas 4:14; Lucas 8:26; Lucas 23:55.",
+      "references": ["Lucas 4:14; Lucas 8:26; Lucas 23:55"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-galileia:chapter-lucas-8",
+      "from": "place:galileia",
+      "to": "chapter:lucas:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Galileia” cita explicitamente Lucas 4:14; Lucas 8:26; Lucas 23:55.",
+      "references": ["Lucas 4:14; Lucas 8:26; Lucas 23:55"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-lucas-2",
+      "from": "place:jerusalem",
+      "to": "chapter:lucas:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Lucas 2:22; Lucas 9:51; Lucas 24:52.",
+      "references": ["Lucas 2:22; Lucas 9:51; Lucas 24:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-lucas-24",
+      "from": "place:jerusalem",
+      "to": "chapter:lucas:24",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Lucas 2:22; Lucas 9:51; Lucas 24:52.",
+      "references": ["Lucas 2:22; Lucas 9:51; Lucas 24:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-lucas-9",
+      "from": "place:jerusalem",
+      "to": "chapter:lucas:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente Lucas 2:22; Lucas 9:51; Lucas 24:52.",
+      "references": ["Lucas 2:22; Lucas 9:51; Lucas 24:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-lucas-1",
+      "from": "place:nazare",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Lucas 1:26; Lucas 2:39; Lucas 4:16.",
+      "references": ["Lucas 1:26; Lucas 2:39; Lucas 4:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-lucas-2",
+      "from": "place:nazare",
+      "to": "chapter:lucas:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Lucas 1:26; Lucas 2:39; Lucas 4:16.",
+      "references": ["Lucas 1:26; Lucas 2:39; Lucas 4:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nazare:chapter-lucas-4",
+      "from": "place:nazare",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nazaré” cita explicitamente Lucas 1:26; Lucas 2:39; Lucas 4:16.",
+      "references": ["Lucas 1:26; Lucas 2:39; Lucas 4:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-lucas-10",
+      "from": "place:samaria",
+      "to": "chapter:lucas:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Lucas 9:52; Lucas 10:33; Lucas 17:11.",
+      "references": ["Lucas 9:52; Lucas 10:33; Lucas 17:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-lucas-17",
+      "from": "place:samaria",
+      "to": "chapter:lucas:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Lucas 9:52; Lucas 10:33; Lucas 17:11.",
+      "references": ["Lucas 9:52; Lucas 10:33; Lucas 17:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-lucas-9",
+      "from": "place:samaria",
+      "to": "chapter:lucas:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Lucas 9:52; Lucas 10:33; Lucas 17:11.",
+      "references": ["Lucas 9:52; Lucas 10:33; Lucas 17:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sodoma-e-vale-do-jordao:chapter-lucas-17",
+      "from": "place:sodoma-e-vale-do-jordao",
+      "to": "chapter:lucas:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sodoma e vale do Jordão” cita explicitamente Lc 17:28–30.",
+      "references": ["Lc 17:28–30"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino:chapter-lucas-1",
+      "from": "prophecy:1-cronicas-1-cr-17-11-14-quando-os-teus-dias-forem-completos-levantarei-a-tua-semente-depois-de-ti-e-confirmarei-o-seu-reino",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 17:11-14 — \"Quando os teus dias forem completos... levantarei a tua semente depois de ti... e confirmarei o seu reino\"” cita explicitamente 2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33.",
+      "references": ["2 Sm 7:12-16; Sl 89:3-4; Lc 1:32-33"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-samuel-1sm-2-10-yhwh-julgara-os-confins-da-terra-dara-forca-ao-seu-rei-e-exaltara-o-poder-do-seu-ungido:chapter-lucas-1",
+      "from": "prophecy:1-samuel-1sm-2-10-yhwh-julgara-os-confins-da-terra-dara-forca-ao-seu-rei-e-exaltara-o-poder-do-seu-ungido",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1Sm 2:10 (\"Yhwh julgará os confins da terra; dará força ao seu rei e exaltará o poder do seu ungido\")” cita explicitamente Salmos 2; Lucas 1:46-55.",
+      "references": ["Salmos 2; Lucas 1:46-55"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo:chapter-lucas-10",
+      "from": "prophecy:3-joao-acolhimento-aos-mensageiros-e-recepcao-de-cristo",
+      "to": "chapter:lucas:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acolhimento aos mensageiros e recepção de Cristo” cita explicitamente Mateus 10:40-42; Lucas 10:16.",
+      "references": ["Mateus 10:40-42; Lucas 10:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo:chapter-lucas-3",
+      "from": "prophecy:ageu-ageu-2-23-naquele-dia-tomar-te-ei-o-zorobabel-e-te-farei-como-anel-de-selo",
+      "to": "chapter:lucas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:23 — \"Naquele dia... tomar-te-ei, ó Zorobabel... e te farei como anel de selo\"” cita explicitamente Mateus 1:12-13; Lucas 3:27.",
+      "references": ["Mateus 1:12-13; Lucas 3:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas:chapter-lucas-6",
+      "from": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "to": "chapter:lucas:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 11:1 (\"Lança o teu pão sobre as águas...\")” cita explicitamente Pv 19:17; Lc 6:38; 2 Co 9:6.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-61-1-2-o-espirito-do-senhor-deus-esta-sobre-mim:chapter-lucas-4",
+      "from": "prophecy:isaias-isaias-61-1-2-o-espirito-do-senhor-deus-esta-sobre-mim",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 61:1-2 — \"O Espírito do Senhor Deus está sobre mim...\"” cita explicitamente Lucas 4:18-19.",
+      "references": ["Lucas 4:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-31-31-34-eis-que-dias-vem-em-que-farei-uma-nova-alianca:chapter-lucas-22",
+      "from": "prophecy:jeremias-jer-31-31-34-eis-que-dias-vem-em-que-farei-uma-nova-alianca",
+      "to": "chapter:lucas:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 31:31-34 (\"Eis que dias vêm... em que farei uma nova aliança\")” cita explicitamente Heb 8:8-12; 10:16-17; Lc 22:20.",
+      "references": ["Heb 8:8-12; 10:16-17; Lc 22:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome:chapter-lucas-19",
+      "from": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "to": "chapter:lucas:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")” cita explicitamente Mt 21:13; Mc 11:17; Lc 19:46.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas:chapter-lucas-11",
+      "from": "prophecy:jonas-mateus-12-38-41-lucas-11-29-32-o-sinal-de-jonas",
+      "to": "chapter:lucas:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Mateus 12:38-41 / Lucas 11:29-32 (O \"Sinal de Jonas\")” cita explicitamente Mateus 16:4; Lucas 11:30.",
+      "references": ["Mateus 16:4; Lucas 11:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5:chapter-lucas-1",
+      "from": "prophecy:juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que tu conceberás e darás à luz um filho... nazireu\" (13:5)” cita explicitamente Juízes 13:3-7; Lucas 1.",
+      "references": ["Juízes 13:3-7; Lucas 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10:chapter-lucas-4",
+      "from": "prophecy:levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"E santificareis o ano quinquagésimo... ano de jubileu\" (Lv 25:10)” cita explicitamente Is 61:1-2; Lc 4:18-19.",
+      "references": ["Is 61:1-2; Lc 4:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-daniel-7-13-14:chapter-lucas-21",
+      "from": "prophecy:lucas-daniel-7-13-14",
+      "to": "chapter:lucas:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:13-14” cita explicitamente Lucas 21:27; Lucas 22:69.",
+      "references": ["Lucas 21:27; Lucas 22:69"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-daniel-7-13-14:chapter-lucas-22",
+      "from": "prophecy:lucas-daniel-7-13-14",
+      "to": "chapter:lucas:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:13-14” cita explicitamente Lucas 21:27; Lucas 22:69.",
+      "references": ["Lucas 21:27; Lucas 22:69"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-isaias-40-3-5:chapter-lucas-3",
+      "from": "prophecy:lucas-isaias-40-3-5",
+      "to": "chapter:lucas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 40:3-5” cita explicitamente Lucas 3:4-6.",
+      "references": ["Lucas 3:4-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-isaias-61-1-2:chapter-lucas-4",
+      "from": "prophecy:lucas-isaias-61-1-2",
+      "to": "chapter:lucas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 61:1-2” cita explicitamente Lucas 4:18-19.",
+      "references": ["Lucas 4:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-salmo-110-1:chapter-lucas-20",
+      "from": "prophecy:lucas-salmo-110-1",
+      "to": "chapter:lucas:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 110:1” cita explicitamente Lucas 20:42-43.",
+      "references": ["Lucas 20:42-43"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-lucas-zacarias-13-7:chapter-lucas-22",
+      "from": "prophecy:lucas-zacarias-13-7",
+      "to": "chapter:lucas:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 13:7” cita explicitamente Lucas 22:37.",
+      "references": ["Lucas 22:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias:chapter-lucas-1",
+      "from": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "to": "chapter:lucas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')” cita explicitamente Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae:chapter-lucas-12",
+      "from": "prophecy:miqueias-miqueias-7-6-pois-o-filho-desonra-o-pai-a-filha-se-levanta-contra-sua-mae",
+      "to": "chapter:lucas:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 7:6 (\"Pois o filho desonra o pai, a filha se levanta contra sua mãe...\")” cita explicitamente Mateus 10:35-36; Lucas 12:53.",
+      "references": ["Mateus 10:35-36; Lucas 12:53"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-4-18-22-a-genealogia-de-perez-a-davi:chapter-lucas-3",
+      "from": "prophecy:rute-rute-4-18-22-a-genealogia-de-perez-a-davi",
+      "to": "chapter:lucas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 4:18-22 (A Genealogia de Perez a Davi)” cita explicitamente Mateus 1:5; Lucas 3:32.",
+      "references": ["Mateus 1:5; Lucas 3:32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-1:doctrine-cristo",
+      "from": "chapter:lucas:1",
+      "to": "doctrine:cristo",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Jesus Cristo: encarnação, cruz e ressurreição” cita explicitamente Lc 1:26–38; 1Co 15:3–8; Hb 7:25.",
+      "references": ["Lc 1:26–38; 1Co 15:3–8; Hb 7:25"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-11:theme-fariseus",
+      "from": "chapter:lucas:11",
+      "to": "theme:fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Fariseus” cita explicitamente Lucas 5:30; Lucas 11:37-54; Lucas 16:14.",
+      "references": ["Lucas 5:30; Lucas 11:37-54; Lucas 16:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-16:theme-fariseus",
+      "from": "chapter:lucas:16",
+      "to": "theme:fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Fariseus” cita explicitamente Lucas 5:30; Lucas 11:37-54; Lucas 16:14.",
+      "references": ["Lucas 5:30; Lucas 11:37-54; Lucas 16:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-22:theme-os-doze-apostolos",
+      "from": "chapter:lucas:22",
+      "to": "theme:os-doze-apostolos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze Apóstolos” cita explicitamente Lucas 6:13; Lucas 9:1-2; Lucas 22:14.",
+      "references": ["Lucas 6:13; Lucas 9:1-2; Lucas 22:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-4:theme-ano-do-jubileu",
+      "from": "chapter:lucas:4",
+      "to": "theme:ano-do-jubileu",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Ano do Jubileu” cita explicitamente Lv 25; Is 61; Lc 4.",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-5:theme-fariseus",
+      "from": "chapter:lucas:5",
+      "to": "theme:fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Fariseus” cita explicitamente Lucas 5:30; Lucas 11:37-54; Lucas 16:14.",
+      "references": ["Lucas 5:30; Lucas 11:37-54; Lucas 16:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-6:theme-os-doze-apostolos",
+      "from": "chapter:lucas:6",
+      "to": "theme:os-doze-apostolos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze Apóstolos” cita explicitamente Lucas 6:13; Lucas 9:1-2; Lucas 22:14.",
+      "references": ["Lucas 6:13; Lucas 9:1-2; Lucas 22:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-lucas-9:theme-os-doze-apostolos",
+      "from": "chapter:lucas:9",
+      "to": "theme:os-doze-apostolos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze Apóstolos” cita explicitamente Lucas 6:13; Lucas 9:1-2; Lucas 22:14.",
+      "references": ["Lucas 6:13; Lucas 9:1-2; Lucas 22:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-lucas-1:term-charis",
+      "from": "chapter:lucas:1",
+      "to": "term:charis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charis” cita explicitamente Lc 1:30.",
+      "references": ["Lc 1:30"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-lucas-16:term-mammon",
+      "from": "chapter:lucas:16",
+      "to": "term:mammon",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Mamom” cita explicitamente Lc 16:9–13.",
+      "references": ["Lc 16:9–13"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

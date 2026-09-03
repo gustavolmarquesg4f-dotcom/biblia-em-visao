@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "canonical-connection",
   "part": 1,
-  "count": 321,
+  "count": 322,
   "relations": [
     {
       "id": "relation:canonical-connection:book-1-corintios:book-1-tessalonicenses",
@@ -3553,6 +3553,17 @@
       "explanation": "Uso extensivo de citações e motivos de Zacarias (o rei no jumento, os 30 siclos de prata, o pastor ferido) para narrar a Paixão de Cristo.",
       "references": ["Mateus 21:5, 26:15, 26:31"],
       "sourceCatalog": "relational-books-catalog",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-daniel-3:apocryphal-work-greek-additions",
+      "from": "chapter:daniel:3",
+      "to": "apocryphal-work:greek-additions",
+      "type": "canonical-connection",
+      "label": "conexão histórica e literária",
+      "explanation": "O verbete “Acréscimos gregos a Ester e Daniel” cita explicitamente Est grego · Dn 3; 13–14 · Septuaginta.",
+      "references": ["Est grego · Dn 3; 13–14 · Septuaginta"],
+      "sourceCatalog": "explicit-reference:apocrypha",
       "confidence": "contextual"
     }
   ]

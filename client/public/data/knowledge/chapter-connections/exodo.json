@@ -1,0 +1,878 @@
+{
+  "schemaVersion": 1,
+  "book": "Êxodo",
+  "count": 46,
+  "chapterCount": 25,
+  "nodes": [
+    {
+      "id": "people-group:egipcios",
+      "kind": "people-group",
+      "label": "Egípcios",
+      "aliases": [],
+      "summary": "Civilização faraônica derrotada nos juízos divinos das pragas e na destruição militar no mar.",
+      "references": ["Êxodo 12:33; 14:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Império opressor e sociedade dominante",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "people-group:povo-de-israel",
+      "kind": "people-group",
+      "label": "Povo de Israel",
+      "aliases": [],
+      "summary": "Coletividade escravizada que passa pela transição de força de trabalho egípcia a nação santa de sacerdotes.",
+      "references": ["Êxodo 1:7; 19:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade eleita e oprimida",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:arao",
+      "kind": "person",
+      "label": "Arão",
+      "aliases": ["Arão (אַהֲרֹן)"],
+      "summary": "Arão é o irmão mais velho de Moisés e o primeiro sumo sacerdote de Israel. Convocado por Deus para atuar como o porta-voz (profeta) de Moisés perante Faraó devido à alegada \"pesadez de boca\" de seu irmão, Arão desempenha um papel ambivalente nas narrativas do deserto: de um lado, é ungido e consagrado pelo próprio YHWH para o ministério litúrgico; de outro, cede à pressão popular durante a ausência de Moisés no monte Sinai, confeccionando e promovendo a adoração ao Bezerro de Ouro.",
+      "references": [
+        "Êxodo 4:14-16; 32:1-6",
+        "Êx 28; Lv 8-10; Nm 16",
+        "Números 17; Números 20:22-29"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-arao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sumo Sacerdote de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:bezalel",
+      "kind": "person",
+      "label": "Bezalel",
+      "aliases": [],
+      "summary": "Homem da tribo de Judá cheio do Espírito de Deus para executar a obra artística e artesanal do santuário.",
+      "references": ["Êxodo 31:1-5; 35:30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Artífice principal do Tabernáculo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:farao",
+      "kind": "person",
+      "label": "Faraó",
+      "aliases": [],
+      "summary": "Monarca egípcio cujo coração endurecido simboliza a resistência do poder político hegemônico frente ao Deus de Israel.",
+      "references": ["Êxodo 1:8-11; 14:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opressor imperial e antagonista teológico",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jetro",
+      "kind": "person",
+      "label": "Jetro",
+      "aliases": [],
+      "summary": "Sogro de Moisés, figura externa que valida a liderança de Moisés e introduz um sistema de jurisdição descentralizada.",
+      "references": ["Êxodo 3:1; 18:13-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sacerdote de Midiã e conselheiro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josue",
+      "kind": "person",
+      "label": "Josué",
+      "aliases": ["Josué (יְהוֹשuַע)"],
+      "summary": "Josué (originalmente Oseias, filho de Num), da tribo de Efraim, é o fiel assistente e sucessor militar de Moisés. Ele comanda o exército de Israel na primeira batalha contra os amalequitas em Refidim, espiona a terra de Canaã com Calebe, e é formalmente comissionado como líder de Israel para realizar a conquista e a partilha da Terra Prometida. Sob sua liderança, as muralhas de Jericó desabam e a terra é conquistada em campanhas estratégicas, culminando na renovação da aliança em Siquém.",
+      "references": ["Êxodo 17:9-13; 24:13", "Josué 1:1; 24:29"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-josue-u"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sucessor de Moisés, líder militar e político de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:miria",
+      "kind": "person",
+      "label": "Miriã",
+      "aliases": ["Miriã (מִרְיָם)"],
+      "summary": "Miriã é a irmã mais velha de Moisés e Arão, identificada na tradição judaica posterior como a jovem corajosa que vigiou o cesto de Moisés nas margens do Nilo. Ela desempenha o papel de profetisa e líder cultual, liderando as mulheres de Israel em cânticos de louvor e dança com adufes após o milagre da travessia do Mar Vermelho (Êxodo 15). Posteriormente, é punida com lepra temporária por criticar a liderança de Moisés e seu casamento cusita, sendo curada após a intercessão de Moisés.",
+      "references": ["Êxodo 15:20-21"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-miria"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profetisa e líder musical",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:moises",
+      "kind": "person",
+      "label": "Moisés",
+      "aliases": ["Moisés (מֹשֶׁה)"],
+      "summary": "Moisés é o personagem central do Pentateuco (Torá), cuja trajetória abrange desde seu nascimento sob o decreto de infanticídio do Faraó, seu salvamento nas águas do Nilo pela filha do Faraó, sua criação na corte egípcia, seu exílio na terra de Midiã após matar um capataz egípcio, o chamado divino na sarça ardente, até o retorno ao Egito para liderar as dez pragas e o êxodo. Ele é retratado simultaneamente como legislador, profeta supremo, libertador e intercessor singular, cujo rosto brilhava após falar com YHWH no Monte Sinai.",
+      "references": [
+        "Êxodo 2:1-4:31; 33:12-23",
+        "Êx 19; Lv 1:1; Nm 1",
+        "Êxodo 2 – Deuteronômio 34; Números 12:3",
+        "Deut 1:1; 33:1; 34:5",
+        "Hb 3:2-5; 8:5; 11:24-28"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-moises"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Servo fiel na casa de Deus",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:deserto-de-sim-refidim",
+      "kind": "place",
+      "label": "Deserto de Sim / Refidim",
+      "aliases": [],
+      "summary": "Estágios da jornada no deserto marcados por escassez de água, testes de fé e conflitos militares.",
+      "references": ["Êxodo 16:1; 17:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:mar-vermelho-yam-suph",
+      "kind": "place",
+      "label": "Mar Vermelho (Yam Suph)",
+      "aliases": [],
+      "summary": "Corpo d'água da travessia milagrosa, cuja localização exata é objeto de debate histórico-geográfico.",
+      "references": ["Êxodo 13:18; 15:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Disputado" }
+    },
+    {
+      "id": "place:monte-horebe-sinai",
+      "kind": "place",
+      "label": "Monte Horebe / Sinai",
+      "aliases": [],
+      "summary": "O monte sagrado da revelação, onde ocorreu a sarça ardente e a outorga da Torá e da Aliança.",
+      "references": ["Êxodo 3:1; 19:11", "Deut 4:10, 15; 5:2; 9:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:o-monte-sinai-horebe",
+      "kind": "place",
+      "label": "O Monte Sinai (Horebe)",
+      "aliases": [],
+      "summary": "Local da revelação da aliança e entrega das leis levíticas",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:tabernaculo",
+      "kind": "place",
+      "label": "Tabernáculo",
+      "aliases": [],
+      "summary": "O santuário portátil móvel que serve como centro de culto e habitação da glória visível de Iavé.",
+      "references": ["Êxodo 33:7; 40:34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Institucional / Simbólico" }
+    },
+    {
+      "id": "place:terra-de-gosem",
+      "kind": "place",
+      "label": "Terra de Gosém",
+      "aliases": [],
+      "summary": "Cenário inicial da prosperidade demográfica e subsequente escravidão dos hebreus no Delta do Nilo.",
+      "references": ["Êxodo 1:5; 8:22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:ester-ester-9-27-28-a-perpetuacao-de-purim",
+      "kind": "prophecy",
+      "label": "Ester 9:27-28 (A perpetuação de Purim)",
+      "aliases": [],
+      "summary": "Estabelece um festival sem mandamento mosaico prévio no Sinai, gerando debates rabínicos antigos sobre a santidade canônica do livro e sua inclusão no cânon (Megillat Esther).",
+      "references": ["Êxodo 13:8-10; 2 Macabeus 15:36"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / instituição ritual" }
+    },
+    {
+      "id": "prophecy:exodo-a-promessa-a-abraao-sobre-a-escravidao-de-400-anos-e-saida-com-grande-riqueza-genesis-15-13-14",
+      "kind": "prophecy",
+      "label": "A promessa a Abraão sobre a escravidão de 400 anos e saída com grande riqueza (Gênesis 15:13-14)",
+      "aliases": [],
+      "summary": "Interpretações variam entre leitura histórica literal da cronologia patriarcal e moldagem teológica posterior exílica.",
+      "references": ["Êxodo 1:7-14; 12:35-36"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Cumprimento" }
+    },
+    {
+      "id": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "kind": "prophecy",
+      "label": "Joel 2:13 (Fórmula da compaixão divina)",
+      "aliases": [],
+      "summary": "Jonas cita de cabeça a clássica confissão da aliança (Deus clemente, compassivo, tardio em irar-se e grande em beneficência) para justificar sua rebeldia, invertendo seu significado positivo em queixa amarga.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Citação teológica" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:1 ('Eis que envio o meu mensageiro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação veterotestamentária imediata e a exegese sinótica que o aplica diretamente a João Batista como precursor do Messias.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "term:emet",
+      "kind": "term",
+      "label": "Emet",
+      "aliases": ["אֱמֶת", "ʾemet"],
+      "summary": "Verdade, firmeza, confiabilidade e fidelidade; não apenas correspondência abstrata entre frase e realidade.",
+      "references": ["Gn 24:27", "Êx 34:6", "Sl 119:160"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["emet"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Em narrativas e salmos pode caracterizar uma pessoa, uma promessa, um testemunho ou a estabilidade da ação de Deus.",
+        "translationNote": "‘Verdade’ é adequada em muitos contextos, mas ‘fidelidade’ pode ser mais precisa quando o foco está no caráter confiável de uma relação."
+      }
+    },
+    {
+      "id": "term:hesed",
+      "kind": "term",
+      "label": "Hesed",
+      "aliases": ["חֶסֶד", "ḥesed"],
+      "summary": "Vocabulário de lealdade relacional, bondade comprometida e ação favorável que sustenta uma relação.",
+      "references": ["Êx 34:6", "Rt 1:8", "Sl 136:1", "Os 6:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["hesed"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Dependendo do contexto pode apontar para misericórdia, lealdade, benevolência, fidelidade ou amor constante. Nenhum equivalente isolado resolve todos os usos.",
+        "translationNote": "Traduzir sempre por ‘misericórdia’ ou sempre por ‘amor’ pode esconder a dimensão de compromisso. A análise deve observar quem age, com quem, em qual relação e com qual consequência narrativa."
+      }
+    },
+    {
+      "id": "term:mishpat",
+      "kind": "term",
+      "label": "Mishpat",
+      "aliases": ["מִשְׁפָּט", "mišpāṭ"],
+      "summary": "Juízo, decisão, direito ou ordem justa que regula relações e protege a vida comunitária.",
+      "references": ["Êx 21:1", "Am 5:24", "Mq 6:8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mishpat"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Pode designar um caso decidido, uma norma, a administração da justiça ou o juízo de Deus sobre uma sociedade.",
+        "translationNote": "‘Justiça’ e ‘juízo’ cobrem partes do campo semântico; o leitor deve perguntar se o texto trata de tribunal, ordem social ou ação divina."
+      }
+    },
+    {
+      "id": "term:qadosh",
+      "kind": "term",
+      "label": "Qadosh",
+      "aliases": ["קָדוֹשׁ", "qādôš"],
+      "summary": "Separado, distinto, consagrado ou pertencente a uma esfera de santidade; a ideia de separação não elimina a dimensão ética.",
+      "references": ["Êx 19:5–6", "Lv 19:1–18", "Is 6:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["qadosh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo percorre a distinção cultual, a alteridade divina e a convocação de uma comunidade a refletir a justiça de Deus.",
+        "translationNote": "‘Santo’ preserva a tradição, mas a interpretação precisa mostrar como o texto transforma santidade em prática comunitária, não apenas em distância ritual."
+      }
+    },
+    {
+      "id": "theme:iave",
+      "kind": "theme",
+      "label": "Iavé",
+      "aliases": [],
+      "summary": "O Deus dos patriarcas cujo nome intransmissível é revelado na sarça ardente, agindo na história para resgatar e habitar com seu povo.",
+      "references": ["Êxodo 3:14; 6:2-3; 20:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus salvador, legislador e libertador",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:tenda-do-encontro-ohel-moed",
+      "kind": "theme",
+      "label": "Tenda do Encontro (Ohel Moed)",
+      "aliases": [],
+      "summary": "O espaço de encontro entre Deus e Israel, centro do culto levítico",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário móvel no deserto",
+        "entityType": "Lugar / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-egipcios:chapter-exodo-12",
+      "from": "people-group:egipcios",
+      "to": "chapter:exodo:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Egípcios” cita explicitamente Êxodo 12:33; 14:30.",
+      "references": ["Êxodo 12:33; 14:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-egipcios:chapter-exodo-14",
+      "from": "people-group:egipcios",
+      "to": "chapter:exodo:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Egípcios” cita explicitamente Êxodo 12:33; 14:30.",
+      "references": ["Êxodo 12:33; 14:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-povo-de-israel:chapter-exodo-1",
+      "from": "people-group:povo-de-israel",
+      "to": "chapter:exodo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Povo de Israel” cita explicitamente Êxodo 1:7; 19:5-6.",
+      "references": ["Êxodo 1:7; 19:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-povo-de-israel:chapter-exodo-19",
+      "from": "people-group:povo-de-israel",
+      "to": "chapter:exodo:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Povo de Israel” cita explicitamente Êxodo 1:7; 19:5-6.",
+      "references": ["Êxodo 1:7; 19:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-exodo-28",
+      "from": "person:arao",
+      "to": "chapter:exodo:28",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êx 28; Lv 8-10; Nm 16.",
+      "references": ["Êx 28; Lv 8-10; Nm 16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-exodo-32",
+      "from": "person:arao",
+      "to": "chapter:exodo:32",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êxodo 4:14-16; 32:1-6.",
+      "references": ["Êxodo 4:14-16; 32:1-6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-exodo-4",
+      "from": "person:arao",
+      "to": "chapter:exodo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êxodo 4:14-16; 32:1-6.",
+      "references": ["Êxodo 4:14-16; 32:1-6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bezalel:chapter-exodo-31",
+      "from": "person:bezalel",
+      "to": "chapter:exodo:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bezalel” cita explicitamente Êxodo 31:1-5; 35:30.",
+      "references": ["Êxodo 31:1-5; 35:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bezalel:chapter-exodo-35",
+      "from": "person:bezalel",
+      "to": "chapter:exodo:35",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bezalel” cita explicitamente Êxodo 31:1-5; 35:30.",
+      "references": ["Êxodo 31:1-5; 35:30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-farao:chapter-exodo-1",
+      "from": "person:farao",
+      "to": "chapter:exodo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Faraó” cita explicitamente Êxodo 1:8-11; 14:28.",
+      "references": ["Êxodo 1:8-11; 14:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-farao:chapter-exodo-14",
+      "from": "person:farao",
+      "to": "chapter:exodo:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Faraó” cita explicitamente Êxodo 1:8-11; 14:28.",
+      "references": ["Êxodo 1:8-11; 14:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jetro:chapter-exodo-18",
+      "from": "person:jetro",
+      "to": "chapter:exodo:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jetro” cita explicitamente Êxodo 3:1; 18:13-26.",
+      "references": ["Êxodo 3:1; 18:13-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jetro:chapter-exodo-3",
+      "from": "person:jetro",
+      "to": "chapter:exodo:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jetro” cita explicitamente Êxodo 3:1; 18:13-26.",
+      "references": ["Êxodo 3:1; 18:13-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue:chapter-exodo-17",
+      "from": "person:josue",
+      "to": "chapter:exodo:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué” cita explicitamente Êxodo 17:9-13; 24:13.",
+      "references": ["Êxodo 17:9-13; 24:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue:chapter-exodo-24",
+      "from": "person:josue",
+      "to": "chapter:exodo:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué” cita explicitamente Êxodo 17:9-13; 24:13.",
+      "references": ["Êxodo 17:9-13; 24:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-miria:chapter-exodo-15",
+      "from": "person:miria",
+      "to": "chapter:exodo:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miriã” cita explicitamente Êxodo 15:20-21.",
+      "references": ["Êxodo 15:20-21"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-exodo-19",
+      "from": "person:moises",
+      "to": "chapter:exodo:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êx 19; Lv 1:1; Nm 1.",
+      "references": ["Êx 19; Lv 1:1; Nm 1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-exodo-2",
+      "from": "person:moises",
+      "to": "chapter:exodo:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2:1-4:31; 33:12-23.",
+      "references": ["Êxodo 2:1-4:31; 33:12-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-exodo-3",
+      "from": "person:moises",
+      "to": "chapter:exodo:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2:1-4:31; 33:12-23.",
+      "references": ["Êxodo 2:1-4:31; 33:12-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-exodo-33",
+      "from": "person:moises",
+      "to": "chapter:exodo:33",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2:1-4:31; 33:12-23.",
+      "references": ["Êxodo 2:1-4:31; 33:12-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-exodo-4",
+      "from": "person:moises",
+      "to": "chapter:exodo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2:1-4:31; 33:12-23.",
+      "references": ["Êxodo 2:1-4:31; 33:12-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-deserto-de-sim-refidim:chapter-exodo-16",
+      "from": "place:deserto-de-sim-refidim",
+      "to": "chapter:exodo:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Deserto de Sim / Refidim” cita explicitamente Êxodo 16:1; 17:1.",
+      "references": ["Êxodo 16:1; 17:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-deserto-de-sim-refidim:chapter-exodo-17",
+      "from": "place:deserto-de-sim-refidim",
+      "to": "chapter:exodo:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Deserto de Sim / Refidim” cita explicitamente Êxodo 16:1; 17:1.",
+      "references": ["Êxodo 16:1; 17:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-mar-vermelho-yam-suph:chapter-exodo-13",
+      "from": "place:mar-vermelho-yam-suph",
+      "to": "chapter:exodo:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Mar Vermelho (Yam Suph)” cita explicitamente Êxodo 13:18; 15:4.",
+      "references": ["Êxodo 13:18; 15:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-mar-vermelho-yam-suph:chapter-exodo-15",
+      "from": "place:mar-vermelho-yam-suph",
+      "to": "chapter:exodo:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Mar Vermelho (Yam Suph)” cita explicitamente Êxodo 13:18; 15:4.",
+      "references": ["Êxodo 13:18; 15:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-horebe-sinai:chapter-exodo-19",
+      "from": "place:monte-horebe-sinai",
+      "to": "chapter:exodo:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Horebe / Sinai” cita explicitamente Êxodo 3:1; 19:11.",
+      "references": ["Êxodo 3:1; 19:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-horebe-sinai:chapter-exodo-3",
+      "from": "place:monte-horebe-sinai",
+      "to": "chapter:exodo:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Horebe / Sinai” cita explicitamente Êxodo 3:1; 19:11.",
+      "references": ["Êxodo 3:1; 19:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-sinai-horebe:chapter-exodo-19",
+      "from": "place:o-monte-sinai-horebe",
+      "to": "chapter:exodo:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sinai (Horebe)” cita explicitamente Êx 19; Lv 25:1; Ne 9:13.",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tabernaculo:chapter-exodo-33",
+      "from": "place:tabernaculo",
+      "to": "chapter:exodo:33",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tabernáculo” cita explicitamente Êxodo 33:7; 40:34.",
+      "references": ["Êxodo 33:7; 40:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tabernaculo:chapter-exodo-40",
+      "from": "place:tabernaculo",
+      "to": "chapter:exodo:40",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tabernáculo” cita explicitamente Êxodo 33:7; 40:34.",
+      "references": ["Êxodo 33:7; 40:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-gosem:chapter-exodo-1",
+      "from": "place:terra-de-gosem",
+      "to": "chapter:exodo:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Gosém” cita explicitamente Êxodo 1:5; 8:22.",
+      "references": ["Êxodo 1:5; 8:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-gosem:chapter-exodo-8",
+      "from": "place:terra-de-gosem",
+      "to": "chapter:exodo:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Gosém” cita explicitamente Êxodo 1:5; 8:22.",
+      "references": ["Êxodo 1:5; 8:22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ester-ester-9-27-28-a-perpetuacao-de-purim:chapter-exodo-13",
+      "from": "prophecy:ester-ester-9-27-28-a-perpetuacao-de-purim",
+      "to": "chapter:exodo:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ester 9:27-28 (A perpetuação de Purim)” cita explicitamente Êxodo 13:8-10; 2 Macabeus 15:36.",
+      "references": ["Êxodo 13:8-10; 2 Macabeus 15:36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ester-ester-9-27-28-a-perpetuacao-de-purim:chapter-exodo-2",
+      "from": "prophecy:ester-ester-9-27-28-a-perpetuacao-de-purim",
+      "to": "chapter:exodo:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ester 9:27-28 (A perpetuação de Purim)” cita explicitamente Êxodo 13:8-10; 2 Macabeus 15:36.",
+      "references": ["Êxodo 13:8-10; 2 Macabeus 15:36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-a-promessa-a-abraao-sobre-a-escravidao-de-400-anos-e-saida-com-grande-riqueza-genesis-15-13-14:chapter-exodo-1",
+      "from": "prophecy:exodo-a-promessa-a-abraao-sobre-a-escravidao-de-400-anos-e-saida-com-grande-riqueza-genesis-15-13-14",
+      "to": "chapter:exodo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa a Abraão sobre a escravidão de 400 anos e saída com grande riqueza (Gênesis 15:13-14)” cita explicitamente Êxodo 1:7-14; 12:35-36.",
+      "references": ["Êxodo 1:7-14; 12:35-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-a-promessa-a-abraao-sobre-a-escravidao-de-400-anos-e-saida-com-grande-riqueza-genesis-15-13-14:chapter-exodo-12",
+      "from": "prophecy:exodo-a-promessa-a-abraao-sobre-a-escravidao-de-400-anos-e-saida-com-grande-riqueza-genesis-15-13-14",
+      "to": "chapter:exodo:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa a Abraão sobre a escravidão de 400 anos e saída com grande riqueza (Gênesis 15:13-14)” cita explicitamente Êxodo 1:7-14; 12:35-36.",
+      "references": ["Êxodo 1:7-14; 12:35-36"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-joel-2-13-formula-da-compaixao-divina:chapter-exodo-34",
+      "from": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "to": "chapter:exodo:34",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 2:13 (Fórmula da compaixão divina)” cita explicitamente Êxodo 34:6-7; Neemias 9:17; Jonas 4:2.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro:chapter-exodo-23",
+      "from": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "to": "chapter:exodo:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:1 ('Eis que envio o meu mensageiro...')” cita explicitamente Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-exodo-20:theme-iave",
+      "from": "chapter:exodo:20",
+      "to": "theme:iave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iavé” cita explicitamente Êxodo 3:14; 6:2-3; 20:2.",
+      "references": ["Êxodo 3:14; 6:2-3; 20:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-exodo-3:theme-iave",
+      "from": "chapter:exodo:3",
+      "to": "theme:iave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iavé” cita explicitamente Êxodo 3:14; 6:2-3; 20:2.",
+      "references": ["Êxodo 3:14; 6:2-3; 20:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-exodo-33:theme-tenda-do-encontro-ohel-moed",
+      "from": "chapter:exodo:33",
+      "to": "theme:tenda-do-encontro-ohel-moed",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tenda do Encontro (Ohel Moed)” cita explicitamente Êx 33; Lv 1:1; Hb 8.",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-exodo-6:theme-iave",
+      "from": "chapter:exodo:6",
+      "to": "theme:iave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iavé” cita explicitamente Êxodo 3:14; 6:2-3; 20:2.",
+      "references": ["Êxodo 3:14; 6:2-3; 20:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-exodo-19:term-qadosh",
+      "from": "chapter:exodo:19",
+      "to": "term:qadosh",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Qadosh” cita explicitamente Êx 19:5–6.",
+      "references": ["Êx 19:5–6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-exodo-21:term-mishpat",
+      "from": "chapter:exodo:21",
+      "to": "term:mishpat",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Mishpat” cita explicitamente Êx 21:1.",
+      "references": ["Êx 21:1"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-exodo-34:term-emet",
+      "from": "chapter:exodo:34",
+      "to": "term:emet",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Emet” cita explicitamente Êx 34:6.",
+      "references": ["Êx 34:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-exodo-34:term-hesed",
+      "from": "chapter:exodo:34",
+      "to": "term:hesed",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Hesed” cita explicitamente Êx 34:6.",
+      "references": ["Êx 34:6"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

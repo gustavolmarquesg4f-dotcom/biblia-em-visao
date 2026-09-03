@@ -1,0 +1,886 @@
+{
+  "schemaVersion": 1,
+  "book": "Juízes",
+  "count": 45,
+  "chapterCount": 17,
+  "nodes": [
+    {
+      "id": "event:juizes-a-batalha-do-monte-tabor-e-a-derrota-de-sisera",
+      "kind": "event",
+      "label": "A Batalha do Monte Tabor e a Derrota de Sísera",
+      "aliases": [],
+      "summary": "Baraque mobiliza tropas contra Sísera, cujo exército é desbaratado pelo ribom Quisom.",
+      "references": ["Juízes 4:1-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Destruição do poderio cananeu; morte de Sísera pelas mãos de Jael.",
+        "entities": "Débora; Baraque; Sísera; Jael"
+      }
+    },
+    {
+      "id": "event:juizes-a-campanha-de-gideao-contra-os-midianitas",
+      "kind": "event",
+      "label": "A Campanha de Gideão contra os Midianitas",
+      "aliases": [],
+      "summary": "Gideão ataca acampamento midianita com 300 homens, gerando pânico e fuga.",
+      "references": ["Juízes 7:1–8:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Colapso da coalizão midianita, libertando a economia agrícola de Israel.",
+        "entities": "Gideão; Yahweh; Midianitas"
+      }
+    },
+    {
+      "id": "event:juizes-a-guerra-civil-contra-a-tribo-de-benjamim",
+      "kind": "event",
+      "label": "A Guerra Civil contra a Tribo de Benjamim",
+      "aliases": [],
+      "summary": "Ultraje à concubina do levita desencadeia guerra quase extintiva contra Benjamim.",
+      "references": ["Juízes 19:1–21:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Revela o ponto mais baixo da anarquia moral, justificando a necessidade monárquica.",
+        "entities": "Levita de Efraim; Concubina; Benjaminitas"
+      }
+    },
+    {
+      "id": "event:juizes-a-opressao-moabita-e-o-assassinato-de-eglom",
+      "kind": "event",
+      "label": "A Opressão Moabita e o Assassinato de Eglom",
+      "aliases": [],
+      "summary": "Eglom subjuga Israel por 18 anos; Eúde o assassina com adaga e lidera insurreição.",
+      "references": ["Juízes 3:12-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Quebra o jugo moabita e assegura paz relativa, demonstrando a soberania divina.",
+        "entities": "Eúde; Eglom; Yahweh"
+      }
+    },
+    {
+      "id": "event:juizes-a-queda-do-templo-de-dagom-e-a-morte-de-sansao",
+      "kind": "event",
+      "label": "A Queda do Templo de Dagom e a Morte de Sansão",
+      "aliases": [],
+      "summary": "Sansão invoca força divina e derruba colunas do templo em Gaza.",
+      "references": ["Juízes 16:23-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Fim trágico do último juiz listado, deixando Israel vulnerável antes de Samuel.",
+        "entities": "Sansão; Filisteus; Dagom"
+      }
+    },
+    {
+      "id": "event:juizes-a-revolta-e-morte-de-abimeleque-em-siquem",
+      "kind": "event",
+      "label": "A Revolta e Morte de Abimeleque em Siquém",
+      "aliases": [],
+      "summary": "Abimeleque coroa-se rei, enfrenta revolta, destrói Siquém e morre atingido por pedra.",
+      "references": ["Juízes 9:1-57"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Vingança divina pelo sangue dos irmãos, demonstrando a instabilidade de tiranias.",
+        "entities": "Abimeleque; Jotão; Gaal"
+      }
+    },
+    {
+      "id": "event:juizes-o-sacrificio-e-conflito-de-jefte-com-efraim",
+      "kind": "event",
+      "label": "O Sacrifício e Conflito de Jefté com Efraim",
+      "aliases": [],
+      "summary": "Jefté faz voto imprudente e reprime severamente a tribo de Efraim no Jordão.",
+      "references": ["Juízes 11:29–12:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consolidação da liderança em Gileade ao custo de profunda fratura fratricida.",
+        "entities": "Jefté; Filha de Jefté; Efraimitas"
+      }
+    },
+    {
+      "id": "people-group:filisteus",
+      "kind": "people-group",
+      "label": "Filisteus",
+      "aliases": [],
+      "summary": "Coalizão egeia/anatólia que dominava a costa palestina e impunha severa pressão hegemônica sobre as tribos israelitas",
+      "references": ["Juízes 14:1–16:31", "1Sm 4-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Principal potência militar rival de Israel",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "place:gaza",
+      "kind": "place",
+      "label": "Gaza",
+      "aliases": [],
+      "summary": "Principal cidade-estado filisteia, cenário da destruição final do templo de Dagom.",
+      "references": ["Juízes 16:1-31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Militar" }
+    },
+    {
+      "id": "place:gibea",
+      "kind": "place",
+      "label": "Gibeá",
+      "aliases": [],
+      "summary": "Cidade benjaminita associada ao crime contra a concubina do levita.",
+      "references": ["Juízes 19:12-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:mizpa",
+      "kind": "place",
+      "label": "Mizpá",
+      "aliases": [],
+      "summary": "Centro de reuniões pan-israelitas para deliberação nacional e assembleias.",
+      "references": ["Juízes 20:1; 21:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:monte-tabor",
+      "kind": "place",
+      "label": "Monte Tabor",
+      "aliases": [],
+      "summary": "Ponto de rali tático para reunir tropas contra as carruagens de Sísera.",
+      "references": ["Juízes 4:6-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Militar" }
+    },
+    {
+      "id": "place:ofra",
+      "kind": "place",
+      "label": "Ofra",
+      "aliases": [],
+      "summary": "Cidade natal de Gideão, onde ergueu altar e efod idolátrico.",
+      "references": ["Juízes 6:11; 8:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:silo",
+      "kind": "place",
+      "label": "Siló",
+      "aliases": [],
+      "summary": "Antigo centro religioso e abriga a Arca e o tabernáculo antes de sua destruição",
+      "references": ["Josué 18:1; 19:51", "Juízes 21:19", "1Sm 1-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:siquem",
+      "kind": "place",
+      "label": "Siquém",
+      "aliases": [],
+      "summary": "Antigo centro pactual transformado em palco de corrupção com Abimeleque.",
+      "references": [
+        "Juízes 9:1-49",
+        "Gn 12:6–7",
+        "Gn 33:18–34:31",
+        "Gn 37:12–14"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["shechem"],
+      "attributes": { "status": "geográfico", "x": 50, "y": 41 }
+    },
+    {
+      "id": "prophecy:juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20",
+      "kind": "prophecy",
+      "label": "A Parábola de Jotão e a Maldição de Siquém (9:7-20)",
+      "aliases": [],
+      "summary": "Divergência exegética: Fábula política que profetiza a autodestruição mútua entre Abimeleque e Siquém.",
+      "references": ["Juízes 9:7-20; 2 Samuel 12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Oráculo poético" }
+    },
+    {
+      "id": "prophecy:juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5",
+      "kind": "prophecy",
+      "label": "\"Eis que tu conceberás e darás à luz um filho... nazireu\" (13:5)",
+      "aliases": [],
+      "summary": "Divergência exegética: Paralelo tipológico com Samuel e João Batista, debatido entre literalismo e tipologia.",
+      "references": ["Juízes 13:3-7; Lucas 1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Anúncio Divino" }
+    },
+    {
+      "id": "prophecy:juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2",
+      "kind": "prophecy",
+      "label": "\"Não fareis aliança com os moradores desta terra... mas não ouvistes a minha voz\" (2:2)",
+      "aliases": [],
+      "summary": "Divergência exegética: Visto como chave retroativa deuteronomista ou recurso retórico exílico.",
+      "references": ["Juízes 2:1-3; Josué 23:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Advertência" }
+    },
+    {
+      "id": "prophecy:juizes-porventura-nao-te-ordenou-yahweh-contra-sisera-4-6",
+      "kind": "prophecy",
+      "label": "\"Porventura não te ordenou Yahweh... contra Sísera?\" (4:6)",
+      "aliases": [],
+      "summary": "Divergência exegética: Palavra profética operando como garantia de vitória divina por meio de circunstâncias naturais.",
+      "references": ["Juízes 4:6-7; Juízes 5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo Profético" }
+    },
+    {
+      "id": "theme:abimeleque",
+      "kind": "theme",
+      "label": "Abimeleque",
+      "aliases": [],
+      "summary": "Primeiro tirano auto-consagrado em Israel, símbolo dos perigos da liderança sem legitimação pactual.",
+      "references": ["Juízes 9:1-57"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filho de Gideão que usurpou o poder em Siquém e massacrou seus irmãos",
+        "entityType": "Pessoa (Antagonista)"
+      }
+    },
+    {
+      "id": "theme:anjo-de-yahweh",
+      "kind": "theme",
+      "label": "Anjo de Yahweh",
+      "aliases": [],
+      "summary": "Manifestação teofânica que articula a exigência absoluta da aliança e comissiona os libertadores.",
+      "references": ["Juízes 2:1-4; 6:11-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mensageiro divino que aparece em momentos cruciais de crise pactual",
+        "entityType": "Conceito/Teofania"
+      }
+    },
+    {
+      "id": "theme:debora",
+      "kind": "theme",
+      "label": "Débora",
+      "aliases": [],
+      "summary": "Única mulher juíza nomeada com autoridade judicial e profética em tempos de crise nacional.",
+      "references": ["Juízes 4:4-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder profética e co-comandante com Baraque na vitória sobre Sísera",
+        "entityType": "Pessoa (Profetiza e Juíza)"
+      }
+    },
+    {
+      "id": "theme:eude",
+      "kind": "theme",
+      "label": "Eúde",
+      "aliases": [],
+      "summary": "Libertador astuto que utiliza a emboscada para libertar Israel da opressão moabita.",
+      "references": ["Juízes 3:12-30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Juiz canhoto da tribo de Benjamim que assassinou o rei Eglom de Moabe",
+        "entityType": "Pessoa (Juiz)"
+      }
+    },
+    {
+      "id": "theme:gideao-jerubaal",
+      "kind": "theme",
+      "label": "Gideão (Jerubaal)",
+      "aliases": [],
+      "summary": "Personagem complexo que transita da hesitação ao sincretismo religioso e ambição dinástica.",
+      "references": ["Juízes 6:11–8:32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Libertador contra os midianitas, fundador do efod idolátrico em Ofra",
+        "entityType": "Pessoa (Juiz)"
+      }
+    },
+    {
+      "id": "theme:jefte",
+      "kind": "theme",
+      "label": "Jefté",
+      "aliases": [],
+      "summary": "Homem marginalizado que recorre a juramentos temerários, evidenciando a corrupção do sacerdócio.",
+      "references": ["Juízes 11:1–12:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filho rejeitado que liderou Gileade contra os amonitas e cumpriu voto trágico",
+        "entityType": "Pessoa (Juiz)"
+      }
+    },
+    {
+      "id": "theme:otniel",
+      "kind": "theme",
+      "label": "Otniel",
+      "aliases": [],
+      "summary": "Modelo positivo de liderança capacitada pelo Espírito de Yahweh, trazendo paz por quarentena geracional.",
+      "references": ["Juízes 3:7-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Primeiro juiz de Israel, filho de Quenaz e sobrinho de Calebe",
+        "entityType": "Pessoa (Juiz)"
+      }
+    },
+    {
+      "id": "theme:sansao",
+      "kind": "theme",
+      "label": "Sansão",
+      "aliases": [],
+      "summary": "Juiz trágico cuja força depende do Espírito, mas cujas falhas éticas minam seu potencial redentor.",
+      "references": ["Juízes 13:1–16:31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nazireu dotado de força sobre-humana, combatente solitário contra os filisteus",
+        "entityType": "Pessoa (Juiz)"
+      }
+    },
+    {
+      "id": "theme:yahweh",
+      "kind": "theme",
+      "label": "Yahweh",
+      "aliases": [],
+      "summary": "O Criador que governa as nações, levanta impérios e responde às lamentações humanas segundo sua justiça e santidade inegociáveis.",
+      "references": [
+        "Gên 17; Lv 11:44; Ap 21",
+        "Juízes 2:1-5; 6:14",
+        "Miqueias 1:2-3; 6:1-8; 7:18-20",
+        "Hab 1:12; 2:20; 3:3"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano da história",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-juizes-a-batalha-do-monte-tabor-e-a-derrota-de-sisera:chapter-juizes-4",
+      "from": "event:juizes-a-batalha-do-monte-tabor-e-a-derrota-de-sisera",
+      "to": "chapter:juizes:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Batalha do Monte Tabor e a Derrota de Sísera” cita explicitamente Juízes 4:1-24.",
+      "references": ["Juízes 4:1-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-campanha-de-gideao-contra-os-midianitas:chapter-juizes-7",
+      "from": "event:juizes-a-campanha-de-gideao-contra-os-midianitas",
+      "to": "chapter:juizes:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Campanha de Gideão contra os Midianitas” cita explicitamente Juízes 7:1–8:28.",
+      "references": ["Juízes 7:1–8:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-campanha-de-gideao-contra-os-midianitas:chapter-juizes-8",
+      "from": "event:juizes-a-campanha-de-gideao-contra-os-midianitas",
+      "to": "chapter:juizes:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Campanha de Gideão contra os Midianitas” cita explicitamente Juízes 7:1–8:28.",
+      "references": ["Juízes 7:1–8:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-guerra-civil-contra-a-tribo-de-benjamim:chapter-juizes-19",
+      "from": "event:juizes-a-guerra-civil-contra-a-tribo-de-benjamim",
+      "to": "chapter:juizes:19",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Guerra Civil contra a Tribo de Benjamim” cita explicitamente Juízes 19:1–21:25.",
+      "references": ["Juízes 19:1–21:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-guerra-civil-contra-a-tribo-de-benjamim:chapter-juizes-20",
+      "from": "event:juizes-a-guerra-civil-contra-a-tribo-de-benjamim",
+      "to": "chapter:juizes:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Guerra Civil contra a Tribo de Benjamim” cita explicitamente Juízes 19:1–21:25.",
+      "references": ["Juízes 19:1–21:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-guerra-civil-contra-a-tribo-de-benjamim:chapter-juizes-21",
+      "from": "event:juizes-a-guerra-civil-contra-a-tribo-de-benjamim",
+      "to": "chapter:juizes:21",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Guerra Civil contra a Tribo de Benjamim” cita explicitamente Juízes 19:1–21:25.",
+      "references": ["Juízes 19:1–21:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-opressao-moabita-e-o-assassinato-de-eglom:chapter-juizes-3",
+      "from": "event:juizes-a-opressao-moabita-e-o-assassinato-de-eglom",
+      "to": "chapter:juizes:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Opressão Moabita e o Assassinato de Eglom” cita explicitamente Juízes 3:12-30.",
+      "references": ["Juízes 3:12-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-queda-do-templo-de-dagom-e-a-morte-de-sansao:chapter-juizes-16",
+      "from": "event:juizes-a-queda-do-templo-de-dagom-e-a-morte-de-sansao",
+      "to": "chapter:juizes:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Queda do Templo de Dagom e a Morte de Sansão” cita explicitamente Juízes 16:23-31.",
+      "references": ["Juízes 16:23-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-a-revolta-e-morte-de-abimeleque-em-siquem:chapter-juizes-9",
+      "from": "event:juizes-a-revolta-e-morte-de-abimeleque-em-siquem",
+      "to": "chapter:juizes:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revolta e Morte de Abimeleque em Siquém” cita explicitamente Juízes 9:1-57.",
+      "references": ["Juízes 9:1-57"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-o-sacrificio-e-conflito-de-jefte-com-efraim:chapter-juizes-11",
+      "from": "event:juizes-o-sacrificio-e-conflito-de-jefte-com-efraim",
+      "to": "chapter:juizes:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Sacrifício e Conflito de Jefté com Efraim” cita explicitamente Juízes 11:29–12:6.",
+      "references": ["Juízes 11:29–12:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-juizes-o-sacrificio-e-conflito-de-jefte-com-efraim:chapter-juizes-12",
+      "from": "event:juizes-o-sacrificio-e-conflito-de-jefte-com-efraim",
+      "to": "chapter:juizes:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Sacrifício e Conflito de Jefté com Efraim” cita explicitamente Juízes 11:29–12:6.",
+      "references": ["Juízes 11:29–12:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filisteus:chapter-juizes-14",
+      "from": "people-group:filisteus",
+      "to": "chapter:juizes:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filisteus” cita explicitamente Juízes 14:1–16:31.",
+      "references": ["Juízes 14:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filisteus:chapter-juizes-15",
+      "from": "people-group:filisteus",
+      "to": "chapter:juizes:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filisteus” cita explicitamente Juízes 14:1–16:31.",
+      "references": ["Juízes 14:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-filisteus:chapter-juizes-16",
+      "from": "people-group:filisteus",
+      "to": "chapter:juizes:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filisteus” cita explicitamente Juízes 14:1–16:31.",
+      "references": ["Juízes 14:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gaza:chapter-juizes-16",
+      "from": "place:gaza",
+      "to": "chapter:juizes:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gaza” cita explicitamente Juízes 16:1-31.",
+      "references": ["Juízes 16:1-31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibea:chapter-juizes-19",
+      "from": "place:gibea",
+      "to": "chapter:juizes:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeá” cita explicitamente Juízes 19:12-30.",
+      "references": ["Juízes 19:12-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-mizpa:chapter-juizes-20",
+      "from": "place:mizpa",
+      "to": "chapter:juizes:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Mizpá” cita explicitamente Juízes 20:1; 21:1.",
+      "references": ["Juízes 20:1; 21:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-mizpa:chapter-juizes-21",
+      "from": "place:mizpa",
+      "to": "chapter:juizes:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Mizpá” cita explicitamente Juízes 20:1; 21:1.",
+      "references": ["Juízes 20:1; 21:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-tabor:chapter-juizes-4",
+      "from": "place:monte-tabor",
+      "to": "chapter:juizes:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Tabor” cita explicitamente Juízes 4:6-14.",
+      "references": ["Juízes 4:6-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ofra:chapter-juizes-6",
+      "from": "place:ofra",
+      "to": "chapter:juizes:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ofra” cita explicitamente Juízes 6:11; 8:27.",
+      "references": ["Juízes 6:11; 8:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ofra:chapter-juizes-8",
+      "from": "place:ofra",
+      "to": "chapter:juizes:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ofra” cita explicitamente Juízes 6:11; 8:27.",
+      "references": ["Juízes 6:11; 8:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-silo:chapter-juizes-21",
+      "from": "place:silo",
+      "to": "chapter:juizes:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Siló” cita explicitamente Juízes 21:19.",
+      "references": ["Juízes 21:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-siquem:chapter-juizes-9",
+      "from": "place:siquem",
+      "to": "chapter:juizes:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Siquém” cita explicitamente Juízes 9:1-49.",
+      "references": ["Juízes 9:1-49"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20:chapter-juizes-9",
+      "from": "prophecy:juizes-a-parabola-de-jotao-e-a-maldicao-de-siquem-9-7-20",
+      "to": "chapter:juizes:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Parábola de Jotão e a Maldição de Siquém (9:7-20)” cita explicitamente Juízes 9:7-20; 2 Samuel 12.",
+      "references": ["Juízes 9:7-20; 2 Samuel 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5:chapter-juizes-13",
+      "from": "prophecy:juizes-eis-que-tu-conceberas-e-daras-a-luz-um-filho-nazireu-13-5",
+      "to": "chapter:juizes:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que tu conceberás e darás à luz um filho... nazireu\" (13:5)” cita explicitamente Juízes 13:3-7; Lucas 1.",
+      "references": ["Juízes 13:3-7; Lucas 1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2:chapter-juizes-2",
+      "from": "prophecy:juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2",
+      "to": "chapter:juizes:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Não fareis aliança com os moradores desta terra... mas não ouvistes a minha voz\" (2:2)” cita explicitamente Juízes 2:1-3; Josué 23:12-13.",
+      "references": ["Juízes 2:1-3; Josué 23:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-porventura-nao-te-ordenou-yahweh-contra-sisera-4-6:chapter-juizes-4",
+      "from": "prophecy:juizes-porventura-nao-te-ordenou-yahweh-contra-sisera-4-6",
+      "to": "chapter:juizes:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Porventura não te ordenou Yahweh... contra Sísera?\" (4:6)” cita explicitamente Juízes 4:6-7; Juízes 5.",
+      "references": ["Juízes 4:6-7; Juízes 5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-porventura-nao-te-ordenou-yahweh-contra-sisera-4-6:chapter-juizes-5",
+      "from": "prophecy:juizes-porventura-nao-te-ordenou-yahweh-contra-sisera-4-6",
+      "to": "chapter:juizes:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Porventura não te ordenou Yahweh... contra Sísera?\" (4:6)” cita explicitamente Juízes 4:6-7; Juízes 5.",
+      "references": ["Juízes 4:6-7; Juízes 5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-11:theme-jefte",
+      "from": "chapter:juizes:11",
+      "to": "theme:jefte",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jefté” cita explicitamente Juízes 11:1–12:7.",
+      "references": ["Juízes 11:1–12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-12:theme-jefte",
+      "from": "chapter:juizes:12",
+      "to": "theme:jefte",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jefté” cita explicitamente Juízes 11:1–12:7.",
+      "references": ["Juízes 11:1–12:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-13:theme-sansao",
+      "from": "chapter:juizes:13",
+      "to": "theme:sansao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sansão” cita explicitamente Juízes 13:1–16:31.",
+      "references": ["Juízes 13:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-14:theme-sansao",
+      "from": "chapter:juizes:14",
+      "to": "theme:sansao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sansão” cita explicitamente Juízes 13:1–16:31.",
+      "references": ["Juízes 13:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-15:theme-sansao",
+      "from": "chapter:juizes:15",
+      "to": "theme:sansao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sansão” cita explicitamente Juízes 13:1–16:31.",
+      "references": ["Juízes 13:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-16:theme-sansao",
+      "from": "chapter:juizes:16",
+      "to": "theme:sansao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sansão” cita explicitamente Juízes 13:1–16:31.",
+      "references": ["Juízes 13:1–16:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-2:theme-anjo-de-yahweh",
+      "from": "chapter:juizes:2",
+      "to": "theme:anjo-de-yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anjo de Yahweh” cita explicitamente Juízes 2:1-4; 6:11-24.",
+      "references": ["Juízes 2:1-4; 6:11-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-2:theme-yahweh",
+      "from": "chapter:juizes:2",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Juízes 2:1-5; 6:14.",
+      "references": ["Juízes 2:1-5; 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-3:theme-eude",
+      "from": "chapter:juizes:3",
+      "to": "theme:eude",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Eúde” cita explicitamente Juízes 3:12-30.",
+      "references": ["Juízes 3:12-30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-3:theme-otniel",
+      "from": "chapter:juizes:3",
+      "to": "theme:otniel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Otniel” cita explicitamente Juízes 3:7-11.",
+      "references": ["Juízes 3:7-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-4:theme-debora",
+      "from": "chapter:juizes:4",
+      "to": "theme:debora",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Débora” cita explicitamente Juízes 4:4-14.",
+      "references": ["Juízes 4:4-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-6:theme-anjo-de-yahweh",
+      "from": "chapter:juizes:6",
+      "to": "theme:anjo-de-yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anjo de Yahweh” cita explicitamente Juízes 2:1-4; 6:11-24.",
+      "references": ["Juízes 2:1-4; 6:11-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-6:theme-gideao-jerubaal",
+      "from": "chapter:juizes:6",
+      "to": "theme:gideao-jerubaal",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Gideão (Jerubaal)” cita explicitamente Juízes 6:11–8:32.",
+      "references": ["Juízes 6:11–8:32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-6:theme-yahweh",
+      "from": "chapter:juizes:6",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Juízes 2:1-5; 6:14.",
+      "references": ["Juízes 2:1-5; 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-7:theme-gideao-jerubaal",
+      "from": "chapter:juizes:7",
+      "to": "theme:gideao-jerubaal",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Gideão (Jerubaal)” cita explicitamente Juízes 6:11–8:32.",
+      "references": ["Juízes 6:11–8:32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-8:theme-gideao-jerubaal",
+      "from": "chapter:juizes:8",
+      "to": "theme:gideao-jerubaal",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Gideão (Jerubaal)” cita explicitamente Juízes 6:11–8:32.",
+      "references": ["Juízes 6:11–8:32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-juizes-9:theme-abimeleque",
+      "from": "chapter:juizes:9",
+      "to": "theme:abimeleque",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Abimeleque” cita explicitamente Juízes 9:1-57.",
+      "references": ["Juízes 9:1-57"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

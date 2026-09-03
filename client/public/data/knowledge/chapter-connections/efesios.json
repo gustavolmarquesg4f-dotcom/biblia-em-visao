@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "book": "Efésios",
+  "count": 39,
+  "chapterCount": 6,
+  "nodes": [
+    {
+      "id": "doctrine:dons",
+      "kind": "doctrine",
+      "label": "Dons, ministérios e fruto",
+      "aliases": [],
+      "summary": "Os dons são compreendidos como capacitações do Espírito para edificação e missão, nunca como medalhas de superioridade espiritual.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["dons"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O culto pentecostal busca espaço para testemunho, oração, profecia, cura e serviço, mas tudo deve ser julgado pelo amor, pela ordem e pela edificação da comunidade.",
+        "distinction": "Dons e cargos não são idênticos. A plataforma diferenciará carisma, função pastoral, liderança institucional e maturidade cristã.",
+        "source": "Novo Testamento; teologia pentecostal sobre dons"
+      }
+    },
+    {
+      "id": "doctrine:igreja-missao",
+      "kind": "doctrine",
+      "label": "Igreja, Grande Comissão e missão",
+      "aliases": [],
+      "summary": "O site nacional apresenta a missão como comunicação do evangelho completo de Jesus Cristo, guiada pelo Espírito e pelo poder do Pentecostes, em direção à Grande Comissão.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["igreja-missao"],
+      "attributes": {
+        "category": "Eclesiologia",
+        "pentecostalReading": "Missão une anúncio, discipulado, serviço, plantação de igrejas, cuidado de pessoas e testemunho público. Poder espiritual não é dominação: é capacitação para servir e testemunhar.",
+        "distinction": "A missão institucional pode adquirir formas regionais. A plataforma deve registrar documentos da IDB e não inventar um manual de práticas para todas as congregações.",
+        "source": "Site IDB Nacional; Grande Comissão; teologia pentecostal de missão"
+      }
+    },
+    {
+      "id": "doctrine:salvacao",
+      "kind": "doctrine",
+      "label": "Arrependimento, justificação e novo nascimento",
+      "aliases": [],
+      "summary": "Todos pecaram; o arrependimento é necessário para o perdão, e justificação, regeneração e novo nascimento são recebidos pela fé no sangue de Jesus Cristo.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["salvacao"],
+      "attributes": {
+        "category": "Salvação",
+        "pentecostalReading": "A salvação é recebida pela graça mediante a fé e se torna vida transformada. A experiência de conversão não é um mero assentimento intelectual, mas entrada em uma nova relação com Cristo e sua comunidade.",
+        "distinction": "Tradições cristãs usam termos semelhantes com modelos distintos de sacramentos, cooperação humana, segurança da salvação e perseverança; a enciclopédia deve registrar essas diferenças.",
+        "source": "Declaração de Fé; teologia pentecostal clássica"
+      }
+    },
+    {
+      "id": "person:deus-pai",
+      "kind": "person",
+      "label": "Deus Pai",
+      "aliases": [],
+      "summary": "É o arquiteto soberano da salvação, que tudo submete aos pés de Cristo e concede a graça e o Espírito aos crentes.",
+      "references": ["Efésios 1:3; 1:17; 3:14; 4:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Origem soberana de toda bênção espiritual, eleição e planejamento cósmico da redenção",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:espirito-santo",
+      "kind": "person",
+      "label": "Espírito Santo",
+      "aliases": [],
+      "summary": "Habita na comunidade, capacita com dons, sela os crentes para o dia da redenção e inspira a vida de oração e louvor.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Selo da promessa, garantia da herança e agente do enchimento e habitação",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jesus-cristo",
+      "kind": "person",
+      "label": "Jesus Cristo",
+      "aliases": [],
+      "summary": "O protagonista central do evangelho, cujo ministério encarna a misericórdia divina, o perdão dos pecados e a inversão radical das estruturas sociais vigentes.",
+      "references": [
+        "Lucas 1:31-33; Lucas 4:18-19; Lucas 24:26-27",
+        "Romanos 1:3-4; 3:24-26",
+        "Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27",
+        "Hb 1:2-3; 4:14-16; 8:1-2; 9:11-12",
+        "Judas 1:4"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Senhor, Salvador e soberano supremo cuja graça está sendo pervertida pelos infiltradores e cuja autoridade é negada na práxis dos falsos mestres.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiquico",
+      "kind": "person",
+      "label": "Tíquico",
+      "aliases": ["Tíquico"],
+      "summary": "Tíquico era um discípulo da província da Ásia (provavelmente de Éfeso), descrito por Paulo como \"amado irmão, fiel ministro e conservo no Senhor\" (Cl 4:7) [133]. Desempenhou o papel crucial de mensageiro postal, portador e leitor oficial das epístolas paulinas aos Efésios e Colossenses, além de emissário em missões delicadas [134].",
+      "references": ["Atos 20:4", "Efésios 6:21-22", "Tito 3:12", "Cl 4:7-8"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tiquico"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2020%3A4%3B%20Ef%C3%A9sios%206%3A21-22%3B%20Tito%203%3A12&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Portador da carta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-32-8-9-a-divisao-das-nacoes-segundo-o-numero-dos-filhos-de-deus-anjos",
+      "kind": "prophecy",
+      "label": "Deut 32:8-9 (A divisão das nações segundo o número dos filhos de Deus / anjos)",
+      "aliases": [],
+      "summary": "Enquanto o Texto Massorético diz \"filhos de Israel\", o manuscrito de Qumran 4QDeut e a LXX trazem \"filhos de Deus\" (hospedando o conceito de divindades guardiãs nacionais subordinadas ao Altíssimo), gerando intensos debates sobre a evolução do monoteísmo israelita.",
+      "references": [
+        "4QDeut_j (4Q37); Septuaginta (LXX); Salmo 82; Efésios 1:21"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / recepção posterior" }
+    },
+    {
+      "id": "prophecy:efesios-genesis-2-24-por-isso-deixara-o-homem-pai-e-mae",
+      "kind": "prophecy",
+      "label": "Gênesis 2:24 (\"Por isso deixará o homem pai e mãe...\")",
+      "aliases": [],
+      "summary": "Paulo aplica o texto da criação sobre o casamento humano como um *mysterion* maior que aponta diretamente para a união mística entre Cristo e a Igreja.",
+      "references": ["Efésios 5:31-32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Alusão" }
+    },
+    {
+      "id": "prophecy:efesios-isaias-11-5-isaias-59-17-cinto-da-verdade-couraca-da-justica-capacete-da-salvacao",
+      "kind": "prophecy",
+      "label": "Isaías 11:5 / Isaías 59:17 (Cinto da verdade, couraça da justiça, capacete da salvação)",
+      "aliases": [],
+      "summary": "O autor de Efésios toma os atributos do Messias guerreiro em Isaías e os reconfigura como o equipamento defensivo conferido aos crentes na guerra espiritual.",
+      "references": ["Efésios 6:14-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Releitura" }
+    },
+    {
+      "id": "prophecy:efesios-isaias-57-19-paz-para-os-que-estao-longe-e-para-os-que-estao-perto",
+      "kind": "prophecy",
+      "label": "Isaías 57:19 (\"Paz para os que estão longe e para os que estão perto\")",
+      "aliases": [],
+      "summary": "Utilizado para fundamentar teologicamente a inclusão dos gentios (\"longe\") e dos judeus (\"perto\") na mesma cidadania pacificada pela cruz de Cristo.",
+      "references": ["Efésios 2:13; 2:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Cumprimento escatológico" }
+    },
+    {
+      "id": "prophecy:efesios-salmo-68-18-subindo-ao-alto-levou-cativo-o-cativeiro-e-deu-dons-aos-homens",
+      "kind": "prophecy",
+      "label": "Salmo 68:18 (\"Subindo ao alto, levou cativo o cativeiro e deu dons aos homens\")",
+      "aliases": [],
+      "summary": "Divergência entre o texto hebraico original (que fala de receber dons de tributo dos inimigos) e a exegese paulina/midrashica de dar dons à humanidade pelo Cristo vitorioso.",
+      "references": ["Efésios 4:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Releitura posterior" }
+    },
+    {
+      "id": "term:charis",
+      "kind": "term",
+      "label": "Charis",
+      "aliases": ["χάρις", "charis"],
+      "summary": "Graça, favor, benevolência ou gratidão; em Paulo, descreve a iniciativa generosa de Deus e também o efeito comunitário dessa iniciativa.",
+      "references": ["Lc 1:30", "Jo 1:14–17", "Ef 2:8–10"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Não é uma substância abstrata armazenada na pessoa. O termo pode nomear o favor recebido, a ação de agradecer e o dom que reorganiza relações.",
+        "translationNote": "‘Graça’ é tradição indispensável, mas precisa ser lida em contraste com mérito, patronagem, dívida e reciprocidade no mundo antigo."
+      }
+    },
+    {
+      "id": "theme:a-igreja-corpo-de-cristo",
+      "kind": "theme",
+      "label": "A Igreja (Corpo de Cristo)",
+      "aliases": [],
+      "summary": "Comunidade escatológica que manifesta a sabedoria multiforme de Deus aos principados celestiais.",
+      "references": ["Efésios 1:22-23; 2:19-22; 3:10; 5:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Plenitude daquele que preenche tudo em todos, organismo unificado de judeus e gentios",
+        "entityType": "Instituição / Conceito"
+      }
+    },
+    {
+      "id": "theme:o-diabo-o-maligno",
+      "kind": "theme",
+      "label": "O Diabo / O Maligno",
+      "aliases": [],
+      "summary": "Apresentado como aquele que peca desde o princípio e cujas obras o Filho de Deus veio destruir (3:8), controlando o \"mundo\" (5:19)",
+      "references": ["Efésios 4:27; 6:11; 6:16", "3:8, 10; 5:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "A fonte primordial do pecado e o arquétipo espiritual da oposição a Deus e aos Seus filhos",
+        "entityType": "Pessoa / Entidade Sobrenatural"
+      }
+    },
+    {
+      "id": "theme:o-homem-novo",
+      "kind": "theme",
+      "label": "O Homem Novo",
+      "aliases": [],
+      "summary": "Identidade coletiva que substitui tanto o gentio alienado quanto o judeu legalista por meio da cruz.",
+      "references": ["Efésios 2:15; 4:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nova humanidade criada em justiça e verdadeira santidade que supera a divisão étnica",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-misterio-mysterion",
+      "kind": "theme",
+      "label": "O Mistério (*Mysterion*)",
+      "aliases": [],
+      "summary": "O cerne teológico da carta, sintetizando a união de judeus e gentios em um só corpo espiritual.",
+      "references": ["Efésios 1:9; 3:3-6; 6:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Plano eterno de Deus antes oculto e agora revelado: a co-herança dos gentios em Cristo",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:principados-e-potestades-archai-kai-exousiai",
+      "kind": "theme",
+      "label": "Principados e Potestades (*Archai kai Exousiai*)",
+      "aliases": [],
+      "summary": "Entidades cósmicas caídas que exercem domínio sobre o mundo decaído, mas cuja derrota é demonstrada pela existência da Igreja unida.",
+      "references": ["Efésios 1:21; 3:10; 6:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Forças espirituais hostis no reino celestial, vencidas e desafiadas pela Igreja",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-deus-pai:chapter-efesios-1",
+      "from": "person:deus-pai",
+      "to": "chapter:efesios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deus Pai” cita explicitamente Efésios 1:3; 1:17; 3:14; 4:6.",
+      "references": ["Efésios 1:3; 1:17; 3:14; 4:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-deus-pai:chapter-efesios-3",
+      "from": "person:deus-pai",
+      "to": "chapter:efesios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deus Pai” cita explicitamente Efésios 1:3; 1:17; 3:14; 4:6.",
+      "references": ["Efésios 1:3; 1:17; 3:14; 4:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-deus-pai:chapter-efesios-4",
+      "from": "person:deus-pai",
+      "to": "chapter:efesios:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deus Pai” cita explicitamente Efésios 1:3; 1:17; 3:14; 4:6.",
+      "references": ["Efésios 1:3; 1:17; 3:14; 4:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-espirito-santo:chapter-efesios-1",
+      "from": "person:espirito-santo",
+      "to": "chapter:efesios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Espírito Santo” cita explicitamente Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-espirito-santo:chapter-efesios-2",
+      "from": "person:espirito-santo",
+      "to": "chapter:efesios:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Espírito Santo” cita explicitamente Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-espirito-santo:chapter-efesios-3",
+      "from": "person:espirito-santo",
+      "to": "chapter:efesios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Espírito Santo” cita explicitamente Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-espirito-santo:chapter-efesios-4",
+      "from": "person:espirito-santo",
+      "to": "chapter:efesios:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Espírito Santo” cita explicitamente Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-espirito-santo:chapter-efesios-5",
+      "from": "person:espirito-santo",
+      "to": "chapter:efesios:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Espírito Santo” cita explicitamente Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18.",
+      "references": ["Efésios 1:13-14; 2:18; 3:16; 4:30; 5:18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-efesios-1",
+      "from": "person:jesus-cristo",
+      "to": "chapter:efesios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27.",
+      "references": ["Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-efesios-2",
+      "from": "person:jesus-cristo",
+      "to": "chapter:efesios:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27.",
+      "references": ["Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-efesios-4",
+      "from": "person:jesus-cristo",
+      "to": "chapter:efesios:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27.",
+      "references": ["Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo:chapter-efesios-5",
+      "from": "person:jesus-cristo",
+      "to": "chapter:efesios:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo” cita explicitamente Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27.",
+      "references": ["Efésios 1:20-23; 2:13-16; 4:8-10; 5:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-efesios-1",
+      "from": "person:paulo",
+      "to": "chapter:efesios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Efésios 1:1; 3:1; 3:7-8; 6:21.",
+      "references": ["Efésios 1:1; 3:1; 3:7-8; 6:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-efesios-3",
+      "from": "person:paulo",
+      "to": "chapter:efesios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Efésios 1:1; 3:1; 3:7-8; 6:21.",
+      "references": ["Efésios 1:1; 3:1; 3:7-8; 6:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-efesios-6",
+      "from": "person:paulo",
+      "to": "chapter:efesios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Efésios 1:1; 3:1; 3:7-8; 6:21.",
+      "references": ["Efésios 1:1; 3:1; 3:7-8; 6:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiquico:chapter-efesios-6",
+      "from": "person:tiquico",
+      "to": "chapter:efesios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tíquico” cita explicitamente Efésios 6:21-22.",
+      "references": ["Efésios 6:21-22"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-32-8-9-a-divisao-das-nacoes-segundo-o-numero-dos-filhos-de-deus-anjos:chapter-efesios-1",
+      "from": "prophecy:deuteronomio-deut-32-8-9-a-divisao-das-nacoes-segundo-o-numero-dos-filhos-de-deus-anjos",
+      "to": "chapter:efesios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 32:8-9 (A divisão das nações segundo o número dos filhos de Deus / anjos)” cita explicitamente 4QDeut_j (4Q37); Septuaginta (LXX); Salmo 82; Efésios 1:21.",
+      "references": [
+        "4QDeut_j (4Q37); Septuaginta (LXX); Salmo 82; Efésios 1:21"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-efesios-genesis-2-24-por-isso-deixara-o-homem-pai-e-mae:chapter-efesios-5",
+      "from": "prophecy:efesios-genesis-2-24-por-isso-deixara-o-homem-pai-e-mae",
+      "to": "chapter:efesios:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 2:24 (\"Por isso deixará o homem pai e mãe...\")” cita explicitamente Efésios 5:31-32.",
+      "references": ["Efésios 5:31-32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-efesios-isaias-11-5-isaias-59-17-cinto-da-verdade-couraca-da-justica-capacete-da-salvacao:chapter-efesios-6",
+      "from": "prophecy:efesios-isaias-11-5-isaias-59-17-cinto-da-verdade-couraca-da-justica-capacete-da-salvacao",
+      "to": "chapter:efesios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 11:5 / Isaías 59:17 (Cinto da verdade, couraça da justiça, capacete da salvação)” cita explicitamente Efésios 6:14-17.",
+      "references": ["Efésios 6:14-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-efesios-isaias-57-19-paz-para-os-que-estao-longe-e-para-os-que-estao-perto:chapter-efesios-2",
+      "from": "prophecy:efesios-isaias-57-19-paz-para-os-que-estao-longe-e-para-os-que-estao-perto",
+      "to": "chapter:efesios:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 57:19 (\"Paz para os que estão longe e para os que estão perto\")” cita explicitamente Efésios 2:13; 2:17.",
+      "references": ["Efésios 2:13; 2:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-efesios-salmo-68-18-subindo-ao-alto-levou-cativo-o-cativeiro-e-deu-dons-aos-homens:chapter-efesios-4",
+      "from": "prophecy:efesios-salmo-68-18-subindo-ao-alto-levou-cativo-o-cativeiro-e-deu-dons-aos-homens",
+      "to": "chapter:efesios:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmo 68:18 (\"Subindo ao alto, levou cativo o cativeiro e deu dons aos homens\")” cita explicitamente Efésios 4:8.",
+      "references": ["Efésios 4:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-1:theme-a-igreja-corpo-de-cristo",
+      "from": "chapter:efesios:1",
+      "to": "theme:a-igreja-corpo-de-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Igreja (Corpo de Cristo)” cita explicitamente Efésios 1:22-23; 2:19-22; 3:10; 5:27.",
+      "references": ["Efésios 1:22-23; 2:19-22; 3:10; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-1:theme-o-misterio-mysterion",
+      "from": "chapter:efesios:1",
+      "to": "theme:o-misterio-mysterion",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Mistério (*Mysterion*)” cita explicitamente Efésios 1:9; 3:3-6; 6:19.",
+      "references": ["Efésios 1:9; 3:3-6; 6:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-1:theme-principados-e-potestades-archai-kai-exousiai",
+      "from": "chapter:efesios:1",
+      "to": "theme:principados-e-potestades-archai-kai-exousiai",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Principados e Potestades (*Archai kai Exousiai*)” cita explicitamente Efésios 1:21; 3:10; 6:12.",
+      "references": ["Efésios 1:21; 3:10; 6:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-2:doctrine-salvacao",
+      "from": "chapter:efesios:2",
+      "to": "doctrine:salvacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Arrependimento, justificação e novo nascimento” cita explicitamente Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-2:theme-a-igreja-corpo-de-cristo",
+      "from": "chapter:efesios:2",
+      "to": "theme:a-igreja-corpo-de-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Igreja (Corpo de Cristo)” cita explicitamente Efésios 1:22-23; 2:19-22; 3:10; 5:27.",
+      "references": ["Efésios 1:22-23; 2:19-22; 3:10; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-2:theme-o-homem-novo",
+      "from": "chapter:efesios:2",
+      "to": "theme:o-homem-novo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Homem Novo” cita explicitamente Efésios 2:15; 4:24.",
+      "references": ["Efésios 2:15; 4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-3:theme-a-igreja-corpo-de-cristo",
+      "from": "chapter:efesios:3",
+      "to": "theme:a-igreja-corpo-de-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Igreja (Corpo de Cristo)” cita explicitamente Efésios 1:22-23; 2:19-22; 3:10; 5:27.",
+      "references": ["Efésios 1:22-23; 2:19-22; 3:10; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-3:theme-o-misterio-mysterion",
+      "from": "chapter:efesios:3",
+      "to": "theme:o-misterio-mysterion",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Mistério (*Mysterion*)” cita explicitamente Efésios 1:9; 3:3-6; 6:19.",
+      "references": ["Efésios 1:9; 3:3-6; 6:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-3:theme-principados-e-potestades-archai-kai-exousiai",
+      "from": "chapter:efesios:3",
+      "to": "theme:principados-e-potestades-archai-kai-exousiai",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Principados e Potestades (*Archai kai Exousiai*)” cita explicitamente Efésios 1:21; 3:10; 6:12.",
+      "references": ["Efésios 1:21; 3:10; 6:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-4:doctrine-dons",
+      "from": "chapter:efesios:4",
+      "to": "doctrine:dons",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Dons, ministérios e fruto” cita explicitamente 1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23.",
+      "references": ["1Co 12–14; Rm 12:3–8; Ef 4:11–16; Gl 5:22–23"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-4:doctrine-igreja-missao",
+      "from": "chapter:efesios:4",
+      "to": "doctrine:igreja-missao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Igreja, Grande Comissão e missão” cita explicitamente Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10.",
+      "references": ["Mt 28:18–20; At 1:8; Ef 4:11–16; 1Pe 2:9–10"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-4:theme-o-diabo-o-maligno",
+      "from": "chapter:efesios:4",
+      "to": "theme:o-diabo-o-maligno",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Diabo / O Maligno” cita explicitamente Efésios 4:27; 6:11; 6:16.",
+      "references": ["Efésios 4:27; 6:11; 6:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-4:theme-o-homem-novo",
+      "from": "chapter:efesios:4",
+      "to": "theme:o-homem-novo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Homem Novo” cita explicitamente Efésios 2:15; 4:24.",
+      "references": ["Efésios 2:15; 4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-5:theme-a-igreja-corpo-de-cristo",
+      "from": "chapter:efesios:5",
+      "to": "theme:a-igreja-corpo-de-cristo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Igreja (Corpo de Cristo)” cita explicitamente Efésios 1:22-23; 2:19-22; 3:10; 5:27.",
+      "references": ["Efésios 1:22-23; 2:19-22; 3:10; 5:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-6:theme-o-diabo-o-maligno",
+      "from": "chapter:efesios:6",
+      "to": "theme:o-diabo-o-maligno",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Diabo / O Maligno” cita explicitamente Efésios 4:27; 6:11; 6:16.",
+      "references": ["Efésios 4:27; 6:11; 6:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-6:theme-o-misterio-mysterion",
+      "from": "chapter:efesios:6",
+      "to": "theme:o-misterio-mysterion",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Mistério (*Mysterion*)” cita explicitamente Efésios 1:9; 3:3-6; 6:19.",
+      "references": ["Efésios 1:9; 3:3-6; 6:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-efesios-6:theme-principados-e-potestades-archai-kai-exousiai",
+      "from": "chapter:efesios:6",
+      "to": "theme:principados-e-potestades-archai-kai-exousiai",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Principados e Potestades (*Archai kai Exousiai*)” cita explicitamente Efésios 1:21; 3:10; 6:12.",
+      "references": ["Efésios 1:21; 3:10; 6:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-efesios-2:term-charis",
+      "from": "chapter:efesios:2",
+      "to": "term:charis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charis” cita explicitamente Ef 2:8–10.",
+      "references": ["Ef 2:8–10"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}
