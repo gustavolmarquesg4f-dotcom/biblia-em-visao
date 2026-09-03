@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "book": "Zacarias",
+  "count": 34,
+  "chapterCount": 12,
+  "nodes": [
+    {
+      "id": "person:josue-jozadaque",
+      "kind": "person",
+      "label": "Josué (Jozadaque)",
+      "aliases": [],
+      "summary": "Líder religioso de Yehud que colaborou com Zorobabel na liderança da reconstrução cultual e comunitária.",
+      "references": ["Ageu 1:1, 12; 2:2, 4; Zacarias 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sumo Sacerdote", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:josue-o-sumo-sacerdote",
+      "kind": "person",
+      "label": "Josué, o Sumo Sacerdote",
+      "aliases": ["Josué, o Sumo Sacerdote"],
+      "summary": "Josué (hebraico: *Yēšūa‘*, forma abreviada de *Yehōšūa‘*), filho de Josadaque, foi o primeiro sumo sacerdote da comunidade judaica repatriada após o cativeiro babilônico. Juntamente com o governador Zorobabel, Josué desempenhou o papel central na reinstalação do altar dos holocaustos, na retomada dos sacrifícios rituais e na supervisão da reconstrução do Segundo Templo. Nas visões do profeta Zacarias, Josué aparece investido de vestes sacerdotais manchadas, simbolizando a purificação de Israel, e coroado simbolicamente como figura de autoridade cultual em co-liderança com o ramo davídico.",
+      "references": [
+        "**Zacarias 3:1-3**: *\"E ele me mostrou o sumo sacerdote Josué, o qual estava em pé diante do anjo do Senhor, e Satanás estava à sua mão direita, para o resistir... Ora, Josué, vestido de vestes sujas, estava em pé diante do anjo.\"*",
+        "**Zacarias 6:11-12**: *\"Toma prata e ouro, e faze coroas, e põe-nas na cabeça do sumo sacerdote Josué, filho de Josadaque, e dize-lhe: Assim fala o Senhor dos Exércitos, dizendo: Eis aqui o homem cujo nome é Renovo...\"*",
+        "**Esdras 5:2**: *\"Então se levantaram Zorobabel, filho de Salatiel, e Josué, filho de Josadaque, e começaram a edificar a casa de Deus...\"*",
+        "Zacarias 3:1-9, 6:11-13"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-josue-o-sumo-sacerdote"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Zacarias%203%3A1-3**%3A%20*%22E%20ele%20me%20mostrou%20o%20sumo%20sacerdote%20Josu%C3%A9%2C%20o%20qual%20estava%20em%20p%C3%A9%20diante%20do%20anjo%20do%20Senhor%2C%20e%20Satan%C3%A1s%20estava%20%C3%A0%20sua%20m%C3%A3o%20direita%2C%20para%20o%20resistir...%20Ora%2C%20Josu%C3%A9%2C%20vestido%20de%20vestes%20sujas%2C%20estava%20em%20p%C3%A9%20diante%20do%20anjo.%22*%3B%20**Zacarias%206%3A11-12**%3A%20*%22Toma%20prata%20e%20ouro%2C%20e%20faze%20coroas%2C%20e%20p%C3%B5e-nas%20na%20cabe%C3%A7a%20do%20sumo%20sacerdote%20Josu%C3%A9%2C%20filho%20de%20Josadaque%2C%20e%20dize-lhe%3A%20Assim%20fala%20o%20Senhor%20dos%20Ex%C3%A9rcitos%2C%20dizendo%3A%20Eis%20aqui%20o%20homem%20cujo%20nome%20%C3%A9%20Renovo...%22*%3B%20**Esdras%205%3A2**%3A%20*%22Ent%C3%A3o%20se%20levantaram%20Zorobabel%2C%20filho%20de%20Salatiel%2C%20e%20Josu%C3%A9%2C%20filho%20de%20Josadaque%2C%20e%20come%C3%A7aram%20a%20edificar%20a%20casa%20de%20Deus...%22*&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Sumo Sacerdote",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zacarias-filho-de-baraquias",
+      "kind": "person",
+      "label": "Zacarias, filho de Baraquias",
+      "aliases": [],
+      "summary": "Profeta pós-exílico que combinou visões simbólicas e oráculos éticos para estimular a reconstrução do templo e a esperança messiânica.",
+      "references": ["Zacarias 1:1, 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta e autor principal",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zorobabel",
+      "kind": "person",
+      "label": "Zorobabel",
+      "aliases": ["Zorobabel"],
+      "summary": "Zorobabel (hebraico: *Zĕrubbābel*, \"semente de Babilônia\") foi um líder político e governador (*pachah*) de Judá no final do século VI a.C. Descendente direto da casa real de Davi (neto do rei Jeoaquim ou Jeconias, conforme as genealogias em 1 Crônicas 3:19 e Mateus 1:12-13), Zorobabel emergiu como a figura central do primeiro grande retorno dos exilados babilônicos sob o decreto inicial do rei persa Ciro II (Ciro, o Grande), emitido em 538 a.C. Junto com o sumo sacerdote Josué (Jeshua), ele liderou a repatriação de dezenas de milhares de judeus e assumiu a responsabilidade primária pela restauração do culto cultual em Jerusalém e pela reconstrução do Templo, que culminou na consagração do Segundo Templo em c. 516 a.C.",
+      "references": [
+        "**Esdras 3:2-3**: *\"Então se levantou Josué, o filho de Josadaque, e seus irmãos, os sacerdotes, e Zorobabel, o filho de Salatiel, e seus irmãos, e edificaram o altar do Deus de Israel...\"*",
+        "**Ageu 2:4**: *\"Ora, pois, esforça-te, ó Zorobabel, diz o Senhor, e esforça-te, ó Josué, sumo sacerdote, e esforça-te todo o povo da terra, diz o Senhor, e trabalhai; porque eu sou convosco, diz o Senhor dos Exércitos.\"*",
+        "**Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*",
+        "Ageu 1:1, 14; 2:2, 21-23; Esdras 3:2",
+        "Zacarias 4:6-9"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-zorobabel"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Esdras%203%3A2-3**%3A%20*%22Ent%C3%A3o%20se%20levantou%20Josu%C3%A9%2C%20o%20filho%20de%20Josadaque%2C%20e%20seus%20irm%C3%A3os%2C%20os%20sacerdotes%2C%20e%20Zorobabel%2C%20o%20filho%20de%20Salatiel%2C%20e%20seus%20irm%C3%A3os%2C%20e%20edificaram%20o%20altar%20do%20Deus%20de%20Israel...%22*%3B%20**Ageu%202%3A4**%3A%20*%22Ora%2C%20pois%2C%20esfor%C3%A7a-te%2C%20%C3%B3%20Zorobabel%2C%20diz%20o%20Senhor%2C%20e%20esfor%C3%A7a-te%2C%20%C3%B3%20Josu%C3%A9%2C%20sumo%20sacerdote%2C%20e%20esfor%C3%A7a-te%20todo%20o%20povo%20da%20terra%2C%20diz%20o%20Senhor%2C%20e%20trabalhai%3B%20porque%20eu%20sou%20convosco%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%22*%3B%20**Zacarias%204%3A6-7**%3A%20*%22Esta%20%C3%A9%20a%20palavra%20do%20Senhor%20a%20Zorobabel%3A%20N%C3%A3o%20por%20for%C3%A7a%20nem%20por%20viol%C3%AAncia%2C%20mas%20pelo%20meu%20Esp%C3%ADrito%2C%20diz%20o%20Senhor%20dos%20Ex%C3%A9rcitos.%20Quem%20%C3%A9s%20tu%2C%20%C3%B3%20grande%20monte%3F%20Diante%20de%20Zorobabel%20ser%C3%A1s%20uma%20plan%C3%ADcie...%22*&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Governador de Judá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-terra-de-sinar-babilonia",
+      "kind": "place",
+      "label": "A Terra de Sinar (Babilônia)",
+      "aliases": [],
+      "summary": "Destino para onde a iniquidade (personificada no efa) é exilada, representando o cativeiro e a idolatria banidas.",
+      "references": ["Zacarias 5:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:betel",
+      "kind": "place",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal centro religioso e político do Reino do Norte, contendo um dos santuários de bezerros de ouro; alvo principal das denúncias de idolatria e falsa religiosidade de Amós.",
+      "references": [
+        "1Rs 12, 13",
+        "2 Reis 2, 10, 23",
+        "Oseias 4:15, 10:5, 12:4",
+        "Amós 3:14; 4:4; 7:13",
+        "Zacarias 7:2",
+        "Gn 12:8",
+        "Gn 28:10–22",
+        "Gn 35:1–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["bethel"],
+      "attributes": { "status": "geográfico", "x": 49, "y": 48 }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-monte-das-oliveiras",
+      "kind": "place",
+      "label": "O Monte das Oliveiras",
+      "aliases": [],
+      "summary": "Local geográfico a leste de Jerusalém que se fendera ao meio no Dia de Iahweh, criando um vale de fuga.",
+      "references": ["Zacarias 14:4", "Mc 13.3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Escatológico" }
+    },
+    {
+      "id": "place:o-segundo-templo-casa-de-iahweh",
+      "kind": "place",
+      "label": "O Segundo Templo (Casa de Iahweh)",
+      "aliases": [],
+      "summary": "Centro da reconstrução sob Zorobabel e Josué, símbolo da presença divina restabelecida entre o povo.",
+      "references": ["Zacarias 4:9, 8:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "kind": "prophecy",
+      "label": "O testemunho da água, do sangue e do Espírito (1 João 5:6-8)",
+      "aliases": [],
+      "summary": "Divergências: Tradicionalmente interpretado na patrística como referência aos sacramentos (batismo e eucaristia), enquanto a exegese moderna vê alusão ao batismo de Jesus (água) e à sua crucificação (sangue) atestados pelo Espírito.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / tipologia" }
+    },
+    {
+      "id": "prophecy:apocalipse-zacarias-12-10-apocalipse-1-7",
+      "kind": "prophecy",
+      "label": "Zacarias 12:10 — Apocalipse 1:7",
+      "aliases": [],
+      "summary": "O lamento sobre \"aquele a quem traspassaram\" é aplicado universalmente a Jesus Cristo na sua segunda vinda; debates focam na conversão étnica de Israel versus a condenação universal.",
+      "references": ["Zacarias 12:10; Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele",
+      "kind": "prophecy",
+      "label": "Ester 6:13 (\"Se Mardoqueu... é da descendência dos judeus, não prevalecerás contra ele...\")",
+      "aliases": [],
+      "summary": "O aviso de Zeres e dos sábios de Amã preanuncia a inviolabilidade do pacto divino com Israel; divergência entre leitura teológica de proteção covenantal e fatalismo narrativo.",
+      "references": ["Is 54:17; Zc 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / reversão profética" }
+    },
+    {
+      "id": "prophecy:judas-a-disputa-de-miguel-pelo-corpo-de-moises",
+      "kind": "prophecy",
+      "label": "A disputa de Miguel pelo corpo de Moisés",
+      "aliases": [],
+      "summary": "Uso de uma tradição extra-bíblica sobre a contenda angélica para estabelecer um princípio de modéstia verbal e reverência diante de dignidades espirituais, gerando debates sobre o status de fontes não canônicas.",
+      "references": ["Assunção de Moisés (perdido em parte); Zacarias 3:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tradição oral/apócrifa" }
+    },
+    {
+      "id": "prophecy:judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9",
+      "kind": "prophecy",
+      "label": "\"Eis que veio o Senhor com milhares de seus santos, para fazer juízo contra todos...\" (1 Enoque 1:9)",
+      "aliases": [],
+      "summary": "Judas cita explicitamente o apócrifo 1 Enoque como profecia proferida por \"Enoque, o sétimo depois de Adão\", validando a escatologia do juízo final através de literatura extracanônica amplamente lida no judaísmo do Segundo Templo.",
+      "references": ["1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/recepção posterior" }
+    },
+    {
+      "id": "prophecy:neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais",
+      "kind": "prophecy",
+      "label": "Zacarias 2:4 (\"Jerusalém será habitação de aldeias, por causa da multidão dos homens e dos animais...\")",
+      "aliases": [],
+      "summary": "O desafio de repovoar Jerusalém e fortificá-la sem muros físicos iniciais é superado pela repopulação narrada em Neemias 7 e 11.",
+      "references": ["Neemias 7; 11; Zacarias 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus",
+      "kind": "prophecy",
+      "label": "Rute 1:16 (\"O teu povo é o meu povo, o teu Deus é o meu Deus\")",
+      "aliases": [],
+      "summary": "Enquanto a teologia deuteronômica pós-exílica debatia a exclusão rigorosa de estrangeiros, a confissão de Rute antecipa o universalismo escatológico profético de inclusão dos gentios no Templo e na aliança.",
+      "references": ["Isaías 56:3-6; Zacarias 2:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus",
+      "kind": "prophecy",
+      "label": "Sofonias 1:7 (\"Cale-se diante do Senhor Deus...\")",
+      "aliases": [],
+      "summary": "A injunção ao silêncio cósmico ante a teofania divina é interpretada ora como reverência cultual no templo pós-exílico, ora como a paralisação absoluta da atividade humana diante do tribunal escatológico.",
+      "references": ["Habacuque 2:20 e Zacarias 2:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos",
+      "kind": "prophecy",
+      "label": "Sofonias 3:9 (\"Então porei lábios puros nos povos...\")",
+      "aliases": [],
+      "summary": "A promessa de universalidade cultual onde nações pagãs invocam Iavé em uníssono antecipa a teologia missionária do Novo Testamento, sendo interpretada por exegetas cristãos como cumprimento Pentecostal e escatológico em Cristo.",
+      "references": ["Isaías 19:24-25 e Zacarias 14:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "theme:a-mulher-no-efa-iniquidade-babilonia",
+      "kind": "theme",
+      "label": "A Mulher no Efa (Iniquidade/Babilônia)",
+      "aliases": [],
+      "summary": "Entidade mística transportada por duas mulheres com asas de cegonha para a terra de Sinar (Babilônia), simbolizando a remoção da impiedade de Israel.",
+      "references": ["Zacarias 5:5-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Personificação do pecado e do comércio ímpio",
+        "entityType": "Conceito/Símbolo"
+      }
+    },
+    {
+      "id": "theme:as-duas-oliveiras-os-dois-ungidos",
+      "kind": "theme",
+      "label": "As Duas Oliveiras / Os Dois Ungidos",
+      "aliases": [],
+      "summary": "Representados por Josué e Zorobabel, que assistem a todo o Senhor da terra, alimentando o candelabro dourado com azeite espiritual.",
+      "references": ["Zacarias 4:3, 4:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança dual (Realeza e Sacerdócio)",
+        "entityType": "Pessoa/Instituição"
+      }
+    },
+    {
+      "id": "theme:iahweh-dos-exercitos",
+      "kind": "theme",
+      "label": "Iahweh dos Exércitos",
+      "aliases": [],
+      "summary": "Divindade transcendente e imanente que dirige as potências geopolíticas, habita novamente em Jerusalém e executa julgamento e salvação.",
+      "references": ["Zacarias 1:3, 8:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus soberano de Israel e da história",
+        "entityType": "Pessoa/Divindade"
+      }
+    },
+    {
+      "id": "theme:jerusalem-a-cidade-fiel",
+      "kind": "theme",
+      "label": "Jerusalém (A Cidade Fiel)",
+      "aliases": [],
+      "summary": "Cenário central da restauração, descrita como cidade sem muros devido à multidão, habitada em paz e segurança sob a proteção divina.",
+      "references": ["Zacarias 2:4-5, 8:3-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital espiritual e política",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:o-anjo-de-iahweh",
+      "kind": "theme",
+      "label": "O Anjo de Iahweh",
+      "aliases": [],
+      "summary": "Figura angélica que intercede por Jerusalém, dialoga com o profeta nas visões noturnas e pronuncia julgamento contra Satanás e as nações opressoras.",
+      "references": ["Zacarias 1:11-12, 3:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediador divino",
+        "entityType": "Pessoa/Divindade"
+      }
+    },
+    {
+      "id": "theme:o-pastor-ferido",
+      "kind": "theme",
+      "label": "O Pastor Ferido",
+      "aliases": [],
+      "summary": "Pastor cujas ovelhas são dispersas após ser avaliado em trinta moedas de prata, antecipando motivos da paixão de Cristo.",
+      "references": ["Zacarias 11:12-13, 13:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Figura messiânica rejeitada",
+        "entityType": "Pessoa/Messias"
+      }
+    },
+    {
+      "id": "theme:os-quatro-ferreiros-artesaos",
+      "kind": "theme",
+      "label": "Os Quatro Ferreiros (Artesãos)",
+      "aliases": [],
+      "summary": "Entidades ou agentes enviados por Iahweh para aterrorizar e derrubar os quatro chifres que dispersaram Judá.",
+      "references": ["Zacarias 1:20-21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agentes de destruição dos impérios",
+        "entityType": "Pessoa/Símbolo"
+      }
+    },
+    {
+      "id": "theme:satanas-o-acusador",
+      "kind": "theme",
+      "label": "Satanás (o Acusador)",
+      "aliases": [],
+      "summary": "Adversário no tribunal celestial que resiste a Josué, o sumo sacerdote, sendo repreendido pelo próprio Iahweh.",
+      "references": ["Zacarias 3:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Acusador celeste",
+        "entityType": "Pessoa/Ser espiritual"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-josue-jozadaque:chapter-zacarias-3",
+      "from": "person:josue-jozadaque",
+      "to": "chapter:zacarias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué (Jozadaque)” cita explicitamente Ageu 1:1, 12; 2:2, 4; Zacarias 3:1.",
+      "references": ["Ageu 1:1, 12; 2:2, 4; Zacarias 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-o-sumo-sacerdote:chapter-zacarias-3",
+      "from": "person:josue-o-sumo-sacerdote",
+      "to": "chapter:zacarias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué, o Sumo Sacerdote” cita explicitamente **Zacarias 3:1-3**: *\"E ele me mostrou o sumo sacerdote Josué, o qual estava em pé diante do anjo do Senhor, e Satanás estava à sua mão direita, para o resistir... Ora, Josué, vestido de vestes sujas, estava em pé diante do anjo.\"*.",
+      "references": [
+        "**Zacarias 3:1-3**: *\"E ele me mostrou o sumo sacerdote Josué, o qual estava em pé diante do anjo do Senhor, e Satanás estava à sua mão direita, para o resistir... Ora, Josué, vestido de vestes sujas, estava em pé diante do anjo.\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-o-sumo-sacerdote:chapter-zacarias-6",
+      "from": "person:josue-o-sumo-sacerdote",
+      "to": "chapter:zacarias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué, o Sumo Sacerdote” cita explicitamente **Zacarias 6:11-12**: *\"Toma prata e ouro, e faze coroas, e põe-nas na cabeça do sumo sacerdote Josué, filho de Josadaque, e dize-lhe: Assim fala o Senhor dos Exércitos, dizendo: Eis aqui o homem cujo nome é Renovo...\"*.",
+      "references": [
+        "**Zacarias 6:11-12**: *\"Toma prata e ouro, e faze coroas, e põe-nas na cabeça do sumo sacerdote Josué, filho de Josadaque, e dize-lhe: Assim fala o Senhor dos Exércitos, dizendo: Eis aqui o homem cujo nome é Renovo...\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zacarias-filho-de-baraquias:chapter-zacarias-1",
+      "from": "person:zacarias-filho-de-baraquias",
+      "to": "chapter:zacarias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias, filho de Baraquias” cita explicitamente Zacarias 1:1, 1:7.",
+      "references": ["Zacarias 1:1, 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zorobabel:chapter-zacarias-4",
+      "from": "person:zorobabel",
+      "to": "chapter:zacarias:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zorobabel” cita explicitamente **Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*.",
+      "references": [
+        "**Zacarias 4:6-7**: *\"Esta é a palavra do Senhor a Zorobabel: Não por força nem por violência, mas pelo meu Espírito, diz o Senhor dos Exércitos. Quem és tu, ó grande monte? Diante de Zorobabel serás uma planície...\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-terra-de-sinar-babilonia:chapter-zacarias-5",
+      "from": "place:a-terra-de-sinar-babilonia",
+      "to": "chapter:zacarias:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Terra de Sinar (Babilônia)” cita explicitamente Zacarias 5:11.",
+      "references": ["Zacarias 5:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-zacarias-7",
+      "from": "place:betel",
+      "to": "chapter:zacarias:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Zacarias 7:2.",
+      "references": ["Zacarias 7:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-zacarias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:zacarias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Zacarias 1:14, 2:4, 8:3.",
+      "references": ["Zacarias 1:14, 2:4, 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-zacarias-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:zacarias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Zacarias 1:14, 2:4, 8:3.",
+      "references": ["Zacarias 1:14, 2:4, 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-zacarias-8",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:zacarias:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Zacarias 1:14, 2:4, 8:3.",
+      "references": ["Zacarias 1:14, 2:4, 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-das-oliveiras:chapter-zacarias-14",
+      "from": "place:o-monte-das-oliveiras",
+      "to": "chapter:zacarias:14",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte das Oliveiras” cita explicitamente Zacarias 14:4.",
+      "references": ["Zacarias 14:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-segundo-templo-casa-de-iahweh:chapter-zacarias-4",
+      "from": "place:o-segundo-templo-casa-de-iahweh",
+      "to": "chapter:zacarias:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Segundo Templo (Casa de Iahweh)” cita explicitamente Zacarias 4:9, 8:9.",
+      "references": ["Zacarias 4:9, 8:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-segundo-templo-casa-de-iahweh:chapter-zacarias-8",
+      "from": "place:o-segundo-templo-casa-de-iahweh",
+      "to": "chapter:zacarias:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Segundo Templo (Casa de Iahweh)” cita explicitamente Zacarias 4:9, 8:9.",
+      "references": ["Zacarias 4:9, 8:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8:chapter-zacarias-12",
+      "from": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "to": "chapter:zacarias:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O testemunho da água, do sangue e do Espírito (1 João 5:6-8)” cita explicitamente Zacarias 12:10; João 19:34; Ezequiel 36:25-27.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-zacarias-12-10-apocalipse-1-7:chapter-zacarias-12",
+      "from": "prophecy:apocalipse-zacarias-12-10-apocalipse-1-7",
+      "to": "chapter:zacarias:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 12:10 — Apocalipse 1:7” cita explicitamente Zacarias 12:10; Apocalipse 1:7.",
+      "references": ["Zacarias 12:10; Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele:chapter-zacarias-2",
+      "from": "prophecy:ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele",
+      "to": "chapter:zacarias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ester 6:13 (\"Se Mardoqueu... é da descendência dos judeus, não prevalecerás contra ele...\")” cita explicitamente Is 54:17; Zc 2:8.",
+      "references": ["Is 54:17; Zc 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-judas-a-disputa-de-miguel-pelo-corpo-de-moises:chapter-zacarias-3",
+      "from": "prophecy:judas-a-disputa-de-miguel-pelo-corpo-de-moises",
+      "to": "chapter:zacarias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A disputa de Miguel pelo corpo de Moisés” cita explicitamente Assunção de Moisés (perdido em parte); Zacarias 3:2.",
+      "references": ["Assunção de Moisés (perdido em parte); Zacarias 3:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9:chapter-zacarias-14",
+      "from": "prophecy:judas-eis-que-veio-o-senhor-com-milhares-de-seus-santos-para-fazer-juizo-contra-todos-1-enoque-1-9",
+      "to": "chapter:zacarias:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que veio o Senhor com milhares de seus santos, para fazer juízo contra todos...\" (1 Enoque 1:9)” cita explicitamente 1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2.",
+      "references": ["1 Enoque 1:9; Zacarias 14:5; Deuteronômio 33:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais:chapter-zacarias-2",
+      "from": "prophecy:neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais",
+      "to": "chapter:zacarias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 2:4 (\"Jerusalém será habitação de aldeias, por causa da multidão dos homens e dos animais...\")” cita explicitamente Neemias 7; 11; Zacarias 2.",
+      "references": ["Neemias 7; 11; Zacarias 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus:chapter-zacarias-2",
+      "from": "prophecy:rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus",
+      "to": "chapter:zacarias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 1:16 (\"O teu povo é o meu povo, o teu Deus é o meu Deus\")” cita explicitamente Isaías 56:3-6; Zacarias 2:11.",
+      "references": ["Isaías 56:3-6; Zacarias 2:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus:chapter-zacarias-2",
+      "from": "prophecy:sofonias-sofonias-1-7-cale-se-diante-do-senhor-deus",
+      "to": "chapter:zacarias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 1:7 (\"Cale-se diante do Senhor Deus...\")” cita explicitamente Habacuque 2:20 e Zacarias 2:13.",
+      "references": ["Habacuque 2:20 e Zacarias 2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos:chapter-zacarias-14",
+      "from": "prophecy:sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos",
+      "to": "chapter:zacarias:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 3:9 (\"Então porei lábios puros nos povos...\")” cita explicitamente Isaías 19:24-25 e Zacarias 14:9.",
+      "references": ["Isaías 19:24-25 e Zacarias 14:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-1:theme-iahweh-dos-exercitos",
+      "from": "chapter:zacarias:1",
+      "to": "theme:iahweh-dos-exercitos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iahweh dos Exércitos” cita explicitamente Zacarias 1:3, 8:3.",
+      "references": ["Zacarias 1:3, 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-1:theme-o-anjo-de-iahweh",
+      "from": "chapter:zacarias:1",
+      "to": "theme:o-anjo-de-iahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Anjo de Iahweh” cita explicitamente Zacarias 1:11-12, 3:1-2.",
+      "references": ["Zacarias 1:11-12, 3:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-1:theme-os-quatro-ferreiros-artesaos",
+      "from": "chapter:zacarias:1",
+      "to": "theme:os-quatro-ferreiros-artesaos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Quatro Ferreiros (Artesãos)” cita explicitamente Zacarias 1:20-21.",
+      "references": ["Zacarias 1:20-21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-11:theme-o-pastor-ferido",
+      "from": "chapter:zacarias:11",
+      "to": "theme:o-pastor-ferido",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Pastor Ferido” cita explicitamente Zacarias 11:12-13, 13:7.",
+      "references": ["Zacarias 11:12-13, 13:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-13:theme-o-pastor-ferido",
+      "from": "chapter:zacarias:13",
+      "to": "theme:o-pastor-ferido",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Pastor Ferido” cita explicitamente Zacarias 11:12-13, 13:7.",
+      "references": ["Zacarias 11:12-13, 13:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-2:theme-jerusalem-a-cidade-fiel",
+      "from": "chapter:zacarias:2",
+      "to": "theme:jerusalem-a-cidade-fiel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (A Cidade Fiel)” cita explicitamente Zacarias 2:4-5, 8:3-5.",
+      "references": ["Zacarias 2:4-5, 8:3-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-3:theme-o-anjo-de-iahweh",
+      "from": "chapter:zacarias:3",
+      "to": "theme:o-anjo-de-iahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Anjo de Iahweh” cita explicitamente Zacarias 1:11-12, 3:1-2.",
+      "references": ["Zacarias 1:11-12, 3:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-3:theme-satanas-o-acusador",
+      "from": "chapter:zacarias:3",
+      "to": "theme:satanas-o-acusador",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Satanás (o Acusador)” cita explicitamente Zacarias 3:1-2.",
+      "references": ["Zacarias 3:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-4:theme-as-duas-oliveiras-os-dois-ungidos",
+      "from": "chapter:zacarias:4",
+      "to": "theme:as-duas-oliveiras-os-dois-ungidos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Duas Oliveiras / Os Dois Ungidos” cita explicitamente Zacarias 4:3, 4:14.",
+      "references": ["Zacarias 4:3, 4:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-5:theme-a-mulher-no-efa-iniquidade-babilonia",
+      "from": "chapter:zacarias:5",
+      "to": "theme:a-mulher-no-efa-iniquidade-babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Mulher no Efa (Iniquidade/Babilônia)” cita explicitamente Zacarias 5:5-11.",
+      "references": ["Zacarias 5:5-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-8:theme-iahweh-dos-exercitos",
+      "from": "chapter:zacarias:8",
+      "to": "theme:iahweh-dos-exercitos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iahweh dos Exércitos” cita explicitamente Zacarias 1:3, 8:3.",
+      "references": ["Zacarias 1:3, 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-zacarias-8:theme-jerusalem-a-cidade-fiel",
+      "from": "chapter:zacarias:8",
+      "to": "theme:jerusalem-a-cidade-fiel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jerusalém (A Cidade Fiel)” cita explicitamente Zacarias 2:4-5, 8:3-5.",
+      "references": ["Zacarias 2:4-5, 8:3-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

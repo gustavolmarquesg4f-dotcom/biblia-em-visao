@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Tessalonicenses",
+  "count": 24,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "event:2-tessalonicenses-a-falsificacao-epistolar-e-perturbacao-mental",
+      "kind": "event",
+      "label": "A Falsificação Epistolar e Perturbação Mental",
+      "aliases": [],
+      "summary": "Circulação de rumores falsos, profecias infundadas e cartas apócrifas forjadas em nome de Paulo afirmando que o Dia do Senhor já havia chegado.",
+      "references": ["2 Tessalonicenses 2:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Causa pânico teológico na comunidade, levando Paulo a instituir o sinal autógrafo de autenticidade.",
+        "entities": "Paulo, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:2-tessalonicenses-a-intervencao-disciplinar-contra-a-ociosidade",
+      "kind": "event",
+      "label": "A Intervenção Disciplinar contra a Ociosidade",
+      "aliases": [],
+      "summary": "Paulo ordena o afastamento e a repreensão fraternal daqueles que vivem desordenadamente sem trabalhar, exortando-os ao repouso produtivo.",
+      "references": ["2 Tessalonicenses 3:6-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Preservação da integridade moral, autossuficiência e testemunho público da comunidade cristã.",
+        "entities": "Paulo, Ociosos (Ataktoi), Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:2-tessalonicenses-a-manifestacao-e-ruina-do-iniquo",
+      "kind": "event",
+      "label": "A Manifestação e Ruína do Iníquo",
+      "aliases": [],
+      "summary": "Ascensão do Homem da Iniquidade após a remoção do Katechon, operando prodígios satânicos até ser aniquilado pelo sopro da boca de Cristo.",
+      "references": ["2 Tessalonicenses 2:3-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o clímax do conflito cósmico entre Deus e as forças da desordem antes da consumação.",
+        "entities": "O Homem da Iniquidade, O Detentor (Katechon), Senhor Jesus, Satanás"
+      }
+    },
+    {
+      "id": "event:2-tessalonicenses-a-retribuicao-na-parousia",
+      "kind": "event",
+      "label": "A Retribuição na Parousia",
+      "aliases": [],
+      "summary": "Revelação do Senhor Jesus do céu com seus anjos em labaredas de fogo para infligir vingança aos que não conhecem a Deus.",
+      "references": ["2 Tessalonicenses 1:7-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consolação definitiva dos perseguidos e separação eterna entre salvos e perdidos.",
+        "entities": "Senhor Jesus, Igreja dos Tessalonicenses"
+      }
+    },
+    {
+      "id": "event:2-tessalonicenses-perseguicao-e-tribulacao-da-igreja",
+      "kind": "event",
+      "label": "Perseguição e Tribulação da Igreja",
+      "aliases": [],
+      "summary": "Os crentes tessalonicenses enfrentam duras provações e aflições por causa do Reino de Deus, demonstrando perseverança heroica.",
+      "references": ["2 Tessalonicenses 1:3-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Validação da eleição divina e demonstração da justiça retributiva de Deus no juízo final.",
+        "entities": "Igreja dos Tessalonicenses, Senhor Jesus"
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:silvano-silas",
+      "kind": "person",
+      "label": "Silvano (Silas)",
+      "aliases": [],
+      "summary": "Colaborador apostólico associado a Paulo e Timóteo na evangelização de Tessalônica e na redação da epístola.",
+      "references": [
+        "1 Ts 1:1; At 15:22-40",
+        "2 Tessalonicenses 1:1",
+        "1Pe 5:12"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Amanuense ou portador encarregado de transcrever e entregar a epístola.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:o-abismo-perdicao",
+      "kind": "place",
+      "label": "O Abismo / Perdição",
+      "aliases": [],
+      "summary": "Destino escatológico de perdição eterna para os rebeldes e seguidores do Iníquo.",
+      "references": ["2 Tessalonicenses 1:9; 2:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Teológico" }
+    },
+    {
+      "id": "place:o-ceu",
+      "kind": "place",
+      "label": "O Céu",
+      "aliases": [],
+      "summary": "Morada de Deus de onde o Senhor Jesus descera acompanhado de anjos em chamas de fogo.",
+      "references": ["2 Tessalonicenses 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-templo-de-deus",
+      "kind": "place",
+      "label": "O Templo de Deus",
+      "aliases": [],
+      "summary": "Espaço onde o Homem da Iniquidade se assenta e se exalta acima de tudo o que se chama Deus.",
+      "references": ["2 Tessalonicenses 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Disputado" }
+    },
+    {
+      "id": "place:tessalonica",
+      "kind": "place",
+      "label": "Tessalônica",
+      "aliases": [],
+      "summary": "Capital próspera e porto estratégico da província romana da Macedônia (via Egnácia), centro urbano de onde o evangelho irradiou para a região.",
+      "references": ["At 17:1; 1 Ts 1:8", "2 Tessalonicenses 1:1; Atos 17:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:2-tessalonicenses-daniel-7-23-25-11-36",
+      "kind": "prophecy",
+      "label": "Daniel 7:23-25 / 11:36",
+      "aliases": [],
+      "summary": "O retrato do Homem da Iniquidade ecoa diretamente o Pequeno Chifre de Daniel e o rei soberbo que se exalta acima de todo deus, evidenciando o uso de tipologias apocalípticas do Antigo Testamento. As interpretações divergem entre ver profecias cumpridas em imperadores romanos (como Nero ou Calígula), figuras históricas papais (no protestantismo histórico) ou anticristos escatológicos futuros.",
+      "references": ["2 Tessalonicenses 2:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Alusão" }
+    },
+    {
+      "id": "prophecy:2-tessalonicenses-genesis-3-15-ezequiel-28-2",
+      "kind": "prophecy",
+      "label": "Gênesis 3:15 / Ezequiel 28:2",
+      "aliases": [],
+      "summary": "A soberba do Homem da Iniquidade que se assenta no templo reivindicando divindade espelha o arquétipo satânico primordial de rebelião e autodeificação humana.",
+      "references": ["2 Tessalonicenses 2:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "prophecy:2-tessalonicenses-isaias-11-4",
+      "kind": "prophecy",
+      "label": "Isaías 11:4",
+      "aliases": [],
+      "summary": "A descrição de que o Senhor Jesus matará o iníquo \"com o sopro da sua boca\" e o destruirá \"pela manifestação da sua vinda\" baseia-se na imagem messiânica de Isaías. Divergências ocorrem entre leituras literais de uma vitória cósmica instantânea e leituras sócio-políticas da soberania divina sobre impérios terrenos.",
+      "references": ["2 Tessalonicenses 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Alusão" }
+    },
+    {
+      "id": "prophecy:2-tessalonicenses-isaias-66-15-salmos-79-6",
+      "kind": "prophecy",
+      "label": "Isaías 66:15 / Salmos 79:6",
+      "aliases": [],
+      "summary": "A manifestação do Senhor em \"chama de fogo, tomando vingança dos que não conhecem a Deus\" espelha o juízo escatológico veterotestamentário sobre as nações rebeldes. Acadêmicos debatem se a linguagem é hipérbole retórica ou proclamação de juízo ontológico literal.",
+      "references": ["2 Tessalonicenses 1:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão" }
+    },
+    {
+      "id": "theme:igreja-dos-tessalonicenses",
+      "kind": "theme",
+      "label": "Igreja dos Tessalonicenses",
+      "aliases": [],
+      "summary": "Comunidade cristã composta majoritariamente por gentios convertidos, destacada pela fé operosa, amor e firmeza sob perseguição.",
+      "references": ["1 Ts 1:1; 1:9-10; 2:14", "2 Tessalonicenses 1:1; 1:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatária da epístola",
+        "entityType": "Povo / Comunidade"
+      }
+    },
+    {
+      "id": "theme:o-detentor-katechon",
+      "kind": "theme",
+      "label": "O Detentor (Katechon)",
+      "aliases": [],
+      "summary": "Princípio, agente ou poder que atualmente detém a manifestação plena do mal até o tempo determinado",
+      "references": ["2 Tessalonicenses 2:6-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Obstáculo temporário à revelação da iniquidade",
+        "entityType": "Conceito / Força restritiva"
+      }
+    },
+    {
+      "id": "theme:o-homem-da-iniquidade-filho-da-perdicao",
+      "kind": "theme",
+      "label": "O Homem da Iniquidade (Filho da Perdição)",
+      "aliases": [],
+      "summary": "Figura de impiedade que se assentarão no templo de Deus proclamando-se Deus, destinada à destruição pela vinda de Cristo",
+      "references": ["2 Tessalonicenses 2:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversário escatológico de Deus",
+        "entityType": "Pessoa / Símbolo escatológico"
+      }
+    },
+    {
+      "id": "theme:ociosos-ataktoi",
+      "kind": "theme",
+      "label": "Ociosos (Ataktoi)",
+      "aliases": [],
+      "summary": "Indivíduos que abandonaram o trabalho cotidiano sob pretexto escatológico, vivendo à custa alheia",
+      "references": ["2 Tessalonicenses 3:6-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Membros desordenados da comunidade",
+        "entityType": "Povo / Grupo social"
+      }
+    },
+    {
+      "id": "theme:satanas",
+      "kind": "theme",
+      "label": "Satanás",
+      "aliases": [],
+      "summary": "Entidade espiritual maligna descrita por Paulo como responsável por impedir temporariamente sua viagem de retorno a Tessalônica.",
+      "references": ["1 Ts 2:18", "2 Tessalonicenses 2:9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instigador da atividade enganadora",
+        "entityType": "Pessoa / Entidade espiritual"
+      }
+    },
+    {
+      "id": "theme:senhor-jesus",
+      "kind": "theme",
+      "label": "Senhor Jesus",
+      "aliases": [],
+      "summary": "Aquele que se manifestará em flaming power para retribuir os perseguidores e glorificar os santos",
+      "references": ["2 Tessalonicenses 1:7-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Agente da parousia e juiz escatológico",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-2-tessalonicenses-a-falsificacao-epistolar-e-perturbacao-mental:chapter-2-tessalonicenses-2",
+      "from": "event:2-tessalonicenses-a-falsificacao-epistolar-e-perturbacao-mental",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Falsificação Epistolar e Perturbação Mental” cita explicitamente 2 Tessalonicenses 2:1-2.",
+      "references": ["2 Tessalonicenses 2:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-tessalonicenses-a-intervencao-disciplinar-contra-a-ociosidade:chapter-2-tessalonicenses-3",
+      "from": "event:2-tessalonicenses-a-intervencao-disciplinar-contra-a-ociosidade",
+      "to": "chapter:2-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Intervenção Disciplinar contra a Ociosidade” cita explicitamente 2 Tessalonicenses 3:6-15.",
+      "references": ["2 Tessalonicenses 3:6-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-tessalonicenses-a-manifestacao-e-ruina-do-iniquo:chapter-2-tessalonicenses-2",
+      "from": "event:2-tessalonicenses-a-manifestacao-e-ruina-do-iniquo",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Manifestação e Ruína do Iníquo” cita explicitamente 2 Tessalonicenses 2:3-8.",
+      "references": ["2 Tessalonicenses 2:3-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-tessalonicenses-a-retribuicao-na-parousia:chapter-2-tessalonicenses-1",
+      "from": "event:2-tessalonicenses-a-retribuicao-na-parousia",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Retribuição na Parousia” cita explicitamente 2 Tessalonicenses 1:7-10.",
+      "references": ["2 Tessalonicenses 1:7-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-2-tessalonicenses-perseguicao-e-tribulacao-da-igreja:chapter-2-tessalonicenses-1",
+      "from": "event:2-tessalonicenses-perseguicao-e-tribulacao-da-igreja",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Perseguição e Tribulação da Igreja” cita explicitamente 2 Tessalonicenses 1:3-5.",
+      "references": ["2 Tessalonicenses 1:3-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-2-tessalonicenses-1",
+      "from": "person:paulo",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 2 Tessalonicenses 1:1; 3:17.",
+      "references": ["2 Tessalonicenses 1:1; 3:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-2-tessalonicenses-3",
+      "from": "person:paulo",
+      "to": "chapter:2-tessalonicenses:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 2 Tessalonicenses 1:1; 3:17.",
+      "references": ["2 Tessalonicenses 1:1; 3:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-silvano-silas:chapter-2-tessalonicenses-1",
+      "from": "person:silvano-silas",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Silvano (Silas)” cita explicitamente 2 Tessalonicenses 1:1.",
+      "references": ["2 Tessalonicenses 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-2-tessalonicenses-1",
+      "from": "person:timoteo",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 2 Tessalonicenses 1:1.",
+      "references": ["2 Tessalonicenses 1:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-abismo-perdicao:chapter-2-tessalonicenses-1",
+      "from": "place:o-abismo-perdicao",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Abismo / Perdição” cita explicitamente 2 Tessalonicenses 1:9; 2:3.",
+      "references": ["2 Tessalonicenses 1:9; 2:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-abismo-perdicao:chapter-2-tessalonicenses-2",
+      "from": "place:o-abismo-perdicao",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Abismo / Perdição” cita explicitamente 2 Tessalonicenses 1:9; 2:3.",
+      "references": ["2 Tessalonicenses 1:9; 2:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-ceu:chapter-2-tessalonicenses-1",
+      "from": "place:o-ceu",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Céu” cita explicitamente 2 Tessalonicenses 1:7.",
+      "references": ["2 Tessalonicenses 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-deus:chapter-2-tessalonicenses-2",
+      "from": "place:o-templo-de-deus",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Deus” cita explicitamente 2 Tessalonicenses 2:4.",
+      "references": ["2 Tessalonicenses 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tessalonica:chapter-2-tessalonicenses-1",
+      "from": "place:tessalonica",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tessalônica” cita explicitamente 2 Tessalonicenses 1:1; Atos 17:1.",
+      "references": ["2 Tessalonicenses 1:1; Atos 17:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-tessalonicenses-daniel-7-23-25-11-36:chapter-2-tessalonicenses-2",
+      "from": "prophecy:2-tessalonicenses-daniel-7-23-25-11-36",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:23-25 / 11:36” cita explicitamente 2 Tessalonicenses 2:3-4.",
+      "references": ["2 Tessalonicenses 2:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-tessalonicenses-genesis-3-15-ezequiel-28-2:chapter-2-tessalonicenses-2",
+      "from": "prophecy:2-tessalonicenses-genesis-3-15-ezequiel-28-2",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 3:15 / Ezequiel 28:2” cita explicitamente 2 Tessalonicenses 2:4.",
+      "references": ["2 Tessalonicenses 2:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-tessalonicenses-isaias-11-4:chapter-2-tessalonicenses-2",
+      "from": "prophecy:2-tessalonicenses-isaias-11-4",
+      "to": "chapter:2-tessalonicenses:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 11:4” cita explicitamente 2 Tessalonicenses 2:8.",
+      "references": ["2 Tessalonicenses 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-tessalonicenses-isaias-66-15-salmos-79-6:chapter-2-tessalonicenses-1",
+      "from": "prophecy:2-tessalonicenses-isaias-66-15-salmos-79-6",
+      "to": "chapter:2-tessalonicenses:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 66:15 / Salmos 79:6” cita explicitamente 2 Tessalonicenses 1:8.",
+      "references": ["2 Tessalonicenses 1:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-1:theme-igreja-dos-tessalonicenses",
+      "from": "chapter:2-tessalonicenses:1",
+      "to": "theme:igreja-dos-tessalonicenses",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja dos Tessalonicenses” cita explicitamente 2 Tessalonicenses 1:1; 1:4.",
+      "references": ["2 Tessalonicenses 1:1; 1:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-1:theme-senhor-jesus",
+      "from": "chapter:2-tessalonicenses:1",
+      "to": "theme:senhor-jesus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Senhor Jesus” cita explicitamente 2 Tessalonicenses 1:7-10.",
+      "references": ["2 Tessalonicenses 1:7-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-2:theme-o-detentor-katechon",
+      "from": "chapter:2-tessalonicenses:2",
+      "to": "theme:o-detentor-katechon",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Detentor (Katechon)” cita explicitamente 2 Tessalonicenses 2:6-7.",
+      "references": ["2 Tessalonicenses 2:6-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-2:theme-o-homem-da-iniquidade-filho-da-perdicao",
+      "from": "chapter:2-tessalonicenses:2",
+      "to": "theme:o-homem-da-iniquidade-filho-da-perdicao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Homem da Iniquidade (Filho da Perdição)” cita explicitamente 2 Tessalonicenses 2:3-4.",
+      "references": ["2 Tessalonicenses 2:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-2:theme-satanas",
+      "from": "chapter:2-tessalonicenses:2",
+      "to": "theme:satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Satanás” cita explicitamente 2 Tessalonicenses 2:9-10.",
+      "references": ["2 Tessalonicenses 2:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-tessalonicenses-3:theme-ociosos-ataktoi",
+      "from": "chapter:2-tessalonicenses:3",
+      "to": "theme:ociosos-ataktoi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Ociosos (Ataktoi)” cita explicitamente 2 Tessalonicenses 3:6-11.",
+      "references": ["2 Tessalonicenses 3:6-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

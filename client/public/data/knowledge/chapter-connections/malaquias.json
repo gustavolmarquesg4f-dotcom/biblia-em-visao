@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "book": "Malaquias",
+  "count": 24,
+  "chapterCount": 4,
+  "nodes": [
+    {
+      "id": "event:malaquias-a-acusacao-do-amor-divino-e-o-questionamento-de-edom",
+      "kind": "event",
+      "label": "A Acusação do Amor Divino e o Questionamento de Edom",
+      "aliases": [],
+      "summary": "YHWH declara seu amor eletivo por Israel, enquanto Edom tenta reconstruir suas ruínas sem sucesso divino.",
+      "references": ["Malaquias Ml 1:1–5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a base da aliança e confronta o ceticismo cínico da comunidade pós-exílica sobre a providência divina.",
+        "entities": "Malaquias, YHWH dos Exércitos, Edom"
+      }
+    },
+    {
+      "id": "event:malaquias-a-profanacao-do-altar-com-ofertas-defeituosas",
+      "kind": "event",
+      "label": "A Profanação do Altar com Ofertas Defeituosas",
+      "aliases": [],
+      "summary": "Os sacerdotes oferecem animais cegos e mancos no altar do templo, desonrando a santidade de YHWH.",
+      "references": ["Malaquias Ml 1:6–14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desencadeia a ameaça de maldição sacerdotal e a exigência de reforma cultual severa.",
+        "entities": "Sacerdotes, YHWH dos Exércitos, Governador"
+      }
+    },
+    {
+      "id": "event:malaquias-o-anuncio-do-dia-do-senhor-e-o-envio-de-elias",
+      "kind": "event",
+      "label": "O Anúncio do Dia do Senhor e o Envio de Elias",
+      "aliases": [],
+      "summary": "Promessa da vinda repentina do Senhor ao templo, a separação entre justos e ímpios, e o envio de Elias.",
+      "references": ["Malaquias Ml 3:1–5; 4:1–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conclui o cânon profético estabelecendo a escatologia veterotestamentária e a ponte intertestamentária.",
+        "entities": "O Mensageiro, Elias, YHWH dos Exércitos, Os Tementes"
+      }
+    },
+    {
+      "id": "event:malaquias-o-circulo-de-divorcios-em-massa-e-casamentos-mistos",
+      "kind": "event",
+      "label": "O Círculo de Divórcios em Massa e Casamentos Mistos",
+      "aliases": [],
+      "summary": "Homens de Judá repudiam as esposas de sua juventude para se unirem a mulheres estrangeiras, quebrando a aliança matrimonial.",
+      "references": ["Malaquias Ml 2:10–16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Provoca a advertência severa contra a quebra da 'semente santa' e a rejeição das ofertas por Deus.",
+        "entities": "Sacerdotes, Mulheres Estrangeiras, YHWH dos Exércitos"
+      }
+    },
+    {
+      "id": "event:malaquias-o-desafio-do-dizimo-e-a-promessa-das-janelas-dos-ceus",
+      "kind": "event",
+      "label": "O Desafio do Dízimo e a Promessa das Janelas dos Céus",
+      "aliases": [],
+      "summary": "O povo é convocado a entregar os dízimos integrais na casa do tesouro para sustentar o culto e evitar a ruína agrícola.",
+      "references": ["Malaquias Ml 3:6–12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Restaura a provisão econômica do templo e sela uma aliança de bênção material entre Deus e o povo obediente.",
+        "entities": "YHWH dos Exércitos, Os Tementes"
+      }
+    },
+    {
+      "id": "place:a-provincia-de-yehud-juda",
+      "kind": "place",
+      "label": "A Província de Yehud (Judá)",
+      "aliases": [],
+      "summary": "Entidade territorial sob dominação do Império Persa onde reside a comunidade empobrecida e desencantada.",
+      "references": ["Ml 1:1; 2:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Político / Geográfico" }
+    },
+    {
+      "id": "place:edom-monte-seir",
+      "kind": "place",
+      "label": "Edom (Monte Seir)",
+      "aliases": [],
+      "summary": "Região montanhosa ao sul de Judá, cujos escombros servem de testemunho da ira divina contra a soberba nacional.",
+      "references": ["Ml 1:3–4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-templo-casa-do-tesouro",
+      "kind": "place",
+      "label": "O Templo (Casa do Tesouro)",
+      "aliases": [],
+      "summary": "Local sagrado do culto onde se oferecem os sacrifícios e para onde devem ser trazidos os dízimos e ofertas.",
+      "references": ["Ml 3:1, 10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Institucional / Geográfico" }
+    },
+    {
+      "id": "prophecy:esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao",
+      "kind": "prophecy",
+      "label": "A pureza da semente santa e o repúdio à profanação",
+      "aliases": [],
+      "summary": "Conexão temática direta com a crítica de Malaquias aos casamentos mistos e à infidelidade na aliança.",
+      "references": ["Malaquias 2.11–12; Esdras 9.2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / ética da aliança" }
+    },
+    {
+      "id": "theme:edom-esau",
+      "kind": "theme",
+      "label": "Edom (Esaú)",
+      "aliases": [],
+      "summary": "Território vizinho (idumeu) devastado cujas ruínas simbolizam o juízo irrevogável de Deus sobre as nações hostis.",
+      "references": ["Ml 1:2–4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Irmão e rival histórico de Israel",
+        "entityType": "Povo / Nação"
+      }
+    },
+    {
+      "id": "theme:elias",
+      "kind": "theme",
+      "label": "Elias",
+      "aliases": [],
+      "summary": "Profeta escatológico prometido para restaurar as relações familiares e espirituais antes do Dia do Senhor.",
+      "references": ["Ml 4:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta do Antigo Testamento redivivo",
+        "entityType": "Pessoa / Figura Histórica e Escatológica"
+      }
+    },
+    {
+      "id": "theme:governador-pechah",
+      "kind": "theme",
+      "label": "Governador (Pechah)",
+      "aliases": [],
+      "summary": "Representante do Império Aquemênida na província, usado como parâmetro de honra e respeito cultual.",
+      "references": ["Ml 1:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Autoridade civil imperial persa",
+        "entityType": "Instituição / Cargo Político"
+      }
+    },
+    {
+      "id": "theme:malaquias",
+      "kind": "theme",
+      "label": "Malaquias",
+      "aliases": [],
+      "summary": "Figura enigmática cujo nome (Mal'akî, 'Meu Mensageiro') pode ser um título funcional derivado de 3:1 em vez de um nome próprio pessoal.",
+      "references": ["Ml 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Porta-voz anônimo / Profeta",
+        "entityType": "Pessoa / Título"
+      }
+    },
+    {
+      "id": "theme:mulheres-estrangeiras-esposas-da-mocidade",
+      "kind": "theme",
+      "label": "Mulheres Estrangeiras / Esposas da Mocidade",
+      "aliases": [],
+      "summary": "Esposas estrangeiras e o divórcio das esposas israelitas originais, foco da condenação social e religiosa.",
+      "references": ["Ml 2:10–15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mulheres de nações vizinhas",
+        "entityType": "Povo / Grupo Social"
+      }
+    },
+    {
+      "id": "theme:o-mensageiro-mal-ak",
+      "kind": "theme",
+      "label": "O Mensageiro (Mal'ak)",
+      "aliases": [],
+      "summary": "Figura misteriosa enviada para aplainar o caminho e preparar a chegada do Senhor ao seu templo.",
+      "references": ["Ml 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Precursor divino",
+        "entityType": "Pessoa / Figura Escatológica"
+      }
+    },
+    {
+      "id": "theme:os-tementes-a-yhwh",
+      "kind": "theme",
+      "label": "Os Tementes a YHWH",
+      "aliases": [],
+      "summary": "Pequeno grupo dentro da comunidade apática que se reúne para conversar e cujos nomes são registrados no livro de memórias.",
+      "references": ["Ml 3:16–17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Remanescente fiel",
+        "entityType": "Grupo Social / Comunidade"
+      }
+    },
+    {
+      "id": "theme:sacerdotes-filhos-de-levi",
+      "kind": "theme",
+      "label": "Sacerdotes (Filhos de Levi)",
+      "aliases": [],
+      "summary": "Grupo acusado de corromper o ritual oferecendo sacrifícios defeituosos e de desviar o povo do ensino da Torá.",
+      "references": ["Ml 2:1–8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança religiosa do Segundo Templo",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:sacerdotes-leviticos-aronidas",
+      "kind": "theme",
+      "label": "Sacerdotes levíticos (Arônidas)",
+      "aliases": [],
+      "summary": "Oferecem sacrifícios, ensinam a Torá e discernem entre o puro e o impuro",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediadores cultuais",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:yhwh-dos-exercitos",
+      "kind": "theme",
+      "label": "YHWH dos Exércitos",
+      "aliases": [],
+      "summary": "Sujeito central dos oráculos, que exige fidelidade cultual e ética, denunciando a deslealdade do seu povo na província de Yehud.",
+      "references": ["Ml 1:2, 6, 14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano cósmico",
+        "entityType": "Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-malaquias-a-acusacao-do-amor-divino-e-o-questionamento-de-edom:chapter-malaquias-1",
+      "from": "event:malaquias-a-acusacao-do-amor-divino-e-o-questionamento-de-edom",
+      "to": "chapter:malaquias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Acusação do Amor Divino e o Questionamento de Edom” cita explicitamente Malaquias Ml 1:1–5.",
+      "references": ["Malaquias Ml 1:1–5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-malaquias-a-profanacao-do-altar-com-ofertas-defeituosas:chapter-malaquias-1",
+      "from": "event:malaquias-a-profanacao-do-altar-com-ofertas-defeituosas",
+      "to": "chapter:malaquias:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Profanação do Altar com Ofertas Defeituosas” cita explicitamente Malaquias Ml 1:6–14.",
+      "references": ["Malaquias Ml 1:6–14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-malaquias-o-anuncio-do-dia-do-senhor-e-o-envio-de-elias:chapter-malaquias-3",
+      "from": "event:malaquias-o-anuncio-do-dia-do-senhor-e-o-envio-de-elias",
+      "to": "chapter:malaquias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Anúncio do Dia do Senhor e o Envio de Elias” cita explicitamente Malaquias Ml 3:1–5; 4:1–6.",
+      "references": ["Malaquias Ml 3:1–5; 4:1–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-malaquias-o-anuncio-do-dia-do-senhor-e-o-envio-de-elias:chapter-malaquias-4",
+      "from": "event:malaquias-o-anuncio-do-dia-do-senhor-e-o-envio-de-elias",
+      "to": "chapter:malaquias:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Anúncio do Dia do Senhor e o Envio de Elias” cita explicitamente Malaquias Ml 3:1–5; 4:1–6.",
+      "references": ["Malaquias Ml 3:1–5; 4:1–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-malaquias-o-circulo-de-divorcios-em-massa-e-casamentos-mistos:chapter-malaquias-2",
+      "from": "event:malaquias-o-circulo-de-divorcios-em-massa-e-casamentos-mistos",
+      "to": "chapter:malaquias:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Círculo de Divórcios em Massa e Casamentos Mistos” cita explicitamente Malaquias Ml 2:10–16.",
+      "references": ["Malaquias Ml 2:10–16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-malaquias-o-desafio-do-dizimo-e-a-promessa-das-janelas-dos-ceus:chapter-malaquias-3",
+      "from": "event:malaquias-o-desafio-do-dizimo-e-a-promessa-das-janelas-dos-ceus",
+      "to": "chapter:malaquias:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Desafio do Dízimo e a Promessa das Janelas dos Céus” cita explicitamente Malaquias Ml 3:6–12.",
+      "references": ["Malaquias Ml 3:6–12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-de-yehud-juda:chapter-malaquias-1",
+      "from": "place:a-provincia-de-yehud-juda",
+      "to": "chapter:malaquias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província de Yehud (Judá)” cita explicitamente Ml 1:1; 2:11.",
+      "references": ["Ml 1:1; 2:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-provincia-de-yehud-juda:chapter-malaquias-2",
+      "from": "place:a-provincia-de-yehud-juda",
+      "to": "chapter:malaquias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Província de Yehud (Judá)” cita explicitamente Ml 1:1; 2:11.",
+      "references": ["Ml 1:1; 2:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-edom-monte-seir:chapter-malaquias-1",
+      "from": "place:edom-monte-seir",
+      "to": "chapter:malaquias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Edom (Monte Seir)” cita explicitamente Ml 1:3–4.",
+      "references": ["Ml 1:3–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-malaquias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:malaquias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Ml 1:5; 2:11; 3:1.",
+      "references": ["Ml 1:5; 2:11; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-malaquias-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:malaquias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Ml 1:5; 2:11; 3:1.",
+      "references": ["Ml 1:5; 2:11; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-malaquias-3",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:malaquias:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Ml 1:5; 2:11; 3:1.",
+      "references": ["Ml 1:5; 2:11; 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-casa-do-tesouro:chapter-malaquias-3",
+      "from": "place:o-templo-casa-do-tesouro",
+      "to": "chapter:malaquias:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo (Casa do Tesouro)” cita explicitamente Ml 3:1, 10.",
+      "references": ["Ml 3:1, 10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao:chapter-malaquias-2",
+      "from": "prophecy:esdras-a-pureza-da-semente-santa-e-o-repudio-a-profanacao",
+      "to": "chapter:malaquias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A pureza da semente santa e o repúdio à profanação” cita explicitamente Malaquias 2.11–12; Esdras 9.2.",
+      "references": ["Malaquias 2.11–12; Esdras 9.2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-1:theme-edom-esau",
+      "from": "chapter:malaquias:1",
+      "to": "theme:edom-esau",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Edom (Esaú)” cita explicitamente Ml 1:2–4.",
+      "references": ["Ml 1:2–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-1:theme-governador-pechah",
+      "from": "chapter:malaquias:1",
+      "to": "theme:governador-pechah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Governador (Pechah)” cita explicitamente Ml 1:8.",
+      "references": ["Ml 1:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-1:theme-malaquias",
+      "from": "chapter:malaquias:1",
+      "to": "theme:malaquias",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Malaquias” cita explicitamente Ml 1:1.",
+      "references": ["Ml 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-1:theme-yhwh-dos-exercitos",
+      "from": "chapter:malaquias:1",
+      "to": "theme:yhwh-dos-exercitos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHWH dos Exércitos” cita explicitamente Ml 1:2, 6, 14.",
+      "references": ["Ml 1:2, 6, 14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-2:theme-mulheres-estrangeiras-esposas-da-mocidade",
+      "from": "chapter:malaquias:2",
+      "to": "theme:mulheres-estrangeiras-esposas-da-mocidade",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Mulheres Estrangeiras / Esposas da Mocidade” cita explicitamente Ml 2:10–15.",
+      "references": ["Ml 2:10–15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-2:theme-sacerdotes-filhos-de-levi",
+      "from": "chapter:malaquias:2",
+      "to": "theme:sacerdotes-filhos-de-levi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes (Filhos de Levi)” cita explicitamente Ml 2:1–8.",
+      "references": ["Ml 2:1–8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-2:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:malaquias:2",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-3:theme-o-mensageiro-mal-ak",
+      "from": "chapter:malaquias:3",
+      "to": "theme:o-mensageiro-mal-ak",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Mensageiro (Mal'ak)” cita explicitamente Ml 3:1.",
+      "references": ["Ml 3:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-3:theme-os-tementes-a-yhwh",
+      "from": "chapter:malaquias:3",
+      "to": "theme:os-tementes-a-yhwh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Tementes a YHWH” cita explicitamente Ml 3:16–17.",
+      "references": ["Ml 3:16–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-malaquias-4:theme-elias",
+      "from": "chapter:malaquias:4",
+      "to": "theme:elias",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Elias” cita explicitamente Ml 4:5.",
+      "references": ["Ml 4:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

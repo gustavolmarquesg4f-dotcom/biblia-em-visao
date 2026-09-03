@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "book": "Neemias",
+  "count": 51,
+  "chapterCount": 13,
+  "nodes": [
+    {
+      "id": "event:neemias-assinatura-do-pacto-de-fidelidade",
+      "kind": "event",
+      "label": "Assinatura do Pacto de Fidelidade",
+      "aliases": [],
+      "summary": "O povo confessa seus pecados em jejum, culminando em um compromisso escrito (selado por líderes) de guardar a Torá, abster-se de casamentos mistos e sustentar o Templo.",
+      "references": ["Neemias 9:1-10:39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Institucionalização rigorosa da separação religiosa e estruturação financeira do sacerdócio.",
+        "entities": "Neemias, Líderes de Israel, Levitas"
+      }
+    },
+    {
+      "id": "event:neemias-conspiracao-e-defesa-armada",
+      "kind": "event",
+      "label": "Conspiração e Defesa Armada",
+      "aliases": [],
+      "summary": "Diante das ameaças de ataque de Sanballat e Tobias, Neemias divide o povo, armando-os com espadas e lanças enquanto trabalham nas muralhas.",
+      "references": ["Neemias 4:1-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Institui a mútua dependência entre trabalho construtivo e prontidão militar na comunidade pós-exílica.",
+        "entities": "Neemias, Sanballat, Tobias"
+      }
+    },
+    {
+      "id": "event:neemias-dedicacao-solene-das-muralhas",
+      "kind": "event",
+      "label": "Dedicação Solene das Muralhas",
+      "aliases": [],
+      "summary": "Duas grandes procissões corais dão a volta sobre os muros recém-concluídos de Jerusalém, convergindo para o Templo com sacrifícios e grande regozijo.",
+      "references": ["Neemias 12:27-43"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consagração religiosa e política da nova infraestrutura urbana, afirmando a soberania cultual de Jerusalém.",
+        "entities": "Neemias, Esdras, Coros Levíticos"
+      }
+    },
+    {
+      "id": "event:neemias-inspecao-noturna-de-neemias",
+      "kind": "event",
+      "label": "Inspeção Noturna de Neemias",
+      "aliases": [],
+      "summary": "Neemias cavalga secretamente pelas ruínas de Jerusalém à noite para avaliar a extensão dos danos antes de revelar seus planos à comunidade.",
+      "references": ["Neemias 2:11-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a prudência administrativa e tática de Neemias, iniciando o processo operativo de reconstrução.",
+        "entities": "Neemias, Portões de Jerusalém"
+      }
+    },
+    {
+      "id": "event:neemias-leitura-publica-da-tora-e-festa-dos-tabernaculos",
+      "kind": "event",
+      "label": "Leitura Pública da Torá e Festa dos Tabernáculos",
+      "aliases": [],
+      "summary": "Esdras lê a Lei por horas na Praça da Porta das Águas, gerando grande comoção e a celebração festiva dos Tabernáculos conforme o Pentateuco.",
+      "references": ["Neemias 8:1-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Restauração da identidade cultual e textual da comunidade pós-exílica em torno da Escritura.",
+        "entities": "Esdras, Levitas, Povo de Israel"
+      }
+    },
+    {
+      "id": "event:neemias-reforma-economica-e-cancelamento-de-dividas",
+      "kind": "event",
+      "label": "Reforma Econômica e Cancelamento de Dívidas",
+      "aliases": [],
+      "summary": "Neemias confronta os nobres que escravizavam compatriotas por dívidas, exigindo a restituição de terras e o fim dos juros abusivos.",
+      "references": ["Neemias 5:1-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Alívio socioeconômico temporário e consolidação da autoridade ética de Neemias como governador altruísta.",
+        "entities": "Neemias, Nobres de Judá, Pobres de Judá"
+      }
+    },
+    {
+      "id": "people-group:os-nobres-de-juda",
+      "kind": "people-group",
+      "label": "Os Nobres de Judá",
+      "aliases": [],
+      "summary": "Camada dirigente judaica que cobrava juros abusivos de seus irmãos empobrecidos, sendo severamente repreendida por Neemias.",
+      "references": ["Neemias 5:7; 13:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Elite econômica local", "entityType": "Povo" }
+    },
+    {
+      "id": "person:artaxerxes-i",
+      "kind": "person",
+      "label": "Artaxerxes I",
+      "aliases": [],
+      "summary": "Soberano aquemênida que concede autorização, salvo-conduto e madeira para a reconstrução de Jerusalém e nomeia Neemias como governador.",
+      "references": ["Esdras 7.1, 7, 11, 21", "Neemias 2:1; 5:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei da Pérsia", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:eliashib",
+      "kind": "person",
+      "label": "Eliashib",
+      "aliases": [],
+      "summary": "Sumo sacerdote contemporâneo de Neemias que colaborou com a reconstrução, mas também cometeu transgressões ao alocar câmaras do Templo para Tobias.",
+      "references": ["Neemias 3:1; 13:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Sumo Sacerdote", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:esdras",
+      "kind": "person",
+      "label": "Esdras",
+      "aliases": ["Esdras"],
+      "summary": "Esdras é apresentado como um **sacerdote e escriba versado na Lei de Moisés** (*sōpēr māhîr*), enviado de Babilônia para Jerusalém durante o reinado do rei persa Artaxerxes I (c. 458 a.C.). Sua missão central consistiu em reordenar a comunidade pós-exílica com base na Torá, ensinando os estatutos divinos, combatendo casamentos mistos com povos vizinhos (que ameaçavam a identidade religiosa de Israel) e promovendo reformas cultuais e sociais profundas descritas nos livros de **Esdras e Neemias** (historicamente tratados como uma obra única na tradição judaica antiga, a *História Crônica*).",
+      "references": ["Esdras 7.1–6, 11–12; 10.1–5", "Neemias 8:1; 8:9; 12:36"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-esdras"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sacerdote e escriba",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:geshem-o-arabe",
+      "kind": "person",
+      "label": "Geshem, o Árabe",
+      "aliases": [],
+      "summary": "Chefe tribal árabe que integra a coalizão de oposição contra Neemias, acusando os judeus de rebelião contra o rei persa.",
+      "references": ["Neemias 2:19; 6:1; 6:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Adversário regional", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:neemias",
+      "kind": "person",
+      "label": "Neemias",
+      "aliases": ["Neemias"],
+      "summary": "Neemias, filho de Hacalias, era um judeu exilado que ocupava a altíssima e influente posição de **copeiro real** do rei Artaxerxes I em Susã. Tendo recebido notícias sobre a extrema vulnerabilidade de Jerusalém — com seus muros derrubados e portas consumidas pelo fogo —, Neemias obteve licença eissionária e patrocínio real para retornar como **governador (*tīršātā*)** de Judá por volta de 445 a.C. Sua façanha principal foi a **reconstrução expressa dos muros de Jerusalém em apenas 52 dias**, superando ferozes resistências militares e psicológicas de opositores locais como Sambalate, Tobias e Gesém, seguida por reformas econômicas e sociais contra a usura e pela repovoação da capital.",
+      "references": ["Neemias 1:1; 2:1; 5:14; 13:6"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-neemias"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Governador de Judá e copeiro real",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:sanballat-o-horonita",
+      "kind": "person",
+      "label": "Sanballat, o Horonita",
+      "aliases": [],
+      "summary": "Principal antagonista de Neemias, que tenta impedir a reconstrução das muralhas por meio de escárnio, ameaças militares e intrigas.",
+      "references": ["Neemias 2:10; 4:1; 6:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversário político e governador samaritano",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tobias-o-amonita",
+      "kind": "person",
+      "label": "Tobias, o Amonita",
+      "aliases": [],
+      "summary": "Funcionário influente (possivelmente amonita) que se opõe à obra de Neemias e chega a usurpar dependências do Templo.",
+      "references": ["Neemias 2:10; 4:3; 13:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Oficial e aliado de Sanballat",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-casa-de-deus-templo",
+      "kind": "place",
+      "label": "A Casa de Deus (Templo)",
+      "aliases": [],
+      "summary": "Centro cultual e econômico de Jerusalém, cujas dependências foram objeto de purificação e reestruturação financeira.",
+      "references": ["Neemias 10:32; 13:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "institucional/sagrado" }
+    },
+    {
+      "id": "place:jerusalem-cidade-santa-e-fortificada",
+      "kind": "place",
+      "label": "Jerusalém (Cidade Santa e Fortificada)",
+      "aliases": [],
+      "summary": "Capital espiritual e política de Judá, centro da reconstrução e foco das tensões geopolíticas regionais.",
+      "references": ["Neemias 1:2; 2:17; 11:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-monte-sinai-horebe",
+      "kind": "place",
+      "label": "O Monte Sinai (Horebe)",
+      "aliases": [],
+      "summary": "Local da revelação da aliança e entrega das leis levíticas",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:porta-das-aguas",
+      "kind": "place",
+      "label": "Porta das Águas",
+      "aliases": [],
+      "summary": "Praça central em Jerusalém onde ocorreu a grande leitura pública da Torá por Esdras.",
+      "references": ["Neemias 8:1; 8:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/geográfico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:susa-shushan",
+      "kind": "place",
+      "label": "Susã (Shushan)",
+      "aliases": [],
+      "summary": "Capital de inverno do Império Persa, cenário principal onde se desenrolam as intrigas do palácio, o harém, os banquetes e os éditos.",
+      "references": ["Neemias 1:1; 2:1", "Est 1:2, 2:3, 3:15", "Daniel 8:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "kind": "prophecy",
+      "label": "Joel 2:13 (Fórmula da compaixão divina)",
+      "aliases": [],
+      "summary": "Jonas cita de cabeça a clássica confissão da aliança (Deus clemente, compassivo, tardio em irar-se e grande em beneficência) para justificar sua rebeldia, invertendo seu significado positivo em queixa amarga.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Citação teológica" }
+    },
+    {
+      "id": "prophecy:neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem",
+      "kind": "prophecy",
+      "label": "Daniel 9:25 (\"Saiba e entenda: desde a saída da ordem para restaurar e para edificar Jerusalém...\")",
+      "aliases": [],
+      "summary": "Na hermenêutica apocalíptica e cristológica, a ordem de Artaxerxes a Neemias é frequentemente associada ao marco inicial das setenta semanas de Daniel.",
+      "references": ["Neemias 2; Daniel 9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "prophecy:neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados",
+      "kind": "prophecy",
+      "label": "Isaías 58:12 (\"Os que de ti procederem edificarão os lugares antigamente desolados...\")",
+      "aliases": [],
+      "summary": "A reconstrução das muralhas de Jerusalém por Neemias é vista retrospectivamente como cumprimento ou eco da promessa profética de restauração das ruínas ancestrais.",
+      "references": ["Neemias 3; Isaías 58"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada",
+      "kind": "prophecy",
+      "label": "Jeremias 31:38-40 (\"Eis que vêm dias, diz o Senhor, em que esta cidade será edificada...\")",
+      "aliases": [],
+      "summary": "A expansão geográfica e reconstrução espacial de Jerusalém sob Neemias dialoga diretamente com as promessas de reconstrução urbana de Jeremias.",
+      "references": ["Neemias 3; Jeremias 31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais",
+      "kind": "prophecy",
+      "label": "Zacarias 2:4 (\"Jerusalém será habitação de aldeias, por causa da multidão dos homens e dos animais...\")",
+      "aliases": [],
+      "summary": "O desafio de repovoar Jerusalém e fortificá-la sem muros físicos iniciais é superado pela repopulação narrada em Neemias 7 e 11.",
+      "references": ["Neemias 7; 11; Zacarias 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "term:torah",
+      "kind": "term",
+      "label": "Torah",
+      "aliases": ["תּוֹרָה", "tôrāh"],
+      "summary": "Instrução, ensino ou orientação; pode nomear o Pentateuco como coleção, mas não se reduz à ideia moderna de código jurídico.",
+      "references": ["Dt 6:1–9", "Sl 1:1–3", "Ne 8:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["torah"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Em diferentes contextos pode significar uma instrução específica, o ensino sacerdotal, a tradição escrita ou os cinco livros de Moisés.",
+        "translationNote": "‘Lei’ é uma tradução tradicional, mas pode sugerir apenas norma punitiva. ‘Instrução’ comunica melhor alguns usos narrativos e sapienciais."
+      }
+    },
+    {
+      "id": "theme:a-tora-de-moises",
+      "kind": "theme",
+      "label": "A Torá de Moisés",
+      "aliases": [],
+      "summary": "Texto normativo central lido perante a congregação, base para a aliança e para as reformas sociais e religiosas.",
+      "references": ["Neemias 8:1; 10:29; 13:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Lei sagrada e constituição comunitária",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:os-levitas",
+      "kind": "theme",
+      "label": "Os Levitas",
+      "aliases": [],
+      "summary": "Tribo setorial que substitui os primogênitos de Israel na custódia do santuário, transporte e funções litúrgicas, sem possessão territorial própria.",
+      "references": [
+        "Números 3:5-13; Números 18:21-24",
+        "Neemias 8:7; 9:4; 12:44"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ministros do Culto",
+        "entityType": "Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-neemias-assinatura-do-pacto-de-fidelidade:chapter-neemias-10",
+      "from": "event:neemias-assinatura-do-pacto-de-fidelidade",
+      "to": "chapter:neemias:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Assinatura do Pacto de Fidelidade” cita explicitamente Neemias 9:1-10:39.",
+      "references": ["Neemias 9:1-10:39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-assinatura-do-pacto-de-fidelidade:chapter-neemias-9",
+      "from": "event:neemias-assinatura-do-pacto-de-fidelidade",
+      "to": "chapter:neemias:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Assinatura do Pacto de Fidelidade” cita explicitamente Neemias 9:1-10:39.",
+      "references": ["Neemias 9:1-10:39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-conspiracao-e-defesa-armada:chapter-neemias-4",
+      "from": "event:neemias-conspiracao-e-defesa-armada",
+      "to": "chapter:neemias:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Conspiração e Defesa Armada” cita explicitamente Neemias 4:1-23.",
+      "references": ["Neemias 4:1-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-dedicacao-solene-das-muralhas:chapter-neemias-12",
+      "from": "event:neemias-dedicacao-solene-das-muralhas",
+      "to": "chapter:neemias:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Dedicação Solene das Muralhas” cita explicitamente Neemias 12:27-43.",
+      "references": ["Neemias 12:27-43"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-inspecao-noturna-de-neemias:chapter-neemias-2",
+      "from": "event:neemias-inspecao-noturna-de-neemias",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Inspeção Noturna de Neemias” cita explicitamente Neemias 2:11-20.",
+      "references": ["Neemias 2:11-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-leitura-publica-da-tora-e-festa-dos-tabernaculos:chapter-neemias-8",
+      "from": "event:neemias-leitura-publica-da-tora-e-festa-dos-tabernaculos",
+      "to": "chapter:neemias:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Leitura Pública da Torá e Festa dos Tabernáculos” cita explicitamente Neemias 8:1-18.",
+      "references": ["Neemias 8:1-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-neemias-reforma-economica-e-cancelamento-de-dividas:chapter-neemias-5",
+      "from": "event:neemias-reforma-economica-e-cancelamento-de-dividas",
+      "to": "chapter:neemias:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Reforma Econômica e Cancelamento de Dívidas” cita explicitamente Neemias 5:1-19.",
+      "references": ["Neemias 5:1-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-nobres-de-juda:chapter-neemias-13",
+      "from": "people-group:os-nobres-de-juda",
+      "to": "chapter:neemias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Nobres de Judá” cita explicitamente Neemias 5:7; 13:17.",
+      "references": ["Neemias 5:7; 13:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-nobres-de-juda:chapter-neemias-5",
+      "from": "people-group:os-nobres-de-juda",
+      "to": "chapter:neemias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Nobres de Judá” cita explicitamente Neemias 5:7; 13:17.",
+      "references": ["Neemias 5:7; 13:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-artaxerxes-i:chapter-neemias-2",
+      "from": "person:artaxerxes-i",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Artaxerxes I” cita explicitamente Neemias 2:1; 5:14.",
+      "references": ["Neemias 2:1; 5:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-artaxerxes-i:chapter-neemias-5",
+      "from": "person:artaxerxes-i",
+      "to": "chapter:neemias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Artaxerxes I” cita explicitamente Neemias 2:1; 5:14.",
+      "references": ["Neemias 2:1; 5:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliashib:chapter-neemias-13",
+      "from": "person:eliashib",
+      "to": "chapter:neemias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliashib” cita explicitamente Neemias 3:1; 13:4.",
+      "references": ["Neemias 3:1; 13:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliashib:chapter-neemias-3",
+      "from": "person:eliashib",
+      "to": "chapter:neemias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliashib” cita explicitamente Neemias 3:1; 13:4.",
+      "references": ["Neemias 3:1; 13:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-esdras:chapter-neemias-12",
+      "from": "person:esdras",
+      "to": "chapter:neemias:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esdras” cita explicitamente Neemias 8:1; 8:9; 12:36.",
+      "references": ["Neemias 8:1; 8:9; 12:36"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-esdras:chapter-neemias-8",
+      "from": "person:esdras",
+      "to": "chapter:neemias:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Esdras” cita explicitamente Neemias 8:1; 8:9; 12:36.",
+      "references": ["Neemias 8:1; 8:9; 12:36"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-geshem-o-arabe:chapter-neemias-2",
+      "from": "person:geshem-o-arabe",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Geshem, o Árabe” cita explicitamente Neemias 2:19; 6:1; 6:6.",
+      "references": ["Neemias 2:19; 6:1; 6:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-geshem-o-arabe:chapter-neemias-6",
+      "from": "person:geshem-o-arabe",
+      "to": "chapter:neemias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Geshem, o Árabe” cita explicitamente Neemias 2:19; 6:1; 6:6.",
+      "references": ["Neemias 2:19; 6:1; 6:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-neemias:chapter-neemias-1",
+      "from": "person:neemias",
+      "to": "chapter:neemias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Neemias” cita explicitamente Neemias 1:1; 2:1; 5:14; 13:6.",
+      "references": ["Neemias 1:1; 2:1; 5:14; 13:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-neemias:chapter-neemias-13",
+      "from": "person:neemias",
+      "to": "chapter:neemias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Neemias” cita explicitamente Neemias 1:1; 2:1; 5:14; 13:6.",
+      "references": ["Neemias 1:1; 2:1; 5:14; 13:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-neemias:chapter-neemias-2",
+      "from": "person:neemias",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Neemias” cita explicitamente Neemias 1:1; 2:1; 5:14; 13:6.",
+      "references": ["Neemias 1:1; 2:1; 5:14; 13:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-neemias:chapter-neemias-5",
+      "from": "person:neemias",
+      "to": "chapter:neemias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Neemias” cita explicitamente Neemias 1:1; 2:1; 5:14; 13:6.",
+      "references": ["Neemias 1:1; 2:1; 5:14; 13:6"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sanballat-o-horonita:chapter-neemias-2",
+      "from": "person:sanballat-o-horonita",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sanballat, o Horonita” cita explicitamente Neemias 2:10; 4:1; 6:1.",
+      "references": ["Neemias 2:10; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sanballat-o-horonita:chapter-neemias-4",
+      "from": "person:sanballat-o-horonita",
+      "to": "chapter:neemias:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sanballat, o Horonita” cita explicitamente Neemias 2:10; 4:1; 6:1.",
+      "references": ["Neemias 2:10; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-sanballat-o-horonita:chapter-neemias-6",
+      "from": "person:sanballat-o-horonita",
+      "to": "chapter:neemias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sanballat, o Horonita” cita explicitamente Neemias 2:10; 4:1; 6:1.",
+      "references": ["Neemias 2:10; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tobias-o-amonita:chapter-neemias-13",
+      "from": "person:tobias-o-amonita",
+      "to": "chapter:neemias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tobias, o Amonita” cita explicitamente Neemias 2:10; 4:3; 13:4.",
+      "references": ["Neemias 2:10; 4:3; 13:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tobias-o-amonita:chapter-neemias-2",
+      "from": "person:tobias-o-amonita",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tobias, o Amonita” cita explicitamente Neemias 2:10; 4:3; 13:4.",
+      "references": ["Neemias 2:10; 4:3; 13:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tobias-o-amonita:chapter-neemias-4",
+      "from": "person:tobias-o-amonita",
+      "to": "chapter:neemias:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tobias, o Amonita” cita explicitamente Neemias 2:10; 4:3; 13:4.",
+      "references": ["Neemias 2:10; 4:3; 13:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-de-deus-templo:chapter-neemias-10",
+      "from": "place:a-casa-de-deus-templo",
+      "to": "chapter:neemias:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa de Deus (Templo)” cita explicitamente Neemias 10:32; 13:9.",
+      "references": ["Neemias 10:32; 13:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-casa-de-deus-templo:chapter-neemias-13",
+      "from": "place:a-casa-de-deus-templo",
+      "to": "chapter:neemias:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Casa de Deus (Templo)” cita explicitamente Neemias 10:32; 13:9.",
+      "references": ["Neemias 10:32; 13:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa-e-fortificada:chapter-neemias-1",
+      "from": "place:jerusalem-cidade-santa-e-fortificada",
+      "to": "chapter:neemias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa e Fortificada)” cita explicitamente Neemias 1:2; 2:17; 11:1.",
+      "references": ["Neemias 1:2; 2:17; 11:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa-e-fortificada:chapter-neemias-11",
+      "from": "place:jerusalem-cidade-santa-e-fortificada",
+      "to": "chapter:neemias:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa e Fortificada)” cita explicitamente Neemias 1:2; 2:17; 11:1.",
+      "references": ["Neemias 1:2; 2:17; 11:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-santa-e-fortificada:chapter-neemias-2",
+      "from": "place:jerusalem-cidade-santa-e-fortificada",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade Santa e Fortificada)” cita explicitamente Neemias 1:2; 2:17; 11:1.",
+      "references": ["Neemias 1:2; 2:17; 11:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-sinai-horebe:chapter-neemias-9",
+      "from": "place:o-monte-sinai-horebe",
+      "to": "chapter:neemias:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sinai (Horebe)” cita explicitamente Êx 19; Lv 25:1; Ne 9:13.",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-porta-das-aguas:chapter-neemias-8",
+      "from": "place:porta-das-aguas",
+      "to": "chapter:neemias:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Porta das Águas” cita explicitamente Neemias 8:1; 8:3.",
+      "references": ["Neemias 8:1; 8:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-neemias-4",
+      "from": "place:samaria",
+      "to": "chapter:neemias:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Neemias 4:1; 6:2.",
+      "references": ["Neemias 4:1; 6:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-neemias-6",
+      "from": "place:samaria",
+      "to": "chapter:neemias:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Neemias 4:1; 6:2.",
+      "references": ["Neemias 4:1; 6:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-susa-shushan:chapter-neemias-1",
+      "from": "place:susa-shushan",
+      "to": "chapter:neemias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Susã (Shushan)” cita explicitamente Neemias 1:1; 2:1.",
+      "references": ["Neemias 1:1; 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-susa-shushan:chapter-neemias-2",
+      "from": "place:susa-shushan",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Susã (Shushan)” cita explicitamente Neemias 1:1; 2:1.",
+      "references": ["Neemias 1:1; 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-joel-2-13-formula-da-compaixao-divina:chapter-neemias-9",
+      "from": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "to": "chapter:neemias:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 2:13 (Fórmula da compaixão divina)” cita explicitamente Êxodo 34:6-7; Neemias 9:17; Jonas 4:2.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem:chapter-neemias-2",
+      "from": "prophecy:neemias-daniel-9-25-saiba-e-entenda-desde-a-saida-da-ordem-para-restaurar-e-para-edificar-jerusalem",
+      "to": "chapter:neemias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 9:25 (\"Saiba e entenda: desde a saída da ordem para restaurar e para edificar Jerusalém...\")” cita explicitamente Neemias 2; Daniel 9.",
+      "references": ["Neemias 2; Daniel 9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados:chapter-neemias-3",
+      "from": "prophecy:neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados",
+      "to": "chapter:neemias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 58:12 (\"Os que de ti procederem edificarão os lugares antigamente desolados...\")” cita explicitamente Neemias 3; Isaías 58.",
+      "references": ["Neemias 3; Isaías 58"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada:chapter-neemias-3",
+      "from": "prophecy:neemias-jeremias-31-38-40-eis-que-vem-dias-diz-o-senhor-em-que-esta-cidade-sera-edificada",
+      "to": "chapter:neemias:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeremias 31:38-40 (\"Eis que vêm dias, diz o Senhor, em que esta cidade será edificada...\")” cita explicitamente Neemias 3; Jeremias 31.",
+      "references": ["Neemias 3; Jeremias 31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais:chapter-neemias-11",
+      "from": "prophecy:neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais",
+      "to": "chapter:neemias:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 2:4 (\"Jerusalém será habitação de aldeias, por causa da multidão dos homens e dos animais...\")” cita explicitamente Neemias 7; 11; Zacarias 2.",
+      "references": ["Neemias 7; 11; Zacarias 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais:chapter-neemias-7",
+      "from": "prophecy:neemias-zacarias-2-4-jerusalem-sera-habitacao-de-aldeias-por-causa-da-multidao-dos-homens-e-dos-animais",
+      "to": "chapter:neemias:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 2:4 (\"Jerusalém será habitação de aldeias, por causa da multidão dos homens e dos animais...\")” cita explicitamente Neemias 7; 11; Zacarias 2.",
+      "references": ["Neemias 7; 11; Zacarias 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-10:theme-a-tora-de-moises",
+      "from": "chapter:neemias:10",
+      "to": "theme:a-tora-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá de Moisés” cita explicitamente Neemias 8:1; 10:29; 13:1.",
+      "references": ["Neemias 8:1; 10:29; 13:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-12:theme-os-levitas",
+      "from": "chapter:neemias:12",
+      "to": "theme:os-levitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas” cita explicitamente Neemias 8:7; 9:4; 12:44.",
+      "references": ["Neemias 8:7; 9:4; 12:44"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-13:theme-a-tora-de-moises",
+      "from": "chapter:neemias:13",
+      "to": "theme:a-tora-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá de Moisés” cita explicitamente Neemias 8:1; 10:29; 13:1.",
+      "references": ["Neemias 8:1; 10:29; 13:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-8:theme-a-tora-de-moises",
+      "from": "chapter:neemias:8",
+      "to": "theme:a-tora-de-moises",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Torá de Moisés” cita explicitamente Neemias 8:1; 10:29; 13:1.",
+      "references": ["Neemias 8:1; 10:29; 13:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-8:theme-os-levitas",
+      "from": "chapter:neemias:8",
+      "to": "theme:os-levitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas” cita explicitamente Neemias 8:7; 9:4; 12:44.",
+      "references": ["Neemias 8:7; 9:4; 12:44"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-neemias-9:theme-os-levitas",
+      "from": "chapter:neemias:9",
+      "to": "theme:os-levitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas” cita explicitamente Neemias 8:7; 9:4; 12:44.",
+      "references": ["Neemias 8:7; 9:4; 12:44"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-neemias-8:term-torah",
+      "from": "chapter:neemias:8",
+      "to": "term:torah",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Torah” cita explicitamente Ne 8:1–8.",
+      "references": ["Ne 8:1–8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

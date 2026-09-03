@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Coríntios",
+  "count": 37,
+  "chapterCount": 11,
+  "nodes": [
+    {
+      "id": "doctrine:trindade",
+      "kind": "doctrine",
+      "label": "Deus uno e Trindade",
+      "aliases": [],
+      "summary": "A declaração confessa um só Deus eternamente existente em três pessoas: Pai, Filho e Espírito Santo.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["trindade"],
+      "attributes": {
+        "category": "Deus",
+        "pentecostalReading": "Pai, Filho e Espírito não são três deuses, nem três nomes de uma única pessoa. A linguagem trinitária protege a unidade de Deus e a plena divindade de Cristo e do Espírito.",
+        "distinction": "A palavra Trindade não aparece como termo técnico no texto bíblico; trata-se de uma formulação histórica cristã para reunir testemunhos bíblicos sobre Deus.",
+        "source": "Declaração de Fé da Church of God; credos cristãos históricos"
+      }
+    },
+    {
+      "id": "person:eva",
+      "kind": "person",
+      "label": "Eva",
+      "aliases": ["Eva"],
+      "summary": "Eva (do hebraico חוָה, *Chawwāh*, tradicionalmente traduzido como \"a mãe de todos os viventes\" ou \"aquela que dá vida\") é a primeira mulher, criada por Deus a partir de uma costela de Adão para ser sua auxiliadora idônea (*ezer knegdo*) [18]. Eva protagoniza o diálogo teológico com a serpente em Gênesis 3, sendo persuadida a comer do fruto proibido e a compartilhá-lo com seu marido. Após a pronúncia dos juízos divinos, que incluem as dores do parto e a subordinação no âmbito conjugal, Eva expressa louvor a Deus no nascimento de seus filhos, sendo a primeira a declarar a cooperação divina na procriação (\"Alcancei um homem com a ajuda do Senhor\", Gn 4:1) [19].",
+      "references": [
+        "Gênesis 2:21–23",
+        "Gênesis 3:1–6, 13–20",
+        "Gênesis 4:1",
+        "2 Coríntios 11:3; 1 Timóteo 2:13–15",
+        "Gn 2:18–25",
+        "Gn 3:1–24",
+        "Gn 4:1–2",
+        "Gn 4:25",
+        "2Co 11:3",
+        "1Tm 2:13–15"
+      ],
+      "sourceCatalogs": ["biography-catalog", "genesis-relational"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-eva", "eve"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%202%3A21%E2%80%9323%3B%20G%C3%AAnesis%203%3A1%E2%80%936%2C%2013%E2%80%9320%3B%20G%C3%AAnesis%204%3A1&version=ARA",
+        "bookLinksVerified": true,
+        "role": "mulher primordial; mãe de todos os viventes",
+        "tags": ["imagem de Deus", "queda", "maternidade", "vida"]
+      }
+    },
+    {
+      "id": "person:o-irmao-disciplinado",
+      "kind": "person",
+      "label": "O irmão disciplinado",
+      "aliases": [],
+      "summary": "Indivíduo cuja ofensa exigiu disciplina e cujo perdão e restauração Paulo agora recomenda com urgência",
+      "references": ["2Co 2:5-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Membro da comunidade de Corinto",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo-de-tarso",
+      "kind": "person",
+      "label": "Paulo de Tarso",
+      "aliases": [],
+      "summary": "Autoridade apostólica que defende veementemente a gratuidade da graça, o evangelho universal aos gentios e a independência de seu chamado face aos apóstolos de Jerusalém.",
+      "references": [
+        "2Co 1:1; 10:1; 12:12",
+        "Gl 1:1, 1:11-12, 6:17",
+        "1 Ts 1:1; 2:2; 2:18; 5:27"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo principal e autor principal",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tito",
+      "kind": "person",
+      "label": "Tito",
+      "aliases": ["Tito"],
+      "summary": "Tito era um gentio de origem grega que nunca foi circuncidado, o que o tornou o caso de teste vivo no Concílio de Jerusalém para a liberdade dos gentios em relação à exigência da Torah judaica [95]. Foi um administrador de crises altamente competente, enviado por Paulo para pacificar e organizar a turbulenta igreja de Corinto e estabelecer presbitérios na ilha de Creta [96].",
+      "references": [
+        "Gálatas 2:1-3",
+        "2 Coríntios 7:6-7 e 8:16-24",
+        "Tito 1:5",
+        "2Co 2:13; 7:6-7; 8:16-23",
+        "Tito 1:4; 2:1; 3:12"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tito"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%A1latas%202%3A1-3%3B%202%20Cor%C3%ADntios%207%3A6-7%20e%208%3A16-24%3B%20Tito%201%3A5&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Delegado apostólico e pastor em Creta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:corinto",
+      "kind": "place",
+      "label": "Corinto",
+      "aliases": [],
+      "summary": "Metrópole comercial com dois portos (Cencreia e Lequeu), famosa pelo templo de Afrodite e cultos mistericos, representando o desafio cultural ao evangelho.",
+      "references": [
+        "Romanos 16:1; 16:23",
+        "1 Coríntios 1:2; Atos 18:1",
+        "2Co 1:1; 10:1",
+        "At 18:1; 1 Ts 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerusalem",
+      "kind": "place",
+      "label": "Jerusalém",
+      "aliases": [],
+      "summary": "Cidade santa de onde os utensílios do templo foram roubados e para onde se voltam as janelas da oração de Daniel; epicentro da esperança restauradora.",
+      "references": [
+        "2 Reis 18, 22, 25",
+        "Ec 1:1, 12",
+        "Cântico 3:5; 5:7",
+        "Daniel 1:1; 6:10",
+        "Ageu 1:1, 12, 14; 2:2",
+        "Lucas 2:22; Lucas 9:51; Lucas 24:52",
+        "Atos 1:4, 2:5, 8:1, 15:2",
+        "Romanos 15:25-26",
+        "2Co 8:4; 9:1, 12",
+        "Gl 1:17-18, 2:1",
+        "Atos 15:13; Gálatas 2:9; Tiago 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Disputado" }
+    },
+    {
+      "id": "place:macedonia",
+      "kind": "place",
+      "label": "Macedônia",
+      "aliases": [],
+      "summary": "Região ao norte da Grécia de onde Paulo escreve a carta e onde recebe a visita reconfortante de Tito",
+      "references": ["2Co 2:13; 7:5; 8:1; 9:2", "1 Tm 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:o-terceiro-ceu-paraiso",
+      "kind": "place",
+      "label": "O Terceiro Céu / Paraíso",
+      "aliases": [],
+      "summary": "Esfera de revelação divina indizível experimentada por Paulo em sua experiência mística",
+      "references": ["2Co 12:2-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Cósmico" }
+    },
+    {
+      "id": "place:troade",
+      "kind": "place",
+      "label": "Trôade",
+      "aliases": [],
+      "summary": "Porto na Ásia Menor onde Paulo esperava Tito e encontrou portas abertas para a evangelização antes de passar à Macedônia",
+      "references": ["2Co 2:12", "2 Timóteo 4:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "kind": "prophecy",
+      "label": "1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")",
+      "aliases": [],
+      "summary": "O termo *harpazomai* gerou intensa divisão entre dispensacionalistas (arrebatamento secreto pré-tribulacional) e teologia histórica (encontro público e triunfal com Cristo).",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / escatologia corporativa" }
+    },
+    {
+      "id": "prophecy:2-corintios-exodo-34-29-35",
+      "kind": "prophecy",
+      "label": "Êxodo 34:29-35",
+      "aliases": [],
+      "summary": "O brilho do rosto de Moisés é reinterpretado por Paulo como uma glória passageira em comparação com a glória permanente e transformadora do Espírito na nova aliança.",
+      "references": ["2Co 3:7-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Tipologia" }
+    },
+    {
+      "id": "prophecy:2-corintios-isaias-49-8",
+      "kind": "prophecy",
+      "label": "Isaías 49:8",
+      "aliases": [],
+      "summary": "Paulo aplica o oráculo de Isaías sobre o \"tempo aceitável\" e o \"dia da salvação\" ao presente escatológico inaugurado pela graça de Cristo.",
+      "references": ["2Co 6:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:2-corintios-levitico-26-12-jeremias-31-33-ezequiel-37-27",
+      "kind": "prophecy",
+      "label": "Levítico 26:12 / Jeremias 31:33 / Ezequiel 37:27",
+      "aliases": [],
+      "summary": "Concatenação de promessas veterotestamentárias sobre a habitação de Deus no meio do seu povo para exigir pureza ética e separação da idolatria.",
+      "references": ["2Co 6:16-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:2-corintios-salmos-112-9",
+      "kind": "prophecy",
+      "label": "Salmos 112:9",
+      "aliases": [],
+      "summary": "Paulo cita o Salmo para demonstrar que a generosidade e a distribuição aos pobres encontram respaldo eterno na justiça divina que permanece para sempre.",
+      "references": ["2Co 9:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "kind": "prophecy",
+      "label": "Ec 11:1 (\"Lança o teu pão sobre as águas...\")",
+      "aliases": [],
+      "summary": "Interpretado na tradição ora como prudência comercial de diversificação de riscos, ora como mandamento ético de generosidade cujos frutos retornam.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/recepção posterior" }
+    },
+    {
+      "id": "prophecy:levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12",
+      "kind": "prophecy",
+      "label": "\"Habitarei no meio de vós e não vos aborrecerá a minha alma\" (Lv 26:11-12)",
+      "aliases": [],
+      "summary": "Interpretado profeticamente no NT como a realização definitiva da habitação de Deus com a humanidade na Nova Aliança e na Nova Jerusalém.",
+      "references": ["2 Co 6:16; Ap 21:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / escatologia da aliança" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:10 ('Trazei todos os dízimos à casa do tesouro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação literal e normativa da teologia da prosperidade financeira contemporânea e a exegese histórico-crítica focada na sustentação social do templo.",
+      "references": ["Provérbios 3:9–10; 2 Coríntios 9:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo econômico" }
+    },
+    {
+      "id": "theme:a-coleta-para-jerusalem",
+      "kind": "theme",
+      "label": "A Coleta para Jerusalém",
+      "aliases": [],
+      "summary": "Projeto intereclesial de solidariedade entre os gentios da Acaia/Macedônia e os crentes pobres da Judeia",
+      "references": ["2Co 8:1-4; 9:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Campanha de auxílio financeiro",
+        "entityType": "Conceito / Instituição"
+      }
+    },
+    {
+      "id": "theme:a-nova-alianca-kaine-diatheke",
+      "kind": "theme",
+      "label": "A Nova Aliança (*Kainē Diathēkē*)",
+      "aliases": [],
+      "summary": "Aliança inaugurada por Cristo, gravada nos corações pelo Espírito Santo em contraste com a letra mortífera da lei mosaica",
+      "references": ["2Co 3:6; 3:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Realidade teológica e soteriológica",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:igreja-em-corinto",
+      "kind": "theme",
+      "label": "Igreja em Corinto",
+      "aliases": [],
+      "summary": "Comunidade dividida, influenciada por opositores, mas que reagiu positivamente à carta severa de Paulo",
+      "references": ["2Co 1:1; 6:11-13; 7:8-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade cristã destinatária",
+        "entityType": "Povo / Instituição"
+      }
+    },
+    {
+      "id": "theme:o-espinho-na-carne",
+      "kind": "theme",
+      "label": "O Espinho na Carne",
+      "aliases": [],
+      "summary": "Enfermidade ou provação persistente dada a Paulo para evitar a exaltação própria e demonstrar o poder aperfeiçoado na fraqueza",
+      "references": ["2Co 12:7-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Aflição pessoal de Paulo",
+        "entityType": "Conceito / Lugar (físico)"
+      }
+    },
+    {
+      "id": "theme:os-superapostolos-hyperlion-apostolon",
+      "kind": "theme",
+      "label": "Os \"Superapóstolos\" (*hyperliōn apostolōn*)",
+      "aliases": [],
+      "summary": "Pregadores rivais em Corinto que reivindicavam credenciais superiores, eloqüência e cartas de recomendação, criticando a fraqueza de Paulo",
+      "references": ["2Co 11:5; 11:13; 12:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositores itinerantes de Paulo",
+        "entityType": "Pessoa / Povo"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-eva:chapter-2-corintios-11",
+      "from": "person:eva",
+      "to": "chapter:2-corintios:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eva” cita explicitamente 2 Coríntios 11:3; 1 Timóteo 2:13–15.",
+      "references": ["2 Coríntios 11:3; 1 Timóteo 2:13–15"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-irmao-disciplinado:chapter-2-corintios-2",
+      "from": "person:o-irmao-disciplinado",
+      "to": "chapter:2-corintios:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O irmão disciplinado” cita explicitamente 2Co 2:5-11.",
+      "references": ["2Co 2:5-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-2-corintios-1",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:2-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 2Co 1:1; 10:1; 12:12.",
+      "references": ["2Co 1:1; 10:1; 12:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-2-corintios-10",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:2-corintios:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 2Co 1:1; 10:1; 12:12.",
+      "references": ["2Co 1:1; 10:1; 12:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo-de-tarso:chapter-2-corintios-12",
+      "from": "person:paulo-de-tarso",
+      "to": "chapter:2-corintios:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo de Tarso” cita explicitamente 2Co 1:1; 10:1; 12:12.",
+      "references": ["2Co 1:1; 10:1; 12:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-2-corintios-1",
+      "from": "person:timoteo",
+      "to": "chapter:2-corintios:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 2Co 1:1.",
+      "references": ["2Co 1:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-2-corintios-2",
+      "from": "person:tito",
+      "to": "chapter:2-corintios:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente 2Co 2:13; 7:6-7; 8:16-23.",
+      "references": ["2Co 2:13; 7:6-7; 8:16-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-2-corintios-7",
+      "from": "person:tito",
+      "to": "chapter:2-corintios:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente 2 Coríntios 7:6-7 e 8:16-24.",
+      "references": ["2 Coríntios 7:6-7 e 8:16-24"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-2-corintios-8",
+      "from": "person:tito",
+      "to": "chapter:2-corintios:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente 2Co 2:13; 7:6-7; 8:16-23.",
+      "references": ["2Co 2:13; 7:6-7; 8:16-23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-corinto:chapter-2-corintios-1",
+      "from": "place:corinto",
+      "to": "chapter:2-corintios:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Corinto” cita explicitamente 2Co 1:1; 10:1.",
+      "references": ["2Co 1:1; 10:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-corinto:chapter-2-corintios-10",
+      "from": "place:corinto",
+      "to": "chapter:2-corintios:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Corinto” cita explicitamente 2Co 1:1; 10:1.",
+      "references": ["2Co 1:1; 10:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-2-corintios-8",
+      "from": "place:jerusalem",
+      "to": "chapter:2-corintios:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente 2Co 8:4; 9:1, 12.",
+      "references": ["2Co 8:4; 9:1, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem:chapter-2-corintios-9",
+      "from": "place:jerusalem",
+      "to": "chapter:2-corintios:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém” cita explicitamente 2Co 8:4; 9:1, 12.",
+      "references": ["2Co 8:4; 9:1, 12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-macedonia:chapter-2-corintios-2",
+      "from": "place:macedonia",
+      "to": "chapter:2-corintios:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Macedônia” cita explicitamente 2Co 2:13; 7:5; 8:1; 9:2.",
+      "references": ["2Co 2:13; 7:5; 8:1; 9:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-macedonia:chapter-2-corintios-7",
+      "from": "place:macedonia",
+      "to": "chapter:2-corintios:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Macedônia” cita explicitamente 2Co 2:13; 7:5; 8:1; 9:2.",
+      "references": ["2Co 2:13; 7:5; 8:1; 9:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-macedonia:chapter-2-corintios-8",
+      "from": "place:macedonia",
+      "to": "chapter:2-corintios:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Macedônia” cita explicitamente 2Co 2:13; 7:5; 8:1; 9:2.",
+      "references": ["2Co 2:13; 7:5; 8:1; 9:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-macedonia:chapter-2-corintios-9",
+      "from": "place:macedonia",
+      "to": "chapter:2-corintios:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Macedônia” cita explicitamente 2Co 2:13; 7:5; 8:1; 9:2.",
+      "references": ["2Co 2:13; 7:5; 8:1; 9:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-terceiro-ceu-paraiso:chapter-2-corintios-12",
+      "from": "place:o-terceiro-ceu-paraiso",
+      "to": "chapter:2-corintios:12",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Terceiro Céu / Paraíso” cita explicitamente 2Co 12:2-4.",
+      "references": ["2Co 12:2-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-troade:chapter-2-corintios-2",
+      "from": "place:troade",
+      "to": "chapter:2-corintios:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Trôade” cita explicitamente 2Co 2:12.",
+      "references": ["2Co 2:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens:chapter-2-corintios-12",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "to": "chapter:2-corintios:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")” cita explicitamente Dn 7:13; Ap 11:12; 2 Co 12:2.",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-corintios-exodo-34-29-35:chapter-2-corintios-3",
+      "from": "prophecy:2-corintios-exodo-34-29-35",
+      "to": "chapter:2-corintios:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Êxodo 34:29-35” cita explicitamente 2Co 3:7-18.",
+      "references": ["2Co 3:7-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-corintios-isaias-49-8:chapter-2-corintios-6",
+      "from": "prophecy:2-corintios-isaias-49-8",
+      "to": "chapter:2-corintios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 49:8” cita explicitamente 2Co 6:2.",
+      "references": ["2Co 6:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-corintios-levitico-26-12-jeremias-31-33-ezequiel-37-27:chapter-2-corintios-6",
+      "from": "prophecy:2-corintios-levitico-26-12-jeremias-31-33-ezequiel-37-27",
+      "to": "chapter:2-corintios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Levítico 26:12 / Jeremias 31:33 / Ezequiel 37:27” cita explicitamente 2Co 6:16-18.",
+      "references": ["2Co 6:16-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-corintios-salmos-112-9:chapter-2-corintios-9",
+      "from": "prophecy:2-corintios-salmos-112-9",
+      "to": "chapter:2-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Salmos 112:9” cita explicitamente 2Co 9:9.",
+      "references": ["2Co 9:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas:chapter-2-corintios-9",
+      "from": "prophecy:eclesiastes-ec-11-1-lanca-o-teu-pao-sobre-as-aguas",
+      "to": "chapter:2-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ec 11:1 (\"Lança o teu pão sobre as águas...\")” cita explicitamente Pv 19:17; Lc 6:38; 2 Co 9:6.",
+      "references": ["Pv 19:17; Lc 6:38; 2 Co 9:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12:chapter-2-corintios-6",
+      "from": "prophecy:levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12",
+      "to": "chapter:2-corintios:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Habitarei no meio de vós e não vos aborrecerá a minha alma\" (Lv 26:11-12)” cita explicitamente 2 Co 6:16; Ap 21:3.",
+      "references": ["2 Co 6:16; Ap 21:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro:chapter-2-corintios-9",
+      "from": "prophecy:malaquias-malaquias-3-10-trazei-todos-os-dizimos-a-casa-do-tesouro",
+      "to": "chapter:2-corintios:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:10 ('Trazei todos os dízimos à casa do tesouro...')” cita explicitamente Provérbios 3:9–10; 2 Coríntios 9:7.",
+      "references": ["Provérbios 3:9–10; 2 Coríntios 9:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-1:theme-igreja-em-corinto",
+      "from": "chapter:2-corintios:1",
+      "to": "theme:igreja-em-corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja em Corinto” cita explicitamente 2Co 1:1; 6:11-13; 7:8-12.",
+      "references": ["2Co 1:1; 6:11-13; 7:8-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-11:theme-os-superapostolos-hyperlion-apostolon",
+      "from": "chapter:2-corintios:11",
+      "to": "theme:os-superapostolos-hyperlion-apostolon",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os \"Superapóstolos\" (*hyperliōn apostolōn*)” cita explicitamente 2Co 11:5; 11:13; 12:11.",
+      "references": ["2Co 11:5; 11:13; 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-12:theme-o-espinho-na-carne",
+      "from": "chapter:2-corintios:12",
+      "to": "theme:o-espinho-na-carne",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Espinho na Carne” cita explicitamente 2Co 12:7-9.",
+      "references": ["2Co 12:7-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-12:theme-os-superapostolos-hyperlion-apostolon",
+      "from": "chapter:2-corintios:12",
+      "to": "theme:os-superapostolos-hyperlion-apostolon",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os \"Superapóstolos\" (*hyperliōn apostolōn*)” cita explicitamente 2Co 11:5; 11:13; 12:11.",
+      "references": ["2Co 11:5; 11:13; 12:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-13:doctrine-trindade",
+      "from": "chapter:2-corintios:13",
+      "to": "doctrine:trindade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Deus uno e Trindade” cita explicitamente Mt 28:19; 2Co 13:13; Jo 1:1–18.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-3:theme-a-nova-alianca-kaine-diatheke",
+      "from": "chapter:2-corintios:3",
+      "to": "theme:a-nova-alianca-kaine-diatheke",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Nova Aliança (*Kainē Diathēkē*)” cita explicitamente 2Co 3:6; 3:14.",
+      "references": ["2Co 3:6; 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-6:theme-igreja-em-corinto",
+      "from": "chapter:2-corintios:6",
+      "to": "theme:igreja-em-corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja em Corinto” cita explicitamente 2Co 1:1; 6:11-13; 7:8-12.",
+      "references": ["2Co 1:1; 6:11-13; 7:8-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-7:theme-igreja-em-corinto",
+      "from": "chapter:2-corintios:7",
+      "to": "theme:igreja-em-corinto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja em Corinto” cita explicitamente 2Co 1:1; 6:11-13; 7:8-12.",
+      "references": ["2Co 1:1; 6:11-13; 7:8-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-8:theme-a-coleta-para-jerusalem",
+      "from": "chapter:2-corintios:8",
+      "to": "theme:a-coleta-para-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Coleta para Jerusalém” cita explicitamente 2Co 8:1-4; 9:1-2.",
+      "references": ["2Co 8:1-4; 9:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-corintios-9:theme-a-coleta-para-jerusalem",
+      "from": "chapter:2-corintios:9",
+      "to": "theme:a-coleta-para-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Coleta para Jerusalém” cita explicitamente 2Co 8:1-4; 9:1-2.",
+      "references": ["2Co 8:1-4; 9:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

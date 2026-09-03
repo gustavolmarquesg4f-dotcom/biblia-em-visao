@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "book": "Levítico",
+  "count": 41,
+  "chapterCount": 23,
+  "nodes": [
+    {
+      "id": "person:arao",
+      "kind": "person",
+      "label": "Arão",
+      "aliases": ["Arão (אַהֲרֹן)"],
+      "summary": "Arão é o irmão mais velho de Moisés e o primeiro sumo sacerdote de Israel. Convocado por Deus para atuar como o porta-voz (profeta) de Moisés perante Faraó devido à alegada \"pesadez de boca\" de seu irmão, Arão desempenha um papel ambivalente nas narrativas do deserto: de um lado, é ungido e consagrado pelo próprio YHWH para o ministério litúrgico; de outro, cede à pressão popular durante a ausência de Moisés no monte Sinai, confeccionando e promovendo a adoração ao Bezerro de Ouro.",
+      "references": [
+        "Êxodo 4:14-16; 32:1-6",
+        "Êx 28; Lv 8-10; Nm 16",
+        "Números 17; Números 20:22-29"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-arao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sumo Sacerdote de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:eleazar-e-itamar",
+      "kind": "person",
+      "label": "Eleazar e Itamar",
+      "aliases": [],
+      "summary": "Continuam o ministério sacerdotal e auxiliam Moisés no censo e organização",
+      "references": ["Lv 10:6; Nm 3:2-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sacerdotes sobreviventes de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:moises",
+      "kind": "person",
+      "label": "Moisés",
+      "aliases": ["Moisés (מֹשֶׁה)"],
+      "summary": "Moisés é o personagem central do Pentateuco (Torá), cuja trajetória abrange desde seu nascimento sob o decreto de infanticídio do Faraó, seu salvamento nas águas do Nilo pela filha do Faraó, sua criação na corte egípcia, seu exílio na terra de Midiã após matar um capataz egípcio, o chamado divino na sarça ardente, até o retorno ao Egito para liderar as dez pragas e o êxodo. Ele é retratado simultaneamente como legislador, profeta supremo, libertador e intercessor singular, cujo rosto brilhava após falar com YHWH no Monte Sinai.",
+      "references": [
+        "Êxodo 2:1-4:31; 33:12-23",
+        "Êx 19; Lv 1:1; Nm 1",
+        "Êxodo 2 – Deuteronômio 34; Números 12:3",
+        "Deut 1:1; 33:1; 34:5",
+        "Hb 3:2-5; 8:5; 11:24-28"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-moises"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Servo fiel na casa de Deus",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nadabe-e-abiu",
+      "kind": "person",
+      "label": "Nadabe e Abiú",
+      "aliases": [],
+      "summary": "Oferecem \"fogo estranho\" perante Yahweh e são consumidos por fogo divino",
+      "references": ["Lv 10:1-2; Nm 3:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filhos e sacerdotes de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-tenda-do-encontro-ohel-moed",
+      "kind": "place",
+      "label": "A Tenda do Encontro (Ohel Moed)",
+      "aliases": [],
+      "summary": "Centro litúrgico e espiritual do acampamento israelita no deserto",
+      "references": ["Lv 1:1; 17:4; Nm 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Institucional / Geográfico" }
+    },
+    {
+      "id": "place:o-acampamento-de-israel",
+      "kind": "place",
+      "label": "O Acampamento de Israel",
+      "aliases": [],
+      "summary": "Espaço comunitário organizado em torno do tabernáculo, onde a pureza ritual devia ser mantida",
+      "references": ["Lv 13:46; 17:3; Nm 5:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Social" }
+    },
+    {
+      "id": "place:o-deserto-midbar",
+      "kind": "place",
+      "label": "O Deserto (Midbar)",
+      "aliases": [],
+      "summary": "Lugar de provação, transição e morada temporária onde a aliança foi codificada",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-monte-sinai-horebe",
+      "kind": "place",
+      "label": "O Monte Sinai (Horebe)",
+      "aliases": [],
+      "summary": "Local da revelação da aliança e entrega das leis levíticas",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "kind": "place",
+      "label": "O Santo dos Santos (Kodesh HaKodashim)",
+      "aliases": [],
+      "summary": "O espaço mais interior do santuário onde a presença de Deus habitava e o sumo sacerdote entrava no Yom Kippur",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Arquitetônico" }
+    },
+    {
+      "id": "prophecy:1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11",
+      "kind": "prophecy",
+      "label": "O mandamento antigo e novo de amar uns aos outros (1 João 2:7-8 / 3:11)",
+      "aliases": [],
+      "summary": "Divergências: Enquanto no AT o mandamento era focado no próximo na aliança mosaica, João o recontextualiza cristologicamente como o padrão sacrificial do próprio Cristo.",
+      "references": ["Levítico 19:18; João 13:34; 15:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "kind": "prophecy",
+      "label": "Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)",
+      "aliases": [],
+      "summary": "Analisado por historiadores como um *vaticinium ex eventu* (profecia redigida após o evento) descrevendo as devastações assíria e babilônica, enquanto leituras teológicas tradicionais mantêm seu caráter preditivo genuíno sobre as consequências morais da quebra da aliança.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "term:nephesh",
+      "kind": "term",
+      "label": "Nephesh",
+      "aliases": ["נֶפֶשׁ", "nefeš"],
+      "summary": "Vida, pessoa, garganta, ser vivente ou centro de desejo; não corresponde automaticamente ao conceito grego posterior de ‘alma’ desencarnada.",
+      "references": ["Gn 2:7", "Lv 17:11", "Sl 42:1–2"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["nephesh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo pode enfatizar a vida concreta, o indivíduo, o apetite, o risco de morte ou a totalidade de uma pessoa.",
+        "translationNote": "A tradição de traduzir por ‘alma’ em alguns contextos é possível, mas exige cautela antropológica: o texto hebraico frequentemente fala da pessoa viva em sua inteireza."
+      }
+    },
+    {
+      "id": "term:qadosh",
+      "kind": "term",
+      "label": "Qadosh",
+      "aliases": ["קָדוֹשׁ", "qādôš"],
+      "summary": "Separado, distinto, consagrado ou pertencente a uma esfera de santidade; a ideia de separação não elimina a dimensão ética.",
+      "references": ["Êx 19:5–6", "Lv 19:1–18", "Is 6:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["qadosh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo percorre a distinção cultual, a alteridade divina e a convocação de uma comunidade a refletir a justiça de Deus.",
+        "translationNote": "‘Santo’ preserva a tradição, mas a interpretação precisa mostrar como o texto transforma santidade em prática comunitária, não apenas em distância ritual."
+      }
+    },
+    {
+      "id": "theme:ano-do-jubileu",
+      "kind": "theme",
+      "label": "Ano do Jubileu",
+      "aliases": [],
+      "summary": "A cada 50 anos, dívidas são perdoadas, escravos libertados e terras retornam às famílias originais",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Lei socioeconômica de restituição",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:codigo-de-santidade-kedushah",
+      "kind": "theme",
+      "label": "Código de Santidade (Kedushah)",
+      "aliases": [],
+      "summary": "Enfatiza a santidade imitativa de Deus em todas as esferas da vida",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Conjunto de leis ético-rituais (cap. 17-26)",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-bode-expiatorio-azazel",
+      "kind": "theme",
+      "label": "O Bode Expiatório (Azazel)",
+      "aliases": [],
+      "summary": "Levado para o deserto no Yom Kippur, simbolizando a remoção definitiva da culpa",
+      "references": ["Lv 16:8-10, 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Animal carregador dos pecados",
+        "entityType": "Conceito / Símbolo"
+      }
+    },
+    {
+      "id": "theme:sacerdotes-leviticos-aronidas",
+      "kind": "theme",
+      "label": "Sacerdotes levíticos (Arônidas)",
+      "aliases": [],
+      "summary": "Oferecem sacrifícios, ensinam a Torá e discernem entre o puro e o impuro",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Mediadores cultuais",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:tenda-do-encontro-ohel-moed",
+      "kind": "theme",
+      "label": "Tenda do Encontro (Ohel Moed)",
+      "aliases": [],
+      "summary": "O espaço de encontro entre Deus e Israel, centro do culto levítico",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário móvel no deserto",
+        "entityType": "Lugar / Instituição"
+      }
+    },
+    {
+      "id": "theme:yahweh",
+      "kind": "theme",
+      "label": "Yahweh",
+      "aliases": [],
+      "summary": "O Criador que governa as nações, levanta impérios e responde às lamentações humanas segundo sua justiça e santidade inegociáveis.",
+      "references": [
+        "Gên 17; Lv 11:44; Ap 21",
+        "Juízes 2:1-5; 6:14",
+        "Miqueias 1:2-3; 6:1-8; 7:18-20",
+        "Hab 1:12; 2:20; 3:3"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano da história",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-arao:chapter-levitico-10",
+      "from": "person:arao",
+      "to": "chapter:levitico:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êx 28; Lv 8-10; Nm 16.",
+      "references": ["Êx 28; Lv 8-10; Nm 16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-levitico-8",
+      "from": "person:arao",
+      "to": "chapter:levitico:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êx 28; Lv 8-10; Nm 16.",
+      "references": ["Êx 28; Lv 8-10; Nm 16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-levitico-9",
+      "from": "person:arao",
+      "to": "chapter:levitico:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êx 28; Lv 8-10; Nm 16.",
+      "references": ["Êx 28; Lv 8-10; Nm 16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar-e-itamar:chapter-levitico-10",
+      "from": "person:eleazar-e-itamar",
+      "to": "chapter:levitico:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar e Itamar” cita explicitamente Lv 10:6; Nm 3:2-4.",
+      "references": ["Lv 10:6; Nm 3:2-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-levitico-1",
+      "from": "person:moises",
+      "to": "chapter:levitico:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êx 19; Lv 1:1; Nm 1.",
+      "references": ["Êx 19; Lv 1:1; Nm 1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nadabe-e-abiu:chapter-levitico-10",
+      "from": "person:nadabe-e-abiu",
+      "to": "chapter:levitico:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nadabe e Abiú” cita explicitamente Lv 10:1-2; Nm 3:4.",
+      "references": ["Lv 10:1-2; Nm 3:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-tenda-do-encontro-ohel-moed:chapter-levitico-1",
+      "from": "place:a-tenda-do-encontro-ohel-moed",
+      "to": "chapter:levitico:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Tenda do Encontro (Ohel Moed)” cita explicitamente Lv 1:1; 17:4; Nm 1:1.",
+      "references": ["Lv 1:1; 17:4; Nm 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-tenda-do-encontro-ohel-moed:chapter-levitico-17",
+      "from": "place:a-tenda-do-encontro-ohel-moed",
+      "to": "chapter:levitico:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Tenda do Encontro (Ohel Moed)” cita explicitamente Lv 1:1; 17:4; Nm 1:1.",
+      "references": ["Lv 1:1; 17:4; Nm 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-acampamento-de-israel:chapter-levitico-13",
+      "from": "place:o-acampamento-de-israel",
+      "to": "chapter:levitico:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Acampamento de Israel” cita explicitamente Lv 13:46; 17:3; Nm 5:3.",
+      "references": ["Lv 13:46; 17:3; Nm 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-acampamento-de-israel:chapter-levitico-17",
+      "from": "place:o-acampamento-de-israel",
+      "to": "chapter:levitico:17",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Acampamento de Israel” cita explicitamente Lv 13:46; 17:3; Nm 5:3.",
+      "references": ["Lv 13:46; 17:3; Nm 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto-midbar:chapter-levitico-16",
+      "from": "place:o-deserto-midbar",
+      "to": "chapter:levitico:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto (Midbar)” cita explicitamente Lv 16:10; Dt 8:2; Am 5:25.",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-sinai-horebe:chapter-levitico-25",
+      "from": "place:o-monte-sinai-horebe",
+      "to": "chapter:levitico:25",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte Sinai (Horebe)” cita explicitamente Êx 19; Lv 25:1; Ne 9:13.",
+      "references": ["Êx 19; Lv 25:1; Ne 9:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-santo-dos-santos-kodesh-hakodashim:chapter-levitico-16",
+      "from": "place:o-santo-dos-santos-kodesh-hakodashim",
+      "to": "chapter:levitico:16",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Santo dos Santos (Kodesh HaKodashim)” cita explicitamente Lv 16:2; 1 Rs 8:6; Hb 9:3.",
+      "references": ["Lv 16:2; 1 Rs 8:6; Hb 9:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11:chapter-levitico-19",
+      "from": "prophecy:1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11",
+      "to": "chapter:levitico:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O mandamento antigo e novo de amar uns aos outros (1 João 2:7-8 / 3:11)” cita explicitamente Levítico 19:18; João 13:34; 15:12.",
+      "references": ["Levítico 19:18; João 13:34; 15:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro:chapter-levitico-26",
+      "from": "prophecy:deuteronomio-deut-28-15-68-as-maldicoes-da-alianca-e-o-cativeiro",
+      "to": "chapter:levitico:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 28:15-68 (As Maldições da Aliança e o Cativeiro)” cita explicitamente Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13.",
+      "references": [
+        "Levítico 26; 1 Reis 8:46-53; Jeremias 24:9; Daniel 9:11-13"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-1:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:1",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-1:theme-tenda-do-encontro-ohel-moed",
+      "from": "chapter:levitico:1",
+      "to": "theme:tenda-do-encontro-ohel-moed",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tenda do Encontro (Ohel Moed)” cita explicitamente Êx 33; Lv 1:1; Hb 8.",
+      "references": ["Êx 33; Lv 1:1; Hb 8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-10:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:10",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-11:theme-yahweh",
+      "from": "chapter:levitico:11",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Gên 17; Lv 11:44; Ap 21.",
+      "references": ["Gên 17; Lv 11:44; Ap 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-16:theme-o-bode-expiatorio-azazel",
+      "from": "chapter:levitico:16",
+      "to": "theme:o-bode-expiatorio-azazel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Bode Expiatório (Azazel)” cita explicitamente Lv 16:8-10, 21.",
+      "references": ["Lv 16:8-10, 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-17:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:17",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-18:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:18",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-19:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:19",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-2:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:2",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-20:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:20",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-21:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:21",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-22:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:22",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-23:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:23",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-24:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:24",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-25:theme-ano-do-jubileu",
+      "from": "chapter:levitico:25",
+      "to": "theme:ano-do-jubileu",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Ano do Jubileu” cita explicitamente Lv 25; Is 61; Lc 4.",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-25:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:25",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-26:theme-codigo-de-santidade-kedushah",
+      "from": "chapter:levitico:26",
+      "to": "theme:codigo-de-santidade-kedushah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Código de Santidade (Kedushah)” cita explicitamente Lv 17–26; 1 Pe 1:15-16.",
+      "references": ["Lv 17–26; 1 Pe 1:15-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-3:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:3",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-4:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:4",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-5:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:5",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-6:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:6",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-7:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:7",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-8:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:8",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-levitico-9:theme-sacerdotes-leviticos-aronidas",
+      "from": "chapter:levitico:9",
+      "to": "theme:sacerdotes-leviticos-aronidas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sacerdotes levíticos (Arônidas)” cita explicitamente Lv 1–10; Dt 33; Ml 2.",
+      "references": ["Lv 1–10; Dt 33; Ml 2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-levitico-17:term-nephesh",
+      "from": "chapter:levitico:17",
+      "to": "term:nephesh",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Nephesh” cita explicitamente Lv 17:11.",
+      "references": ["Lv 17:11"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-levitico-19:term-qadosh",
+      "from": "chapter:levitico:19",
+      "to": "term:qadosh",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Qadosh” cita explicitamente Lv 19:1–18.",
+      "references": ["Lv 19:1–18"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

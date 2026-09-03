@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "book": "Ezequiel",
+  "count": 37,
+  "chapterCount": 19,
+  "nodes": [
+    {
+      "id": "people-group:a-casa-de-israel",
+      "kind": "people-group",
+      "label": "A Casa de Israel",
+      "aliases": [],
+      "summary": "Destinatária principal dos oráculos de exprobação e das promessas de restauração cultual e nacional.",
+      "references": ["Ezequiel 2:3; 37:15-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade do pacto dividida e exilada",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:ezequiel-filho-de-buzi",
+      "kind": "person",
+      "label": "Ezequiel (filho de Buzi)",
+      "aliases": ["Ezequiel (filho de Buzi)"],
+      "summary": "Ezequiel, filho de Buzi, era um sacerdote sadoqita deportado para a Babilônia na primeira leva de exílios em 597 a.C., juntamente com o rei Joaquim. Seu ministério profético estendeu-se por cerca de vinte e dois anos (c. 593–571 a.C.) [4]. Caracterizado por visões cósmicas impressionantes, ações simbólicas bizarras e intensas experiências extáticas, Ezequiel combinou o zelo sacerdotal estrito com uma mensagem radical de julgamento sobre Jerusalém e uma promessa de restauração espiritual e física de Israel.",
+      "references": ["Ezequiel 1:3; 3:15"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-ezequiel-filho-de-buzi"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta e sacerdote exilado",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nabucodonosor-ii",
+      "kind": "person",
+      "label": "Nabucodonosor II",
+      "aliases": [],
+      "summary": "Representa o poder imperial soberano que, contudo, é subjugado e ensinado pela soberania divina.",
+      "references": [
+        "Jer 25:9; 27:6",
+        "Ezequiel 21:19-22; 29:18-20",
+        "Daniel 1:1; 3:1; 4:37"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei do Império Neobabilônico, instrumento da disciplina divina e posteriormente convertido ao louvor do Deus Altíssimo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:eden",
+      "kind": "place",
+      "label": "Éden",
+      "aliases": [],
+      "summary": "Jardim de presença, abundância e limite; sua localização física permanece incerta.",
+      "references": ["Gn 2–3", "Ez 28:13", "Ap 22:1–5"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["eden"],
+      "attributes": { "status": "simbólico", "x": 70, "y": 27 }
+    },
+    {
+      "id": "place:jerusalem-cidade-e-templo",
+      "kind": "place",
+      "label": "Jerusalém (Cidade e Templo)",
+      "aliases": [],
+      "summary": "Função: Epicentro da corrupção cultual pré-exílica e alvo do juízo divino, posteriormente redesenhado na utopia escatológica.",
+      "references": ["Referências: Ezequiel 8:3; 40:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Status: Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-mar-morto-mar-salgado",
+      "kind": "place",
+      "label": "O Mar Morto (Mar Salgado)",
+      "aliases": [],
+      "summary": "Função: Destino das águas curativas do novo templo, transformado de símbolo de morte em ecossistema próspero.",
+      "references": ["Referências: Ezequiel 47:8-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Status: Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:tel-abibe-rio-quebar",
+      "kind": "place",
+      "label": "Tel-Abibe (Rio Quebar)",
+      "aliases": [],
+      "summary": "Função: Principal assentamento de exilados judaicos na Babilônia, cenário das visões inaugurais e ministeriais de Ezequiel.",
+      "references": ["Referências: Ezequiel 1:1,3; 3:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Status: Geográfico / Histórico" }
+    },
+    {
+      "id": "place:tiro",
+      "kind": "place",
+      "label": "Tiro",
+      "aliases": [],
+      "summary": "Função: Metrópole fenícia mercantil e soberba, cujo julgamento serve para ilustrar a teologia da soberania de Deus sobre o comércio e a hybris humana.",
+      "references": ["Referências: Ezequiel 26:2; 27:3; 28:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Status: Geográfico / Histórico" }
+    },
+    {
+      "id": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "kind": "prophecy",
+      "label": "O testemunho da água, do sangue e do Espírito (1 João 5:6-8)",
+      "aliases": [],
+      "summary": "Divergências: Tradicionalmente interpretado na patrística como referência aos sacramentos (batismo e eucaristia), enquanto a exegese moderna vê alusão ao batismo de Jesus (água) e à sua crucificação (sangue) atestados pelo Espírito.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / tipologia" }
+    },
+    {
+      "id": "prophecy:ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos",
+      "kind": "prophecy",
+      "label": "Ageu 2:21-22 — \"Abalarei os céus e a terra, e transtornarei o trono dos reinos...\"",
+      "aliases": [],
+      "summary": "Leituras apocalípticas posteriores interpretam o abalo sísmico cósmico como a derrocada definitiva dos poderes imperiais hostis a Deus no fim dos tempos.",
+      "references": ["Apocalipse 16:17-21; Ezequiel 38-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/recepção posterior" }
+    },
+    {
+      "id": "prophecy:apocalipse-ezequiel-38-39-apocalipse-20-7-10",
+      "kind": "prophecy",
+      "label": "Ezequiel 38-39 — Apocalipse 20:7-10",
+      "aliases": [],
+      "summary": "A revolta de Gogue e Magogue é reinterpretada escatologicamente no final do milênio; dispensacionalistas aplicam literalmente a uma guerra geopolítica futura, enquanto amilenaristas leem simbolicamente como a oposição final contra a igreja.",
+      "references": ["Ezequiel 38-39; Apocalipse 20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/oráculo" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "kind": "prophecy",
+      "label": "Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)",
+      "aliases": [],
+      "summary": "O texto aponta para uma futura conversão interior e retorno físico à terra após a dispersão, servindo de base para as teologias da Nova Aliança e escatologias judaico-cristãs sobre a redenção final.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / oráculo" }
+    },
+    {
+      "id": "prophecy:naum-ai-da-cidade-sanguinaria-naum-3-1",
+      "kind": "prophecy",
+      "label": "\"Ai da cidade sanguinária...\" (Naum 3:1)",
+      "aliases": [],
+      "summary": "Condenação moral dos impérios que prosperam à base da exploração violenta.",
+      "references": ["Habacuque 2:12; Ezequiel 22:2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo de juízo" }
+    },
+    {
+      "id": "prophecy:tito-tito-3-5-6",
+      "kind": "prophecy",
+      "label": "Tito 3:5-6",
+      "aliases": [],
+      "summary": "Conexão pneumatológica com o derramamento profético do Espírito no novo pacto.",
+      "references": ["Joel 2:28; Ezequiel 36:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tipologia" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem",
+      "kind": "prophecy",
+      "label": "Zacarias 14:8 (\"Águas vivas sairão de Jerusalém\")",
+      "aliases": [],
+      "summary": "A imagem de rios fluindo de Jerusalém é lida na literatura intertestamentária e apocalíptica como a renovação cósmica da criação no fim dos tempos.",
+      "references": ["Ezequiel 47, Apocalipse 22:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "term:ruach",
+      "kind": "term",
+      "label": "Ruach",
+      "aliases": ["רוּחַ", "rûaḥ"],
+      "summary": "Palavra que pode designar vento, sopro, respiração, disposição interior ou espírito, inclusive a ação do Espírito de Deus.",
+      "references": ["Gn 1:2", "Ez 37:1–14", "Jl 2:28–29"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ruach"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O contexto decide se a imagem é meteorológica, antropológica, psicológica ou teológica. As camadas podem permanecer deliberadamente próximas em textos poéticos.",
+        "translationNote": "A tradução por ‘espírito’ em todos os casos pode apagar o aspecto de vento ou sopro; a tradução por ‘vento’ em textos teológicos pode apagar a agência divina."
+      }
+    },
+    {
+      "id": "theme:gog-de-magog",
+      "kind": "theme",
+      "label": "Gog de Magog",
+      "aliases": [],
+      "summary": "Força apocalíptica e escatológica de oposição final ao povo restaurado de Deus, derrotada diretamente por intervenção divina.",
+      "references": ["Ezequiel 38:2-3; 39:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano e coalizão de nações do extremo norte",
+        "entityType": "Pessoa/Povo/Conceito"
+      }
+    },
+    {
+      "id": "theme:kavod-yahweh-a-gloria-de-deus",
+      "kind": "theme",
+      "label": "Kavod Yahweh (A Glória de Deus)",
+      "aliases": [],
+      "summary": "Representa a soberania intransigente de Deus que se desloca de Jerusalém para a Babilônia e promete retornar.",
+      "references": ["Ezequiel 1:28; 10:18-19; 43:4-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Manifestação dinâmica e luminosa da presença divina",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-novo-davi-servo-principe",
+      "kind": "theme",
+      "label": "O Novo Davi (Servo Príncipe)",
+      "aliases": [],
+      "summary": "Governante subordinado e pastor fiel sob a soberania suprema de Yahweh no período de restauração.",
+      "references": ["Ezequiel 34:23-24; 37:24-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder escatológico da dinastia davídica",
+        "entityType": "Pessoa/Instituição"
+      }
+    },
+    {
+      "id": "theme:o-rio-do-santuario",
+      "kind": "theme",
+      "label": "O Rio do Santuário",
+      "aliases": [],
+      "summary": "Fluxo hídrico escatológico que transforma a salinidade do Mar Morto em água potável e vivifica a flora e fauna da região.",
+      "references": ["Ezequiel 47:1-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Manancial milagroso procedente do limiar do templo",
+        "entityType": "Lugar/Conceito"
+      }
+    },
+    {
+      "id": "theme:os-ossos-secos",
+      "kind": "theme",
+      "label": "Os Ossos Secos",
+      "aliases": [],
+      "summary": "Representação da morte nacional e espiritual do exílio, cuja restauração depende exclusivamente da ação vivificante do Espírito (Ruach) de Deus.",
+      "references": ["Ezequiel 37:1-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Metáfora da Casa de Israel em desespero total",
+        "entityType": "Símbolo/Conceito"
+      }
+    },
+    {
+      "id": "theme:os-pastores-de-israel",
+      "kind": "theme",
+      "label": "Os Pastores de Israel",
+      "aliases": [],
+      "summary": "Acusados de explorar o rebanho em benefício próprio, motivando a assunção direta do pastoreio por Yahweh.",
+      "references": ["Ezequiel 34:2-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Lideranças políticas e religiosas corruptas do período pré-exílico",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:tiro-principe-de-tiro",
+      "kind": "theme",
+      "label": "Tiro (Príncipe de Tiro)",
+      "aliases": [],
+      "summary": "Símbolo paradigmático da soberba humana que se autoproclama divindade, cujo declínio reflete a queda do arquétipo edênico da corrupção.",
+      "references": ["Ezequiel 26:1-2; 28:2, 12-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cidade-estado fenícia e seu soberano autoidólatra",
+        "entityType": "Lugar/Pessoa"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-a-casa-de-israel:chapter-ezequiel-2",
+      "from": "people-group:a-casa-de-israel",
+      "to": "chapter:ezequiel:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Casa de Israel” cita explicitamente Ezequiel 2:3; 37:15-22.",
+      "references": ["Ezequiel 2:3; 37:15-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-a-casa-de-israel:chapter-ezequiel-37",
+      "from": "people-group:a-casa-de-israel",
+      "to": "chapter:ezequiel:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Casa de Israel” cita explicitamente Ezequiel 2:3; 37:15-22.",
+      "references": ["Ezequiel 2:3; 37:15-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequiel-filho-de-buzi:chapter-ezequiel-1",
+      "from": "person:ezequiel-filho-de-buzi",
+      "to": "chapter:ezequiel:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel (filho de Buzi)” cita explicitamente Ezequiel 1:3; 3:15.",
+      "references": ["Ezequiel 1:3; 3:15"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequiel-filho-de-buzi:chapter-ezequiel-3",
+      "from": "person:ezequiel-filho-de-buzi",
+      "to": "chapter:ezequiel:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel (filho de Buzi)” cita explicitamente Ezequiel 1:3; 3:15.",
+      "references": ["Ezequiel 1:3; 3:15"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-ezequiel-21",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:ezequiel:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Ezequiel 21:19-22; 29:18-20.",
+      "references": ["Ezequiel 21:19-22; 29:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nabucodonosor-ii:chapter-ezequiel-29",
+      "from": "person:nabucodonosor-ii",
+      "to": "chapter:ezequiel:29",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nabucodonosor II” cita explicitamente Ezequiel 21:19-22; 29:18-20.",
+      "references": ["Ezequiel 21:19-22; 29:18-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-eden:chapter-ezequiel-28",
+      "from": "place:eden",
+      "to": "chapter:ezequiel:28",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Éden” cita explicitamente Ez 28:13.",
+      "references": ["Ez 28:13"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-e-templo:chapter-ezequiel-40",
+      "from": "place:jerusalem-cidade-e-templo",
+      "to": "chapter:ezequiel:40",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade e Templo)” cita explicitamente Referências: Ezequiel 8:3; 40:2.",
+      "references": ["Referências: Ezequiel 8:3; 40:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-cidade-e-templo:chapter-ezequiel-8",
+      "from": "place:jerusalem-cidade-e-templo",
+      "to": "chapter:ezequiel:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Cidade e Templo)” cita explicitamente Referências: Ezequiel 8:3; 40:2.",
+      "references": ["Referências: Ezequiel 8:3; 40:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-mar-morto-mar-salgado:chapter-ezequiel-47",
+      "from": "place:o-mar-morto-mar-salgado",
+      "to": "chapter:ezequiel:47",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Mar Morto (Mar Salgado)” cita explicitamente Referências: Ezequiel 47:8-10.",
+      "references": ["Referências: Ezequiel 47:8-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tel-abibe-rio-quebar:chapter-ezequiel-1",
+      "from": "place:tel-abibe-rio-quebar",
+      "to": "chapter:ezequiel:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tel-Abibe (Rio Quebar)” cita explicitamente Referências: Ezequiel 1:1,3; 3:15.",
+      "references": ["Referências: Ezequiel 1:1,3; 3:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tel-abibe-rio-quebar:chapter-ezequiel-3",
+      "from": "place:tel-abibe-rio-quebar",
+      "to": "chapter:ezequiel:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tel-Abibe (Rio Quebar)” cita explicitamente Referências: Ezequiel 1:1,3; 3:15.",
+      "references": ["Referências: Ezequiel 1:1,3; 3:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tiro:chapter-ezequiel-26",
+      "from": "place:tiro",
+      "to": "chapter:ezequiel:26",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tiro” cita explicitamente Referências: Ezequiel 26:2; 27:3; 28:2.",
+      "references": ["Referências: Ezequiel 26:2; 27:3; 28:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tiro:chapter-ezequiel-27",
+      "from": "place:tiro",
+      "to": "chapter:ezequiel:27",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tiro” cita explicitamente Referências: Ezequiel 26:2; 27:3; 28:2.",
+      "references": ["Referências: Ezequiel 26:2; 27:3; 28:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tiro:chapter-ezequiel-28",
+      "from": "place:tiro",
+      "to": "chapter:ezequiel:28",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tiro” cita explicitamente Referências: Ezequiel 26:2; 27:3; 28:2.",
+      "references": ["Referências: Ezequiel 26:2; 27:3; 28:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8:chapter-ezequiel-36",
+      "from": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "to": "chapter:ezequiel:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O testemunho da água, do sangue e do Espírito (1 João 5:6-8)” cita explicitamente Zacarias 12:10; João 19:34; Ezequiel 36:25-27.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos:chapter-ezequiel-38",
+      "from": "prophecy:ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos",
+      "to": "chapter:ezequiel:38",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:21-22 — \"Abalarei os céus e a terra, e transtornarei o trono dos reinos...\"” cita explicitamente Apocalipse 16:17-21; Ezequiel 38-39.",
+      "references": ["Apocalipse 16:17-21; Ezequiel 38-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos:chapter-ezequiel-39",
+      "from": "prophecy:ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos",
+      "to": "chapter:ezequiel:39",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:21-22 — \"Abalarei os céus e a terra, e transtornarei o trono dos reinos...\"” cita explicitamente Apocalipse 16:17-21; Ezequiel 38-39.",
+      "references": ["Apocalipse 16:17-21; Ezequiel 38-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-ezequiel-38-39-apocalipse-20-7-10:chapter-ezequiel-38",
+      "from": "prophecy:apocalipse-ezequiel-38-39-apocalipse-20-7-10",
+      "to": "chapter:ezequiel:38",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 38-39 — Apocalipse 20:7-10” cita explicitamente Ezequiel 38-39; Apocalipse 20.",
+      "references": ["Ezequiel 38-39; Apocalipse 20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-ezequiel-38-39-apocalipse-20-7-10:chapter-ezequiel-39",
+      "from": "prophecy:apocalipse-ezequiel-38-39-apocalipse-20-7-10",
+      "to": "chapter:ezequiel:39",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 38-39 — Apocalipse 20:7-10” cita explicitamente Ezequiel 38-39; Apocalipse 20.",
+      "references": ["Ezequiel 38-39; Apocalipse 20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio:chapter-ezequiel-36",
+      "from": "prophecy:deuteronomio-deut-30-1-5-a-promessa-de-restauracao-e-circuncisao-do-coracao-apos-o-exilio",
+      "to": "chapter:ezequiel:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 30:1-5 (A promessa de restauração e circuncisão do coração após o exílio)” cita explicitamente Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8.",
+      "references": ["Jeremias 31:31-34; Ezequiel 36:24-28; Romanos 10:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-ai-da-cidade-sanguinaria-naum-3-1:chapter-ezequiel-22",
+      "from": "prophecy:naum-ai-da-cidade-sanguinaria-naum-3-1",
+      "to": "chapter:ezequiel:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ai da cidade sanguinária...\" (Naum 3:1)” cita explicitamente Habacuque 2:12; Ezequiel 22:2-3.",
+      "references": ["Habacuque 2:12; Ezequiel 22:2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tito-tito-3-5-6:chapter-ezequiel-36",
+      "from": "prophecy:tito-tito-3-5-6",
+      "to": "chapter:ezequiel:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito 3:5-6” cita explicitamente Joel 2:28; Ezequiel 36:25-27.",
+      "references": ["Joel 2:28; Ezequiel 36:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem:chapter-ezequiel-47",
+      "from": "prophecy:zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem",
+      "to": "chapter:ezequiel:47",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 14:8 (\"Águas vivas sairão de Jerusalém\")” cita explicitamente Ezequiel 47, Apocalipse 22:1-2.",
+      "references": ["Ezequiel 47, Apocalipse 22:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-1:theme-kavod-yahweh-a-gloria-de-deus",
+      "from": "chapter:ezequiel:1",
+      "to": "theme:kavod-yahweh-a-gloria-de-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Kavod Yahweh (A Glória de Deus)” cita explicitamente Ezequiel 1:28; 10:18-19; 43:4-5.",
+      "references": ["Ezequiel 1:28; 10:18-19; 43:4-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-10:theme-kavod-yahweh-a-gloria-de-deus",
+      "from": "chapter:ezequiel:10",
+      "to": "theme:kavod-yahweh-a-gloria-de-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Kavod Yahweh (A Glória de Deus)” cita explicitamente Ezequiel 1:28; 10:18-19; 43:4-5.",
+      "references": ["Ezequiel 1:28; 10:18-19; 43:4-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-26:theme-tiro-principe-de-tiro",
+      "from": "chapter:ezequiel:26",
+      "to": "theme:tiro-principe-de-tiro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tiro (Príncipe de Tiro)” cita explicitamente Ezequiel 26:1-2; 28:2, 12-15.",
+      "references": ["Ezequiel 26:1-2; 28:2, 12-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-28:theme-tiro-principe-de-tiro",
+      "from": "chapter:ezequiel:28",
+      "to": "theme:tiro-principe-de-tiro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tiro (Príncipe de Tiro)” cita explicitamente Ezequiel 26:1-2; 28:2, 12-15.",
+      "references": ["Ezequiel 26:1-2; 28:2, 12-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-34:theme-o-novo-davi-servo-principe",
+      "from": "chapter:ezequiel:34",
+      "to": "theme:o-novo-davi-servo-principe",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Novo Davi (Servo Príncipe)” cita explicitamente Ezequiel 34:23-24; 37:24-25.",
+      "references": ["Ezequiel 34:23-24; 37:24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-34:theme-os-pastores-de-israel",
+      "from": "chapter:ezequiel:34",
+      "to": "theme:os-pastores-de-israel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Pastores de Israel” cita explicitamente Ezequiel 34:2-10.",
+      "references": ["Ezequiel 34:2-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-37:theme-o-novo-davi-servo-principe",
+      "from": "chapter:ezequiel:37",
+      "to": "theme:o-novo-davi-servo-principe",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Novo Davi (Servo Príncipe)” cita explicitamente Ezequiel 34:23-24; 37:24-25.",
+      "references": ["Ezequiel 34:23-24; 37:24-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-37:theme-os-ossos-secos",
+      "from": "chapter:ezequiel:37",
+      "to": "theme:os-ossos-secos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Ossos Secos” cita explicitamente Ezequiel 37:1-14.",
+      "references": ["Ezequiel 37:1-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-38:theme-gog-de-magog",
+      "from": "chapter:ezequiel:38",
+      "to": "theme:gog-de-magog",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Gog de Magog” cita explicitamente Ezequiel 38:2-3; 39:1-2.",
+      "references": ["Ezequiel 38:2-3; 39:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-39:theme-gog-de-magog",
+      "from": "chapter:ezequiel:39",
+      "to": "theme:gog-de-magog",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Gog de Magog” cita explicitamente Ezequiel 38:2-3; 39:1-2.",
+      "references": ["Ezequiel 38:2-3; 39:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-43:theme-kavod-yahweh-a-gloria-de-deus",
+      "from": "chapter:ezequiel:43",
+      "to": "theme:kavod-yahweh-a-gloria-de-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Kavod Yahweh (A Glória de Deus)” cita explicitamente Ezequiel 1:28; 10:18-19; 43:4-5.",
+      "references": ["Ezequiel 1:28; 10:18-19; 43:4-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-ezequiel-47:theme-o-rio-do-santuario",
+      "from": "chapter:ezequiel:47",
+      "to": "theme:o-rio-do-santuario",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Rio do Santuário” cita explicitamente Ezequiel 47:1-12.",
+      "references": ["Ezequiel 47:1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-ezequiel-37:term-ruach",
+      "from": "chapter:ezequiel:37",
+      "to": "term:ruach",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Ruach” cita explicitamente Ez 37:1–14.",
+      "references": ["Ez 37:1–14"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

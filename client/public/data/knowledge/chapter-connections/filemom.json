@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "book": "Filemom",
+  "count": 16,
+  "chapterCount": 1,
+  "nodes": [
+    {
+      "id": "person:apia",
+      "kind": "person",
+      "label": "Ápia",
+      "aliases": [],
+      "summary": "Mencionada na saudação inicial, indicando sua posição de autoridade e liderança na igreja doméstica de Colossos.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Co-destinatária da carta, presumivelmente esposa de Filemom",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:arquipo",
+      "kind": "person",
+      "label": "Arquipo",
+      "aliases": [],
+      "summary": "Designado como \"companheiro de lutas\", possivelmente exercendo liderança pastoral ou ministerial na comunidade local.",
+      "references": ["Cl 4:17", "Filemom 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Co-destinatário, associado à igreja em Colossos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:epafras",
+      "kind": "person",
+      "label": "Epafras",
+      "aliases": ["Epafras"],
+      "summary": "Epafras era natural de Colossos, fundador e líder da igreja colossense (e provavelmente das comunidades de Laodicéia e Hierápolis), descrito por Paulo como \"amado conservo\" e \"fiel ministro de Cristo\" que lutava continuamente em oração pelas igrejas do Lico [145].",
+      "references": [
+        "Colossenses 1:7-8",
+        "Colossenses 4:12-13",
+        "Filemom 23",
+        "Cl 1:7, 4:12-13",
+        "Filemom 1:23"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-epafras"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Colossenses%201%3A7-8%3B%20Colossenses%204%3A12-13%3B%20Filemom%2023&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Companheiro de prisão de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:filemom",
+      "kind": "person",
+      "label": "Filemom",
+      "aliases": [],
+      "summary": "Membro proeminente da igreja em sua casa, desafiado a transcender as leis civis romanas de propriedade em favor da fraternidade em Cristo.",
+      "references": ["Filemom 1:1, 7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destinatário principal da carta, proprietário de escravos em Colossos",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:marcos-aristarco-demas-e-lucas",
+      "kind": "person",
+      "label": "Marcos, Aristarco, Demas e Lucas",
+      "aliases": [],
+      "summary": "Representam a rede apostólica de apoio em Roma/Éfeso que saúda a comunidade colossense.",
+      "references": ["Filemom 1:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cooperadores de Paulo mencionados na saudação final",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:onesimo",
+      "kind": "person",
+      "label": "Onésimo",
+      "aliases": [],
+      "summary": "Convertido por Paulo no cativeiro, transformado de \"inútil\" em irmão amado na fé, cujo retorno testa a integridade da reconciliação cristã.",
+      "references": ["Filemom 1:10, 16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Escravo fugitivo pertencente a Filemom",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:casa-de-filemom",
+      "kind": "place",
+      "label": "Casa de Filemom",
+      "aliases": [],
+      "summary": "Espaço doméstico onde se reúne a igreja local e onde a reconciliação entre senhor e escravo deve ser efetivada.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico/Institucional" }
+    },
+    {
+      "id": "place:colossos",
+      "kind": "place",
+      "label": "Colossos",
+      "aliases": [],
+      "summary": "Cidade antiga da Frígia, situada no vale do rio Lico, outrora próspera, mas em declínio no século I devido ao crescimento de Laodiceia e Hierápolis",
+      "references": [
+        "Cenário físico da comunidade destinatária da epístola",
+        "Filemom 1:2, Colossenses 1:2"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:prisao-de-paulo-roma-ou-efeso",
+      "kind": "place",
+      "label": "Prisão de Paulo (Roma ou Éfeso)",
+      "aliases": [],
+      "summary": "Local de cativeiro de onde Paulo escreve a carta e onde ocorre a conversão de Onésimo.",
+      "references": ["Filemom 1:1, 9, 10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "prophecy:filemom-isaias-53-4-6-o-servo-sofredor-que-leva-as-culpas",
+      "kind": "prophecy",
+      "label": "Isaías 53:4-6 (O Servo Sofredor que leva as culpas)",
+      "aliases": [],
+      "summary": "Enquanto Isaías descreve o Messias assumindo as iniquidades da humanidade, Paulo assume voluntariamente a dívida pecuniária e legal de Onésimo perante Filemom, gerando um eco tipológico da expiação vicária.",
+      "references": ["Filemom 1:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Tipologia Soteriológica" }
+    },
+    {
+      "id": "prophecy:filemom-levitico-25-39-43-regulamentos-sobre-escravizados-hebreus-e-tratamento-fraternal",
+      "kind": "prophecy",
+      "label": "Levítico 25:39-43 (Regulamentos sobre escravizados hebreus e tratamento fraternal)",
+      "aliases": [],
+      "summary": "A lei veterotestamentária exigia que o escravo hebreu fosse tratado como irmão e colaborador; Paulo expande esse princípio transcrito para o contexto gentio-cristão na nova aliança.",
+      "references": ["Filemom 1:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Recepção Ética" }
+    },
+    {
+      "id": "prophecy:filemom-proverbios-17-17-eclesiastes-4-9-10-o-amigo-e-o-irmao-na-adversidade",
+      "kind": "prophecy",
+      "label": "Provérbios 17:17 / Eclesiastes 4:9-10 (O amigo e o irmão na adversidade)",
+      "aliases": [],
+      "summary": "A sabedoria bíblica sobre a fortaleza da amizade e da irmandade reflete-se na nova relação exigida entre Filemom e Onésimo.",
+      "references": ["Filemom 1:7, 16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão Moral" }
+    },
+    {
+      "id": "theme:igreja-na-casa",
+      "kind": "theme",
+      "label": "Igreja na Casa",
+      "aliases": [],
+      "summary": "Contexto eclesial coletivo que testemunhará e ratificará a recepção de Onésimo e a reconciliação ética.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidade cristã que se reúne na residência de Filemom",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:imperio-romano",
+      "kind": "theme",
+      "label": "Império Romano",
+      "aliases": [],
+      "summary": "Contexto de soberania imperial e culto cívico onde a proclamação de \"Jesus como Senhor\" desafiava implicitamente a pax romana e o culto ao imperador.",
+      "references": ["1 Ts 1:9-10; 5:3", "Filemom 1:1-25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Contexto macropolítico estruturante",
+        "entityType": "Povo/Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-apia:chapter-filemom-1",
+      "from": "person:apia",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ápia” cita explicitamente Filemom 1:2.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arquipo:chapter-filemom-1",
+      "from": "person:arquipo",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arquipo” cita explicitamente Filemom 1:2.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-epafras:chapter-filemom-1",
+      "from": "person:epafras",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Epafras” cita explicitamente Filemom 1:23.",
+      "references": ["Filemom 1:23"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-filemom:chapter-filemom-1",
+      "from": "person:filemom",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Filemom” cita explicitamente Filemom 1:1, 7.",
+      "references": ["Filemom 1:1, 7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-marcos-aristarco-demas-e-lucas:chapter-filemom-1",
+      "from": "person:marcos-aristarco-demas-e-lucas",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Marcos, Aristarco, Demas e Lucas” cita explicitamente Filemom 1:24.",
+      "references": ["Filemom 1:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-onesimo:chapter-filemom-1",
+      "from": "person:onesimo",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Onésimo” cita explicitamente Filemom 1:10, 16.",
+      "references": ["Filemom 1:10, 16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-filemom-1",
+      "from": "person:paulo",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Filemom 1:1, 9, 19.",
+      "references": ["Filemom 1:1, 9, 19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-filemom-1",
+      "from": "person:timoteo",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente Filemom 1:1.",
+      "references": ["Filemom 1:1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-casa-de-filemom:chapter-filemom-1",
+      "from": "place:casa-de-filemom",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Casa de Filemom” cita explicitamente Filemom 1:2.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-colossos:chapter-filemom-1",
+      "from": "place:colossos",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Colossos” cita explicitamente Filemom 1:2, Colossenses 1:2.",
+      "references": ["Filemom 1:2, Colossenses 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-prisao-de-paulo-roma-ou-efeso:chapter-filemom-1",
+      "from": "place:prisao-de-paulo-roma-ou-efeso",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Prisão de Paulo (Roma ou Éfeso)” cita explicitamente Filemom 1:1, 9, 10.",
+      "references": ["Filemom 1:1, 9, 10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-filemom-isaias-53-4-6-o-servo-sofredor-que-leva-as-culpas:chapter-filemom-1",
+      "from": "prophecy:filemom-isaias-53-4-6-o-servo-sofredor-que-leva-as-culpas",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:4-6 (O Servo Sofredor que leva as culpas)” cita explicitamente Filemom 1:18-19.",
+      "references": ["Filemom 1:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-filemom-levitico-25-39-43-regulamentos-sobre-escravizados-hebreus-e-tratamento-fraternal:chapter-filemom-1",
+      "from": "prophecy:filemom-levitico-25-39-43-regulamentos-sobre-escravizados-hebreus-e-tratamento-fraternal",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Levítico 25:39-43 (Regulamentos sobre escravizados hebreus e tratamento fraternal)” cita explicitamente Filemom 1:16.",
+      "references": ["Filemom 1:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-filemom-proverbios-17-17-eclesiastes-4-9-10-o-amigo-e-o-irmao-na-adversidade:chapter-filemom-1",
+      "from": "prophecy:filemom-proverbios-17-17-eclesiastes-4-9-10-o-amigo-e-o-irmao-na-adversidade",
+      "to": "chapter:filemom:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Provérbios 17:17 / Eclesiastes 4:9-10 (O amigo e o irmão na adversidade)” cita explicitamente Filemom 1:7, 16.",
+      "references": ["Filemom 1:7, 16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-filemom-1:theme-igreja-na-casa",
+      "from": "chapter:filemom:1",
+      "to": "theme:igreja-na-casa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Igreja na Casa” cita explicitamente Filemom 1:2.",
+      "references": ["Filemom 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-filemom-1:theme-imperio-romano",
+      "from": "chapter:filemom:1",
+      "to": "theme:imperio-romano",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Império Romano” cita explicitamente Filemom 1:1-25.",
+      "references": ["Filemom 1:1-25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

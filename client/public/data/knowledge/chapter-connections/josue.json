@@ -1,0 +1,898 @@
+{
+  "schemaVersion": 1,
+  "book": "Josué",
+  "count": 44,
+  "chapterCount": 20,
+  "nodes": [
+    {
+      "id": "event:josue-assembleia-e-renovacao-da-alianca-em-siquem",
+      "kind": "event",
+      "label": "Assembleia e Renovação da Aliança em Siquém",
+      "aliases": [],
+      "summary": "Josué reúne todas as tribos em Siquém, reconta a história salvífica desde Terá e desafia o povo a servir exclusivamente a YHWH, formalizando um pacto solene",
+      "references": ["Josué 24:1-28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o fundamento sociopolítico e teológico da federação tribal israelita e rejeita os deuses ancestrais e cananeus",
+        "entities": "Josué 24:1-28"
+      }
+    },
+    {
+      "id": "event:josue-batalha-de-gibeao-e-o-sol-detido",
+      "kind": "event",
+      "label": "Batalha de Gibeão e o Sol Detido",
+      "aliases": [],
+      "summary": "Cinco reis amorreus atacam Gibeão; Israel socorre os aliados com marcha noturna e YHWH intervém com saraivada de granizo e prolongamento da luz solar",
+      "references": ["Josué 10:1-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "O evento ilustra a soberania cósmica de YHWH sobre as divindades celestes de Canaã e garante o domínio do sul",
+        "entities": "Josué 10:1-15"
+      }
+    },
+    {
+      "id": "event:josue-derrota-e-restauracao-em-ai",
+      "kind": "event",
+      "label": "Derrota e Restauração em Ai",
+      "aliases": [],
+      "summary": "O primeiro ataque a Ai falha devido ao pecado de Acã; após julgamento e punição, uma nova estratégia militar (emboscada) resulta na vitória total",
+      "references": ["Josué 7:1-8:29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Ensina a santidade comunitária e a necessidade de expiação antes da intervenção divina nas batalhas",
+        "entities": "Josué 7:1-8:29"
+      }
+    },
+    {
+      "id": "event:josue-queda-de-jerico",
+      "kind": "event",
+      "label": "Queda de Jericó",
+      "aliases": [],
+      "summary": "Israel circunda a cidade fortificada durante sete dias em silêncio, tocando trombetas no sétimo dia, resultando no desabamento dos muros",
+      "references": ["Josué 6:1-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra que a vitória é dom divino e fruto de obediência litúrgica, e não de superioridade bélica convencional",
+        "entities": "Josué 6:1-20"
+      }
+    },
+    {
+      "id": "event:josue-travessia-do-rio-jordao",
+      "kind": "event",
+      "label": "Travessia do Rio Jordão",
+      "aliases": [],
+      "summary": "Os sacerdotes carregando a arca entram nas cheias do Jordão, cujas águas se detêm, permitindo que o povo atravesse a pé enxuto e erga doze pedras comemorativas",
+      "references": ["Josué 3:1-4:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a continuidade da liderança de Josué com Moisés (Mar Vermelho) e consolida a memória fundacional para as futuras gerações",
+        "entities": "Josué 3:1-17; 4:1-24"
+      }
+    },
+    {
+      "id": "people-group:gibeonitas-hivitas",
+      "kind": "people-group",
+      "label": "Gibeonitas (Hivitas)",
+      "aliases": [],
+      "summary": "Grupo cananeu integrado a Israel como serventuários do santuário, demonstrando a abertura e os limites da aliança",
+      "references": ["Josué 9:3-27; 10:1-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Habitantes de Gibeão que asseguram um pacto com Israel por meio de estratagema",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:aca",
+      "kind": "person",
+      "label": "Acã",
+      "aliases": ["Acã (עָכָן)"],
+      "summary": "Acã, filho de Carmi, da tribo de Judá, protagoniza um dos episódios mais dramáticos e severos do período da conquista em Josué 7. Durante a tomada de Jericó, YHWH ordenara expressamente que toda a cidade fosse consagrada ao anátema (*herem*), sendo o ouro e a prata consagrados ao tesouro do santuário, e o restante destruído. Acã cobiçou e apropriou-se furtivamente de um manto babilônico capa de luxo, duzentos siclos de prata e uma barra de ouro de cinquenta siclos, escondendo-os sob sua tenda. Esse ato de transgressão secreta resultou na trágica derrota militar de Israel na primeira investida contra a cidade menor de Ai.",
+      "references": ["Josué 7:1-26"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-aca"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Filho de Carmi, da tribo de Judá",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:calebe",
+      "kind": "person",
+      "label": "Calebe",
+      "aliases": ["Calebe (כָּלֵב)"],
+      "summary": "Calebe, filho de Jefoné, o quenezeu, destaca-se como um dos doze espias enviados por Moisés para inspecionar Canaã. Juntamente com Josué, ele foi o único a apresentar um relatório otimista e de plena confiança no poder divino, contrapondo-se ao pessimismo dos demais espias que aterrorizaram o povo. Por causa de sua \"outra perspectiva\" e fidelidade inabalável, Calebe recebeu de Moisés a promessa de herdar pessoalmente a região de Hebrom, promessa que cumpriu com vigor heróico aos oitenta e cinco anos de idade durante a partilha da terra.",
+      "references": ["Josué 14:6-15"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-calebe"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Filho de Jefoné, o quenezeu",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:eleazar",
+      "kind": "person",
+      "label": "Eleazar",
+      "aliases": [],
+      "summary": "Filho de Arão que assume o sumo sacerdócio no monte Hor e auxilia Josué e Moisés no segundo recenseamento e partilha da terra.",
+      "references": ["Números 20:25-28; Números 34:17", "Josué 14:1; 17:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sumo sacerdote, filho de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josue",
+      "kind": "person",
+      "label": "Josué",
+      "aliases": ["Josué (יְהוֹשuַע)"],
+      "summary": "Josué (originalmente Oseias, filho de Num), da tribo de Efraim, é o fiel assistente e sucessor militar de Moisés. Ele comanda o exército de Israel na primeira batalha contra os amalequitas em Refidim, espiona a terra de Canaã com Calebe, e é formalmente comissionado como líder de Israel para realizar a conquista e a partilha da Terra Prometida. Sob sua liderança, as muralhas de Jericó desabam e a terra é conquistada em campanhas estratégicas, culminando na renovação da aliança em Siquém.",
+      "references": ["Êxodo 17:9-13; 24:13", "Josué 1:1; 24:29"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-josue-u"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sucessor de Moisés, líder militar e político de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:raabe",
+      "kind": "person",
+      "label": "Raabe",
+      "aliases": ["Raabe (רָחָב)"],
+      "summary": "Raabe é uma mulher cananeia, residente em Jericó, que exercia a profissão de hospedeira ou prostituta (*zonah*). Quando Josué envia dois espias a Jericó, Raabe os esconde em seu telhado sob o linho e despacha os oficiais do rei em direção falsa. Em troca de sua proteção, ela faz um pacto de que ela e sua família sejam poupadas quando a cidade for destruída, selando o acordo com o sinal do cordão escarlate na janela. Raabe abandona o paganismo cananeu e confessa a soberania do Deus de Israel.",
+      "references": ["Josué 2:1-24; 6:25", "Tiago 2:25; Josué 2:1-6"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-raabe"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Exemplo de fé e hospitalidade entre os gentios",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:ai",
+      "kind": "place",
+      "label": "Ai",
+      "aliases": [],
+      "summary": "Sítio da primeira derrota e posterior vitória por emboscada",
+      "references": ["Josué 7:2-5; 8:1-29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Arqueológico" }
+    },
+    {
+      "id": "place:gibeao",
+      "kind": "place",
+      "label": "Gibeão",
+      "aliases": [],
+      "summary": "Cidade dos heviteus que fez aliança com Israel e centro da grande batalha contra os reis amorreus",
+      "references": ["Josué 9:3-15; 10:10-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Político" }
+    },
+    {
+      "id": "place:gilgal",
+      "kind": "place",
+      "label": "Gilgal",
+      "aliases": [],
+      "summary": "Antigo santuário de peregrinação associado à conquista da terra sob Josué, transformado em polo de culto corrupto e formalista no século VIII AEC.",
+      "references": ["Josué 4:19-20; 5:9-10", "1Sm 10-15", "Amós 4:4; 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:hebrom",
+      "kind": "place",
+      "label": "Hebrom",
+      "aliases": [],
+      "summary": "Cidade conquistada por Calebe, associada aos patriarcas e designada cidade de refúgio e levítica",
+      "references": ["Josué 14:13-15; 20:7", "1 Cr 3:1-4; 11:1-3", "2Cr 11:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:jerico",
+      "kind": "place",
+      "label": "Jericó",
+      "aliases": [],
+      "summary": "Primeira cidade fortificada conquistada, destruída e amaldiçoada",
+      "references": ["Josué 6:1-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Disputado / Arqueológico" }
+    },
+    {
+      "id": "place:monte-ebal-e-monte-gerizim",
+      "kind": "place",
+      "label": "Monte Ebal e Monte Gerizim",
+      "aliases": [],
+      "summary": "Divisa entre a montanha da maldição (Ebal, com altar de pedras e leitura da lei) e da bênção (Gerizim)",
+      "references": ["Josué 8:30-35"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico / Cultual" }
+    },
+    {
+      "id": "place:naama",
+      "kind": "place",
+      "label": "Naamá",
+      "aliases": [],
+      "summary": "Cidade de origem de Zofar, mencionada no Neguebe ou na Sefelá de Judá.",
+      "references": ["Jó 2:11; Josué 15:41"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:silo",
+      "kind": "place",
+      "label": "Siló",
+      "aliases": [],
+      "summary": "Antigo centro religioso e abriga a Arca e o tabernáculo antes de sua destruição",
+      "references": ["Josué 18:1; 19:51", "Juízes 21:19", "1Sm 1-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "prophecy:1-reis-a-maldicao-sobre-quem-reconstruir-jerico-1rs-16-34",
+      "kind": "prophecy",
+      "label": "A maldição sobre quem reconstruir Jericó (1Rs 16:34)",
+      "aliases": [],
+      "summary": "Cumprimento literal na fundação de Jericó por Hiel de Betel, demonstrando a inerrância e infalibilidade da palavra profética antiga na história.",
+      "references": ["Josué 6:26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26",
+      "kind": "prophecy",
+      "label": "A maldição sobre quem reedificar a cidade de Jericó (Josué 6:26)",
+      "aliases": [],
+      "summary": "Cumprimento histórico registrado séculos depois nos dias de Acabe com Hiel de Betel; ilustra a infalibilidade da palavra profética na Historiografia Deuteronomista",
+      "references": ["Josué 6:26; 1 Reis 16:34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Profecia / Execução" }
+    },
+    {
+      "id": "prophecy:josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45",
+      "kind": "prophecy",
+      "label": "As promessas de descanso e herança integral da terra (Josué 21:43-45)",
+      "aliases": [],
+      "summary": "Tensão exegética entre o cumprimento aparente sob Josué e a reflexão teológica posterior (Salmo 95 / Hebreus) de que o verdadeiro \"descanso sabático\" (katapausis) escatológico ainda aguarda o povo de Deus",
+      "references": ["Josué 21:43-45; Josué 23:14; Hebreus 4:8-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Promessa Teológica" }
+    },
+    {
+      "id": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "kind": "prophecy",
+      "label": "\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"",
+      "aliases": [],
+      "summary": "Interpretado na tradição deuteronômica como garantia condicional de assistência divina atrelada à obediência, e na recepção cristã como promessa universal de presença perene (Hebreus)",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Promessa" }
+    },
+    {
+      "id": "prophecy:juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2",
+      "kind": "prophecy",
+      "label": "\"Não fareis aliança com os moradores desta terra... mas não ouvistes a minha voz\" (2:2)",
+      "aliases": [],
+      "summary": "Divergência exegética: Visto como chave retroativa deuteronomista ou recurso retórico exílico.",
+      "references": ["Juízes 2:1-3; Josué 23:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Advertência" }
+    },
+    {
+      "id": "prophecy:tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe",
+      "kind": "prophecy",
+      "label": "\"Acolheu os espias e os despachou por outro caminho\" (Raabe)",
+      "aliases": [],
+      "summary": "Releitura de um evento histórico de salvamento gentílico como evidência soteriológica de fé ativa, contrastando com interpretações que veem Raabe apenas como exemplo de heroísmo nacional.",
+      "references": ["Josué 2:1-21; Hebreus 11:31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "theme:anatema-herem",
+      "kind": "theme",
+      "label": "Anátema (Herem)",
+      "aliases": [],
+      "summary": "Instituição ritual de guerra santa onde o espólio pertence inteiramente a YHWH",
+      "references": ["Josué 6:17; 7:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Praga de destruição total consagrada à divindade",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:hazor",
+      "kind": "theme",
+      "label": "Hazor",
+      "aliases": [],
+      "summary": "Metrópole cananéia destruída e incendiada, cabeça de todos os reinos do norte",
+      "references": ["Josué 11:1-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Principal cidade-estado da alta Galileia",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:jerico",
+      "kind": "theme",
+      "label": "Jericó",
+      "aliases": [],
+      "summary": "Primeira cidade conquistada por Israel através de marcha litúrgica e colapso de muros",
+      "references": ["Josué 6:1-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cidade fortificada na rota de entrada em Canaã",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:principe-do-exercito-do-senhor",
+      "kind": "theme",
+      "label": "Príncipe do Exército do Senhor",
+      "aliases": [],
+      "summary": "Figura teofânica que subverte a lógica militar de Israel, exigindo a descalçação do solo sagrado",
+      "references": ["Josué 5:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comandante celestial encontrado por Josué perto de Jericó",
+        "entityType": "Pessoa / Teofania"
+      }
+    },
+    {
+      "id": "theme:siquem",
+      "kind": "theme",
+      "label": "Siquém",
+      "aliases": [],
+      "summary": "Local sagrado de renovação da aliança e sepultamento de ossos de José",
+      "references": ["Josué 8:30-35; 24:1-32"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Vale entre os montes Ebal e Gerizim",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-josue-assembleia-e-renovacao-da-alianca-em-siquem:chapter-josue-24",
+      "from": "event:josue-assembleia-e-renovacao-da-alianca-em-siquem",
+      "to": "chapter:josue:24",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Assembleia e Renovação da Aliança em Siquém” cita explicitamente Josué 24:1-28.",
+      "references": ["Josué 24:1-28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-batalha-de-gibeao-e-o-sol-detido:chapter-josue-10",
+      "from": "event:josue-batalha-de-gibeao-e-o-sol-detido",
+      "to": "chapter:josue:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Batalha de Gibeão e o Sol Detido” cita explicitamente Josué 10:1-15.",
+      "references": ["Josué 10:1-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-derrota-e-restauracao-em-ai:chapter-josue-7",
+      "from": "event:josue-derrota-e-restauracao-em-ai",
+      "to": "chapter:josue:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Derrota e Restauração em Ai” cita explicitamente Josué 7:1-8:29.",
+      "references": ["Josué 7:1-8:29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-derrota-e-restauracao-em-ai:chapter-josue-8",
+      "from": "event:josue-derrota-e-restauracao-em-ai",
+      "to": "chapter:josue:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Derrota e Restauração em Ai” cita explicitamente Josué 7:1-8:29.",
+      "references": ["Josué 7:1-8:29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-queda-de-jerico:chapter-josue-6",
+      "from": "event:josue-queda-de-jerico",
+      "to": "chapter:josue:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Queda de Jericó” cita explicitamente Josué 6:1-27.",
+      "references": ["Josué 6:1-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-travessia-do-rio-jordao:chapter-josue-3",
+      "from": "event:josue-travessia-do-rio-jordao",
+      "to": "chapter:josue:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Travessia do Rio Jordão” cita explicitamente Josué 3:1-4:24.",
+      "references": ["Josué 3:1-4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-josue-travessia-do-rio-jordao:chapter-josue-4",
+      "from": "event:josue-travessia-do-rio-jordao",
+      "to": "chapter:josue:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Travessia do Rio Jordão” cita explicitamente Josué 3:1-4:24.",
+      "references": ["Josué 3:1-4:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-gibeonitas-hivitas:chapter-josue-10",
+      "from": "people-group:gibeonitas-hivitas",
+      "to": "chapter:josue:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gibeonitas (Hivitas)” cita explicitamente Josué 9:3-27; 10:1-14.",
+      "references": ["Josué 9:3-27; 10:1-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-gibeonitas-hivitas:chapter-josue-9",
+      "from": "people-group:gibeonitas-hivitas",
+      "to": "chapter:josue:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gibeonitas (Hivitas)” cita explicitamente Josué 9:3-27; 10:1-14.",
+      "references": ["Josué 9:3-27; 10:1-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-aca:chapter-josue-7",
+      "from": "person:aca",
+      "to": "chapter:josue:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Acã” cita explicitamente Josué 7:1-26.",
+      "references": ["Josué 7:1-26"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-calebe:chapter-josue-14",
+      "from": "person:calebe",
+      "to": "chapter:josue:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Calebe” cita explicitamente Josué 14:6-15.",
+      "references": ["Josué 14:6-15"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar:chapter-josue-14",
+      "from": "person:eleazar",
+      "to": "chapter:josue:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar” cita explicitamente Josué 14:1; 17:4.",
+      "references": ["Josué 14:1; 17:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar:chapter-josue-17",
+      "from": "person:eleazar",
+      "to": "chapter:josue:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar” cita explicitamente Josué 14:1; 17:4.",
+      "references": ["Josué 14:1; 17:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue:chapter-josue-1",
+      "from": "person:josue",
+      "to": "chapter:josue:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué” cita explicitamente Josué 1:1; 24:29.",
+      "references": ["Josué 1:1; 24:29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue:chapter-josue-24",
+      "from": "person:josue",
+      "to": "chapter:josue:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué” cita explicitamente Josué 1:1; 24:29.",
+      "references": ["Josué 1:1; 24:29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-raabe:chapter-josue-2",
+      "from": "person:raabe",
+      "to": "chapter:josue:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Raabe” cita explicitamente Josué 2:1-24; 6:25.",
+      "references": ["Josué 2:1-24; 6:25"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-raabe:chapter-josue-6",
+      "from": "person:raabe",
+      "to": "chapter:josue:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Raabe” cita explicitamente Josué 2:1-24; 6:25.",
+      "references": ["Josué 2:1-24; 6:25"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ai:chapter-josue-7",
+      "from": "place:ai",
+      "to": "chapter:josue:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ai” cita explicitamente Josué 7:2-5; 8:1-29.",
+      "references": ["Josué 7:2-5; 8:1-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ai:chapter-josue-8",
+      "from": "place:ai",
+      "to": "chapter:josue:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ai” cita explicitamente Josué 7:2-5; 8:1-29.",
+      "references": ["Josué 7:2-5; 8:1-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeao:chapter-josue-10",
+      "from": "place:gibeao",
+      "to": "chapter:josue:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeão” cita explicitamente Josué 9:3-15; 10:10-14.",
+      "references": ["Josué 9:3-15; 10:10-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gibeao:chapter-josue-9",
+      "from": "place:gibeao",
+      "to": "chapter:josue:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gibeão” cita explicitamente Josué 9:3-15; 10:10-14.",
+      "references": ["Josué 9:3-15; 10:10-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gilgal:chapter-josue-4",
+      "from": "place:gilgal",
+      "to": "chapter:josue:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gilgal” cita explicitamente Josué 4:19-20; 5:9-10.",
+      "references": ["Josué 4:19-20; 5:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gilgal:chapter-josue-5",
+      "from": "place:gilgal",
+      "to": "chapter:josue:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gilgal” cita explicitamente Josué 4:19-20; 5:9-10.",
+      "references": ["Josué 4:19-20; 5:9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebrom:chapter-josue-14",
+      "from": "place:hebrom",
+      "to": "chapter:josue:14",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebrom” cita explicitamente Josué 14:13-15; 20:7.",
+      "references": ["Josué 14:13-15; 20:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-hebrom:chapter-josue-20",
+      "from": "place:hebrom",
+      "to": "chapter:josue:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Hebrom” cita explicitamente Josué 14:13-15; 20:7.",
+      "references": ["Josué 14:13-15; 20:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerico:chapter-josue-6",
+      "from": "place:jerico",
+      "to": "chapter:josue:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jericó” cita explicitamente Josué 6:1-26.",
+      "references": ["Josué 6:1-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-ebal-e-monte-gerizim:chapter-josue-8",
+      "from": "place:monte-ebal-e-monte-gerizim",
+      "to": "chapter:josue:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Ebal e Monte Gerizim” cita explicitamente Josué 8:30-35.",
+      "references": ["Josué 8:30-35"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-naama:chapter-josue-15",
+      "from": "place:naama",
+      "to": "chapter:josue:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Naamá” cita explicitamente Jó 2:11; Josué 15:41.",
+      "references": ["Jó 2:11; Josué 15:41"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-silo:chapter-josue-18",
+      "from": "place:silo",
+      "to": "chapter:josue:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Siló” cita explicitamente Josué 18:1; 19:51.",
+      "references": ["Josué 18:1; 19:51"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-silo:chapter-josue-19",
+      "from": "place:silo",
+      "to": "chapter:josue:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Siló” cita explicitamente Josué 18:1; 19:51.",
+      "references": ["Josué 18:1; 19:51"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-reis-a-maldicao-sobre-quem-reconstruir-jerico-1rs-16-34:chapter-josue-6",
+      "from": "prophecy:1-reis-a-maldicao-sobre-quem-reconstruir-jerico-1rs-16-34",
+      "to": "chapter:josue:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A maldição sobre quem reconstruir Jericó (1Rs 16:34)” cita explicitamente Josué 6:26.",
+      "references": ["Josué 6:26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26:chapter-josue-6",
+      "from": "prophecy:josue-a-maldicao-sobre-quem-reedificar-a-cidade-de-jerico-josue-6-26",
+      "to": "chapter:josue:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A maldição sobre quem reedificar a cidade de Jericó (Josué 6:26)” cita explicitamente Josué 6:26; 1 Reis 16:34.",
+      "references": ["Josué 6:26; 1 Reis 16:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45:chapter-josue-21",
+      "from": "prophecy:josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45",
+      "to": "chapter:josue:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As promessas de descanso e herança integral da terra (Josué 21:43-45)” cita explicitamente Josué 21:43-45; Josué 23:14; Hebreus 4:8-9.",
+      "references": ["Josué 21:43-45; Josué 23:14; Hebreus 4:8-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45:chapter-josue-23",
+      "from": "prophecy:josue-as-promessas-de-descanso-e-heranca-integral-da-terra-josue-21-43-45",
+      "to": "chapter:josue:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As promessas de descanso e herança integral da terra (Josué 21:43-45)” cita explicitamente Josué 21:43-45; Josué 23:14; Hebreus 4:8-9.",
+      "references": ["Josué 21:43-45; Josué 23:14; Hebreus 4:8-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo:chapter-josue-1",
+      "from": "prophecy:josue-ninguem-te-podera-resistir-todos-os-dias-da-tua-vida-como-fui-com-moises-assim-serei-contigo",
+      "to": "chapter:josue:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ninguém te poderá resistir todos os dias da tua vida; como fui com Moisés, assim serei contigo\"” cita explicitamente Josué 1:5; Deuteronômio 31:8; Hebreus 13:5.",
+      "references": ["Josué 1:5; Deuteronômio 31:8; Hebreus 13:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2:chapter-josue-23",
+      "from": "prophecy:juizes-nao-fareis-alianca-com-os-moradores-desta-terra-mas-nao-ouvistes-a-minha-voz-2-2",
+      "to": "chapter:josue:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Não fareis aliança com os moradores desta terra... mas não ouvistes a minha voz\" (2:2)” cita explicitamente Juízes 2:1-3; Josué 23:12-13.",
+      "references": ["Juízes 2:1-3; Josué 23:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe:chapter-josue-2",
+      "from": "prophecy:tiago-acolheu-os-espias-e-os-despachou-por-outro-caminho-raabe",
+      "to": "chapter:josue:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Acolheu os espias e os despachou por outro caminho\" (Raabe)” cita explicitamente Josué 2:1-21; Hebreus 11:31.",
+      "references": ["Josué 2:1-21; Hebreus 11:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-11:theme-hazor",
+      "from": "chapter:josue:11",
+      "to": "theme:hazor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Hazor” cita explicitamente Josué 11:1-15.",
+      "references": ["Josué 11:1-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-24:theme-siquem",
+      "from": "chapter:josue:24",
+      "to": "theme:siquem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Siquém” cita explicitamente Josué 8:30-35; 24:1-32.",
+      "references": ["Josué 8:30-35; 24:1-32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-5:theme-principe-do-exercito-do-senhor",
+      "from": "chapter:josue:5",
+      "to": "theme:principe-do-exercito-do-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Príncipe do Exército do Senhor” cita explicitamente Josué 5:13-15.",
+      "references": ["Josué 5:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-6:theme-anatema-herem",
+      "from": "chapter:josue:6",
+      "to": "theme:anatema-herem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anátema (Herem)” cita explicitamente Josué 6:17; 7:11.",
+      "references": ["Josué 6:17; 7:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-6:theme-jerico",
+      "from": "chapter:josue:6",
+      "to": "theme:jerico",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jericó” cita explicitamente Josué 6:1-27.",
+      "references": ["Josué 6:1-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-7:theme-anatema-herem",
+      "from": "chapter:josue:7",
+      "to": "theme:anatema-herem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Anátema (Herem)” cita explicitamente Josué 6:17; 7:11.",
+      "references": ["Josué 6:17; 7:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-josue-8:theme-siquem",
+      "from": "chapter:josue:8",
+      "to": "theme:siquem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Siquém” cita explicitamente Josué 8:30-35; 24:1-32.",
+      "references": ["Josué 8:30-35; 24:1-32"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

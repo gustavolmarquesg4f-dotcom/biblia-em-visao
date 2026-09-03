@@ -25,6 +25,21 @@ function timelineYear(year: number) {
   return year < 0 ? `${Math.abs(year)} a.C.` : year === 0 ? "c. 1" : `${year} d.C.`;
 }
 
+function normalizePlaceFocus(value: string) {
+  return value
+    .replace(/^place[:-]/, "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("pt-BR")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function findFocusedPlace(value: string) {
+  const normalized = normalizePlaceFocus(value);
+  return biblicalPlaces.find((place) => place.id === normalized || normalizePlaceFocus(place.name) === normalized);
+}
+
 function AtlasPlateArt({ plate }: { plate: AtlasPlate }) {
   const [imageFailed, setImageFailed] = useState(false);
   if (plate.image && !imageFailed) return <img src={plate.image} alt={`Prancha cartográfica: ${plate.title}`} loading="lazy" decoding="async" onError={() => setImageFailed(true)} />;
@@ -127,8 +142,7 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
 
   useEffect(() => {
     if (!focusPlaceId) return;
-    const normalizedFocusId = focusPlaceId.replace(/^place-/, "");
-    const place = biblicalPlaces.find((item) => item.id === normalizedFocusId);
+    const place = findFocusedPlace(focusPlaceId);
     if (!place) return;
     focus(place);
     onFocusHandled?.();
@@ -203,7 +217,7 @@ export default function InteractiveAtlas({ go, focusPlaceId = null, onFocusHandl
 
       <div className="atlas-timeline"><div className="atlas-timeline-head"><div><span className="atlas-timeline-kicker"><Clock3 size={12} /> Linha do tempo animada</span><h2>{timelineEvent.label}</h2><p>{timelineEvent.description}</p></div><div className="atlas-timeline-controls"><button type="button" aria-label="Reiniciar linha do tempo" onClick={() => { setIsPlaying(false); jumpTimeline(0); }}><RotateCcw size={14} /></button><button type="button" aria-label={isPlaying ? "Pausar linha do tempo" : "Reproduzir linha do tempo"} onClick={() => setIsPlaying((current) => !current)}>{isPlaying ? <Pause size={14} /> : <Play size={14} />}</button><button type="button" aria-label="Evento anterior" disabled={timelineIndex === 0} onClick={() => jumpTimeline(timelineIndex - 1)}><SkipBack size={14} /></button><button type="button" aria-label="Próximo evento" disabled={timelineIndex === timelineEvents.length - 1} onClick={() => jumpTimeline(timelineIndex + 1)}><SkipForward size={14} /></button><strong className="atlas-timeline-date">{timelineYear(timelineEvent.year)}</strong></div></div><input className="atlas-timeline-range" type="range" min={0} max={timelineEvents.length - 1} value={timelineIndex} onChange={(event) => jumpTimeline(Number(event.target.value))} aria-label="Linha do tempo histórica" /><div className="atlas-timeline-axis"><span>c. 1250 a.C.</span><span>{timelineEvents.length} eventos · arraste para explorar</span><span>60 d.C.</span></div><div className="atlas-timeline-event"><span>{timelineEvent.kind === "route" ? "Rota" : timelineEvent.kind === "empire" ? "Império" : "Contexto"}</span><strong>{timelineEvent.label}</strong><p>{timelineEvent.description}</p></div></div>
 
-      <div className="atlas-map-layout"><div className="atlas-map-panel"><MapView className={mapReady ? "biblical-map" : "biblical-map biblical-map--provider-loading"} initialCenter={{ lat: 32, lng: 35 }} initialZoom={5} onMapReady={(map) => { mapRef.current = map; setMapReady(true); setMapError(null); if (focusPlaceId) { const normalizedFocusId = focusPlaceId.replace(/^place-/, ""); const place = biblicalPlaces.find((item) => item.id === normalizedFocusId); if (place) { focus(place); onFocusHandled?.(); } } }} onMapError={(message) => { setMapError(message); setMapReady(false); }} />{!mapReady && <><AtlasFallbackMap selected={selected} places={visiblePlaces} layerIds={visibleLayerIds} onSelect={focus} /><div className="map-error-banner"><CircleHelp size={15} /><div><strong>{mapError ? "Mapa do provedor indisponível" : "Mapa interativo pronto para explorar"}</strong><span>{mapError ? "O mapa vetorial mantém a exploração de lugares, rotas e camadas." : "As camadas, cidades e rotas continuam disponíveis enquanto o provedor carrega."}</span></div></div></>}<div className="map-method-note"><span>Atlas 02 · Rotas e poderes em escala histórica</span><small>Coordenadas, rotas, áreas e datas são aproximações metodológicas; consulte o dossiê e a bibliografia.</small></div></div><aside className="atlas-place-list"><div className="atlas-list-head"><span>Lugares visíveis</span><strong>{visiblePlaces.length}<small>/{biblicalPlaces.length}</small></strong></div>{visiblePlaces.map((place) => <button key={place.id} type="button" className={selected.id === place.id ? "is-active" : ""} onClick={() => focus(place)} aria-pressed={selected.id === place.id}><span className="atlas-place-pin"><Map size={14} /></span><div><strong>{place.name}</strong><small>{place.ancientName} · {place.periods}</small><em>{place.refs}</em></div><ChevronRight size={14} /></button>)}</aside></div>
+      <div className="atlas-map-layout"><div className="atlas-map-panel"><MapView className={mapReady ? "biblical-map" : "biblical-map biblical-map--provider-loading"} initialCenter={{ lat: 32, lng: 35 }} initialZoom={5} onMapReady={(map) => { mapRef.current = map; setMapReady(true); setMapError(null); if (focusPlaceId) { const place = findFocusedPlace(focusPlaceId); if (place) { focus(place); onFocusHandled?.(); } } }} onMapError={(message) => { setMapError(message); setMapReady(false); }} />{!mapReady && <><AtlasFallbackMap selected={selected} places={visiblePlaces} layerIds={visibleLayerIds} onSelect={focus} /><div className="map-error-banner"><CircleHelp size={15} /><div><strong>{mapError ? "Mapa do provedor indisponível" : "Mapa interativo pronto para explorar"}</strong><span>{mapError ? "O mapa vetorial mantém a exploração de lugares, rotas e camadas." : "As camadas, cidades e rotas continuam disponíveis enquanto o provedor carrega."}</span></div></div></>}<div className="map-method-note"><span>Atlas 02 · Rotas e poderes em escala histórica</span><small>Coordenadas, rotas, áreas e datas são aproximações metodológicas; consulte o dossiê e a bibliografia.</small></div></div><aside className="atlas-place-list"><div className="atlas-list-head"><span>Lugares visíveis</span><strong>{visiblePlaces.length}<small>/{biblicalPlaces.length}</small></strong></div>{visiblePlaces.map((place) => <button key={place.id} type="button" className={selected.id === place.id ? "is-active" : ""} onClick={() => focus(place)} aria-pressed={selected.id === place.id}><span className="atlas-place-pin"><Map size={14} /></span><div><strong>{place.name}</strong><small>{place.ancientName} · {place.periods}</small><em>{place.refs}</em></div><ChevronRight size={14} /></button>)}</aside></div>
 
       <article className="atlas-dossier"><div className="atlas-dossier-heading"><div><span className="advanced-label">Dossiê do lugar</span><h2>{selected.name} <em>· {selected.ancientName}</em></h2><p>{selected.summary}</p></div><div className="atlas-coordinates"><span>Coordenadas aproximadas</span><strong>{selected.lat.toFixed(4)}° N<br />{selected.lng.toFixed(4)}° E</strong></div></div><div className="atlas-dossier-grid"><div><span className="advanced-label">Dossiê histórico</span><strong>{dossier.title}</strong><p>{dossier.thesis}</p></div><div><span className="advanced-label">Rotas e relações</span><p>{routeLayers.filter((layer) => layer.path.some((point) => Math.abs(point.lat - selected.lat) < 3 && Math.abs(point.lng - selected.lng) < 5)).map((layer) => layer.label).join(" · ") || "Lugar indexado no atlas; rota relacionada depende da camada ativa."}</p></div><div><span className="advanced-label">Método</span><p><ShieldCheck size={14} /> {dossier.confidence}</p></div></div><div className="atlas-dossier-foot"><div><span>Referências bíblicas</span><strong>{selected.refs}</strong></div><button type="button" onClick={() => go("study")}>Abrir dossiê histórico <ChevronRight size={15} /></button><button type="button" onClick={() => go("bibliography")}>Ver bibliografia <ChevronRight size={15} /></button></div></article>
 

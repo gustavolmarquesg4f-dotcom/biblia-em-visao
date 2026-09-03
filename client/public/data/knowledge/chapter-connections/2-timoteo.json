@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "book": "2 Timóteo",
+  "count": 26,
+  "chapterCount": 4,
+  "nodes": [
+    {
+      "id": "doctrine:escrituras",
+      "kind": "doctrine",
+      "label": "Bíblia e inspiração verbal",
+      "aliases": [],
+      "summary": "A declaração de fé consultada afirma a inspiração verbal da Bíblia e a reconhece como expressão escrita da Palavra de Deus.",
+      "references": ["2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escrituras"],
+      "attributes": {
+        "category": "Escrituras",
+        "pentecostalReading": "A Escritura é a autoridade fundante para doutrina, vida, culto e missão. A leitura pentecostal acrescenta a ação atual do Espírito sem colocar experiência individual acima do texto.",
+        "distinction": "Esta é uma formulação confessional. A pesquisa acadêmica também estuda composição, transmissão e gêneros sem operar com a mesma afirmação dogmática de inspiração.",
+        "source": "Declaração de Fé da Church of God; site IDB Nacional"
+      }
+    },
+    {
+      "id": "person:alexandre-o-funileiro",
+      "kind": "person",
+      "label": "Alexandre, o Funileiro",
+      "aliases": [],
+      "summary": "Causou muitos males ao apóstolo e resistiu fortemente às suas palavras.",
+      "references": ["2 Timóteo 4:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositor severo de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:demas",
+      "kind": "person",
+      "label": "Demas",
+      "aliases": [],
+      "summary": "Cooperador de Paulo mencionado nas saudações finais, cujo distanciamento posterior é registrado em outras epístolas",
+      "references": ["Cl 4:14", "2 Timóteo 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Antigo colaborador de Paulo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lucas",
+      "kind": "person",
+      "label": "Lucas",
+      "aliases": [],
+      "summary": "Único companheiro presente junto a Paulo na prisão romana durante o ocaso de sua vida.",
+      "references": ["Cl 4:14", "2 Timóteo 4:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Médico e companheiro de ministério",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lucas-o-medico-e-historiador",
+      "kind": "person",
+      "label": "Lucas (O Médico e Historiador)",
+      "aliases": ["Lucas (O Médico e Historiador)"],
+      "summary": "Lucas, tradicionalmente identificado como o médico amado mencionado por Paulo, foi o autor do Terceiro Evangelho e dos Atos dos Apóstolos, além de companheiro de viagens de Paulo em suas rotas marítimas e episódios de prisão (\"nós\" em Atos) [109].",
+      "references": ["Colossenses 4:14", "Atos 16:10-17", "2 Timóteo 4:11"],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-lucas-o-medico-e-historiador"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Colossenses%204%3A14%3B%20Atos%2016%3A10-17%3B%202%20Tim%C3%B3teo%204%3A11&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:onesiforo",
+      "kind": "person",
+      "label": "Onesíforo",
+      "aliases": [],
+      "summary": "Exemplo de lealdade que procurou diligentemente a Paulo em Roma sem se envergonhar de suas cadeias.",
+      "references": ["2 Timóteo 1:16-18; 4:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Benfeitor cristão", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:timoteo",
+      "kind": "person",
+      "label": "Timóteo",
+      "aliases": ["Timóteo"],
+      "summary": "Timóteo era filho de mãe judia crente (Eunice) e pai grego pagão, natural de Listra ou Derbe (Ásia Menor) [82]. Convertido durante a primeira viagem de Paulo, tornou-se o mais fiel, íntimo e duradouro delegado e alter ego do apóstolo, sendo circuncidado por Paulo por causa dos judeus da região [83].",
+      "references": [
+        "Atos 16:1-3",
+        "1 Tessalonicenses 3:1-6",
+        "2 Timóteo 1:5 e 3:14-17",
+        "2Co 1:1",
+        "Fl 1,1; Fl 2,19-23",
+        "Cl 1:1",
+        "1 Ts 1:1; 3:2; At 16:1-3",
+        "2 Tessalonicenses 1:1",
+        "1 Tm 1:2, 18; 4:12; 6:20",
+        "2 Timóteo 1:2; 2:1; 4:5",
+        "Filemom 1:1"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-timoteo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2016%3A1-3%3B%201%20Tessalonicenses%203%3A1-6%3B%202%20Tim%C3%B3teo%201%3A5%20e%203%3A14-17&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Co-remetente da epístola",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:dalmacia-galacia-e-tessalonica",
+      "kind": "place",
+      "label": "Dalmácia, Galácia e Tessalônica",
+      "aliases": [],
+      "summary": "Destinos de viagens missionárias e deslocamentos de cooperadores como Tito e Demas.",
+      "references": ["2 Timóteo 4:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:efeso",
+      "kind": "place",
+      "label": "Éfeso",
+      "aliases": [],
+      "summary": "Metrópole da província romana da Ásia, centro de culto a Ártemis e feitiçaria, destinatária primária (embora ausente em manuscritos antigos)",
+      "references": [
+        "Atos 18:19, 19:1-41, 20:17",
+        "1 Coríntios 16:8; Atos 19:1",
+        "Contexto urbano e sociorreligioso de sincretismo, onde o evangelho confrontou poderes mágicos e o culto imperial.",
+        "1 Tm 1:3",
+        "2 Timóteo 1:18; 4:12"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:roma",
+      "kind": "place",
+      "label": "Roma",
+      "aliases": [],
+      "summary": "Capital do Império Romano, destino final da jornada de Paulo e clímax teleológico da expansão do Evangelho (\"até aos confins da terra\").",
+      "references": [
+        "Atos 1:8, 28:14-31",
+        "Romanos 1:7; 1:15",
+        "2 Timóteo 1:17; 4:16-17"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:troade",
+      "kind": "place",
+      "label": "Trôade",
+      "aliases": [],
+      "summary": "Porto na Ásia Menor onde Paulo esperava Tito e encontrou portas abertas para a evangelização antes de passar à Macedônia",
+      "references": ["2Co 2:12", "2 Timóteo 4:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios",
+      "kind": "prophecy",
+      "label": "\"Nos últimos tempos, alguns apostatarão da fé, dando ouvidos a espíritos enganadores e a doutrinas de demônios\"",
+      "aliases": [],
+      "summary": "Interpretado por exegetas ora como profecia sobre o gnosticismo do século II, ora como advertência geral contra desvios sectários em qualquer era da igreja.",
+      "references": ["1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Previsão escatológica" }
+    },
+    {
+      "id": "prophecy:2-timoteo-janes-e-jambres-resistindo-a-moises",
+      "kind": "prophecy",
+      "label": "Janes e Jambres resistindo a Moisés",
+      "aliases": [],
+      "summary": "O texto evoca nomes de magos egípcios não presentes no Pentateuco canônico hebraico, refletindo o uso de literatura para-bíblica judaica intertestamentária pelo autor.",
+      "references": [
+        "2 Timóteo 3:8; cf. Tradições targumicas e midráxicas do Êxodo"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias",
+      "kind": "prophecy",
+      "label": "Sofrimento dos justos e oposição nos últimos dias",
+      "aliases": [],
+      "summary": "Interpretações divergem entre uma profecia preditiva estrita de catástrofes cronológicas modernas e um retrato sociorreligioso da decadência ética típica do mundo greco-romano pagão e de crises sectárias intracristãs.",
+      "references": [
+        "2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Alusão" }
+    },
+    {
+      "id": "theme:deposito-da-fe-paratheke",
+      "kind": "theme",
+      "label": "Depósito da Fé (Paratheke)",
+      "aliases": [],
+      "summary": "O conjunto sagrado de verdades evangélicas confiadas à guarda e transmissão fiel de Timóteo.",
+      "references": ["2 Timóteo 1:12, 14; 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tradição apostólica e doutrina sã",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:escritura-graphe",
+      "kind": "theme",
+      "label": "Escritura (Graphe)",
+      "aliases": [],
+      "summary": "Fonte suprema de instrução, repreensão e capacitação para toda boa obra.",
+      "references": ["2 Timóteo 3:15-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Palavra inspirada por Deus (theopneustos)",
+        "entityType": "Instituição/Conceito"
+      }
+    },
+    {
+      "id": "theme:himeneu-e-fileto",
+      "kind": "theme",
+      "label": "Himeneu e Fileto",
+      "aliases": [],
+      "summary": "Opositores que desviaram a fé de alguns afirmando que a ressurreição já tinha acontecido.",
+      "references": ["2 Timóteo 2:17-18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Falsos mestres", "entityType": "Pessoas" }
+    },
+    {
+      "id": "theme:loide-e-eunice",
+      "kind": "theme",
+      "label": "Lóide e Eunice",
+      "aliases": [],
+      "summary": "Exemplos de fé sincera e transmissão intergeracional das Escrituras Judaico-Cristãs.",
+      "references": ["2 Timóteo 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Avó e mãe de Timóteo", "entityType": "Pessoas" }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-alexandre-o-funileiro:chapter-2-timoteo-4",
+      "from": "person:alexandre-o-funileiro",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Alexandre, o Funileiro” cita explicitamente 2 Timóteo 4:14-15.",
+      "references": ["2 Timóteo 4:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-demas:chapter-2-timoteo-4",
+      "from": "person:demas",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Demas” cita explicitamente 2 Timóteo 4:10.",
+      "references": ["2 Timóteo 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lucas-o-medico-e-historiador:chapter-2-timoteo-4",
+      "from": "person:lucas-o-medico-e-historiador",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lucas (O Médico e Historiador)” cita explicitamente 2 Timóteo 4:11.",
+      "references": ["2 Timóteo 4:11"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lucas:chapter-2-timoteo-4",
+      "from": "person:lucas",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lucas” cita explicitamente 2 Timóteo 4:11.",
+      "references": ["2 Timóteo 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-onesiforo:chapter-2-timoteo-1",
+      "from": "person:onesiforo",
+      "to": "chapter:2-timoteo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Onesíforo” cita explicitamente 2 Timóteo 1:16-18; 4:19.",
+      "references": ["2 Timóteo 1:16-18; 4:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-onesiforo:chapter-2-timoteo-4",
+      "from": "person:onesiforo",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Onesíforo” cita explicitamente 2 Timóteo 1:16-18; 4:19.",
+      "references": ["2 Timóteo 1:16-18; 4:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-2-timoteo-1",
+      "from": "person:paulo",
+      "to": "chapter:2-timoteo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 2 Timóteo 1:1, 11; 4:6-8.",
+      "references": ["2 Timóteo 1:1, 11; 4:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-2-timoteo-4",
+      "from": "person:paulo",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente 2 Timóteo 1:1, 11; 4:6-8.",
+      "references": ["2 Timóteo 1:1, 11; 4:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-2-timoteo-1",
+      "from": "person:timoteo",
+      "to": "chapter:2-timoteo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 2 Timóteo 1:5 e 3:14-17.",
+      "references": ["2 Timóteo 1:5 e 3:14-17"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-2-timoteo-2",
+      "from": "person:timoteo",
+      "to": "chapter:2-timoteo:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 2 Timóteo 1:2; 2:1; 4:5.",
+      "references": ["2 Timóteo 1:2; 2:1; 4:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-timoteo:chapter-2-timoteo-4",
+      "from": "person:timoteo",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Timóteo” cita explicitamente 2 Timóteo 1:2; 2:1; 4:5.",
+      "references": ["2 Timóteo 1:2; 2:1; 4:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-dalmacia-galacia-e-tessalonica:chapter-2-timoteo-4",
+      "from": "place:dalmacia-galacia-e-tessalonica",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Dalmácia, Galácia e Tessalônica” cita explicitamente 2 Timóteo 4:10.",
+      "references": ["2 Timóteo 4:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-efeso:chapter-2-timoteo-1",
+      "from": "place:efeso",
+      "to": "chapter:2-timoteo:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Éfeso” cita explicitamente 2 Timóteo 1:18; 4:12.",
+      "references": ["2 Timóteo 1:18; 4:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-efeso:chapter-2-timoteo-4",
+      "from": "place:efeso",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Éfeso” cita explicitamente 2 Timóteo 1:18; 4:12.",
+      "references": ["2 Timóteo 1:18; 4:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-roma:chapter-2-timoteo-1",
+      "from": "place:roma",
+      "to": "chapter:2-timoteo:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Roma” cita explicitamente 2 Timóteo 1:17; 4:16-17.",
+      "references": ["2 Timóteo 1:17; 4:16-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-roma:chapter-2-timoteo-4",
+      "from": "place:roma",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Roma” cita explicitamente 2 Timóteo 1:17; 4:16-17.",
+      "references": ["2 Timóteo 1:17; 4:16-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-troade:chapter-2-timoteo-4",
+      "from": "place:troade",
+      "to": "chapter:2-timoteo:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Trôade” cita explicitamente 2 Timóteo 4:13.",
+      "references": ["2 Timóteo 4:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios:chapter-2-timoteo-3",
+      "from": "prophecy:1-timoteo-nos-ultimos-tempos-alguns-apostatarao-da-fe-dando-ouvidos-a-espiritos-enganadores-e-a-doutrinas-de-demonios",
+      "to": "chapter:2-timoteo:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Nos últimos tempos, alguns apostatarão da fé, dando ouvidos a espíritos enganadores e a doutrinas de demônios\"” cita explicitamente 1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3.",
+      "references": ["1 Tm 4:1-3; 2 Tm 3:1-5; 2 Pe 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-timoteo-janes-e-jambres-resistindo-a-moises:chapter-2-timoteo-3",
+      "from": "prophecy:2-timoteo-janes-e-jambres-resistindo-a-moises",
+      "to": "chapter:2-timoteo:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Janes e Jambres resistindo a Moisés” cita explicitamente 2 Timóteo 3:8; cf. Tradições targumicas e midráxicas do Êxodo.",
+      "references": [
+        "2 Timóteo 3:8; cf. Tradições targumicas e midráxicas do Êxodo"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias:chapter-2-timoteo-3",
+      "from": "prophecy:2-timoteo-sofrimento-dos-justos-e-oposicao-nos-ultimos-dias",
+      "to": "chapter:2-timoteo:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofrimento dos justos e oposição nos últimos dias” cita explicitamente 2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas.",
+      "references": [
+        "2 Timóteo 3:1-5; cf. Daniel 11-12; Salmos e profecias apocalípticas judaicas"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-1:theme-deposito-da-fe-paratheke",
+      "from": "chapter:2-timoteo:1",
+      "to": "theme:deposito-da-fe-paratheke",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Depósito da Fé (Paratheke)” cita explicitamente 2 Timóteo 1:12, 14; 2:2.",
+      "references": ["2 Timóteo 1:12, 14; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-1:theme-loide-e-eunice",
+      "from": "chapter:2-timoteo:1",
+      "to": "theme:loide-e-eunice",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Lóide e Eunice” cita explicitamente 2 Timóteo 1:5.",
+      "references": ["2 Timóteo 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-2:theme-deposito-da-fe-paratheke",
+      "from": "chapter:2-timoteo:2",
+      "to": "theme:deposito-da-fe-paratheke",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Depósito da Fé (Paratheke)” cita explicitamente 2 Timóteo 1:12, 14; 2:2.",
+      "references": ["2 Timóteo 1:12, 14; 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-2:theme-himeneu-e-fileto",
+      "from": "chapter:2-timoteo:2",
+      "to": "theme:himeneu-e-fileto",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Himeneu e Fileto” cita explicitamente 2 Timóteo 2:17-18.",
+      "references": ["2 Timóteo 2:17-18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-3:doctrine-escrituras",
+      "from": "chapter:2-timoteo:3",
+      "to": "doctrine:escrituras",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Bíblia e inspiração verbal” cita explicitamente 2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105.",
+      "references": ["2Tm 3:16–17; 2Pe 1:20–21; Sl 119:105"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-2-timoteo-3:theme-escritura-graphe",
+      "from": "chapter:2-timoteo:3",
+      "to": "theme:escritura-graphe",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escritura (Graphe)” cita explicitamente 2 Timóteo 3:15-17.",
+      "references": ["2 Timóteo 3:15-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "book": "Tito",
+  "count": 16,
+  "chapterCount": 3,
+  "nodes": [
+    {
+      "id": "people-group:cretenses",
+      "kind": "people-group",
+      "label": "Cretenses",
+      "aliases": [],
+      "summary": "Identificados por traços culturais negativos citados por Epimênides, exigindo firmeza pastoral e transformação ética pelo Evangelho.",
+      "references": ["Tito 1:12-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "População local da ilha de Creta",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:apolo",
+      "kind": "person",
+      "label": "Apolo",
+      "aliases": ["Apolo"],
+      "summary": "Apolo era um judeu alexandrino, homem eloqüente e versado nas Escrituras, que chegou a Éfeso e Corinto pregando fervorosamente com base no batismo de João, antes de ser instruído com mais precisão por Prisca e Áquila [121]. Tornou-se um orador brilhante e rivalizou em popularidade retórica com Paulo na comunidade de Corinto [122].",
+      "references": [
+        "Atos 18:24-28",
+        "1 Coríntios 1:12 e 3:4-6",
+        "Tito 3:13",
+        "1 Coríntios 1:12; 3:4-6; 16:12"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-apolo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2018%3A24-28%3B%201%20Cor%C3%ADntios%201%3A12%20e%203%3A4-6%3B%20Tito%203%3A13&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Mestre eloquente e figura central em uma das facções de Corinto",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:paulo",
+      "kind": "person",
+      "label": "Paulo",
+      "aliases": [],
+      "summary": "Atua como intercessor e mediador retórico entre o senhor de escravos e o fugitivo, aplicando a ética cristã na resolução de conflitos socioeconômicos.",
+      "references": [
+        "Romanos 1:1; 15:24-28",
+        "1 Coríntios 1:1; 3:6; 9:1-2",
+        "Efésios 1:1; 3:1; 3:7-8; 6:21",
+        "2 Tessalonicenses 1:1; 3:17",
+        "1 Tm 1:1; 2:7",
+        "2 Timóteo 1:1, 11; 4:6-8",
+        "Tito 1:1",
+        "Filemom 1:1, 9, 19",
+        "2Pe 3:15-16"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo e autoridade cujas cartas circulam com estatuto de Escritura",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tiquico",
+      "kind": "person",
+      "label": "Tíquico",
+      "aliases": ["Tíquico"],
+      "summary": "Tíquico era um discípulo da província da Ásia (provavelmente de Éfeso), descrito por Paulo como \"amado irmão, fiel ministro e conservo no Senhor\" (Cl 4:7) [133]. Desempenhou o papel crucial de mensageiro postal, portador e leitor oficial das epístolas paulinas aos Efésios e Colossenses, além de emissário em missões delicadas [134].",
+      "references": ["Atos 20:4", "Efésios 6:21-22", "Tito 3:12", "Cl 4:7-8"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tiquico"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=Atos%2020%3A4%3B%20Ef%C3%A9sios%206%3A21-22%3B%20Tito%203%3A12&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Portador da carta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tito",
+      "kind": "person",
+      "label": "Tito",
+      "aliases": ["Tito"],
+      "summary": "Tito era um gentio de origem grega que nunca foi circuncidado, o que o tornou o caso de teste vivo no Concílio de Jerusalém para a liberdade dos gentios em relação à exigência da Torah judaica [95]. Foi um administrador de crises altamente competente, enviado por Paulo para pacificar e organizar a turbulenta igreja de Corinto e estabelecer presbitérios na ilha de Creta [96].",
+      "references": [
+        "Gálatas 2:1-3",
+        "2 Coríntios 7:6-7 e 8:16-24",
+        "Tito 1:5",
+        "2Co 2:13; 7:6-7; 8:16-23",
+        "Tito 1:4; 2:1; 3:12"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-tito"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%A1latas%202%3A1-3%3B%202%20Cor%C3%ADntios%207%3A6-7%20e%208%3A16-24%3B%20Tito%201%3A5&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Delegado apostólico e pastor em Creta",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:colofao-asia-menor",
+      "kind": "place",
+      "label": "Colofão / Ásia Menor",
+      "aliases": [],
+      "summary": "Região de origem ou atuação das redes missionárias associadas a Tíquico e Ártemas.",
+      "references": ["Tito 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:creta",
+      "kind": "place",
+      "label": "Creta",
+      "aliases": [],
+      "summary": "Ilha mediterrânea estratégica onde Tito operava, marcada por complexidade cultural e religiosa e dispersão judaica.",
+      "references": ["Tito 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:nicopolis",
+      "kind": "place",
+      "label": "Nicópolis",
+      "aliases": [],
+      "summary": "Cidade na Acaia/Épiro onde Paulo planejava passar o inverno e convocou Tito.",
+      "references": ["Tito 3:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "theme:banho-da-regeneracao-e-renovacao-do-espirito-santo",
+      "kind": "theme",
+      "label": "Banho da Regeneração e Renovação do Espírito Santo",
+      "aliases": [],
+      "summary": "Agência divina da salvação operada não por obras de justiça, mas pela misericórdia de Deus através do Espírito.",
+      "references": ["Tito 3:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Evento sacramental e pneumatológico",
+        "entityType": "Conceito / Instituição"
+      }
+    },
+    {
+      "id": "theme:graca-de-deus",
+      "kind": "theme",
+      "label": "Graça de Deus",
+      "aliases": [],
+      "summary": "Força educadora e salvífica que se manifestou a toda a humanidade, ensinando a renúncia à impiedade.",
+      "references": ["Tito 2:11-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Atitude soteriológica divina",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:os-da-circuncisao-judaizantes",
+      "kind": "theme",
+      "label": "Os da Circuncisão (Judaizantes)",
+      "aliases": [],
+      "summary": "Falsos mestres, em sua maioria de origem judaica, que impõem exigências legais e mitos judaicos por lucro desonesto.",
+      "references": ["Tito 1:10, 14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Opositores teológicos",
+        "entityType": "Povo / Grupo"
+      }
+    },
+    {
+      "id": "theme:presbiteros-bispos",
+      "kind": "theme",
+      "label": "Presbíteros / Bispos",
+      "aliases": [],
+      "summary": "Oficiais encarregados da supervisão espiritual, ensino da sã doutrina e refutação de opositores em cada cidade cretense.",
+      "references": ["Tito 1:5, 7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Liderança eclesial",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:sa-doutrina-higiene-teologica",
+      "kind": "theme",
+      "label": "Sã Doutrina (Higiene Teológica)",
+      "aliases": [],
+      "summary": "Padrão de ensino saudável que produz vida piedosa e contrasta com mitos e fábulas humanas.",
+      "references": ["Tito 1:9; 2:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Corpo de ensinamentos apostólicos",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:people-group-cretenses:chapter-tito-1",
+      "from": "people-group:cretenses",
+      "to": "chapter:tito:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cretenses” cita explicitamente Tito 1:12-13.",
+      "references": ["Tito 1:12-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-apolo:chapter-tito-3",
+      "from": "person:apolo",
+      "to": "chapter:tito:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Apolo” cita explicitamente Tito 3:13.",
+      "references": ["Tito 3:13"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-paulo:chapter-tito-1",
+      "from": "person:paulo",
+      "to": "chapter:tito:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Paulo” cita explicitamente Tito 1:1.",
+      "references": ["Tito 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tiquico:chapter-tito-3",
+      "from": "person:tiquico",
+      "to": "chapter:tito:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tíquico” cita explicitamente Tito 3:12.",
+      "references": ["Tito 3:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-tito-1",
+      "from": "person:tito",
+      "to": "chapter:tito:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente Tito 1:5.",
+      "references": ["Tito 1:5"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-tito-2",
+      "from": "person:tito",
+      "to": "chapter:tito:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente Tito 1:4; 2:1; 3:12.",
+      "references": ["Tito 1:4; 2:1; 3:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tito:chapter-tito-3",
+      "from": "person:tito",
+      "to": "chapter:tito:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito” cita explicitamente Tito 1:4; 2:1; 3:12.",
+      "references": ["Tito 1:4; 2:1; 3:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-colofao-asia-menor:chapter-tito-3",
+      "from": "place:colofao-asia-menor",
+      "to": "chapter:tito:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Colofão / Ásia Menor” cita explicitamente Tito 3:12.",
+      "references": ["Tito 3:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-creta:chapter-tito-1",
+      "from": "place:creta",
+      "to": "chapter:tito:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Creta” cita explicitamente Tito 1:5.",
+      "references": ["Tito 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-nicopolis:chapter-tito-3",
+      "from": "place:nicopolis",
+      "to": "chapter:tito:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nicópolis” cita explicitamente Tito 3:12.",
+      "references": ["Tito 3:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-1:theme-os-da-circuncisao-judaizantes",
+      "from": "chapter:tito:1",
+      "to": "theme:os-da-circuncisao-judaizantes",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os da Circuncisão (Judaizantes)” cita explicitamente Tito 1:10, 14.",
+      "references": ["Tito 1:10, 14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-1:theme-presbiteros-bispos",
+      "from": "chapter:tito:1",
+      "to": "theme:presbiteros-bispos",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Presbíteros / Bispos” cita explicitamente Tito 1:5, 7.",
+      "references": ["Tito 1:5, 7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-1:theme-sa-doutrina-higiene-teologica",
+      "from": "chapter:tito:1",
+      "to": "theme:sa-doutrina-higiene-teologica",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sã Doutrina (Higiene Teológica)” cita explicitamente Tito 1:9; 2:1.",
+      "references": ["Tito 1:9; 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-2:theme-graca-de-deus",
+      "from": "chapter:tito:2",
+      "to": "theme:graca-de-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Graça de Deus” cita explicitamente Tito 2:11-12.",
+      "references": ["Tito 2:11-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-2:theme-sa-doutrina-higiene-teologica",
+      "from": "chapter:tito:2",
+      "to": "theme:sa-doutrina-higiene-teologica",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sã Doutrina (Higiene Teológica)” cita explicitamente Tito 1:9; 2:1.",
+      "references": ["Tito 1:9; 2:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-tito-3:theme-banho-da-regeneracao-e-renovacao-do-espirito-santo",
+      "from": "chapter:tito:3",
+      "to": "theme:banho-da-regeneracao-e-renovacao-do-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Banho da Regeneração e Renovação do Espírito Santo” cita explicitamente Tito 3:5.",
+      "references": ["Tito 3:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

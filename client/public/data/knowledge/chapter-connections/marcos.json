@@ -1,0 +1,1000 @@
+{
+  "schemaVersion": 1,
+  "book": "Marcos",
+  "count": 49,
+  "chapterCount": 15,
+  "nodes": [
+    {
+      "id": "event:marcos-a-crucificacao-e-morte-de-jesus",
+      "kind": "event",
+      "label": "A Crucificação e Morte de Jesus",
+      "aliases": [],
+      "summary": "Jesus é flagelado, conduzido ao Gólgota, crucificado entre dois ladrões, zombado pelas autoridades, expirando após um grito de derelição e fendendo o véu do templo.",
+      "references": ["Marcos 15.20-41"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consuma o sacrifício expiatório e abre o acesso à presença divina, culminando na confissão do centurião.",
+        "entities": "Jesus; Pôncio Pilatos; Centurião Romano; As Mulheres"
+      }
+    },
+    {
+      "id": "event:marcos-a-cura-do-paralitico-em-cafarnaum",
+      "kind": "event",
+      "label": "A Cura do Paralítico em Cafarnaum",
+      "aliases": [],
+      "summary": "Quatro homens descem um paralítico pelo teto de uma casa apinhada; Jesus perdoa seus pecados antes de curar sua paralisia, gerando acusação de blasfêmia pelos escribas.",
+      "references": ["Marcos 2.1-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a autoridade divina de Jesus para perdoar pecados e desafia o monopólio cultual do templo.",
+        "entities": "Jesus; Escribas; Paralítico"
+      }
+    },
+    {
+      "id": "event:marcos-a-instituicao-da-ceia-e-a-agonia-no-getsemani",
+      "kind": "event",
+      "label": "A Instituição da Ceia e a Agonia no Getsêmani",
+      "aliases": [],
+      "summary": "Jesus celebra a Páscoa com os discípulos, reinterpretando o pão e o vinho como seu corpo e sangue da nova aliança, e sofre agonia mortal no Getsêmani.",
+      "references": ["Marcos 14.12-42"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Institui o memorial da morte vicária e expõe a fraqueza humana dos discípulos diante da provação.",
+        "entities": "Jesus; Os Doze"
+      }
+    },
+    {
+      "id": "event:marcos-a-purificacao-do-templo",
+      "kind": "event",
+      "label": "A Purificação do Templo",
+      "aliases": [],
+      "summary": "Jesus expulsa os cambistas e vendedores de pombas do pátio do templo, declarando que a casa de oração foi transformada em covil de ladrões.",
+      "references": ["Marcos 11.15-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Declara simbolicamente o juízo divino sobre o sacerdócio estabelecido e antecipa a destruição do templo.",
+        "entities": "Jesus; Cambistas; Autoridades do Templo"
+      }
+    },
+    {
+      "id": "event:marcos-a-transfiguracao-no-monte",
+      "kind": "event",
+      "label": "A Transfiguração no Monte",
+      "aliases": [],
+      "summary": "Jesus transfigura-se diante de Pedro, Tiago e João, conversando com Moisés e Elias sob uma nuvem luminosa que proclama sua filiação divina.",
+      "references": ["Marcos 9.2-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conecta Jesus à Lei e aos Profetas, oferecendo um vislumbre antecipado da glória escatológica antes da paixão.",
+        "entities": "Jesus; Pedro; Tiago; João; Moisés; Elias"
+      }
+    },
+    {
+      "id": "event:marcos-o-batismo-e-a-tentacao-de-jesus",
+      "kind": "event",
+      "label": "O Batismo e a Tentação de Jesus",
+      "aliases": [],
+      "summary": "Jesus é batizado por João no Jordão, o céu se abre com o Espírito desce como pomba e a voz divina proclama o Filho amado, seguido imediatamente pela tentação no deserto entre as feras.",
+      "references": ["Marcos 1.9-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a investidura messiânica e o início do combate cósmico contra Satanás.",
+        "entities": "Jesus; João Batista; Espírito Santo"
+      }
+    },
+    {
+      "id": "person:jesus-de-nazare",
+      "kind": "person",
+      "label": "Jesus de Nazaré",
+      "aliases": ["Jesus de Nazaré"],
+      "summary": "Jesus de Nazaré é o personagem central do Novo Testamento e a figura fundadora do Cristianismo. Apresentado nos Evangelhos canônicos como o Cristo (Messias), o Filho de Deus e o Verbo encarnado, sua narrativa terrena abrange o nascimento em Belém sob o reinado de Herodes, a infância em Nazaré na Galileia, o batismo por João Batista no rio Jordão, seu ministério itinerante de ensino, proclamação do Reino de Deus, curas e exorcismos, culminando em sua crucificação em Jerusalém sob Pôncio Pilatos e sua ressurreição corporal ao terceiro dia.",
+      "references": ["Mc 1.1; 8.29; 15.39"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-jesus-de-nazare"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Protagonista divino-humano",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:joao-batista",
+      "kind": "person",
+      "label": "João Batista",
+      "aliases": ["João Batista"],
+      "summary": "João Batista é o profeta ascético, filho do sacerdote Zacarias e de Isabel, que atuou nas margens do rio Jordão pregando o arrependimento, anunciando a iminência do Reino dos céus e batizando para a remissão de pecados. Identificado como o precursor do Messias, batizou Jesus e foi posteriormente decapitado por ordem de Herodes Antipas devido a suas repreensões morais e políticas.",
+      "references": [
+        "Mt 3:1-12; 11:2-19; 14:1-12",
+        "Mc 1.4-9; 6.14-29",
+        "Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28",
+        "João 1:6-36; João 3:27-30; João 10:41"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-joao-batista"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta precursor, testemunha da luz e aquele que batiza Jesus, apontando-o como o Cordeiro de Deus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-centuriao-romano",
+      "kind": "person",
+      "label": "O Centurião Romano",
+      "aliases": [],
+      "summary": "Testemunha da morte de Jesus que pronuncia a grande confissão cristológica do evangelho.",
+      "references": ["Mc 15.39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Oficial militar pagão", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:poncio-pilatos",
+      "kind": "person",
+      "label": "Pôncio Pilatos",
+      "aliases": ["Pôncio Pilatos"],
+      "summary": "Pôncio Pilatos foi o quinto prefeito (ou procurador) romano da província da Judeia, servindo sob o imperador Tibério César entre os anos 26 e 36 d.C. Sua figura é indissociável do processo de julgamento e condenação à morte de Jesus de Nazaré. Nos Evangelhos, é retratado como um governador pragmático, relutante e politicamente acuado pelas elites sacerdotais judaicas, que lavou as mãos simbolicamente para eximir-se da culpa pelo sangue do réu.",
+      "references": [
+        "Mt 27:2, 11-26, 62-66",
+        "Mc 15.1-15",
+        "Lucas 23:13-15; Lucas 23:22-24",
+        "João 18:29–19:22"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-poncio-pilatos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Governador romano da Judeia que conduz o julgamento de Jesus, demonstrando vacilação diante da pressão sinedrial.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:simao-pedro",
+      "kind": "person",
+      "label": "Simão Pedro",
+      "aliases": ["Simão Pedro"],
+      "summary": "Simão, renomeado por Jesus como Pedro (*Petros* ou *Cefas*, significando rocha), foi um pescador da Galileia que se tornou o líder carismático do círculo apostólico. Destacou-se por suas confissões de fé impetuosas, por ter negado Jesus três vezes durante a Paixão, e por seu subsequente restabelecimento no Mar da Galileia, tornando-se uma coluna central da Igreja primitiva em Jerusalém e Antioquia.",
+      "references": [
+        "Mt 16:16-19; 17:24-27; 26:33-35, 69-75",
+        "Mc 1.16; 8.29; 14.66-72",
+        "2Pe 1:1, 1:14-18"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-simao-pedro"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Autor apostólico (segundo a tradição) e testemunha da transfiguração",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:cesareia-de-filipe",
+      "kind": "place",
+      "label": "Cesareia de Filipe",
+      "aliases": [],
+      "summary": "Região pagã ao norte onde ocorre a confissão messiânica de Pedro e o primeiro anúncio da paixão.",
+      "references": ["Mc 8.27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:jerusalem-e-o-templo",
+      "kind": "place",
+      "label": "Jerusalém e o Templo",
+      "aliases": [],
+      "summary": "Centro do poder religioso e político judaico, palco do confronto final, da purificação, do julgamento e da execução de Jesus.",
+      "references": ["Mc 11.11; 11.15; 15.1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-deserto",
+      "kind": "place",
+      "label": "O Deserto",
+      "aliases": [],
+      "summary": "Cenário de preparação, retiro espiritual, combate com Satanás e locus da voz profética de João Batista.",
+      "references": ["Isaías 35:1-6, 40:3, 43:19", "Mc 1.3; 1.12-13; 1.35"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Simbólico / Geográfico" }
+    },
+    {
+      "id": "place:o-golgota",
+      "kind": "place",
+      "label": "O Gólgota",
+      "aliases": [],
+      "summary": "Sítio de execução fora dos muros de Jerusalém onde se consuma a crucificação.",
+      "references": ["Mc 15.22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-mar-da-galileia",
+      "kind": "place",
+      "label": "O Mar da Galileia",
+      "aliases": [],
+      "summary": "Local de vocação dos discípulos, travessias tempestuosas, exorcismo da Legião e manifestação do senhoriorio de Jesus sobre o caos.",
+      "references": ["Mc 1.16; 4.35-41; 5.1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:o-monte-das-oliveiras",
+      "kind": "place",
+      "label": "O Monte das Oliveiras",
+      "aliases": [],
+      "summary": "Local geográfico a leste de Jerusalém que se fendera ao meio no Dia de Iahweh, criando um vale de fuga.",
+      "references": ["Zacarias 14:4", "Mc 13.3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Escatológico" }
+    },
+    {
+      "id": "prophecy:daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11",
+      "kind": "prophecy",
+      "label": "A Abominação da Desolação (Daniel 9:27; 11:31; 12:11)",
+      "aliases": [],
+      "summary": "Referência histórica primária à profanação do altar de Jerusalém por Antíoco IV em 167 a.C., reaplicada escatologicamente no discurso escatológico sinótico e em escritos apocalípticos cristãos.",
+      "references": ["Mateus 24:15; Marcos 13:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor",
+      "kind": "prophecy",
+      "label": "Isaías 40:3 — \"Voz que clama no deserto: Preparai o caminho do Senhor\"",
+      "aliases": [],
+      "summary": "Transição do contexto exílico (regresso de Israel pelo deserto babilônico) para a aplicação escatológica a João Batista como precursor do Messias.",
+      "references": ["Marcos 1:3, João 1:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "kind": "prophecy",
+      "label": "Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")",
+      "aliases": [],
+      "summary": "Jesus utiliza a expressão para justificar a purificação do Templo contra a mercantilização institucional.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:1 ('Eis que envio o meu mensageiro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação veterotestamentária imediata e a exegese sinótica que o aplica diretamente a João Batista como precursor do Messias.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:marcos-a-pedra-que-os-construtores-rejeitaram-sl-118-22-23",
+      "kind": "prophecy",
+      "label": "\"A pedra que os construtores rejeitaram\" (Sl 118.22-23)",
+      "aliases": [],
+      "summary": "Aplicada por Jesus à parábola dos lavradores maus, prevendo a rejeição das elites de Jerusalém e a exaltação divina.",
+      "references": ["Mc 12.10-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Tipologia" }
+    },
+    {
+      "id": "prophecy:marcos-eis-que-envio-o-meu-mensageiro-ante-a-tua-face-voz-do-que-clama-no-deserto-ml-3-1-is-40-3",
+      "kind": "prophecy",
+      "label": "\"Eis que envio o meu mensageiro ante a tua face... Voz do que clama no deserto\" (Ml 3.1 / Is 40.3)",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação estrita ao retorno davídico ou ao anúncio escatológico do próprio Deus visitando seu povo no ministério de João Batista.",
+      "references": ["Mc 1.2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação / Alusão" }
+    },
+    {
+      "id": "prophecy:marcos-ferirei-o-pastor-e-as-ovelhas-serao-dispersas-zc-13-7",
+      "kind": "prophecy",
+      "label": "\"Ferirei o pastor, e as ovelhas serão dispersas\" (Zc 13.7)",
+      "aliases": [],
+      "summary": "Usada por Jesus para prever o abandono dos discípulos na noite da prisão e a subsequente restauração na Galileia.",
+      "references": ["Mc 14.27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:marcos-seu-coracao-esta-longe-de-mim-em-vao-me-adoram-is-29-13",
+      "kind": "prophecy",
+      "label": "\"Seu coração está longe de mim... em vão me adoram\" (Is 29.13)",
+      "aliases": [],
+      "summary": "Discussão exegética sobre a autoridade da tradição oral rabínica frente à Palavra de escrita divina.",
+      "references": ["Mc 7.6-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Citação" }
+    },
+    {
+      "id": "prophecy:marcos-vereis-o-filho-do-homem-sentado-a-direita-do-todo-poderoso-dn-7-13-sl-110-1",
+      "kind": "prophecy",
+      "label": "\"Vereis o Filho do Homem sentado à direita do Todo-Poderoso\" (Dn 7.13 / Sl 110.1)",
+      "aliases": [],
+      "summary": "Interpretada pelas autoridades como blasfêmia imediata e pelos cristãos primitivos como prova da exaltação escatológica.",
+      "references": ["Mc 14.62; 13.26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Oráculo" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao",
+      "kind": "prophecy",
+      "label": "Zacarias 13:7 (\"Ferir o pastor, e as ovelhas se dispersarão\")",
+      "aliases": [],
+      "summary": "Jesus aplica o texto à sua própria prisão e à fuga dos discípulos, ao passo que no contexto de Zacarias refere-se à catástrofe de líderes infiéis ou à morte de um pastor legítimo.",
+      "references": ["Mateus 26:31, Marcos 14:27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/citação" }
+    },
+    {
+      "id": "term:ab",
+      "kind": "term",
+      "label": "Abba",
+      "aliases": ["אַבָּא", "ʾabbāʾ"],
+      "summary": "Forma aramaica de dirigir-se ao pai; comunica intimidade e confiança, sem exigir a tradução infantilizada ‘papai’ em todos os contextos.",
+      "references": ["Mc 14:36", "Rm 8:15", "Gl 4:6"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["ab"],
+      "attributes": {
+        "language": "Aramaico",
+        "semanticRange": "O peso afetivo depende da relação, do ambiente de oração e da tradição de tradução. A palavra pode manter reverência e proximidade simultaneamente.",
+        "translationNote": "Em Mc 14:36 e Rm 8:15; Gl 4:6, preservar o aramaico seguido de explicação evidencia a memória linguística do movimento cristão primitivo."
+      }
+    },
+    {
+      "id": "theme:as-mulheres-no-sepulcro",
+      "kind": "theme",
+      "label": "As Mulheres no Sepulcro",
+      "aliases": [],
+      "summary": "Testemunhas oculares da crucificação, do sepultamento e as primeiras a descobrirem o túmulo vazio.",
+      "references": ["Mc 15.40-41; 16.1-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunhas da paixão e ressurreição",
+        "entityType": "Grupo Humano"
+      }
+    },
+    {
+      "id": "theme:escribas-e-fariseus",
+      "kind": "theme",
+      "label": "Escribas e Fariseus",
+      "aliases": [],
+      "summary": "Representam o legalismo e a hipocrisia institucional que rejeitam a autoridade de Jesus, sendo severamente denunciados no capítulo 23.",
+      "references": ["Mt 5:20; 15:1-14; 23:1-36", "Mc 2.6; 3.6; 7.1-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Oponentes religiosos e legais",
+        "entityType": "Instituição / Grupo"
+      }
+    },
+    {
+      "id": "theme:espirito-imundo-legiao",
+      "kind": "theme",
+      "label": "Espírito Imundo / Legião",
+      "aliases": [],
+      "summary": "Entidades espirituais que reconhecem a identidade de Jesus antes de qualquer ser humano e são expulsas por sua palavra imperativa.",
+      "references": ["Mc 1.23-27; 5.1-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Forças demoníacas",
+        "entityType": "Conceito / Entidade Sobrenatural"
+      }
+    },
+    {
+      "id": "theme:o-sinedrio",
+      "kind": "theme",
+      "label": "O Sinédrio",
+      "aliases": [],
+      "summary": "Suprema corte sacerdotal em Jerusalém que julga Jesus por blasfêmia e o entrega a Pilatos.",
+      "references": ["Mc 14.53-65; 15.1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tribunal supremo judaico",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:os-doze",
+      "kind": "theme",
+      "label": "Os Doze",
+      "aliases": [],
+      "summary": "Designados para estar com Jesus e pregar, mas caracterizados por surdez espiritual e abandono no momento da paixão.",
+      "references": ["Mc 3.13-19; 6.7; 14.50"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo íntimo de discípulos",
+        "entityType": "Grupo Humano"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-marcos-a-crucificacao-e-morte-de-jesus:chapter-marcos-15",
+      "from": "event:marcos-a-crucificacao-e-morte-de-jesus",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Crucificação e Morte de Jesus” cita explicitamente Marcos 15.20-41.",
+      "references": ["Marcos 15.20-41"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-marcos-a-cura-do-paralitico-em-cafarnaum:chapter-marcos-2",
+      "from": "event:marcos-a-cura-do-paralitico-em-cafarnaum",
+      "to": "chapter:marcos:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Cura do Paralítico em Cafarnaum” cita explicitamente Marcos 2.1-12.",
+      "references": ["Marcos 2.1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-marcos-a-instituicao-da-ceia-e-a-agonia-no-getsemani:chapter-marcos-14",
+      "from": "event:marcos-a-instituicao-da-ceia-e-a-agonia-no-getsemani",
+      "to": "chapter:marcos:14",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Instituição da Ceia e a Agonia no Getsêmani” cita explicitamente Marcos 14.12-42.",
+      "references": ["Marcos 14.12-42"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-marcos-a-purificacao-do-templo:chapter-marcos-11",
+      "from": "event:marcos-a-purificacao-do-templo",
+      "to": "chapter:marcos:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Purificação do Templo” cita explicitamente Marcos 11.15-19.",
+      "references": ["Marcos 11.15-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-marcos-a-transfiguracao-no-monte:chapter-marcos-9",
+      "from": "event:marcos-a-transfiguracao-no-monte",
+      "to": "chapter:marcos:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Transfiguração no Monte” cita explicitamente Marcos 9.2-13.",
+      "references": ["Marcos 9.2-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-marcos-o-batismo-e-a-tentacao-de-jesus:chapter-marcos-1",
+      "from": "event:marcos-o-batismo-e-a-tentacao-de-jesus",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Batismo e a Tentação de Jesus” cita explicitamente Marcos 1.9-13.",
+      "references": ["Marcos 1.9-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-de-nazare:chapter-marcos-1",
+      "from": "person:jesus-de-nazare",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus de Nazaré” cita explicitamente Mc 1.1; 8.29; 15.39.",
+      "references": ["Mc 1.1; 8.29; 15.39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-de-nazare:chapter-marcos-15",
+      "from": "person:jesus-de-nazare",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus de Nazaré” cita explicitamente Mc 1.1; 8.29; 15.39.",
+      "references": ["Mc 1.1; 8.29; 15.39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-de-nazare:chapter-marcos-8",
+      "from": "person:jesus-de-nazare",
+      "to": "chapter:marcos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus de Nazaré” cita explicitamente Mc 1.1; 8.29; 15.39.",
+      "references": ["Mc 1.1; 8.29; 15.39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-marcos-1",
+      "from": "person:joao-batista",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Mc 1.4-9; 6.14-29.",
+      "references": ["Mc 1.4-9; 6.14-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-marcos-6",
+      "from": "person:joao-batista",
+      "to": "chapter:marcos:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente Mc 1.4-9; 6.14-29.",
+      "references": ["Mc 1.4-9; 6.14-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-centuriao-romano:chapter-marcos-15",
+      "from": "person:o-centuriao-romano",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Centurião Romano” cita explicitamente Mc 15.39.",
+      "references": ["Mc 15.39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-poncio-pilatos:chapter-marcos-15",
+      "from": "person:poncio-pilatos",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pôncio Pilatos” cita explicitamente Mc 15.1-15.",
+      "references": ["Mc 15.1-15"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-marcos-1",
+      "from": "person:simao-pedro",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mc 1.16; 8.29; 14.66-72.",
+      "references": ["Mc 1.16; 8.29; 14.66-72"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-marcos-14",
+      "from": "person:simao-pedro",
+      "to": "chapter:marcos:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mc 1.16; 8.29; 14.66-72.",
+      "references": ["Mc 1.16; 8.29; 14.66-72"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-simao-pedro:chapter-marcos-8",
+      "from": "person:simao-pedro",
+      "to": "chapter:marcos:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Simão Pedro” cita explicitamente Mc 1.16; 8.29; 14.66-72.",
+      "references": ["Mc 1.16; 8.29; 14.66-72"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cesareia-de-filipe:chapter-marcos-8",
+      "from": "place:cesareia-de-filipe",
+      "to": "chapter:marcos:8",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cesareia de Filipe” cita explicitamente Mc 8.27.",
+      "references": ["Mc 8.27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-e-o-templo:chapter-marcos-11",
+      "from": "place:jerusalem-e-o-templo",
+      "to": "chapter:marcos:11",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém e o Templo” cita explicitamente Mc 11.11; 11.15; 15.1.",
+      "references": ["Mc 11.11; 11.15; 15.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-e-o-templo:chapter-marcos-15",
+      "from": "place:jerusalem-e-o-templo",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém e o Templo” cita explicitamente Mc 11.11; 11.15; 15.1.",
+      "references": ["Mc 11.11; 11.15; 15.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto:chapter-marcos-1",
+      "from": "place:o-deserto",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto” cita explicitamente Mc 1.3; 1.12-13; 1.35.",
+      "references": ["Mc 1.3; 1.12-13; 1.35"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-golgota:chapter-marcos-15",
+      "from": "place:o-golgota",
+      "to": "chapter:marcos:15",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Gólgota” cita explicitamente Mc 15.22.",
+      "references": ["Mc 15.22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-mar-da-galileia:chapter-marcos-1",
+      "from": "place:o-mar-da-galileia",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Mar da Galileia” cita explicitamente Mc 1.16; 4.35-41; 5.1.",
+      "references": ["Mc 1.16; 4.35-41; 5.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-mar-da-galileia:chapter-marcos-4",
+      "from": "place:o-mar-da-galileia",
+      "to": "chapter:marcos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Mar da Galileia” cita explicitamente Mc 1.16; 4.35-41; 5.1.",
+      "references": ["Mc 1.16; 4.35-41; 5.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-mar-da-galileia:chapter-marcos-5",
+      "from": "place:o-mar-da-galileia",
+      "to": "chapter:marcos:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Mar da Galileia” cita explicitamente Mc 1.16; 4.35-41; 5.1.",
+      "references": ["Mc 1.16; 4.35-41; 5.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-monte-das-oliveiras:chapter-marcos-13",
+      "from": "place:o-monte-das-oliveiras",
+      "to": "chapter:marcos:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Monte das Oliveiras” cita explicitamente Mc 13.3.",
+      "references": ["Mc 13.3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11:chapter-marcos-13",
+      "from": "prophecy:daniel-a-abominacao-da-desolacao-daniel-9-27-11-31-12-11",
+      "to": "chapter:marcos:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Abominação da Desolação (Daniel 9:27; 11:31; 12:11)” cita explicitamente Mateus 24:15; Marcos 13:14.",
+      "references": ["Mateus 24:15; Marcos 13:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor:chapter-marcos-1",
+      "from": "prophecy:isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 40:3 — \"Voz que clama no deserto: Preparai o caminho do Senhor\"” cita explicitamente Marcos 1:3, João 1:23.",
+      "references": ["Marcos 1:3, João 1:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome:chapter-marcos-11",
+      "from": "prophecy:jeremias-jer-7-11-tornou-se-este-covil-de-salteadores-a-casa-sobre-a-qual-se-chama-o-meu-nome",
+      "to": "chapter:marcos:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jer 7:11 (\"Tornou-se este covil de salteadores... a casa sobre a qual se chama o meu nome\")” cita explicitamente Mt 21:13; Mc 11:17; Lc 19:46.",
+      "references": ["Mt 21:13; Mc 11:17; Lc 19:46"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro:chapter-marcos-1",
+      "from": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:1 ('Eis que envio o meu mensageiro...')” cita explicitamente Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-a-pedra-que-os-construtores-rejeitaram-sl-118-22-23:chapter-marcos-12",
+      "from": "prophecy:marcos-a-pedra-que-os-construtores-rejeitaram-sl-118-22-23",
+      "to": "chapter:marcos:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"A pedra que os construtores rejeitaram\" (Sl 118.22-23)” cita explicitamente Mc 12.10-11.",
+      "references": ["Mc 12.10-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-eis-que-envio-o-meu-mensageiro-ante-a-tua-face-voz-do-que-clama-no-deserto-ml-3-1-is-40-3:chapter-marcos-1",
+      "from": "prophecy:marcos-eis-que-envio-o-meu-mensageiro-ante-a-tua-face-voz-do-que-clama-no-deserto-ml-3-1-is-40-3",
+      "to": "chapter:marcos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que envio o meu mensageiro ante a tua face... Voz do que clama no deserto\" (Ml 3.1 / Is 40.3)” cita explicitamente Mc 1.2-3.",
+      "references": ["Mc 1.2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-ferirei-o-pastor-e-as-ovelhas-serao-dispersas-zc-13-7:chapter-marcos-14",
+      "from": "prophecy:marcos-ferirei-o-pastor-e-as-ovelhas-serao-dispersas-zc-13-7",
+      "to": "chapter:marcos:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Ferirei o pastor, e as ovelhas serão dispersas\" (Zc 13.7)” cita explicitamente Mc 14.27.",
+      "references": ["Mc 14.27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-seu-coracao-esta-longe-de-mim-em-vao-me-adoram-is-29-13:chapter-marcos-7",
+      "from": "prophecy:marcos-seu-coracao-esta-longe-de-mim-em-vao-me-adoram-is-29-13",
+      "to": "chapter:marcos:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Seu coração está longe de mim... em vão me adoram\" (Is 29.13)” cita explicitamente Mc 7.6-7.",
+      "references": ["Mc 7.6-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-vereis-o-filho-do-homem-sentado-a-direita-do-todo-poderoso-dn-7-13-sl-110-1:chapter-marcos-13",
+      "from": "prophecy:marcos-vereis-o-filho-do-homem-sentado-a-direita-do-todo-poderoso-dn-7-13-sl-110-1",
+      "to": "chapter:marcos:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vereis o Filho do Homem sentado à direita do Todo-Poderoso\" (Dn 7.13 / Sl 110.1)” cita explicitamente Mc 14.62; 13.26.",
+      "references": ["Mc 14.62; 13.26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-marcos-vereis-o-filho-do-homem-sentado-a-direita-do-todo-poderoso-dn-7-13-sl-110-1:chapter-marcos-14",
+      "from": "prophecy:marcos-vereis-o-filho-do-homem-sentado-a-direita-do-todo-poderoso-dn-7-13-sl-110-1",
+      "to": "chapter:marcos:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vereis o Filho do Homem sentado à direita do Todo-Poderoso\" (Dn 7.13 / Sl 110.1)” cita explicitamente Mc 14.62; 13.26.",
+      "references": ["Mc 14.62; 13.26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao:chapter-marcos-14",
+      "from": "prophecy:zacarias-zacarias-13-7-ferir-o-pastor-e-as-ovelhas-se-dispersarao",
+      "to": "chapter:marcos:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 13:7 (\"Ferir o pastor, e as ovelhas se dispersarão\")” cita explicitamente Mateus 26:31, Marcos 14:27.",
+      "references": ["Mateus 26:31, Marcos 14:27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-1:theme-espirito-imundo-legiao",
+      "from": "chapter:marcos:1",
+      "to": "theme:espirito-imundo-legiao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Espírito Imundo / Legião” cita explicitamente Mc 1.23-27; 5.1-20.",
+      "references": ["Mc 1.23-27; 5.1-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-14:theme-o-sinedrio",
+      "from": "chapter:marcos:14",
+      "to": "theme:o-sinedrio",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Sinédrio” cita explicitamente Mc 14.53-65; 15.1.",
+      "references": ["Mc 14.53-65; 15.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-14:theme-os-doze",
+      "from": "chapter:marcos:14",
+      "to": "theme:os-doze",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze” cita explicitamente Mc 3.13-19; 6.7; 14.50.",
+      "references": ["Mc 3.13-19; 6.7; 14.50"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-15:theme-as-mulheres-no-sepulcro",
+      "from": "chapter:marcos:15",
+      "to": "theme:as-mulheres-no-sepulcro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Mulheres no Sepulcro” cita explicitamente Mc 15.40-41; 16.1-8.",
+      "references": ["Mc 15.40-41; 16.1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-15:theme-o-sinedrio",
+      "from": "chapter:marcos:15",
+      "to": "theme:o-sinedrio",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Sinédrio” cita explicitamente Mc 14.53-65; 15.1.",
+      "references": ["Mc 14.53-65; 15.1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-16:theme-as-mulheres-no-sepulcro",
+      "from": "chapter:marcos:16",
+      "to": "theme:as-mulheres-no-sepulcro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Mulheres no Sepulcro” cita explicitamente Mc 15.40-41; 16.1-8.",
+      "references": ["Mc 15.40-41; 16.1-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-2:theme-escribas-e-fariseus",
+      "from": "chapter:marcos:2",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mc 2.6; 3.6; 7.1-13.",
+      "references": ["Mc 2.6; 3.6; 7.1-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-3:theme-escribas-e-fariseus",
+      "from": "chapter:marcos:3",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mc 2.6; 3.6; 7.1-13.",
+      "references": ["Mc 2.6; 3.6; 7.1-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-3:theme-os-doze",
+      "from": "chapter:marcos:3",
+      "to": "theme:os-doze",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze” cita explicitamente Mc 3.13-19; 6.7; 14.50.",
+      "references": ["Mc 3.13-19; 6.7; 14.50"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-5:theme-espirito-imundo-legiao",
+      "from": "chapter:marcos:5",
+      "to": "theme:espirito-imundo-legiao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Espírito Imundo / Legião” cita explicitamente Mc 1.23-27; 5.1-20.",
+      "references": ["Mc 1.23-27; 5.1-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-6:theme-os-doze",
+      "from": "chapter:marcos:6",
+      "to": "theme:os-doze",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Doze” cita explicitamente Mc 3.13-19; 6.7; 14.50.",
+      "references": ["Mc 3.13-19; 6.7; 14.50"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-marcos-7:theme-escribas-e-fariseus",
+      "from": "chapter:marcos:7",
+      "to": "theme:escribas-e-fariseus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Escribas e Fariseus” cita explicitamente Mc 2.6; 3.6; 7.1-13.",
+      "references": ["Mc 2.6; 3.6; 7.1-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-marcos-14:term-ab",
+      "from": "chapter:marcos:14",
+      "to": "term:ab",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Abba” cita explicitamente Mc 14:36.",
+      "references": ["Mc 14:36"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

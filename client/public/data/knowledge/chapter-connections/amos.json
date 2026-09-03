@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 1,
+  "book": "Amós",
+  "count": 39,
+  "chapterCount": 9,
+  "nodes": [
+    {
+      "id": "event:amos-a-vocacao-e-o-chamado-rustico-de-amos",
+      "kind": "event",
+      "label": "A Vocação e o Chamado Rústico de Amós",
+      "aliases": [],
+      "summary": "Amós é arrancado de sua lida pastoral e agrícola em Tecoa por ordem direta de YHVH para profetizar em Israel.",
+      "references": ["Amós Amós 7:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a legitimidade de um profeta não institucional, independente dos grêmios proféticos da corte.",
+        "entities": "Amós, YHVH, Tecoa"
+      }
+    },
+    {
+      "id": "event:amos-as-visoes-de-destruicao-e-o-prumo",
+      "kind": "event",
+      "label": "As Visões de Destruição e o Prumo",
+      "aliases": [],
+      "summary": "Amós testemunha visões sucessivas de pragas, fogo, um prumo de teste na parede de Israel e o desabamento dos umbrais do santuário.",
+      "references": ["Amós Amós 7:1–9:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Revela a irreversibilidade do juízo divino sobre a nação impenitente, cujo alinhamento ético falhou no teste do prumo.",
+        "entities": "YHVH, Amós, Betel"
+      }
+    },
+    {
+      "id": "event:amos-o-ciclo-de-oraculos-contra-as-nacoes",
+      "kind": "event",
+      "label": "O Ciclo de Oráculos Contra as Nações",
+      "aliases": [],
+      "summary": "Proclamação sequencial de julgamento divino contra os vizinhos de Israel e contra o próprio reino de Judá por crimes contra os direitos humanos básicos.",
+      "references": ["Amós Amós 1:3–2:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Quebra a autoconfiança de Israel ao demonstrar que YHVH julga toda moralidade internacional antes de focar na aliança.",
+        "entities": "YHVH, Damasco, Gaza, Tiro, Edom, Amom, Moabe, Judá"
+      }
+    },
+    {
+      "id": "event:amos-o-confronto-em-betel-entre-amos-e-amazias",
+      "kind": "event",
+      "label": "O Confronto em Betel entre Amós e Amazias",
+      "aliases": [],
+      "summary": "O sacerdote Amazias expulsa Amós de Betel, denunciando-o ao rei Jeroboam II; Amós responde com um severo oráculo de juízo sobre a família de Amazias.",
+      "references": ["Amós Amós 7:10-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca o rompimento definitivo entre a palavra profética verídica e o aparato religioso estatal corrompido.",
+        "entities": "Amós, Amazias, Jeroboam II, Betel"
+      }
+    },
+    {
+      "id": "event:amos-o-exilio-anunciado-de-israel",
+      "kind": "event",
+      "label": "O Exílio Anunciado de Israel",
+      "aliases": [],
+      "summary": "Declaração explícita de que o povo e sua elite luxuosa serão exilados \"para além de Damasco\", antecipando a catástrofe de 722 AEC.",
+      "references": ["Amós Amós 5:27; 6:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Destrói a teologia triunfalista da inviolabilidade sionista-israelita baseada na prosperidade econômica momentânea.",
+        "entities": "Israel, Assíria, YHVH"
+      }
+    },
+    {
+      "id": "people-group:assiria",
+      "kind": "people-group",
+      "label": "Assíria",
+      "aliases": [],
+      "summary": "Potência militar do Crescente Fértil implicitamente apontada como o instrumento histórico do castigo divino e do exílio de Israel (\"além de Damasco\").",
+      "references": ["Amós 5:27; 6:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Império Conquistador", "entityType": "Povo" }
+    },
+    {
+      "id": "person:amazias",
+      "kind": "person",
+      "label": "Amazias",
+      "aliases": [],
+      "summary": "Sacerdote principal do santuário estatal de Betel que acusa Amós de conspiração contra a coroa e ordena seu exílio para Judá.",
+      "references": ["Amós 7:10-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Instituição Sacerdotal", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:amos",
+      "kind": "person",
+      "label": "Amós",
+      "aliases": [],
+      "summary": "Pastor de Tecoa e podador de sicômoros convocado por YHVH para profetizar contra o Reino do Norte, rejeitando o rótulo profissional de profeta autônomo.",
+      "references": ["Amós 1:1; 7:14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Profeta", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:jeroboam-ii",
+      "kind": "person",
+      "label": "Jeroboam II",
+      "aliases": [],
+      "summary": "Soberano do Reino do Norte (c. 786–746 AEC) sob cujo reinado Israel atingiu o apogeu territorial e econômico, mas também a mais profunda corrupção moral.",
+      "references": ["Amós 1:1; 7:10-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei de Israel", "entityType": "Pessoa" }
+    },
+    {
+      "id": "place:basa",
+      "kind": "place",
+      "label": "Basã",
+      "aliases": [],
+      "summary": "Região fértil a leste do Jordão famosa por seus pastos e gado robusto, servindo de metáfora para a aristocracia autocomplacente de Samaria.",
+      "references": ["Amós 4:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:betel",
+      "kind": "place",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal centro religioso e político do Reino do Norte, contendo um dos santuários de bezerros de ouro; alvo principal das denúncias de idolatria e falsa religiosidade de Amós.",
+      "references": [
+        "1Rs 12, 13",
+        "2 Reis 2, 10, 23",
+        "Oseias 4:15, 10:5, 12:4",
+        "Amós 3:14; 4:4; 7:13",
+        "Zacarias 7:2",
+        "Gn 12:8",
+        "Gn 28:10–22",
+        "Gn 35:1–8"
+      ],
+      "sourceCatalogs": ["relational-books-catalog", "genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["bethel"],
+      "attributes": { "status": "geográfico", "x": 49, "y": 48 }
+    },
+    {
+      "id": "place:gilgal",
+      "kind": "place",
+      "label": "Gilgal",
+      "aliases": [],
+      "summary": "Antigo santuário de peregrinação associado à conquista da terra sob Josué, transformado em polo de culto corrupto e formalista no século VIII AEC.",
+      "references": ["Josué 4:19-20; 5:9-10", "1Sm 10-15", "Amós 4:4; 5:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-deserto-midbar",
+      "kind": "place",
+      "label": "O Deserto (Midbar)",
+      "aliases": [],
+      "summary": "Lugar de provação, transição e morada temporária onde a aliança foi codificada",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:samaria",
+      "kind": "place",
+      "label": "Samaria",
+      "aliases": [],
+      "summary": "Região intermediária entre Galileia e Judeia, habitada por samaritanos, cenário de parábolas de acolhimento e contraste com a rejeição judaica.",
+      "references": [
+        "1Rs 16, 18, 22",
+        "2 Reis 3, 6, 17",
+        "Neemias 4:1; 6:2",
+        "Oseias 7:1, 8:5, 10:5",
+        "Amós 3:9; 4:1; 6:1",
+        "Miqueias 1:1, 6",
+        "Lucas 9:52; Lucas 10:33; Lucas 17:11"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Disputado" }
+    },
+    {
+      "id": "place:siao-jerusalem",
+      "kind": "place",
+      "label": "Sião (Jerusalém)",
+      "aliases": [],
+      "summary": "Ponto de partida do rugido divino que ecoa por todo o Levante, representando a autoridade central de YHVH no sul.",
+      "references": ["Amós 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico/geográfico" }
+    },
+    {
+      "id": "place:tecoa",
+      "kind": "place",
+      "label": "Tecoa",
+      "aliases": [],
+      "summary": "Aldeia natal de Amós nas terras altas de Judá, próxima ao deserto de Neguebe, caracterizada por pastagens e cultivo de sicômoros.",
+      "references": ["Amós 1:1; 7:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "prophecy:numeros-eis-que-o-povo-se-levantara-como-leoa-e-se-erguera-como-leao-numeros-23-24",
+      "kind": "prophecy",
+      "label": "\"Eis que o povo se levantará como leoa, e se erguerá como leão...\" (Números 23:24)",
+      "aliases": [],
+      "summary": "Conecta-se à bênção patriarcal de Judá em Gênesis, sublinhando a invencibilidade marcial de Israel sob a égide divina, com leituras que variam entre hipérbole épica antiga e oráculo preditivo escatológico.",
+      "references": ["Gênesis 49:9; Amós 3:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / alusão" }
+    },
+    {
+      "id": "term:mishpat",
+      "kind": "term",
+      "label": "Mishpat",
+      "aliases": ["מִשְׁפָּט", "mišpāṭ"],
+      "summary": "Juízo, decisão, direito ou ordem justa que regula relações e protege a vida comunitária.",
+      "references": ["Êx 21:1", "Am 5:24", "Mq 6:8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["mishpat"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "Pode designar um caso decidido, uma norma, a administração da justiça ou o juízo de Deus sobre uma sociedade.",
+        "translationNote": "‘Justiça’ e ‘juízo’ cobrem partes do campo semântico; o leitor deve perguntar se o texto trata de tribunal, ordem social ou ação divina."
+      }
+    },
+    {
+      "id": "theme:a-cabana-caida-de-davi",
+      "kind": "theme",
+      "label": "A Cabana Caída de Davi",
+      "aliases": [],
+      "summary": "Imagem da monarquia unida e da dinastia davídica arruinada, cuja restauração futura constitui a âncora da esperança messiânica e universalista no epílogo do livro.",
+      "references": ["Amós 9:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Escatologia Dinástica",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:as-vacas-de-basa",
+      "kind": "theme",
+      "label": "As Vacas de Basã",
+      "aliases": [],
+      "summary": "Metáfora contundente usada por Amós para descrever as mulheres opulentas da aristocracia samaritana que incitam seus maridos à exploração dos indigentes para financiar seus luxos.",
+      "references": ["Amós 4:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Elite Aristocrática",
+        "entityType": "Povo/Conceito"
+      }
+    },
+    {
+      "id": "theme:betel",
+      "kind": "theme",
+      "label": "Betel",
+      "aliases": [],
+      "summary": "Principal santuário real do Reino do Norte, fundado por Jeroboam I com bezerros de ouro, transformado por Amós em símbolo máximo de apostasia e falsa segurança religiosa.",
+      "references": ["Amós 3:14; 7:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Centro Cultico", "entityType": "Lugar" }
+    },
+    {
+      "id": "theme:mishpat-e-tzedaqah",
+      "kind": "theme",
+      "label": "Mishpat e Tzedaqah",
+      "aliases": [],
+      "summary": "Termos gêmeos que designam a justiça distributiva e a retidão nas relações sociais, jurídicas e comerciais, exigidas por YHVH como alternativa aos sacrifícios rituais vazios.",
+      "references": ["Amós 5:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Princípio Ético-Teológico",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:tecoa",
+      "kind": "theme",
+      "label": "Tecoa",
+      "aliases": [],
+      "summary": "Vila rural nas colinas áridas de Judá, situada ao sul de Jerusalém, lar de Amós, distante dos centros de poder político e profético profissional.",
+      "references": ["Amós 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Origem Geográfica", "entityType": "Lugar" }
+    },
+    {
+      "id": "theme:yhvh-o-senhor",
+      "kind": "theme",
+      "label": "YHVH (O SENHOR)",
+      "aliases": [],
+      "summary": "Deus de Israel, retratado não apenas como divindade nacional tribal, mas como o Criador do cosmos, Senhor da história que controla as migrações dos povos e exige justiça social absoluta.",
+      "references": ["Amós 4:13; 9:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Divindade Soberana", "entityType": "Conceito" }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-amos-a-vocacao-e-o-chamado-rustico-de-amos:chapter-amos-7",
+      "from": "event:amos-a-vocacao-e-o-chamado-rustico-de-amos",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Vocação e o Chamado Rústico de Amós” cita explicitamente Amós Amós 7:14-15.",
+      "references": ["Amós Amós 7:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-as-visoes-de-destruicao-e-o-prumo:chapter-amos-7",
+      "from": "event:amos-as-visoes-de-destruicao-e-o-prumo",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “As Visões de Destruição e o Prumo” cita explicitamente Amós Amós 7:1–9:4.",
+      "references": ["Amós Amós 7:1–9:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-as-visoes-de-destruicao-e-o-prumo:chapter-amos-8",
+      "from": "event:amos-as-visoes-de-destruicao-e-o-prumo",
+      "to": "chapter:amos:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “As Visões de Destruição e o Prumo” cita explicitamente Amós Amós 7:1–9:4.",
+      "references": ["Amós Amós 7:1–9:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-as-visoes-de-destruicao-e-o-prumo:chapter-amos-9",
+      "from": "event:amos-as-visoes-de-destruicao-e-o-prumo",
+      "to": "chapter:amos:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “As Visões de Destruição e o Prumo” cita explicitamente Amós Amós 7:1–9:4.",
+      "references": ["Amós Amós 7:1–9:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-o-ciclo-de-oraculos-contra-as-nacoes:chapter-amos-1",
+      "from": "event:amos-o-ciclo-de-oraculos-contra-as-nacoes",
+      "to": "chapter:amos:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Ciclo de Oráculos Contra as Nações” cita explicitamente Amós Amós 1:3–2:5.",
+      "references": ["Amós Amós 1:3–2:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-o-ciclo-de-oraculos-contra-as-nacoes:chapter-amos-2",
+      "from": "event:amos-o-ciclo-de-oraculos-contra-as-nacoes",
+      "to": "chapter:amos:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Ciclo de Oráculos Contra as Nações” cita explicitamente Amós Amós 1:3–2:5.",
+      "references": ["Amós Amós 1:3–2:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-o-confronto-em-betel-entre-amos-e-amazias:chapter-amos-7",
+      "from": "event:amos-o-confronto-em-betel-entre-amos-e-amazias",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Confronto em Betel entre Amós e Amazias” cita explicitamente Amós Amós 7:10-17.",
+      "references": ["Amós Amós 7:10-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-o-exilio-anunciado-de-israel:chapter-amos-5",
+      "from": "event:amos-o-exilio-anunciado-de-israel",
+      "to": "chapter:amos:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Exílio Anunciado de Israel” cita explicitamente Amós Amós 5:27; 6:7.",
+      "references": ["Amós Amós 5:27; 6:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-amos-o-exilio-anunciado-de-israel:chapter-amos-6",
+      "from": "event:amos-o-exilio-anunciado-de-israel",
+      "to": "chapter:amos:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Exílio Anunciado de Israel” cita explicitamente Amós Amós 5:27; 6:7.",
+      "references": ["Amós Amós 5:27; 6:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-assiria:chapter-amos-5",
+      "from": "people-group:assiria",
+      "to": "chapter:amos:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Assíria” cita explicitamente Amós 5:27; 6:14.",
+      "references": ["Amós 5:27; 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-assiria:chapter-amos-6",
+      "from": "people-group:assiria",
+      "to": "chapter:amos:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Assíria” cita explicitamente Amós 5:27; 6:14.",
+      "references": ["Amós 5:27; 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-amazias:chapter-amos-7",
+      "from": "person:amazias",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amazias” cita explicitamente Amós 7:10-13.",
+      "references": ["Amós 7:10-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-amos:chapter-amos-1",
+      "from": "person:amos",
+      "to": "chapter:amos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós” cita explicitamente Amós 1:1; 7:14-15.",
+      "references": ["Amós 1:1; 7:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-amos:chapter-amos-7",
+      "from": "person:amos",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós” cita explicitamente Amós 1:1; 7:14-15.",
+      "references": ["Amós 1:1; 7:14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboam-ii:chapter-amos-1",
+      "from": "person:jeroboam-ii",
+      "to": "chapter:amos:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboam II” cita explicitamente Amós 1:1; 7:10-11.",
+      "references": ["Amós 1:1; 7:10-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jeroboam-ii:chapter-amos-7",
+      "from": "person:jeroboam-ii",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jeroboam II” cita explicitamente Amós 1:1; 7:10-11.",
+      "references": ["Amós 1:1; 7:10-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-basa:chapter-amos-4",
+      "from": "place:basa",
+      "to": "chapter:amos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Basã” cita explicitamente Amós 4:1.",
+      "references": ["Amós 4:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-amos-3",
+      "from": "place:betel",
+      "to": "chapter:amos:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Amós 3:14; 4:4; 7:13.",
+      "references": ["Amós 3:14; 4:4; 7:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-amos-4",
+      "from": "place:betel",
+      "to": "chapter:amos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Amós 3:14; 4:4; 7:13.",
+      "references": ["Amós 3:14; 4:4; 7:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-betel:chapter-amos-7",
+      "from": "place:betel",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Betel” cita explicitamente Amós 3:14; 4:4; 7:13.",
+      "references": ["Amós 3:14; 4:4; 7:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gilgal:chapter-amos-4",
+      "from": "place:gilgal",
+      "to": "chapter:amos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gilgal” cita explicitamente Amós 4:4; 5:5.",
+      "references": ["Amós 4:4; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-gilgal:chapter-amos-5",
+      "from": "place:gilgal",
+      "to": "chapter:amos:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Gilgal” cita explicitamente Amós 4:4; 5:5.",
+      "references": ["Amós 4:4; 5:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto-midbar:chapter-amos-5",
+      "from": "place:o-deserto-midbar",
+      "to": "chapter:amos:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto (Midbar)” cita explicitamente Lv 16:10; Dt 8:2; Am 5:25.",
+      "references": ["Lv 16:10; Dt 8:2; Am 5:25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-amos-3",
+      "from": "place:samaria",
+      "to": "chapter:amos:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Amós 3:9; 4:1; 6:1.",
+      "references": ["Amós 3:9; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-amos-4",
+      "from": "place:samaria",
+      "to": "chapter:amos:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Amós 3:9; 4:1; 6:1.",
+      "references": ["Amós 3:9; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-samaria:chapter-amos-6",
+      "from": "place:samaria",
+      "to": "chapter:amos:6",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Samaria” cita explicitamente Amós 3:9; 4:1; 6:1.",
+      "references": ["Amós 3:9; 4:1; 6:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-siao-jerusalem:chapter-amos-1",
+      "from": "place:siao-jerusalem",
+      "to": "chapter:amos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Sião (Jerusalém)” cita explicitamente Amós 1:2.",
+      "references": ["Amós 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tecoa:chapter-amos-1",
+      "from": "place:tecoa",
+      "to": "chapter:amos:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tecoa” cita explicitamente Amós 1:1; 7:14.",
+      "references": ["Amós 1:1; 7:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tecoa:chapter-amos-7",
+      "from": "place:tecoa",
+      "to": "chapter:amos:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tecoa” cita explicitamente Amós 1:1; 7:14.",
+      "references": ["Amós 1:1; 7:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-eis-que-o-povo-se-levantara-como-leoa-e-se-erguera-como-leao-numeros-23-24:chapter-amos-3",
+      "from": "prophecy:numeros-eis-que-o-povo-se-levantara-como-leoa-e-se-erguera-como-leao-numeros-23-24",
+      "to": "chapter:amos:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis que o povo se levantará como leoa, e se erguerá como leão...\" (Números 23:24)” cita explicitamente Gênesis 49:9; Amós 3:8.",
+      "references": ["Gênesis 49:9; Amós 3:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-1:theme-tecoa",
+      "from": "chapter:amos:1",
+      "to": "theme:tecoa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Tecoa” cita explicitamente Amós 1:1.",
+      "references": ["Amós 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-3:theme-betel",
+      "from": "chapter:amos:3",
+      "to": "theme:betel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Betel” cita explicitamente Amós 3:14; 7:13.",
+      "references": ["Amós 3:14; 7:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-4:theme-as-vacas-de-basa",
+      "from": "chapter:amos:4",
+      "to": "theme:as-vacas-de-basa",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Vacas de Basã” cita explicitamente Amós 4:1.",
+      "references": ["Amós 4:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-4:theme-yhvh-o-senhor",
+      "from": "chapter:amos:4",
+      "to": "theme:yhvh-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHVH (O SENHOR)” cita explicitamente Amós 4:13; 9:7.",
+      "references": ["Amós 4:13; 9:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-5:theme-mishpat-e-tzedaqah",
+      "from": "chapter:amos:5",
+      "to": "theme:mishpat-e-tzedaqah",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Mishpat e Tzedaqah” cita explicitamente Amós 5:24.",
+      "references": ["Amós 5:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-7:theme-betel",
+      "from": "chapter:amos:7",
+      "to": "theme:betel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Betel” cita explicitamente Amós 3:14; 7:13.",
+      "references": ["Amós 3:14; 7:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-9:theme-a-cabana-caida-de-davi",
+      "from": "chapter:amos:9",
+      "to": "theme:a-cabana-caida-de-davi",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Cabana Caída de Davi” cita explicitamente Amós 9:11.",
+      "references": ["Amós 9:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-amos-9:theme-yhvh-o-senhor",
+      "from": "chapter:amos:9",
+      "to": "theme:yhvh-o-senhor",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHVH (O SENHOR)” cita explicitamente Amós 4:13; 9:7.",
+      "references": ["Amós 4:13; 9:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-amos-5:term-mishpat",
+      "from": "chapter:amos:5",
+      "to": "term:mishpat",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Mishpat” cita explicitamente Am 5:24.",
+      "references": ["Am 5:24"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

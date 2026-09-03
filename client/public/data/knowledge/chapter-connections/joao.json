@@ -1,0 +1,1329 @@
+{
+  "schemaVersion": 1,
+  "book": "João",
+  "count": 67,
+  "chapterCount": 19,
+  "nodes": [
+    {
+      "id": "event:joao-a-crucificacao-e-a-transladacao-da-morte",
+      "kind": "event",
+      "label": "A Crucificação e a Transladação da Morte",
+      "aliases": [],
+      "summary": "Jesus é crucificado sob o título \"Rei dos Judeus\", entrega seu espírito e tem o lado traspassado por lança, fluindo sangue e água.",
+      "references": ["João João 19:16–37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Conclui a \"hora\" da exaltação de Jesus, simbolizando o nascimento sacramental e eclesial da comunidade redimida.",
+        "entities": "Jesus; Pôncio Pilatos; Soldados romanos; Discípulo Amado; Maria"
+      }
+    },
+    {
+      "id": "event:joao-a-cura-do-paralitico-no-tanque-de-betesda",
+      "kind": "event",
+      "label": "A Cura do Paralítico no Tanque de Betesda",
+      "aliases": [],
+      "summary": "Jesus cura um paralítico no sábado e afirma que o Pai trabalha até agora e ele também trabalha, gerando perseguição mortal.",
+      "references": ["João João 5:1–18"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Intensifica o conflito teológico sobre a observância do sábado e a igualdade ontológica de Jesus com Deus.",
+        "entities": "Jesus; Paralítico; Líderes judaicos"
+      }
+    },
+    {
+      "id": "event:joao-a-lavagem-dos-pes-e-a-ultima-ceia",
+      "kind": "event",
+      "label": "A Lavagem dos Pés e a Última Ceia",
+      "aliases": [],
+      "summary": "Jesus lava os pés dos discípulos como ato supremo de humildade e serviço sacrificial, antecipando sua morte na cruz.",
+      "references": ["João João 13:1–30"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece o novo mandamento do amor mútuo e sela a separação de Judas Iscariotes para a traição.",
+        "entities": "Jesus; Doze Apóstolos; Judas Iscariotes"
+      }
+    },
+    {
+      "id": "event:joao-a-purificacao-do-templo",
+      "kind": "event",
+      "label": "A Purificação do Templo",
+      "aliases": [],
+      "summary": "Jesus expulsa cambistas e comerciantes do pátio do Templo em Jerusalém, afirmando que destruirá o templo e o reerguera em três dias.",
+      "references": ["João João 2:13-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Antecipa a substituição do sistema sacrificial do Templo físico pelo templo ressurreto do seu próprio corpo.",
+        "entities": "Jesus; Autoridades judaicas"
+      }
+    },
+    {
+      "id": "event:joao-a-ressurreicao-de-lazaro",
+      "kind": "event",
+      "label": "A Ressurreição de Lázaro",
+      "aliases": [],
+      "summary": "Jesus chora no túmulo e clama em alta voz, chamando Lázaro para fora do sepulcro após quatro dias de morte.",
+      "references": ["João João 11:1–44"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Constitui o sinal definitivo que polariza o Sinédrio e precipita a decisão formal de executar Jesus.",
+        "entities": "Jesus; Lázaro; Marta; Maria; Sinédrio"
+      }
+    },
+    {
+      "id": "event:joao-as-aparicoes-do-ressuscitado-e-o-envio-apostolico",
+      "kind": "event",
+      "label": "As Aparições do Ressuscitado e o Envio Apostólico",
+      "aliases": [],
+      "summary": "Jesus ressuscitado aparece a Maria Madalena, aos discípulos no cenáculo e a Tomé, soprando sobre eles o Espírito Santo e enviando-os.",
+      "references": ["João João 20:11–29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Transforma o desalento dos discípulos em fé inabalável, estabelecendo a autoridade missionária da Igreja sob a assistência do Espírito.",
+        "entities": "Jesus; Maria Madalena; Tomé; Discípulos"
+      }
+    },
+    {
+      "id": "event:joao-o-discurso-do-pao-da-vida-na-sinagoga-de-cafarnaum",
+      "kind": "event",
+      "label": "O Discurso do Pão da Vida na Sinagoga de Cafarnaum",
+      "aliases": [],
+      "summary": "Jesus declara ser o Pão vivo que desceu do céu, exigindo que comam sua carne e bebam seu sangue para terem vida eterna.",
+      "references": ["João João 6:25–59"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Provoca forte escândalo e a deserção de muitos discípulos, separando a multidão interesseira dos verdadeiros crentes fiéis.",
+        "entities": "Jesus; Multidão; Doze Apóstolos"
+      }
+    },
+    {
+      "id": "event:joao-o-primeiro-sinal-em-cana",
+      "kind": "event",
+      "label": "O Primeiro Sinal em Caná",
+      "aliases": [],
+      "summary": "Jesus transforma água em vinho em uma festa de casamento, manifestando sua glória e despertando a fé dos discípulos.",
+      "references": ["João João 2:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Inaugura o ministério público de Jesus, substituindo as purificações rituais judaicas pelo vinho abundante da nova aliança mesiânica.",
+        "entities": "Jesus; Discípulos; Maria, mãe de Jesus"
+      }
+    },
+    {
+      "id": "people-group:os-judeus-hoi-ioudaioi",
+      "kind": "people-group",
+      "label": "Os Judeus (*hoi Ioudaioi*)",
+      "aliases": [],
+      "summary": "Reflete o contexto de forte polarização e cisma entre a sinagoga e a nascente igreja cristã pós-70 d.C.",
+      "references": ["João 5:16-18; João 8:39-47; João 19:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Termo coletivo recorrente no Quarto Evangelho que designa predominantemente as autoridades religiosas opositoras em Jerusalém.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:a-mulher-samaritana",
+      "kind": "person",
+      "label": "A Mulher Samaritana",
+      "aliases": [],
+      "summary": "Transforma-se na primeira evangelista samaritana, levando sua cidade a crer em Jesus como o Salvador do mundo.",
+      "references": ["João 4:1-42"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Moradora de Sicar que dialoga com Jesus junto à poça de Jacó sobre a água viva e a verdadeira adoração.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:herodes-o-grande",
+      "kind": "person",
+      "label": "Herodes o Grande",
+      "aliases": ["Herodes o Grande"],
+      "summary": "Herodes I, o Grande (c. 73/74 a.C. – 4 a.C.), foi um rei cliente romano que governou a Judeia, Samaria, Galileia e territórios adjacentes entre 37 a.C. e 4 a.C. Nomeado pelo Senado Romano como \"Rei dos Judeus\", Herodes destacou-se por sua habilidade política extraordinária, astúcia diplomática e paranoia extrema. Embora fosse idumeu de origem (e, portanto, judeu apenas por conversão forçada de seus ancestrais sob os hasmonianos), ele promoveu colossais projetos arquitetônicos — sendo o mais grandioso a reconstrução e monumentalização do Segundo Templo de Jerusalém. Simultaneamente, sua biografia ficou marcada por execuções sangrentas de membros da própria família real hasmoniana e o episódio neotestamentário do Massacre dos Inocentes em Belém.",
+      "references": [
+        "**Mateus 2:1, 3**: *\"Tendo nascido Jesus em Belém da Judeia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém... E o rei Herodes, ouvindo isto, perturbou-se, e com ele toda a Jerusalém.\"*",
+        "**Lucas 1:5**: *\"Houve nos dias de Herodes, rei da Judeia, um sacerdote chamado Zacarias, da turma de Abias...\"*",
+        "**João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-herodes-o-grande"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Mateus%202%3A1%2C%203**%3A%20*%22Tendo%20nascido%20Jesus%20em%20Bel%C3%A9m%20da%20Judeia%2C%20no%20tempo%20do%20rei%20Herodes%2C%20eis%20que%20uns%20magos%20vieram%20do%20oriente%20a%20Jerusal%C3%A9m...%20E%20o%20rei%20Herodes%2C%20ouvindo%20isto%2C%20perturbou-se%2C%20e%20com%20ele%20toda%20a%20Jerusal%C3%A9m.%22*%3B%20**Lucas%201%3A5**%3A%20*%22Houve%20nos%20dias%20de%20Herodes%2C%20rei%20da%20Judeia%2C%20um%20sacerdote%20chamado%20Zacarias%2C%20da%20turma%20de%20Abias...%22*%3B%20**Jo%C3%A3o%202%3A20**%3A%20*%22Disseram%2C%20pois%2C%20os%20judeus%3A%20Em%20quarenta%20e%20seis%20anos%20foi%20edificado%20este%20templo%2C%20e%20tu%20o%20levantar%C3%A1s%20em%20tr%C3%AAs%20dias%3F%22*&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:jesus-cristo-o-verbo-o-filho",
+      "kind": "person",
+      "label": "Jesus Cristo (O Verbo / O Filho)",
+      "aliases": [],
+      "summary": "Apresentado desde o Prólogo como o *Logos* pré-existente criador do cosmos, cuja trajetória terrena culmina na hora de sua glorificação na cruz.",
+      "references": ["João 1:1-18; João 8:58; João 20:31"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filho encarnado de Deus, revelador supremo do Pai, doador da vida eterna e redentor da humanidade.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:joao-batista",
+      "kind": "person",
+      "label": "João Batista",
+      "aliases": ["João Batista"],
+      "summary": "João Batista é o profeta ascético, filho do sacerdote Zacarias e de Isabel, que atuou nas margens do rio Jordão pregando o arrependimento, anunciando a iminência do Reino dos céus e batizando para a remissão de pecados. Identificado como o precursor do Messias, batizou Jesus e foi posteriormente decapitado por ordem de Herodes Antipas devido a suas repreensões morais e políticas.",
+      "references": [
+        "Mt 3:1-12; 11:2-19; 14:1-12",
+        "Mc 1.4-9; 6.14-29",
+        "Lucas 1:13-17; Lucas 3:3-6; Lucas 7:24-28",
+        "João 1:6-36; João 3:27-30; João 10:41"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-joao-batista"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Profeta precursor, testemunha da luz e aquele que batiza Jesus, apontando-o como o Cordeiro de Deus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:lazaro-de-betania",
+      "kind": "person",
+      "label": "Lázaro de Betânia",
+      "aliases": [],
+      "summary": "Seu milagre é o clímax dos sinais joaninos, simbolizando o poder de Jesus sobre a morte física e espiritual.",
+      "references": ["João 11:1-44; João 12:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Irmão de Marta e Maria, ressuscitado por Jesus após quatro dias no sepulcro, desencadeando o decreto de morte contra Jesus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:maria-madalena",
+      "kind": "person",
+      "label": "Maria Madalena",
+      "aliases": ["Maria Madalena"],
+      "summary": "Maria de Magdala foi uma seguidora proeminente de Jesus, de quem, segundo o relato lucano, foram expulsos sete demônios. Financiadora e participante ativa do ministério galileu, foi a testemunha ocular primária da crucificação, do sepultamento e a primeira a testemunhar o sepulcro vazio e o Cristo ressuscitado no Domingo da Páscoa, recebendo o comissionamento de anunciar a ressurreição aos apóstolos (sendo cognominada na tradição oriental como a \"Apóstola dos Apóstolos\").",
+      "references": ["João 19:25; João 20:11-18"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-maria-madalena"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Discípula fiel que permanece junto à cruz e é a primeira testemunha ocular do Cristo ressuscitado no jardim.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nicodemos",
+      "kind": "person",
+      "label": "Nicodemos",
+      "aliases": ["Nicodemos"],
+      "summary": "Nicodemos (*Nikodemos*, significando \"conquistador do povo\") foi um fariseu proeminente e membro do Sinédrio (o supremo tribunal judaico). Apresentado exclusivamente no Evangelho de João, sua narrativa evolui de um buscador noturno cauteloso e intrigado para um defensor público e corajoso de Jesus no Sinédrio, culminando em sua participação no sepultamento de Cristo ao lado de José de Arimateia, trazendo uma valiosa mistura de mirra e aloés.",
+      "references": ["João 3:1-21; João 7:50-52; João 19:39"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-nicodemos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Fariseu, membro do Sinédrio e buscador noturno que transita da incompreensão literalista à defesa cautelosa de Jesus.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-discipulo-amado",
+      "kind": "person",
+      "label": "O Discípulo Amado",
+      "aliases": [],
+      "summary": "Tradicionalmente identificado com o apóstolo João, filho de Zebedeu, é o discípulo reclinado no peito de Jesus na ceia e a quem a mãe de Jesus é confiada.",
+      "references": ["João 13:23; João 19:26-27; João 21:20-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunha ocular anônima, figura central da autoridade apostólica da comunidade joanina e redator final da tradição.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:poncio-pilatos",
+      "kind": "person",
+      "label": "Pôncio Pilatos",
+      "aliases": ["Pôncio Pilatos"],
+      "summary": "Pôncio Pilatos foi o quinto prefeito (ou procurador) romano da província da Judeia, servindo sob o imperador Tibério César entre os anos 26 e 36 d.C. Sua figura é indissociável do processo de julgamento e condenação à morte de Jesus de Nazaré. Nos Evangelhos, é retratado como um governador pragmático, relutante e politicamente acuado pelas elites sacerdotais judaicas, que lavou as mãos simbolicamente para eximir-se da culpa pelo sangue do réu.",
+      "references": [
+        "Mt 27:2, 11-26, 62-66",
+        "Mc 15.1-15",
+        "Lucas 23:13-15; Lucas 23:22-24",
+        "João 18:29–19:22"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-poncio-pilatos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Governador romano da Judeia que conduz o julgamento de Jesus, demonstrando vacilação diante da pressão sinedrial.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:tome-didimo",
+      "kind": "person",
+      "label": "Tomé Dídimo",
+      "aliases": [],
+      "summary": "Serve como modelo literário para a fé dos leitores futuros que não viram fisicamente Jesus, mas creram através do testemunho apostólico.",
+      "references": ["João 11:16; João 20:24-29"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Apóstolo cuja dúvida inicial converte-se na confissão cristológica mais alta do evangelho: \"Meu Senhor e meu Deus!\".",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:cana-da-galileia",
+      "kind": "place",
+      "label": "Caná da Galileia",
+      "aliases": [],
+      "summary": "Local do primeiro sinal (transformação da água em vinho) e da cura do filho do oficial real, simbolizando o início da revelação pública da glória de Cristo.",
+      "references": ["João 2:1, 11; João 4:46"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:o-cenaculo-em-jerusalem",
+      "kind": "place",
+      "label": "O Cenáculo em Jerusalém",
+      "aliases": [],
+      "summary": "Local privado da última ceia, da lavagem dos pés e dos Discursos de Despedida, representando o espaço íntimo da comunhão da nova comunidade com o Pai e o Filho.",
+      "references": ["João 13:1; João 18:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:o-golgota-lugar-da-caveira",
+      "kind": "place",
+      "label": "O Gólgota (Lugar da Caveira)",
+      "aliases": [],
+      "summary": "Local fora dos muros de Jerusalém onde Jesus foi crucificado entre dois malfeitores, coroado ironicamente como Rei dos Judeus.",
+      "references": ["João 19:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-jardim-do-getsemani-cedrom",
+      "kind": "place",
+      "label": "O Jardim do Getsêmani / Cedrom",
+      "aliases": [],
+      "summary": "Vale e jardim onde Jesus é traído por Judas e preso pelas autoridades, marcando o início voluntário de sua descida à Paixão.",
+      "references": ["João 18:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:o-poco-de-jaco-em-sicar-samaria",
+      "kind": "place",
+      "label": "O Poço de Jacó em Sicar (Samaria)",
+      "aliases": [],
+      "summary": "Local de encontro entre Jesus e a mulher samaritana, palco do discurso sobre a água viva e a superação do exclusivismo cultual de Gerizim e Jerusalém.",
+      "references": ["João 4:5-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-templo-de-jerusalem",
+      "kind": "place",
+      "label": "O Templo de Jerusalém",
+      "aliases": [],
+      "summary": "Centro político-religioso do judaísmo do Segundo Templo; alvo da purificação joanina e cenário de intensos debates festivos sobre a identidade de Jesus.",
+      "references": [
+        "Mt 21:12, 14; 24:1; 27:51",
+        "João 2:14; João 7:14; João 10:23"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "disputado" }
+    },
+    {
+      "id": "place:tanque-de-betesda-em-jerusalem",
+      "kind": "place",
+      "label": "Tanque de Betesda em Jerusalém",
+      "aliases": [],
+      "summary": "Tanque com cinco pórticos associado a curas milagrosas, onde Jesus cura o paralítico de 38 anos, demonstrando supremacia sobre as leis rituais sabáticas.",
+      "references": ["João 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "prophecy:1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11",
+      "kind": "prophecy",
+      "label": "O mandamento antigo e novo de amar uns aos outros (1 João 2:7-8 / 3:11)",
+      "aliases": [],
+      "summary": "Divergências: Enquanto no AT o mandamento era focado no próximo na aliança mosaica, João o recontextualiza cristologicamente como o padrão sacrificial do próprio Cristo.",
+      "references": ["Levítico 19:18; João 13:34; 15:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "kind": "prophecy",
+      "label": "O testemunho da água, do sangue e do Espírito (1 João 5:6-8)",
+      "aliases": [],
+      "summary": "Divergências: Tradicionalmente interpretado na patrística como referência aos sacramentos (batismo e eucaristia), enquanto a exegese moderna vê alusão ao batismo de Jesus (água) e à sua crucificação (sangue) atestados pelo Espírito.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior / tipologia" }
+    },
+    {
+      "id": "prophecy:daniel-a-ressurreicao-para-a-vida-eterna-e-condenacao-daniel-12-2",
+      "kind": "prophecy",
+      "label": "A Ressurreição para a Vida Eterna e Condenação (Daniel 12:2)",
+      "aliases": [],
+      "summary": "Um dos textos mais explícitos do Antigo Testamento sobre a ressurreição corporal individual e o juízo final, com recepção direta no judaísmo tardio e no cristianismo primitivo.",
+      "references": ["João 5:28–29; Atos 24:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:deuteronomio-deut-18-15-18-profeta-semelhante-a-mim-vos-suscitara-yhwh",
+      "kind": "prophecy",
+      "label": "Deut 18:15-18 (\"Profeta semelhante a mim vos suscitará YHWH...\")",
+      "aliases": [],
+      "summary": "Enquanto o judaísmo rabínico e histórico tendeu a interpretar este oráculo de forma coletiva (a linha contínua de profetas legítimos em Israel) ou messiânica difusa, a tradição neotestamentária e cristã primitiva aplicou-o tipologicamente de maneira singular à pessoa de Jesus de Nazaré.",
+      "references": ["Atos 3:22-23; Atos 7:37; João 1:21; João 6:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46",
+      "kind": "prophecy",
+      "label": "O Cordeiro Pascal como substituto escatológico (Êxodo 12:46)",
+      "aliases": [],
+      "summary": "Debate entre leituras cultuais do templo judaico antigo e leituras soteriológicas cristãs da morte expiatória.",
+      "references": ["João 19:36; 1 Coríntios 5:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "kind": "prophecy",
+      "label": "Ezequiel 36:26-27 (Novo coração e novo espírito)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Teólogos reformados e pentecostais interpretam como prefiguração direta da regeneração do Novo Testamento e do batismo no Espírito Santo, ao passo que leitores judaicos enfatizam a renovação da aliança nacional e obediência à Torá.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Oráculo / Alusão soteriológica" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor",
+      "kind": "prophecy",
+      "label": "Isaías 40:3 — \"Voz que clama no deserto: Preparai o caminho do Senhor\"",
+      "aliases": [],
+      "summary": "Transição do contexto exílico (regresso de Israel pelo deserto babilônico) para a aplicação escatológica a João Batista como precursor do Messias.",
+      "references": ["Marcos 1:3, João 1:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:joao-exodo-3-14-eu-sou-o-que-sou",
+      "kind": "prophecy",
+      "label": "Êxodo 3:14 (\"EU SOU O QUE SOU\")",
+      "aliases": [],
+      "summary": "As declarações \"Eu Sou\" (*Ego Eimi*) absolutas em João ecoam a revelação divina no Sinai, gerando controvérsia extrema com as autoridades judaicas que as interpretam como blasfêmia.",
+      "references": ["João 8:58 (\"Antes que Abraão existisse, eu sou\")"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "prophecy:joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito",
+      "kind": "prophecy",
+      "label": "Ezequiel 36:25-27 (Água purificadora e novo espírito)",
+      "aliases": [],
+      "summary": "As metáforas da água viva e do novo nascimento reeditam as promessas proféticas de renovação espiritual e efusão do Espírito no fim dos tempos.",
+      "references": ["João 3:5; João 4:14; João 7:37-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:joao-genesis-1-1-no-principio",
+      "kind": "prophecy",
+      "label": "Gênesis 1:1 (\"No princípio...\")",
+      "aliases": [],
+      "summary": "Enquanto o Antigo Testamento aponta para a criação cósmica original, João aplica a expressão à pré-existência eterna do *Logos*, reinterpretando a criação sob moldura cristológica.",
+      "references": ["João 1:1 (\"No princípio era o Verbo\")"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tipologia" }
+    },
+    {
+      "id": "prophecy:joao-isaias-53-1-quem-creu-na-nossa-pregacao",
+      "kind": "prophecy",
+      "label": "Isaías 53:1 (\"Quem creu na nossa pregação?\")",
+      "aliases": [],
+      "summary": "O evangelista utiliza o texto de Isaías para explicar a obstinação e a incredulidade dos judeus diante dos sinais públicos de Jesus, cumprindo o desígnio profético.",
+      "references": ["João 12:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:joao-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "kind": "prophecy",
+      "label": "Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")",
+      "aliases": [],
+      "summary": "Citado diretamente na crucificação após o golpe da lança no lado de Jesus, atestando o cumprimento profético do sofrimento vicário do enviado divino.",
+      "references": ["João 19:37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação / cumprimento" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel",
+      "kind": "prophecy",
+      "label": "Miqueias 5:2 (\"E tu, Belém Efrata... de ti me sairá o que será governante em Israel\")",
+      "aliases": [],
+      "summary": "Interpretado no judaísmo pós-exílico e no cristianismo primitivo como a promessa do advento do Messias davídico; os evangelhos o aplicam diretamente ao nascimento de Jesus.",
+      "references": ["Mateus 2:5-6; João 7:42"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / alusão messiânica" }
+    },
+    {
+      "id": "prophecy:numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9",
+      "kind": "prophecy",
+      "label": "A serpente de bronze levantada por Moisés no deserto para curar as picadas das serpentes ardentes (Números 21:8-9)",
+      "aliases": [],
+      "summary": "Na teologia joanina, serve como tipo soteriológico da crucificação de Cristo, enquanto na história de Israel culminou em controvérsia cultual quando Ezequias destruiu o objeto de idolatria popular.",
+      "references": ["João 3:14-15; 2 Reis 18:4 (Neustã)"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "kind": "prophecy",
+      "label": "Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")",
+      "aliases": [],
+      "summary": "O Quarto Evangelho aplica o versículo à crucificação e ao golpe da lança no lado de Jesus, enquanto o contexto original judaico discute o luto por um líder ou guerreiro ferido em defesa de Jerusalém.",
+      "references": ["João 19:37, Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/recepção posterior" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento",
+      "kind": "prophecy",
+      "label": "Zacarias 9:9 (\"Eis que o teu rei vem a ti... montado sobre um jumento\")",
+      "aliases": [],
+      "summary": "Os evangelistas aplicam diretamente a entrada de Jesus em Jerusalém, enquanto a exegese histórica vê o texto como esperança restauradora para um rei pós-exílico que não se concretizou politicamente.",
+      "references": ["Mateus 21:5, João 12:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "theme:o-paraclito-espirito-santo",
+      "kind": "theme",
+      "label": "O Paráclito (Espírito Santo)",
+      "aliases": [],
+      "summary": "Na teologia joanina, assume o papel de defensor e guia da comunidade após a partida física de Jesus.",
+      "references": ["João 14:16-26; João 15:26; João 16:7-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Outro Consolador prometido por Jesus para habitar nos crentes, ensinar, convencer o mundo e testificar de Cristo.",
+        "entityType": "Conceito"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-joao-a-crucificacao-e-a-transladacao-da-morte:chapter-joao-19",
+      "from": "event:joao-a-crucificacao-e-a-transladacao-da-morte",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Crucificação e a Transladação da Morte” cita explicitamente João João 19:16–37.",
+      "references": ["João João 19:16–37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-a-cura-do-paralitico-no-tanque-de-betesda:chapter-joao-5",
+      "from": "event:joao-a-cura-do-paralitico-no-tanque-de-betesda",
+      "to": "chapter:joao:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Cura do Paralítico no Tanque de Betesda” cita explicitamente João João 5:1–18.",
+      "references": ["João João 5:1–18"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-a-lavagem-dos-pes-e-a-ultima-ceia:chapter-joao-13",
+      "from": "event:joao-a-lavagem-dos-pes-e-a-ultima-ceia",
+      "to": "chapter:joao:13",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Lavagem dos Pés e a Última Ceia” cita explicitamente João João 13:1–30.",
+      "references": ["João João 13:1–30"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-a-purificacao-do-templo:chapter-joao-2",
+      "from": "event:joao-a-purificacao-do-templo",
+      "to": "chapter:joao:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Purificação do Templo” cita explicitamente João João 2:13-22.",
+      "references": ["João João 2:13-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-a-ressurreicao-de-lazaro:chapter-joao-11",
+      "from": "event:joao-a-ressurreicao-de-lazaro",
+      "to": "chapter:joao:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Ressurreição de Lázaro” cita explicitamente João João 11:1–44.",
+      "references": ["João João 11:1–44"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-as-aparicoes-do-ressuscitado-e-o-envio-apostolico:chapter-joao-20",
+      "from": "event:joao-as-aparicoes-do-ressuscitado-e-o-envio-apostolico",
+      "to": "chapter:joao:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “As Aparições do Ressuscitado e o Envio Apostólico” cita explicitamente João João 20:11–29.",
+      "references": ["João João 20:11–29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-o-discurso-do-pao-da-vida-na-sinagoga-de-cafarnaum:chapter-joao-6",
+      "from": "event:joao-o-discurso-do-pao-da-vida-na-sinagoga-de-cafarnaum",
+      "to": "chapter:joao:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Discurso do Pão da Vida na Sinagoga de Cafarnaum” cita explicitamente João João 6:25–59.",
+      "references": ["João João 6:25–59"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-joao-o-primeiro-sinal-em-cana:chapter-joao-2",
+      "from": "event:joao-o-primeiro-sinal-em-cana",
+      "to": "chapter:joao:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Sinal em Caná” cita explicitamente João João 2:1-11.",
+      "references": ["João João 2:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-judeus-hoi-ioudaioi:chapter-joao-19",
+      "from": "people-group:os-judeus-hoi-ioudaioi",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Judeus (*hoi Ioudaioi*)” cita explicitamente João 5:16-18; João 8:39-47; João 19:7.",
+      "references": ["João 5:16-18; João 8:39-47; João 19:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-judeus-hoi-ioudaioi:chapter-joao-5",
+      "from": "people-group:os-judeus-hoi-ioudaioi",
+      "to": "chapter:joao:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Judeus (*hoi Ioudaioi*)” cita explicitamente João 5:16-18; João 8:39-47; João 19:7.",
+      "references": ["João 5:16-18; João 8:39-47; João 19:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-judeus-hoi-ioudaioi:chapter-joao-8",
+      "from": "people-group:os-judeus-hoi-ioudaioi",
+      "to": "chapter:joao:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os Judeus (*hoi Ioudaioi*)” cita explicitamente João 5:16-18; João 8:39-47; João 19:7.",
+      "references": ["João 5:16-18; João 8:39-47; João 19:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-mulher-samaritana:chapter-joao-4",
+      "from": "person:a-mulher-samaritana",
+      "to": "chapter:joao:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Mulher Samaritana” cita explicitamente João 4:1-42.",
+      "references": ["João 4:1-42"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-herodes-o-grande:chapter-joao-2",
+      "from": "person:herodes-o-grande",
+      "to": "chapter:joao:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Herodes o Grande” cita explicitamente **João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*.",
+      "references": [
+        "**João 2:20**: *\"Disseram, pois, os judeus: Em quarenta e seis anos foi edificado este templo, e tu o levantarás em três dias?\"*"
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo-o-verbo-o-filho:chapter-joao-1",
+      "from": "person:jesus-cristo-o-verbo-o-filho",
+      "to": "chapter:joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo (O Verbo / O Filho)” cita explicitamente João 1:1-18; João 8:58; João 20:31.",
+      "references": ["João 1:1-18; João 8:58; João 20:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo-o-verbo-o-filho:chapter-joao-20",
+      "from": "person:jesus-cristo-o-verbo-o-filho",
+      "to": "chapter:joao:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo (O Verbo / O Filho)” cita explicitamente João 1:1-18; João 8:58; João 20:31.",
+      "references": ["João 1:1-18; João 8:58; João 20:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jesus-cristo-o-verbo-o-filho:chapter-joao-8",
+      "from": "person:jesus-cristo-o-verbo-o-filho",
+      "to": "chapter:joao:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jesus Cristo (O Verbo / O Filho)” cita explicitamente João 1:1-18; João 8:58; João 20:31.",
+      "references": ["João 1:1-18; João 8:58; João 20:31"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-joao-1",
+      "from": "person:joao-batista",
+      "to": "chapter:joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente João 1:6-36; João 3:27-30; João 10:41.",
+      "references": ["João 1:6-36; João 3:27-30; João 10:41"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-joao-10",
+      "from": "person:joao-batista",
+      "to": "chapter:joao:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente João 1:6-36; João 3:27-30; João 10:41.",
+      "references": ["João 1:6-36; João 3:27-30; João 10:41"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-batista:chapter-joao-3",
+      "from": "person:joao-batista",
+      "to": "chapter:joao:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João Batista” cita explicitamente João 1:6-36; João 3:27-30; João 10:41.",
+      "references": ["João 1:6-36; João 3:27-30; João 10:41"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lazaro-de-betania:chapter-joao-11",
+      "from": "person:lazaro-de-betania",
+      "to": "chapter:joao:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lázaro de Betânia” cita explicitamente João 11:1-44; João 12:1-11.",
+      "references": ["João 11:1-44; João 12:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-lazaro-de-betania:chapter-joao-12",
+      "from": "person:lazaro-de-betania",
+      "to": "chapter:joao:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Lázaro de Betânia” cita explicitamente João 11:1-44; João 12:1-11.",
+      "references": ["João 11:1-44; João 12:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-maria-madalena:chapter-joao-19",
+      "from": "person:maria-madalena",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Maria Madalena” cita explicitamente João 19:25; João 20:11-18.",
+      "references": ["João 19:25; João 20:11-18"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-maria-madalena:chapter-joao-20",
+      "from": "person:maria-madalena",
+      "to": "chapter:joao:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Maria Madalena” cita explicitamente João 19:25; João 20:11-18.",
+      "references": ["João 19:25; João 20:11-18"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nicodemos:chapter-joao-19",
+      "from": "person:nicodemos",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nicodemos” cita explicitamente João 3:1-21; João 7:50-52; João 19:39.",
+      "references": ["João 3:1-21; João 7:50-52; João 19:39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nicodemos:chapter-joao-3",
+      "from": "person:nicodemos",
+      "to": "chapter:joao:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nicodemos” cita explicitamente João 3:1-21; João 7:50-52; João 19:39.",
+      "references": ["João 3:1-21; João 7:50-52; João 19:39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nicodemos:chapter-joao-7",
+      "from": "person:nicodemos",
+      "to": "chapter:joao:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nicodemos” cita explicitamente João 3:1-21; João 7:50-52; João 19:39.",
+      "references": ["João 3:1-21; João 7:50-52; João 19:39"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-discipulo-amado:chapter-joao-13",
+      "from": "person:o-discipulo-amado",
+      "to": "chapter:joao:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Discípulo Amado” cita explicitamente João 13:23; João 19:26-27; João 21:20-24.",
+      "references": ["João 13:23; João 19:26-27; João 21:20-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-discipulo-amado:chapter-joao-19",
+      "from": "person:o-discipulo-amado",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Discípulo Amado” cita explicitamente João 13:23; João 19:26-27; João 21:20-24.",
+      "references": ["João 13:23; João 19:26-27; João 21:20-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-discipulo-amado:chapter-joao-21",
+      "from": "person:o-discipulo-amado",
+      "to": "chapter:joao:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Discípulo Amado” cita explicitamente João 13:23; João 19:26-27; João 21:20-24.",
+      "references": ["João 13:23; João 19:26-27; João 21:20-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-poncio-pilatos:chapter-joao-18",
+      "from": "person:poncio-pilatos",
+      "to": "chapter:joao:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pôncio Pilatos” cita explicitamente João 18:29–19:22.",
+      "references": ["João 18:29–19:22"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-poncio-pilatos:chapter-joao-19",
+      "from": "person:poncio-pilatos",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pôncio Pilatos” cita explicitamente João 18:29–19:22.",
+      "references": ["João 18:29–19:22"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tome-didimo:chapter-joao-11",
+      "from": "person:tome-didimo",
+      "to": "chapter:joao:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tomé Dídimo” cita explicitamente João 11:16; João 20:24-29.",
+      "references": ["João 11:16; João 20:24-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-tome-didimo:chapter-joao-20",
+      "from": "person:tome-didimo",
+      "to": "chapter:joao:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tomé Dídimo” cita explicitamente João 11:16; João 20:24-29.",
+      "references": ["João 11:16; João 20:24-29"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cana-da-galileia:chapter-joao-2",
+      "from": "place:cana-da-galileia",
+      "to": "chapter:joao:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Caná da Galileia” cita explicitamente João 2:1, 11; João 4:46.",
+      "references": ["João 2:1, 11; João 4:46"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cana-da-galileia:chapter-joao-4",
+      "from": "place:cana-da-galileia",
+      "to": "chapter:joao:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Caná da Galileia” cita explicitamente João 2:1, 11; João 4:46.",
+      "references": ["João 2:1, 11; João 4:46"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-cenaculo-em-jerusalem:chapter-joao-13",
+      "from": "place:o-cenaculo-em-jerusalem",
+      "to": "chapter:joao:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Cenáculo em Jerusalém” cita explicitamente João 13:1; João 18:1.",
+      "references": ["João 13:1; João 18:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-cenaculo-em-jerusalem:chapter-joao-18",
+      "from": "place:o-cenaculo-em-jerusalem",
+      "to": "chapter:joao:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Cenáculo em Jerusalém” cita explicitamente João 13:1; João 18:1.",
+      "references": ["João 13:1; João 18:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-golgota-lugar-da-caveira:chapter-joao-19",
+      "from": "place:o-golgota-lugar-da-caveira",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Gólgota (Lugar da Caveira)” cita explicitamente João 19:17.",
+      "references": ["João 19:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-jardim-do-getsemani-cedrom:chapter-joao-18",
+      "from": "place:o-jardim-do-getsemani-cedrom",
+      "to": "chapter:joao:18",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Jardim do Getsêmani / Cedrom” cita explicitamente João 18:1.",
+      "references": ["João 18:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-poco-de-jaco-em-sicar-samaria:chapter-joao-4",
+      "from": "place:o-poco-de-jaco-em-sicar-samaria",
+      "to": "chapter:joao:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Poço de Jacó em Sicar (Samaria)” cita explicitamente João 4:5-6.",
+      "references": ["João 4:5-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-joao-10",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:joao:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente João 2:14; João 7:14; João 10:23.",
+      "references": ["João 2:14; João 7:14; João 10:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-joao-2",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:joao:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente João 2:14; João 7:14; João 10:23.",
+      "references": ["João 2:14; João 7:14; João 10:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-templo-de-jerusalem:chapter-joao-7",
+      "from": "place:o-templo-de-jerusalem",
+      "to": "chapter:joao:7",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Templo de Jerusalém” cita explicitamente João 2:14; João 7:14; João 10:23.",
+      "references": ["João 2:14; João 7:14; João 10:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tanque-de-betesda-em-jerusalem:chapter-joao-5",
+      "from": "place:tanque-de-betesda-em-jerusalem",
+      "to": "chapter:joao:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Tanque de Betesda em Jerusalém” cita explicitamente João 5:2.",
+      "references": ["João 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11:chapter-joao-13",
+      "from": "prophecy:1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11",
+      "to": "chapter:joao:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O mandamento antigo e novo de amar uns aos outros (1 João 2:7-8 / 3:11)” cita explicitamente Levítico 19:18; João 13:34; 15:12.",
+      "references": ["Levítico 19:18; João 13:34; 15:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11:chapter-joao-15",
+      "from": "prophecy:1-joao-o-mandamento-antigo-e-novo-de-amar-uns-aos-outros-1-joao-2-7-8-3-11",
+      "to": "chapter:joao:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O mandamento antigo e novo de amar uns aos outros (1 João 2:7-8 / 3:11)” cita explicitamente Levítico 19:18; João 13:34; 15:12.",
+      "references": ["Levítico 19:18; João 13:34; 15:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8:chapter-joao-19",
+      "from": "prophecy:1-joao-o-testemunho-da-agua-do-sangue-e-do-espirito-1-joao-5-6-8",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O testemunho da água, do sangue e do Espírito (1 João 5:6-8)” cita explicitamente Zacarias 12:10; João 19:34; Ezequiel 36:25-27.",
+      "references": ["Zacarias 12:10; João 19:34; Ezequiel 36:25-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-ressurreicao-para-a-vida-eterna-e-condenacao-daniel-12-2:chapter-joao-5",
+      "from": "prophecy:daniel-a-ressurreicao-para-a-vida-eterna-e-condenacao-daniel-12-2",
+      "to": "chapter:joao:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Ressurreição para a Vida Eterna e Condenação (Daniel 12:2)” cita explicitamente João 5:28–29; Atos 24:15.",
+      "references": ["João 5:28–29; Atos 24:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-18-15-18-profeta-semelhante-a-mim-vos-suscitara-yhwh:chapter-joao-1",
+      "from": "prophecy:deuteronomio-deut-18-15-18-profeta-semelhante-a-mim-vos-suscitara-yhwh",
+      "to": "chapter:joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 18:15-18 (\"Profeta semelhante a mim vos suscitará YHWH...\")” cita explicitamente Atos 3:22-23; Atos 7:37; João 1:21; João 6:14.",
+      "references": ["Atos 3:22-23; Atos 7:37; João 1:21; João 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-deuteronomio-deut-18-15-18-profeta-semelhante-a-mim-vos-suscitara-yhwh:chapter-joao-6",
+      "from": "prophecy:deuteronomio-deut-18-15-18-profeta-semelhante-a-mim-vos-suscitara-yhwh",
+      "to": "chapter:joao:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Deut 18:15-18 (\"Profeta semelhante a mim vos suscitará YHWH...\")” cita explicitamente Atos 3:22-23; Atos 7:37; João 1:21; João 6:14.",
+      "references": ["Atos 3:22-23; Atos 7:37; João 1:21; João 6:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46:chapter-joao-19",
+      "from": "prophecy:exodo-o-cordeiro-pascal-como-substituto-escatologico-exodo-12-46",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Cordeiro Pascal como substituto escatológico (Êxodo 12:46)” cita explicitamente João 19:36; 1 Coríntios 5:7.",
+      "references": ["João 19:36; 1 Coríntios 5:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito:chapter-joao-3",
+      "from": "prophecy:ezequiel-ezequiel-36-26-27-novo-coracao-e-novo-espirito",
+      "to": "chapter:joao:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:26-27 (Novo coração e novo espírito)” cita explicitamente Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5.",
+      "references": [
+        "Textos relacionados: Jeremias 31:31-34; Joel 2:28-29; João 3:5"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor:chapter-joao-1",
+      "from": "prophecy:isaias-isaias-40-3-voz-que-clama-no-deserto-preparai-o-caminho-do-senhor",
+      "to": "chapter:joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 40:3 — \"Voz que clama no deserto: Preparai o caminho do Senhor\"” cita explicitamente Marcos 1:3, João 1:23.",
+      "references": ["Marcos 1:3, João 1:23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-exodo-3-14-eu-sou-o-que-sou:chapter-joao-8",
+      "from": "prophecy:joao-exodo-3-14-eu-sou-o-que-sou",
+      "to": "chapter:joao:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Êxodo 3:14 (\"EU SOU O QUE SOU\")” cita explicitamente João 8:58 (\"Antes que Abraão existisse, eu sou\").",
+      "references": ["João 8:58 (\"Antes que Abraão existisse, eu sou\")"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito:chapter-joao-3",
+      "from": "prophecy:joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito",
+      "to": "chapter:joao:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:25-27 (Água purificadora e novo espírito)” cita explicitamente João 3:5; João 4:14; João 7:37-39.",
+      "references": ["João 3:5; João 4:14; João 7:37-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito:chapter-joao-4",
+      "from": "prophecy:joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito",
+      "to": "chapter:joao:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:25-27 (Água purificadora e novo espírito)” cita explicitamente João 3:5; João 4:14; João 7:37-39.",
+      "references": ["João 3:5; João 4:14; João 7:37-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito:chapter-joao-7",
+      "from": "prophecy:joao-ezequiel-36-25-27-agua-purificadora-e-novo-espirito",
+      "to": "chapter:joao:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 36:25-27 (Água purificadora e novo espírito)” cita explicitamente João 3:5; João 4:14; João 7:37-39.",
+      "references": ["João 3:5; João 4:14; João 7:37-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-genesis-1-1-no-principio:chapter-joao-1",
+      "from": "prophecy:joao-genesis-1-1-no-principio",
+      "to": "chapter:joao:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Gênesis 1:1 (\"No princípio...\")” cita explicitamente João 1:1 (\"No princípio era o Verbo\").",
+      "references": ["João 1:1 (\"No princípio era o Verbo\")"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-isaias-53-1-quem-creu-na-nossa-pregacao:chapter-joao-12",
+      "from": "prophecy:joao-isaias-53-1-quem-creu-na-nossa-pregacao",
+      "to": "chapter:joao:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 53:1 (\"Quem creu na nossa pregação?\")” cita explicitamente João 12:38.",
+      "references": ["João 12:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joao-zacarias-12-10-olharao-para-mim-a-quem-traspassaram:chapter-joao-19",
+      "from": "prophecy:joao-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")” cita explicitamente João 19:37.",
+      "references": ["João 19:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel:chapter-joao-7",
+      "from": "prophecy:miqueias-miqueias-5-2-e-tu-belem-efrata-de-ti-me-saira-o-que-sera-governante-em-israel",
+      "to": "chapter:joao:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 5:2 (\"E tu, Belém Efrata... de ti me sairá o que será governante em Israel\")” cita explicitamente Mateus 2:5-6; João 7:42.",
+      "references": ["Mateus 2:5-6; João 7:42"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9:chapter-joao-3",
+      "from": "prophecy:numeros-a-serpente-de-bronze-levantada-por-moises-no-deserto-para-curar-as-picadas-das-serpentes-ardentes-numeros-21-8-9",
+      "to": "chapter:joao:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A serpente de bronze levantada por Moisés no deserto para curar as picadas das serpentes ardentes (Números 21:8-9)” cita explicitamente João 3:14-15; 2 Reis 18:4 (Neustã).",
+      "references": ["João 3:14-15; 2 Reis 18:4 (Neustã)"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram:chapter-joao-19",
+      "from": "prophecy:zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "to": "chapter:joao:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")” cita explicitamente João 19:37, Apocalipse 1:7.",
+      "references": ["João 19:37, Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento:chapter-joao-12",
+      "from": "prophecy:zacarias-zacarias-9-9-eis-que-o-teu-rei-vem-a-ti-montado-sobre-um-jumento",
+      "to": "chapter:joao:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 9:9 (\"Eis que o teu rei vem a ti... montado sobre um jumento\")” cita explicitamente Mateus 21:5, João 12:15.",
+      "references": ["Mateus 21:5, João 12:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joao-14:theme-o-paraclito-espirito-santo",
+      "from": "chapter:joao:14",
+      "to": "theme:o-paraclito-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Paráclito (Espírito Santo)” cita explicitamente João 14:16-26; João 15:26; João 16:7-15.",
+      "references": ["João 14:16-26; João 15:26; João 16:7-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joao-15:theme-o-paraclito-espirito-santo",
+      "from": "chapter:joao:15",
+      "to": "theme:o-paraclito-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Paráclito (Espírito Santo)” cita explicitamente João 14:16-26; João 15:26; João 16:7-15.",
+      "references": ["João 14:16-26; João 15:26; João 16:7-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-joao-16:theme-o-paraclito-espirito-santo",
+      "from": "chapter:joao:16",
+      "to": "theme:o-paraclito-espirito-santo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Paráclito (Espírito Santo)” cita explicitamente João 14:16-26; João 15:26; João 16:7-15.",
+      "references": ["João 14:16-26; João 15:26; João 16:7-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

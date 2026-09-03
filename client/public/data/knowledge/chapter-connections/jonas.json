@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "book": "Jonas",
+  "count": 29,
+  "chapterCount": 4,
+  "nodes": [
+    {
+      "id": "event:jonas-a-fuga-para-tarsis-e-o-embarque-em-jope",
+      "kind": "event",
+      "label": "A Fuga para Társis e o Embarque em Jope",
+      "aliases": [],
+      "summary": "Jonas recusa a ordem divina e viaja a Jope para pagar a passagem rumo a Társis, buscando afastar-se da face de YHVH.",
+      "references": ["Jonas 1:1-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desencadeia a crise narrativa e a confrontação da desobediência profética com o domínio cósmico de Deus.",
+        "entities": "Jonas, Jope, YHVH"
+      }
+    },
+    {
+      "id": "event:jonas-a-ira-do-profeta-e-a-licao-do-qiqayon",
+      "kind": "event",
+      "label": "A Ira do Profeta e a Lição do Qiqayon",
+      "aliases": [],
+      "summary": "Descontente com a clemência divina, Jonas deseja a morte; Deus providencia uma planta, um verme e um vento abrasador para dar-lhe uma lição sobre compaixão.",
+      "references": ["Jonas 4:1-11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Expõe o nacionalismo estreito do profeta e sela o livro com uma interrogação aberta sobre a misericórdia universal.",
+        "entities": "Jonas, A Planta (qiqayon), YHVH"
+      }
+    },
+    {
+      "id": "event:jonas-a-proclamacao-e-o-arrependimento-de-ninive",
+      "kind": "event",
+      "label": "A Proclamação e o Arrependimento de Nínive",
+      "aliases": [],
+      "summary": "Jonas percorre Nínive anunciando sua destruição em 40 dias; a cidade inteira, do rei ao povo e animais, jejua e se arrepende.",
+      "references": ["Jonas 3:1-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a eficácia da palavra divina e a disposição de Deus em perdoar qualquer povo que se volte da violência.",
+        "entities": "Jonas, O Rei de Nínive, Nínive, YHVH, Os animais de Nínive"
+      }
+    },
+    {
+      "id": "event:jonas-a-tempestade-e-o-lancamento-de-sorteios",
+      "kind": "event",
+      "label": "A Tempestade e o Lançamento de Sorteios",
+      "aliases": [],
+      "summary": "YHVH envia uma tempestade violenta que ameaça destruir o navio; os marinheiros clamam aos deuses, descobrem a culpa de Jonas e o lançam ao mar.",
+      "references": ["Jonas 1:4-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Revela a corrupção espiritual do profeta perante pagãos tementes a Deus e resulta na conversão cultual dos marinheiros.",
+        "entities": "Jonas, Marinheiros fenícios, YHVH"
+      }
+    },
+    {
+      "id": "event:jonas-o-salmo-no-ventre-do-peixe",
+      "kind": "event",
+      "label": "O Salmo no Ventre do Peixe",
+      "aliases": [],
+      "summary": "Engolido por um grande peixe, Jonas descende ao Seol, ora reconhecendo sua angústia, promete cumprir seus votos e é vomitado em terra firme.",
+      "references": ["Jonas 2:1-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca a transição entre o juízo corretivo e a restauração do profeta à sua comissão original.",
+        "entities": "Jonas, O Grande Peixe, YHVH"
+      }
+    },
+    {
+      "id": "people-group:marinheiros-fenicios",
+      "kind": "people-group",
+      "label": "Marinheiros fenícios",
+      "aliases": [],
+      "summary": "Grupo gentio que demonstra temor reverente a Deus, orando e oferecendo sacrifícios em contraste com o profeta adormecido",
+      "references": ["Jonas 1:5-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Tripulação do navio com destino a Társis",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:jonas-filho-de-amitai",
+      "kind": "person",
+      "label": "Jonas, filho de Amitai",
+      "aliases": [],
+      "summary": "Personagem central, retratado como relutante, nacionalista e obstinado, que encarna a crise da profecia institucional em Israel",
+      "references": ["2 Reis 14:25; Jonas 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta de Gate-Hefer enviado a Nínive",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-rei-de-ninive",
+      "kind": "person",
+      "label": "O Rei de Nínive",
+      "aliases": [],
+      "summary": "Figura régia que se humilha publicamente, despindo o manto e decretando jejum total para evitar a ira divina",
+      "references": ["Jonas 3:6-9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Monarca assírio que lidera o arrependimento coletivo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:jope-yafo",
+      "kind": "place",
+      "label": "Jope (Yafo)",
+      "aliases": [],
+      "summary": "Antigo porto marítimo na costa mediterrânea de Israel, ponto de partida física da tentativa de evasão de Jonas.",
+      "references": ["Jonas 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:ninive",
+      "kind": "place",
+      "label": "Nínive",
+      "aliases": [],
+      "summary": "Capital imperial assíria, caracterizada na narrativa como cidade grande de três dias de caminhada e símbolo máximo da alteridade opressora que encontra misericórdia divina mediante arrependimento.",
+      "references": [
+        "2 Reis 18-19",
+        "Jonas 1:2; 3:2-4; 4:11",
+        "Naum 1:1; 2:8; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:o-mar-mediterraneo-o-grande-mar",
+      "kind": "place",
+      "label": "O Mar Mediterrâneo (\"O Grande Mar\")",
+      "aliases": [],
+      "summary": "Cenário da tempestade e do confronto entre o poder de YHVH e as divindades marítimas fenícias, onde se opera a conversão dos marinheiros.",
+      "references": ["Jonas 1:4-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "place:o-ventre-do-peixe-o-seol",
+      "kind": "place",
+      "label": "O Ventre do Peixe / O Seol",
+      "aliases": [],
+      "summary": "Espaço liminar de confinamento e morte aparente, transformado em santuário de oração e submissão provisória.",
+      "references": ["Jonas 1:17; 2:2-6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Simbólico" }
+    },
+    {
+      "id": "place:tarsis",
+      "kind": "place",
+      "label": "Társis",
+      "aliases": [],
+      "summary": "Cidade portuária fenícia (provavelmente Tartessos no sul da Espanha), posicionada no horizonte geográfico como o ponto oposto a Nínive (Oriente vs. Ocidente), representando a fuga absoluta.",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico/Simbólico" }
+    },
+    {
+      "id": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "kind": "prophecy",
+      "label": "Joel 2:13 (Fórmula da compaixão divina)",
+      "aliases": [],
+      "summary": "Jonas cita de cabeça a clássica confissão da aliança (Deus clemente, compassivo, tardio em irar-se e grande em beneficência) para justificar sua rebeldia, invertendo seu significado positivo em queixa amarga.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Citação teológica" }
+    },
+    {
+      "id": "theme:a-planta-qiqayon",
+      "kind": "theme",
+      "label": "A Planta (qiqayon)",
+      "aliases": [],
+      "summary": "Planta de crescimento rápido que provê sombra a Jonas e cuja murcha súbita serve de base para o contraste teológico",
+      "references": ["Jonas 4:6-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Recurso pedagógico divino para demonstrar a misericórdia",
+        "entityType": "Conceito / Criatura"
+      }
+    },
+    {
+      "id": "theme:jope-yafo",
+      "kind": "theme",
+      "label": "Jope (Yafo)",
+      "aliases": [],
+      "summary": "Ponto de embarque onde Jonas desce para fugir da terra de Israel em direção ao mar aberto",
+      "references": ["Jonas 1:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Porto marítimo israelita no Mediterrâneo",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:ninive",
+      "kind": "theme",
+      "label": "Nínive",
+      "aliases": [],
+      "summary": "Alvo central da ira divina, descrita metaforicamente como uma prostituta sedutora e um covil de leões que será completamente arrasado",
+      "references": ["Jonas 1:2; 3:3", "Naum 1:14; 2:8; 3:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Capital imperial da Assíria, caracterizada como \"cidade sanguinária\", centro de opressão geopolítica global",
+        "entityType": "Lugar/Povo"
+      }
+    },
+    {
+      "id": "theme:o-grande-peixe-dag-gadol",
+      "kind": "theme",
+      "label": "O Grande Peixe (dag gadol)",
+      "aliases": [],
+      "summary": "Criatura designada por YHVH para interceptar a queda de Jonas ao mar e promover seu retorno à missão",
+      "references": ["Jonas 1:17; 2:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Instrumento de salvamento e confinamento providencial",
+        "entityType": "Conceito / Criatura"
+      }
+    },
+    {
+      "id": "theme:os-animais-de-ninive",
+      "kind": "theme",
+      "label": "Os animais de Nínive",
+      "aliases": [],
+      "summary": "Elemento singular que enfatiza a abrangência cósmica e totalizadora da penitência ninivita",
+      "references": ["Jonas 3:7-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Participantes do luto e do jejum decretado na cidade",
+        "entityType": "Povo / Criaturas"
+      }
+    },
+    {
+      "id": "theme:tarsis",
+      "kind": "theme",
+      "label": "Társis",
+      "aliases": [],
+      "summary": "Símbolo geográfico e espiritual da tentativa de fuga da presença e da missão designada por YHVH",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Destino portuário fenício no extremo ocidente do Mediterrâneo",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:yhvh-o-deus-dos-ceus",
+      "kind": "theme",
+      "label": "YHVH (O Deus dos céus)",
+      "aliases": [],
+      "summary": "Divindade universal cuja compaixão transcende as fronteiras étnicas e geográficas de Israel",
+      "references": ["Jonas 1:9; 4:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano sobre o mar, a terra, os gentios e as forças da natureza",
+        "entityType": "Conceito / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-jonas-a-fuga-para-tarsis-e-o-embarque-em-jope:chapter-jonas-1",
+      "from": "event:jonas-a-fuga-para-tarsis-e-o-embarque-em-jope",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Fuga para Társis e o Embarque em Jope” cita explicitamente Jonas 1:1-3.",
+      "references": ["Jonas 1:1-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jonas-a-ira-do-profeta-e-a-licao-do-qiqayon:chapter-jonas-4",
+      "from": "event:jonas-a-ira-do-profeta-e-a-licao-do-qiqayon",
+      "to": "chapter:jonas:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Ira do Profeta e a Lição do Qiqayon” cita explicitamente Jonas 4:1-11.",
+      "references": ["Jonas 4:1-11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jonas-a-proclamacao-e-o-arrependimento-de-ninive:chapter-jonas-3",
+      "from": "event:jonas-a-proclamacao-e-o-arrependimento-de-ninive",
+      "to": "chapter:jonas:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Proclamação e o Arrependimento de Nínive” cita explicitamente Jonas 3:1-10.",
+      "references": ["Jonas 3:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jonas-a-tempestade-e-o-lancamento-de-sorteios:chapter-jonas-1",
+      "from": "event:jonas-a-tempestade-e-o-lancamento-de-sorteios",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Tempestade e o Lançamento de Sorteios” cita explicitamente Jonas 1:4-16.",
+      "references": ["Jonas 1:4-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jonas-o-salmo-no-ventre-do-peixe:chapter-jonas-2",
+      "from": "event:jonas-o-salmo-no-ventre-do-peixe",
+      "to": "chapter:jonas:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Salmo no Ventre do Peixe” cita explicitamente Jonas 2:1-10.",
+      "references": ["Jonas 2:1-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-marinheiros-fenicios:chapter-jonas-1",
+      "from": "people-group:marinheiros-fenicios",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Marinheiros fenícios” cita explicitamente Jonas 1:5-16.",
+      "references": ["Jonas 1:5-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jonas-filho-de-amitai:chapter-jonas-1",
+      "from": "person:jonas-filho-de-amitai",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jonas, filho de Amitai” cita explicitamente 2 Reis 14:25; Jonas 1:1.",
+      "references": ["2 Reis 14:25; Jonas 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-rei-de-ninive:chapter-jonas-3",
+      "from": "person:o-rei-de-ninive",
+      "to": "chapter:jonas:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Rei de Nínive” cita explicitamente Jonas 3:6-9.",
+      "references": ["Jonas 3:6-9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jope-yafo:chapter-jonas-1",
+      "from": "place:jope-yafo",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jope (Yafo)” cita explicitamente Jonas 1:3.",
+      "references": ["Jonas 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-jonas-1",
+      "from": "place:ninive",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Jonas 1:2; 3:2-4; 4:11.",
+      "references": ["Jonas 1:2; 3:2-4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-jonas-3",
+      "from": "place:ninive",
+      "to": "chapter:jonas:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Jonas 1:2; 3:2-4; 4:11.",
+      "references": ["Jonas 1:2; 3:2-4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ninive:chapter-jonas-4",
+      "from": "place:ninive",
+      "to": "chapter:jonas:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Nínive” cita explicitamente Jonas 1:2; 3:2-4; 4:11.",
+      "references": ["Jonas 1:2; 3:2-4; 4:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-mar-mediterraneo-o-grande-mar:chapter-jonas-1",
+      "from": "place:o-mar-mediterraneo-o-grande-mar",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Mar Mediterrâneo (\"O Grande Mar\")” cita explicitamente Jonas 1:4-15.",
+      "references": ["Jonas 1:4-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-ventre-do-peixe-o-seol:chapter-jonas-1",
+      "from": "place:o-ventre-do-peixe-o-seol",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Ventre do Peixe / O Seol” cita explicitamente Jonas 1:17; 2:2-6.",
+      "references": ["Jonas 1:17; 2:2-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-ventre-do-peixe-o-seol:chapter-jonas-2",
+      "from": "place:o-ventre-do-peixe-o-seol",
+      "to": "chapter:jonas:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Ventre do Peixe / O Seol” cita explicitamente Jonas 1:17; 2:2-6.",
+      "references": ["Jonas 1:17; 2:2-6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tarsis:chapter-jonas-1",
+      "from": "place:tarsis",
+      "to": "chapter:jonas:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Társis” cita explicitamente Jonas 1:3; 4:2.",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tarsis:chapter-jonas-4",
+      "from": "place:tarsis",
+      "to": "chapter:jonas:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Társis” cita explicitamente Jonas 1:3; 4:2.",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jonas-joel-2-13-formula-da-compaixao-divina:chapter-jonas-4",
+      "from": "prophecy:jonas-joel-2-13-formula-da-compaixao-divina",
+      "to": "chapter:jonas:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 2:13 (Fórmula da compaixão divina)” cita explicitamente Êxodo 34:6-7; Neemias 9:17; Jonas 4:2.",
+      "references": ["Êxodo 34:6-7; Neemias 9:17; Jonas 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-1:theme-jope-yafo",
+      "from": "chapter:jonas:1",
+      "to": "theme:jope-yafo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jope (Yafo)” cita explicitamente Jonas 1:3.",
+      "references": ["Jonas 1:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-1:theme-ninive",
+      "from": "chapter:jonas:1",
+      "to": "theme:ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nínive” cita explicitamente Jonas 1:2; 3:3.",
+      "references": ["Jonas 1:2; 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-1:theme-o-grande-peixe-dag-gadol",
+      "from": "chapter:jonas:1",
+      "to": "theme:o-grande-peixe-dag-gadol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Grande Peixe (dag gadol)” cita explicitamente Jonas 1:17; 2:10.",
+      "references": ["Jonas 1:17; 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-1:theme-tarsis",
+      "from": "chapter:jonas:1",
+      "to": "theme:tarsis",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Társis” cita explicitamente Jonas 1:3; 4:2.",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-1:theme-yhvh-o-deus-dos-ceus",
+      "from": "chapter:jonas:1",
+      "to": "theme:yhvh-o-deus-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHVH (O Deus dos céus)” cita explicitamente Jonas 1:9; 4:2.",
+      "references": ["Jonas 1:9; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-2:theme-o-grande-peixe-dag-gadol",
+      "from": "chapter:jonas:2",
+      "to": "theme:o-grande-peixe-dag-gadol",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Grande Peixe (dag gadol)” cita explicitamente Jonas 1:17; 2:10.",
+      "references": ["Jonas 1:17; 2:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-3:theme-ninive",
+      "from": "chapter:jonas:3",
+      "to": "theme:ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Nínive” cita explicitamente Jonas 1:2; 3:3.",
+      "references": ["Jonas 1:2; 3:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-3:theme-os-animais-de-ninive",
+      "from": "chapter:jonas:3",
+      "to": "theme:os-animais-de-ninive",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os animais de Nínive” cita explicitamente Jonas 3:7-8.",
+      "references": ["Jonas 3:7-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-4:theme-a-planta-qiqayon",
+      "from": "chapter:jonas:4",
+      "to": "theme:a-planta-qiqayon",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Planta (qiqayon)” cita explicitamente Jonas 4:6-10.",
+      "references": ["Jonas 4:6-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-4:theme-tarsis",
+      "from": "chapter:jonas:4",
+      "to": "theme:tarsis",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Társis” cita explicitamente Jonas 1:3; 4:2.",
+      "references": ["Jonas 1:3; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jonas-4:theme-yhvh-o-deus-dos-ceus",
+      "from": "chapter:jonas:4",
+      "to": "theme:yhvh-o-deus-dos-ceus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “YHVH (O Deus dos céus)” cita explicitamente Jonas 1:9; 4:2.",
+      "references": ["Jonas 1:9; 4:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

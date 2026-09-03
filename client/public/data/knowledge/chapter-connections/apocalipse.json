@@ -1,0 +1,1994 @@
+{
+  "schemaVersion": 1,
+  "book": "Apocalipse",
+  "count": 99,
+  "chapterCount": 22,
+  "nodes": [
+    {
+      "id": "doctrine:escatologia",
+      "kind": "doctrine",
+      "label": "Segunda vinda, milênio e ressurreição",
+      "aliases": [],
+      "summary": "A declaração consultada confessa uma segunda vinda premilenial em duas etapas, ressurreição corporal, vida eterna para os justos e punição eterna para os ímpios.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escatologia"],
+      "attributes": {
+        "category": "Escatologia",
+        "pentecostalReading": "A esperança futura sustenta vigilância, perseverança e missão, não especulação sensacionalista. A ressurreição é corporal e a consumação envolve justiça, renovação e presença de Deus.",
+        "distinction": "Cristãos divergem entre pré, pós e amilenismo e sobre a ordem dos eventos. O verbete registra a posição premilenial da declaração consultada e apresenta outras leituras em comparação.",
+        "source": "Declaração de Fé; 1 Tessalonicenses; 1 Coríntios; Apocalipse"
+      }
+    },
+    {
+      "id": "event:apocalipse-abertura-dos-sete-selos",
+      "kind": "event",
+      "label": "Abertura dos Sete Selos",
+      "aliases": [],
+      "summary": "O Cordeiro abre os selos do rolo, desencadeando conquistas, guerras, fomes, mortes e o clamor dos mártires.",
+      "references": ["Apocalipse 6:1-17; 8:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Revela a soberania de Deus sobre a dinâmica trágica e violenta da história humana.",
+        "entities": "O Cordeiro, Os 144.000, Mártires"
+      }
+    },
+    {
+      "id": "event:apocalipse-batalha-do-armagedom-e-prisao-de-satanas",
+      "kind": "event",
+      "label": "Batalha do Armagedom e Prisão de Satanás",
+      "aliases": [],
+      "summary": "Cristo e seus exércitos derrotam as forças aliadas da Besta; o Dragão é confinado no abismo por mil anos.",
+      "references": ["Apocalipse 19:11-20:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Encerramento da rebelião político-militar contra o reinado de Deus.",
+        "entities": "Jesus Cristo, O Cordeiro, As Bestas, O Dragão"
+      }
+    },
+    {
+      "id": "event:apocalipse-o-conflito-cosmico-e-a-expulsao-do-dragao",
+      "kind": "event",
+      "label": "O Conflito Cósmico e a Expulsão do Dragão",
+      "aliases": [],
+      "summary": "A mulher dá à luz o Messias; Miguel e seus anjos derrotam o Dragão, expulsando-o para a terra.",
+      "references": ["Apocalipse 12:1-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desmascara a dimensão espiritual subjacente à perseguição histórica dos fiéis.",
+        "entities": "O Dragão, Miguel, A Mulher"
+      }
+    },
+    {
+      "id": "event:apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao",
+      "kind": "event",
+      "label": "O Juízo do Grande Trono Branco e a Nova Criação",
+      "aliases": [],
+      "summary": "Ressurreição universal, julgamento dos mortos e surgimento do novo céu e nova terra com a descida da Nova Jerusalém.",
+      "references": ["Apocalipse 20:11-22:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Realização plena da promessa salvífica e comunhão eterna entre Deus e a humanidade.",
+        "entities": "Deus no Trono, Os Mortos, A Nova Jerusalém"
+      }
+    },
+    {
+      "id": "event:apocalipse-o-toque-das-sete-trombetas",
+      "kind": "event",
+      "label": "O Toque das Sete Trombetas",
+      "aliases": [],
+      "summary": "Sete anos/anjos tocam trombetas anunciando juízos parciais ecológicos e sociais sobre a terra endurecida.",
+      "references": ["Apocalipse 8:6-11:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Advertências divinas graduais destinadas a despertar o arrependimento antes do fim.",
+        "entities": "Anjos das Trombetas, Humanidade rebelde"
+      }
+    },
+    {
+      "id": "event:apocalipse-queda-da-grande-babilonia",
+      "kind": "event",
+      "label": "Queda da Grande Babilônia",
+      "aliases": [],
+      "summary": "Anúncio e execução da ruína econômica e política do império opressor pelos reis da terra e fogo divino.",
+      "references": ["Apocalipse 18:1-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Demonstra a fragilidade do império humano diante do juízo divino inevitável.",
+        "entities": "A Grande Babilônia, Os Reis da Terra, Comerciantes"
+      }
+    },
+    {
+      "id": "event:apocalipse-visao-inaugural-do-filho-do-homem",
+      "kind": "event",
+      "label": "Visão Inaugural do Filho do Homem",
+      "aliases": [],
+      "summary": "João recebe a visão de Cristo glorificado no meio dos candeeiros em Patmos.",
+      "references": ["Apocalipse 1:9-20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a autoridade divina do Cristo ressurreto sobre as igrejas e a história.",
+        "entities": "João de Patmos, Jesus Cristo, As Sete Igrejas"
+      }
+    },
+    {
+      "id": "people-group:os-144-000-e-a-grande-multidao",
+      "kind": "people-group",
+      "label": "Os 144.000 e a Grande Multidão",
+      "aliases": [],
+      "summary": "Representação simbólica do Israel de Deus e da igreja universal inviolável diante do juízo escatológico.",
+      "references": ["Apocalipse 7:4-9; 14:1-5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "A comunidade total dos remidos selados para a proteção e o testemunho.",
+        "entityType": "Povo"
+      }
+    },
+    {
+      "id": "person:a-besta-do-mar-e-a-besta-da-terra",
+      "kind": "person",
+      "label": "A Besta do Mar e a Besta da Terra",
+      "aliases": ["A Besta do Mar e a Besta da Terra"],
+      "summary": "As duas bestas de Apocalipse 13 exercem o poder tirânico e ideológico na terra. A **Besta do Mar** (*Therion*) emerge do abismo com sete cabeças e dez chifres, ostentando nomes de blasfêmia; uma de suas cabeças fora ferida de morte, mas sua ferida mortal foi curada, gerando admiração mundial e adoração forçada. A **Besta da Terra** (também conhecida como o Falso Profeta) emerge da terra com dois chifres semelhantes aos de um cordeiro, mas fala como um dragão, operando grandes sinais e obrigando todos a receberem a marca da besta (666).",
+      "references": [
+        "**Apocalipse 13:1-8**: A ascensão da Besta do Mar e a blasfêmia contra o tabernáculo de Deus.",
+        "**Apocalipse 13:11-18**: A atuação da Besta da Terra e o cálculo do número da besta"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-a-besta-do-mar-e-a-besta-da-terra"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2013%3A1-8**%3A%20A%20ascens%C3%A3o%20da%20Besta%20do%20Mar%20e%20a%20blasf%C3%AAmia%20contra%20o%20tabern%C3%A1culo%20de%20Deus.%3B%20**Apocalipse%2013%3A11-18**%3A%20A%20atua%C3%A7%C3%A3o%20da%20Besta%20da%20Terra%20e%20o%20c%C3%A1lculo%20do%20n%C3%BAmero%20da%20besta&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:a-mulher-vestida-de-sol",
+      "kind": "person",
+      "label": "A Mulher Vestida de Sol",
+      "aliases": ["A Mulher Vestida de Sol"],
+      "summary": "Em Apocalipse 12, surge \"uma mulher vestida do sol, com a lua debaixo dos pés e uma coroa de doze estrelas sobre a cabeça\" (Ap 12:1). Ela está grávida, clamando com dores de parto, e dá à luz um filho homem que há de reger todas as nações com vara de ferro. Perseguida pelo Grande Dragão, ela foge para o deserto, onde Deus preparou um lugar para sustentá-la por 1.260 dias.",
+      "references": [
+        "**Apocalipse 12:1-6**: A aparição da mulher, o nascimento do filho e a fuga para o deserto.",
+        "**Apocalipse 12:13-17**: A fúria do dragão contra a mulher e a perseguição ao restante de sua descendência."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-a-mulher-vestida-de-sol"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2012%3A1-6**%3A%20A%20apari%C3%A7%C3%A3o%20da%20mulher%2C%20o%20nascimento%20do%20filho%20e%20a%20fuga%20para%20o%20deserto.%3B%20**Apocalipse%2012%3A13-17**%3A%20A%20f%C3%BAria%20do%20drag%C3%A3o%20contra%20a%20mulher%20e%20a%20persegui%C3%A7%C3%A3o%20ao%20restante%20de%20sua%20descend%C3%AAncia.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:a-nova-jerusalem",
+      "kind": "person",
+      "label": "A Nova Jerusalém",
+      "aliases": ["A Nova Jerusalém"],
+      "summary": "A **Nova Jerusalém**, descrita em Apocalipse 21 e 22, é a noiva, a esposa do Cordeiro, descendo do céu, da parte de Deus, adornada como um dia especial para o seu marido. É retratada como uma cidade perfeita em formato de cubo (ou pirâmide perfeita), com 12 portas guardadas por 12 anjos, doze fundamentos com os nomes dos apóstolos, e construída de ouro puro, pedras preciosas e pérolas. Nela não há templo físico, pois o seu templo é o próprio Deus Todo-Poderoso e o Cordeiro.",
+      "references": [
+        "**Apocalipse 21:1-4**: Novos céus e nova terra; a descida da Nova Jerusalém.",
+        "**Apocalipse 21:10-27**: A descrição detalhada da glória, dimensões e luz da cidade.",
+        "**Apocalipse 22:1-5**: O rio da água da vida e a árvore da vida no meio da praça."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-a-nova-jerusalem"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2021%3A1-4**%3A%20Novos%20c%C3%A9us%20e%20nova%20terra%3B%20a%20descida%20da%20Nova%20Jerusal%C3%A9m.%3B%20**Apocalipse%2021%3A10-27**%3A%20A%20descri%C3%A7%C3%A3o%20detalhada%20da%20gl%C3%B3ria%2C%20dimens%C3%B5es%20e%20luz%20da%20cidade.%3B%20**Apocalipse%2022%3A1-5**%3A%20O%20rio%20da%20%C3%A1gua%20da%20vida%20e%20a%20%C3%A1rvore%20da%20vida%20no%20meio%20da%20pra%C3%A7a.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:as-duas-testemunhas",
+      "kind": "person",
+      "label": "As Duas Testemunhas",
+      "aliases": ["As Duas Testemunhas"],
+      "summary": "Em Apocalipse 11, Deus comissiona **duas testemunhas** vestidas de pano de saco para profetizar por 1.260 dias. Elas possuem grande poder sobrenatural: fechar o céu para que não chova, ferir a terra com pragas e devorar seus inimigos com fogo. Após terminarem seu testemunho, a Besta que sobe do abismo as assassina, deixando seus corpos expostos na praça da grande cidade (Jerusalém espiritual/Sodoma/Egito) por três dias e meio, após o que ressuscitam corporalmente e ascendem ao céu em uma nuvem.",
+      "references": [
+        "**Apocalipse 11:3-6**: O poder e a comissão das duas testemunhas.",
+        "**Apocalipse 11:7-12**: O assassinato pelas mãos da besta e a ressurreição com ascensão triunfal."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-as-duas-testemunhas"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2011%3A3-6**%3A%20O%20poder%20e%20a%20comiss%C3%A3o%20das%20duas%20testemunhas.%3B%20**Apocalipse%2011%3A7-12**%3A%20O%20assassinato%20pelas%20m%C3%A3os%20da%20besta%20e%20a%20ressurrei%C3%A7%C3%A3o%20com%20ascens%C3%A3o%20triunfal.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:as-sete-igrejas-da-asia",
+      "kind": "person",
+      "label": "As Sete Igrejas da Ásia",
+      "aliases": ["As Sete Igrejas da Ásia"],
+      "summary": "As sete igrejas (Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia e Laodiceia) representam comunidades cristãs reais localizadas em rotas comerciais estratégicas na província romana da Ásia Menor. No texto, cada igreja recebe uma carta individual contendo elogios, repreensões, exortações e promessas escatológicas aos vencedores, endereçadas ao \"anjo\" (geralmente interpretado como o líder ou o espírito congregacional) de cada localidade.",
+      "references": [
+        "**Apocalipse 2:1-7**: A carta à igreja de Éfeso",
+        "**Apocalipse 2:8-11**: A carta à igreja de Esmirna",
+        "**Apocalipse 3:14-22**: A carta à igreja de Laodiceia"
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-as-sete-igrejas-da-asia"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%202%3A1-7**%3A%20A%20carta%20%C3%A0%20igreja%20de%20%C3%89feso%3B%20**Apocalipse%202%3A8-11**%3A%20A%20carta%20%C3%A0%20igreja%20de%20Esmirna%3B%20**Apocalipse%203%3A14-22**%3A%20A%20carta%20%C3%A0%20igreja%20de%20Laodiceia&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:babilonia-a-grande",
+      "kind": "person",
+      "label": "Babilônia, a Grande",
+      "aliases": ["Babilônia, a Grande"],
+      "summary": "**Babilônia, a Mãe das Prostitutas e das Abominações da Terra** (Ap 17:5), é retratada como uma grande prostituta montada sobre a Besta escarlate, embriagada com o sangue dos santos e dos mártires de Jesus. Ela representa o sistema mundial corrompido, luxurioso, econômico e idólatra que seduz as nações antes de ser julgada e consumida pelo fogo.",
+      "references": [
+        "**Apocalipse 14:8**: O primeiro anúncio da queda de Babilônia.",
+        "**Apocalipse 17:1-6**: A visão da grande meretriz sentada sobre as muitas águas e sobre a besta.",
+        "**Apocalipse 18:2-4**: O mandado divino: \"Retirai-vos dela, povo meu...\"."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-babilonia-a-grande"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2014%3A8**%3A%20O%20primeiro%20an%C3%BAncio%20da%20queda%20de%20Babil%C3%B4nia.%3B%20**Apocalipse%2017%3A1-6**%3A%20A%20vis%C3%A3o%20da%20grande%20meretriz%20sentada%20sobre%20as%20muitas%20%C3%A1guas%20e%20sobre%20a%20besta.%3B%20**Apocalipse%2018%3A2-4**%3A%20O%20mandado%20divino%3A%20%22Retirai-vos%20dela%2C%20povo%20meu...%22.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:joao-de-patmos",
+      "kind": "person",
+      "label": "João de Patmos",
+      "aliases": ["João de Patmos"],
+      "summary": "João de Patmos identifica-se explicitamente no prólogo e no epílogo do Apocalipse como servo de Deus e irmão e companheiro na tribulação, no reino e na perseverança em Jesus (Ap 1:1, 9; 22:8). Ele se encontra exilado na ilha rochosa de Patmos, no mar Egeu, \"por causa da palavra de Deus e do testemunho de Jesus\". A tradição eclesiástica antiga tendeu a identificá-lo com o apóstolo João, filho de Zebedeu e autor do Quarto Evangelho, embora a alta crítica exegética aponte diferenças estilísticas e vocabulares acentuadas entre o Evangelho de João e o Apocalipse.",
+      "references": [
+        "**Apocalipse 1:9-20**: O chamado de João em Patmos e a visão do Filho do Homem glorificado no meio dos candeeiros.",
+        "**Apocalipse 10:8-11**: A ingestão do livrinho amargo e doce, simbolizando o mandato profético de profetizar \"novamente perante muitos povos, nações, línguas e reis\".",
+        "**Apocalipse 22:8-9**: A conclusão do testemunho e a advertência contra a adoração do anjo mensageiro.",
+        "Apocalipse 1:1, 9; 22:8"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-joao-de-patmos"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%201%3A9-20**%3A%20O%20chamado%20de%20Jo%C3%A3o%20em%20Patmos%20e%20a%20vis%C3%A3o%20do%20Filho%20do%20Homem%20glorificado%20no%20meio%20dos%20candeeiros.%3B%20**Apocalipse%2010%3A8-11**%3A%20A%20ingest%C3%A3o%20do%20livrinho%20amargo%20e%20doce%2C%20simbolizando%20o%20mandato%20prof%C3%A9tico%20de%20profetizar%20%22novamente%20perante%20muitos%20povos%2C%20na%C3%A7%C3%B5es%2C%20l%C3%ADnguas%20e%20reis%22.%3B%20**Apocalipse%2022%3A8-9**%3A%20A%20conclus%C3%A3o%20do%20testemunho%20e%20a%20advert%C3%AAncia%20contra%20a%20adora%C3%A7%C3%A3o%20do%20anjo%20mensageiro.&version=ARA",
+        "bookLinksVerified": true,
+        "role": "Profeta exilado, mensageiro e visionário que registra as revelações.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:o-cordeiro",
+      "kind": "person",
+      "label": "O Cordeiro",
+      "aliases": ["O Cordeiro"],
+      "summary": "O **Cordeiro** (*Arníon*) é a figura soteriológica e cristológica central do Apocalipse. Apresentado inicialmente como \"um Cordeiro como tendo sido morto, tendo sete chifres e sete olhos\" (Ap 5:6), ele é o único digno de abrir o livro selado com sete selos, recebendo adoração cósmica igual àquele que está assentado no trono. O Cordeiro simboliza Jesus Cristo em sua obra sacrificial redentora, mas também em sua soberania judicial e régua vitoriosa.",
+      "references": [
+        "**Apocalipse 5:6-14**: O Cordeiro toma o livro e recebe o cântico novo de toda a criação.",
+        "**Apocalipse 7:14**: Os salvos que lavaram suas vestes e as embranqueceram no sangue do Cordeiro.",
+        "**Apocalipse 19:7-9**: As bodas do Cordeiro e a preparação da noiva."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-o-cordeiro"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%205%3A6-14**%3A%20O%20Cordeiro%20toma%20o%20livro%20e%20recebe%20o%20c%C3%A2ntico%20novo%20de%20toda%20a%20cria%C3%A7%C3%A3o.%3B%20**Apocalipse%207%3A14**%3A%20Os%20salvos%20que%20lavaram%20suas%20vestes%20e%20as%20embranqueceram%20no%20sangue%20do%20Cordeiro.%3B%20**Apocalipse%2019%3A7-9**%3A%20As%20bodas%20do%20Cordeiro%20e%20a%20prepara%C3%A7%C3%A3o%20da%20noiva.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:o-dragao",
+      "kind": "person",
+      "label": "O Dragão",
+      "aliases": ["O Dragão"],
+      "summary": "O **Grande Dragão Vermelho**, identificado explicitamente como \"a antiga serpente, que se chama Diabo e Satanás, que seduz todo o mundo\" (Ap 12:9), é o arqui-inimigo de Deus, de Cristo e do povo remanescente. Possui sete cabeças, dez chifres e sete diademas nas cabeças, simbolizando o poder político e militar usurpado na terra. É derrotado militarmente por Miguel e seus anjos nos céus e lançado à terra, onde intensifica sua fúria.",
+      "references": [
+        "**Apocalipse 12:3-4**: A descrição do Dragão e sua tentativa de devorar o filho da mulher ao nascer.",
+        "**Apocalipse 13:1-2**: O Dragão entrega seu poder à Besta que emerge do mar.",
+        "**Apocalipse 20:2-10**: A prisão de mil anos do Dragão e sua condenação final."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-o-dragao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2012%3A3-4**%3A%20A%20descri%C3%A7%C3%A3o%20do%20Drag%C3%A3o%20e%20sua%20tentativa%20de%20devorar%20o%20filho%20da%20mulher%20ao%20nascer.%3B%20**Apocalipse%2013%3A1-2**%3A%20O%20Drag%C3%A3o%20entrega%20seu%20poder%20%C3%A0%20Besta%20que%20emerge%20do%20mar.%3B%20**Apocalipse%2020%3A2-10**%3A%20A%20pris%C3%A3o%20de%20mil%20anos%20do%20Drag%C3%A3o%20e%20sua%20condena%C3%A7%C3%A3o%20final.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "person:o-falso-profeta",
+      "kind": "person",
+      "label": "O Falso Profeta",
+      "aliases": ["O Falso Profeta"],
+      "summary": "O **Falso Profeta** é a designação explícita dada posteriormente à segunda besta (Ap 16:13; 19:20; 20:10). Sua função principal é enganar os habitantes da terra por meio de prodígios mentirosos (como fazer descer fogo do céu à vista dos homens) e compelir a confecção de uma imagem em honra à Besta do Mar, infundindo-lhe fôlego para que falasse.",
+      "references": [
+        "**Apocalipse 16:13**: Os espíritos imundos semelhantes a rãs saindo da boca do Dragão, da Besta e do Falso Profeta.",
+        "**Apocalipse 19:20**: A captura e lançamento vivo do Falso Profeta e da Besta no lago de fogo ardente de enxofre."
+      ],
+      "sourceCatalogs": ["biography-catalog"],
+      "maturity": "reviewed",
+      "sourceIds": ["person-o-falso-profeta"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=**Apocalipse%2016%3A13**%3A%20Os%20esp%C3%ADritos%20imundos%20semelhantes%20a%20r%C3%A3s%20saindo%20da%20boca%20do%20Drag%C3%A3o%2C%20da%20Besta%20e%20do%20Falso%20Profeta.%3B%20**Apocalipse%2019%3A20**%3A%20A%20captura%20e%20lan%C3%A7amento%20vivo%20do%20Falso%20Profeta%20e%20da%20Besta%20no%20lago%20de%20fogo%20ardente%20de%20enxofre.&version=ARA",
+        "bookLinksVerified": true
+      }
+    },
+    {
+      "id": "place:a-nova-jerusalem",
+      "kind": "place",
+      "label": "A Nova Jerusalém",
+      "aliases": [],
+      "summary": "Cidade-templo perfeita, símbolo da comunhão plena, segura e eterna entre Deus e o seu povo redimido.",
+      "references": ["Apocalipse 21:2, 10-27"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia",
+      "kind": "place",
+      "label": "As Sete Cidades da Ásia (Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia, Laodicéia)",
+      "aliases": [],
+      "summary": "Centros urbanos romano-asiáticos onde se situavam as comunidades destinatárias e o culto imperial ativo.",
+      "references": ["Apocalipse 1:11; 2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/disputado" }
+    },
+    {
+      "id": "place:eden",
+      "kind": "place",
+      "label": "Éden",
+      "aliases": [],
+      "summary": "Jardim de presença, abundância e limite; sua localização física permanece incerta.",
+      "references": ["Gn 2–3", "Ez 28:13", "Ap 22:1–5"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["eden"],
+      "attributes": { "status": "simbólico", "x": 70, "y": 27 }
+    },
+    {
+      "id": "place:ilha-de-patmos",
+      "kind": "place",
+      "label": "Ilha de Patmos",
+      "aliases": [],
+      "summary": "Local de exílio e banimento romano onde João recebe as visões apocalípticas.",
+      "references": ["Apocalipse 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:o-abismo-e-o-lago-de-fogo",
+      "kind": "place",
+      "label": "O Abismo e o Lago de Fogo",
+      "aliases": [],
+      "summary": "Espaço de confinamento punitivo para o mal espiritual e os rebeldes incorrigíveis.",
+      "references": ["Apocalipse 9:1-2; 20:10, 14-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "place:o-trono-celestial-ceu",
+      "kind": "place",
+      "label": "O Trono Celestial (Céu)",
+      "aliases": [],
+      "summary": "Centro de governo e adoração cósmica, de onde emana a soberania sobre o cosmos.",
+      "references": ["Apocalipse 4:1-2; 5:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "simbólico" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "kind": "prophecy",
+      "label": "1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")",
+      "aliases": [],
+      "summary": "O termo *harpazomai* gerou intensa divisão entre dispensacionalistas (arrebatamento secreto pré-tribulacional) e teologia histórica (encontro público e triunfal com Cristo).",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / escatologia corporativa" }
+    },
+    {
+      "id": "prophecy:2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22",
+      "kind": "prophecy",
+      "label": "A promessa do novo céu e nova terra (Isaías 65:17, 66:22)",
+      "aliases": [],
+      "summary": "2 Pedro reelabora a profecia veterotestamentária de restauração cósmica para fundamentar a dissolução elementar pelo fogo e a recriação ética.",
+      "references": ["Is 65:17; Ap 21:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos",
+      "kind": "prophecy",
+      "label": "Ageu 2:21-22 — \"Abalarei os céus e a terra, e transtornarei o trono dos reinos...\"",
+      "aliases": [],
+      "summary": "Leituras apocalípticas posteriores interpretam o abalo sísmico cósmico como a derrocada definitiva dos poderes imperiais hostis a Deus no fim dos tempos.",
+      "references": ["Apocalipse 16:17-21; Ezequiel 38-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo/recepção posterior" }
+    },
+    {
+      "id": "prophecy:apocalipse-daniel-7-1-8-apocalipse-13-1-2",
+      "kind": "prophecy",
+      "label": "Daniel 7:1-8 — Apocalipse 13:1-2",
+      "aliases": [],
+      "summary": "As quatro bestas de Daniel fundem-se na Besta composta de Apocalipse 13; historicistas veem impérios sucessivos, futuristas veem um império escatológico global.",
+      "references": ["Daniel 7; Apocalipse 13; 17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/alusão" }
+    },
+    {
+      "id": "prophecy:apocalipse-ezequiel-38-39-apocalipse-20-7-10",
+      "kind": "prophecy",
+      "label": "Ezequiel 38-39 — Apocalipse 20:7-10",
+      "aliases": [],
+      "summary": "A revolta de Gogue e Magogue é reinterpretada escatologicamente no final do milênio; dispensacionalistas aplicam literalmente a uma guerra geopolítica futura, enquanto amilenaristas leem simbolicamente como a oposição final contra a igreja.",
+      "references": ["Ezequiel 38-39; Apocalipse 20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/oráculo" }
+    },
+    {
+      "id": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "kind": "prophecy",
+      "label": "Isaías 65:17 — Apocalipse 21:1",
+      "aliases": [],
+      "summary": "A promessa de novos céus e nova terra; divergências entre aniquilação material do cosmos e renovação qualitativa e redentora da criação.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "prophecy:apocalipse-zacarias-12-10-apocalipse-1-7",
+      "kind": "prophecy",
+      "label": "Zacarias 12:10 — Apocalipse 1:7",
+      "aliases": [],
+      "summary": "O lamento sobre \"aquele a quem traspassaram\" é aplicado universalmente a Jesus Cristo na sua segunda vinda; debates focam na conversão étnica de Israel versus a condenação universal.",
+      "references": ["Zacarias 12:10; Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/alusão" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-4-12-jardim-fechado-es-tu-minha-irma-noiva",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 4:12 (\"Jardim fechado és tu, minha irmã, noiva\")",
+      "aliases": [],
+      "summary": "A tradição patrística e mística interpretou o jardim fechado como o Éden restaurado e a alma imaculada, prefigurando a Igreja ou a Virgem Maria.",
+      "references": ["Gênesis 2:8–15; Apocalipse 22:1–2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-5-2-abre-me-irma-minha-querida-minha-pois-a-minha-cabeca-esta-cheia-de-orvalho",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 5:2 (\"Abre-me, irmã minha, querida minha... pois a minha cabeça está cheia de orvalho\")",
+      "aliases": [],
+      "summary": "O chamado noturno do amado à porta fechada foi amplamente utilizado na homilética cristã como tipo do apelo de Cristo à porta do coração humano.",
+      "references": ["Apocalipse 3:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "kind": "prophecy",
+      "label": "A estátua de quatro metais (Daniel 2)",
+      "aliases": [],
+      "summary": "Interpreta-se tradicionalmente na patrística e escolástica como sucessão de impérios (Babilônia, Medo-Persa, Grécia, Roma); a erudição crítica lê como Babilônia, Medo, Pérsia e Grécia (ou império dual macedônio-selêucida).",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14",
+      "kind": "prophecy",
+      "label": "O Filho do Homem vindicado nas nuvens (Daniel 7:13–14)",
+      "aliases": [],
+      "summary": "Base conceitual decisiva para a autocompreensão messiânica neotestamentária, oscilando na exegese entre coletividade (o povo santo) e individualidade messiânica.",
+      "references": ["Mateus 26:64; Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1",
+      "kind": "prophecy",
+      "label": "A profecia do Êxodo como protótipo da redenção escatológica (Isaías 43:16-21; Oséias 11:1)",
+      "aliases": [],
+      "summary": "Divergência entre cumprimento estrito no retorno do exílio babilônico e reinterpretação cristológica universal.",
+      "references": ["Mateus 2:15; Apocalipse 15:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-1-1-28-visao-da-merkabah",
+      "kind": "prophecy",
+      "label": "Ezequiel 1:1-28 (Visão da Merkabah)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Enquanto leitores tradicionais veem teofanias literais de seres celestiais, a exegese histórico-crítica analisa a iconografia mesopotâmica (querubins, lamasu) subjacente à imaginação visual do profeta.",
+      "references": ["Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Recepção posterior / Apocalíptica" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-38-39-gog-de-magog",
+      "kind": "prophecy",
+      "label": "Ezequiel 38-39 (Gog de Magog)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: Escatologistas dispensacionalistas leem o texto como uma invasão militar literal e futura contra o Estado moderno de Israel, enquanto exegetas críticos o veem como um cenário teológico-simbólico de triunfo final de Deus sobre as nações hostis.",
+      "references": ["Textos relacionados: Apocalipse 20:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Oráculo escatológico" }
+    },
+    {
+      "id": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "kind": "prophecy",
+      "label": "A semente da mulher",
+      "aliases": [],
+      "summary": "O texto anuncia inimizade entre serpente e descendência e uma ferida decisiva na cabeça da serpente.",
+      "references": ["Gn 3:15", "Rm 16:20", "Hb 2:14", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A leitura cristã tradicional vê aqui um protoevangelho; a exegese histórico-literária também considera a função do oráculo dentro da narrativa da queda."
+      }
+    },
+    {
+      "id": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "kind": "prophecy",
+      "label": "Judá e o governo",
+      "aliases": [],
+      "summary": "O poema de Jacó associa Judá a liderança, cetro e expectativa de obediência das nações.",
+      "references": [
+        "Gn 49:8–12",
+        "Nm 24:17",
+        "2Sm 7:12–16",
+        "Mt 1:2–6",
+        "Ap 5:5"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A tradição messiânica relaciona o texto à dinastia davídica e a Cristo; o poema também funciona como bênção tribal dentro do final de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive",
+      "kind": "prophecy",
+      "label": "Jó 19:25 (\"Porque eu sei que o meu Redentor vive...\")",
+      "aliases": [],
+      "summary": "Interpretado na patrística e liturgia cristã como anúncio da ressurreição corporal de Cristo, embora no contexto original exprime a esperança de Jó em uma vindicação jurídica ainda em vida.",
+      "references": ["Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/recepção posterior" }
+    },
+    {
+      "id": "prophecy:levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12",
+      "kind": "prophecy",
+      "label": "\"Habitarei no meio de vós e não vos aborrecerá a minha alma\" (Lv 26:11-12)",
+      "aliases": [],
+      "summary": "Interpretado profeticamente no NT como a realização definitiva da habitação de Deus com a humanidade na Nova Aliança e na Nova Jerusalém.",
+      "references": ["2 Co 6:16; Ap 21:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / escatologia da aliança" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "kind": "prophecy",
+      "label": "Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')",
+      "aliases": [],
+      "summary": "Diverge entre leituras literais de um regresso histórico corpóreo de Elias no fim dos tempos e leituras tipológicas espirituais cumpridas em João Batista.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "kind": "prophecy",
+      "label": "\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)",
+      "aliases": [],
+      "summary": "Interpretado na tradição judaica (e messiânica cristã) como uma profecia escatológica sobre a realeza davídica e o Messias, enquanto a erudição crítica o data no contexto da monarquia antiga (período davídico-salomônico) como legitimação da expansão imperial israelita.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor",
+      "kind": "prophecy",
+      "label": "Obadias 1:21 (\"E subirão salvadores ao monte Sião para julgar os montes de Esaú; e o reino será do Senhor\")",
+      "aliases": [],
+      "summary": "Interpretado no judaísmo pós-bíblico em chave messiânica contra Roma (Edom como arquétipo de Roma), e no NT como consumação do Reino de Deus em Cristo.",
+      "references": ["Apocalipse 11:15; Obadias 1:21 na literatura rabínica"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Recepção posterior/Escatológica" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-8-22-31",
+      "kind": "prophecy",
+      "label": "Pr 8:22-31",
+      "aliases": [],
+      "summary": "Padres da Igreja e teólogos modernos debatem se a Sabedoria personificada é uma profecia ontológica da pré-existência do Filho ou mera hipóstase literária.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / cristologia patrística" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "kind": "prophecy",
+      "label": "Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")",
+      "aliases": [],
+      "summary": "O Quarto Evangelho aplica o versículo à crucificação e ao golpe da lança no lado de Jesus, enquanto o contexto original judaico discute o luto por um líder ou guerreiro ferido em defesa de Jerusalém.",
+      "references": ["João 19:37, Apocalipse 1:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/recepção posterior" }
+    },
+    {
+      "id": "prophecy:zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem",
+      "kind": "prophecy",
+      "label": "Zacarias 14:8 (\"Águas vivas sairão de Jerusalém\")",
+      "aliases": [],
+      "summary": "A imagem de rios fluindo de Jerusalém é lida na literatura intertestamentária e apocalíptica como a renovação cósmica da criação no fim dos tempos.",
+      "references": ["Ezequiel 47, Apocalipse 22:1-2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "term:apokalypsis",
+      "kind": "term",
+      "label": "Apokalypsis",
+      "aliases": ["ἀποκάλυψις", "apokalypsis"],
+      "summary": "Revelação ou desvelamento; não equivale simplesmente a destruição do mundo ou a calendário de eventos futuros.",
+      "references": ["Rm 8:18–19", "Gl 1:12", "Ap 1:1"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["apokalypsis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Pode nomear a manifestação de algo oculto, a revelação de Jesus Cristo e um gênero que interpreta o presente por visões simbólicas.",
+        "translationNote": "A palavra ‘apocalipse’ ganhou no português um sentido popular de catástrofe; a interface sempre mostrará o sentido literário e o uso popular separadamente."
+      }
+    },
+    {
+      "id": "term:eschaton",
+      "kind": "term",
+      "label": "Eschaton",
+      "aliases": ["ἔσχατος", "eschatos"],
+      "summary": "Último, extremo ou derradeiro; pode descrever tempo, posição, prioridade social ou horizonte escatológico.",
+      "references": ["Jo 6:39–40", "1Co 15:45", "Ap 22:13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["eschaton"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João pode opor primeiro e último; em cartas e Apocalipse participa de uma imaginação de consumação. Não deve ser transformado imediatamente em cronograma.",
+        "translationNote": "‘Fim’ é uma possibilidade em algumas expressões, mas ‘último’ ou ‘derradeiro’ preserva melhor a polissemia."
+      }
+    },
+    {
+      "id": "theme:a-besta-da-terra-falso-profeta",
+      "kind": "theme",
+      "label": "A Besta da Terra / Falso Profeta",
+      "aliases": [],
+      "summary": "Agente propagandístico que promove a lealdade religiosa à Besta do Mar por meio de prodígios e controle socioeconômico.",
+      "references": ["Apocalipse 13:11-18; 19:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ideologia e sacerdócio do culto imperial.",
+        "entityType": "Pessoa/Instituição"
+      }
+    },
+    {
+      "id": "theme:a-besta-do-mar",
+      "kind": "theme",
+      "label": "A Besta do Mar",
+      "aliases": [],
+      "summary": "Símbolo do poder político exigindo adoração divina e perseguindo os santos através da coerção militar e estatal.",
+      "references": ["Apocalipse 13:1-10; 17:3-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Império Romano opressor e o sistema político totalitário.",
+        "entityType": "Instituição/Poder"
+      }
+    },
+    {
+      "id": "theme:a-grande-babilonia",
+      "kind": "theme",
+      "label": "A Grande Babilônia",
+      "aliases": [],
+      "summary": "Representação arquetípica da civilização humana organizada em rebelião contra Deus, alicerçada na exploração econômica.",
+      "references": ["Apocalipse 17:1-6; 18:2-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sistema mundial corrompido, centrado em Roma, sedento de luxo e sangue.",
+        "entityType": "Lugar/Instituição"
+      }
+    },
+    {
+      "id": "theme:a-noiva-nova-jerusalem",
+      "kind": "theme",
+      "label": "A Noiva / Nova Jerusalém",
+      "aliases": [],
+      "summary": "O povo redimido transformado em cidade-templo perfeita onde habita a presença gloriosa de Deus.",
+      "references": ["Apocalipse 21:2, 9-10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "A comunidade consumada e a habitação eterna de Deus.",
+        "entityType": "Lugar/Instituição"
+      }
+    },
+    {
+      "id": "theme:as-duas-testemunhas",
+      "kind": "theme",
+      "label": "As Duas Testemunhas",
+      "aliases": [],
+      "summary": "Figuras proféticas (evocando Moisés e Elias) que testemunham em meio à hostilidade mundial.",
+      "references": ["Apocalipse 11:3-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Testemunho profético intransigente da igreja durante o período de tribulação.",
+        "entityType": "Pessoa/Símbolo"
+      }
+    },
+    {
+      "id": "theme:as-sete-igrejas-da-asia",
+      "kind": "theme",
+      "label": "As Sete Igrejas da Ásia",
+      "aliases": [],
+      "summary": "Núcleos eclesiais enfrentando assimilação cultural, falsos ensinamentos e perseguição imperial.",
+      "references": ["Apocalipse 1:4, 11; 2-3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Comunidades locais destinatárias primárias do Apocalipse.",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:jesus-cristo-o-cordeiro",
+      "kind": "theme",
+      "label": "Jesus Cristo / O Cordeiro",
+      "aliases": [],
+      "summary": "Apresentado como o Cordeiro imolado que reina soberanamente, desatando os selos e executando a justiça divina.",
+      "references": ["Apocalipse 1:5; 5:6; 19:11-16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Redentor, Juiz soberano da história e centro da liturgia celestial.",
+        "entityType": "Pessoa/Divindade"
+      }
+    },
+    {
+      "id": "theme:o-dragao-satanas",
+      "kind": "theme",
+      "label": "O Dragão / Satanás",
+      "aliases": [],
+      "summary": "Identificado como a antiga serpente que engana o mundo e delega autoridade às bestas imperiais.",
+      "references": ["Apocalipse 12:9; 20:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Adversário cósmico e instigador da oposição anticristã.",
+        "entityType": "Pessoa/Ser Sobrenatural"
+      }
+    },
+    {
+      "id": "theme:serpente",
+      "kind": "theme",
+      "label": "Serpente",
+      "aliases": [],
+      "summary": "Gênesis não chama a serpente de Satanás; essa identificação se desenvolve na recepção judaica e cristã posterior. Dentro da cena, ela opera por pergunta, reinterpretação e suspeita: transforma o limite em privação e o conhecimento em promessa de autonomia. A conexão posterior com o adversário deve ser marcada como leitura canônica posterior, não como se o capítulo já oferecesse toda a demonologia cristã.",
+      "references": ["Gn 3:1–15", "Is 27:1", "Jo 8:44", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["serpent"],
+      "attributes": {
+        "role": "voz de contestação no jardim",
+        "tags": ["tentação", "mal", "símbolo", "recepção"]
+      }
+    },
+    {
+      "id": "theme:yahweh",
+      "kind": "theme",
+      "label": "Yahweh",
+      "aliases": [],
+      "summary": "O Criador que governa as nações, levanta impérios e responde às lamentações humanas segundo sua justiça e santidade inegociáveis.",
+      "references": [
+        "Gên 17; Lv 11:44; Ap 21",
+        "Juízes 2:1-5; 6:14",
+        "Miqueias 1:2-3; 6:1-8; 7:18-20",
+        "Hab 1:12; 2:20; 3:3"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Deus de Israel e soberano da história",
+        "entityType": "Pessoa / Divindade"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-apocalipse-abertura-dos-sete-selos:chapter-apocalipse-6",
+      "from": "event:apocalipse-abertura-dos-sete-selos",
+      "to": "chapter:apocalipse:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Abertura dos Sete Selos” cita explicitamente Apocalipse 6:1-17; 8:1-5.",
+      "references": ["Apocalipse 6:1-17; 8:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-abertura-dos-sete-selos:chapter-apocalipse-8",
+      "from": "event:apocalipse-abertura-dos-sete-selos",
+      "to": "chapter:apocalipse:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Abertura dos Sete Selos” cita explicitamente Apocalipse 6:1-17; 8:1-5.",
+      "references": ["Apocalipse 6:1-17; 8:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-batalha-do-armagedom-e-prisao-de-satanas:chapter-apocalipse-19",
+      "from": "event:apocalipse-batalha-do-armagedom-e-prisao-de-satanas",
+      "to": "chapter:apocalipse:19",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Batalha do Armagedom e Prisão de Satanás” cita explicitamente Apocalipse 19:11-20:3.",
+      "references": ["Apocalipse 19:11-20:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-batalha-do-armagedom-e-prisao-de-satanas:chapter-apocalipse-20",
+      "from": "event:apocalipse-batalha-do-armagedom-e-prisao-de-satanas",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Batalha do Armagedom e Prisão de Satanás” cita explicitamente Apocalipse 19:11-20:3.",
+      "references": ["Apocalipse 19:11-20:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-conflito-cosmico-e-a-expulsao-do-dragao:chapter-apocalipse-12",
+      "from": "event:apocalipse-o-conflito-cosmico-e-a-expulsao-do-dragao",
+      "to": "chapter:apocalipse:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Conflito Cósmico e a Expulsão do Dragão” cita explicitamente Apocalipse 12:1-17.",
+      "references": ["Apocalipse 12:1-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao:chapter-apocalipse-20",
+      "from": "event:apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo do Grande Trono Branco e a Nova Criação” cita explicitamente Apocalipse 20:11-22:5.",
+      "references": ["Apocalipse 20:11-22:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao:chapter-apocalipse-21",
+      "from": "event:apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo do Grande Trono Branco e a Nova Criação” cita explicitamente Apocalipse 20:11-22:5.",
+      "references": ["Apocalipse 20:11-22:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao:chapter-apocalipse-22",
+      "from": "event:apocalipse-o-juizo-do-grande-trono-branco-e-a-nova-criacao",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Juízo do Grande Trono Branco e a Nova Criação” cita explicitamente Apocalipse 20:11-22:5.",
+      "references": ["Apocalipse 20:11-22:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-toque-das-sete-trombetas:chapter-apocalipse-10",
+      "from": "event:apocalipse-o-toque-das-sete-trombetas",
+      "to": "chapter:apocalipse:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Toque das Sete Trombetas” cita explicitamente Apocalipse 8:6-11:19.",
+      "references": ["Apocalipse 8:6-11:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-toque-das-sete-trombetas:chapter-apocalipse-11",
+      "from": "event:apocalipse-o-toque-das-sete-trombetas",
+      "to": "chapter:apocalipse:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Toque das Sete Trombetas” cita explicitamente Apocalipse 8:6-11:19.",
+      "references": ["Apocalipse 8:6-11:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-toque-das-sete-trombetas:chapter-apocalipse-8",
+      "from": "event:apocalipse-o-toque-das-sete-trombetas",
+      "to": "chapter:apocalipse:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Toque das Sete Trombetas” cita explicitamente Apocalipse 8:6-11:19.",
+      "references": ["Apocalipse 8:6-11:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-o-toque-das-sete-trombetas:chapter-apocalipse-9",
+      "from": "event:apocalipse-o-toque-das-sete-trombetas",
+      "to": "chapter:apocalipse:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Toque das Sete Trombetas” cita explicitamente Apocalipse 8:6-11:19.",
+      "references": ["Apocalipse 8:6-11:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-queda-da-grande-babilonia:chapter-apocalipse-18",
+      "from": "event:apocalipse-queda-da-grande-babilonia",
+      "to": "chapter:apocalipse:18",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Queda da Grande Babilônia” cita explicitamente Apocalipse 18:1-24.",
+      "references": ["Apocalipse 18:1-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-apocalipse-visao-inaugural-do-filho-do-homem:chapter-apocalipse-1",
+      "from": "event:apocalipse-visao-inaugural-do-filho-do-homem",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Visão Inaugural do Filho do Homem” cita explicitamente Apocalipse 1:9-20.",
+      "references": ["Apocalipse 1:9-20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-144-000-e-a-grande-multidao:chapter-apocalipse-14",
+      "from": "people-group:os-144-000-e-a-grande-multidao",
+      "to": "chapter:apocalipse:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os 144.000 e a Grande Multidão” cita explicitamente Apocalipse 7:4-9; 14:1-5.",
+      "references": ["Apocalipse 7:4-9; 14:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:people-group-os-144-000-e-a-grande-multidao:chapter-apocalipse-7",
+      "from": "people-group:os-144-000-e-a-grande-multidao",
+      "to": "chapter:apocalipse:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os 144.000 e a Grande Multidão” cita explicitamente Apocalipse 7:4-9; 14:1-5.",
+      "references": ["Apocalipse 7:4-9; 14:1-5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-besta-do-mar-e-a-besta-da-terra:chapter-apocalipse-13",
+      "from": "person:a-besta-do-mar-e-a-besta-da-terra",
+      "to": "chapter:apocalipse:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Besta do Mar e a Besta da Terra” cita explicitamente **Apocalipse 13:1-8**: A ascensão da Besta do Mar e a blasfêmia contra o tabernáculo de Deus..",
+      "references": [
+        "**Apocalipse 13:1-8**: A ascensão da Besta do Mar e a blasfêmia contra o tabernáculo de Deus."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-mulher-vestida-de-sol:chapter-apocalipse-12",
+      "from": "person:a-mulher-vestida-de-sol",
+      "to": "chapter:apocalipse:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Mulher Vestida de Sol” cita explicitamente **Apocalipse 12:1-6**: A aparição da mulher, o nascimento do filho e a fuga para o deserto..",
+      "references": [
+        "**Apocalipse 12:1-6**: A aparição da mulher, o nascimento do filho e a fuga para o deserto."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-nova-jerusalem:chapter-apocalipse-21",
+      "from": "person:a-nova-jerusalem",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Nova Jerusalém” cita explicitamente **Apocalipse 21:1-4**: Novos céus e nova terra; a descida da Nova Jerusalém..",
+      "references": [
+        "**Apocalipse 21:1-4**: Novos céus e nova terra; a descida da Nova Jerusalém."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-a-nova-jerusalem:chapter-apocalipse-22",
+      "from": "person:a-nova-jerusalem",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Nova Jerusalém” cita explicitamente **Apocalipse 22:1-5**: O rio da água da vida e a árvore da vida no meio da praça..",
+      "references": [
+        "**Apocalipse 22:1-5**: O rio da água da vida e a árvore da vida no meio da praça."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-as-duas-testemunhas:chapter-apocalipse-11",
+      "from": "person:as-duas-testemunhas",
+      "to": "chapter:apocalipse:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Duas Testemunhas” cita explicitamente **Apocalipse 11:3-6**: O poder e a comissão das duas testemunhas..",
+      "references": [
+        "**Apocalipse 11:3-6**: O poder e a comissão das duas testemunhas."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-as-sete-igrejas-da-asia:chapter-apocalipse-2",
+      "from": "person:as-sete-igrejas-da-asia",
+      "to": "chapter:apocalipse:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Sete Igrejas da Ásia” cita explicitamente **Apocalipse 2:1-7**: A carta à igreja de Éfeso.",
+      "references": ["**Apocalipse 2:1-7**: A carta à igreja de Éfeso"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-as-sete-igrejas-da-asia:chapter-apocalipse-3",
+      "from": "person:as-sete-igrejas-da-asia",
+      "to": "chapter:apocalipse:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Sete Igrejas da Ásia” cita explicitamente **Apocalipse 3:14-22**: A carta à igreja de Laodiceia.",
+      "references": ["**Apocalipse 3:14-22**: A carta à igreja de Laodiceia"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-babilonia-a-grande:chapter-apocalipse-14",
+      "from": "person:babilonia-a-grande",
+      "to": "chapter:apocalipse:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Babilônia, a Grande” cita explicitamente **Apocalipse 14:8**: O primeiro anúncio da queda de Babilônia..",
+      "references": [
+        "**Apocalipse 14:8**: O primeiro anúncio da queda de Babilônia."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-babilonia-a-grande:chapter-apocalipse-17",
+      "from": "person:babilonia-a-grande",
+      "to": "chapter:apocalipse:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Babilônia, a Grande” cita explicitamente **Apocalipse 17:1-6**: A visão da grande meretriz sentada sobre as muitas águas e sobre a besta..",
+      "references": [
+        "**Apocalipse 17:1-6**: A visão da grande meretriz sentada sobre as muitas águas e sobre a besta."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-babilonia-a-grande:chapter-apocalipse-18",
+      "from": "person:babilonia-a-grande",
+      "to": "chapter:apocalipse:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Babilônia, a Grande” cita explicitamente **Apocalipse 18:2-4**: O mandado divino: \"Retirai-vos dela, povo meu...\"..",
+      "references": [
+        "**Apocalipse 18:2-4**: O mandado divino: \"Retirai-vos dela, povo meu...\"."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-de-patmos:chapter-apocalipse-1",
+      "from": "person:joao-de-patmos",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João de Patmos” cita explicitamente **Apocalipse 1:9-20**: O chamado de João em Patmos e a visão do Filho do Homem glorificado no meio dos candeeiros..",
+      "references": [
+        "**Apocalipse 1:9-20**: O chamado de João em Patmos e a visão do Filho do Homem glorificado no meio dos candeeiros."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-de-patmos:chapter-apocalipse-10",
+      "from": "person:joao-de-patmos",
+      "to": "chapter:apocalipse:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João de Patmos” cita explicitamente **Apocalipse 10:8-11**: A ingestão do livrinho amargo e doce, simbolizando o mandato profético de profetizar \"novamente perante muitos povos, nações, línguas e reis\"..",
+      "references": [
+        "**Apocalipse 10:8-11**: A ingestão do livrinho amargo e doce, simbolizando o mandato profético de profetizar \"novamente perante muitos povos, nações, línguas e reis\"."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-joao-de-patmos:chapter-apocalipse-22",
+      "from": "person:joao-de-patmos",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “João de Patmos” cita explicitamente **Apocalipse 22:8-9**: A conclusão do testemunho e a advertência contra a adoração do anjo mensageiro..",
+      "references": [
+        "**Apocalipse 22:8-9**: A conclusão do testemunho e a advertência contra a adoração do anjo mensageiro."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-cordeiro:chapter-apocalipse-19",
+      "from": "person:o-cordeiro",
+      "to": "chapter:apocalipse:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Cordeiro” cita explicitamente **Apocalipse 19:7-9**: As bodas do Cordeiro e a preparação da noiva..",
+      "references": [
+        "**Apocalipse 19:7-9**: As bodas do Cordeiro e a preparação da noiva."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-cordeiro:chapter-apocalipse-5",
+      "from": "person:o-cordeiro",
+      "to": "chapter:apocalipse:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Cordeiro” cita explicitamente **Apocalipse 5:6-14**: O Cordeiro toma o livro e recebe o cântico novo de toda a criação..",
+      "references": [
+        "**Apocalipse 5:6-14**: O Cordeiro toma o livro e recebe o cântico novo de toda a criação."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-cordeiro:chapter-apocalipse-7",
+      "from": "person:o-cordeiro",
+      "to": "chapter:apocalipse:7",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Cordeiro” cita explicitamente **Apocalipse 7:14**: Os salvos que lavaram suas vestes e as embranqueceram no sangue do Cordeiro..",
+      "references": [
+        "**Apocalipse 7:14**: Os salvos que lavaram suas vestes e as embranqueceram no sangue do Cordeiro."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-dragao:chapter-apocalipse-12",
+      "from": "person:o-dragao",
+      "to": "chapter:apocalipse:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Dragão” cita explicitamente **Apocalipse 12:3-4**: A descrição do Dragão e sua tentativa de devorar o filho da mulher ao nascer..",
+      "references": [
+        "**Apocalipse 12:3-4**: A descrição do Dragão e sua tentativa de devorar o filho da mulher ao nascer."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-dragao:chapter-apocalipse-13",
+      "from": "person:o-dragao",
+      "to": "chapter:apocalipse:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Dragão” cita explicitamente **Apocalipse 13:1-2**: O Dragão entrega seu poder à Besta que emerge do mar..",
+      "references": [
+        "**Apocalipse 13:1-2**: O Dragão entrega seu poder à Besta que emerge do mar."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-dragao:chapter-apocalipse-20",
+      "from": "person:o-dragao",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Dragão” cita explicitamente **Apocalipse 20:2-10**: A prisão de mil anos do Dragão e sua condenação final..",
+      "references": [
+        "**Apocalipse 20:2-10**: A prisão de mil anos do Dragão e sua condenação final."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-falso-profeta:chapter-apocalipse-16",
+      "from": "person:o-falso-profeta",
+      "to": "chapter:apocalipse:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Falso Profeta” cita explicitamente **Apocalipse 16:13**: Os espíritos imundos semelhantes a rãs saindo da boca do Dragão, da Besta e do Falso Profeta..",
+      "references": [
+        "**Apocalipse 16:13**: Os espíritos imundos semelhantes a rãs saindo da boca do Dragão, da Besta e do Falso Profeta."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-o-falso-profeta:chapter-apocalipse-19",
+      "from": "person:o-falso-profeta",
+      "to": "chapter:apocalipse:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Falso Profeta” cita explicitamente **Apocalipse 19:20**: A captura e lançamento vivo do Falso Profeta e da Besta no lago de fogo ardente de enxofre..",
+      "references": [
+        "**Apocalipse 19:20**: A captura e lançamento vivo do Falso Profeta e da Besta no lago de fogo ardente de enxofre."
+      ],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-nova-jerusalem:chapter-apocalipse-21",
+      "from": "place:a-nova-jerusalem",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Nova Jerusalém” cita explicitamente Apocalipse 21:2, 10-27.",
+      "references": ["Apocalipse 21:2, 10-27"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia:chapter-apocalipse-1",
+      "from": "place:as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “As Sete Cidades da Ásia (Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia, Laodicéia)” cita explicitamente Apocalipse 1:11; 2-3.",
+      "references": ["Apocalipse 1:11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia:chapter-apocalipse-2",
+      "from": "place:as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia",
+      "to": "chapter:apocalipse:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “As Sete Cidades da Ásia (Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia, Laodicéia)” cita explicitamente Apocalipse 1:11; 2-3.",
+      "references": ["Apocalipse 1:11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia:chapter-apocalipse-3",
+      "from": "place:as-sete-cidades-da-asia-efeso-esmirna-pergamo-tiatira-sardes-filadelfia-laodiceia",
+      "to": "chapter:apocalipse:3",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “As Sete Cidades da Ásia (Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia, Laodicéia)” cita explicitamente Apocalipse 1:11; 2-3.",
+      "references": ["Apocalipse 1:11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-eden:chapter-apocalipse-22",
+      "from": "place:eden",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Éden” cita explicitamente Ap 22:1–5.",
+      "references": ["Ap 22:1–5"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-ilha-de-patmos:chapter-apocalipse-1",
+      "from": "place:ilha-de-patmos",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Ilha de Patmos” cita explicitamente Apocalipse 1:9.",
+      "references": ["Apocalipse 1:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-abismo-e-o-lago-de-fogo:chapter-apocalipse-20",
+      "from": "place:o-abismo-e-o-lago-de-fogo",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Abismo e o Lago de Fogo” cita explicitamente Apocalipse 9:1-2; 20:10, 14-15.",
+      "references": ["Apocalipse 9:1-2; 20:10, 14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-abismo-e-o-lago-de-fogo:chapter-apocalipse-9",
+      "from": "place:o-abismo-e-o-lago-de-fogo",
+      "to": "chapter:apocalipse:9",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Abismo e o Lago de Fogo” cita explicitamente Apocalipse 9:1-2; 20:10, 14-15.",
+      "references": ["Apocalipse 9:1-2; 20:10, 14-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-trono-celestial-ceu:chapter-apocalipse-4",
+      "from": "place:o-trono-celestial-ceu",
+      "to": "chapter:apocalipse:4",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Trono Celestial (Céu)” cita explicitamente Apocalipse 4:1-2; 5:1.",
+      "references": ["Apocalipse 4:1-2; 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-trono-celestial-ceu:chapter-apocalipse-5",
+      "from": "place:o-trono-celestial-ceu",
+      "to": "chapter:apocalipse:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Trono Celestial (Céu)” cita explicitamente Apocalipse 4:1-2; 5:1.",
+      "references": ["Apocalipse 4:1-2; 5:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens:chapter-apocalipse-11",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-17-seremos-arrebatados-juntamente-com-eles-nas-nuvens",
+      "to": "chapter:apocalipse:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:17 (\"...seremos arrebatados juntamente com eles nas nuvens...\")” cita explicitamente Dn 7:13; Ap 11:12; 2 Co 12:2.",
+      "references": ["Dn 7:13; Ap 11:12; 2 Co 12:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22:chapter-apocalipse-21",
+      "from": "prophecy:2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa do novo céu e nova terra (Isaías 65:17, 66:22)” cita explicitamente Is 65:17; Ap 21:1.",
+      "references": ["Is 65:17; Ap 21:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos:chapter-apocalipse-16",
+      "from": "prophecy:ageu-ageu-2-21-22-abalarei-os-ceus-e-a-terra-e-transtornarei-o-trono-dos-reinos",
+      "to": "chapter:apocalipse:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ageu 2:21-22 — \"Abalarei os céus e a terra, e transtornarei o trono dos reinos...\"” cita explicitamente Apocalipse 16:17-21; Ezequiel 38-39.",
+      "references": ["Apocalipse 16:17-21; Ezequiel 38-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-daniel-7-1-8-apocalipse-13-1-2:chapter-apocalipse-13",
+      "from": "prophecy:apocalipse-daniel-7-1-8-apocalipse-13-1-2",
+      "to": "chapter:apocalipse:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:1-8 — Apocalipse 13:1-2” cita explicitamente Daniel 7; Apocalipse 13; 17.",
+      "references": ["Daniel 7; Apocalipse 13; 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-daniel-7-1-8-apocalipse-13-1-2:chapter-apocalipse-17",
+      "from": "prophecy:apocalipse-daniel-7-1-8-apocalipse-13-1-2",
+      "to": "chapter:apocalipse:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Daniel 7:1-8 — Apocalipse 13:1-2” cita explicitamente Daniel 7; Apocalipse 13; 17.",
+      "references": ["Daniel 7; Apocalipse 13; 17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-ezequiel-38-39-apocalipse-20-7-10:chapter-apocalipse-20",
+      "from": "prophecy:apocalipse-ezequiel-38-39-apocalipse-20-7-10",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 38-39 — Apocalipse 20:7-10” cita explicitamente Ezequiel 38-39; Apocalipse 20.",
+      "references": ["Ezequiel 38-39; Apocalipse 20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-isaias-65-17-apocalipse-21-1:chapter-apocalipse-21",
+      "from": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 65:17 — Apocalipse 21:1” cita explicitamente Isaías 65-66; 2 Pedro 3; Apocalipse 21.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-zacarias-12-10-apocalipse-1-7:chapter-apocalipse-1",
+      "from": "prophecy:apocalipse-zacarias-12-10-apocalipse-1-7",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 12:10 — Apocalipse 1:7” cita explicitamente Zacarias 12:10; Apocalipse 1:7.",
+      "references": ["Zacarias 12:10; Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-4-12-jardim-fechado-es-tu-minha-irma-noiva:chapter-apocalipse-22",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-4-12-jardim-fechado-es-tu-minha-irma-noiva",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 4:12 (\"Jardim fechado és tu, minha irmã, noiva\")” cita explicitamente Gênesis 2:8–15; Apocalipse 22:1–2.",
+      "references": ["Gênesis 2:8–15; Apocalipse 22:1–2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-5-2-abre-me-irma-minha-querida-minha-pois-a-minha-cabeca-esta-cheia-de-orvalho:chapter-apocalipse-3",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-5-2-abre-me-irma-minha-querida-minha-pois-a-minha-cabeca-esta-cheia-de-orvalho",
+      "to": "chapter:apocalipse:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 5:2 (\"Abre-me, irmã minha, querida minha... pois a minha cabeça está cheia de orvalho\")” cita explicitamente Apocalipse 3:20.",
+      "references": ["Apocalipse 3:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-apocalipse-13",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:apocalipse:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-apocalipse-14",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:apocalipse:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-apocalipse-15",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:apocalipse:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-apocalipse-16",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:apocalipse:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-a-estatua-de-quatro-metais-daniel-2:chapter-apocalipse-17",
+      "from": "prophecy:daniel-a-estatua-de-quatro-metais-daniel-2",
+      "to": "chapter:apocalipse:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A estátua de quatro metais (Daniel 2)” cita explicitamente Daniel 7; Apocalipse 13–17.",
+      "references": ["Daniel 7; Apocalipse 13–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14:chapter-apocalipse-1",
+      "from": "prophecy:daniel-o-filho-do-homem-vindicado-nas-nuvens-daniel-7-13-14",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Filho do Homem vindicado nas nuvens (Daniel 7:13–14)” cita explicitamente Mateus 26:64; Apocalipse 1:7.",
+      "references": ["Mateus 26:64; Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1:chapter-apocalipse-15",
+      "from": "prophecy:exodo-a-profecia-do-exodo-como-prototipo-da-redencao-escatologica-isaias-43-16-21-oseias-11-1",
+      "to": "chapter:apocalipse:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia do Êxodo como protótipo da redenção escatológica (Isaías 43:16-21; Oséias 11:1)” cita explicitamente Mateus 2:15; Apocalipse 15:3.",
+      "references": ["Mateus 2:15; Apocalipse 15:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-1-1-28-visao-da-merkabah:chapter-apocalipse-4",
+      "from": "prophecy:ezequiel-ezequiel-1-1-28-visao-da-merkabah",
+      "to": "chapter:apocalipse:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 1:1-28 (Visão da Merkabah)” cita explicitamente Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8.",
+      "references": ["Textos relacionados: Daniel 7:9-10; Apocalipse 4:2-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-38-39-gog-de-magog:chapter-apocalipse-20",
+      "from": "prophecy:ezequiel-ezequiel-38-39-gog-de-magog",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 38-39 (Gog de Magog)” cita explicitamente Textos relacionados: Apocalipse 20:8.",
+      "references": ["Textos relacionados: Apocalipse 20:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-3-15-a-semente-da-mulher:chapter-apocalipse-12",
+      "from": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "to": "chapter:apocalipse:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A semente da mulher” cita explicitamente Ap 12:9.",
+      "references": ["Ap 12:9"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-3-15-a-semente-da-mulher:chapter-apocalipse-20",
+      "from": "prophecy:genesis-gn-3-15-a-semente-da-mulher",
+      "to": "chapter:apocalipse:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A semente da mulher” cita explicitamente Ap 20:2.",
+      "references": ["Ap 20:2"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-49-8-12-juda-e-o-governo:chapter-apocalipse-5",
+      "from": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "to": "chapter:apocalipse:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Judá e o governo” cita explicitamente Ap 5:5.",
+      "references": ["Ap 5:5"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive:chapter-apocalipse-1",
+      "from": "prophecy:jo-jo-19-25-porque-eu-sei-que-o-meu-redentor-vive",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó 19:25 (\"Porque eu sei que o meu Redentor vive...\")” cita explicitamente Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5.",
+      "references": ["Salmos 19; 1 Coríntios 15:20; Apocalipse 1:5"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12:chapter-apocalipse-21",
+      "from": "prophecy:levitico-habitarei-no-meio-de-vos-e-nao-vos-aborrecera-a-minha-alma-lv-26-11-12",
+      "to": "chapter:apocalipse:21",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Habitarei no meio de vós e não vos aborrecerá a minha alma\" (Lv 26:11-12)” cita explicitamente 2 Co 6:16; Ap 21:3.",
+      "references": ["2 Co 6:16; Ap 21:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias:chapter-apocalipse-11",
+      "from": "prophecy:malaquias-malaquias-4-5-6-eis-que-vos-enviarei-o-profeta-elias",
+      "to": "chapter:apocalipse:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 4:5–6 ('Eis que vos enviarei o profeta Elias...')” cita explicitamente Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6.",
+      "references": ["Mateus 17:10–13; Lucas 1:17; Apocalipse 11:3–6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17:chapter-apocalipse-22",
+      "from": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)” cita explicitamente Isaías 11:1; Apocalipse 22:16; Mateus 2:2.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor:chapter-apocalipse-11",
+      "from": "prophecy:obadias-obadias-1-21-e-subirao-salvadores-ao-monte-siao-para-julgar-os-montes-de-esau-e-o-reino-sera-do-senhor",
+      "to": "chapter:apocalipse:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:21 (\"E subirão salvadores ao monte Sião para julgar os montes de Esaú; e o reino será do Senhor\")” cita explicitamente Apocalipse 11:15; Obadias 1:21 na literatura rabínica.",
+      "references": ["Apocalipse 11:15; Obadias 1:21 na literatura rabínica"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-8-22-31:chapter-apocalipse-3",
+      "from": "prophecy:proverbios-pr-8-22-31",
+      "to": "chapter:apocalipse:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 8:22-31” cita explicitamente Jo 1:1-3; Cl 1:15-17; Ap 3:14.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram:chapter-apocalipse-1",
+      "from": "prophecy:zacarias-zacarias-12-10-olharao-para-mim-a-quem-traspassaram",
+      "to": "chapter:apocalipse:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 12:10 (\"Olharão para mim, a quem traspassaram\")” cita explicitamente João 19:37, Apocalipse 1:7.",
+      "references": ["João 19:37, Apocalipse 1:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem:chapter-apocalipse-22",
+      "from": "prophecy:zacarias-zacarias-14-8-aguas-vivas-sairao-de-jerusalem",
+      "to": "chapter:apocalipse:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zacarias 14:8 (\"Águas vivas sairão de Jerusalém\")” cita explicitamente Ezequiel 47, Apocalipse 22:1-2.",
+      "references": ["Ezequiel 47, Apocalipse 22:1-2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-1:theme-as-sete-igrejas-da-asia",
+      "from": "chapter:apocalipse:1",
+      "to": "theme:as-sete-igrejas-da-asia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Sete Igrejas da Ásia” cita explicitamente Apocalipse 1:4, 11; 2-3.",
+      "references": ["Apocalipse 1:4, 11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-1:theme-jesus-cristo-o-cordeiro",
+      "from": "chapter:apocalipse:1",
+      "to": "theme:jesus-cristo-o-cordeiro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo / O Cordeiro” cita explicitamente Apocalipse 1:5; 5:6; 19:11-16.",
+      "references": ["Apocalipse 1:5; 5:6; 19:11-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-11:theme-as-duas-testemunhas",
+      "from": "chapter:apocalipse:11",
+      "to": "theme:as-duas-testemunhas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Duas Testemunhas” cita explicitamente Apocalipse 11:3-12.",
+      "references": ["Apocalipse 11:3-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-12:theme-o-dragao-satanas",
+      "from": "chapter:apocalipse:12",
+      "to": "theme:o-dragao-satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Dragão / Satanás” cita explicitamente Apocalipse 12:9; 20:2.",
+      "references": ["Apocalipse 12:9; 20:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-12:theme-serpente",
+      "from": "chapter:apocalipse:12",
+      "to": "theme:serpente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Serpente” cita explicitamente Ap 12:9.",
+      "references": ["Ap 12:9"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-13:theme-a-besta-da-terra-falso-profeta",
+      "from": "chapter:apocalipse:13",
+      "to": "theme:a-besta-da-terra-falso-profeta",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Besta da Terra / Falso Profeta” cita explicitamente Apocalipse 13:11-18; 19:20.",
+      "references": ["Apocalipse 13:11-18; 19:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-13:theme-a-besta-do-mar",
+      "from": "chapter:apocalipse:13",
+      "to": "theme:a-besta-do-mar",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Besta do Mar” cita explicitamente Apocalipse 13:1-10; 17:3-14.",
+      "references": ["Apocalipse 13:1-10; 17:3-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-17:theme-a-besta-do-mar",
+      "from": "chapter:apocalipse:17",
+      "to": "theme:a-besta-do-mar",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Besta do Mar” cita explicitamente Apocalipse 13:1-10; 17:3-14.",
+      "references": ["Apocalipse 13:1-10; 17:3-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-17:theme-a-grande-babilonia",
+      "from": "chapter:apocalipse:17",
+      "to": "theme:a-grande-babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Grande Babilônia” cita explicitamente Apocalipse 17:1-6; 18:2-24.",
+      "references": ["Apocalipse 17:1-6; 18:2-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-18:theme-a-grande-babilonia",
+      "from": "chapter:apocalipse:18",
+      "to": "theme:a-grande-babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Grande Babilônia” cita explicitamente Apocalipse 17:1-6; 18:2-24.",
+      "references": ["Apocalipse 17:1-6; 18:2-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-19:theme-a-besta-da-terra-falso-profeta",
+      "from": "chapter:apocalipse:19",
+      "to": "theme:a-besta-da-terra-falso-profeta",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Besta da Terra / Falso Profeta” cita explicitamente Apocalipse 13:11-18; 19:20.",
+      "references": ["Apocalipse 13:11-18; 19:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-19:theme-jesus-cristo-o-cordeiro",
+      "from": "chapter:apocalipse:19",
+      "to": "theme:jesus-cristo-o-cordeiro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo / O Cordeiro” cita explicitamente Apocalipse 1:5; 5:6; 19:11-16.",
+      "references": ["Apocalipse 1:5; 5:6; 19:11-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-2:theme-as-sete-igrejas-da-asia",
+      "from": "chapter:apocalipse:2",
+      "to": "theme:as-sete-igrejas-da-asia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Sete Igrejas da Ásia” cita explicitamente Apocalipse 1:4, 11; 2-3.",
+      "references": ["Apocalipse 1:4, 11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-20:doctrine-escatologia",
+      "from": "chapter:apocalipse:20",
+      "to": "doctrine:escatologia",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Segunda vinda, milênio e ressurreição” cita explicitamente 1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-20:theme-o-dragao-satanas",
+      "from": "chapter:apocalipse:20",
+      "to": "theme:o-dragao-satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Dragão / Satanás” cita explicitamente Apocalipse 12:9; 20:2.",
+      "references": ["Apocalipse 12:9; 20:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-20:theme-serpente",
+      "from": "chapter:apocalipse:20",
+      "to": "theme:serpente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Serpente” cita explicitamente Ap 20:2.",
+      "references": ["Ap 20:2"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-21:theme-a-noiva-nova-jerusalem",
+      "from": "chapter:apocalipse:21",
+      "to": "theme:a-noiva-nova-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Noiva / Nova Jerusalém” cita explicitamente Apocalipse 21:2, 9-10.",
+      "references": ["Apocalipse 21:2, 9-10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-21:theme-yahweh",
+      "from": "chapter:apocalipse:21",
+      "to": "theme:yahweh",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Yahweh” cita explicitamente Gên 17; Lv 11:44; Ap 21.",
+      "references": ["Gên 17; Lv 11:44; Ap 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-3:theme-as-sete-igrejas-da-asia",
+      "from": "chapter:apocalipse:3",
+      "to": "theme:as-sete-igrejas-da-asia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “As Sete Igrejas da Ásia” cita explicitamente Apocalipse 1:4, 11; 2-3.",
+      "references": ["Apocalipse 1:4, 11; 2-3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-apocalipse-5:theme-jesus-cristo-o-cordeiro",
+      "from": "chapter:apocalipse:5",
+      "to": "theme:jesus-cristo-o-cordeiro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Jesus Cristo / O Cordeiro” cita explicitamente Apocalipse 1:5; 5:6; 19:11-16.",
+      "references": ["Apocalipse 1:5; 5:6; 19:11-16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-apocalipse-1:term-apokalypsis",
+      "from": "chapter:apocalipse:1",
+      "to": "term:apokalypsis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Apokalypsis” cita explicitamente Ap 1:1.",
+      "references": ["Ap 1:1"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-apocalipse-22:term-eschaton",
+      "from": "chapter:apocalipse:22",
+      "to": "term:eschaton",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Eschaton” cita explicitamente Ap 22:13.",
+      "references": ["Ap 22:13"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

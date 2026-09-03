@@ -1,0 +1,1647 @@
+{
+  "schemaVersion": 1,
+  "book": "Isaías",
+  "count": 82,
+  "chapterCount": 39,
+  "nodes": [
+    {
+      "id": "doctrine:cura",
+      "kind": "doctrine",
+      "label": "Cura divina e oração",
+      "aliases": [],
+      "summary": "A declaração de fé afirma que a cura divina é provida na expiação.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["cura"],
+      "attributes": {
+        "category": "Ministério",
+        "pentecostalReading": "A igreja ora pelos enfermos e confia na ação soberana de Deus. Fé e cuidado médico não precisam ser inimigos; a plataforma deve evitar culpa, promessas automáticas ou abandono de tratamento.",
+        "distinction": "A afirmação teológica de cura não permite prever quando ou como ela ocorrerá. Luto, doença e limitações humanas devem ser tratados com esperança e compaixão, não acusação.",
+        "source": "Declaração de Fé; Tiago 5; teologia pentecostal pastoral"
+      }
+    },
+    {
+      "id": "person:ciro-o-grande",
+      "kind": "person",
+      "label": "Ciro o Grande",
+      "aliases": [],
+      "summary": "Agente histórico e escatológico que permitiu o retorno dos judeus e a reconstrução do templo",
+      "references": ["Isaías 44:28, 45:1", "Daniel 1:21; 6:28; 10:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei da Pérsia que emite o decreto permitindo o retorno dos judeus e a reconstrução do templo.",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:ezequias",
+      "kind": "person",
+      "label": "Ezequias",
+      "aliases": [],
+      "summary": "Promotor da grande purificação cultual, da reunificação da Páscoa e beneficiário do livramento divino contra a Assíria.",
+      "references": [
+        "2 Reis 18-20",
+        "2Cr 29:1 - 32:33",
+        "Isaías 36:1, 38:5, 39:8",
+        "Sofonias 1:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei de Judá, tataravô de Sofonias",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:isaias-ben-amoz",
+      "kind": "person",
+      "label": "Isaías ben Amoz",
+      "aliases": [],
+      "summary": "Figura central da profecia pré-exílica, conselheiro real e visionário da santidade divina",
+      "references": ["Isaías 1:1, 6:1, 37:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta atuante em Jerusalém durante os reinados de Uzias, Jotão, Acaz, Ezequias e Manassés",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:noe",
+      "kind": "person",
+      "label": "Noé",
+      "aliases": ["Noé"],
+      "summary": "Noé (do hebraico נֹחַ, *Nōaḥ*, significando \"descanso\" ou \"consolação\") é o patriarca justo que encontrou graça aos olhos de Deus em meio a uma geração corrompida pela violência e maldade generalizada. Advertido divinamente sobre um cataclismo universal (o Dilúvio), Noé obedece construindo uma arca de proporções colossais, salvando sua família (esposa, filhos Sem, Cam e Jafé, e suas respectivas noras) e casais de todas as espécies animais. Após o dilúvio, Noé oferece um sacrifício aceitável a Deus, que estabelece a **Aliança Noaica**, selada com o sinal do arco-íris, garantindo a preservação da ordem natural e promulgando leis fundamentais para a convivência humana (incluindo a proibição do consumo de sangue e a sanção da pena capital para o assassinato). Posteriormente, Noé protagoniza o episódio da embriaguez e da maldição de Canaã [27].",
+      "references": [
+        "Gênesis 6:5–22",
+        "Gênesis 7:1–24; 8:1–19",
+        "Gênesis 9:1–17",
+        "Mateus 24:37–39",
+        "Hebreus 11:7",
+        "2Pe 2:5",
+        "Gn 6:5–22",
+        "Gn 7–9",
+        "Is 54:9–10",
+        "Mt 24:37–39",
+        "1Pe 3:20–21"
+      ],
+      "sourceCatalogs": [
+        "biography-catalog",
+        "relational-books-catalog",
+        "genesis-relational"
+      ],
+      "maturity": "reviewed",
+      "sourceIds": ["person-noe", "noah"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": "https://www.biblegateway.com/passage/?search=G%C3%AAnesis%206%3A5%E2%80%9322%3B%20G%C3%AAnesis%207%3A1%E2%80%9324%3B%208%3A1%E2%80%9319%3B%20G%C3%AAnesis%209%3A1%E2%80%9317&version=ARA",
+        "bookLinksVerified": true,
+        "role": "justo do dilúvio; novo começo humano",
+        "entityType": "Pessoa",
+        "tags": ["dilúvio", "aliança", "novo começo", "juízo"]
+      }
+    },
+    {
+      "id": "person:senaqueribe",
+      "kind": "person",
+      "label": "Senaqueribe",
+      "aliases": [],
+      "summary": "Império militar expansionista que sitiou Jerusalém e cujas tropas foram dizimadas de forma milagrosa.",
+      "references": ["2 Reis 18-19", "Isaías 36:1, 37:36-37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Rei do Império Neoassírio que invadiu Judá em 701 AEC",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:assiria",
+      "kind": "place",
+      "label": "Assíria",
+      "aliases": [],
+      "summary": "Potência militar expansionista do século VIII AEC, instrumento de castigo divino",
+      "references": ["Isaías 10:5, 19:23, 37:37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:babilonia",
+      "kind": "place",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Capital imperial neobabilônica, cenário de exílio, opressão cultural e proclamação da soberania divina por meio de milagres na corte.",
+      "references": [
+        "2 Reis 20, 24-25",
+        "2Cr 36:20",
+        "Isaías 13:1, 47:1, 48:14",
+        "Jer 25:12; 50:1-51:64",
+        "Daniel 1:1; 4:30; 5:30"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "geográfico/simbólico" }
+    },
+    {
+      "id": "place:egito",
+      "kind": "place",
+      "label": "Egito",
+      "aliases": [],
+      "summary": "Antiga casa de escravidão e símbolo de refúgio geopolítico falho para onde Israel ameaça retornar.",
+      "references": ["Isaías 19:1, 30:1-3, 31:1", "Oseias 7:11, 8:13, 11:5"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:jerusalem-siao",
+      "kind": "place",
+      "label": "Jerusalém (Sião)",
+      "aliases": [],
+      "summary": "Capital do Reino de Judá e centro do culto oficial, descrita simultaneamente como cidade rebelde e morada da habitação divina",
+      "references": [
+        "2 Sm 5:6-9; 6:12-19",
+        "1Rs 2, 6, 8, 14",
+        "Isaías 1:1, 2:3, 33:20",
+        "Jer 2:2; 19:1-15; 39:1-8",
+        "Lamentações 1:1, 2:6, 4:11",
+        "Obadias 1:11, 1:17, 1:21",
+        "Miqueias 1:5; 3:12; 4:1-2",
+        "Sofonias 1:4; 3:14",
+        "Zacarias 1:14, 2:4, 8:3",
+        "Ml 1:5; 2:11; 3:1"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Teológico" }
+    },
+    {
+      "id": "place:o-deserto",
+      "kind": "place",
+      "label": "O Deserto",
+      "aliases": [],
+      "summary": "Cenário de preparação, retiro espiritual, combate com Satanás e locus da voz profética de João Batista.",
+      "references": ["Isaías 35:1-6, 40:3, 43:19", "Mc 1.3; 1.12-13; 1.35"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Simbólico / Geográfico" }
+    },
+    {
+      "id": "prophecy:1-joao-a-promessa-da-vida-eterna-feita-por-deus-1-joao-2-25",
+      "kind": "prophecy",
+      "label": "A promessa da vida eterna feita por Deus (1 João 2:25)",
+      "aliases": [],
+      "summary": "Divergências: A promessa veterotestamentária de restauração é realizada na pessoa histórica de Jesus e consumada na filiação escatológica.",
+      "references": [
+        "Gênesis 3:15 (Protoevangelho); Profecias do Servo Sofredor em Isaías 53"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / recepção posterior" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "kind": "prophecy",
+      "label": "1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")",
+      "aliases": [],
+      "summary": "Leitores fundamentalistas interpretam como evento físico de arrebatamento secreto ou espetacular; a erudição crítica vê linguagem apocalíptica tradicional adaptada para afirmar a soberania de Cristo sobre os poderes imperiais.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / tradição escatológica" }
+    },
+    {
+      "id": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "kind": "prophecy",
+      "label": "1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")",
+      "aliases": [],
+      "summary": "Conexão com os oráculos veterotestamentários sobre o Dia do Senhor e o slogan político imperial \"Pax et Securitas\"; divergência entre previsão cronológica e advertência ética de vigilância.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / eco profético" }
+    },
+    {
+      "id": "prophecy:2-cronicas-a-profecia-de-jaaziel-sobre-a-batalha-de-josafa-2cr-20-15-17",
+      "kind": "prophecy",
+      "label": "A Profecia de Jaaziel sobre a Batalha de Josafá (2Cr 20:15-17)",
+      "aliases": [],
+      "summary": "Interpretada criticamente como composição exílica com tom litúrgico-sapiencial, enquanto leituras confessionais a veem como intervenção profética autêntica em crise militar.",
+      "references": ["2Cr 32, Is 37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo" }
+    },
+    {
+      "id": "prophecy:2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1",
+      "kind": "prophecy",
+      "label": "O Edito de Ciro e a Restauração (2Cr 36:22-23 / Is 44:28 - 45:1)",
+      "aliases": [],
+      "summary": "Visto como o cumprimento histórico da profecia de Isaías sobre o ungüento persa, avaliado criticamente como legitimação política da política imperial aquemênida.",
+      "references": ["Esd 1, Is 45"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias",
+      "kind": "prophecy",
+      "label": "A profecia sobre os escarnecedores nos últimos dias",
+      "aliases": [],
+      "summary": "Os zombadores céticos que questionam a parúsia são interpretados como cumprimento de expectativas escatológicas sobre a crise final.",
+      "references": ["Sl 1:1; Is 5:19; 2Pe 3:3-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo / Reinterpretação" }
+    },
+    {
+      "id": "prophecy:2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22",
+      "kind": "prophecy",
+      "label": "A promessa do novo céu e nova terra (Isaías 65:17, 66:22)",
+      "aliases": [],
+      "summary": "2 Pedro reelabora a profecia veterotestamentária de restauração cósmica para fundamentar a dissolução elementar pelo fogo e a recriação ética.",
+      "references": ["Is 65:17; Ap 21:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Recepção posterior" }
+    },
+    {
+      "id": "prophecy:2-reis-a-profecia-de-isaias-sobre-a-invasao-de-senaqueribe-e-o-remanescente-2-reis-19-20-34",
+      "kind": "prophecy",
+      "label": "A profecia de Isaías sobre a invasão de Senaqueribe e o remanescente (2 Reis 19:20-34)",
+      "aliases": [],
+      "summary": "Debate sobre a historicidade do relato milagroso de 185 mil mortos versus crônicas assírias.",
+      "references": ["Isaías 37:21-35"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / citação" }
+    },
+    {
+      "id": "prophecy:amos-amos-5-21-24-odeio-desprezo-as-vossas-festas",
+      "kind": "prophecy",
+      "label": "Amós 5:21-24 (\"Odeio, desprezo as vossas festas...\")",
+      "aliases": [],
+      "summary": "Estabelece o cânone profético clássico contra o ritualismo vazio, influenciando toda a tradição profética pré-exílica.",
+      "references": ["Isaías 1:11-17; Miqueias 6:6-8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo de contraste ético" }
+    },
+    {
+      "id": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "kind": "prophecy",
+      "label": "Isaías 65:17 — Apocalipse 21:1",
+      "aliases": [],
+      "summary": "A promessa de novos céus e nova terra; divergências entre aniquilação material do cosmos e renovação qualitativa e redentora da criação.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/tipologia" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 2:1 (\"Eu sou a rosa de Sarom, o lírio dos vales\")",
+      "aliases": [],
+      "summary": "Expressão apropriada na liturgia cristã e na iconografia medieval como título cristológico ou mariano, embora no contexto original seja a autoavaliação humilde da mulher.",
+      "references": ["Isaías 35:1–2; Mateus 6:28"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor",
+      "kind": "prophecy",
+      "label": "Cântico dos Cânticos 8:6 (\"o fogo do Senhor, labareda do Senhor\")",
+      "aliases": [],
+      "summary": "Enquanto o texto original exalta a intensidade inextinguível do amor eros humano, a tradição teológica posterior o conecta ao amor ágape e à perseverança na aliança com Deus.",
+      "references": ["Isaías 43:2; Romanos 8:35-39"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:esdras-o-decreto-de-libertacao-por-ciro",
+      "kind": "prophecy",
+      "label": "O decreto de libertação por Ciro",
+      "aliases": [],
+      "summary": "Cumprimento literal da profecia de Isaías sobre Ciro nomeado como pastor e ungido de YHWH, debatido entre cumprimento preditivo exato e ex-eventu.",
+      "references": ["Isaías 44.28; 45.1; Esdras 1.1–3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / cumprimento histórico" }
+    },
+    {
+      "id": "prophecy:ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele",
+      "kind": "prophecy",
+      "label": "Ester 6:13 (\"Se Mardoqueu... é da descendência dos judeus, não prevalecerás contra ele...\")",
+      "aliases": [],
+      "summary": "O aviso de Zeres e dos sábios de Amã preanuncia a inviolabilidade do pacto divino com Israel; divergência entre leitura teológica de proteção covenantal e fatalismo narrativo.",
+      "references": ["Is 54:17; Zc 2:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / reversão profética" }
+    },
+    {
+      "id": "prophecy:ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos",
+      "kind": "prophecy",
+      "label": "Ezequiel 37:1-14 (O Vale dos Ossos Secos)",
+      "aliases": [],
+      "summary": "Como as interpretações divergem: O contexto primário refere-se claramente à restauração sociopolítica de Israel do exílio, mas na recepção judaica e cristã posterior passou a ser interpretado como prova tipológica da ressurreição corporal individual dos mortos.",
+      "references": ["Textos relacionados: Isaías 26:19; Romanos 11:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipo: Tipologia / Oráculo de ressurreição" }
+    },
+    {
+      "id": "prophecy:genesis-gn-12-1-3-abraao-e-as-familias-da-terra",
+      "kind": "prophecy",
+      "label": "Abraão e as famílias da terra",
+      "aliases": [],
+      "summary": "A eleição de Abraão é formulada como bênção pública, não como privilégio fechado.",
+      "references": [
+        "Gn 12:1–3",
+        "Gn 18:18",
+        "Is 49:6",
+        "At 3:25",
+        "Gl 3:8–14"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "Paulo usa a promessa como chave para pensar a inclusão das nações; a continuidade deve ser estudada sem apagar o contexto de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor",
+      "kind": "prophecy",
+      "label": "Habacuque 2:14 (\"A terra se encherá do conhecimento da glória do Senhor\")",
+      "aliases": [],
+      "summary": "Conecta a promessa profética de Habacuque com a escatologia cósmica messiânica de Isaías sobre a erradicação universal da violência.",
+      "references": ["Isaías 11:9; Números 14:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera",
+      "kind": "prophecy",
+      "label": "Isaías 7:14 — Emanuel (\"Eis que a virgem conceberá...\")",
+      "aliases": [],
+      "summary": "Diverge entre o contexto histórico original (sinal político do século VIII AEC sobre o fim da ameaça siro-efraimita) e a releitura messiânica neo-testamentária da encarnação virginal.",
+      "references": ["Mateus 1:22-23, Isaías 8:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação/oráculo/recepção posterior" }
+    },
+    {
+      "id": "prophecy:jo-jo-42-7-8-meu-servo-jo-orara-por-vos",
+      "kind": "prophecy",
+      "label": "Jó 42:7-8 (\"...meu servo Jó orará por vós...\")",
+      "aliases": [],
+      "summary": "A função sacerdotal e intercessora do sofredor que intercede por seus difamadores, antecipando o papel vicário do Servo Sofredor.",
+      "references": ["Gênesis 20:7; Isaías 53:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:joel-joel-3-10-infundi-animo-aos-valentes-da-vossa-espada-facam-relhas-de-arado",
+      "kind": "prophecy",
+      "label": "Joel 3:10 (\"Infundi ânimo aos valentes... da vossa espada façam relhas de arado\")",
+      "aliases": [],
+      "summary": "Enquanto Isaías e Miquéias falam de transformar espadas em relhas de arado para a paz messiânica, Joel inverte a ordem (\"fazei espadas das vossas enxadas\") para o contexto de convocação bélica ao juízo.",
+      "references": ["Isaías 2:4; Miquéias 4:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão / Inversão" }
+    },
+    {
+      "id": "prophecy:levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10",
+      "kind": "prophecy",
+      "label": "\"E santificareis o ano quinquagésimo... ano de jubileu\" (Lv 25:10)",
+      "aliases": [],
+      "summary": "Jesus aplica o texto do Jubileu em Nazaré para inaugurar o ano aceitável do Senhor, gerando debates entre leituras literais e escatológicas.",
+      "references": ["Is 61:1-2; Lc 4:18-19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão / messianismo socioeconômico" }
+    },
+    {
+      "id": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "kind": "prophecy",
+      "label": "O ritual do Bode Expiatório (Lv 16:8-10, 21-22)",
+      "aliases": [],
+      "summary": "Visto por autores neotestamentários como tipo prefigurativo do sacrifício perfeito de Cristo que remove definitivamente o pecado.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / foreshadowing soteriológico" }
+    },
+    {
+      "id": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "kind": "prophecy",
+      "label": "Malaquias 3:1 ('Eis que envio o meu mensageiro...')",
+      "aliases": [],
+      "summary": "Diverge entre a aplicação veterotestamentária imediata e a exegese sinótica que o aplica diretamente a João Batista como precursor do Messias.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação" }
+    },
+    {
+      "id": "prophecy:miqueias-miqueias-4-1-3-nos-ultimos-dias-acontecera-que-o-monte-da-casa-de-yahweh-sera-estabelecido",
+      "kind": "prophecy",
+      "label": "Miqueias 4:1-3 (\"Nos últimos dias acontecerá que o monte da casa de Yahweh será estabelecido...\")",
+      "aliases": [],
+      "summary": "Identidade textual quase idêntica com Isaías levanta debates literários sobre dependência textual mútua ou fonte comum anterior.",
+      "references": ["Isaías 2:2-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "citação paralela / oráculo escatológico" }
+    },
+    {
+      "id": "prophecy:naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8",
+      "kind": "prophecy",
+      "label": "\"E Nínive era como um tanque de águas...\" (Naum 2:8)",
+      "aliases": [],
+      "summary": "Profecias convergentes que anunciam o fim catastrófico da superpotência assíria.",
+      "references": ["Isaías 10:12; Sofonias 2:13-15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Oráculo/Recepção histórica" }
+    },
+    {
+      "id": "prophecy:naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15",
+      "kind": "prophecy",
+      "label": "\"Eis sobre os montículos os pés do que traz boas-novas...\" (Naum 1:15)",
+      "aliases": [],
+      "summary": "Enquanto Naum aplica o oráculo à queda da Assíria e ao alívio de Judá, Paulo reutiliza a imagem escatologicamente para a proclamação universal do evangelho.",
+      "references": ["Isaías 52:7; Romanos 10:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Alusão/Tipologia" }
+    },
+    {
+      "id": "prophecy:neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados",
+      "kind": "prophecy",
+      "label": "Isaías 58:12 (\"Os que de ti procederem edificarão os lugares antigamente desolados...\")",
+      "aliases": [],
+      "summary": "A reconstrução das muralhas de Jerusalém por Neemias é vista retrospectivamente como cumprimento ou eco da promessa profética de restauração das ruínas ancestrais.",
+      "references": ["Neemias 3; Isaías 58"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "kind": "prophecy",
+      "label": "\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)",
+      "aliases": [],
+      "summary": "Interpretado na tradição judaica (e messiânica cristã) como uma profecia escatológica sobre a realeza davídica e o Messias, enquanto a erudição crítica o data no contexto da monarquia antiga (período davídico-salomônico) como legitimação da expansão imperial israelita.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / tipologia" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama",
+      "kind": "prophecy",
+      "label": "Obadias 1:18 (\"E a casa de Jacó será fogo, e a casa de José chama...\")",
+      "aliases": [],
+      "summary": "Reinterpretação da imagem ígnea do julgamento de Israel contra as nações vizinhas, associada na literatura apocalíptica posterior ao triunfo escatológico de Deus.",
+      "references": ["Isaías 10:17; Números 24:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia" }
+    },
+    {
+      "id": "prophecy:rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus",
+      "kind": "prophecy",
+      "label": "Rute 1:16 (\"O teu povo é o meu povo, o teu Deus é o meu Deus\")",
+      "aliases": [],
+      "summary": "Enquanto a teologia deuteronômica pós-exílica debatia a exclusão rigorosa de estrangeiros, a confissão de Rute antecipa o universalismo escatológico profético de inclusão dos gentios no Templo e na aliança.",
+      "references": ["Isaías 56:3-6; Zacarias 2:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto",
+      "kind": "prophecy",
+      "label": "Rute 4:14-15 (O resgate de Noemi e a restauração pelo neto)",
+      "aliases": [],
+      "summary": "A figura do redentor familiar (go'el) e o nascimento do ancestral davídico em Belém funcionam como protótipo tipológico da redenção messiânica que emanará de Belém.",
+      "references": ["Salmos 72; Isaías 9:6-7; Miqueias 5:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto",
+      "kind": "prophecy",
+      "label": "Sofonias 2:13-15 (\"E fará de Nínive um deserto...\")",
+      "aliases": [],
+      "summary": "O cumprimento literal da profecia contra Nínive (destruída em 612 a.C. por babilônios e medos) é tomado por historiadores como prova de predição vaticinium ex eventu ou genuína antecipação profética, gerando divergências quanto à datação exata do texto.",
+      "references": ["Naum 3:1-19 e Isaías 13:19-22"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo histórico-profético" }
+    },
+    {
+      "id": "prophecy:sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos",
+      "kind": "prophecy",
+      "label": "Sofonias 3:9 (\"Então porei lábios puros nos povos...\")",
+      "aliases": [],
+      "summary": "A promessa de universalidade cultual onde nações pagãs invocam Iavé em uníssono antecipa a teologia missionária do Novo Testamento, sendo interpretada por exegetas cristãos como cumprimento Pentecostal e escatológico em Cristo.",
+      "references": ["Isaías 19:24-25 e Zacarias 14:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "recepção posterior" }
+    },
+    {
+      "id": "prophecy:tiago-e-cria-abraao-em-deus-e-isso-lhe-foi-imputado-como-justica-e-foi-chamado-amigo-de-deus",
+      "kind": "prophecy",
+      "label": "\"E cria Abraão em Deus, e isso lhe foi imputado como justiça, e foi chamado amigo de Deus\"",
+      "aliases": [],
+      "summary": "Tiago utiliza o texto de Gênesis sobre a justificação de Abraão combinando-o com o título de \"amigo de Deus\" para provar a união indissolúvel entre crença e ação, diferindo da leitura estritamente forense de Paulo em Romanos 4.",
+      "references": ["Gênesis 15:6; Isaías 41:8; 2 Crônicas 20:7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:tito-tito-2-13",
+      "kind": "prophecy",
+      "label": "Tito 2:13",
+      "aliases": [],
+      "summary": "Expectativa da parúsia como culminação da esperança cristã fundamentada na teologia da glória divina.",
+      "references": [
+        "Isaías 40:5; Profecias veterotestamentárias sobre a teofania messiânica"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / escatologia" }
+    },
+    {
+      "id": "term:qadosh",
+      "kind": "term",
+      "label": "Qadosh",
+      "aliases": ["קָדוֹשׁ", "qādôš"],
+      "summary": "Separado, distinto, consagrado ou pertencente a uma esfera de santidade; a ideia de separação não elimina a dimensão ética.",
+      "references": ["Êx 19:5–6", "Lv 19:1–18", "Is 6:1–8"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["qadosh"],
+      "attributes": {
+        "language": "Hebraico",
+        "semanticRange": "O termo percorre a distinção cultual, a alteridade divina e a convocação de uma comunidade a refletir a justiça de Deus.",
+        "translationNote": "‘Santo’ preserva a tradição, mas a interpretação precisa mostrar como o texto transforma santidade em prática comunitária, não apenas em distância ritual."
+      }
+    },
+    {
+      "id": "theme:ano-do-jubileu",
+      "kind": "theme",
+      "label": "Ano do Jubileu",
+      "aliases": [],
+      "summary": "A cada 50 anos, dívidas são perdoadas, escravos libertados e terras retornam às famílias originais",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Lei socioeconômica de restituição",
+        "entityType": "Instituição"
+      }
+    },
+    {
+      "id": "theme:assiria",
+      "kind": "theme",
+      "label": "Assíria",
+      "aliases": [],
+      "summary": "Império expansionista responsável pela destruição do Reino do Norte (Samaria) em 722 a.C.",
+      "references": ["2 Reis 15-18", "Isaías 10:5, 14:25, 37:37"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Potência militar hegemônica imperial utilizada por Javé como instrumento de castigo e exílio para o Reino do Norte em 722 BCE.",
+        "entityType": "Povo / Império"
+      }
+    },
+    {
+      "id": "theme:babilonia",
+      "kind": "theme",
+      "label": "Babilônia",
+      "aliases": [],
+      "summary": "Símbolo do cativeiro e da oposição imperial ao reino de Deus, centro de onde a carta foi escrita.",
+      "references": ["2 Reis 24-25", "Isaías 13:1, 39:6, 47:1", "1Pe 5:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Metonímia teológica para a cidade de Roma imperial corrupta e perseguidora.",
+        "entityType": "Lugar"
+      }
+    },
+    {
+      "id": "theme:emanuel",
+      "kind": "theme",
+      "label": "Emanuel",
+      "aliases": [],
+      "summary": "Sinal divino dado a Acaz em meio à crise siro-efraimita, com ressonância messiânica profunda",
+      "references": ["Isaías 7:14, 8:8, 8:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Nome ou título profético que significa \"Deus conosco\"",
+        "entityType": "Pessoa/Conceito"
+      }
+    },
+    {
+      "id": "theme:o-remanescente",
+      "kind": "theme",
+      "label": "O Remanescente",
+      "aliases": [],
+      "summary": "Corpo teológico que herdará as promessas da aliança renovada",
+      "references": ["Isaías 10:20-22, 11:11"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo fiel preservado por Deus após o juízo purificador",
+        "entityType": "Conceito"
+      }
+    },
+    {
+      "id": "theme:o-servo-de-jave",
+      "kind": "theme",
+      "label": "O Servo de Javé",
+      "aliases": [],
+      "summary": "Agente de salvação e luz para as nações cuja identidade oscila entre a nação personificada e um indivíduo messiânico",
+      "references": ["Isaías 42:1-4, 52:13-53:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Figura enigmática dos Cânticos do Servo que cumpre a missão de Israel através do sofrimento vicário",
+        "entityType": "Pessoa/Conceito"
+      }
+    },
+    {
+      "id": "theme:serpente",
+      "kind": "theme",
+      "label": "Serpente",
+      "aliases": [],
+      "summary": "Gênesis não chama a serpente de Satanás; essa identificação se desenvolve na recepção judaica e cristã posterior. Dentro da cena, ela opera por pergunta, reinterpretação e suspeita: transforma o limite em privação e o conhecimento em promessa de autonomia. A conexão posterior com o adversário deve ser marcada como leitura canônica posterior, não como se o capítulo já oferecesse toda a demonologia cristã.",
+      "references": ["Gn 3:1–15", "Is 27:1", "Jo 8:44", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["serpent"],
+      "attributes": {
+        "role": "voz de contestação no jardim",
+        "tags": ["tentação", "mal", "símbolo", "recepção"]
+      }
+    },
+    {
+      "id": "theme:siao-jerusalem",
+      "kind": "theme",
+      "label": "Sião / Jerusalém",
+      "aliases": [],
+      "summary": "Monte santo onde reside a presença de YHWH e de onde brota a salvação e a fonte para o vale de Acitim.",
+      "references": [
+        "2 Sm 5, 6",
+        "Sl 48, 78, 125, 132",
+        "Isaías 1:8, 2:3, 52:1",
+        "Joel 2:32, 3:16-18"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Centro cultual e refúgio inviolável para os que invocam o nome do Senhor",
+        "entityType": "Lugar / Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:person-ciro-o-grande:chapter-isaias-44",
+      "from": "person:ciro-o-grande",
+      "to": "chapter:isaias:44",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro o Grande” cita explicitamente Isaías 44:28, 45:1.",
+      "references": ["Isaías 44:28, 45:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ciro-o-grande:chapter-isaias-45",
+      "from": "person:ciro-o-grande",
+      "to": "chapter:isaias:45",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ciro o Grande” cita explicitamente Isaías 44:28, 45:1.",
+      "references": ["Isaías 44:28, 45:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-isaias-36",
+      "from": "person:ezequias",
+      "to": "chapter:isaias:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente Isaías 36:1, 38:5, 39:8.",
+      "references": ["Isaías 36:1, 38:5, 39:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-isaias-38",
+      "from": "person:ezequias",
+      "to": "chapter:isaias:38",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente Isaías 36:1, 38:5, 39:8.",
+      "references": ["Isaías 36:1, 38:5, 39:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-ezequias:chapter-isaias-39",
+      "from": "person:ezequias",
+      "to": "chapter:isaias:39",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequias” cita explicitamente Isaías 36:1, 38:5, 39:8.",
+      "references": ["Isaías 36:1, 38:5, 39:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-isaias-ben-amoz:chapter-isaias-1",
+      "from": "person:isaias-ben-amoz",
+      "to": "chapter:isaias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías ben Amoz” cita explicitamente Isaías 1:1, 6:1, 37:2.",
+      "references": ["Isaías 1:1, 6:1, 37:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-isaias-ben-amoz:chapter-isaias-37",
+      "from": "person:isaias-ben-amoz",
+      "to": "chapter:isaias:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías ben Amoz” cita explicitamente Isaías 1:1, 6:1, 37:2.",
+      "references": ["Isaías 1:1, 6:1, 37:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-isaias-ben-amoz:chapter-isaias-6",
+      "from": "person:isaias-ben-amoz",
+      "to": "chapter:isaias:6",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías ben Amoz” cita explicitamente Isaías 1:1, 6:1, 37:2.",
+      "references": ["Isaías 1:1, 6:1, 37:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-noe:chapter-isaias-54",
+      "from": "person:noe",
+      "to": "chapter:isaias:54",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Noé” cita explicitamente Is 54:9–10.",
+      "references": ["Is 54:9–10"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-senaqueribe:chapter-isaias-36",
+      "from": "person:senaqueribe",
+      "to": "chapter:isaias:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Senaqueribe” cita explicitamente Isaías 36:1, 37:36-37.",
+      "references": ["Isaías 36:1, 37:36-37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-senaqueribe:chapter-isaias-37",
+      "from": "person:senaqueribe",
+      "to": "chapter:isaias:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Senaqueribe” cita explicitamente Isaías 36:1, 37:36-37.",
+      "references": ["Isaías 36:1, 37:36-37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-assiria:chapter-isaias-10",
+      "from": "place:assiria",
+      "to": "chapter:isaias:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 19:23, 37:37.",
+      "references": ["Isaías 10:5, 19:23, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-assiria:chapter-isaias-19",
+      "from": "place:assiria",
+      "to": "chapter:isaias:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 19:23, 37:37.",
+      "references": ["Isaías 10:5, 19:23, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-assiria:chapter-isaias-37",
+      "from": "place:assiria",
+      "to": "chapter:isaias:37",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 19:23, 37:37.",
+      "references": ["Isaías 10:5, 19:23, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-isaias-13",
+      "from": "place:babilonia",
+      "to": "chapter:isaias:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 47:1, 48:14.",
+      "references": ["Isaías 13:1, 47:1, 48:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-isaias-47",
+      "from": "place:babilonia",
+      "to": "chapter:isaias:47",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 47:1, 48:14.",
+      "references": ["Isaías 13:1, 47:1, 48:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-babilonia:chapter-isaias-48",
+      "from": "place:babilonia",
+      "to": "chapter:isaias:48",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 47:1, 48:14.",
+      "references": ["Isaías 13:1, 47:1, 48:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-isaias-19",
+      "from": "place:egito",
+      "to": "chapter:isaias:19",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Isaías 19:1, 30:1-3, 31:1.",
+      "references": ["Isaías 19:1, 30:1-3, 31:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-isaias-30",
+      "from": "place:egito",
+      "to": "chapter:isaias:30",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Isaías 19:1, 30:1-3, 31:1.",
+      "references": ["Isaías 19:1, 30:1-3, 31:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-egito:chapter-isaias-31",
+      "from": "place:egito",
+      "to": "chapter:isaias:31",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Egito” cita explicitamente Isaías 19:1, 30:1-3, 31:1.",
+      "references": ["Isaías 19:1, 30:1-3, 31:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-isaias-1",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:isaias:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Isaías 1:1, 2:3, 33:20.",
+      "references": ["Isaías 1:1, 2:3, 33:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-isaias-2",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:isaias:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Isaías 1:1, 2:3, 33:20.",
+      "references": ["Isaías 1:1, 2:3, 33:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-jerusalem-siao:chapter-isaias-33",
+      "from": "place:jerusalem-siao",
+      "to": "chapter:isaias:33",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Jerusalém (Sião)” cita explicitamente Isaías 1:1, 2:3, 33:20.",
+      "references": ["Isaías 1:1, 2:3, 33:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto:chapter-isaias-35",
+      "from": "place:o-deserto",
+      "to": "chapter:isaias:35",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto” cita explicitamente Isaías 35:1-6, 40:3, 43:19.",
+      "references": ["Isaías 35:1-6, 40:3, 43:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto:chapter-isaias-40",
+      "from": "place:o-deserto",
+      "to": "chapter:isaias:40",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto” cita explicitamente Isaías 35:1-6, 40:3, 43:19.",
+      "references": ["Isaías 35:1-6, 40:3, 43:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-deserto:chapter-isaias-43",
+      "from": "place:o-deserto",
+      "to": "chapter:isaias:43",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Deserto” cita explicitamente Isaías 35:1-6, 40:3, 43:19.",
+      "references": ["Isaías 35:1-6, 40:3, 43:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-joao-a-promessa-da-vida-eterna-feita-por-deus-1-joao-2-25:chapter-isaias-53",
+      "from": "prophecy:1-joao-a-promessa-da-vida-eterna-feita-por-deus-1-joao-2-25",
+      "to": "chapter:isaias:53",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa da vida eterna feita por Deus (1 João 2:25)” cita explicitamente Gênesis 3:15 (Protoevangelho); Profecias do Servo Sofredor em Isaías 53.",
+      "references": [
+        "Gênesis 3:15 (Protoevangelho); Profecias do Servo Sofredor em Isaías 53"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido:chapter-isaias-27",
+      "from": "prophecy:1-tessalonicenses-1-ts-4-16-porque-o-mesmo-senhor-descera-do-ceu-com-alarido",
+      "to": "chapter:isaias:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 4:16 (\"Porque o mesmo Senhor descerá do céu com alarido...\")” cita explicitamente Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52.",
+      "references": ["Sl 47:5; Is 27:13; Mt 24:31; 1 Co 15:52"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca:chapter-isaias-13",
+      "from": "prophecy:1-tessalonicenses-1-ts-5-2-3-o-dia-do-senhor-vira-como-o-ladrao-de-noite-paz-e-seguranca",
+      "to": "chapter:isaias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Ts 5:2-3 (\"...o dia do Senhor virá como o ladrão de noite... Paz e segurança\")” cita explicitamente Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10.",
+      "references": ["Is 13:6-9; Jr 6:14; Mt 24:43; 2 Pe 3:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-a-profecia-de-jaaziel-sobre-a-batalha-de-josafa-2cr-20-15-17:chapter-isaias-37",
+      "from": "prophecy:2-cronicas-a-profecia-de-jaaziel-sobre-a-batalha-de-josafa-2cr-20-15-17",
+      "to": "chapter:isaias:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A Profecia de Jaaziel sobre a Batalha de Josafá (2Cr 20:15-17)” cita explicitamente 2Cr 32, Is 37.",
+      "references": ["2Cr 32, Is 37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1:chapter-isaias-45",
+      "from": "prophecy:2-cronicas-o-edito-de-ciro-e-a-restauracao-2cr-36-22-23-is-44-28-45-1",
+      "to": "chapter:isaias:45",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O Edito de Ciro e a Restauração (2Cr 36:22-23 / Is 44:28 - 45:1)” cita explicitamente Esd 1, Is 45.",
+      "references": ["Esd 1, Is 45"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias:chapter-isaias-5",
+      "from": "prophecy:2-pedro-a-profecia-sobre-os-escarnecedores-nos-ultimos-dias",
+      "to": "chapter:isaias:5",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia sobre os escarnecedores nos últimos dias” cita explicitamente Sl 1:1; Is 5:19; 2Pe 3:3-4.",
+      "references": ["Sl 1:1; Is 5:19; 2Pe 3:3-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22:chapter-isaias-65",
+      "from": "prophecy:2-pedro-a-promessa-do-novo-ceu-e-nova-terra-isaias-65-17-66-22",
+      "to": "chapter:isaias:65",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A promessa do novo céu e nova terra (Isaías 65:17, 66:22)” cita explicitamente Is 65:17; Ap 21:1.",
+      "references": ["Is 65:17; Ap 21:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-2-reis-a-profecia-de-isaias-sobre-a-invasao-de-senaqueribe-e-o-remanescente-2-reis-19-20-34:chapter-isaias-37",
+      "from": "prophecy:2-reis-a-profecia-de-isaias-sobre-a-invasao-de-senaqueribe-e-o-remanescente-2-reis-19-20-34",
+      "to": "chapter:isaias:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “A profecia de Isaías sobre a invasão de Senaqueribe e o remanescente (2 Reis 19:20-34)” cita explicitamente Isaías 37:21-35.",
+      "references": ["Isaías 37:21-35"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-amos-amos-5-21-24-odeio-desprezo-as-vossas-festas:chapter-isaias-1",
+      "from": "prophecy:amos-amos-5-21-24-odeio-desprezo-as-vossas-festas",
+      "to": "chapter:isaias:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Amós 5:21-24 (\"Odeio, desprezo as vossas festas...\")” cita explicitamente Isaías 1:11-17; Miqueias 6:6-8.",
+      "references": ["Isaías 1:11-17; Miqueias 6:6-8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-isaias-65-17-apocalipse-21-1:chapter-isaias-65",
+      "from": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "to": "chapter:isaias:65",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 65:17 — Apocalipse 21:1” cita explicitamente Isaías 65-66; 2 Pedro 3; Apocalipse 21.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-apocalipse-isaias-65-17-apocalipse-21-1:chapter-isaias-66",
+      "from": "prophecy:apocalipse-isaias-65-17-apocalipse-21-1",
+      "to": "chapter:isaias:66",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 65:17 — Apocalipse 21:1” cita explicitamente Isaías 65-66; 2 Pedro 3; Apocalipse 21.",
+      "references": ["Isaías 65-66; 2 Pedro 3; Apocalipse 21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales:chapter-isaias-35",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-2-1-eu-sou-a-rosa-de-sarom-o-lirio-dos-vales",
+      "to": "chapter:isaias:35",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 2:1 (\"Eu sou a rosa de Sarom, o lírio dos vales\")” cita explicitamente Isaías 35:1–2; Mateus 6:28.",
+      "references": ["Isaías 35:1–2; Mateus 6:28"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor:chapter-isaias-43",
+      "from": "prophecy:cantico-dos-canticos-cantico-dos-canticos-8-6-o-fogo-do-senhor-labareda-do-senhor",
+      "to": "chapter:isaias:43",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Cântico dos Cânticos 8:6 (\"o fogo do Senhor, labareda do Senhor\")” cita explicitamente Isaías 43:2; Romanos 8:35-39.",
+      "references": ["Isaías 43:2; Romanos 8:35-39"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-decreto-de-libertacao-por-ciro:chapter-isaias-44",
+      "from": "prophecy:esdras-o-decreto-de-libertacao-por-ciro",
+      "to": "chapter:isaias:44",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O decreto de libertação por Ciro” cita explicitamente Isaías 44.28; 45.1; Esdras 1.1–3.",
+      "references": ["Isaías 44.28; 45.1; Esdras 1.1–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-esdras-o-decreto-de-libertacao-por-ciro:chapter-isaias-45",
+      "from": "prophecy:esdras-o-decreto-de-libertacao-por-ciro",
+      "to": "chapter:isaias:45",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O decreto de libertação por Ciro” cita explicitamente Isaías 44.28; 45.1; Esdras 1.1–3.",
+      "references": ["Isaías 44.28; 45.1; Esdras 1.1–3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele:chapter-isaias-54",
+      "from": "prophecy:ester-ester-6-13-se-mardoqueu-e-da-descendencia-dos-judeus-nao-prevaleceras-contra-ele",
+      "to": "chapter:isaias:54",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ester 6:13 (\"Se Mardoqueu... é da descendência dos judeus, não prevalecerás contra ele...\")” cita explicitamente Is 54:17; Zc 2:8.",
+      "references": ["Is 54:17; Zc 2:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos:chapter-isaias-26",
+      "from": "prophecy:ezequiel-ezequiel-37-1-14-o-vale-dos-ossos-secos",
+      "to": "chapter:isaias:26",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Ezequiel 37:1-14 (O Vale dos Ossos Secos)” cita explicitamente Textos relacionados: Isaías 26:19; Romanos 11:15.",
+      "references": ["Textos relacionados: Isaías 26:19; Romanos 11:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-12-1-3-abraao-e-as-familias-da-terra:chapter-isaias-49",
+      "from": "prophecy:genesis-gn-12-1-3-abraao-e-as-familias-da-terra",
+      "to": "chapter:isaias:49",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Abraão e as famílias da terra” cita explicitamente Is 49:6.",
+      "references": ["Is 49:6"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor:chapter-isaias-11",
+      "from": "prophecy:habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor",
+      "to": "chapter:isaias:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:14 (\"A terra se encherá do conhecimento da glória do Senhor\")” cita explicitamente Isaías 11:9; Números 14:21.",
+      "references": ["Isaías 11:9; Números 14:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera:chapter-isaias-8",
+      "from": "prophecy:isaias-isaias-7-14-emanuel-eis-que-a-virgem-concebera",
+      "to": "chapter:isaias:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 7:14 — Emanuel (\"Eis que a virgem conceberá...\")” cita explicitamente Mateus 1:22-23, Isaías 8:8.",
+      "references": ["Mateus 1:22-23, Isaías 8:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-jo-jo-42-7-8-meu-servo-jo-orara-por-vos:chapter-isaias-53",
+      "from": "prophecy:jo-jo-42-7-8-meu-servo-jo-orara-por-vos",
+      "to": "chapter:isaias:53",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó 42:7-8 (\"...meu servo Jó orará por vós...\")” cita explicitamente Gênesis 20:7; Isaías 53:12.",
+      "references": ["Gênesis 20:7; Isaías 53:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-joel-joel-3-10-infundi-animo-aos-valentes-da-vossa-espada-facam-relhas-de-arado:chapter-isaias-2",
+      "from": "prophecy:joel-joel-3-10-infundi-animo-aos-valentes-da-vossa-espada-facam-relhas-de-arado",
+      "to": "chapter:isaias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Joel 3:10 (\"Infundi ânimo aos valentes... da vossa espada façam relhas de arado\")” cita explicitamente Isaías 2:4; Miquéias 4:3.",
+      "references": ["Isaías 2:4; Miquéias 4:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10:chapter-isaias-61",
+      "from": "prophecy:levitico-e-santificareis-o-ano-quinquagesimo-ano-de-jubileu-lv-25-10",
+      "to": "chapter:isaias:61",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"E santificareis o ano quinquagésimo... ano de jubileu\" (Lv 25:10)” cita explicitamente Is 61:1-2; Lc 4:18-19.",
+      "references": ["Is 61:1-2; Lc 4:18-19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22:chapter-isaias-53",
+      "from": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "to": "chapter:isaias:53",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O ritual do Bode Expiatório (Lv 16:8-10, 21-22)” cita explicitamente Is 53:4-6; Jo 1:29; Hb 9:12-14.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro:chapter-isaias-40",
+      "from": "prophecy:malaquias-malaquias-3-1-eis-que-envio-o-meu-mensageiro",
+      "to": "chapter:isaias:40",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Malaquias 3:1 ('Eis que envio o meu mensageiro...')” cita explicitamente Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2.",
+      "references": ["Isaías 40:3; Êxodo 23:20; Mateus 11:10; Marcos 1:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-miqueias-miqueias-4-1-3-nos-ultimos-dias-acontecera-que-o-monte-da-casa-de-yahweh-sera-estabelecido:chapter-isaias-2",
+      "from": "prophecy:miqueias-miqueias-4-1-3-nos-ultimos-dias-acontecera-que-o-monte-da-casa-de-yahweh-sera-estabelecido",
+      "to": "chapter:isaias:2",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Miqueias 4:1-3 (\"Nos últimos dias acontecerá que o monte da casa de Yahweh será estabelecido...\")” cita explicitamente Isaías 2:2-4.",
+      "references": ["Isaías 2:2-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8:chapter-isaias-10",
+      "from": "prophecy:naum-e-ninive-era-como-um-tanque-de-aguas-naum-2-8",
+      "to": "chapter:isaias:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"E Nínive era como um tanque de águas...\" (Naum 2:8)” cita explicitamente Isaías 10:12; Sofonias 2:13-15.",
+      "references": ["Isaías 10:12; Sofonias 2:13-15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15:chapter-isaias-52",
+      "from": "prophecy:naum-eis-sobre-os-monticulos-os-pes-do-que-traz-boas-novas-naum-1-15",
+      "to": "chapter:isaias:52",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Eis sobre os montículos os pés do que traz boas-novas...\" (Naum 1:15)” cita explicitamente Isaías 52:7; Romanos 10:15.",
+      "references": ["Isaías 52:7; Romanos 10:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados:chapter-isaias-58",
+      "from": "prophecy:neemias-isaias-58-12-os-que-de-ti-procederem-edificarao-os-lugares-antigamente-desolados",
+      "to": "chapter:isaias:58",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Isaías 58:12 (\"Os que de ti procederem edificarão os lugares antigamente desolados...\")” cita explicitamente Neemias 3; Isaías 58.",
+      "references": ["Neemias 3; Isaías 58"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17:chapter-isaias-11",
+      "from": "prophecy:numeros-vejo-o-mas-nao-agora-contempla-lo-ei-mas-nao-de-perto-uma-estrela-procedera-de-jaco-e-um-cetro-se-levantara-de-israel-numeros-24-17",
+      "to": "chapter:isaias:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Vejo-o, mas não agora; contemplá-lo-ei, mas não de perto; uma estrela procederá de Jacó, e um cetro se levantará de Israel...\" (Números 24:17)” cita explicitamente Isaías 11:1; Apocalipse 22:16; Mateus 2:2.",
+      "references": ["Isaías 11:1; Apocalipse 22:16; Mateus 2:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama:chapter-isaias-10",
+      "from": "prophecy:obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama",
+      "to": "chapter:isaias:10",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:18 (\"E a casa de Jacó será fogo, e a casa de José chama...\")” cita explicitamente Isaías 10:17; Números 24:17.",
+      "references": ["Isaías 10:17; Números 24:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus:chapter-isaias-56",
+      "from": "prophecy:rute-rute-1-16-o-teu-povo-e-o-meu-povo-o-teu-deus-e-o-meu-deus",
+      "to": "chapter:isaias:56",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 1:16 (\"O teu povo é o meu povo, o teu Deus é o meu Deus\")” cita explicitamente Isaías 56:3-6; Zacarias 2:11.",
+      "references": ["Isaías 56:3-6; Zacarias 2:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto:chapter-isaias-9",
+      "from": "prophecy:rute-rute-4-14-15-o-resgate-de-noemi-e-a-restauracao-pelo-neto",
+      "to": "chapter:isaias:9",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Rute 4:14-15 (O resgate de Noemi e a restauração pelo neto)” cita explicitamente Salmos 72; Isaías 9:6-7; Miqueias 5:2.",
+      "references": ["Salmos 72; Isaías 9:6-7; Miqueias 5:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto:chapter-isaias-13",
+      "from": "prophecy:sofonias-sofonias-2-13-15-e-fara-de-ninive-um-deserto",
+      "to": "chapter:isaias:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 2:13-15 (\"E fará de Nínive um deserto...\")” cita explicitamente Naum 3:1-19 e Isaías 13:19-22.",
+      "references": ["Naum 3:1-19 e Isaías 13:19-22"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos:chapter-isaias-19",
+      "from": "prophecy:sofonias-sofonias-3-9-entao-porei-labios-puros-nos-povos",
+      "to": "chapter:isaias:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Sofonias 3:9 (\"Então porei lábios puros nos povos...\")” cita explicitamente Isaías 19:24-25 e Zacarias 14:9.",
+      "references": ["Isaías 19:24-25 e Zacarias 14:9"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tiago-e-cria-abraao-em-deus-e-isso-lhe-foi-imputado-como-justica-e-foi-chamado-amigo-de-deus:chapter-isaias-41",
+      "from": "prophecy:tiago-e-cria-abraao-em-deus-e-isso-lhe-foi-imputado-como-justica-e-foi-chamado-amigo-de-deus",
+      "to": "chapter:isaias:41",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"E cria Abraão em Deus, e isso lhe foi imputado como justiça, e foi chamado amigo de Deus\"” cita explicitamente Gênesis 15:6; Isaías 41:8; 2 Crônicas 20:7.",
+      "references": ["Gênesis 15:6; Isaías 41:8; 2 Crônicas 20:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-tito-tito-2-13:chapter-isaias-40",
+      "from": "prophecy:tito-tito-2-13",
+      "to": "chapter:isaias:40",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Tito 2:13” cita explicitamente Isaías 40:5; Profecias veterotestamentárias sobre a teofania messiânica.",
+      "references": [
+        "Isaías 40:5; Profecias veterotestamentárias sobre a teofania messiânica"
+      ],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-1:theme-siao-jerusalem",
+      "from": "chapter:isaias:1",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente Isaías 1:8, 2:3, 52:1.",
+      "references": ["Isaías 1:8, 2:3, 52:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-10:theme-assiria",
+      "from": "chapter:isaias:10",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 14:25, 37:37.",
+      "references": ["Isaías 10:5, 14:25, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-10:theme-o-remanescente",
+      "from": "chapter:isaias:10",
+      "to": "theme:o-remanescente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Remanescente” cita explicitamente Isaías 10:20-22, 11:11.",
+      "references": ["Isaías 10:20-22, 11:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-11:theme-o-remanescente",
+      "from": "chapter:isaias:11",
+      "to": "theme:o-remanescente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Remanescente” cita explicitamente Isaías 10:20-22, 11:11.",
+      "references": ["Isaías 10:20-22, 11:11"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-13:theme-babilonia",
+      "from": "chapter:isaias:13",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 39:6, 47:1.",
+      "references": ["Isaías 13:1, 39:6, 47:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-14:theme-assiria",
+      "from": "chapter:isaias:14",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 14:25, 37:37.",
+      "references": ["Isaías 10:5, 14:25, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-2:theme-siao-jerusalem",
+      "from": "chapter:isaias:2",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente Isaías 1:8, 2:3, 52:1.",
+      "references": ["Isaías 1:8, 2:3, 52:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-27:theme-serpente",
+      "from": "chapter:isaias:27",
+      "to": "theme:serpente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Serpente” cita explicitamente Is 27:1.",
+      "references": ["Is 27:1"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-37:theme-assiria",
+      "from": "chapter:isaias:37",
+      "to": "theme:assiria",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Assíria” cita explicitamente Isaías 10:5, 14:25, 37:37.",
+      "references": ["Isaías 10:5, 14:25, 37:37"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-39:theme-babilonia",
+      "from": "chapter:isaias:39",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 39:6, 47:1.",
+      "references": ["Isaías 13:1, 39:6, 47:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-42:theme-o-servo-de-jave",
+      "from": "chapter:isaias:42",
+      "to": "theme:o-servo-de-jave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Servo de Javé” cita explicitamente Isaías 42:1-4, 52:13-53:12.",
+      "references": ["Isaías 42:1-4, 52:13-53:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-47:theme-babilonia",
+      "from": "chapter:isaias:47",
+      "to": "theme:babilonia",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Babilônia” cita explicitamente Isaías 13:1, 39:6, 47:1.",
+      "references": ["Isaías 13:1, 39:6, 47:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-52:theme-o-servo-de-jave",
+      "from": "chapter:isaias:52",
+      "to": "theme:o-servo-de-jave",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Servo de Javé” cita explicitamente Isaías 42:1-4, 52:13-53:12.",
+      "references": ["Isaías 42:1-4, 52:13-53:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-52:theme-siao-jerusalem",
+      "from": "chapter:isaias:52",
+      "to": "theme:siao-jerusalem",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Sião / Jerusalém” cita explicitamente Isaías 1:8, 2:3, 52:1.",
+      "references": ["Isaías 1:8, 2:3, 52:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-53:doctrine-cura",
+      "from": "chapter:isaias:53",
+      "to": "doctrine:cura",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Cura divina e oração” cita explicitamente Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9.",
+      "references": ["Is 53:4–5; Mt 8:16–17; Tg 5:14–16; 1Co 12:9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-61:theme-ano-do-jubileu",
+      "from": "chapter:isaias:61",
+      "to": "theme:ano-do-jubileu",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Ano do Jubileu” cita explicitamente Lv 25; Is 61; Lc 4.",
+      "references": ["Lv 25; Is 61; Lc 4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-7:theme-emanuel",
+      "from": "chapter:isaias:7",
+      "to": "theme:emanuel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Emanuel” cita explicitamente Isaías 7:14, 8:8, 8:10.",
+      "references": ["Isaías 7:14, 8:8, 8:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-isaias-8:theme-emanuel",
+      "from": "chapter:isaias:8",
+      "to": "theme:emanuel",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Emanuel” cita explicitamente Isaías 7:14, 8:8, 8:10.",
+      "references": ["Isaías 7:14, 8:8, 8:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-isaias-6:term-qadosh",
+      "from": "chapter:isaias:6",
+      "to": "term:qadosh",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Qadosh” cita explicitamente Is 6:1–8.",
+      "references": ["Is 6:1–8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

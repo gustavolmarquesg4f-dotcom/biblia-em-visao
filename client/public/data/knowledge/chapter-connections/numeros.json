@@ -1,0 +1,1114 @@
+{
+  "schemaVersion": 1,
+  "book": "Números",
+  "count": 58,
+  "chapterCount": 23,
+  "nodes": [
+    {
+      "id": "event:numeros-a-apostasia-de-baal-peor-e-o-zelo-de-fineias",
+      "kind": "event",
+      "label": "A Apostasia de Baal-Peor e o Zelo de Finéias",
+      "aliases": [],
+      "summary": "Israel incorre em prostituição ritual com mulheres moabitas e adoração a Baal-Peor; Finéias executa um casal transgressor, detendo a praga.",
+      "references": ["Números Números 25"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a gravidade da aliança e concede o pacto de sacerdócio perpétuo a Finéias.",
+        "entities": "Finéias, Zimri, Cosbi, YHWH, O Povo de Israel"
+      }
+    },
+    {
+      "id": "event:numeros-a-rebeliao-em-cades-barneia-e-a-condenacao-ao-nomadismo",
+      "kind": "event",
+      "label": "A Rebelião em Cades-Barneia e a Condenação ao Nomadismo",
+      "aliases": [],
+      "summary": "O relatório pessimista de dez espias incita o povo ao motim contra Moisés; YHWH condena a geração adulta a vagar 40 anos no deserto.",
+      "references": ["Números Números 13–14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Determina a morte biológica de toda a primeira geração adulta no deserto e a ascensão da segunda geração.",
+        "entities": "Moisés, Josué, Calebe, Os Doze Espias, YHWH"
+      }
+    },
+    {
+      "id": "event:numeros-a-revolta-de-cora-e-a-confirmacao-sacerdotal",
+      "kind": "event",
+      "label": "A Revolta de Corá e a Confirmação Sacerdotal",
+      "aliases": [],
+      "summary": "Levitas e rubenitas contestam a liderança de Moisés e Arão; a terra abre-se e consome os rebeldes, confirmada pelo florescimento da vara de Arão.",
+      "references": ["Números Números 16–17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Consagra irrevogavelmente o sacerdócio aarônico e restringe o acesso ao altar sagrado.",
+        "entities": "Corá, Datã, Abirão, Moisés, Arão"
+      }
+    },
+    {
+      "id": "event:numeros-o-episodio-de-meriba-e-o-pecado-de-moises",
+      "kind": "event",
+      "label": "O Episódio de Meribá e o Pecado de Moisés",
+      "aliases": [],
+      "summary": "Diante da falta de água em Cades, o povo murmura; Moisés fere a rocha duas vezes com impaciência, perdendo o direito de entrar na terra prometida.",
+      "references": ["Números Números 20:1-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Marca a falha trágica do líder máximo de Israel e a transição iminente da liderança para Josué.",
+        "entities": "Moisés, Arão, YHWH, O Povo de Israel"
+      }
+    },
+    {
+      "id": "event:numeros-o-primeiro-recenseamento-no-sinai",
+      "kind": "event",
+      "label": "O Primeiro Recenseamento no Sinai",
+      "aliases": [],
+      "summary": "Contagem dos homens aptos para a guerra em cada tribo, exceto os levitas, e organização do acampamento em torno do Tabernáculo.",
+      "references": ["Números Números 1–4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a estrutura demográfica e militar de Israel para a marcha e sublinha a santidade do espaço cultual.",
+        "entities": "Moisés, Arão, As Doze Tribos, Os Levitas"
+      }
+    },
+    {
+      "id": "event:numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe",
+      "kind": "event",
+      "label": "Os Oráculos de Balaão sobre as Planícies de Moabe",
+      "aliases": [],
+      "summary": "Balaão tenta amaldiçoar Israel a pedido de Balaque, mas profere bênçãos divinas e proclama a estrela de Jacó e o cetro de Israel.",
+      "references": ["Números Números 22–24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Articula a invencibilidade teológica de Israel e antecipa a realeza davídica e escatológica.",
+        "entities": "Balaão, Balaque, YHWH, O Anjo de YHWH"
+      }
+    },
+    {
+      "id": "person:arao",
+      "kind": "person",
+      "label": "Arão",
+      "aliases": ["Arão (אַהֲרֹן)"],
+      "summary": "Arão é o irmão mais velho de Moisés e o primeiro sumo sacerdote de Israel. Convocado por Deus para atuar como o porta-voz (profeta) de Moisés perante Faraó devido à alegada \"pesadez de boca\" de seu irmão, Arão desempenha um papel ambivalente nas narrativas do deserto: de um lado, é ungido e consagrado pelo próprio YHWH para o ministério litúrgico; de outro, cede à pressão popular durante a ausência de Moisés no monte Sinai, confeccionando e promovendo a adoração ao Bezerro de Ouro.",
+      "references": [
+        "Êxodo 4:14-16; 32:1-6",
+        "Êx 28; Lv 8-10; Nm 16",
+        "Números 17; Números 20:22-29"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-arao"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Sumo Sacerdote de Israel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:as-filhas-de-zelofade",
+      "kind": "person",
+      "label": "As Filhas de Zelofade",
+      "aliases": [],
+      "summary": "Mulheres da tribo de Manassés (Macla, Noa, Hogla, Milca e Tirsá) que pleiteiam e conquistam o direito à herança fundiária na ausência de herdeiros masculinos.",
+      "references": ["Números 27:1-11; Números 36:1-12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Grupo familiar e precedente jurídico",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:balaao-filho-de-beor",
+      "kind": "person",
+      "label": "Balaão filho de Beor",
+      "aliases": [],
+      "summary": "Personagem contratado por Balaque para amaldiçoar Israel, mas compelido por YHWH a proferir oráculos de bênção messiânica.",
+      "references": ["Números 22–24; Números 31:8"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Profeta ou adinho gentio da Mesopotâmia",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:balaque-filho-de-zipor",
+      "kind": "person",
+      "label": "Balaque filho de Zipor",
+      "aliases": [],
+      "summary": "Monarca de Moabe que, aterrorizado pela presença de Israel em suas fronteiras, convoca Balaão para maldição ritual.",
+      "references": ["Números 22:2-4; Números 24:10"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Rei dos moabitas", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:calebe-filho-de-jefone",
+      "kind": "person",
+      "label": "Calebe filho de Jefoné",
+      "aliases": [],
+      "summary": "Único da geração adulta (juntamente com Josué) autorizado a entrar na terra prometida devido ao seu espírito íntegro e fidelidade a YHWH.",
+      "references": ["Números 13:6; Números 14:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder tribal dos cenezeus e espião fiel",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:cora-filho-de-jizar",
+      "kind": "person",
+      "label": "Corá filho de Jizar",
+      "aliases": [],
+      "summary": "Cabeça da rebelião de Corá, Datã e Abirão, que contestou a exclusividade sacerdotal e foi consumido pelo juízo divino.",
+      "references": ["Números 16:1-35"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder levita da sublevação contra Moisés",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:eleazar",
+      "kind": "person",
+      "label": "Eleazar",
+      "aliases": [],
+      "summary": "Filho de Arão que assume o sumo sacerdócio no monte Hor e auxilia Josué e Moisés no segundo recenseamento e partilha da terra.",
+      "references": ["Números 20:25-28; Números 34:17", "Josué 14:1; 17:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sumo sacerdote, filho de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:eleazar-e-itamar",
+      "kind": "person",
+      "label": "Eleazar e Itamar",
+      "aliases": [],
+      "summary": "Continuam o ministério sacerdotal e auxiliam Moisés no censo e organização",
+      "references": ["Lv 10:6; Nm 3:2-4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sacerdotes sobreviventes de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:fineias-filho-de-eleazar",
+      "kind": "person",
+      "label": "Finéias filho de Eleazar",
+      "aliases": [],
+      "summary": "Sacerdote cuja intervenção violenta contra a apostasia em Peor detém a praga divina, recebendo a promessa de sacerdócio perpétuo.",
+      "references": ["Números 25:7-13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Sacerdote zeloso pela aliança",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:josue-filho-de-num",
+      "kind": "person",
+      "label": "Josué filho de Num",
+      "aliases": [],
+      "summary": "Espia fiel enviado a Canaã, auxiliar de Moisés e líder militar designado por YHWH para suceder a Moisés na conquista.",
+      "references": ["Números 13:8; Números 27:18-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Líder militar e sucessor de Moisés",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:moises",
+      "kind": "person",
+      "label": "Moisés",
+      "aliases": ["Moisés (מֹשֶׁה)"],
+      "summary": "Moisés é o personagem central do Pentateuco (Torá), cuja trajetória abrange desde seu nascimento sob o decreto de infanticídio do Faraó, seu salvamento nas águas do Nilo pela filha do Faraó, sua criação na corte egípcia, seu exílio na terra de Midiã após matar um capataz egípcio, o chamado divino na sarça ardente, até o retorno ao Egito para liderar as dez pragas e o êxodo. Ele é retratado simultaneamente como legislador, profeta supremo, libertador e intercessor singular, cujo rosto brilhava após falar com YHWH no Monte Sinai.",
+      "references": [
+        "Êxodo 2:1-4:31; 33:12-23",
+        "Êx 19; Lv 1:1; Nm 1",
+        "Êxodo 2 – Deuteronômio 34; Números 12:3",
+        "Deut 1:1; 33:1; 34:5",
+        "Hb 3:2-5; 8:5; 11:24-28"
+      ],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-moises"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Servo fiel na casa de Deus",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:nadabe-e-abiu",
+      "kind": "person",
+      "label": "Nadabe e Abiú",
+      "aliases": [],
+      "summary": "Oferecem \"fogo estranho\" perante Yahweh e são consumidos por fogo divino",
+      "references": ["Lv 10:1-2; Nm 3:4"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Filhos e sacerdotes de Arão",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:a-tenda-do-encontro-ohel-moed",
+      "kind": "place",
+      "label": "A Tenda do Encontro (Ohel Moed)",
+      "aliases": [],
+      "summary": "Centro litúrgico e espiritual do acampamento israelita no deserto",
+      "references": ["Lv 1:1; 17:4; Nm 1:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Institucional / Geográfico" }
+    },
+    {
+      "id": "place:baal-peor",
+      "kind": "place",
+      "label": "Baal-Peor",
+      "aliases": [],
+      "summary": "Santuário moabita associado à apostasia idolátrica e ao juízo da praga detida pelo zelo de Finéias.",
+      "references": ["Números 25:3; Números 31:16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:cades-barneia",
+      "kind": "place",
+      "label": "Cades-Barneia",
+      "aliases": [],
+      "summary": "Oásis estratégico na fronteira meridional de Canaã, palco do fracasso dos espias e da rebelião que gerou a condenação ao nomadismo.",
+      "references": ["Números 13:26; Números 20:1", "Deut 1:2, 19; 9:23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico / Histórico" }
+    },
+    {
+      "id": "place:deserto-do-sinai",
+      "kind": "place",
+      "label": "Deserto do Sinai",
+      "aliases": [],
+      "summary": "Cenário inicial de aliança, legislação, recenseamento e teofania, onde Israel recebe a constituição teocrática.",
+      "references": ["Números 1:1; Números 10:12"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Simbólico" }
+    },
+    {
+      "id": "place:monte-hor",
+      "kind": "place",
+      "label": "Monte Hor",
+      "aliases": [],
+      "summary": "Local na fronteira de Edom onde Arão falece e o sacerdócio passa de Arão para seu filho Eleazar.",
+      "references": ["Números 20:22-28; Números 33:38"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Tradicional" }
+    },
+    {
+      "id": "place:o-acampamento-de-israel",
+      "kind": "place",
+      "label": "O Acampamento de Israel",
+      "aliases": [],
+      "summary": "Espaço comunitário organizado em torno do tabernáculo, onde a pureza ritual devia ser mantida",
+      "references": ["Lv 13:46; 17:3; Nm 5:3"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico / Social" }
+    },
+    {
+      "id": "place:planicies-de-moabe-junto-ao-jordao",
+      "kind": "place",
+      "label": "Planícies de Moabe (junto ao Jordão)",
+      "aliases": [],
+      "summary": "Último acampamento de Israel antes da travessia do rio Jordão, palco dos oráculos de Balaão, do segundo recenseamento e da legislação final.",
+      "references": ["Números 22:1; Números 36:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "prophecy:1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel",
+      "kind": "prophecy",
+      "label": "1 Cr 11:2 — \"Também outrora, sendo Saul ainda rei, eras tu o que saías e entravas com Israel; e o Senhor teu Deus te disse: Tu apascentarás o meu povo Israel...\"",
+      "aliases": [],
+      "summary": "A invocação da palavra divina passada legitima a transição dinástica perante os líderes tribais de Israel.",
+      "references": ["2 Sm 5:2; Nm 27:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "oráculo / alusão" }
+    },
+    {
+      "id": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "kind": "prophecy",
+      "label": "Judá e o governo",
+      "aliases": [],
+      "summary": "O poema de Jacó associa Judá a liderança, cetro e expectativa de obediência das nações.",
+      "references": [
+        "Gn 49:8–12",
+        "Nm 24:17",
+        "2Sm 7:12–16",
+        "Mt 1:2–6",
+        "Ap 5:5"
+      ],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "attributes": {
+        "note": "A tradição messiânica relaciona o texto à dinastia davídica e a Cristo; o poema também funciona como bênção tribal dentro do final de Gênesis."
+      }
+    },
+    {
+      "id": "prophecy:habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor",
+      "kind": "prophecy",
+      "label": "Habacuque 2:14 (\"A terra se encherá do conhecimento da glória do Senhor\")",
+      "aliases": [],
+      "summary": "Conecta a promessa profética de Habacuque com a escatologia cósmica messiânica de Isaías sobre a erradicação universal da violência.",
+      "references": ["Isaías 11:9; Números 14:21"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão" }
+    },
+    {
+      "id": "prophecy:judas-os-exemplos-historicos-de-juizo-genesis-exodo-numeros",
+      "kind": "prophecy",
+      "label": "Os exemplos históricos de juízo (Gênesis/Êxodo/Números)",
+      "aliases": [],
+      "summary": "Releitura tipológica de eventos fundacionais do Pentateuco para demonstrar que o padrão de juízo de Deus na história passada é garantia infalível do juízo escatológico futuro.",
+      "references": ["Gênesis 19; Números 14 e 16"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia/oráculo" }
+    },
+    {
+      "id": "prophecy:obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama",
+      "kind": "prophecy",
+      "label": "Obadias 1:18 (\"E a casa de Jacó será fogo, e a casa de José chama...\")",
+      "aliases": [],
+      "summary": "Reinterpretação da imagem ígnea do julgamento de Israel contra as nações vizinhas, associada na literatura apocalíptica posterior ao triunfo escatológico de Deus.",
+      "references": ["Isaías 10:17; Números 24:17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "Tipologia" }
+    },
+    {
+      "id": "theme:a-nuvem-e-a-coluna-de-fogo",
+      "kind": "theme",
+      "label": "A Nuvem e a Coluna de Fogo",
+      "aliases": [],
+      "summary": "Símbolo teofânico que guia os deslocamentos e acampamentos de Israel no deserto, cuja ascensão ou pouso dita o ritmo da marcha.",
+      "references": ["Números 9:15-23"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Manifestação visível da presença divina",
+        "entityType": "Conceito / Fenômeno"
+      }
+    },
+    {
+      "id": "theme:o-tabernaculo-tenda-da-reuniao",
+      "kind": "theme",
+      "label": "O Tabernáculo (Tenda da Reunião)",
+      "aliases": [],
+      "summary": "Estrutura cultual situada no centro do acampamento israelita, habitada pela glória (kabod) de YHWH.",
+      "references": ["Números 1:50-53; Números 9:15"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Santuário móvel e centro teocrático",
+        "entityType": "Lugar / Instituição"
+      }
+    },
+    {
+      "id": "theme:os-levitas",
+      "kind": "theme",
+      "label": "Os Levitas",
+      "aliases": [],
+      "summary": "Tribo setorial que substitui os primogênitos de Israel na custódia do santuário, transporte e funções litúrgicas, sem possessão territorial própria.",
+      "references": [
+        "Números 3:5-13; Números 18:21-24",
+        "Neemias 8:7; 9:4; 12:44"
+      ],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Ministros do Culto",
+        "entityType": "Instituição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-numeros-a-apostasia-de-baal-peor-e-o-zelo-de-fineias:chapter-numeros-25",
+      "from": "event:numeros-a-apostasia-de-baal-peor-e-o-zelo-de-fineias",
+      "to": "chapter:numeros:25",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Apostasia de Baal-Peor e o Zelo de Finéias” cita explicitamente Números Números 25.",
+      "references": ["Números Números 25"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-a-rebeliao-em-cades-barneia-e-a-condenacao-ao-nomadismo:chapter-numeros-13",
+      "from": "event:numeros-a-rebeliao-em-cades-barneia-e-a-condenacao-ao-nomadismo",
+      "to": "chapter:numeros:13",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Rebelião em Cades-Barneia e a Condenação ao Nomadismo” cita explicitamente Números Números 13–14.",
+      "references": ["Números Números 13–14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-a-rebeliao-em-cades-barneia-e-a-condenacao-ao-nomadismo:chapter-numeros-14",
+      "from": "event:numeros-a-rebeliao-em-cades-barneia-e-a-condenacao-ao-nomadismo",
+      "to": "chapter:numeros:14",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Rebelião em Cades-Barneia e a Condenação ao Nomadismo” cita explicitamente Números Números 13–14.",
+      "references": ["Números Números 13–14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-a-revolta-de-cora-e-a-confirmacao-sacerdotal:chapter-numeros-16",
+      "from": "event:numeros-a-revolta-de-cora-e-a-confirmacao-sacerdotal",
+      "to": "chapter:numeros:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revolta de Corá e a Confirmação Sacerdotal” cita explicitamente Números Números 16–17.",
+      "references": ["Números Números 16–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-a-revolta-de-cora-e-a-confirmacao-sacerdotal:chapter-numeros-17",
+      "from": "event:numeros-a-revolta-de-cora-e-a-confirmacao-sacerdotal",
+      "to": "chapter:numeros:17",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Revolta de Corá e a Confirmação Sacerdotal” cita explicitamente Números Números 16–17.",
+      "references": ["Números Números 16–17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-o-episodio-de-meriba-e-o-pecado-de-moises:chapter-numeros-20",
+      "from": "event:numeros-o-episodio-de-meriba-e-o-pecado-de-moises",
+      "to": "chapter:numeros:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Episódio de Meribá e o Pecado de Moisés” cita explicitamente Números Números 20:1-13.",
+      "references": ["Números Números 20:1-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-o-primeiro-recenseamento-no-sinai:chapter-numeros-1",
+      "from": "event:numeros-o-primeiro-recenseamento-no-sinai",
+      "to": "chapter:numeros:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Recenseamento no Sinai” cita explicitamente Números Números 1–4.",
+      "references": ["Números Números 1–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-o-primeiro-recenseamento-no-sinai:chapter-numeros-2",
+      "from": "event:numeros-o-primeiro-recenseamento-no-sinai",
+      "to": "chapter:numeros:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Recenseamento no Sinai” cita explicitamente Números Números 1–4.",
+      "references": ["Números Números 1–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-o-primeiro-recenseamento-no-sinai:chapter-numeros-3",
+      "from": "event:numeros-o-primeiro-recenseamento-no-sinai",
+      "to": "chapter:numeros:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Recenseamento no Sinai” cita explicitamente Números Números 1–4.",
+      "references": ["Números Números 1–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-o-primeiro-recenseamento-no-sinai:chapter-numeros-4",
+      "from": "event:numeros-o-primeiro-recenseamento-no-sinai",
+      "to": "chapter:numeros:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Primeiro Recenseamento no Sinai” cita explicitamente Números Números 1–4.",
+      "references": ["Números Números 1–4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe:chapter-numeros-22",
+      "from": "event:numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe",
+      "to": "chapter:numeros:22",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Oráculos de Balaão sobre as Planícies de Moabe” cita explicitamente Números Números 22–24.",
+      "references": ["Números Números 22–24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe:chapter-numeros-23",
+      "from": "event:numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe",
+      "to": "chapter:numeros:23",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Oráculos de Balaão sobre as Planícies de Moabe” cita explicitamente Números Números 22–24.",
+      "references": ["Números Números 22–24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe:chapter-numeros-24",
+      "from": "event:numeros-os-oraculos-de-balaao-sobre-as-planicies-de-moabe",
+      "to": "chapter:numeros:24",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Oráculos de Balaão sobre as Planícies de Moabe” cita explicitamente Números Números 22–24.",
+      "references": ["Números Números 22–24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-numeros-16",
+      "from": "person:arao",
+      "to": "chapter:numeros:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Êx 28; Lv 8-10; Nm 16.",
+      "references": ["Êx 28; Lv 8-10; Nm 16"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-numeros-17",
+      "from": "person:arao",
+      "to": "chapter:numeros:17",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Números 17; Números 20:22-29.",
+      "references": ["Números 17; Números 20:22-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-arao:chapter-numeros-20",
+      "from": "person:arao",
+      "to": "chapter:numeros:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Arão” cita explicitamente Números 17; Números 20:22-29.",
+      "references": ["Números 17; Números 20:22-29"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-as-filhas-de-zelofade:chapter-numeros-27",
+      "from": "person:as-filhas-de-zelofade",
+      "to": "chapter:numeros:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Filhas de Zelofade” cita explicitamente Números 27:1-11; Números 36:1-12.",
+      "references": ["Números 27:1-11; Números 36:1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-as-filhas-de-zelofade:chapter-numeros-36",
+      "from": "person:as-filhas-de-zelofade",
+      "to": "chapter:numeros:36",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “As Filhas de Zelofade” cita explicitamente Números 27:1-11; Números 36:1-12.",
+      "references": ["Números 27:1-11; Números 36:1-12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaao-filho-de-beor:chapter-numeros-22",
+      "from": "person:balaao-filho-de-beor",
+      "to": "chapter:numeros:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão filho de Beor” cita explicitamente Números 22–24; Números 31:8.",
+      "references": ["Números 22–24; Números 31:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaao-filho-de-beor:chapter-numeros-23",
+      "from": "person:balaao-filho-de-beor",
+      "to": "chapter:numeros:23",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão filho de Beor” cita explicitamente Números 22–24; Números 31:8.",
+      "references": ["Números 22–24; Números 31:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaao-filho-de-beor:chapter-numeros-24",
+      "from": "person:balaao-filho-de-beor",
+      "to": "chapter:numeros:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão filho de Beor” cita explicitamente Números 22–24; Números 31:8.",
+      "references": ["Números 22–24; Números 31:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaao-filho-de-beor:chapter-numeros-31",
+      "from": "person:balaao-filho-de-beor",
+      "to": "chapter:numeros:31",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaão filho de Beor” cita explicitamente Números 22–24; Números 31:8.",
+      "references": ["Números 22–24; Números 31:8"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaque-filho-de-zipor:chapter-numeros-22",
+      "from": "person:balaque-filho-de-zipor",
+      "to": "chapter:numeros:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaque filho de Zipor” cita explicitamente Números 22:2-4; Números 24:10.",
+      "references": ["Números 22:2-4; Números 24:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-balaque-filho-de-zipor:chapter-numeros-24",
+      "from": "person:balaque-filho-de-zipor",
+      "to": "chapter:numeros:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Balaque filho de Zipor” cita explicitamente Números 22:2-4; Números 24:10.",
+      "references": ["Números 22:2-4; Números 24:10"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-calebe-filho-de-jefone:chapter-numeros-13",
+      "from": "person:calebe-filho-de-jefone",
+      "to": "chapter:numeros:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Calebe filho de Jefoné” cita explicitamente Números 13:6; Números 14:24.",
+      "references": ["Números 13:6; Números 14:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-calebe-filho-de-jefone:chapter-numeros-14",
+      "from": "person:calebe-filho-de-jefone",
+      "to": "chapter:numeros:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Calebe filho de Jefoné” cita explicitamente Números 13:6; Números 14:24.",
+      "references": ["Números 13:6; Números 14:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-cora-filho-de-jizar:chapter-numeros-16",
+      "from": "person:cora-filho-de-jizar",
+      "to": "chapter:numeros:16",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Corá filho de Jizar” cita explicitamente Números 16:1-35.",
+      "references": ["Números 16:1-35"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar-e-itamar:chapter-numeros-3",
+      "from": "person:eleazar-e-itamar",
+      "to": "chapter:numeros:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar e Itamar” cita explicitamente Lv 10:6; Nm 3:2-4.",
+      "references": ["Lv 10:6; Nm 3:2-4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar:chapter-numeros-20",
+      "from": "person:eleazar",
+      "to": "chapter:numeros:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar” cita explicitamente Números 20:25-28; Números 34:17.",
+      "references": ["Números 20:25-28; Números 34:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eleazar:chapter-numeros-34",
+      "from": "person:eleazar",
+      "to": "chapter:numeros:34",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eleazar” cita explicitamente Números 20:25-28; Números 34:17.",
+      "references": ["Números 20:25-28; Números 34:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-fineias-filho-de-eleazar:chapter-numeros-25",
+      "from": "person:fineias-filho-de-eleazar",
+      "to": "chapter:numeros:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Finéias filho de Eleazar” cita explicitamente Números 25:7-13.",
+      "references": ["Números 25:7-13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-filho-de-num:chapter-numeros-13",
+      "from": "person:josue-filho-de-num",
+      "to": "chapter:numeros:13",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué filho de Num” cita explicitamente Números 13:8; Números 27:18-23.",
+      "references": ["Números 13:8; Números 27:18-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-josue-filho-de-num:chapter-numeros-27",
+      "from": "person:josue-filho-de-num",
+      "to": "chapter:numeros:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Josué filho de Num” cita explicitamente Números 13:8; Números 27:18-23.",
+      "references": ["Números 13:8; Números 27:18-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-numeros-1",
+      "from": "person:moises",
+      "to": "chapter:numeros:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êx 19; Lv 1:1; Nm 1.",
+      "references": ["Êx 19; Lv 1:1; Nm 1"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-moises:chapter-numeros-12",
+      "from": "person:moises",
+      "to": "chapter:numeros:12",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Moisés” cita explicitamente Êxodo 2 – Deuteronômio 34; Números 12:3.",
+      "references": ["Êxodo 2 – Deuteronômio 34; Números 12:3"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-nadabe-e-abiu:chapter-numeros-3",
+      "from": "person:nadabe-e-abiu",
+      "to": "chapter:numeros:3",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Nadabe e Abiú” cita explicitamente Lv 10:1-2; Nm 3:4.",
+      "references": ["Lv 10:1-2; Nm 3:4"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-a-tenda-do-encontro-ohel-moed:chapter-numeros-1",
+      "from": "place:a-tenda-do-encontro-ohel-moed",
+      "to": "chapter:numeros:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “A Tenda do Encontro (Ohel Moed)” cita explicitamente Lv 1:1; 17:4; Nm 1:1.",
+      "references": ["Lv 1:1; 17:4; Nm 1:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-baal-peor:chapter-numeros-25",
+      "from": "place:baal-peor",
+      "to": "chapter:numeros:25",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Baal-Peor” cita explicitamente Números 25:3; Números 31:16.",
+      "references": ["Números 25:3; Números 31:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-baal-peor:chapter-numeros-31",
+      "from": "place:baal-peor",
+      "to": "chapter:numeros:31",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Baal-Peor” cita explicitamente Números 25:3; Números 31:16.",
+      "references": ["Números 25:3; Números 31:16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cades-barneia:chapter-numeros-13",
+      "from": "place:cades-barneia",
+      "to": "chapter:numeros:13",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cades-Barneia” cita explicitamente Números 13:26; Números 20:1.",
+      "references": ["Números 13:26; Números 20:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-cades-barneia:chapter-numeros-20",
+      "from": "place:cades-barneia",
+      "to": "chapter:numeros:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Cades-Barneia” cita explicitamente Números 13:26; Números 20:1.",
+      "references": ["Números 13:26; Números 20:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-deserto-do-sinai:chapter-numeros-1",
+      "from": "place:deserto-do-sinai",
+      "to": "chapter:numeros:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Deserto do Sinai” cita explicitamente Números 1:1; Números 10:12.",
+      "references": ["Números 1:1; Números 10:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-deserto-do-sinai:chapter-numeros-10",
+      "from": "place:deserto-do-sinai",
+      "to": "chapter:numeros:10",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Deserto do Sinai” cita explicitamente Números 1:1; Números 10:12.",
+      "references": ["Números 1:1; Números 10:12"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-hor:chapter-numeros-20",
+      "from": "place:monte-hor",
+      "to": "chapter:numeros:20",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Hor” cita explicitamente Números 20:22-28; Números 33:38.",
+      "references": ["Números 20:22-28; Números 33:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-monte-hor:chapter-numeros-33",
+      "from": "place:monte-hor",
+      "to": "chapter:numeros:33",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Monte Hor” cita explicitamente Números 20:22-28; Números 33:38.",
+      "references": ["Números 20:22-28; Números 33:38"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-o-acampamento-de-israel:chapter-numeros-5",
+      "from": "place:o-acampamento-de-israel",
+      "to": "chapter:numeros:5",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “O Acampamento de Israel” cita explicitamente Lv 13:46; 17:3; Nm 5:3.",
+      "references": ["Lv 13:46; 17:3; Nm 5:3"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-planicies-de-moabe-junto-ao-jordao:chapter-numeros-22",
+      "from": "place:planicies-de-moabe-junto-ao-jordao",
+      "to": "chapter:numeros:22",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Planícies de Moabe (junto ao Jordão)” cita explicitamente Números 22:1; Números 36:13.",
+      "references": ["Números 22:1; Números 36:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-planicies-de-moabe-junto-ao-jordao:chapter-numeros-36",
+      "from": "place:planicies-de-moabe-junto-ao-jordao",
+      "to": "chapter:numeros:36",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Planícies de Moabe (junto ao Jordão)” cita explicitamente Números 22:1; Números 36:13.",
+      "references": ["Números 22:1; Números 36:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel:chapter-numeros-27",
+      "from": "prophecy:1-cronicas-1-cr-11-2-tambem-outrora-sendo-saul-ainda-rei-eras-tu-o-que-saias-e-entravas-com-israel-e-o-senhor-teu-deus-te-disse-tu-apascentaras-o-meu-povo-israel",
+      "to": "chapter:numeros:27",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “1 Cr 11:2 — \"Também outrora, sendo Saul ainda rei, eras tu o que saías e entravas com Israel; e o Senhor teu Deus te disse: Tu apascentarás o meu povo Israel...\"” cita explicitamente 2 Sm 5:2; Nm 27:17.",
+      "references": ["2 Sm 5:2; Nm 27:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-genesis-gn-49-8-12-juda-e-o-governo:chapter-numeros-24",
+      "from": "prophecy:genesis-gn-49-8-12-juda-e-o-governo",
+      "to": "chapter:numeros:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Judá e o governo” cita explicitamente Nm 24:17.",
+      "references": ["Nm 24:17"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor:chapter-numeros-14",
+      "from": "prophecy:habacuque-habacuque-2-14-a-terra-se-enchera-do-conhecimento-da-gloria-do-senhor",
+      "to": "chapter:numeros:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Habacuque 2:14 (\"A terra se encherá do conhecimento da glória do Senhor\")” cita explicitamente Isaías 11:9; Números 14:21.",
+      "references": ["Isaías 11:9; Números 14:21"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-judas-os-exemplos-historicos-de-juizo-genesis-exodo-numeros:chapter-numeros-14",
+      "from": "prophecy:judas-os-exemplos-historicos-de-juizo-genesis-exodo-numeros",
+      "to": "chapter:numeros:14",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Os exemplos históricos de juízo (Gênesis/Êxodo/Números)” cita explicitamente Gênesis 19; Números 14 e 16.",
+      "references": ["Gênesis 19; Números 14 e 16"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama:chapter-numeros-24",
+      "from": "prophecy:obadias-obadias-1-18-e-a-casa-de-jaco-sera-fogo-e-a-casa-de-jose-chama",
+      "to": "chapter:numeros:24",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Obadias 1:18 (\"E a casa de Jacó será fogo, e a casa de José chama...\")” cita explicitamente Isaías 10:17; Números 24:17.",
+      "references": ["Isaías 10:17; Números 24:17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-numeros-1:theme-o-tabernaculo-tenda-da-reuniao",
+      "from": "chapter:numeros:1",
+      "to": "theme:o-tabernaculo-tenda-da-reuniao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Tabernáculo (Tenda da Reunião)” cita explicitamente Números 1:50-53; Números 9:15.",
+      "references": ["Números 1:50-53; Números 9:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-numeros-18:theme-os-levitas",
+      "from": "chapter:numeros:18",
+      "to": "theme:os-levitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas” cita explicitamente Números 3:5-13; Números 18:21-24.",
+      "references": ["Números 3:5-13; Números 18:21-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-numeros-3:theme-os-levitas",
+      "from": "chapter:numeros:3",
+      "to": "theme:os-levitas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Os Levitas” cita explicitamente Números 3:5-13; Números 18:21-24.",
+      "references": ["Números 3:5-13; Números 18:21-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-numeros-9:theme-a-nuvem-e-a-coluna-de-fogo",
+      "from": "chapter:numeros:9",
+      "to": "theme:a-nuvem-e-a-coluna-de-fogo",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “A Nuvem e a Coluna de Fogo” cita explicitamente Números 9:15-23.",
+      "references": ["Números 9:15-23"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-numeros-9:theme-o-tabernaculo-tenda-da-reuniao",
+      "from": "chapter:numeros:9",
+      "to": "theme:o-tabernaculo-tenda-da-reuniao",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Tabernáculo (Tenda da Reunião)” cita explicitamente Números 1:50-53; Números 9:15.",
+      "references": ["Números 1:50-53; Números 9:15"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    }
+  ]
+}

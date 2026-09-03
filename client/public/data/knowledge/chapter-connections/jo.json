@@ -1,0 +1,1328 @@
+{
+  "schemaVersion": 1,
+  "book": "Jó",
+  "count": 75,
+  "chapterCount": 38,
+  "nodes": [
+    {
+      "id": "doctrine:escatologia",
+      "kind": "doctrine",
+      "label": "Segunda vinda, milênio e ressurreição",
+      "aliases": [],
+      "summary": "A declaração consultada confessa uma segunda vinda premilenial em duas etapas, ressurreição corporal, vida eterna para os justos e punição eterna para os ímpios.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["escatologia"],
+      "attributes": {
+        "category": "Escatologia",
+        "pentecostalReading": "A esperança futura sustenta vigilância, perseverança e missão, não especulação sensacionalista. A ressurreição é corporal e a consumação envolve justiça, renovação e presença de Deus.",
+        "distinction": "Cristãos divergem entre pré, pós e amilenismo e sobre a ordem dos eventos. O verbete registra a posição premilenial da declaração consultada e apresenta outras leituras em comparação.",
+        "source": "Declaração de Fé; 1 Tessalonicenses; 1 Coríntios; Apocalipse"
+      }
+    },
+    {
+      "id": "doctrine:espirito",
+      "kind": "doctrine",
+      "label": "Espírito Santo e sua presença",
+      "aliases": [],
+      "summary": "O Espírito Santo é confessado como pessoa divina e agente da regeneração, santificação, capacitação e missão da igreja.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["espirito"],
+      "attributes": {
+        "category": "Pneumatologia",
+        "pentecostalReading": "O Espírito não é apenas uma força ou metáfora: conduz, convence, distribui dons, forma caráter e envia a igreja. A experiência carismática deve permanecer ligada ao fruto do Espírito e ao amor.",
+        "distinction": "As tradições cristãs divergem sobre dons, cessacionismo, batismo no Espírito e evidências. A enciclopédia apresentará a posição pentecostal como uma tradição teológica situada.",
+        "source": "Declaração de Fé; teologia pentecostal"
+      }
+    },
+    {
+      "id": "doctrine:ordenancas",
+      "kind": "doctrine",
+      "label": "Batismo nas águas, Ceia e lavagem dos pés",
+      "aliases": [],
+      "summary": "A declaração consultada afirma o batismo em água por imersão, a Ceia do Senhor e a lavagem dos pés dos santos.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["ordenancas"],
+      "attributes": {
+        "category": "Igreja",
+        "pentecostalReading": "Essas práticas são sinais visíveis de fé, comunhão, memória, serviço e participação no corpo de Cristo. A lavagem dos pés acentua humildade e serviço mútuo.",
+        "distinction": "Igrejas cristãs divergem sobre o número, o nome e o significado sacramental dessas práticas. A enciclopédia deverá mostrar a compreensão da Igreja de Deus sem desqualificar outras tradições.",
+        "source": "Declaração de Fé; Evangelhos e cartas do Novo Testamento"
+      }
+    },
+    {
+      "id": "doctrine:salvacao",
+      "kind": "doctrine",
+      "label": "Arrependimento, justificação e novo nascimento",
+      "aliases": [],
+      "summary": "Todos pecaram; o arrependimento é necessário para o perdão, e justificação, regeneração e novo nascimento são recebidos pela fé no sangue de Jesus Cristo.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["salvacao"],
+      "attributes": {
+        "category": "Salvação",
+        "pentecostalReading": "A salvação é recebida pela graça mediante a fé e se torna vida transformada. A experiência de conversão não é um mero assentimento intelectual, mas entrada em uma nova relação com Cristo e sua comunidade.",
+        "distinction": "Tradições cristãs usam termos semelhantes com modelos distintos de sacramentos, cooperação humana, segurança da salvação e perseverança; a enciclopédia deve registrar essas diferenças.",
+        "source": "Declaração de Fé; teologia pentecostal clássica"
+      }
+    },
+    {
+      "id": "doctrine:trindade",
+      "kind": "doctrine",
+      "label": "Deus uno e Trindade",
+      "aliases": [],
+      "summary": "A declaração confessa um só Deus eternamente existente em três pessoas: Pai, Filho e Espírito Santo.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalogs": ["pentecostal-theology"],
+      "maturity": "reviewed",
+      "sourceIds": ["trindade"],
+      "attributes": {
+        "category": "Deus",
+        "pentecostalReading": "Pai, Filho e Espírito não são três deuses, nem três nomes de uma única pessoa. A linguagem trinitária protege a unidade de Deus e a plena divindade de Cristo e do Espírito.",
+        "distinction": "A palavra Trindade não aparece como termo técnico no texto bíblico; trata-se de uma formulação histórica cristã para reunir testemunhos bíblicos sobre Deus.",
+        "source": "Declaração de Fé da Church of God; credos cristãos históricos"
+      }
+    },
+    {
+      "id": "event:jo-a-absolvicao-intercessao-e-restauracao",
+      "kind": "event",
+      "label": "A Absolvição, Intercessão e Restauração",
+      "aliases": [],
+      "summary": "Deus censura os amigos de Jó, ordena um sacrifício mediado por Jó, cujas orações os salvam, e dobra todas as posses anteriores de Jó.",
+      "references": ["Jó 42:1-17"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Valida a postura de Jó de sinceridade no lamento em detrimento da falsa ortodoxia defensiva dos amigos, restaurando sua honra social e familiar.",
+        "entities": "Iahweh, Jó, Elifaz, Bildade, Zofar"
+      }
+    },
+    {
+      "id": "event:jo-a-teofania-e-o-discurso-da-tempestade",
+      "kind": "event",
+      "label": "A Teofania e o Discurso da Tempestade",
+      "aliases": [],
+      "summary": "Deus responde a Jó a partir de um redemoinho, desfilando as maravilhas, os abismos e as feras do cosmos para reposicionar a criatura perante o Criador.",
+      "references": ["Jó 38:1-41:34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Desloca o eixo da discussão da moralidade humana para a soberania e complexidade cósmica, curando o espírito de Jó sem explicar o porquê do sofrimento.",
+        "entities": "Iahweh, Jó"
+      }
+    },
+    {
+      "id": "event:jo-o-concilio-celestial-e-a-permissao-da-prova",
+      "kind": "event",
+      "label": "O Concílio Celestial e a Permissão da Prova",
+      "aliases": [],
+      "summary": "O Adversário desafia a integridade desinteressada de Jó diante de Deus, obtendo permissão para destruir seus bens e sua saúde sem ferir-lhe a vida.",
+      "references": ["Jó 1:6-2:13"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Estabelece a moldura cósmica do sofrimento humano, mostrando que a dor na terra possui dimensões invisíveis aos olhos mortais.",
+        "entities": "Jó, O Adversário, Iahweh"
+      }
+    },
+    {
+      "id": "event:jo-o-lamento-inaugural",
+      "kind": "event",
+      "label": "O Lamento Inaugural",
+      "aliases": [],
+      "summary": "Jó quebra o silêncio de sete dias de seus amigos amaldiçoando o dia de seu nascimento e desejando o repouso da morte.",
+      "references": ["Jó 3:1-26"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Rompe o tabu do sofrimento silencioso, inaugurando a literatura de protesto religioso no cânon bíblico.",
+        "entities": "Jó"
+      }
+    },
+    {
+      "id": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "kind": "event",
+      "label": "Os Ciclos de Diálogos e Debates",
+      "aliases": [],
+      "summary": "Três rodadas sucessivas de discursos onde os amigos defendem a retribuição kármica/teológica e Jó defende com veemência sua inocência.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": {
+        "consequence": "Expõe o colapso dos sistemas dogmáticos diante da realidade empírica da dor do inocente.",
+        "entities": "Jó, Elifaz, Bildade, Zofar, Eliú"
+      }
+    },
+    {
+      "id": "person:bildade-de-sua",
+      "kind": "person",
+      "label": "Bildade de Suá",
+      "aliases": [],
+      "summary": "Defensor da justiça imutável de Deus baseada na tradição dos antepassados, acusando os filhos de Jó e o próprio Jó de impiedade",
+      "references": ["Jó 8:1; 18:1; 25:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "role": "Amigo tradicionalista", "entityType": "Pessoa" }
+    },
+    {
+      "id": "person:elifaz-de-tema",
+      "kind": "person",
+      "label": "Elifaz de Temã",
+      "aliases": [],
+      "summary": "Representante de uma sabedoria baseada em visões místicas e na retribuição moral estricta, sugerindo que o sofrimento de Jó decorre de faltas ocultas",
+      "references": ["Jó 4:1; 15:1; 22:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Amigo teólogo e conselheiro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:eliu-filho-de-baraquel-o-buzita",
+      "kind": "person",
+      "label": "Eliú filho de Baraquel o buzita",
+      "aliases": [],
+      "summary": "Quarto debatedor que introduz a perspectiva da disciplina divina e exalta a grandeza soberana de Deus através da tempestade",
+      "references": ["Jó 32:2-6; 37:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Jovem mediador e orador",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:jo",
+      "kind": "person",
+      "label": "Jó",
+      "aliases": ["Jó"],
+      "summary": "Jó é o protagonista epônimo do **Livro de Jó**, descrito como um homem íntegro, reto, temente a Deus e desviava-se do mal, habitando na terra de Uz. A narrativa desenrola-se fora das fronteiras tradicionais de Israel (provavelmente na região edomita ou aramaica), em um cenário patriarcal atemporal. Na moldura narrativa do livro, Jó sofre uma série catastrófica de perdas — seus dez filhos, todas as suas riquezas e sua saúde física (acometido por úlceras malignas) — em decorrência de um desafio cósmico entre Deus e o Acusador (Satã). Nos diálogos poéticos subsequentes com seus amigos (Elifaz, Bildade, Zofar e Eliú), Jó debate intensamente o problema do **sofrimento do inocente**, rejeitando as explicações simplistas da teologia da retribuição mecânica, até que Deus lhe responde do meio da tempestade.",
+      "references": ["Jó 1:1; 42:12"],
+      "sourceCatalogs": ["biography-catalog", "relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": ["person-jo"],
+      "attributes": {
+        "periods": ["História bíblica"],
+        "primarySource": null,
+        "bookLinksVerified": false,
+        "role": "Protagonista e sofredor íntegro",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "person:zofar-de-naama",
+      "kind": "person",
+      "label": "Zofar de Naamá",
+      "aliases": [],
+      "summary": "O mais impetuoso dos amigos, que acusa Jó de arrogância intelectual e defende que o castigo divino ainda é menor do que o pecado cometido",
+      "references": ["Jó 11:1; 20:1"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Amigo dogmático e severo",
+        "entityType": "Pessoa"
+      }
+    },
+    {
+      "id": "place:naama",
+      "kind": "place",
+      "label": "Naamá",
+      "aliases": [],
+      "summary": "Cidade de origem de Zofar, mencionada no Neguebe ou na Sefelá de Judá.",
+      "references": ["Jó 2:11; Josué 15:41"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico" }
+    },
+    {
+      "id": "place:sua",
+      "kind": "place",
+      "label": "Suá",
+      "aliases": [],
+      "summary": "Pátria de Bildade, situada provavelmente na região do Eufrates médio ou tribos árabes associadas a Abraão.",
+      "references": ["Jó 2:11; Gênesis 25:2"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/disputado" }
+    },
+    {
+      "id": "place:tema",
+      "kind": "place",
+      "label": "Temã",
+      "aliases": [],
+      "summary": "Região e cidade importante no norte de Edom, famosa na antiguidade pela sabedoria de seus habitantes.",
+      "references": ["Jó 2:11; Jeremias 49:7", "Obadias 1:9"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": { "status": "Geográfico" }
+    },
+    {
+      "id": "place:terra-de-uz",
+      "kind": "place",
+      "label": "Terra de Uz",
+      "aliases": [],
+      "summary": "Cenário principal onde residia Jó, associado tradicionalmente a Edom ou à Arábia do Norte, denotando sabedoria oriental não-israelita.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "status": "geográfico/disputado" }
+    },
+    {
+      "id": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "kind": "prophecy",
+      "label": "O ritual do Bode Expiatório (Lv 16:8-10, 21-22)",
+      "aliases": [],
+      "summary": "Visto por autores neotestamentários como tipo prefigurativo do sacrifício perfeito de Cristo que remove definitivamente o pecado.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / foreshadowing soteriológico" }
+    },
+    {
+      "id": "prophecy:proverbios-pr-8-22-31",
+      "kind": "prophecy",
+      "label": "Pr 8:22-31",
+      "aliases": [],
+      "summary": "Padres da Igreja e teólogos modernos debatem se a Sabedoria personificada é uma profecia ontológica da pré-existência do Filho ou mera hipóstase literária.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "tipologia / cristologia patrística" }
+    },
+    {
+      "id": "prophecy:salmos-deus-meu-deus-meu-por-que-me-desamparaste",
+      "kind": "prophecy",
+      "label": "\"Deus meu, Deus meu, por que me desamparaste?\"",
+      "aliases": [],
+      "summary": "Expressão de lamento extremo de um justo perseguido no Antigo Oriente Próximo; na paixão cristã, adquire cumprimento tipológico direto nos sofrimentos e crucificação de Jesus.",
+      "references": ["Sl 22:1; Mt 27:46; Jo 19:24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "attributes": { "type": "alusão/tipologia" }
+    },
+    {
+      "id": "term:agape",
+      "kind": "term",
+      "label": "Agapē",
+      "aliases": ["ἀγάπη", "agapē"],
+      "summary": "Amor orientado ao bem do outro e à fidelidade comunitária, sem que o termo possa ser reduzido a sentimento sem conflito.",
+      "references": ["Jo 13:34–35", "1Co 13", "1Jo 4:7–12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["agape"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João e Paulo, o amor inclui ação, discernimento, renúncia ao privilégio e compromisso com a verdade; não é mera aprovação.",
+        "translationNote": "A distinção popular entre eros, philia e agapē é simplificada demais para servir como regra exegética. O contexto literário é decisivo."
+      }
+    },
+    {
+      "id": "term:charis",
+      "kind": "term",
+      "label": "Charis",
+      "aliases": ["χάρις", "charis"],
+      "summary": "Graça, favor, benevolência ou gratidão; em Paulo, descreve a iniciativa generosa de Deus e também o efeito comunitário dessa iniciativa.",
+      "references": ["Lc 1:30", "Jo 1:14–17", "Ef 2:8–10"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["charis"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Não é uma substância abstrata armazenada na pessoa. O termo pode nomear o favor recebido, a ação de agradecer e o dom que reorganiza relações.",
+        "translationNote": "‘Graça’ é tradição indispensável, mas precisa ser lida em contraste com mérito, patronagem, dívida e reciprocidade no mundo antigo."
+      }
+    },
+    {
+      "id": "term:eschaton",
+      "kind": "term",
+      "label": "Eschaton",
+      "aliases": ["ἔσχατος", "eschatos"],
+      "summary": "Último, extremo ou derradeiro; pode descrever tempo, posição, prioridade social ou horizonte escatológico.",
+      "references": ["Jo 6:39–40", "1Co 15:45", "Ap 22:13"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["eschaton"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "Em João pode opor primeiro e último; em cartas e Apocalipse participa de uma imaginação de consumação. Não deve ser transformado imediatamente em cronograma.",
+        "translationNote": "‘Fim’ é uma possibilidade em algumas expressões, mas ‘último’ ou ‘derradeiro’ preserva melhor a polissemia."
+      }
+    },
+    {
+      "id": "term:logos",
+      "kind": "term",
+      "label": "Logos",
+      "aliases": ["λόγος", "logos"],
+      "summary": "Palavra, discurso, mensagem, razão, relato ou princípio articulador; em João 1, recebe função cristológica singular.",
+      "references": ["Jo 1:1–18", "At 6:7", "Hb 4:12"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["logos"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O sentido resulta do gênero, do contexto e das relações intertextuais. Não deve ser preenchido automaticamente com toda a filosofia grega nem reduzido a ‘palavra’ sem análise.",
+        "translationNote": "Em João 1, a tradução tradicional ‘Verbo’ preserva uma história teológica, enquanto ‘Palavra’ é mais transparente; ambas precisam de comentário contextual."
+      }
+    },
+    {
+      "id": "term:pneuma",
+      "kind": "term",
+      "label": "Pneuma",
+      "aliases": ["πνεῦμα", "pneuma"],
+      "summary": "Vento, sopro, espírito, disposição interior ou Espírito Santo, conforme o contexto literário e sintático.",
+      "references": ["Jo 3:5–8", "At 2:1–21", "1Co 12:4–11"],
+      "sourceCatalogs": ["advanced-glossary"],
+      "maturity": "reviewed",
+      "sourceIds": ["pneuma"],
+      "attributes": {
+        "language": "Grego",
+        "semanticRange": "O Novo Testamento explora a plasticidade do termo; em João, Paulo e Lucas, a mesma palavra participa de argumentos diferentes sobre vida, discernimento e missão.",
+        "translationNote": "O tradutor deve distinguir espírito humano, espírito imundo e Espírito Santo sem apagar os jogos semânticos que o autor constrói."
+      }
+    },
+    {
+      "id": "theme:beemote",
+      "kind": "theme",
+      "label": "Beemote",
+      "aliases": [],
+      "summary": "Gigantesco animal herbívoro (provavelmente o hipopótamo estilizado) que simboliza a força indomável da criação divina",
+      "references": ["Jó 40:15-24"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Monstro terrestre primordial",
+        "entityType": "Conceito/Criatura"
+      }
+    },
+    {
+      "id": "theme:goel-redentor-arbitro",
+      "kind": "theme",
+      "label": "Goel (Redentor/Árbitro)",
+      "aliases": [],
+      "summary": "Figura jurídica e parental invocada por Jó para atestar sua inocência e defendê-lo perante o tribunal celestial",
+      "references": ["Jó 19:25; 16:19"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Esperança de vindicação de Jó",
+        "entityType": "Conceito/Instituição"
+      }
+    },
+    {
+      "id": "theme:iahweh-deus",
+      "kind": "theme",
+      "label": "Iahweh (Deus)",
+      "aliases": [],
+      "summary": "O Criador do cosmos que se manifesta na tormenta, silencia os debates humanos com perguntas sobre a criação e restaura Jó",
+      "references": ["Jó 38:1; 42:6"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Soberano e juiz supremo",
+        "entityType": "Pessoa/Divindade"
+      }
+    },
+    {
+      "id": "theme:leviata",
+      "kind": "theme",
+      "label": "Leviatã",
+      "aliases": [],
+      "summary": "Criatura mítica e formidável (crocodilo/dragão caótico) que representa o caos indomável sob o controle exclusivo do Criador",
+      "references": ["Jó 41:1-34"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Monstro marinho primordial",
+        "entityType": "Conceito/Criatura"
+      }
+    },
+    {
+      "id": "theme:o-adversario-satanas",
+      "kind": "theme",
+      "label": "O Adversário (Satanás)",
+      "aliases": [],
+      "summary": "Figura celeste que testa a disinterestedade da piedade de Jó, argumentando que sua retidão depende de proteção e prosperidade material",
+      "references": ["Jó 1:6-12; 2:1-7"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Acusador no concílio divino",
+        "entityType": "Pessoa/Ser Celestial"
+      }
+    },
+    {
+      "id": "theme:serpente",
+      "kind": "theme",
+      "label": "Serpente",
+      "aliases": [],
+      "summary": "Gênesis não chama a serpente de Satanás; essa identificação se desenvolve na recepção judaica e cristã posterior. Dentro da cena, ela opera por pergunta, reinterpretação e suspeita: transforma o limite em privação e o conhecimento em promessa de autonomia. A conexão posterior com o adversário deve ser marcada como leitura canônica posterior, não como se o capítulo já oferecesse toda a demonologia cristã.",
+      "references": ["Gn 3:1–15", "Is 27:1", "Jo 8:44", "Ap 12:9", "Ap 20:2"],
+      "sourceCatalogs": ["genesis-relational"],
+      "maturity": "expanded",
+      "sourceIds": ["serpent"],
+      "attributes": {
+        "role": "voz de contestação no jardim",
+        "tags": ["tentação", "mal", "símbolo", "recepção"]
+      }
+    },
+    {
+      "id": "theme:uz",
+      "kind": "theme",
+      "label": "Uz",
+      "aliases": [],
+      "summary": "Região limítrofe no Oriente Próximo (provavelmente na Arábia do Norte ou Edom), associada a povos vizinhos e sabedoria oriental",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalogs": ["relational-books-catalog"],
+      "maturity": "expanded",
+      "sourceIds": [],
+      "attributes": {
+        "role": "Cenário geográfico de origem de Jó",
+        "entityType": "Lugar"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:appears-in:event-jo-a-absolvicao-intercessao-e-restauracao:chapter-jo-42",
+      "from": "event:jo-a-absolvicao-intercessao-e-restauracao",
+      "to": "chapter:jo:42",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Absolvição, Intercessão e Restauração” cita explicitamente Jó 42:1-17.",
+      "references": ["Jó 42:1-17"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-a-teofania-e-o-discurso-da-tempestade:chapter-jo-38",
+      "from": "event:jo-a-teofania-e-o-discurso-da-tempestade",
+      "to": "chapter:jo:38",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Teofania e o Discurso da Tempestade” cita explicitamente Jó 38:1-41:34.",
+      "references": ["Jó 38:1-41:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-a-teofania-e-o-discurso-da-tempestade:chapter-jo-39",
+      "from": "event:jo-a-teofania-e-o-discurso-da-tempestade",
+      "to": "chapter:jo:39",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Teofania e o Discurso da Tempestade” cita explicitamente Jó 38:1-41:34.",
+      "references": ["Jó 38:1-41:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-a-teofania-e-o-discurso-da-tempestade:chapter-jo-40",
+      "from": "event:jo-a-teofania-e-o-discurso-da-tempestade",
+      "to": "chapter:jo:40",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Teofania e o Discurso da Tempestade” cita explicitamente Jó 38:1-41:34.",
+      "references": ["Jó 38:1-41:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-a-teofania-e-o-discurso-da-tempestade:chapter-jo-41",
+      "from": "event:jo-a-teofania-e-o-discurso-da-tempestade",
+      "to": "chapter:jo:41",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “A Teofania e o Discurso da Tempestade” cita explicitamente Jó 38:1-41:34.",
+      "references": ["Jó 38:1-41:34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-o-concilio-celestial-e-a-permissao-da-prova:chapter-jo-1",
+      "from": "event:jo-o-concilio-celestial-e-a-permissao-da-prova",
+      "to": "chapter:jo:1",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Concílio Celestial e a Permissão da Prova” cita explicitamente Jó 1:6-2:13.",
+      "references": ["Jó 1:6-2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-o-concilio-celestial-e-a-permissao-da-prova:chapter-jo-2",
+      "from": "event:jo-o-concilio-celestial-e-a-permissao-da-prova",
+      "to": "chapter:jo:2",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Concílio Celestial e a Permissão da Prova” cita explicitamente Jó 1:6-2:13.",
+      "references": ["Jó 1:6-2:13"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-o-lamento-inaugural:chapter-jo-3",
+      "from": "event:jo-o-lamento-inaugural",
+      "to": "chapter:jo:3",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “O Lamento Inaugural” cita explicitamente Jó 3:1-26.",
+      "references": ["Jó 3:1-26"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-10",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:10",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-11",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:11",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-12",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:12",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-13",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:13",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-14",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:14",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-15",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:15",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-16",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:16",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-17",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:17",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-18",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:18",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-19",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:19",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-20",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:20",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-21",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:21",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-22",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:22",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-23",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:23",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-24",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:24",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-25",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:25",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-26",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:26",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-27",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:27",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-28",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:28",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-29",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:29",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-30",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:30",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-31",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:31",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-4",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:4",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-5",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:5",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-6",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:6",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-7",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:7",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-8",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:8",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:event-jo-os-ciclos-de-dialogos-e-debates:chapter-jo-9",
+      "from": "event:jo-os-ciclos-de-dialogos-e-debates",
+      "to": "chapter:jo:9",
+      "type": "appears-in",
+      "label": "acontecimento citado em",
+      "explanation": "O verbete “Os Ciclos de Diálogos e Debates” cita explicitamente Jó 4:1-31:40.",
+      "references": ["Jó 4:1-31:40"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bildade-de-sua:chapter-jo-18",
+      "from": "person:bildade-de-sua",
+      "to": "chapter:jo:18",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bildade de Suá” cita explicitamente Jó 8:1; 18:1; 25:1.",
+      "references": ["Jó 8:1; 18:1; 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bildade-de-sua:chapter-jo-25",
+      "from": "person:bildade-de-sua",
+      "to": "chapter:jo:25",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bildade de Suá” cita explicitamente Jó 8:1; 18:1; 25:1.",
+      "references": ["Jó 8:1; 18:1; 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-bildade-de-sua:chapter-jo-8",
+      "from": "person:bildade-de-sua",
+      "to": "chapter:jo:8",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Bildade de Suá” cita explicitamente Jó 8:1; 18:1; 25:1.",
+      "references": ["Jó 8:1; 18:1; 25:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elifaz-de-tema:chapter-jo-15",
+      "from": "person:elifaz-de-tema",
+      "to": "chapter:jo:15",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elifaz de Temã” cita explicitamente Jó 4:1; 15:1; 22:1.",
+      "references": ["Jó 4:1; 15:1; 22:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elifaz-de-tema:chapter-jo-22",
+      "from": "person:elifaz-de-tema",
+      "to": "chapter:jo:22",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elifaz de Temã” cita explicitamente Jó 4:1; 15:1; 22:1.",
+      "references": ["Jó 4:1; 15:1; 22:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-elifaz-de-tema:chapter-jo-4",
+      "from": "person:elifaz-de-tema",
+      "to": "chapter:jo:4",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Elifaz de Temã” cita explicitamente Jó 4:1; 15:1; 22:1.",
+      "references": ["Jó 4:1; 15:1; 22:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliu-filho-de-baraquel-o-buzita:chapter-jo-32",
+      "from": "person:eliu-filho-de-baraquel-o-buzita",
+      "to": "chapter:jo:32",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliú filho de Baraquel o buzita” cita explicitamente Jó 32:2-6; 37:24.",
+      "references": ["Jó 32:2-6; 37:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-eliu-filho-de-baraquel-o-buzita:chapter-jo-37",
+      "from": "person:eliu-filho-de-baraquel-o-buzita",
+      "to": "chapter:jo:37",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Eliú filho de Baraquel o buzita” cita explicitamente Jó 32:2-6; 37:24.",
+      "references": ["Jó 32:2-6; 37:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jo:chapter-jo-1",
+      "from": "person:jo",
+      "to": "chapter:jo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó” cita explicitamente Jó 1:1; 42:12.",
+      "references": ["Jó 1:1; 42:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-jo:chapter-jo-42",
+      "from": "person:jo",
+      "to": "chapter:jo:42",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Jó” cita explicitamente Jó 1:1; 42:12.",
+      "references": ["Jó 1:1; 42:12"],
+      "sourceCatalog": "explicit-reference:biography-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zofar-de-naama:chapter-jo-11",
+      "from": "person:zofar-de-naama",
+      "to": "chapter:jo:11",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zofar de Naamá” cita explicitamente Jó 11:1; 20:1.",
+      "references": ["Jó 11:1; 20:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:person-zofar-de-naama:chapter-jo-20",
+      "from": "person:zofar-de-naama",
+      "to": "chapter:jo:20",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Zofar de Naamá” cita explicitamente Jó 11:1; 20:1.",
+      "references": ["Jó 11:1; 20:1"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-naama:chapter-jo-2",
+      "from": "place:naama",
+      "to": "chapter:jo:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Naamá” cita explicitamente Jó 2:11; Josué 15:41.",
+      "references": ["Jó 2:11; Josué 15:41"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-sua:chapter-jo-2",
+      "from": "place:sua",
+      "to": "chapter:jo:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Suá” cita explicitamente Jó 2:11; Gênesis 25:2.",
+      "references": ["Jó 2:11; Gênesis 25:2"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-tema:chapter-jo-2",
+      "from": "place:tema",
+      "to": "chapter:jo:2",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Temã” cita explicitamente Jó 2:11; Jeremias 49:7.",
+      "references": ["Jó 2:11; Jeremias 49:7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:place-terra-de-uz:chapter-jo-1",
+      "from": "place:terra-de-uz",
+      "to": "chapter:jo:1",
+      "type": "appears-in",
+      "label": "cenário citado em",
+      "explanation": "O verbete “Terra de Uz” cita explicitamente Jó 1:1; Jeremias 25:20.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:appears-in:prophecy-levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22:chapter-jo-1",
+      "from": "prophecy:levitico-o-ritual-do-bode-expiatorio-lv-16-8-10-21-22",
+      "to": "chapter:jo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “O ritual do Bode Expiatório (Lv 16:8-10, 21-22)” cita explicitamente Is 53:4-6; Jo 1:29; Hb 9:12-14.",
+      "references": ["Is 53:4-6; Jo 1:29; Hb 9:12-14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-proverbios-pr-8-22-31:chapter-jo-1",
+      "from": "prophecy:proverbios-pr-8-22-31",
+      "to": "chapter:jo:1",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “Pr 8:22-31” cita explicitamente Jo 1:1-3; Cl 1:15-17; Ap 3:14.",
+      "references": ["Jo 1:1-3; Cl 1:15-17; Ap 3:14"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:appears-in:prophecy-salmos-deus-meu-deus-meu-por-que-me-desamparaste:chapter-jo-19",
+      "from": "prophecy:salmos-deus-meu-deus-meu-por-que-me-desamparaste",
+      "to": "chapter:jo:19",
+      "type": "appears-in",
+      "label": "aparece em",
+      "explanation": "O verbete “\"Deus meu, Deus meu, por que me desamparaste?\"” cita explicitamente Sl 22:1; Mt 27:46; Jo 19:24.",
+      "references": ["Sl 22:1; Mt 27:46; Jo 19:24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "debated"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-1:doctrine-trindade",
+      "from": "chapter:jo:1",
+      "to": "doctrine:trindade",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Deus uno e Trindade” cita explicitamente Mt 28:19; 2Co 13:13; Jo 1:1–18.",
+      "references": ["Mt 28:19; 2Co 13:13; Jo 1:1–18"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-1:theme-o-adversario-satanas",
+      "from": "chapter:jo:1",
+      "to": "theme:o-adversario-satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Adversário (Satanás)” cita explicitamente Jó 1:6-12; 2:1-7.",
+      "references": ["Jó 1:6-12; 2:1-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-1:theme-uz",
+      "from": "chapter:jo:1",
+      "to": "theme:uz",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Uz” cita explicitamente Jó 1:1; Jeremias 25:20.",
+      "references": ["Jó 1:1; Jeremias 25:20"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-13:doctrine-ordenancas",
+      "from": "chapter:jo:13",
+      "to": "doctrine:ordenancas",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Batismo nas águas, Ceia e lavagem dos pés” cita explicitamente Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17.",
+      "references": ["Mt 28:19; Rm 6:3–4; 1Co 11:23–26; Jo 13:1–17"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-14:doctrine-espirito",
+      "from": "chapter:jo:14",
+      "to": "doctrine:espirito",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Espírito Santo e sua presença” cita explicitamente Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11.",
+      "references": ["Jo 14:16–17; At 1:8; Rm 8:9–16; 1Co 12:4–11"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-16:theme-goel-redentor-arbitro",
+      "from": "chapter:jo:16",
+      "to": "theme:goel-redentor-arbitro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Goel (Redentor/Árbitro)” cita explicitamente Jó 19:25; 16:19.",
+      "references": ["Jó 19:25; 16:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-19:theme-goel-redentor-arbitro",
+      "from": "chapter:jo:19",
+      "to": "theme:goel-redentor-arbitro",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Goel (Redentor/Árbitro)” cita explicitamente Jó 19:25; 16:19.",
+      "references": ["Jó 19:25; 16:19"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-2:theme-o-adversario-satanas",
+      "from": "chapter:jo:2",
+      "to": "theme:o-adversario-satanas",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “O Adversário (Satanás)” cita explicitamente Jó 1:6-12; 2:1-7.",
+      "references": ["Jó 1:6-12; 2:1-7"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-3:doctrine-salvacao",
+      "from": "chapter:jo:3",
+      "to": "doctrine:salvacao",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Arrependimento, justificação e novo nascimento” cita explicitamente Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9.",
+      "references": ["Rm 3:23–26; Jo 3:3–8; At 2:38; Ef 2:8–9"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-38:theme-iahweh-deus",
+      "from": "chapter:jo:38",
+      "to": "theme:iahweh-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iahweh (Deus)” cita explicitamente Jó 38:1; 42:6.",
+      "references": ["Jó 38:1; 42:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-40:theme-beemote",
+      "from": "chapter:jo:40",
+      "to": "theme:beemote",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Beemote” cita explicitamente Jó 40:15-24.",
+      "references": ["Jó 40:15-24"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-41:theme-leviata",
+      "from": "chapter:jo:41",
+      "to": "theme:leviata",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Leviatã” cita explicitamente Jó 41:1-34.",
+      "references": ["Jó 41:1-34"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-42:theme-iahweh-deus",
+      "from": "chapter:jo:42",
+      "to": "theme:iahweh-deus",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Iahweh (Deus)” cita explicitamente Jó 38:1; 42:6.",
+      "references": ["Jó 38:1; 42:6"],
+      "sourceCatalog": "explicit-reference:relational-books-catalog",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-5:doctrine-escatologia",
+      "from": "chapter:jo:5",
+      "to": "doctrine:escatologia",
+      "type": "develops-theme",
+      "label": "dialoga com doutrina",
+      "explanation": "O verbete “Segunda vinda, milênio e ressurreição” cita explicitamente 1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29.",
+      "references": ["1Ts 4:13–18; 1Co 15:20–28; Ap 20:1–6; Jo 5:28–29"],
+      "sourceCatalog": "explicit-reference:pentecostal-theology",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:develops-theme:chapter-jo-8:theme-serpente",
+      "from": "chapter:jo:8",
+      "to": "theme:serpente",
+      "type": "develops-theme",
+      "label": "desenvolve tema",
+      "explanation": "O verbete “Serpente” cita explicitamente Jo 8:44.",
+      "references": ["Jo 8:44"],
+      "sourceCatalog": "explicit-reference:genesis-relational",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-jo-1:term-charis",
+      "from": "chapter:jo:1",
+      "to": "term:charis",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Charis” cita explicitamente Jo 1:14–17.",
+      "references": ["Jo 1:14–17"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-jo-1:term-logos",
+      "from": "chapter:jo:1",
+      "to": "term:logos",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Logos” cita explicitamente Jo 1:1–18.",
+      "references": ["Jo 1:1–18"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-jo-13:term-agape",
+      "from": "chapter:jo:13",
+      "to": "term:agape",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Agapē” cita explicitamente Jo 13:34–35.",
+      "references": ["Jo 13:34–35"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-jo-3:term-pneuma",
+      "from": "chapter:jo:3",
+      "to": "term:pneuma",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Pneuma” cita explicitamente Jo 3:5–8.",
+      "references": ["Jo 3:5–8"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    },
+    {
+      "id": "relation:related-term:chapter-jo-6:term-eschaton",
+      "from": "chapter:jo:6",
+      "to": "term:eschaton",
+      "type": "related-term",
+      "label": "explica termo",
+      "explanation": "O verbete “Eschaton” cita explicitamente Jo 6:39–40.",
+      "references": ["Jo 6:39–40"],
+      "sourceCatalog": "explicit-reference:advanced-glossary",
+      "confidence": "high"
+    }
+  ]
+}

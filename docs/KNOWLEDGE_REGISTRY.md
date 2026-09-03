@@ -37,6 +37,8 @@ Uma conexão interpretativa ou canônica pode ser classificada como contextual o
 
 O manifesto está em `client/public/data/knowledge/manifest.json`. Cada tipo possui um arquivo independente no mesmo diretório. `relations.json` funciona como índice e aponta para blocos de no máximo 700 relações em `knowledge/relations/`. Essa divisão permite que a interface carregue apenas a área solicitada em vez de baixar o acervo completo.
 
+A Fase 4 acrescenta 66 arquivos em `knowledge/chapter-connections/`, um por livro. Eles reúnem somente os nós e relações necessários para o guia contextual daquele livro. O maior arquivo atual tem cerca de 132 KB; assim, abrir Gênesis 22 não exige baixar todas as 6.772 relações do registro.
+
 O registro é regenerado e validado com:
 
 ```bash
@@ -60,5 +62,12 @@ O arquivo `audit/knowledge-registry-validation.json` confirma:
 - ausência de IDs malformados;
 - ausência de relações apontando para nós inexistentes;
 - ausência de associações biográficas acima do limiar de colisão.
+- presença de vínculos capítulo-entidade extraídos somente de referências explícitas.
 
-Esta entrega cria a fundação de dados da Fase 2. A conexão dessa camada com as telas e a busca pode ser feita incrementalmente, sem interromper as rotas atuais.
+Esta entrega cria a fundação de dados da Fase 2. A [Fase 3](PHASE_3_CONNECTED_EXPERIENCE.md) conecta a camada às telas, à busca e aos dossiês, e a [Fase 4](PHASE_4_CHAPTER_CONTEXT.md) leva as relações explícitas ao leitor dos capítulos sem interromper as rotas atuais.
+
+## Consumo na interface
+
+O cliente lê o manifesto por meio de client/src/lib/knowledge-registry.ts. Nós são armazenados em cache por tipo; relações permanecem nos blocos modulares e são carregadas apenas quando um verbete ou dossiê conectado precisa delas. O guia de capítulos usa o arquivo específico do livro e não consulta o índice relacional global. A busca normaliza acentos, considera aliases e prioriza correspondências exatas.
+
+O registro complementa a leitura principal. Se um arquivo modular falhar, o dossiê, os estudos de capítulos e as biografias existentes continuam disponíveis.
