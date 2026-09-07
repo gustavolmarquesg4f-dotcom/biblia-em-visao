@@ -1,5 +1,6 @@
 import { staticAsset } from "@/lib/static-asset";
 import type {
+  ChapterEditorialProfile,
   KnowledgeKind,
   KnowledgeNode,
   KnowledgeRelation,
@@ -19,6 +20,16 @@ export type KnowledgeManifest = {
     chapterCount: number;
     entityCount: number;
     files: Record<string, string>;
+  };
+  editorialReview?: {
+    chapterCount: number;
+    statusCounts: Record<string, number>;
+    priorityCounts: Record<string, number>;
+    humanReviewedCount: number;
+    biographiesMissingPrimarySource: number;
+    biographiesMissingVerifiedBooks: number;
+    apocryphalWorksWithoutCanonicalConnections: number;
+    method: string;
   };
 };
 
@@ -49,6 +60,7 @@ type ChapterConnectionsFile = {
   chapterCount: number;
   nodes: KnowledgeNode[];
   relations: KnowledgeRelation[];
+  editorialProfiles?: ChapterEditorialProfile[];
 };
 
 export type KnowledgeSearchOptions = {
@@ -70,7 +82,7 @@ export type KnowledgeNeighborhood = {
 export type ChapterKnowledgeConnections = Pick<
   KnowledgeNeighborhood,
   "relations" | "relatedNodes"
->;
+> & { editorialProfile: ChapterEditorialProfile | null };
 
 const registryBase = staticAsset("data/knowledge").replace(/\/$/, "");
 let manifestPromise: Promise<KnowledgeManifest> | null = null;
@@ -205,7 +217,7 @@ export async function loadChapterKnowledge(
   if (kind !== "chapter" || !bookSlug || !/^\d+$/.test(chapter)) return null;
   const manifest = await loadKnowledgeManifest();
   const file = manifest.chapterConnections?.files[bookSlug];
-  if (!file) return { relations: [], relatedNodes: [] };
+  if (!file) return { relations: [], relatedNodes: [], editorialProfile: null };
 
   let payload = chapterConnectionPromises.get(file);
   if (!payload) {
@@ -224,7 +236,11 @@ export async function loadChapterKnowledge(
   const relatedNodes = chapterConnections.nodes.filter(related =>
     relatedIds.has(related.id)
   );
-  return { relations, relatedNodes };
+  const editorialProfile =
+    chapterConnections.editorialProfiles?.find(
+      profile => profile.chapterId === chapterId
+    ) ?? null;
+  return { relations, relatedNodes, editorialProfile };
 }
 
 export function normalizeKnowledgeSearch(value: string) {

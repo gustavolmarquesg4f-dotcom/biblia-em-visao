@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Lamentações",
-  "count": 34,
+  "count": 49,
   "chapterCount": 5,
   "nodes": [
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:salmos",
+      "kind": "book",
+      "label": "Salmos",
+      "aliases": ["Sl"],
+      "summary": "Orações e poemas para celebração, crise, lamento e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["19-salmos"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 150,
+        "author": "Coleção com Davi e outros autores tradicionais",
+        "period": "Vários períodos de Israel"
+      }
+    },
     {
       "id": "people-group:nabucodonosor-caldeus",
       "kind": "people-group",
@@ -583,6 +637,171 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-lamentacoes-1:book-apocalipse",
+      "from": "chapter:lamentacoes:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-1:book-jeremias",
+      "from": "chapter:lamentacoes:1",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 1 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-1:book-salmos",
+      "from": "chapter:lamentacoes:1",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 1 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-2:book-apocalipse",
+      "from": "chapter:lamentacoes:2",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 2 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-2:book-jeremias",
+      "from": "chapter:lamentacoes:2",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 2 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-2:book-salmos",
+      "from": "chapter:lamentacoes:2",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 2 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-3:book-apocalipse",
+      "from": "chapter:lamentacoes:3",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 3 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-3:book-jeremias",
+      "from": "chapter:lamentacoes:3",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 3 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-3:book-salmos",
+      "from": "chapter:lamentacoes:3",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 3 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-4:book-apocalipse",
+      "from": "chapter:lamentacoes:4",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 4 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-4:book-jeremias",
+      "from": "chapter:lamentacoes:4",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 4 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-4:book-salmos",
+      "from": "chapter:lamentacoes:4",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 4 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-5:book-apocalipse",
+      "from": "chapter:lamentacoes:5",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 5 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-5:book-jeremias",
+      "from": "chapter:lamentacoes:5",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 5 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-lamentacoes-5:book-salmos",
+      "from": "chapter:lamentacoes:5",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Lamentações 5 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-lamentacoes-1:theme-o-templo",
       "from": "chapter:lamentacoes:1",
       "to": "theme:o-templo",
@@ -614,6 +833,146 @@
       "references": ["Lamentações 5:3"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:lamentacoes:1",
+      "reference": "Lamentações 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:lamentacoes:2",
+      "reference": "Lamentações 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:lamentacoes:3",
+      "reference": "Lamentações 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:lamentacoes:4",
+      "reference": "Lamentações 4",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:lamentacoes:5",
+      "reference": "Lamentações 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

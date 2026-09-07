@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Esdras",
-  "count": 56,
+  "count": 86,
   "chapterCount": 10,
   "nodes": [
+    {
+      "id": "book:2-cronicas",
+      "kind": "book",
+      "label": "2 Crônicas",
+      "aliases": ["2Cr"],
+      "summary": "Reis de Judá e templo até o exílio, com horizonte de reconstrução.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["14-2-cr-nicas"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 36,
+        "author": "O Cronista; autoria não identificada",
+        "period": "Salomão ao retorno"
+      }
+    },
+    {
+      "id": "book:ageu",
+      "kind": "book",
+      "label": "Ageu",
+      "aliases": ["Ag"],
+      "summary": "Incentivo à reconstrução do templo e à reorganização das prioridades.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["37-ageu"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 2,
+        "author": "Ageu",
+        "period": "Período persa"
+      }
+    },
+    {
+      "id": "book:neemias",
+      "kind": "book",
+      "label": "Neemias",
+      "aliases": ["Ne"],
+      "summary": "Reconstrução das muralhas e reformas comunitárias em meio à oposição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["16-neemias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 13,
+        "author": "Memórias de Neemias; edição posterior",
+        "period": "Período persa"
+      }
+    },
     {
       "id": "event:esdras-a-grande-assembleia-e-anulacao-dos-casamentos-mistos",
       "kind": "event",
@@ -943,6 +997,336 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-esdras-1:book-2-cronicas",
+      "from": "chapter:esdras:1",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 1 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-1:book-ageu",
+      "from": "chapter:esdras:1",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 1 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-1:book-neemias",
+      "from": "chapter:esdras:1",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 1 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-10:book-2-cronicas",
+      "from": "chapter:esdras:10",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 10 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-10:book-ageu",
+      "from": "chapter:esdras:10",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 10 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-10:book-neemias",
+      "from": "chapter:esdras:10",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 10 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-2:book-2-cronicas",
+      "from": "chapter:esdras:2",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 2 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-2:book-ageu",
+      "from": "chapter:esdras:2",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 2 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-2:book-neemias",
+      "from": "chapter:esdras:2",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 2 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-3:book-2-cronicas",
+      "from": "chapter:esdras:3",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 3 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-3:book-ageu",
+      "from": "chapter:esdras:3",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 3 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-3:book-neemias",
+      "from": "chapter:esdras:3",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 3 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-4:book-2-cronicas",
+      "from": "chapter:esdras:4",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 4 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-4:book-ageu",
+      "from": "chapter:esdras:4",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 4 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-4:book-neemias",
+      "from": "chapter:esdras:4",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 4 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-5:book-2-cronicas",
+      "from": "chapter:esdras:5",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 5 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-5:book-ageu",
+      "from": "chapter:esdras:5",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 5 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-5:book-neemias",
+      "from": "chapter:esdras:5",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 5 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-6:book-2-cronicas",
+      "from": "chapter:esdras:6",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 6 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-6:book-ageu",
+      "from": "chapter:esdras:6",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 6 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-6:book-neemias",
+      "from": "chapter:esdras:6",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 6 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-7:book-2-cronicas",
+      "from": "chapter:esdras:7",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 7 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-7:book-ageu",
+      "from": "chapter:esdras:7",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 7 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-7:book-neemias",
+      "from": "chapter:esdras:7",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 7 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-8:book-2-cronicas",
+      "from": "chapter:esdras:8",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 8 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-8:book-ageu",
+      "from": "chapter:esdras:8",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 8 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-8:book-neemias",
+      "from": "chapter:esdras:8",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 8 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-9:book-2-cronicas",
+      "from": "chapter:esdras:9",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 9 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-9:book-ageu",
+      "from": "chapter:esdras:9",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 9 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-esdras-9:book-neemias",
+      "from": "chapter:esdras:9",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Esdras 9 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-esdras-10:theme-a-assembleia-qahal",
       "from": "chapter:esdras:10",
       "to": "theme:a-assembleia-qahal",
@@ -1029,6 +1413,265 @@
       "references": ["Esdras 6.18; 7.7; 8.15–30; 10.5"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:esdras:1",
+      "reference": "Esdras 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:2",
+      "reference": "Esdras 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:3",
+      "reference": "Esdras 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:4",
+      "reference": "Esdras 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:5",
+      "reference": "Esdras 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:6",
+      "reference": "Esdras 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:7",
+      "reference": "Esdras 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:8",
+      "reference": "Esdras 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:9",
+      "reference": "Esdras 9",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "people-group", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:esdras:10",
+      "reference": "Esdras 10",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "people-group", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

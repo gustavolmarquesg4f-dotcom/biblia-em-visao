@@ -1,9 +1,153 @@
 {
   "schemaVersion": 1,
   "book": "Josué",
-  "count": 44,
-  "chapterCount": 20,
+  "count": 118,
+  "chapterCount": 24,
   "nodes": [
+    {
+      "id": "book:1-reis",
+      "kind": "book",
+      "label": "1 Reis",
+      "aliases": ["1Rs"],
+      "summary": "Do templo de Salomão à divisão do reino e aos confrontos proféticos.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["11-1-reis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 22,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Salomão e divisão do reino"
+      }
+    },
+    {
+      "id": "book:atos",
+      "kind": "book",
+      "label": "Atos",
+      "aliases": ["At"],
+      "summary": "Expansão do movimento de Jesus de Jerusalém até Roma.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["44-atos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "História da igreja",
+        "chapters": 28,
+        "author": "Mesmo projeto literário de Lucas",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:deuteronomio",
+      "kind": "book",
+      "label": "Deuteronômio",
+      "aliases": ["Dt"],
+      "summary": "Releitura da lei e dos compromissos da aliança para uma nova geração.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["5-deuteron-mio"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 34,
+        "author": "Moisés (tradição); edição posterior discutida",
+        "period": "Vésperas da entrada na terra"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:genesis",
+      "kind": "book",
+      "label": "Gênesis",
+      "aliases": ["Gn"],
+      "summary": "Origens do mundo, ruptura humana e formação da família de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["1-g-nesis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 50,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Origens → patriarcas"
+      }
+    },
+    {
+      "id": "book:hebreus",
+      "kind": "book",
+      "label": "Hebreus",
+      "aliases": ["Hb"],
+      "summary": "Sermão escrito que chama uma comunidade cansada à perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["58-hebreus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 13,
+        "author": "Autor não identificado",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:juizes",
+      "kind": "book",
+      "label": "Juízes",
+      "aliases": ["Jz"],
+      "summary": "Ciclos de opressão, libertação e desordem antes da monarquia.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["7-ju-zes"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 21,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Antes da monarquia"
+      }
+    },
+    {
+      "id": "book:salmos",
+      "kind": "book",
+      "label": "Salmos",
+      "aliases": ["Sl"],
+      "summary": "Orações e poemas para celebração, crise, lamento e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["19-salmos"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 150,
+        "author": "Coleção com Davi e outros autores tradicionais",
+        "period": "Vários períodos de Israel"
+      }
+    },
     {
       "id": "event:josue-assembleia-e-renovacao-da-alianca-em-siquem",
       "kind": "event",
@@ -818,6 +962,820 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-josue-1:book-deuteronomio",
+      "from": "chapter:josue:1",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 1 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dt 31:1–8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-1:book-hebreus",
+      "from": "chapter:josue:1",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 1 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hb 4:1–11"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-1:book-salmos",
+      "from": "chapter:josue:1",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 1 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Sl 1"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-10:book-deuteronomio",
+      "from": "chapter:josue:10",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 10 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-10:book-hebreus",
+      "from": "chapter:josue:10",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 10 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-10:book-juizes",
+      "from": "chapter:josue:10",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 10 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-11:book-deuteronomio",
+      "from": "chapter:josue:11",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 11 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-11:book-hebreus",
+      "from": "chapter:josue:11",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 11 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-11:book-juizes",
+      "from": "chapter:josue:11",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 11 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-12:book-deuteronomio",
+      "from": "chapter:josue:12",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 12 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-12:book-hebreus",
+      "from": "chapter:josue:12",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 12 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-12:book-juizes",
+      "from": "chapter:josue:12",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 12 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-13:book-deuteronomio",
+      "from": "chapter:josue:13",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 13 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-13:book-hebreus",
+      "from": "chapter:josue:13",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 13 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-13:book-juizes",
+      "from": "chapter:josue:13",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 13 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-14:book-deuteronomio",
+      "from": "chapter:josue:14",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 14 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-14:book-hebreus",
+      "from": "chapter:josue:14",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 14 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-14:book-juizes",
+      "from": "chapter:josue:14",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 14 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-15:book-deuteronomio",
+      "from": "chapter:josue:15",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 15 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-15:book-hebreus",
+      "from": "chapter:josue:15",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 15 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-15:book-juizes",
+      "from": "chapter:josue:15",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 15 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-16:book-deuteronomio",
+      "from": "chapter:josue:16",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 16 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-16:book-hebreus",
+      "from": "chapter:josue:16",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 16 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-16:book-juizes",
+      "from": "chapter:josue:16",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 16 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-17:book-deuteronomio",
+      "from": "chapter:josue:17",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 17 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-17:book-hebreus",
+      "from": "chapter:josue:17",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 17 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-17:book-juizes",
+      "from": "chapter:josue:17",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 17 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-18:book-deuteronomio",
+      "from": "chapter:josue:18",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 18 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-18:book-hebreus",
+      "from": "chapter:josue:18",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 18 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-18:book-juizes",
+      "from": "chapter:josue:18",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 18 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-19:book-deuteronomio",
+      "from": "chapter:josue:19",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 19 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-19:book-hebreus",
+      "from": "chapter:josue:19",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 19 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-19:book-juizes",
+      "from": "chapter:josue:19",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 19 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-2:book-deuteronomio",
+      "from": "chapter:josue:2",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 2 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-2:book-hebreus",
+      "from": "chapter:josue:2",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 2 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-2:book-juizes",
+      "from": "chapter:josue:2",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 2 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-20:book-deuteronomio",
+      "from": "chapter:josue:20",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 20 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-20:book-hebreus",
+      "from": "chapter:josue:20",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 20 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-20:book-juizes",
+      "from": "chapter:josue:20",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 20 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-21:book-deuteronomio",
+      "from": "chapter:josue:21",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 21 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-21:book-hebreus",
+      "from": "chapter:josue:21",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 21 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-21:book-juizes",
+      "from": "chapter:josue:21",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 21 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-22:book-deuteronomio",
+      "from": "chapter:josue:22",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 22 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-22:book-hebreus",
+      "from": "chapter:josue:22",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 22 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-22:book-juizes",
+      "from": "chapter:josue:22",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 22 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-23:book-deuteronomio",
+      "from": "chapter:josue:23",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 23 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-23:book-hebreus",
+      "from": "chapter:josue:23",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 23 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-23:book-juizes",
+      "from": "chapter:josue:23",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 23 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-24:book-1-reis",
+      "from": "chapter:josue:24",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 24 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Rs 18:20–39"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-24:book-atos",
+      "from": "chapter:josue:24",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 24 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["At 7:2–53"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-24:book-deuteronomio",
+      "from": "chapter:josue:24",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 24 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dt 6:4–9"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-24:book-exodo",
+      "from": "chapter:josue:24",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 24 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êx 20:1–6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-24:book-genesis",
+      "from": "chapter:josue:24",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 24 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 12:6–7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-3:book-deuteronomio",
+      "from": "chapter:josue:3",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 3 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-3:book-hebreus",
+      "from": "chapter:josue:3",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 3 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-3:book-juizes",
+      "from": "chapter:josue:3",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 3 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-4:book-deuteronomio",
+      "from": "chapter:josue:4",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 4 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-4:book-hebreus",
+      "from": "chapter:josue:4",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 4 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-4:book-juizes",
+      "from": "chapter:josue:4",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 4 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-5:book-deuteronomio",
+      "from": "chapter:josue:5",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 5 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-5:book-hebreus",
+      "from": "chapter:josue:5",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 5 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-5:book-juizes",
+      "from": "chapter:josue:5",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 5 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-6:book-deuteronomio",
+      "from": "chapter:josue:6",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 6 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-6:book-hebreus",
+      "from": "chapter:josue:6",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 6 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-6:book-juizes",
+      "from": "chapter:josue:6",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 6 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-7:book-deuteronomio",
+      "from": "chapter:josue:7",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 7 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-7:book-hebreus",
+      "from": "chapter:josue:7",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 7 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-7:book-juizes",
+      "from": "chapter:josue:7",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 7 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-8:book-deuteronomio",
+      "from": "chapter:josue:8",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 8 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-8:book-hebreus",
+      "from": "chapter:josue:8",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 8 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-8:book-juizes",
+      "from": "chapter:josue:8",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 8 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-9:book-deuteronomio",
+      "from": "chapter:josue:9",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 9 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-9:book-hebreus",
+      "from": "chapter:josue:9",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 9 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-josue-9:book-juizes",
+      "from": "chapter:josue:9",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Josué 9 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-josue-11:theme-hazor",
       "from": "chapter:josue:11",
       "to": "theme:hazor",
@@ -893,6 +1851,615 @@
       "references": ["Josué 8:30-35; 24:1-32"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:josue:1",
+      "reference": "Josué 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:2",
+      "reference": "Josué 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:3",
+      "reference": "Josué 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:4",
+      "reference": "Josué 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:5",
+      "reference": "Josué 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:6",
+      "reference": "Josué 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:7",
+      "reference": "Josué 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:8",
+      "reference": "Josué 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:9",
+      "reference": "Josué 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "people-group", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:10",
+      "reference": "Josué 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "people-group", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:11",
+      "reference": "Josué 11",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:12",
+      "reference": "Josué 12",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:13",
+      "reference": "Josué 13",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:14",
+      "reference": "Josué 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:15",
+      "reference": "Josué 15",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:16",
+      "reference": "Josué 16",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:17",
+      "reference": "Josué 17",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:18",
+      "reference": "Josué 18",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:19",
+      "reference": "Josué 19",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:20",
+      "reference": "Josué 20",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:21",
+      "reference": "Josué 21",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:22",
+      "reference": "Josué 22",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:23",
+      "reference": "Josué 23",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:josue:24",
+      "reference": "Josué 24",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

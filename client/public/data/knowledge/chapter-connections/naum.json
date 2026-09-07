@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Naum",
-  "count": 21,
+  "count": 30,
   "chapterCount": 3,
   "nodes": [
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:habacuque",
+      "kind": "book",
+      "label": "Habacuque",
+      "aliases": ["Hc"],
+      "summary": "Diálogo honesto sobre a demora da justiça e decisão de confiar.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["35-habacuque"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 3,
+        "author": "Habacuque",
+        "period": "Crise babilônica"
+      }
+    },
+    {
+      "id": "book:jonas",
+      "kind": "book",
+      "label": "Jonas",
+      "aliases": ["Jn"],
+      "summary": "Narrativa irônica sobre misericórdia, missão e resistência ao acolhimento.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["32-jonas"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 4,
+        "author": "Autor não identificado",
+        "period": "Narrativa profética; data debatida"
+      }
+    },
     {
       "id": "person:naum-de-elcos",
       "kind": "person",
@@ -345,6 +399,105 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-naum-1:book-apocalipse",
+      "from": "chapter:naum:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-1:book-habacuque",
+      "from": "chapter:naum:1",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 1 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-1:book-jonas",
+      "from": "chapter:naum:1",
+      "to": "book:jonas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 1 inclui Jonas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jonas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-2:book-apocalipse",
+      "from": "chapter:naum:2",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 2 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-2:book-habacuque",
+      "from": "chapter:naum:2",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 2 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-2:book-jonas",
+      "from": "chapter:naum:2",
+      "to": "book:jonas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 2 inclui Jonas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jonas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-3:book-apocalipse",
+      "from": "chapter:naum:3",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 3 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-3:book-habacuque",
+      "from": "chapter:naum:3",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 3 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-naum-3:book-jonas",
+      "from": "chapter:naum:3",
+      "to": "book:jonas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Naum 3 inclui Jonas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jonas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-naum-1:theme-belial-o-destruidor",
       "from": "chapter:naum:1",
       "to": "theme:belial-o-destruidor",
@@ -442,6 +595,83 @@
       "references": ["Naum 3:18"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:naum:1",
+      "reference": "Naum 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 13,
+      "entityConnectionCount": 10,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:naum:2",
+      "reference": "Naum 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:naum:3",
+      "reference": "Naum 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

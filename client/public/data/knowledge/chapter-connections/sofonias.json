@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Sofonias",
-  "count": 28,
+  "count": 37,
   "chapterCount": 3,
   "nodes": [
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:joel",
+      "kind": "book",
+      "label": "Joel",
+      "aliases": ["Jl"],
+      "summary": "Praga, jejum, dia do Senhor e promessa do derramamento do espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["29-joel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 3,
+        "author": "Joel; data debatida",
+        "period": "Data incerta"
+      }
+    },
+    {
+      "id": "book:miqueias",
+      "kind": "book",
+      "label": "Miqueias",
+      "aliases": ["Mq"],
+      "summary": "Denúncia contra líderes corruptos e promessa de justiça e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["33-miqueias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 7,
+        "author": "Miqueias",
+        "period": "Século VIII a.C."
+      }
+    },
     {
       "id": "event:sofonias-a-conversao-universal-dos-labios-e-o-regozijo-divino-em-siao",
       "kind": "event",
@@ -643,6 +697,105 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-sofonias-1:book-apocalipse",
+      "from": "chapter:sofonias:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-1:book-joel",
+      "from": "chapter:sofonias:1",
+      "to": "book:joel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 1 inclui Joel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Joel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-1:book-miqueias",
+      "from": "chapter:sofonias:1",
+      "to": "book:miqueias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 1 inclui Miqueias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Miqueias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-2:book-apocalipse",
+      "from": "chapter:sofonias:2",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 2 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-2:book-joel",
+      "from": "chapter:sofonias:2",
+      "to": "book:joel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 2 inclui Joel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Joel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-2:book-miqueias",
+      "from": "chapter:sofonias:2",
+      "to": "book:miqueias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 2 inclui Miqueias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Miqueias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-3:book-apocalipse",
+      "from": "chapter:sofonias:3",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 3 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-3:book-joel",
+      "from": "chapter:sofonias:3",
+      "to": "book:joel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 3 inclui Joel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Joel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-sofonias-3:book-miqueias",
+      "from": "chapter:sofonias:3",
+      "to": "book:miqueias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Sofonias 3 inclui Miqueias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Miqueias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-sofonias-1:theme-baal",
       "from": "chapter:sofonias:1",
       "to": "theme:baal",
@@ -696,6 +849,97 @@
       "references": ["Sofonias 3:12-13"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:sofonias:1",
+      "reference": "Sofonias 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:sofonias:2",
+      "reference": "Sofonias 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 15,
+      "entityConnectionCount": 12,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:sofonias:3",
+      "reference": "Sofonias 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

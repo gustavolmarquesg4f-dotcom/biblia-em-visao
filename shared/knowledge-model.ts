@@ -57,6 +57,42 @@ export type KnowledgeRelation = {
   confidence: "high" | "medium" | "contextual" | "debated";
 };
 
+export const chapterEditorialDimensions = [
+  "people",
+  "scenes",
+  "terms",
+  "theology",
+] as const;
+
+export type ChapterEditorialDimension =
+  (typeof chapterEditorialDimensions)[number];
+
+export type ChapterEditorialProfile = {
+  chapterId: string;
+  reference: string;
+  status: "published" | "connected" | "expanded" | "reviewed";
+  priority: "high" | "medium" | "standard" | "polish";
+  editorialDepth: string;
+  structuralChecks: {
+    fourLayers: boolean;
+    source: boolean;
+    cartography: boolean;
+    canonicalDialogue: boolean;
+    explicitConnections: boolean;
+  };
+  structuralScore: number;
+  connectionCount: number;
+  entityConnectionCount: number;
+  connectionKinds: KnowledgeKind[];
+  coveredDimensions: ChapterEditorialDimension[];
+  pendingDimensions: ChapterEditorialDimension[];
+  humanReview: {
+    completed: boolean;
+    reviewedAt: string | null;
+    reviewedBy: string[];
+  };
+};
+
 export type CanonicalBookReference = {
   name: string;
   short: string;
@@ -147,6 +183,48 @@ export function extractCanonicalBookNames(
   }
 
   return books.filter(book => matches.has(book.name)).map(book => book.name);
+}
+
+/**
+ * Extrai livros citados como referência bíblica completa (`Jo 3:16`) ou como
+ * item editorial isolado (`João`). A segunda forma só é aceita quando todo o
+ * item corresponde a um nome/alias canônico, evitando colisões com palavras
+ * comuns como “Os” e “Na”.
+ */
+export function extractExplicitCanonicalBookNames(
+  references: string[],
+  books: CanonicalBookReference[]
+) {
+  const found = new Set(extractCanonicalBookNames(references, books));
+  const candidates = books
+    .flatMap((book, order) => {
+      const aliases = new Set([book.name, book.short, ...(book.aliases ?? [])]);
+      return Array.from(aliases).map(alias => ({ alias, book, order }));
+    })
+    .sort(
+      (left, right) =>
+        right.alias.length - left.alias.length || left.order - right.order
+    );
+
+  for (const reference of references) {
+    const normalized = reference
+      .replace(/[\*_`]/g, "")
+      .replace(/[.:;,]+$/g, "")
+      .trim();
+    const exact = candidates.find(
+      candidate =>
+        (candidate.alias.localeCompare(candidate.book.name, "pt-BR", {
+          sensitivity: "base",
+        }) === 0 ||
+          candidate.alias.replace(/\s+/g, "").length >= 4) &&
+        normalized.localeCompare(candidate.alias, "pt-BR", {
+          sensitivity: "base",
+        }) === 0
+    );
+    if (exact) found.add(exact.book.name);
+  }
+
+  return books.filter(book => found.has(book.name)).map(book => book.name);
 }
 
 function canonicalBookMatches(value: string, books: CanonicalBookReference[]) {

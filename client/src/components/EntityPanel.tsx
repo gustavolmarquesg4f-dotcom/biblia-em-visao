@@ -72,6 +72,8 @@ const attributeLabels: Record<string, string> = {
   canonicalStatus: "Situação canônica",
   date: "Data provável",
   tradition: "Tradição",
+  primarySource: "Fonte primária específica",
+  bookLinksVerified: "Vínculos bíblicos verificados",
 };
 
 function displayValue(value: unknown) {
@@ -154,6 +156,11 @@ function RegistryEntityPanel({
         ])
       )
     : [];
+  const biographySourcePending = Boolean(
+    node?.kind === "person" &&
+      node.sourceCatalogs.includes("biography-catalog") &&
+      !node.attributes?.primarySource
+  );
 
   const Icon = node ? iconFor(node.kind) : Network;
   return (
@@ -248,6 +255,20 @@ function RegistryEntityPanel({
                       </div>
                     ))}
                   </dl>
+                </section>
+              )}
+
+              {biographySourcePending && (
+                <section className="registry-source-pending">
+                  <span className="entity-section-label">
+                    <ShieldCheck size={13} /> Estado da fonte
+                  </span>
+                  <strong>Fonte primária específica ainda pendente</strong>
+                  <p>
+                    A biografia permanece disponível, mas não recebe selo de
+                    revisão concluída até que uma obra, documento ou página
+                    institucional específica sustente suas afirmações.
+                  </p>
                 </section>
               )}
 

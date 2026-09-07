@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "1 Samuel",
-  "count": 155,
+  "count": 248,
   "chapterCount": 31,
   "nodes": [
+    {
+      "id": "book:2-samuel",
+      "kind": "book",
+      "label": "2 Samuel",
+      "aliases": ["2Sm"],
+      "summary": "O reinado de Davi, suas vitórias, promessa dinástica e conflitos internos.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["10-2-samuel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 24,
+        "author": "Tradições históricas reunidas",
+        "period": "Reinado de Davi"
+      }
+    },
+    {
+      "id": "book:atos",
+      "kind": "book",
+      "label": "Atos",
+      "aliases": ["At"],
+      "summary": "Expansão do movimento de Jesus de Jerusalém até Roma.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["44-atos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "História da igreja",
+        "chapters": 28,
+        "author": "Mesmo projeto literário de Lucas",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:juizes",
+      "kind": "book",
+      "label": "Juízes",
+      "aliases": ["Jz"],
+      "summary": "Ciclos de opressão, libertação e desordem antes da monarquia.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["7-ju-zes"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 21,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Antes da monarquia"
+      }
+    },
     {
       "id": "people-group:filisteus",
       "kind": "people-group",
@@ -1910,6 +1964,1029 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-1-samuel-1:book-2-samuel",
+      "from": "chapter:1-samuel:1",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 1 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-1:book-atos",
+      "from": "chapter:1-samuel:1",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 1 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-1:book-juizes",
+      "from": "chapter:1-samuel:1",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 1 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-10:book-2-samuel",
+      "from": "chapter:1-samuel:10",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 10 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-10:book-atos",
+      "from": "chapter:1-samuel:10",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 10 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-10:book-juizes",
+      "from": "chapter:1-samuel:10",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 10 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-11:book-2-samuel",
+      "from": "chapter:1-samuel:11",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 11 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-11:book-atos",
+      "from": "chapter:1-samuel:11",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 11 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-11:book-juizes",
+      "from": "chapter:1-samuel:11",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 11 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-12:book-2-samuel",
+      "from": "chapter:1-samuel:12",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 12 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-12:book-atos",
+      "from": "chapter:1-samuel:12",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 12 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-12:book-juizes",
+      "from": "chapter:1-samuel:12",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 12 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-13:book-2-samuel",
+      "from": "chapter:1-samuel:13",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 13 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-13:book-atos",
+      "from": "chapter:1-samuel:13",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 13 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-13:book-juizes",
+      "from": "chapter:1-samuel:13",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 13 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-14:book-2-samuel",
+      "from": "chapter:1-samuel:14",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 14 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-14:book-atos",
+      "from": "chapter:1-samuel:14",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 14 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-14:book-juizes",
+      "from": "chapter:1-samuel:14",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 14 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-15:book-2-samuel",
+      "from": "chapter:1-samuel:15",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 15 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-15:book-atos",
+      "from": "chapter:1-samuel:15",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 15 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-15:book-juizes",
+      "from": "chapter:1-samuel:15",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 15 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-16:book-2-samuel",
+      "from": "chapter:1-samuel:16",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 16 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-16:book-atos",
+      "from": "chapter:1-samuel:16",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 16 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-16:book-juizes",
+      "from": "chapter:1-samuel:16",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 16 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-17:book-2-samuel",
+      "from": "chapter:1-samuel:17",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 17 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-17:book-atos",
+      "from": "chapter:1-samuel:17",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 17 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-17:book-juizes",
+      "from": "chapter:1-samuel:17",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 17 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-18:book-2-samuel",
+      "from": "chapter:1-samuel:18",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 18 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-18:book-atos",
+      "from": "chapter:1-samuel:18",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 18 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-18:book-juizes",
+      "from": "chapter:1-samuel:18",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 18 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-19:book-2-samuel",
+      "from": "chapter:1-samuel:19",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 19 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-19:book-atos",
+      "from": "chapter:1-samuel:19",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 19 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-19:book-juizes",
+      "from": "chapter:1-samuel:19",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 19 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-2:book-2-samuel",
+      "from": "chapter:1-samuel:2",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 2 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-2:book-atos",
+      "from": "chapter:1-samuel:2",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 2 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-2:book-juizes",
+      "from": "chapter:1-samuel:2",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 2 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-20:book-2-samuel",
+      "from": "chapter:1-samuel:20",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 20 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-20:book-atos",
+      "from": "chapter:1-samuel:20",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 20 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-20:book-juizes",
+      "from": "chapter:1-samuel:20",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 20 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-21:book-2-samuel",
+      "from": "chapter:1-samuel:21",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 21 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-21:book-atos",
+      "from": "chapter:1-samuel:21",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 21 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-21:book-juizes",
+      "from": "chapter:1-samuel:21",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 21 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-22:book-2-samuel",
+      "from": "chapter:1-samuel:22",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 22 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-22:book-atos",
+      "from": "chapter:1-samuel:22",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 22 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-22:book-juizes",
+      "from": "chapter:1-samuel:22",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 22 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-23:book-2-samuel",
+      "from": "chapter:1-samuel:23",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 23 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-23:book-atos",
+      "from": "chapter:1-samuel:23",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 23 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-23:book-juizes",
+      "from": "chapter:1-samuel:23",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 23 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-24:book-2-samuel",
+      "from": "chapter:1-samuel:24",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 24 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-24:book-atos",
+      "from": "chapter:1-samuel:24",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 24 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-24:book-juizes",
+      "from": "chapter:1-samuel:24",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 24 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-25:book-2-samuel",
+      "from": "chapter:1-samuel:25",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 25 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-25:book-atos",
+      "from": "chapter:1-samuel:25",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 25 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-25:book-juizes",
+      "from": "chapter:1-samuel:25",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 25 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-26:book-2-samuel",
+      "from": "chapter:1-samuel:26",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 26 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-26:book-atos",
+      "from": "chapter:1-samuel:26",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 26 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-26:book-juizes",
+      "from": "chapter:1-samuel:26",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 26 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-27:book-2-samuel",
+      "from": "chapter:1-samuel:27",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 27 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-27:book-atos",
+      "from": "chapter:1-samuel:27",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 27 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-27:book-juizes",
+      "from": "chapter:1-samuel:27",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 27 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-28:book-2-samuel",
+      "from": "chapter:1-samuel:28",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 28 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-28:book-atos",
+      "from": "chapter:1-samuel:28",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 28 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-28:book-juizes",
+      "from": "chapter:1-samuel:28",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 28 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-29:book-2-samuel",
+      "from": "chapter:1-samuel:29",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 29 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-29:book-atos",
+      "from": "chapter:1-samuel:29",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 29 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-29:book-juizes",
+      "from": "chapter:1-samuel:29",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 29 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-3:book-2-samuel",
+      "from": "chapter:1-samuel:3",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 3 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-3:book-atos",
+      "from": "chapter:1-samuel:3",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 3 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-3:book-juizes",
+      "from": "chapter:1-samuel:3",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 3 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-30:book-2-samuel",
+      "from": "chapter:1-samuel:30",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 30 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-30:book-atos",
+      "from": "chapter:1-samuel:30",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 30 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-30:book-juizes",
+      "from": "chapter:1-samuel:30",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 30 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-31:book-2-samuel",
+      "from": "chapter:1-samuel:31",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 31 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-31:book-atos",
+      "from": "chapter:1-samuel:31",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 31 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-31:book-juizes",
+      "from": "chapter:1-samuel:31",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 31 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-4:book-2-samuel",
+      "from": "chapter:1-samuel:4",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 4 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-4:book-atos",
+      "from": "chapter:1-samuel:4",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 4 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-4:book-juizes",
+      "from": "chapter:1-samuel:4",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 4 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-5:book-2-samuel",
+      "from": "chapter:1-samuel:5",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 5 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-5:book-atos",
+      "from": "chapter:1-samuel:5",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 5 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-5:book-juizes",
+      "from": "chapter:1-samuel:5",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 5 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-6:book-2-samuel",
+      "from": "chapter:1-samuel:6",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 6 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-6:book-atos",
+      "from": "chapter:1-samuel:6",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 6 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-6:book-juizes",
+      "from": "chapter:1-samuel:6",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 6 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-7:book-2-samuel",
+      "from": "chapter:1-samuel:7",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 7 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-7:book-atos",
+      "from": "chapter:1-samuel:7",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 7 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-7:book-juizes",
+      "from": "chapter:1-samuel:7",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 7 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-8:book-2-samuel",
+      "from": "chapter:1-samuel:8",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 8 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-8:book-atos",
+      "from": "chapter:1-samuel:8",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 8 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-8:book-juizes",
+      "from": "chapter:1-samuel:8",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 8 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-9:book-2-samuel",
+      "from": "chapter:1-samuel:9",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 9 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-9:book-atos",
+      "from": "chapter:1-samuel:9",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 9 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-samuel-9:book-juizes",
+      "from": "chapter:1-samuel:9",
+      "to": "book:juizes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Samuel 9 inclui Juízes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Juízes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-1-samuel-10:theme-profetas-comunidades",
       "from": "chapter:1-samuel:10",
       "to": "theme:profetas-comunidades",
@@ -1963,6 +3040,795 @@
       "references": ["1Sm 4-7"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:1-samuel:1",
+      "reference": "1 Samuel 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:2",
+      "reference": "1 Samuel 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:3",
+      "reference": "1 Samuel 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:4",
+      "reference": "1 Samuel 4",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:5",
+      "reference": "1 Samuel 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:6",
+      "reference": "1 Samuel 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:7",
+      "reference": "1 Samuel 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:8",
+      "reference": "1 Samuel 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:9",
+      "reference": "1 Samuel 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:10",
+      "reference": "1 Samuel 10",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:11",
+      "reference": "1 Samuel 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:12",
+      "reference": "1 Samuel 12",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:13",
+      "reference": "1 Samuel 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:14",
+      "reference": "1 Samuel 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:15",
+      "reference": "1 Samuel 15",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:16",
+      "reference": "1 Samuel 16",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:17",
+      "reference": "1 Samuel 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:18",
+      "reference": "1 Samuel 18",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:19",
+      "reference": "1 Samuel 19",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:20",
+      "reference": "1 Samuel 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:21",
+      "reference": "1 Samuel 21",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:22",
+      "reference": "1 Samuel 22",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:23",
+      "reference": "1 Samuel 23",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:24",
+      "reference": "1 Samuel 24",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:25",
+      "reference": "1 Samuel 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:26",
+      "reference": "1 Samuel 26",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:27",
+      "reference": "1 Samuel 27",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:28",
+      "reference": "1 Samuel 28",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:29",
+      "reference": "1 Samuel 29",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:30",
+      "reference": "1 Samuel 30",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-samuel:31",
+      "reference": "1 Samuel 31",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

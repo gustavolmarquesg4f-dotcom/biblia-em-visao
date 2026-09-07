@@ -4265,7 +4265,7 @@
       "summary": "Revelação, testemunho e leitura para comunidades em pressão",
       "references": ["Apocalipse 1", "Dn 7", "Zc 4", "Ap 2–3", "Ap 22:6–7"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-1-1-8"],
       "attributes": {
         "book": "Apocalipse",
@@ -4320,7 +4320,7 @@
         "Ap 19:10"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-12-1-17"],
       "attributes": {
         "book": "Apocalipse",
@@ -4336,7 +4336,7 @@
       "summary": "Besta, poder imperial e discernimento",
       "references": ["Apocalipse 13", "Dn 7:1–8", "2Ts 2:1–12", "Ap 14:9–12"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-13-1-18"],
       "attributes": {
         "book": "Apocalipse",
@@ -4407,7 +4407,7 @@
         "Ap 13"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-17-1-18"],
       "attributes": {
         "book": "Apocalipse",
@@ -4478,7 +4478,7 @@
         "Ap 19–22"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-20-1-15"],
       "attributes": {
         "book": "Apocalipse",
@@ -4501,7 +4501,7 @@
         "2Pe 3:13"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-21-1-8"],
       "attributes": {
         "book": "Apocalipse",
@@ -4524,7 +4524,7 @@
         "Ap 21:1–5"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-22-1-5"],
       "attributes": {
         "book": "Apocalipse",
@@ -4579,7 +4579,7 @@
         "Ap 7"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-5-1-14"],
       "attributes": {
         "book": "Apocalipse",
@@ -4618,7 +4618,7 @@
         "Ap 21:3–4"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ap-7-9-17"],
       "attributes": {
         "book": "Apocalipse",
@@ -4842,7 +4842,7 @@
       "summary": "Pentecostes como linguagem pública e missão",
       "references": ["Atos 2", "Jl 2:28–32", "Lc 24:49", "1Co 12:4–13"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["at-2-1-21"],
       "attributes": {
         "book": "Atos",
@@ -5920,7 +5920,7 @@
         "Rm 10:5–13"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["dt-30-11-20"],
       "attributes": {
         "book": "Deuteronômio",
@@ -6038,7 +6038,7 @@
         "Ef 6:4"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["dt-6-4-9"],
       "attributes": {
         "book": "Deuteronômio",
@@ -6842,7 +6842,7 @@
         "1Co 5:7–8"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ex-12-1-14"],
       "attributes": {
         "book": "Êxodo",
@@ -6954,7 +6954,7 @@
       "summary": "Sinai e a vocação de um povo sacerdotal",
       "references": ["Êxodo 19", "Êx 24", "Dt 7:6–8", "Is 61:6", "1Pe 2:9–10"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ex-19-1-6"],
       "attributes": {
         "book": "Êxodo",
@@ -6992,7 +6992,7 @@
         "Tg 2:8–12"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ex-20-1-17"],
       "attributes": {
         "book": "Êxodo",
@@ -7152,7 +7152,7 @@
       "summary": "Vocação, memória e presença na libertação",
       "references": ["Êxodo 3", "At 7:30–34", "Mt 22:31–32", "Hb 11:23–29"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["ex-3-1-12"],
       "attributes": {
         "book": "Êxodo",
@@ -8648,7 +8648,7 @@
       "summary": "Criação como separação, nomeação e ordem",
       "references": ["Gênesis 1", "Jo 1:1–5", "2Co 4:6", "Ap 21:1–5"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["gn-1-1-5"],
       "attributes": {
         "book": "Gênesis",
@@ -8696,7 +8696,7 @@
       "summary": "Chamado, deslocamento e bênção para as famílias da terra",
       "references": ["Gênesis 12", "Gn 15", "Gn 18:18", "Is 49:6", "Gl 3:6–14"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["gn-12-1-9"],
       "attributes": {
         "book": "Gênesis",
@@ -8879,7 +8879,7 @@
         "Tg 2:21–23"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["gn-22-1-19"],
       "attributes": {
         "book": "Gênesis",
@@ -9007,7 +9007,7 @@
       "summary": "A queda como ruptura de confiança e percepção",
       "references": ["Gênesis 3", "Rm 5:12–21", "2Co 11:3", "Ap 12:9"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["gn-3-1-7"],
       "attributes": {
         "book": "Gênesis",
@@ -12529,7 +12529,7 @@
       "summary": "O Logos entre criação, testemunho e encarnação",
       "references": ["João 1", "Gn 1:1–5", "1Jo 1:1–4", "Ap 19:13"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["jo-1-1-18"],
       "attributes": {
         "book": "João",
@@ -12727,7 +12727,7 @@
         "1Co 15:1–8"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["jo-20-19-31"],
       "attributes": {
         "book": "João",
@@ -12765,7 +12765,7 @@
         "Tt 3:4–7"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["jo-3-1-21"],
       "attributes": {
         "book": "João",
@@ -12989,7 +12989,7 @@
       "summary": "Transição, Torá e coragem diante da terra",
       "references": ["Josué 1", "Dt 31:1–8", "Js 23", "Sl 1", "Hb 4:1–11"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["js-1-1-9"],
       "attributes": {
         "book": "Josué",
@@ -13252,7 +13252,7 @@
         "At 7:2–53"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["js-24-1-28"],
       "attributes": {
         "book": "Josué",
@@ -13960,7 +13960,7 @@
         "Rm 3:21–26"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["lv-16-1-34"],
       "attributes": {
         "book": "Levítico",
@@ -14015,7 +14015,7 @@
         "Tg 2:1–9"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["lv-19-1-18"],
       "attributes": {
         "book": "Levítico",
@@ -14389,7 +14389,7 @@
         "Rm 9–11"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["lc-15-11-32"],
       "attributes": {
         "book": "Lucas",
@@ -14588,7 +14588,7 @@
         "At 10:34–38"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["lc-4-16-30"],
       "attributes": {
         "book": "Lucas",
@@ -15331,7 +15331,7 @@
         "Ef 4:11–16"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["mt-28-16-20"],
       "attributes": {
         "book": "Mateus",
@@ -15379,7 +15379,7 @@
       "summary": "Bem-aventuranças e inversão do status",
       "references": ["Mateus 5", "Is 61:1–3", "Lc 6:20–26", "Tg 2:1–7"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["mt-5-1-12"],
       "attributes": {
         "book": "Mateus",
@@ -15921,7 +15921,7 @@
         "Hb 3:7–19"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["nm-13-1-33"],
       "attributes": {
         "book": "Números",
@@ -16097,7 +16097,7 @@
         "1Co 10:1–4"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["nm-20-1-13"],
       "attributes": {
         "book": "Números",
@@ -17393,7 +17393,7 @@
         "Gl 3:26–29"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-11-25-32"],
       "attributes": {
         "book": "Romanos",
@@ -17415,7 +17415,7 @@
         "Rm 8:1–17"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-12-1-8"],
       "attributes": {
         "book": "Romanos",
@@ -17518,7 +17518,7 @@
         "Ef 2:8–10"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-3-21-31"],
       "attributes": {
         "book": "Romanos",
@@ -17556,7 +17556,7 @@
         "Tg 1:2–4"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-5-1-11"],
       "attributes": {
         "book": "Romanos",
@@ -17604,7 +17604,7 @@
       "summary": "Criação, gemido e esperança corporificada",
       "references": ["Romanos 8", "Gn 3:17–19", "2Co 5:1–5", "Ap 21:1–5"],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-8-18-30"],
       "attributes": {
         "book": "Romanos",
@@ -17627,7 +17627,7 @@
         "Rm 11:25–32"
       ],
       "sourceCatalogs": ["chapter-coverage"],
-      "maturity": "available",
+      "maturity": "expanded",
       "sourceIds": ["rm-9-1-5"],
       "attributes": {
         "book": "Romanos",

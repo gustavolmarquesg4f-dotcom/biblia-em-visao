@@ -33,9 +33,9 @@
   },
   "relationsFile": "relations.json",
   "chapterConnections": {
-    "relationCount": 3132,
-    "chapterCount": 894,
-    "entityCount": 1266,
+    "relationCount": 6708,
+    "chapterCount": 1189,
+    "entityCount": 1327,
     "files": {
       "1-corintios": "chapter-connections/1-corintios.json",
       "1-cronicas": "chapter-connections/1-cronicas.json",
@@ -104,5 +104,25 @@
       "tito": "chapter-connections/tito.json",
       "zacarias": "chapter-connections/zacarias.json"
     }
+  },
+  "editorialReview": {
+    "chapterCount": 1189,
+    "statusCounts": {
+      "published": 0,
+      "connected": 969,
+      "expanded": 220,
+      "reviewed": 0
+    },
+    "priorityCounts": {
+      "high": 295,
+      "medium": 310,
+      "standard": 563,
+      "polish": 21
+    },
+    "humanReviewedCount": 0,
+    "biographiesMissingPrimarySource": 83,
+    "biographiesMissingVerifiedBooks": 84,
+    "apocryphalWorksWithoutCanonicalConnections": 9,
+    "method": "Cobertura estrutural e relacional; revisão humana somente com reviewedAt e reviewedBy explícitos."
   }
 }

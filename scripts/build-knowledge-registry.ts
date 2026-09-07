@@ -19,8 +19,10 @@ import {
 } from "../client/src/lib/genesis-relational-data.ts";
 import { theologyEntries } from "../client/src/lib/pentecostal-data.ts";
 import {
+  chapterEditorialDimensions,
   canonicalKnowledgeLabel,
   extractCanonicalChapterReferences,
+  extractExplicitCanonicalBookNames,
   makeKnowledgeId,
   parseKnowledgeId,
   slugifyKnowledgeLabel,
@@ -28,6 +30,8 @@ import {
   type KnowledgeNode,
   type KnowledgeRelation,
   type KnowledgeRelationType,
+  type ChapterEditorialDimension,
+  type ChapterEditorialProfile,
 } from "../shared/knowledge-model.ts";
 
 type JsonObject = Record<string, any>;
@@ -57,7 +61,8 @@ function unique(values: string[]) {
 }
 
 function maturityFromChapter(value: string): KnowledgeNode["maturity"] {
-  if (value === "Comentário textual enriquecido") return "expanded";
+  if (value === "Comentário textual enriquecido" || value === "Foco ampliado")
+    return "expanded";
   return "available";
 }
 
@@ -647,8 +652,7 @@ for (const knowledgeNode of nodes.values()) {
         explanation,
         references: [match.reference],
         sourceCatalog,
-        confidence:
-          knowledgeNode.kind === "doctrine" ? "contextual" : "high",
+        confidence: knowledgeNode.kind === "doctrine" ? "contextual" : "high",
       });
     } else if (knowledgeNode.kind === "term") {
       addRelation("related-term", chapterId, knowledgeNode.id, {
@@ -687,6 +691,47 @@ for (const knowledgeNode of nodes.values()) {
   }
 }
 
+// Os estudos de capítulo já possuem uma seção editorial de “Diálogos e
+// referências”. A Fase 5 transforma somente esses itens declarados em
+// conexões canônicas. Nomes isolados precisam corresponder integralmente a um
+// livro; abreviações soltas dentro de frases continuam rejeitadas.
+const chapterCanonicalDialogues = new Map<string, KnowledgeRelation>();
+for (const chapter of chapterRecords) {
+  const chapterId = makeKnowledgeId("chapter", chapter.book, chapter.chapter);
+  const chapterBookSlug = slugifyKnowledgeLabel(String(chapter.book));
+  const references = asReferences(chapter.references);
+  for (const bookName of extractExplicitCanonicalBookNames(
+    references,
+    referenceBooks
+  )) {
+    const targetBookSlug = slugifyKnowledgeLabel(bookName);
+    if (targetBookSlug === chapterBookSlug) continue;
+    const targetId = bookIdBySlug.get(targetBookSlug);
+    if (!targetId) continue;
+    const matchingReferences = references.filter(reference =>
+      extractExplicitCanonicalBookNames([reference], referenceBooks).includes(
+        bookName
+      )
+    );
+    const id = relationId("canonical-connection", chapterId, targetId);
+    chapterCanonicalDialogues.set(id, {
+      id,
+      from: chapterId,
+      to: targetId,
+      type: "canonical-connection",
+      label: "dialoga com",
+      explanation: `O estudo de ${chapter.reference} inclui ${bookName} em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.`,
+      references: matchingReferences,
+      sourceCatalog: "explicit-reference:chapter-coverage",
+      confidence: "contextual",
+    });
+    chaptersWithExplicitConnections.add(chapterId);
+    entitiesWithExplicitChapterConnections.add(targetId);
+    chapterEntityRelationsByKind.book =
+      (chapterEntityRelationsByKind.book ?? 0) + 1;
+  }
+}
+
 const nodesByKind = Object.fromEntries(
   Array.from(nodes.values())
     .sort((a, b) => a.id.localeCompare(b.id))
@@ -701,9 +746,12 @@ const nodesByKind = Object.fromEntries(
 const relationList = Array.from(relations.values()).sort((a, b) =>
   a.id.localeCompare(b.id)
 );
-const chapterConnectionRelations = relationList.filter(relation =>
-  relation.sourceCatalog.startsWith("explicit-reference:")
-);
+const chapterConnectionRelations = [
+  ...relationList.filter(relation =>
+    relation.sourceCatalog.startsWith("explicit-reference:")
+  ),
+  ...chapterCanonicalDialogues.values(),
+].sort((left, right) => left.id.localeCompare(right.id));
 const chapterConnectionGroups = chapterConnectionRelations.reduce(
   (map, relation) => {
     const chapterId = relation.from.startsWith("chapter:")
@@ -717,12 +765,190 @@ const chapterConnectionGroups = chapterConnectionRelations.reduce(
   },
   new Map<string, KnowledgeRelation[]>()
 );
+const chapterRelationsById = chapterConnectionRelations.reduce(
+  (map, relation) => {
+    const chapterId = relation.from.startsWith("chapter:")
+      ? relation.from
+      : relation.to;
+    const group = map.get(chapterId) ?? [];
+    group.push(relation);
+    map.set(chapterId, group);
+    return map;
+  },
+  new Map<string, KnowledgeRelation[]>()
+);
+
+function editorialDimensionForKind(
+  kind: KnowledgeKind
+): ChapterEditorialDimension | null {
+  if (kind === "person" || kind === "people-group") return "people";
+  if (
+    kind === "place" ||
+    kind === "event" ||
+    kind === "period" ||
+    kind === "empire"
+  )
+    return "scenes";
+  if (kind === "term") return "terms";
+  if (
+    kind === "book" ||
+    kind === "theme" ||
+    kind === "doctrine" ||
+    kind === "prophecy" ||
+    kind === "apocryphal-work"
+  )
+    return "theology";
+  return null;
+}
+
+const editorialProfiles: ChapterEditorialProfile[] = chapterRecords.map(
+  chapter => {
+    const chapterId = makeKnowledgeId("chapter", chapter.book, chapter.chapter);
+    const connected = chapterRelationsById.get(chapterId) ?? [];
+    const connectedNodes = connected
+      .map(relation =>
+        nodes.get(relation.from === chapterId ? relation.to : relation.from)
+      )
+      .filter((item): item is KnowledgeNode => Boolean(item));
+    const entityNodes = connectedNodes.filter(item => item.kind !== "book");
+    const connectionKinds = Array.from(
+      new Set(connectedNodes.map(item => item.kind))
+    ).sort();
+    const coveredDimensions = Array.from(
+      new Set(
+        connectedNodes
+          .map(item => editorialDimensionForKind(item.kind))
+          .filter((item): item is ChapterEditorialDimension => Boolean(item))
+      )
+    ).sort(
+      (left, right) =>
+        chapterEditorialDimensions.indexOf(left) -
+        chapterEditorialDimensions.indexOf(right)
+    );
+    const substantiveDimensions = new Set(
+      entityNodes
+        .map(item => editorialDimensionForKind(item.kind))
+        .filter((item): item is ChapterEditorialDimension => Boolean(item))
+    );
+    const pendingDimensions = chapterEditorialDimensions.filter(
+      dimension => !coveredDimensions.includes(dimension)
+    );
+    const reviewedAt =
+      typeof chapter.reviewedAt === "string" ? chapter.reviewedAt : null;
+    const reviewedBy = Array.isArray(chapter.reviewedBy)
+      ? chapter.reviewedBy.map(String).filter(Boolean)
+      : [];
+    const reviewCompleted = Boolean(reviewedAt && reviewedBy.length);
+    const layers = [
+      chapter.textLayer,
+      chapter.contextLayer,
+      chapter.interpretationLayer,
+      chapter.pentecostalLayer,
+    ];
+    const structuralChecks = {
+      fourLayers: layers.every(
+        value => typeof value === "string" && value.trim().length > 0
+      ),
+      source: Boolean(chapter.source?.label && chapter.source?.url),
+      cartography: Boolean(
+        chapter.cartography?.placeLabel && chapter.cartography?.source?.url
+      ),
+      canonicalDialogue:
+        Array.isArray(chapter.references) && chapter.references.length > 0,
+      explicitConnections: connected.length > 0,
+    };
+    const status: ChapterEditorialProfile["status"] = reviewCompleted
+      ? "reviewed"
+      : entityNodes.length > 0 && substantiveDimensions.size >= 3
+        ? "expanded"
+        : connected.length > 0
+          ? "connected"
+          : "published";
+    const priority: ChapterEditorialProfile["priority"] =
+      entityNodes.length === 0
+        ? "high"
+        : substantiveDimensions.size <= 1
+          ? "medium"
+          : pendingDimensions.length > 0
+            ? "standard"
+            : "polish";
+
+    return {
+      chapterId,
+      reference: String(chapter.reference),
+      status,
+      priority,
+      editorialDepth: String(chapter.editorialDepth),
+      structuralChecks,
+      structuralScore: Object.values(structuralChecks).filter(Boolean).length,
+      connectionCount: connected.length,
+      entityConnectionCount: entityNodes.length,
+      connectionKinds,
+      coveredDimensions,
+      pendingDimensions,
+      humanReview: {
+        completed: reviewCompleted,
+        reviewedAt,
+        reviewedBy,
+      },
+    };
+  }
+);
+const editorialProfileByChapterId = new Map(
+  editorialProfiles.map(profile => [profile.chapterId, profile])
+);
+const editorialStatusCounts = Object.fromEntries(
+  ["published", "connected", "expanded", "reviewed"].map(status => [
+    status,
+    editorialProfiles.filter(profile => profile.status === status).length,
+  ])
+);
+const editorialPriorityCounts = Object.fromEntries(
+  ["high", "medium", "standard", "polish"].map(priority => [
+    priority,
+    editorialProfiles.filter(profile => profile.priority === priority).length,
+  ])
+);
+const biographiesMissingPrimarySource = biographyRecords
+  .filter(record => !record.primarySource)
+  .map(record => ({ id: String(record.id), name: String(record.name) }));
+const biographiesMissingVerifiedBooks = biographyRecords
+  .filter(record => !Array.isArray(record.books) || record.books.length === 0)
+  .map(record => ({ id: String(record.id), name: String(record.name) }));
+const apocryphaEditorialQueue = Array.from(nodes.values())
+  .filter(node => node.kind === "apocryphal-work")
+  .map(node => {
+    const canonicalRelations = chapterConnectionRelations.filter(
+      relation => relation.from === node.id || relation.to === node.id
+    );
+    return {
+      id: node.id,
+      title: node.label,
+      canonicalConnections: canonicalRelations.length,
+      connectedChapters: unique(
+        canonicalRelations
+          .map(relation =>
+            relation.from.startsWith("chapter:")
+              ? relation.from
+              : relation.to.startsWith("chapter:")
+                ? relation.to
+                : ""
+          )
+          .filter(Boolean)
+      ).length,
+      requiresConnectionReview: canonicalRelations.length === 0,
+    };
+  })
+  .sort((left, right) => left.title.localeCompare(right.title, "pt-BR"));
 const chapterConnectionFiles = Object.fromEntries(
   Array.from(chapterConnectionGroups.keys())
     .sort()
     .map(bookSlug => [bookSlug, `chapter-connections/${bookSlug}.json`])
 );
 const unresolvedRelations = relationList.filter(
+  relation => !nodes.has(relation.from) || !nodes.has(relation.to)
+);
+const unresolvedChapterConnectionRelations = chapterConnectionRelations.filter(
   relation => !nodes.has(relation.from) || !nodes.has(relation.to)
 );
 const malformedNodeIds = Array.from(nodes.keys()).filter(
@@ -798,6 +1024,21 @@ const manifest = {
     entityCount: entitiesWithExplicitChapterConnections.size,
     files: chapterConnectionFiles,
   },
+  editorialReview: {
+    chapterCount: editorialProfiles.length,
+    statusCounts: editorialStatusCounts,
+    priorityCounts: editorialPriorityCounts,
+    humanReviewedCount: editorialProfiles.filter(
+      profile => profile.humanReview.completed
+    ).length,
+    biographiesMissingPrimarySource: biographiesMissingPrimarySource.length,
+    biographiesMissingVerifiedBooks: biographiesMissingVerifiedBooks.length,
+    apocryphalWorksWithoutCanonicalConnections: apocryphaEditorialQueue.filter(
+      item => item.requiresConnectionReview
+    ).length,
+    method:
+      "Cobertura estrutural e relacional; revisão humana somente com reviewedAt e reviewedBy explícitos.",
+  },
 };
 
 const validation = {
@@ -807,11 +1048,14 @@ const validation = {
     (nodesByKind.chapter?.length ?? 0) === 1189 &&
     biographyRecords.length === 119 &&
     unresolvedRelations.length === 0 &&
+    unresolvedChapterConnectionRelations.length === 0 &&
     malformedNodeIds.length === 0 &&
     suspiciousBiographyAssociations.length === 0 &&
     chaptersWithExplicitConnections.size > 0 &&
     entitiesWithExplicitChapterConnections.size > 0 &&
-    chapterConnectionGroups.size === bibleBooks.length,
+    chapterConnectionGroups.size === bibleBooks.length &&
+    editorialProfiles.length === chapterRecords.length &&
+    editorialProfiles.every(profile => profile.structuralScore === 5),
   counts: {
     nodes: nodes.size,
     relations: relationList.length,
@@ -830,6 +1074,8 @@ const validation = {
       Array.isArray(record.rawBooks)
     ),
     noUnresolvedRelations: unresolvedRelations.length === 0,
+    noUnresolvedChapterConnectionRelations:
+      unresolvedChapterConnectionRelations.length === 0,
     stableNodeIds: malformedNodeIds.length === 0,
     noSuspiciousBiographyAssociations:
       suspiciousBiographyAssociations.length === 0,
@@ -838,6 +1084,15 @@ const validation = {
       entitiesWithExplicitChapterConnections.size > 0,
     chapterConnectionFileForEveryBook:
       chapterConnectionGroups.size === bibleBooks.length,
+    editorialProfileForEveryChapter:
+      editorialProfiles.length === chapterRecords.length,
+    noFalseHumanReview: editorialProfiles.every(
+      profile =>
+        profile.status !== "reviewed" || profile.humanReview.completed === true
+    ),
+    completeStructuralBaseline: editorialProfiles.every(
+      profile => profile.structuralScore === 5
+    ),
   },
   chapterConnections: {
     relations: Object.values(chapterEntityRelationsByKind).reduce(
@@ -850,7 +1105,24 @@ const validation = {
     byKind: chapterEntityRelationsByKind,
     method: "Somente referências bíblicas explícitas presentes nos verbetes.",
   },
+  editorialReview: {
+    statusCounts: editorialStatusCounts,
+    priorityCounts: editorialPriorityCounts,
+    pendingDimensions: Object.fromEntries(
+      chapterEditorialDimensions.map(dimension => [
+        dimension,
+        editorialProfiles.filter(profile =>
+          profile.pendingDimensions.includes(dimension)
+        ).length,
+      ])
+    ),
+    humanReviewed: editorialProfiles.filter(
+      profile => profile.humanReview.completed
+    ).length,
+  },
   unresolvedRelations: unresolvedRelations.map(relation => relation.id),
+  unresolvedChapterConnectionRelations:
+    unresolvedChapterConnectionRelations.map(relation => relation.id),
   malformedNodeIds,
   suspiciousBiographyAssociations,
 };
@@ -928,6 +1200,14 @@ for (const [bookSlug, bookRelations] of chapterConnectionGroups) {
     .map(id => nodes.get(id))
     .filter((item): item is KnowledgeNode => Boolean(item))
     .sort((left, right) => left.id.localeCompare(right.id));
+  const profiles = Array.from(chapterIds)
+    .map(chapterId => editorialProfileByChapterId.get(chapterId))
+    .filter((item): item is ChapterEditorialProfile => Boolean(item))
+    .sort((left, right) => {
+      const leftChapter = Number(left.chapterId.split(":")[2]);
+      const rightChapter = Number(right.chapterId.split(":")[2]);
+      return leftChapter - rightChapter;
+    });
   await fs.writeFile(
     path.join(chapterConnectionDirectory, `${bookSlug}.json`),
     await format(
@@ -938,6 +1218,7 @@ for (const [bookSlug, bookRelations] of chapterConnectionGroups) {
         chapterCount: chapterIds.size,
         nodes: relatedNodes,
         relations: bookRelations,
+        editorialProfiles: profiles,
       }),
       { parser: "json" }
     ),
@@ -947,6 +1228,47 @@ for (const [bookSlug, bookRelations] of chapterConnectionGroups) {
 await fs.writeFile(
   path.join(outputDirectory, "manifest.json"),
   await format(JSON.stringify(manifest), { parser: "json" }),
+  "utf8"
+);
+await fs.writeFile(
+  path.join(auditDirectory, "editorial-review-queue.json"),
+  await format(
+    JSON.stringify({
+      schemaVersion: 1,
+      method:
+        "Prioridade calculada por dimensões relacionais ausentes. O relatório não declara revisão teológica humana sem reviewedAt e reviewedBy.",
+      summary: {
+        chapters: editorialProfiles.length,
+        statusCounts: editorialStatusCounts,
+        priorityCounts: editorialPriorityCounts,
+        humanReviewed: editorialProfiles.filter(
+          profile => profile.humanReview.completed
+        ).length,
+        biographiesMissingPrimarySource: biographiesMissingPrimarySource.length,
+        biographiesMissingVerifiedBooks: biographiesMissingVerifiedBooks.length,
+        apocryphalWorksWithoutCanonicalConnections:
+          apocryphaEditorialQueue.filter(item => item.requiresConnectionReview)
+            .length,
+      },
+      sourceReview: {
+        biographiesMissingPrimarySource,
+        biographiesMissingVerifiedBooks,
+      },
+      apocryphaReview: apocryphaEditorialQueue,
+      queue: editorialProfiles
+        .filter(profile => profile.priority !== "polish")
+        .sort((left, right) => {
+          const order = { high: 0, medium: 1, standard: 2, polish: 3 };
+          return (
+            order[left.priority] - order[right.priority] ||
+            left.chapterId.localeCompare(right.chapterId, "pt-BR", {
+              numeric: true,
+            })
+          );
+        }),
+    }),
+    { parser: "json" }
+  ),
   "utf8"
 );
 await fs.writeFile(

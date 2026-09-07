@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Filipenses",
-  "count": 4,
-  "chapterCount": 2,
+  "count": 16,
+  "chapterCount": 4,
   "nodes": [
+    {
+      "id": "book:2-corintios",
+      "kind": "book",
+      "label": "2 Coríntios",
+      "aliases": ["2Co"],
+      "summary": "Vulnerabilidade do ministério, reconciliação, generosidade e serviço.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["47-2-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 13,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:colossenses",
+      "kind": "book",
+      "label": "Colossenses",
+      "aliases": ["Cl"],
+      "summary": "Centralidade de Cristo traduzida em sabedoria e nova vida comunitária.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["51-colossenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:filemom",
+      "kind": "book",
+      "label": "Filemom",
+      "aliases": ["Fm"],
+      "summary": "Pedido de acolhimento e reconciliação em torno de Onésimo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["57-filemom"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 1,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
     {
       "id": "person:apostolo-paulo-saulo-de-tarso",
       "kind": "person",
@@ -95,6 +149,138 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-filipenses-1:book-2-corintios",
+      "from": "chapter:filipenses:1",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 1 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-1:book-colossenses",
+      "from": "chapter:filipenses:1",
+      "to": "book:colossenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 1 inclui Colossenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Colossenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-1:book-filemom",
+      "from": "chapter:filipenses:1",
+      "to": "book:filemom",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 1 inclui Filemom em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filemom"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-2:book-2-corintios",
+      "from": "chapter:filipenses:2",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 2 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-2:book-colossenses",
+      "from": "chapter:filipenses:2",
+      "to": "book:colossenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 2 inclui Colossenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Colossenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-2:book-filemom",
+      "from": "chapter:filipenses:2",
+      "to": "book:filemom",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 2 inclui Filemom em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filemom"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-3:book-2-corintios",
+      "from": "chapter:filipenses:3",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 3 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-3:book-colossenses",
+      "from": "chapter:filipenses:3",
+      "to": "book:colossenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 3 inclui Colossenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Colossenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-3:book-filemom",
+      "from": "chapter:filipenses:3",
+      "to": "book:filemom",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 3 inclui Filemom em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filemom"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-4:book-2-corintios",
+      "from": "chapter:filipenses:4",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 4 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-4:book-colossenses",
+      "from": "chapter:filipenses:4",
+      "to": "book:colossenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 4 inclui Colossenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Colossenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filipenses-4:book-filemom",
+      "from": "chapter:filipenses:4",
+      "to": "book:filemom",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filipenses 4 inclui Filemom em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filemom"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:related-term:chapter-filipenses-1:term-koinonia",
       "from": "chapter:filipenses:1",
       "to": "term:koinonia",
@@ -115,6 +301,108 @@
       "references": ["Fp 3:9"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:filipenses:1",
+      "reference": "Filipenses 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "term"],
+      "coveredDimensions": ["terms", "theology"],
+      "pendingDimensions": ["people", "scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:filipenses:2",
+      "reference": "Filipenses 2",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:filipenses:3",
+      "reference": "Filipenses 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "term"],
+      "coveredDimensions": ["people", "terms", "theology"],
+      "pendingDimensions": ["scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:filipenses:4",
+      "reference": "Filipenses 4",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

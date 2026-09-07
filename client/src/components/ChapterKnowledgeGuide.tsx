@@ -3,6 +3,7 @@ import {
   ArrowRight,
   BookOpen,
   CircleHelp,
+  ClipboardCheck,
   Landmark,
   Languages,
   Loader2,
@@ -12,7 +13,12 @@ import {
   UserRound,
   UsersRound,
 } from "lucide-react";
-import type { KnowledgeNode, KnowledgeRelation } from "@shared/knowledge-model";
+import type {
+  ChapterEditorialDimension,
+  ChapterEditorialProfile,
+  KnowledgeNode,
+  KnowledgeRelation,
+} from "@shared/knowledge-model";
 import {
   knowledgeKindLabels,
   loadChapterKnowledge,
@@ -65,6 +71,28 @@ const groups: GuideGroup[] = [
   },
 ];
 
+const editorialStatusLabels: Record<ChapterEditorialProfile["status"], string> =
+  {
+    published: "Estudo publicado",
+    connected: "Contexto conectado",
+    expanded: "Contexto ampliado",
+    reviewed: "Revisão humana registrada",
+  };
+
+const priorityLabels: Record<ChapterEditorialProfile["priority"], string> = {
+  high: "revisão prioritária",
+  medium: "aprofundamento necessário",
+  standard: "ampliação planejada",
+  polish: "refino editorial",
+};
+
+const dimensionLabels: Record<ChapterEditorialDimension, string> = {
+  people: "pessoas e povos",
+  scenes: "cenários e acontecimentos",
+  terms: "termos",
+  theology: "teologia e conexões",
+};
+
 function iconFor(kind: KnowledgeNode["kind"]) {
   if (kind === "person") return UserRound;
   if (kind === "people-group") return UsersRound;
@@ -81,6 +109,8 @@ export default function ChapterKnowledgeGuide({
 }: Props) {
   const [nodes, setNodes] = useState<KnowledgeNode[]>([]);
   const [relations, setRelations] = useState<KnowledgeRelation[]>([]);
+  const [editorialProfile, setEditorialProfile] =
+    useState<ChapterEditorialProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [expanded, setExpanded] = useState<string[]>([]);
@@ -90,11 +120,13 @@ export default function ChapterKnowledgeGuide({
     setLoading(true);
     setError(false);
     setExpanded([]);
+    setEditorialProfile(null);
     loadChapterKnowledge(chapterId)
       .then(neighborhood => {
         if (!active) return;
         setNodes(neighborhood?.relatedNodes ?? []);
         setRelations(neighborhood?.relations ?? []);
+        setEditorialProfile(neighborhood?.editorialProfile ?? null);
       })
       .catch(() => active && setError(true))
       .finally(() => active && setLoading(false));
@@ -157,7 +189,7 @@ export default function ChapterKnowledgeGuide({
       <section className="chapter-knowledge chapter-knowledge--empty">
         <Network size={20} />
         <div>
-          <span>Guia contextual · Fase 4</span>
+          <span>Guia contextual · Fase 5</span>
           <h4>Nenhum vínculo explícito catalogado para {reference}.</h4>
           <p>
             Esta ausência não significa que o capítulo esteja sem contexto. Ela
@@ -178,15 +210,15 @@ export default function ChapterKnowledgeGuide({
       <header className="chapter-knowledge__head">
         <div>
           <span>
-            <Network size={14} /> Guia contextual · Fase 4
+            <Network size={14} /> Guia contextual · Fase 5
           </span>
           <h4 id={`chapter-knowledge-${chapterId}`}>
             Entenda quem, onde, o que e por quê.
           </h4>
           <p>
-            {reference} está ligado a estes verbetes porque o acervo cita a
-            passagem explicitamente. Abra cada ficha para conferir conteúdo,
-            referência, origem e grau de confiança.
+            Entidades aparecem quando seus verbetes citam a passagem; diálogos
+            canônicos vêm das referências já declaradas neste estudo. Abra cada
+            ficha para conferir origem e grau de confiança.
           </p>
         </div>
         <div className="chapter-knowledge__proof">
@@ -199,6 +231,41 @@ export default function ChapterKnowledgeGuide({
           </small>
         </div>
       </header>
+
+      {editorialProfile && (
+        <aside
+          className={`chapter-editorial-status is-${editorialProfile.priority}`}
+          aria-label={`Estado editorial de ${reference}`}
+        >
+          <ClipboardCheck size={18} />
+          <div>
+            <span>Estado editorial transparente</span>
+            <strong>{editorialStatusLabels[editorialProfile.status]}</strong>
+            <p>
+              {editorialProfile.humanReview.completed
+                ? `Revisão registrada por ${editorialProfile.humanReview.reviewedBy.join(", ")}.`
+                : "A estrutura está publicada, mas ainda não há assinatura de revisão humana para este capítulo."}
+            </p>
+          </div>
+          <div className="chapter-editorial-status__metrics">
+            <span>
+              <b>{editorialProfile.structuralScore}/5</b> itens estruturais
+            </span>
+            <span>
+              <b>{editorialProfile.entityConnectionCount}</b> entidades
+            </span>
+            <small>{priorityLabels[editorialProfile.priority]}</small>
+          </div>
+          {editorialProfile.pendingDimensions.length > 0 && (
+            <p className="chapter-editorial-status__pending">
+              <b>Ainda ampliar:</b>{" "}
+              {editorialProfile.pendingDimensions
+                .map(dimension => dimensionLabels[dimension])
+                .join(" · ")}
+            </p>
+          )}
+        </aside>
+      )}
 
       <div className="chapter-knowledge__groups">
         {grouped.map(group => {

@@ -4,6 +4,7 @@ import {
   canonicalKnowledgeLabel,
   extractCanonicalChapterReferences,
   extractCanonicalBookNames,
+  extractExplicitCanonicalBookNames,
   makeKnowledgeId,
   parseKnowledgeId,
   slugifyKnowledgeLabel,
@@ -12,6 +13,8 @@ import {
 
 const books: CanonicalBookReference[] = [
   { name: "Gênesis", short: "Gn", chapters: 50 },
+  { name: "Levítico", short: "Lv", chapters: 27 },
+  { name: "Atos", short: "At", chapters: 28 },
   { name: "Oseias", short: "Os" },
   { name: "Naum", short: "Na" },
   { name: "João", short: "Jo", chapters: 21 },
@@ -109,5 +112,20 @@ describe("extração de referências bíblicas", () => {
     expect(extractCanonicalBookNames(["1 João 4:8"], books)).toEqual([
       "1 João",
     ]);
+  });
+
+  it("aceita o nome isolado de um livro somente como item completo", () => {
+    expect(
+      extractExplicitCanonicalBookNames(
+        ["Levítico", "Atos", "Os discípulos estavam na cidade."],
+        books
+      )
+    ).toEqual(["Levítico", "Atos"]);
+    expect(
+      extractExplicitCanonicalBookNames(
+        ["João", "1 João", "Oseias", "Os"],
+        books
+      )
+    ).toEqual(["Oseias", "João", "1 João"]);
   });
 });

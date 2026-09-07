@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Cântico dos Cânticos",
-  "count": 27,
+  "count": 51,
   "chapterCount": 8,
   "nodes": [
+    {
+      "id": "book:joao",
+      "kind": "book",
+      "label": "João",
+      "aliases": ["Jo"],
+      "summary": "Sinais e imagens de vida, luz, pão, caminho e presença para meditar sobre Jesus.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["43-jo-o"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 21,
+        "author": "Tradição joanina; autoria e camadas discutidas",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:oseias",
+      "kind": "book",
+      "label": "Oseias",
+      "aliases": ["Os"],
+      "summary": "A infidelidade de Israel é lida por imagens de relacionamento e restauração.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["28-oseias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 14,
+        "author": "Oseias",
+        "period": "Século VIII a.C."
+      }
+    },
+    {
+      "id": "book:proverbios",
+      "kind": "book",
+      "label": "Provérbios",
+      "aliases": ["Pv"],
+      "summary": "Máximas sobre caráter, trabalho, justiça, palavras e discernimento.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["20-prov-rbios"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 31,
+        "author": "Coleção associada a Salomão e sábios",
+        "period": "Tradição sapiencial"
+      }
+    },
     {
       "id": "people-group:filhas-de-jerusalem",
       "kind": "people-group",
@@ -459,6 +513,270 @@
       "confidence": "high"
     },
     {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-1:book-joao",
+      "from": "chapter:cantico-dos-canticos:1",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 1 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-1:book-oseias",
+      "from": "chapter:cantico-dos-canticos:1",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 1 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-1:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:1",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 1 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-2:book-joao",
+      "from": "chapter:cantico-dos-canticos:2",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 2 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-2:book-oseias",
+      "from": "chapter:cantico-dos-canticos:2",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 2 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-2:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:2",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 2 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-3:book-joao",
+      "from": "chapter:cantico-dos-canticos:3",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 3 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-3:book-oseias",
+      "from": "chapter:cantico-dos-canticos:3",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 3 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-3:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:3",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 3 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-4:book-joao",
+      "from": "chapter:cantico-dos-canticos:4",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 4 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-4:book-oseias",
+      "from": "chapter:cantico-dos-canticos:4",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 4 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-4:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:4",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 4 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-5:book-joao",
+      "from": "chapter:cantico-dos-canticos:5",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 5 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-5:book-oseias",
+      "from": "chapter:cantico-dos-canticos:5",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 5 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-5:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:5",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 5 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-6:book-joao",
+      "from": "chapter:cantico-dos-canticos:6",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 6 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-6:book-oseias",
+      "from": "chapter:cantico-dos-canticos:6",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 6 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-6:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:6",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 6 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-7:book-joao",
+      "from": "chapter:cantico-dos-canticos:7",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 7 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-7:book-oseias",
+      "from": "chapter:cantico-dos-canticos:7",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 7 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-7:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:7",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 7 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-8:book-joao",
+      "from": "chapter:cantico-dos-canticos:8",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 8 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-8:book-oseias",
+      "from": "chapter:cantico-dos-canticos:8",
+      "to": "book:oseias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 8 inclui Oseias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Oseias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-cantico-dos-canticos-8:book-proverbios",
+      "from": "chapter:cantico-dos-canticos:8",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Cântico dos Cânticos 8 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-cantico-dos-canticos-1:theme-en-gedi",
       "from": "chapter:cantico-dos-canticos:1",
       "to": "theme:en-gedi",
@@ -523,6 +841,208 @@
       "references": ["Cântico 8:6"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:cantico-dos-canticos:1",
+      "reference": "Cântico dos Cânticos 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:2",
+      "reference": "Cântico dos Cânticos 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:3",
+      "reference": "Cântico dos Cânticos 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:4",
+      "reference": "Cântico dos Cânticos 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:5",
+      "reference": "Cântico dos Cânticos 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:6",
+      "reference": "Cântico dos Cânticos 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:7",
+      "reference": "Cântico dos Cânticos 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:cantico-dos-canticos:8",
+      "reference": "Cântico dos Cânticos 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }
