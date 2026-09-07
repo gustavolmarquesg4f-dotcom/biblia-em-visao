@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "2 Coríntios",
-  "count": 37,
-  "chapterCount": 11,
+  "count": 76,
+  "chapterCount": 13,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:filipenses",
+      "kind": "book",
+      "label": "Filipenses",
+      "aliases": ["Fp"],
+      "summary": "Carta de amizade sobre alegria, humildade, parceria e perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["50-filipenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:galatas",
+      "kind": "book",
+      "label": "Gálatas",
+      "aliases": ["Gl"],
+      "summary": "Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["48-g-latas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
     {
       "id": "doctrine:trindade",
       "kind": "doctrine",
@@ -677,6 +731,435 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-2-corintios-1:book-1-corintios",
+      "from": "chapter:2-corintios:1",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 1 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-1:book-filipenses",
+      "from": "chapter:2-corintios:1",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 1 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-1:book-galatas",
+      "from": "chapter:2-corintios:1",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 1 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-10:book-1-corintios",
+      "from": "chapter:2-corintios:10",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 10 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-10:book-filipenses",
+      "from": "chapter:2-corintios:10",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 10 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-10:book-galatas",
+      "from": "chapter:2-corintios:10",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 10 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-11:book-1-corintios",
+      "from": "chapter:2-corintios:11",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 11 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-11:book-filipenses",
+      "from": "chapter:2-corintios:11",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 11 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-11:book-galatas",
+      "from": "chapter:2-corintios:11",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 11 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-12:book-1-corintios",
+      "from": "chapter:2-corintios:12",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 12 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-12:book-filipenses",
+      "from": "chapter:2-corintios:12",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 12 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-12:book-galatas",
+      "from": "chapter:2-corintios:12",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 12 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-13:book-1-corintios",
+      "from": "chapter:2-corintios:13",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 13 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-13:book-filipenses",
+      "from": "chapter:2-corintios:13",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 13 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-13:book-galatas",
+      "from": "chapter:2-corintios:13",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 13 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-2:book-1-corintios",
+      "from": "chapter:2-corintios:2",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 2 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-2:book-filipenses",
+      "from": "chapter:2-corintios:2",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 2 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-2:book-galatas",
+      "from": "chapter:2-corintios:2",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 2 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-3:book-1-corintios",
+      "from": "chapter:2-corintios:3",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 3 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-3:book-filipenses",
+      "from": "chapter:2-corintios:3",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 3 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-3:book-galatas",
+      "from": "chapter:2-corintios:3",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 3 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-4:book-1-corintios",
+      "from": "chapter:2-corintios:4",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 4 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-4:book-filipenses",
+      "from": "chapter:2-corintios:4",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 4 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-4:book-galatas",
+      "from": "chapter:2-corintios:4",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 4 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-5:book-1-corintios",
+      "from": "chapter:2-corintios:5",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 5 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-5:book-filipenses",
+      "from": "chapter:2-corintios:5",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 5 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-5:book-galatas",
+      "from": "chapter:2-corintios:5",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 5 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-6:book-1-corintios",
+      "from": "chapter:2-corintios:6",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 6 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-6:book-filipenses",
+      "from": "chapter:2-corintios:6",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 6 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-6:book-galatas",
+      "from": "chapter:2-corintios:6",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 6 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-7:book-1-corintios",
+      "from": "chapter:2-corintios:7",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 7 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-7:book-filipenses",
+      "from": "chapter:2-corintios:7",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 7 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-7:book-galatas",
+      "from": "chapter:2-corintios:7",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 7 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-8:book-1-corintios",
+      "from": "chapter:2-corintios:8",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 8 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-8:book-filipenses",
+      "from": "chapter:2-corintios:8",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 8 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-8:book-galatas",
+      "from": "chapter:2-corintios:8",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 8 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-9:book-1-corintios",
+      "from": "chapter:2-corintios:9",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 9 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-9:book-filipenses",
+      "from": "chapter:2-corintios:9",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 9 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-corintios-9:book-galatas",
+      "from": "chapter:2-corintios:9",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Coríntios 9 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-2-corintios-1:theme-igreja-em-corinto",
       "from": "chapter:2-corintios:1",
       "to": "theme:igreja-em-corinto",
@@ -785,6 +1268,333 @@
       "references": ["2Co 8:1-4; 9:1-2"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:2-corintios:1",
+      "reference": "2 Coríntios 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:2",
+      "reference": "2 Coríntios 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:3",
+      "reference": "2 Coríntios 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:4",
+      "reference": "2 Coríntios 4",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:5",
+      "reference": "2 Coríntios 5",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:6",
+      "reference": "2 Coríntios 6",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:7",
+      "reference": "2 Coríntios 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:8",
+      "reference": "2 Coríntios 8",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:9",
+      "reference": "2 Coríntios 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:10",
+      "reference": "2 Coríntios 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:11",
+      "reference": "2 Coríntios 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:12",
+      "reference": "2 Coríntios 12",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-corintios:13",
+      "reference": "2 Coríntios 13",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "doctrine"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Jeremias",
-  "count": 54,
-  "chapterCount": 30,
+  "count": 210,
+  "chapterCount": 52,
   "nodes": [
+    {
+      "id": "book:2-reis",
+      "kind": "book",
+      "label": "2 Reis",
+      "aliases": ["2Rs"],
+      "summary": "Declínio de Israel e Judá, profetas e queda de Samaria e Jerusalém.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["12-2-reis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 25,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Reinos até os exílios"
+      }
+    },
+    {
+      "id": "book:hebreus",
+      "kind": "book",
+      "label": "Hebreus",
+      "aliases": ["Hb"],
+      "summary": "Sermão escrito que chama uma comunidade cansada à perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["58-hebreus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 13,
+        "author": "Autor não identificado",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:lamentacoes",
+      "kind": "book",
+      "label": "Lamentações",
+      "aliases": ["Lm"],
+      "summary": "Poemas que dão forma à dor da destruição de Jerusalém e à esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["25-lamenta-es"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 5,
+        "author": "Autor anônimo; tradição associada a Jeremias",
+        "period": "Após a queda de Jerusalém"
+      }
+    },
     {
       "id": "event:jeremias-a-queda-de-jerusalem-e-o-exilio",
       "kind": "event",
@@ -1020,6 +1074,1722 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-jeremias-1:book-2-reis",
+      "from": "chapter:jeremias:1",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 1 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-1:book-hebreus",
+      "from": "chapter:jeremias:1",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 1 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-1:book-lamentacoes",
+      "from": "chapter:jeremias:1",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 1 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-10:book-2-reis",
+      "from": "chapter:jeremias:10",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 10 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-10:book-hebreus",
+      "from": "chapter:jeremias:10",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 10 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-10:book-lamentacoes",
+      "from": "chapter:jeremias:10",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 10 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-11:book-2-reis",
+      "from": "chapter:jeremias:11",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 11 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-11:book-hebreus",
+      "from": "chapter:jeremias:11",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 11 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-11:book-lamentacoes",
+      "from": "chapter:jeremias:11",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 11 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-12:book-2-reis",
+      "from": "chapter:jeremias:12",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 12 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-12:book-hebreus",
+      "from": "chapter:jeremias:12",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 12 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-12:book-lamentacoes",
+      "from": "chapter:jeremias:12",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 12 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-13:book-2-reis",
+      "from": "chapter:jeremias:13",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 13 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-13:book-hebreus",
+      "from": "chapter:jeremias:13",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 13 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-13:book-lamentacoes",
+      "from": "chapter:jeremias:13",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 13 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-14:book-2-reis",
+      "from": "chapter:jeremias:14",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 14 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-14:book-hebreus",
+      "from": "chapter:jeremias:14",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 14 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-14:book-lamentacoes",
+      "from": "chapter:jeremias:14",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 14 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-15:book-2-reis",
+      "from": "chapter:jeremias:15",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 15 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-15:book-hebreus",
+      "from": "chapter:jeremias:15",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 15 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-15:book-lamentacoes",
+      "from": "chapter:jeremias:15",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 15 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-16:book-2-reis",
+      "from": "chapter:jeremias:16",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 16 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-16:book-hebreus",
+      "from": "chapter:jeremias:16",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 16 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-16:book-lamentacoes",
+      "from": "chapter:jeremias:16",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 16 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-17:book-2-reis",
+      "from": "chapter:jeremias:17",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 17 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-17:book-hebreus",
+      "from": "chapter:jeremias:17",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 17 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-17:book-lamentacoes",
+      "from": "chapter:jeremias:17",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 17 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-18:book-2-reis",
+      "from": "chapter:jeremias:18",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 18 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-18:book-hebreus",
+      "from": "chapter:jeremias:18",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 18 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-18:book-lamentacoes",
+      "from": "chapter:jeremias:18",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 18 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-19:book-2-reis",
+      "from": "chapter:jeremias:19",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 19 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-19:book-hebreus",
+      "from": "chapter:jeremias:19",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 19 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-19:book-lamentacoes",
+      "from": "chapter:jeremias:19",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 19 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-2:book-2-reis",
+      "from": "chapter:jeremias:2",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 2 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-2:book-hebreus",
+      "from": "chapter:jeremias:2",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 2 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-2:book-lamentacoes",
+      "from": "chapter:jeremias:2",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 2 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-20:book-2-reis",
+      "from": "chapter:jeremias:20",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 20 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-20:book-hebreus",
+      "from": "chapter:jeremias:20",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 20 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-20:book-lamentacoes",
+      "from": "chapter:jeremias:20",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 20 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-21:book-2-reis",
+      "from": "chapter:jeremias:21",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 21 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-21:book-hebreus",
+      "from": "chapter:jeremias:21",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 21 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-21:book-lamentacoes",
+      "from": "chapter:jeremias:21",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 21 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-22:book-2-reis",
+      "from": "chapter:jeremias:22",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 22 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-22:book-hebreus",
+      "from": "chapter:jeremias:22",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 22 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-22:book-lamentacoes",
+      "from": "chapter:jeremias:22",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 22 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-23:book-2-reis",
+      "from": "chapter:jeremias:23",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 23 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-23:book-hebreus",
+      "from": "chapter:jeremias:23",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 23 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-23:book-lamentacoes",
+      "from": "chapter:jeremias:23",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 23 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-24:book-2-reis",
+      "from": "chapter:jeremias:24",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 24 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-24:book-hebreus",
+      "from": "chapter:jeremias:24",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 24 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-24:book-lamentacoes",
+      "from": "chapter:jeremias:24",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 24 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-25:book-2-reis",
+      "from": "chapter:jeremias:25",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 25 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-25:book-hebreus",
+      "from": "chapter:jeremias:25",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 25 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-25:book-lamentacoes",
+      "from": "chapter:jeremias:25",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 25 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-26:book-2-reis",
+      "from": "chapter:jeremias:26",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 26 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-26:book-hebreus",
+      "from": "chapter:jeremias:26",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 26 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-26:book-lamentacoes",
+      "from": "chapter:jeremias:26",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 26 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-27:book-2-reis",
+      "from": "chapter:jeremias:27",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 27 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-27:book-hebreus",
+      "from": "chapter:jeremias:27",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 27 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-27:book-lamentacoes",
+      "from": "chapter:jeremias:27",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 27 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-28:book-2-reis",
+      "from": "chapter:jeremias:28",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 28 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-28:book-hebreus",
+      "from": "chapter:jeremias:28",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 28 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-28:book-lamentacoes",
+      "from": "chapter:jeremias:28",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 28 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-29:book-2-reis",
+      "from": "chapter:jeremias:29",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 29 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-29:book-hebreus",
+      "from": "chapter:jeremias:29",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 29 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-29:book-lamentacoes",
+      "from": "chapter:jeremias:29",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 29 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-3:book-2-reis",
+      "from": "chapter:jeremias:3",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 3 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-3:book-hebreus",
+      "from": "chapter:jeremias:3",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 3 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-3:book-lamentacoes",
+      "from": "chapter:jeremias:3",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 3 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-30:book-2-reis",
+      "from": "chapter:jeremias:30",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 30 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-30:book-hebreus",
+      "from": "chapter:jeremias:30",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 30 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-30:book-lamentacoes",
+      "from": "chapter:jeremias:30",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 30 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-31:book-2-reis",
+      "from": "chapter:jeremias:31",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 31 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-31:book-hebreus",
+      "from": "chapter:jeremias:31",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 31 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-31:book-lamentacoes",
+      "from": "chapter:jeremias:31",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 31 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-32:book-2-reis",
+      "from": "chapter:jeremias:32",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 32 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-32:book-hebreus",
+      "from": "chapter:jeremias:32",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 32 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-32:book-lamentacoes",
+      "from": "chapter:jeremias:32",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 32 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-33:book-2-reis",
+      "from": "chapter:jeremias:33",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 33 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-33:book-hebreus",
+      "from": "chapter:jeremias:33",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 33 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-33:book-lamentacoes",
+      "from": "chapter:jeremias:33",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 33 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-34:book-2-reis",
+      "from": "chapter:jeremias:34",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 34 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-34:book-hebreus",
+      "from": "chapter:jeremias:34",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 34 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-34:book-lamentacoes",
+      "from": "chapter:jeremias:34",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 34 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-35:book-2-reis",
+      "from": "chapter:jeremias:35",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 35 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-35:book-hebreus",
+      "from": "chapter:jeremias:35",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 35 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-35:book-lamentacoes",
+      "from": "chapter:jeremias:35",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 35 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-36:book-2-reis",
+      "from": "chapter:jeremias:36",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 36 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-36:book-hebreus",
+      "from": "chapter:jeremias:36",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 36 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-36:book-lamentacoes",
+      "from": "chapter:jeremias:36",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 36 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-37:book-2-reis",
+      "from": "chapter:jeremias:37",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 37 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-37:book-hebreus",
+      "from": "chapter:jeremias:37",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 37 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-37:book-lamentacoes",
+      "from": "chapter:jeremias:37",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 37 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-38:book-2-reis",
+      "from": "chapter:jeremias:38",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 38 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-38:book-hebreus",
+      "from": "chapter:jeremias:38",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 38 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-38:book-lamentacoes",
+      "from": "chapter:jeremias:38",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 38 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-39:book-2-reis",
+      "from": "chapter:jeremias:39",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 39 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-39:book-hebreus",
+      "from": "chapter:jeremias:39",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 39 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-39:book-lamentacoes",
+      "from": "chapter:jeremias:39",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 39 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-4:book-2-reis",
+      "from": "chapter:jeremias:4",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 4 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-4:book-hebreus",
+      "from": "chapter:jeremias:4",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 4 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-4:book-lamentacoes",
+      "from": "chapter:jeremias:4",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 4 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-40:book-2-reis",
+      "from": "chapter:jeremias:40",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 40 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-40:book-hebreus",
+      "from": "chapter:jeremias:40",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 40 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-40:book-lamentacoes",
+      "from": "chapter:jeremias:40",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 40 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-41:book-2-reis",
+      "from": "chapter:jeremias:41",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 41 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-41:book-hebreus",
+      "from": "chapter:jeremias:41",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 41 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-41:book-lamentacoes",
+      "from": "chapter:jeremias:41",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 41 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-42:book-2-reis",
+      "from": "chapter:jeremias:42",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 42 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-42:book-hebreus",
+      "from": "chapter:jeremias:42",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 42 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-42:book-lamentacoes",
+      "from": "chapter:jeremias:42",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 42 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-43:book-2-reis",
+      "from": "chapter:jeremias:43",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 43 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-43:book-hebreus",
+      "from": "chapter:jeremias:43",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 43 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-43:book-lamentacoes",
+      "from": "chapter:jeremias:43",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 43 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-44:book-2-reis",
+      "from": "chapter:jeremias:44",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 44 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-44:book-hebreus",
+      "from": "chapter:jeremias:44",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 44 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-44:book-lamentacoes",
+      "from": "chapter:jeremias:44",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 44 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-45:book-2-reis",
+      "from": "chapter:jeremias:45",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 45 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-45:book-hebreus",
+      "from": "chapter:jeremias:45",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 45 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-45:book-lamentacoes",
+      "from": "chapter:jeremias:45",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 45 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-46:book-2-reis",
+      "from": "chapter:jeremias:46",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 46 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-46:book-hebreus",
+      "from": "chapter:jeremias:46",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 46 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-46:book-lamentacoes",
+      "from": "chapter:jeremias:46",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 46 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-47:book-2-reis",
+      "from": "chapter:jeremias:47",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 47 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-47:book-hebreus",
+      "from": "chapter:jeremias:47",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 47 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-47:book-lamentacoes",
+      "from": "chapter:jeremias:47",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 47 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-48:book-2-reis",
+      "from": "chapter:jeremias:48",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 48 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-48:book-hebreus",
+      "from": "chapter:jeremias:48",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 48 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-48:book-lamentacoes",
+      "from": "chapter:jeremias:48",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 48 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-49:book-2-reis",
+      "from": "chapter:jeremias:49",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 49 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-49:book-hebreus",
+      "from": "chapter:jeremias:49",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 49 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-49:book-lamentacoes",
+      "from": "chapter:jeremias:49",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 49 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-5:book-2-reis",
+      "from": "chapter:jeremias:5",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 5 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-5:book-hebreus",
+      "from": "chapter:jeremias:5",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 5 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-5:book-lamentacoes",
+      "from": "chapter:jeremias:5",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 5 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-50:book-2-reis",
+      "from": "chapter:jeremias:50",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 50 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-50:book-hebreus",
+      "from": "chapter:jeremias:50",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 50 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-50:book-lamentacoes",
+      "from": "chapter:jeremias:50",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 50 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-51:book-2-reis",
+      "from": "chapter:jeremias:51",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 51 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-51:book-hebreus",
+      "from": "chapter:jeremias:51",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 51 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-51:book-lamentacoes",
+      "from": "chapter:jeremias:51",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 51 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-52:book-2-reis",
+      "from": "chapter:jeremias:52",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 52 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-52:book-hebreus",
+      "from": "chapter:jeremias:52",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 52 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-52:book-lamentacoes",
+      "from": "chapter:jeremias:52",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 52 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-6:book-2-reis",
+      "from": "chapter:jeremias:6",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 6 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-6:book-hebreus",
+      "from": "chapter:jeremias:6",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 6 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-6:book-lamentacoes",
+      "from": "chapter:jeremias:6",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 6 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-7:book-2-reis",
+      "from": "chapter:jeremias:7",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 7 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-7:book-hebreus",
+      "from": "chapter:jeremias:7",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 7 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-7:book-lamentacoes",
+      "from": "chapter:jeremias:7",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 7 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-8:book-2-reis",
+      "from": "chapter:jeremias:8",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 8 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-8:book-hebreus",
+      "from": "chapter:jeremias:8",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 8 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-8:book-lamentacoes",
+      "from": "chapter:jeremias:8",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 8 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-9:book-2-reis",
+      "from": "chapter:jeremias:9",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 9 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-9:book-hebreus",
+      "from": "chapter:jeremias:9",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 9 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jeremias-9:book-lamentacoes",
+      "from": "chapter:jeremias:9",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jeremias 9 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-jeremias-1:theme-anatote",
       "from": "chapter:jeremias:1",
       "to": "theme:anatote",
@@ -1095,6 +2865,1308 @@
       "references": ["Jer 7:1-15; 26:1-19"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:jeremias:1",
+      "reference": "Jeremias 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:2",
+      "reference": "Jeremias 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:3",
+      "reference": "Jeremias 3",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:4",
+      "reference": "Jeremias 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:5",
+      "reference": "Jeremias 5",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:6",
+      "reference": "Jeremias 6",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:7",
+      "reference": "Jeremias 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:8",
+      "reference": "Jeremias 8",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:9",
+      "reference": "Jeremias 9",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:10",
+      "reference": "Jeremias 10",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:11",
+      "reference": "Jeremias 11",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:12",
+      "reference": "Jeremias 12",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:13",
+      "reference": "Jeremias 13",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:14",
+      "reference": "Jeremias 14",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:15",
+      "reference": "Jeremias 15",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:16",
+      "reference": "Jeremias 16",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:17",
+      "reference": "Jeremias 17",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:18",
+      "reference": "Jeremias 18",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:19",
+      "reference": "Jeremias 19",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:20",
+      "reference": "Jeremias 20",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:21",
+      "reference": "Jeremias 21",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:22",
+      "reference": "Jeremias 22",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:23",
+      "reference": "Jeremias 23",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:24",
+      "reference": "Jeremias 24",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:25",
+      "reference": "Jeremias 25",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:26",
+      "reference": "Jeremias 26",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:27",
+      "reference": "Jeremias 27",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:28",
+      "reference": "Jeremias 28",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:29",
+      "reference": "Jeremias 29",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:30",
+      "reference": "Jeremias 30",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:31",
+      "reference": "Jeremias 31",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:32",
+      "reference": "Jeremias 32",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:33",
+      "reference": "Jeremias 33",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:34",
+      "reference": "Jeremias 34",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:35",
+      "reference": "Jeremias 35",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:36",
+      "reference": "Jeremias 36",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:37",
+      "reference": "Jeremias 37",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:38",
+      "reference": "Jeremias 38",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:39",
+      "reference": "Jeremias 39",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:40",
+      "reference": "Jeremias 40",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:41",
+      "reference": "Jeremias 41",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:42",
+      "reference": "Jeremias 42",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:43",
+      "reference": "Jeremias 43",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:44",
+      "reference": "Jeremias 44",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:45",
+      "reference": "Jeremias 45",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:46",
+      "reference": "Jeremias 46",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:47",
+      "reference": "Jeremias 47",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:48",
+      "reference": "Jeremias 48",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:49",
+      "reference": "Jeremias 49",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:50",
+      "reference": "Jeremias 50",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:51",
+      "reference": "Jeremias 51",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jeremias:52",
+      "reference": "Jeremias 52",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

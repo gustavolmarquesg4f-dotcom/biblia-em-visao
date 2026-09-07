@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Marcos",
-  "count": 49,
-  "chapterCount": 15,
+  "count": 97,
+  "chapterCount": 16,
   "nodes": [
+    {
+      "id": "book:1-pedro",
+      "kind": "book",
+      "label": "1 Pedro",
+      "aliases": ["1Pe"],
+      "summary": "Esperança, solidariedade e identidade ética sob pressão social.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["60-1-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Pedro; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:marcos-a-crucificacao-e-morte-de-jesus",
       "kind": "event",
@@ -854,6 +908,534 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-marcos-1:book-1-pedro",
+      "from": "chapter:marcos:1",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 1 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-1:book-isaias",
+      "from": "chapter:marcos:1",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 1 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-1:book-mateus",
+      "from": "chapter:marcos:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-10:book-1-pedro",
+      "from": "chapter:marcos:10",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 10 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-10:book-isaias",
+      "from": "chapter:marcos:10",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 10 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-10:book-mateus",
+      "from": "chapter:marcos:10",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 10 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-11:book-1-pedro",
+      "from": "chapter:marcos:11",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 11 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-11:book-isaias",
+      "from": "chapter:marcos:11",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 11 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-11:book-mateus",
+      "from": "chapter:marcos:11",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 11 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-12:book-1-pedro",
+      "from": "chapter:marcos:12",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 12 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-12:book-isaias",
+      "from": "chapter:marcos:12",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 12 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-12:book-mateus",
+      "from": "chapter:marcos:12",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 12 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-13:book-1-pedro",
+      "from": "chapter:marcos:13",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 13 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-13:book-isaias",
+      "from": "chapter:marcos:13",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 13 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-13:book-mateus",
+      "from": "chapter:marcos:13",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 13 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-14:book-1-pedro",
+      "from": "chapter:marcos:14",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 14 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-14:book-isaias",
+      "from": "chapter:marcos:14",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 14 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-14:book-mateus",
+      "from": "chapter:marcos:14",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 14 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-15:book-1-pedro",
+      "from": "chapter:marcos:15",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 15 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-15:book-isaias",
+      "from": "chapter:marcos:15",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 15 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-15:book-mateus",
+      "from": "chapter:marcos:15",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 15 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-16:book-1-pedro",
+      "from": "chapter:marcos:16",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 16 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-16:book-isaias",
+      "from": "chapter:marcos:16",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 16 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-16:book-mateus",
+      "from": "chapter:marcos:16",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 16 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-2:book-1-pedro",
+      "from": "chapter:marcos:2",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 2 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-2:book-isaias",
+      "from": "chapter:marcos:2",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 2 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-2:book-mateus",
+      "from": "chapter:marcos:2",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 2 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-3:book-1-pedro",
+      "from": "chapter:marcos:3",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 3 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-3:book-isaias",
+      "from": "chapter:marcos:3",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 3 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-3:book-mateus",
+      "from": "chapter:marcos:3",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 3 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-4:book-1-pedro",
+      "from": "chapter:marcos:4",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 4 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-4:book-isaias",
+      "from": "chapter:marcos:4",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 4 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-4:book-mateus",
+      "from": "chapter:marcos:4",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 4 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-5:book-1-pedro",
+      "from": "chapter:marcos:5",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 5 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-5:book-isaias",
+      "from": "chapter:marcos:5",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 5 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-5:book-mateus",
+      "from": "chapter:marcos:5",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 5 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-6:book-1-pedro",
+      "from": "chapter:marcos:6",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 6 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-6:book-isaias",
+      "from": "chapter:marcos:6",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 6 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-6:book-mateus",
+      "from": "chapter:marcos:6",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 6 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-7:book-1-pedro",
+      "from": "chapter:marcos:7",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 7 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-7:book-isaias",
+      "from": "chapter:marcos:7",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 7 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-7:book-mateus",
+      "from": "chapter:marcos:7",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 7 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-8:book-1-pedro",
+      "from": "chapter:marcos:8",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 8 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-8:book-isaias",
+      "from": "chapter:marcos:8",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 8 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-8:book-mateus",
+      "from": "chapter:marcos:8",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 8 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-9:book-1-pedro",
+      "from": "chapter:marcos:9",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 9 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-9:book-isaias",
+      "from": "chapter:marcos:9",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 9 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-marcos-9:book-mateus",
+      "from": "chapter:marcos:9",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Marcos 9 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-marcos-1:theme-espirito-imundo-legiao",
       "from": "chapter:marcos:1",
       "to": "theme:espirito-imundo-legiao",
@@ -995,6 +1577,422 @@
       "references": ["Mc 14:36"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:marcos:1",
+      "reference": "Marcos 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 13,
+      "entityConnectionCount": 10,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:2",
+      "reference": "Marcos 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:3",
+      "reference": "Marcos 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:4",
+      "reference": "Marcos 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:5",
+      "reference": "Marcos 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:6",
+      "reference": "Marcos 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:7",
+      "reference": "Marcos 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:8",
+      "reference": "Marcos 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:9",
+      "reference": "Marcos 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:10",
+      "reference": "Marcos 10",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:11",
+      "reference": "Marcos 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:12",
+      "reference": "Marcos 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:13",
+      "reference": "Marcos 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:14",
+      "reference": "Marcos 14",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:15",
+      "reference": "Marcos 15",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:marcos:16",
+      "reference": "Marcos 16",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

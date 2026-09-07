@@ -1,9 +1,189 @@
 {
   "schemaVersion": 1,
   "book": "João",
-  "count": 67,
-  "chapterCount": 19,
+  "count": 149,
+  "chapterCount": 21,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:1-joao",
+      "kind": "book",
+      "label": "1 João",
+      "aliases": ["1Jo"],
+      "summary": "Amor, discernimento e prática da justiça em uma comunidade em conflito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["62-1-jo-o"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição joanina; autoria não identificada",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:atos",
+      "kind": "book",
+      "label": "Atos",
+      "aliases": ["At"],
+      "summary": "Expansão do movimento de Jesus de Jerusalém até Roma.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["44-atos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "História da igreja",
+        "chapters": 28,
+        "author": "Mesmo projeto literário de Lucas",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:ezequiel",
+      "kind": "book",
+      "label": "Ezequiel",
+      "aliases": ["Ez"],
+      "summary": "Visões interpretam a queda e anunciam purificação, retorno e vida nova.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["26-ezequiel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 48,
+        "author": "Tradição profética de Ezequiel",
+        "period": "Exílio babilônico"
+      }
+    },
+    {
+      "id": "book:genesis",
+      "kind": "book",
+      "label": "Gênesis",
+      "aliases": ["Gn"],
+      "summary": "Origens do mundo, ruptura humana e formação da família de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["1-g-nesis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 50,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Origens → patriarcas"
+      }
+    },
+    {
+      "id": "book:jo",
+      "kind": "book",
+      "label": "Jó",
+      "aliases": ["Jó"],
+      "summary": "O sofrimento do justo, os limites das explicações fáceis e o mistério.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["18-j-"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 42,
+        "author": "Autor não identificado",
+        "period": "Sabedoria israelita; data debatida"
+      }
+    },
+    {
+      "id": "book:lucas",
+      "kind": "book",
+      "label": "Lucas",
+      "aliases": ["Lc"],
+      "summary": "Missão de Jesus com atenção a pobres, mulheres, estrangeiros e ao Espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["42-lucas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 24,
+        "author": "Tradição associada a Lucas; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:tito",
+      "kind": "book",
+      "label": "Tito",
+      "aliases": ["Tt"],
+      "summary": "Organização e caráter público de uma comunidade coerente.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["56-tito"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 3,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:joao-a-crucificacao-e-a-transladacao-da-morte",
       "kind": "event",
@@ -1293,6 +1473,908 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-joao-1:book-1-joao",
+      "from": "chapter:joao:1",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 1 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Jo 1:1–4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-1:book-apocalipse",
+      "from": "chapter:joao:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ap 19:13"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-1:book-genesis",
+      "from": "chapter:joao:1",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 1 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 1:1–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-10:book-1-joao",
+      "from": "chapter:joao:10",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 10 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-10:book-exodo",
+      "from": "chapter:joao:10",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 10 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-10:book-genesis",
+      "from": "chapter:joao:10",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 10 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-10:book-jo",
+      "from": "chapter:joao:10",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 10 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 10"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-11:book-1-joao",
+      "from": "chapter:joao:11",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 11 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-11:book-exodo",
+      "from": "chapter:joao:11",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 11 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-11:book-genesis",
+      "from": "chapter:joao:11",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 11 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-11:book-jo",
+      "from": "chapter:joao:11",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 11 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 11"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-12:book-1-joao",
+      "from": "chapter:joao:12",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 12 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-12:book-exodo",
+      "from": "chapter:joao:12",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 12 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-12:book-genesis",
+      "from": "chapter:joao:12",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 12 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-12:book-jo",
+      "from": "chapter:joao:12",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 12 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 12"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-13:book-1-joao",
+      "from": "chapter:joao:13",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 13 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-13:book-exodo",
+      "from": "chapter:joao:13",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 13 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-13:book-genesis",
+      "from": "chapter:joao:13",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 13 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-13:book-jo",
+      "from": "chapter:joao:13",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 13 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 13"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-14:book-1-joao",
+      "from": "chapter:joao:14",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 14 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-14:book-exodo",
+      "from": "chapter:joao:14",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 14 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-14:book-genesis",
+      "from": "chapter:joao:14",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 14 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-14:book-jo",
+      "from": "chapter:joao:14",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 14 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 14"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-15:book-1-joao",
+      "from": "chapter:joao:15",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 15 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-15:book-exodo",
+      "from": "chapter:joao:15",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 15 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-15:book-genesis",
+      "from": "chapter:joao:15",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 15 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-15:book-jo",
+      "from": "chapter:joao:15",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 15 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 15"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-16:book-1-joao",
+      "from": "chapter:joao:16",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 16 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-16:book-exodo",
+      "from": "chapter:joao:16",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 16 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-16:book-genesis",
+      "from": "chapter:joao:16",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 16 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-16:book-jo",
+      "from": "chapter:joao:16",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 16 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 16"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-17:book-1-joao",
+      "from": "chapter:joao:17",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 17 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-17:book-exodo",
+      "from": "chapter:joao:17",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 17 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-17:book-genesis",
+      "from": "chapter:joao:17",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 17 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-17:book-jo",
+      "from": "chapter:joao:17",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 17 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 17"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-18:book-1-joao",
+      "from": "chapter:joao:18",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 18 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-18:book-exodo",
+      "from": "chapter:joao:18",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 18 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-18:book-genesis",
+      "from": "chapter:joao:18",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 18 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-18:book-jo",
+      "from": "chapter:joao:18",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 18 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 18"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-19:book-1-joao",
+      "from": "chapter:joao:19",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 19 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-19:book-exodo",
+      "from": "chapter:joao:19",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 19 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-19:book-genesis",
+      "from": "chapter:joao:19",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 19 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-19:book-jo",
+      "from": "chapter:joao:19",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 19 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 19"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-2:book-1-joao",
+      "from": "chapter:joao:2",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 2 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-2:book-exodo",
+      "from": "chapter:joao:2",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 2 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-2:book-genesis",
+      "from": "chapter:joao:2",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 2 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-2:book-jo",
+      "from": "chapter:joao:2",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 2 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 2"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-20:book-1-corintios",
+      "from": "chapter:joao:20",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 20 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Co 15:1–8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-20:book-atos",
+      "from": "chapter:joao:20",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 20 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["At 1:4–8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-20:book-genesis",
+      "from": "chapter:joao:20",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 20 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 2:7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-20:book-lucas",
+      "from": "chapter:joao:20",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 20 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lc 24:36–49"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-21:book-1-joao",
+      "from": "chapter:joao:21",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 21 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-21:book-exodo",
+      "from": "chapter:joao:21",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 21 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-21:book-genesis",
+      "from": "chapter:joao:21",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 21 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-21:book-jo",
+      "from": "chapter:joao:21",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 21 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-3:book-ezequiel",
+      "from": "chapter:joao:3",
+      "to": "book:ezequiel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 3 inclui Ezequiel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ez 36:24–28"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-3:book-jo",
+      "from": "chapter:joao:3",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 3 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 7:37–39", "Jo 19:38–42"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-3:book-tito",
+      "from": "chapter:joao:3",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 3 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tt 3:4–7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-4:book-1-joao",
+      "from": "chapter:joao:4",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 4 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-4:book-exodo",
+      "from": "chapter:joao:4",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 4 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-4:book-genesis",
+      "from": "chapter:joao:4",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 4 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-4:book-jo",
+      "from": "chapter:joao:4",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 4 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-5:book-1-joao",
+      "from": "chapter:joao:5",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 5 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-5:book-exodo",
+      "from": "chapter:joao:5",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 5 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-5:book-genesis",
+      "from": "chapter:joao:5",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 5 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-5:book-jo",
+      "from": "chapter:joao:5",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 5 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-6:book-1-joao",
+      "from": "chapter:joao:6",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 6 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-6:book-exodo",
+      "from": "chapter:joao:6",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 6 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-6:book-genesis",
+      "from": "chapter:joao:6",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 6 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-6:book-jo",
+      "from": "chapter:joao:6",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 6 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-7:book-1-joao",
+      "from": "chapter:joao:7",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 7 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-7:book-exodo",
+      "from": "chapter:joao:7",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 7 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-7:book-genesis",
+      "from": "chapter:joao:7",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 7 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-7:book-jo",
+      "from": "chapter:joao:7",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 7 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-8:book-1-joao",
+      "from": "chapter:joao:8",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 8 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-8:book-exodo",
+      "from": "chapter:joao:8",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 8 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-8:book-genesis",
+      "from": "chapter:joao:8",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 8 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-8:book-jo",
+      "from": "chapter:joao:8",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 8 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-9:book-1-joao",
+      "from": "chapter:joao:9",
+      "to": "book:1-joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 9 inclui 1 João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-9:book-exodo",
+      "from": "chapter:joao:9",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 9 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-9:book-genesis",
+      "from": "chapter:joao:9",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 9 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gênesis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-joao-9:book-jo",
+      "from": "chapter:joao:9",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de João 9 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 9"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-joao-14:theme-o-paraclito-espirito-santo",
       "from": "chapter:joao:14",
       "to": "theme:o-paraclito-espirito-santo",
@@ -1324,6 +2406,540 @@
       "references": ["João 14:16-26; João 15:26; João 16:7-15"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:joao:1",
+      "reference": "João 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:2",
+      "reference": "João 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:3",
+      "reference": "João 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:4",
+      "reference": "João 4",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:5",
+      "reference": "João 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "people-group", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:6",
+      "reference": "João 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:7",
+      "reference": "João 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:8",
+      "reference": "João 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:9",
+      "reference": "João 9",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:10",
+      "reference": "João 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:11",
+      "reference": "João 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:12",
+      "reference": "João 12",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:13",
+      "reference": "João 13",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:14",
+      "reference": "João 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:15",
+      "reference": "João 15",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:16",
+      "reference": "João 16",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:17",
+      "reference": "João 17",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:18",
+      "reference": "João 18",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:19",
+      "reference": "João 19",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 15,
+      "entityConnectionCount": 11,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "prophecy"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:20",
+      "reference": "João 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:joao:21",
+      "reference": "João 21",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

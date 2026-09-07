@@ -1,9 +1,45 @@
 {
   "schemaVersion": 1,
   "book": "Ester",
-  "count": 37,
+  "count": 57,
   "chapterCount": 10,
   "nodes": [
+    {
+      "id": "book:daniel",
+      "kind": "book",
+      "label": "Daniel",
+      "aliases": ["Dn"],
+      "summary": "Histórias de fidelidade e visões sobre impérios, resistência e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["27-daniel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 12,
+        "author": "Tradição de Daniel; composição tardia debatida",
+        "period": "Corte estrangeira e crise helenística"
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "people-group:os-amalequitas-agagitas",
       "kind": "people-group",
@@ -571,6 +607,226 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-ester-1:book-daniel",
+      "from": "chapter:ester:1",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 1 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-1:book-mateus",
+      "from": "chapter:ester:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-10:book-daniel",
+      "from": "chapter:ester:10",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 10 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-10:book-mateus",
+      "from": "chapter:ester:10",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 10 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-2:book-daniel",
+      "from": "chapter:ester:2",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 2 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-2:book-mateus",
+      "from": "chapter:ester:2",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 2 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-3:book-daniel",
+      "from": "chapter:ester:3",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 3 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-3:book-mateus",
+      "from": "chapter:ester:3",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 3 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-4:book-daniel",
+      "from": "chapter:ester:4",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 4 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-4:book-mateus",
+      "from": "chapter:ester:4",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 4 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-5:book-daniel",
+      "from": "chapter:ester:5",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 5 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-5:book-mateus",
+      "from": "chapter:ester:5",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 5 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-6:book-daniel",
+      "from": "chapter:ester:6",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 6 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-6:book-mateus",
+      "from": "chapter:ester:6",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 6 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-7:book-daniel",
+      "from": "chapter:ester:7",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 7 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-7:book-mateus",
+      "from": "chapter:ester:7",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 7 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-8:book-daniel",
+      "from": "chapter:ester:8",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 8 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-8:book-mateus",
+      "from": "chapter:ester:8",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 8 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-9:book-daniel",
+      "from": "chapter:ester:9",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 9 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ester-9:book-mateus",
+      "from": "chapter:ester:9",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ester 9 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-ester-4:theme-a-providencia-oculta",
       "from": "chapter:ester:4",
       "to": "theme:a-providencia-oculta",
@@ -602,6 +858,264 @@
       "references": ["Est 9:26-28"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:ester:1",
+      "reference": "Ester 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:2",
+      "reference": "Ester 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:3",
+      "reference": "Ester 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:4",
+      "reference": "Ester 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:5",
+      "reference": "Ester 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:6",
+      "reference": "Ester 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:7",
+      "reference": "Ester 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:8",
+      "reference": "Ester 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:9",
+      "reference": "Ester 9",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "people-group", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ester:10",
+      "reference": "Ester 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

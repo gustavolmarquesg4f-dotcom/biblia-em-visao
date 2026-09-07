@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Eclesiastes",
-  "count": 32,
-  "chapterCount": 10,
+  "count": 68,
+  "chapterCount": 12,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:jo",
+      "kind": "book",
+      "label": "Jó",
+      "aliases": ["Jó"],
+      "summary": "O sofrimento do justo, os limites das explicações fáceis e o mistério.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["18-j-"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 42,
+        "author": "Autor não identificado",
+        "period": "Sabedoria israelita; data debatida"
+      }
+    },
+    {
+      "id": "book:proverbios",
+      "kind": "book",
+      "label": "Provérbios",
+      "aliases": ["Pv"],
+      "summary": "Máximas sobre caráter, trabalho, justiça, palavras e discernimento.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["20-prov-rbios"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 31,
+        "author": "Coleção associada a Salomão e sábios",
+        "period": "Tradição sapiencial"
+      }
+    },
     {
       "id": "event:eclesiastes-a-investigacao-universal-da-sabedoria-e-do-prazer",
       "kind": "event",
@@ -416,6 +470,402 @@
       "confidence": "high"
     },
     {
+      "id": "relation:canonical-connection:chapter-eclesiastes-1:book-1-corintios",
+      "from": "chapter:eclesiastes:1",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 1 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-1:book-jo",
+      "from": "chapter:eclesiastes:1",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 1 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-1:book-proverbios",
+      "from": "chapter:eclesiastes:1",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 1 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-10:book-1-corintios",
+      "from": "chapter:eclesiastes:10",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 10 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-10:book-jo",
+      "from": "chapter:eclesiastes:10",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 10 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-10:book-proverbios",
+      "from": "chapter:eclesiastes:10",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 10 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-11:book-1-corintios",
+      "from": "chapter:eclesiastes:11",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 11 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-11:book-jo",
+      "from": "chapter:eclesiastes:11",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 11 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-11:book-proverbios",
+      "from": "chapter:eclesiastes:11",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 11 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-12:book-1-corintios",
+      "from": "chapter:eclesiastes:12",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 12 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-12:book-jo",
+      "from": "chapter:eclesiastes:12",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 12 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-12:book-proverbios",
+      "from": "chapter:eclesiastes:12",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 12 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-2:book-1-corintios",
+      "from": "chapter:eclesiastes:2",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 2 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-2:book-jo",
+      "from": "chapter:eclesiastes:2",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 2 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-2:book-proverbios",
+      "from": "chapter:eclesiastes:2",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 2 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-3:book-1-corintios",
+      "from": "chapter:eclesiastes:3",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 3 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-3:book-jo",
+      "from": "chapter:eclesiastes:3",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 3 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-3:book-proverbios",
+      "from": "chapter:eclesiastes:3",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 3 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-4:book-1-corintios",
+      "from": "chapter:eclesiastes:4",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 4 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-4:book-jo",
+      "from": "chapter:eclesiastes:4",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 4 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-4:book-proverbios",
+      "from": "chapter:eclesiastes:4",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 4 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-5:book-1-corintios",
+      "from": "chapter:eclesiastes:5",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 5 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-5:book-jo",
+      "from": "chapter:eclesiastes:5",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 5 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-5:book-proverbios",
+      "from": "chapter:eclesiastes:5",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 5 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-6:book-1-corintios",
+      "from": "chapter:eclesiastes:6",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 6 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-6:book-jo",
+      "from": "chapter:eclesiastes:6",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 6 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-6:book-proverbios",
+      "from": "chapter:eclesiastes:6",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 6 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-7:book-1-corintios",
+      "from": "chapter:eclesiastes:7",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 7 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-7:book-jo",
+      "from": "chapter:eclesiastes:7",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 7 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-7:book-proverbios",
+      "from": "chapter:eclesiastes:7",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 7 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-8:book-1-corintios",
+      "from": "chapter:eclesiastes:8",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 8 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-8:book-jo",
+      "from": "chapter:eclesiastes:8",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 8 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-8:book-proverbios",
+      "from": "chapter:eclesiastes:8",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 8 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-9:book-1-corintios",
+      "from": "chapter:eclesiastes:9",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 9 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-9:book-jo",
+      "from": "chapter:eclesiastes:9",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 9 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-eclesiastes-9:book-proverbios",
+      "from": "chapter:eclesiastes:9",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Eclesiastes 9 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-eclesiastes-1:theme-debaixo-do-sol",
       "from": "chapter:eclesiastes:1",
       "to": "theme:debaixo-do-sol",
@@ -590,6 +1040,308 @@
       "references": ["Ec 3:19-20; 9:2-3; 12:7"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:eclesiastes:1",
+      "reference": "Eclesiastes 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:2",
+      "reference": "Eclesiastes 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:3",
+      "reference": "Eclesiastes 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:4",
+      "reference": "Eclesiastes 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:5",
+      "reference": "Eclesiastes 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:6",
+      "reference": "Eclesiastes 6",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:7",
+      "reference": "Eclesiastes 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:8",
+      "reference": "Eclesiastes 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:9",
+      "reference": "Eclesiastes 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:10",
+      "reference": "Eclesiastes 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:11",
+      "reference": "Eclesiastes 11",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:eclesiastes:12",
+      "reference": "Eclesiastes 12",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

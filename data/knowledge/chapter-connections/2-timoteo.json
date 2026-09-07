@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "2 Timóteo",
-  "count": 26,
+  "count": 38,
   "chapterCount": 4,
   "nodes": [
+    {
+      "id": "book:1-timoteo",
+      "kind": "book",
+      "label": "1 Timóteo",
+      "aliases": ["1Tm"],
+      "summary": "Orientações sobre liderança, ensino e cuidado comunitário.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["54-1-tim-teo"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 6,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:filipenses",
+      "kind": "book",
+      "label": "Filipenses",
+      "aliases": ["Fp"],
+      "summary": "Carta de amizade sobre alegria, humildade, parceria e perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["50-filipenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:tito",
+      "kind": "book",
+      "label": "Tito",
+      "aliases": ["Tt"],
+      "summary": "Organização e caráter público de uma comunidade coerente.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["56-tito"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 3,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "doctrine:escrituras",
       "kind": "doctrine",
@@ -524,6 +578,138 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-2-timoteo-1:book-1-timoteo",
+      "from": "chapter:2-timoteo:1",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 1 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-1:book-filipenses",
+      "from": "chapter:2-timoteo:1",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 1 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-1:book-tito",
+      "from": "chapter:2-timoteo:1",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 1 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-2:book-1-timoteo",
+      "from": "chapter:2-timoteo:2",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 2 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-2:book-filipenses",
+      "from": "chapter:2-timoteo:2",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 2 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-2:book-tito",
+      "from": "chapter:2-timoteo:2",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 2 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-3:book-1-timoteo",
+      "from": "chapter:2-timoteo:3",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 3 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-3:book-filipenses",
+      "from": "chapter:2-timoteo:3",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 3 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-3:book-tito",
+      "from": "chapter:2-timoteo:3",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 3 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-4:book-1-timoteo",
+      "from": "chapter:2-timoteo:4",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 4 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-4:book-filipenses",
+      "from": "chapter:2-timoteo:4",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 4 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-timoteo-4:book-tito",
+      "from": "chapter:2-timoteo:4",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Timóteo 4 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-2-timoteo-1:theme-deposito-da-fe-paratheke",
       "from": "chapter:2-timoteo:1",
       "to": "theme:deposito-da-fe-paratheke",
@@ -588,6 +774,108 @@
       "references": ["2 Timóteo 3:15-17"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:2-timoteo:1",
+      "reference": "2 Timóteo 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-timoteo:2",
+      "reference": "2 Timóteo 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-timoteo:3",
+      "reference": "2 Timóteo 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "doctrine", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-timoteo:4",
+      "reference": "2 Timóteo 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

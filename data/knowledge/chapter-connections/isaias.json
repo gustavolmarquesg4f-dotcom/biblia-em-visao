@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Isaías",
-  "count": 82,
-  "chapterCount": 39,
+  "count": 280,
+  "chapterCount": 66,
   "nodes": [
+    {
+      "id": "book:2-reis",
+      "kind": "book",
+      "label": "2 Reis",
+      "aliases": ["2Rs"],
+      "summary": "Declínio de Israel e Judá, profetas e queda de Samaria e Jerusalém.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["12-2-reis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 25,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Reinos até os exílios"
+      }
+    },
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "doctrine:cura",
       "kind": "doctrine",
@@ -1435,6 +1489,2184 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-isaias-1:book-2-reis",
+      "from": "chapter:isaias:1",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 1 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-1:book-jeremias",
+      "from": "chapter:isaias:1",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 1 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-1:book-mateus",
+      "from": "chapter:isaias:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-10:book-2-reis",
+      "from": "chapter:isaias:10",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 10 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-10:book-jeremias",
+      "from": "chapter:isaias:10",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 10 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-10:book-mateus",
+      "from": "chapter:isaias:10",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 10 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-11:book-2-reis",
+      "from": "chapter:isaias:11",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 11 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-11:book-jeremias",
+      "from": "chapter:isaias:11",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 11 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-11:book-mateus",
+      "from": "chapter:isaias:11",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 11 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-12:book-2-reis",
+      "from": "chapter:isaias:12",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 12 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-12:book-jeremias",
+      "from": "chapter:isaias:12",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 12 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-12:book-mateus",
+      "from": "chapter:isaias:12",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 12 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-13:book-2-reis",
+      "from": "chapter:isaias:13",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 13 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-13:book-jeremias",
+      "from": "chapter:isaias:13",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 13 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-13:book-mateus",
+      "from": "chapter:isaias:13",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 13 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-14:book-2-reis",
+      "from": "chapter:isaias:14",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 14 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-14:book-jeremias",
+      "from": "chapter:isaias:14",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 14 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-14:book-mateus",
+      "from": "chapter:isaias:14",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 14 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-15:book-2-reis",
+      "from": "chapter:isaias:15",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 15 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-15:book-jeremias",
+      "from": "chapter:isaias:15",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 15 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-15:book-mateus",
+      "from": "chapter:isaias:15",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 15 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-16:book-2-reis",
+      "from": "chapter:isaias:16",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 16 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-16:book-jeremias",
+      "from": "chapter:isaias:16",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 16 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-16:book-mateus",
+      "from": "chapter:isaias:16",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 16 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-17:book-2-reis",
+      "from": "chapter:isaias:17",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 17 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-17:book-jeremias",
+      "from": "chapter:isaias:17",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 17 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-17:book-mateus",
+      "from": "chapter:isaias:17",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 17 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-18:book-2-reis",
+      "from": "chapter:isaias:18",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 18 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-18:book-jeremias",
+      "from": "chapter:isaias:18",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 18 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-18:book-mateus",
+      "from": "chapter:isaias:18",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 18 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-19:book-2-reis",
+      "from": "chapter:isaias:19",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 19 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-19:book-jeremias",
+      "from": "chapter:isaias:19",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 19 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-19:book-mateus",
+      "from": "chapter:isaias:19",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 19 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-2:book-2-reis",
+      "from": "chapter:isaias:2",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 2 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-2:book-jeremias",
+      "from": "chapter:isaias:2",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 2 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-2:book-mateus",
+      "from": "chapter:isaias:2",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 2 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-20:book-2-reis",
+      "from": "chapter:isaias:20",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 20 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-20:book-jeremias",
+      "from": "chapter:isaias:20",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 20 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-20:book-mateus",
+      "from": "chapter:isaias:20",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 20 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-21:book-2-reis",
+      "from": "chapter:isaias:21",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 21 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-21:book-jeremias",
+      "from": "chapter:isaias:21",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 21 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-21:book-mateus",
+      "from": "chapter:isaias:21",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 21 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-22:book-2-reis",
+      "from": "chapter:isaias:22",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 22 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-22:book-jeremias",
+      "from": "chapter:isaias:22",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 22 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-22:book-mateus",
+      "from": "chapter:isaias:22",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 22 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-23:book-2-reis",
+      "from": "chapter:isaias:23",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 23 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-23:book-jeremias",
+      "from": "chapter:isaias:23",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 23 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-23:book-mateus",
+      "from": "chapter:isaias:23",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 23 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-24:book-2-reis",
+      "from": "chapter:isaias:24",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 24 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-24:book-jeremias",
+      "from": "chapter:isaias:24",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 24 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-24:book-mateus",
+      "from": "chapter:isaias:24",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 24 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-25:book-2-reis",
+      "from": "chapter:isaias:25",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 25 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-25:book-jeremias",
+      "from": "chapter:isaias:25",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 25 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-25:book-mateus",
+      "from": "chapter:isaias:25",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 25 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-26:book-2-reis",
+      "from": "chapter:isaias:26",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 26 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-26:book-jeremias",
+      "from": "chapter:isaias:26",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 26 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-26:book-mateus",
+      "from": "chapter:isaias:26",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 26 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-27:book-2-reis",
+      "from": "chapter:isaias:27",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 27 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-27:book-jeremias",
+      "from": "chapter:isaias:27",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 27 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-27:book-mateus",
+      "from": "chapter:isaias:27",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 27 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-28:book-2-reis",
+      "from": "chapter:isaias:28",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 28 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-28:book-jeremias",
+      "from": "chapter:isaias:28",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 28 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-28:book-mateus",
+      "from": "chapter:isaias:28",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 28 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-29:book-2-reis",
+      "from": "chapter:isaias:29",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 29 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-29:book-jeremias",
+      "from": "chapter:isaias:29",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 29 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-29:book-mateus",
+      "from": "chapter:isaias:29",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 29 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-3:book-2-reis",
+      "from": "chapter:isaias:3",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 3 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-3:book-jeremias",
+      "from": "chapter:isaias:3",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 3 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-3:book-mateus",
+      "from": "chapter:isaias:3",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 3 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-30:book-2-reis",
+      "from": "chapter:isaias:30",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 30 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-30:book-jeremias",
+      "from": "chapter:isaias:30",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 30 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-30:book-mateus",
+      "from": "chapter:isaias:30",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 30 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-31:book-2-reis",
+      "from": "chapter:isaias:31",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 31 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-31:book-jeremias",
+      "from": "chapter:isaias:31",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 31 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-31:book-mateus",
+      "from": "chapter:isaias:31",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 31 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-32:book-2-reis",
+      "from": "chapter:isaias:32",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 32 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-32:book-jeremias",
+      "from": "chapter:isaias:32",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 32 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-32:book-mateus",
+      "from": "chapter:isaias:32",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 32 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-33:book-2-reis",
+      "from": "chapter:isaias:33",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 33 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-33:book-jeremias",
+      "from": "chapter:isaias:33",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 33 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-33:book-mateus",
+      "from": "chapter:isaias:33",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 33 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-34:book-2-reis",
+      "from": "chapter:isaias:34",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 34 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-34:book-jeremias",
+      "from": "chapter:isaias:34",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 34 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-34:book-mateus",
+      "from": "chapter:isaias:34",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 34 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-35:book-2-reis",
+      "from": "chapter:isaias:35",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 35 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-35:book-jeremias",
+      "from": "chapter:isaias:35",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 35 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-35:book-mateus",
+      "from": "chapter:isaias:35",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 35 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-36:book-2-reis",
+      "from": "chapter:isaias:36",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 36 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-36:book-jeremias",
+      "from": "chapter:isaias:36",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 36 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-36:book-mateus",
+      "from": "chapter:isaias:36",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 36 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-37:book-2-reis",
+      "from": "chapter:isaias:37",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 37 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-37:book-jeremias",
+      "from": "chapter:isaias:37",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 37 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-37:book-mateus",
+      "from": "chapter:isaias:37",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 37 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-38:book-2-reis",
+      "from": "chapter:isaias:38",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 38 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-38:book-jeremias",
+      "from": "chapter:isaias:38",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 38 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-38:book-mateus",
+      "from": "chapter:isaias:38",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 38 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-39:book-2-reis",
+      "from": "chapter:isaias:39",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 39 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-39:book-jeremias",
+      "from": "chapter:isaias:39",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 39 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-39:book-mateus",
+      "from": "chapter:isaias:39",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 39 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-4:book-2-reis",
+      "from": "chapter:isaias:4",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 4 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-4:book-jeremias",
+      "from": "chapter:isaias:4",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 4 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-4:book-mateus",
+      "from": "chapter:isaias:4",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 4 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-40:book-2-reis",
+      "from": "chapter:isaias:40",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 40 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-40:book-jeremias",
+      "from": "chapter:isaias:40",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 40 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-40:book-mateus",
+      "from": "chapter:isaias:40",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 40 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-41:book-2-reis",
+      "from": "chapter:isaias:41",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 41 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-41:book-jeremias",
+      "from": "chapter:isaias:41",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 41 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-41:book-mateus",
+      "from": "chapter:isaias:41",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 41 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-42:book-2-reis",
+      "from": "chapter:isaias:42",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 42 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-42:book-jeremias",
+      "from": "chapter:isaias:42",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 42 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-42:book-mateus",
+      "from": "chapter:isaias:42",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 42 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-43:book-2-reis",
+      "from": "chapter:isaias:43",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 43 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-43:book-jeremias",
+      "from": "chapter:isaias:43",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 43 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-43:book-mateus",
+      "from": "chapter:isaias:43",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 43 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-44:book-2-reis",
+      "from": "chapter:isaias:44",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 44 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-44:book-jeremias",
+      "from": "chapter:isaias:44",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 44 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-44:book-mateus",
+      "from": "chapter:isaias:44",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 44 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-45:book-2-reis",
+      "from": "chapter:isaias:45",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 45 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-45:book-jeremias",
+      "from": "chapter:isaias:45",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 45 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-45:book-mateus",
+      "from": "chapter:isaias:45",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 45 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-46:book-2-reis",
+      "from": "chapter:isaias:46",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 46 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-46:book-jeremias",
+      "from": "chapter:isaias:46",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 46 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-46:book-mateus",
+      "from": "chapter:isaias:46",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 46 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-47:book-2-reis",
+      "from": "chapter:isaias:47",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 47 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-47:book-jeremias",
+      "from": "chapter:isaias:47",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 47 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-47:book-mateus",
+      "from": "chapter:isaias:47",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 47 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-48:book-2-reis",
+      "from": "chapter:isaias:48",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 48 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-48:book-jeremias",
+      "from": "chapter:isaias:48",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 48 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-48:book-mateus",
+      "from": "chapter:isaias:48",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 48 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-49:book-2-reis",
+      "from": "chapter:isaias:49",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 49 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-49:book-jeremias",
+      "from": "chapter:isaias:49",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 49 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-49:book-mateus",
+      "from": "chapter:isaias:49",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 49 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-5:book-2-reis",
+      "from": "chapter:isaias:5",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 5 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-5:book-jeremias",
+      "from": "chapter:isaias:5",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 5 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-5:book-mateus",
+      "from": "chapter:isaias:5",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 5 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-50:book-2-reis",
+      "from": "chapter:isaias:50",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 50 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-50:book-jeremias",
+      "from": "chapter:isaias:50",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 50 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-50:book-mateus",
+      "from": "chapter:isaias:50",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 50 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-51:book-2-reis",
+      "from": "chapter:isaias:51",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 51 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-51:book-jeremias",
+      "from": "chapter:isaias:51",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 51 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-51:book-mateus",
+      "from": "chapter:isaias:51",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 51 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-52:book-2-reis",
+      "from": "chapter:isaias:52",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 52 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-52:book-jeremias",
+      "from": "chapter:isaias:52",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 52 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-52:book-mateus",
+      "from": "chapter:isaias:52",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 52 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-53:book-2-reis",
+      "from": "chapter:isaias:53",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 53 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-53:book-jeremias",
+      "from": "chapter:isaias:53",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 53 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-53:book-mateus",
+      "from": "chapter:isaias:53",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 53 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-54:book-2-reis",
+      "from": "chapter:isaias:54",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 54 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-54:book-jeremias",
+      "from": "chapter:isaias:54",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 54 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-54:book-mateus",
+      "from": "chapter:isaias:54",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 54 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-55:book-2-reis",
+      "from": "chapter:isaias:55",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 55 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-55:book-jeremias",
+      "from": "chapter:isaias:55",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 55 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-55:book-mateus",
+      "from": "chapter:isaias:55",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 55 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-56:book-2-reis",
+      "from": "chapter:isaias:56",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 56 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-56:book-jeremias",
+      "from": "chapter:isaias:56",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 56 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-56:book-mateus",
+      "from": "chapter:isaias:56",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 56 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-57:book-2-reis",
+      "from": "chapter:isaias:57",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 57 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-57:book-jeremias",
+      "from": "chapter:isaias:57",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 57 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-57:book-mateus",
+      "from": "chapter:isaias:57",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 57 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-58:book-2-reis",
+      "from": "chapter:isaias:58",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 58 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-58:book-jeremias",
+      "from": "chapter:isaias:58",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 58 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-58:book-mateus",
+      "from": "chapter:isaias:58",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 58 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-59:book-2-reis",
+      "from": "chapter:isaias:59",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 59 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-59:book-jeremias",
+      "from": "chapter:isaias:59",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 59 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-59:book-mateus",
+      "from": "chapter:isaias:59",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 59 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-6:book-2-reis",
+      "from": "chapter:isaias:6",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 6 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-6:book-jeremias",
+      "from": "chapter:isaias:6",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 6 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-6:book-mateus",
+      "from": "chapter:isaias:6",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 6 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-60:book-2-reis",
+      "from": "chapter:isaias:60",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 60 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-60:book-jeremias",
+      "from": "chapter:isaias:60",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 60 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-60:book-mateus",
+      "from": "chapter:isaias:60",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 60 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-61:book-2-reis",
+      "from": "chapter:isaias:61",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 61 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-61:book-jeremias",
+      "from": "chapter:isaias:61",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 61 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-61:book-mateus",
+      "from": "chapter:isaias:61",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 61 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-62:book-2-reis",
+      "from": "chapter:isaias:62",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 62 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-62:book-jeremias",
+      "from": "chapter:isaias:62",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 62 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-62:book-mateus",
+      "from": "chapter:isaias:62",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 62 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-63:book-2-reis",
+      "from": "chapter:isaias:63",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 63 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-63:book-jeremias",
+      "from": "chapter:isaias:63",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 63 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-63:book-mateus",
+      "from": "chapter:isaias:63",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 63 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-64:book-2-reis",
+      "from": "chapter:isaias:64",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 64 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-64:book-jeremias",
+      "from": "chapter:isaias:64",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 64 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-64:book-mateus",
+      "from": "chapter:isaias:64",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 64 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-65:book-2-reis",
+      "from": "chapter:isaias:65",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 65 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-65:book-jeremias",
+      "from": "chapter:isaias:65",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 65 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-65:book-mateus",
+      "from": "chapter:isaias:65",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 65 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-66:book-2-reis",
+      "from": "chapter:isaias:66",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 66 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-66:book-jeremias",
+      "from": "chapter:isaias:66",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 66 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-66:book-mateus",
+      "from": "chapter:isaias:66",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 66 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-7:book-2-reis",
+      "from": "chapter:isaias:7",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 7 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-7:book-jeremias",
+      "from": "chapter:isaias:7",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 7 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-7:book-mateus",
+      "from": "chapter:isaias:7",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 7 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-8:book-2-reis",
+      "from": "chapter:isaias:8",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 8 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-8:book-jeremias",
+      "from": "chapter:isaias:8",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 8 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-8:book-mateus",
+      "from": "chapter:isaias:8",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 8 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-9:book-2-reis",
+      "from": "chapter:isaias:9",
+      "to": "book:2-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 9 inclui 2 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-9:book-jeremias",
+      "from": "chapter:isaias:9",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 9 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-isaias-9:book-mateus",
+      "from": "chapter:isaias:9",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Isaías 9 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-isaias-1:theme-siao-jerusalem",
       "from": "chapter:isaias:1",
       "to": "theme:siao-jerusalem",
@@ -1642,6 +3874,1658 @@
       "references": ["Is 6:1–8"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:isaias:1",
+      "reference": "Isaías 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:2",
+      "reference": "Isaías 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:3",
+      "reference": "Isaías 3",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:4",
+      "reference": "Isaías 4",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:5",
+      "reference": "Isaías 5",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:6",
+      "reference": "Isaías 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "term"],
+      "coveredDimensions": ["people", "terms", "theology"],
+      "pendingDimensions": ["scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:7",
+      "reference": "Isaías 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:8",
+      "reference": "Isaías 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:9",
+      "reference": "Isaías 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:10",
+      "reference": "Isaías 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:11",
+      "reference": "Isaías 11",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:12",
+      "reference": "Isaías 12",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:13",
+      "reference": "Isaías 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:14",
+      "reference": "Isaías 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:15",
+      "reference": "Isaías 15",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:16",
+      "reference": "Isaías 16",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:17",
+      "reference": "Isaías 17",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:18",
+      "reference": "Isaías 18",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:19",
+      "reference": "Isaías 19",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:20",
+      "reference": "Isaías 20",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:21",
+      "reference": "Isaías 21",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:22",
+      "reference": "Isaías 22",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:23",
+      "reference": "Isaías 23",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:24",
+      "reference": "Isaías 24",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:25",
+      "reference": "Isaías 25",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:26",
+      "reference": "Isaías 26",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:27",
+      "reference": "Isaías 27",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:28",
+      "reference": "Isaías 28",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:29",
+      "reference": "Isaías 29",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:30",
+      "reference": "Isaías 30",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:31",
+      "reference": "Isaías 31",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:32",
+      "reference": "Isaías 32",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:33",
+      "reference": "Isaías 33",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:34",
+      "reference": "Isaías 34",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:35",
+      "reference": "Isaías 35",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:36",
+      "reference": "Isaías 36",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:37",
+      "reference": "Isaías 37",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:38",
+      "reference": "Isaías 38",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:39",
+      "reference": "Isaías 39",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:40",
+      "reference": "Isaías 40",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:41",
+      "reference": "Isaías 41",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:42",
+      "reference": "Isaías 42",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:43",
+      "reference": "Isaías 43",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:44",
+      "reference": "Isaías 44",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:45",
+      "reference": "Isaías 45",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:46",
+      "reference": "Isaías 46",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:47",
+      "reference": "Isaías 47",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:48",
+      "reference": "Isaías 48",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:49",
+      "reference": "Isaías 49",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:50",
+      "reference": "Isaías 50",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:51",
+      "reference": "Isaías 51",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:52",
+      "reference": "Isaías 52",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:53",
+      "reference": "Isaías 53",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "doctrine", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:54",
+      "reference": "Isaías 54",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:55",
+      "reference": "Isaías 55",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:56",
+      "reference": "Isaías 56",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:57",
+      "reference": "Isaías 57",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:58",
+      "reference": "Isaías 58",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:59",
+      "reference": "Isaías 59",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:60",
+      "reference": "Isaías 60",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:61",
+      "reference": "Isaías 61",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:62",
+      "reference": "Isaías 62",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:63",
+      "reference": "Isaías 63",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:64",
+      "reference": "Isaías 64",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:65",
+      "reference": "Isaías 65",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:isaias:66",
+      "reference": "Isaías 66",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

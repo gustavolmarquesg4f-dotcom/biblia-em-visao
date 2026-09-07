@@ -1,9 +1,135 @@
 {
   "schemaVersion": 1,
   "book": "Números",
-  "count": 58,
-  "chapterCount": 23,
+  "count": 168,
+  "chapterCount": 36,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:deuteronomio",
+      "kind": "book",
+      "label": "Deuteronômio",
+      "aliases": ["Dt"],
+      "summary": "Releitura da lei e dos compromissos da aliança para uma nova geração.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["5-deuteron-mio"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 34,
+        "author": "Moisés (tradição); edição posterior discutida",
+        "period": "Vésperas da entrada na terra"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:genesis",
+      "kind": "book",
+      "label": "Gênesis",
+      "aliases": ["Gn"],
+      "summary": "Origens do mundo, ruptura humana e formação da família de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["1-g-nesis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 50,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Origens → patriarcas"
+      }
+    },
+    {
+      "id": "book:hebreus",
+      "kind": "book",
+      "label": "Hebreus",
+      "aliases": ["Hb"],
+      "summary": "Sermão escrito que chama uma comunidade cansada à perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["58-hebreus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 13,
+        "author": "Autor não identificado",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:josue",
+      "kind": "book",
+      "label": "Josué",
+      "aliases": ["Js"],
+      "summary": "Entrada em Canaã, distribuição da terra e renovação da aliança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["6-josu-"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 24,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Conquista e assentamento"
+      }
+    },
+    {
+      "id": "book:salmos",
+      "kind": "book",
+      "label": "Salmos",
+      "aliases": ["Sl"],
+      "summary": "Orações e poemas para celebração, crise, lamento e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["19-salmos"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 150,
+        "author": "Coleção com Davi e outros autores tradicionais",
+        "period": "Vários períodos de Israel"
+      }
+    },
     {
       "id": "event:numeros-a-apostasia-de-baal-peor-e-o-zelo-de-fineias",
       "kind": "event",
@@ -1056,6 +1182,1216 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-numeros-1:book-1-corintios",
+      "from": "chapter:numeros:1",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 1 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-1:book-deuteronomio",
+      "from": "chapter:numeros:1",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 1 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-1:book-exodo",
+      "from": "chapter:numeros:1",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 1 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-10:book-1-corintios",
+      "from": "chapter:numeros:10",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 10 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-10:book-deuteronomio",
+      "from": "chapter:numeros:10",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 10 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-10:book-exodo",
+      "from": "chapter:numeros:10",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 10 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-11:book-1-corintios",
+      "from": "chapter:numeros:11",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 11 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-11:book-deuteronomio",
+      "from": "chapter:numeros:11",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 11 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-11:book-exodo",
+      "from": "chapter:numeros:11",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 11 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-12:book-1-corintios",
+      "from": "chapter:numeros:12",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 12 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-12:book-deuteronomio",
+      "from": "chapter:numeros:12",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 12 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-12:book-exodo",
+      "from": "chapter:numeros:12",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 12 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-13:book-deuteronomio",
+      "from": "chapter:numeros:13",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 13 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dt 1:19–33"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-13:book-genesis",
+      "from": "chapter:numeros:13",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 13 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 12:1–7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-13:book-hebreus",
+      "from": "chapter:numeros:13",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 13 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hb 3:7–19"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-13:book-josue",
+      "from": "chapter:numeros:13",
+      "to": "book:josue",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 13 inclui Josué em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Js 2"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-14:book-1-corintios",
+      "from": "chapter:numeros:14",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 14 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-14:book-deuteronomio",
+      "from": "chapter:numeros:14",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 14 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-14:book-exodo",
+      "from": "chapter:numeros:14",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 14 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-15:book-1-corintios",
+      "from": "chapter:numeros:15",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 15 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-15:book-deuteronomio",
+      "from": "chapter:numeros:15",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 15 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-15:book-exodo",
+      "from": "chapter:numeros:15",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 15 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-16:book-1-corintios",
+      "from": "chapter:numeros:16",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 16 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-16:book-deuteronomio",
+      "from": "chapter:numeros:16",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 16 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-16:book-exodo",
+      "from": "chapter:numeros:16",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 16 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-17:book-1-corintios",
+      "from": "chapter:numeros:17",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 17 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-17:book-deuteronomio",
+      "from": "chapter:numeros:17",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 17 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-17:book-exodo",
+      "from": "chapter:numeros:17",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 17 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-18:book-1-corintios",
+      "from": "chapter:numeros:18",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 18 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-18:book-deuteronomio",
+      "from": "chapter:numeros:18",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 18 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-18:book-exodo",
+      "from": "chapter:numeros:18",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 18 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-19:book-1-corintios",
+      "from": "chapter:numeros:19",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 19 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-19:book-deuteronomio",
+      "from": "chapter:numeros:19",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 19 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-19:book-exodo",
+      "from": "chapter:numeros:19",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 19 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-2:book-1-corintios",
+      "from": "chapter:numeros:2",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 2 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-2:book-deuteronomio",
+      "from": "chapter:numeros:2",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 2 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-2:book-exodo",
+      "from": "chapter:numeros:2",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 2 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-20:book-1-corintios",
+      "from": "chapter:numeros:20",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 20 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Co 10:1–4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-20:book-deuteronomio",
+      "from": "chapter:numeros:20",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 20 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dt 32:48–52"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-20:book-exodo",
+      "from": "chapter:numeros:20",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 20 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êx 17:1–7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-20:book-salmos",
+      "from": "chapter:numeros:20",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 20 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Sl 95:7–11"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-21:book-1-corintios",
+      "from": "chapter:numeros:21",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 21 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-21:book-deuteronomio",
+      "from": "chapter:numeros:21",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 21 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-21:book-exodo",
+      "from": "chapter:numeros:21",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 21 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-22:book-1-corintios",
+      "from": "chapter:numeros:22",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 22 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-22:book-deuteronomio",
+      "from": "chapter:numeros:22",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 22 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-22:book-exodo",
+      "from": "chapter:numeros:22",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 22 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-23:book-1-corintios",
+      "from": "chapter:numeros:23",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 23 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-23:book-deuteronomio",
+      "from": "chapter:numeros:23",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 23 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-23:book-exodo",
+      "from": "chapter:numeros:23",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 23 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-24:book-1-corintios",
+      "from": "chapter:numeros:24",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 24 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-24:book-deuteronomio",
+      "from": "chapter:numeros:24",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 24 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-24:book-exodo",
+      "from": "chapter:numeros:24",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 24 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-25:book-1-corintios",
+      "from": "chapter:numeros:25",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 25 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-25:book-deuteronomio",
+      "from": "chapter:numeros:25",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 25 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-25:book-exodo",
+      "from": "chapter:numeros:25",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 25 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-26:book-1-corintios",
+      "from": "chapter:numeros:26",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 26 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-26:book-deuteronomio",
+      "from": "chapter:numeros:26",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 26 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-26:book-exodo",
+      "from": "chapter:numeros:26",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 26 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-27:book-1-corintios",
+      "from": "chapter:numeros:27",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 27 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-27:book-deuteronomio",
+      "from": "chapter:numeros:27",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 27 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-27:book-exodo",
+      "from": "chapter:numeros:27",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 27 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-28:book-1-corintios",
+      "from": "chapter:numeros:28",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 28 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-28:book-deuteronomio",
+      "from": "chapter:numeros:28",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 28 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-28:book-exodo",
+      "from": "chapter:numeros:28",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 28 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-29:book-1-corintios",
+      "from": "chapter:numeros:29",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 29 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-29:book-deuteronomio",
+      "from": "chapter:numeros:29",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 29 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-29:book-exodo",
+      "from": "chapter:numeros:29",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 29 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-3:book-1-corintios",
+      "from": "chapter:numeros:3",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 3 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-3:book-deuteronomio",
+      "from": "chapter:numeros:3",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 3 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-3:book-exodo",
+      "from": "chapter:numeros:3",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 3 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-30:book-1-corintios",
+      "from": "chapter:numeros:30",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 30 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-30:book-deuteronomio",
+      "from": "chapter:numeros:30",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 30 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-30:book-exodo",
+      "from": "chapter:numeros:30",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 30 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-31:book-1-corintios",
+      "from": "chapter:numeros:31",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 31 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-31:book-deuteronomio",
+      "from": "chapter:numeros:31",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 31 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-31:book-exodo",
+      "from": "chapter:numeros:31",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 31 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-32:book-1-corintios",
+      "from": "chapter:numeros:32",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 32 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-32:book-deuteronomio",
+      "from": "chapter:numeros:32",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 32 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-32:book-exodo",
+      "from": "chapter:numeros:32",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 32 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-33:book-1-corintios",
+      "from": "chapter:numeros:33",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 33 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-33:book-deuteronomio",
+      "from": "chapter:numeros:33",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 33 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-33:book-exodo",
+      "from": "chapter:numeros:33",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 33 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-34:book-1-corintios",
+      "from": "chapter:numeros:34",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 34 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-34:book-deuteronomio",
+      "from": "chapter:numeros:34",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 34 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-34:book-exodo",
+      "from": "chapter:numeros:34",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 34 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-35:book-1-corintios",
+      "from": "chapter:numeros:35",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 35 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-35:book-deuteronomio",
+      "from": "chapter:numeros:35",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 35 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-35:book-exodo",
+      "from": "chapter:numeros:35",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 35 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-36:book-1-corintios",
+      "from": "chapter:numeros:36",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 36 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-36:book-deuteronomio",
+      "from": "chapter:numeros:36",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 36 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-36:book-exodo",
+      "from": "chapter:numeros:36",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 36 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-4:book-1-corintios",
+      "from": "chapter:numeros:4",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 4 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-4:book-deuteronomio",
+      "from": "chapter:numeros:4",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 4 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-4:book-exodo",
+      "from": "chapter:numeros:4",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 4 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-5:book-1-corintios",
+      "from": "chapter:numeros:5",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 5 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-5:book-deuteronomio",
+      "from": "chapter:numeros:5",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 5 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-5:book-exodo",
+      "from": "chapter:numeros:5",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 5 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-6:book-1-corintios",
+      "from": "chapter:numeros:6",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 6 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-6:book-deuteronomio",
+      "from": "chapter:numeros:6",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 6 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-6:book-exodo",
+      "from": "chapter:numeros:6",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 6 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-7:book-1-corintios",
+      "from": "chapter:numeros:7",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 7 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-7:book-deuteronomio",
+      "from": "chapter:numeros:7",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 7 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-7:book-exodo",
+      "from": "chapter:numeros:7",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 7 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-8:book-1-corintios",
+      "from": "chapter:numeros:8",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 8 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-8:book-deuteronomio",
+      "from": "chapter:numeros:8",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 8 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-8:book-exodo",
+      "from": "chapter:numeros:8",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 8 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-9:book-1-corintios",
+      "from": "chapter:numeros:9",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 9 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Coríntios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-9:book-deuteronomio",
+      "from": "chapter:numeros:9",
+      "to": "book:deuteronomio",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 9 inclui Deuteronômio em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Deuteronômio"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-numeros-9:book-exodo",
+      "from": "chapter:numeros:9",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Números 9 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-numeros-1:theme-o-tabernaculo-tenda-da-reuniao",
       "from": "chapter:numeros:1",
       "to": "theme:o-tabernaculo-tenda-da-reuniao",
@@ -1109,6 +2445,908 @@
       "references": ["Números 1:50-53; Números 9:15"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:numeros:1",
+      "reference": "Números 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:2",
+      "reference": "Números 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:3",
+      "reference": "Números 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:4",
+      "reference": "Números 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:5",
+      "reference": "Números 5",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:6",
+      "reference": "Números 6",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:7",
+      "reference": "Números 7",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:8",
+      "reference": "Números 8",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:9",
+      "reference": "Números 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:10",
+      "reference": "Números 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:11",
+      "reference": "Números 11",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:12",
+      "reference": "Números 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:13",
+      "reference": "Números 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:14",
+      "reference": "Números 14",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:15",
+      "reference": "Números 15",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:16",
+      "reference": "Números 16",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:17",
+      "reference": "Números 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:18",
+      "reference": "Números 18",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:19",
+      "reference": "Números 19",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:20",
+      "reference": "Números 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:21",
+      "reference": "Números 21",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:22",
+      "reference": "Números 22",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:23",
+      "reference": "Números 23",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:24",
+      "reference": "Números 24",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:25",
+      "reference": "Números 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:26",
+      "reference": "Números 26",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:27",
+      "reference": "Números 27",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:28",
+      "reference": "Números 28",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:29",
+      "reference": "Números 29",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:30",
+      "reference": "Números 30",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:31",
+      "reference": "Números 31",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:32",
+      "reference": "Números 32",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:33",
+      "reference": "Números 33",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:34",
+      "reference": "Números 34",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:35",
+      "reference": "Números 35",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:numeros:36",
+      "reference": "Números 36",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

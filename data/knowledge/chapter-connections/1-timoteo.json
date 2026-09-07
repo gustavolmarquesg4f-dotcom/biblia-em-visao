@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "1 Timóteo",
-  "count": 29,
+  "count": 47,
   "chapterCount": 6,
   "nodes": [
+    {
+      "id": "book:2-timoteo",
+      "kind": "book",
+      "label": "2 Timóteo",
+      "aliases": ["2Tm"],
+      "summary": "Exortação a perseverar, lembrar e transmitir o ensino.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["55-2-tim-teo"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 4,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:atos",
+      "kind": "book",
+      "label": "Atos",
+      "aliases": ["At"],
+      "summary": "Expansão do movimento de Jesus de Jerusalém até Roma.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["44-atos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "História da igreja",
+        "chapters": 28,
+        "author": "Mesmo projeto literário de Lucas",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:tito",
+      "kind": "book",
+      "label": "Tito",
+      "aliases": ["Tt"],
+      "summary": "Organização e caráter público de uma comunidade coerente.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["56-tito"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 3,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:1-timoteo-alerta-contra-o-ascetismo-apostata",
       "kind": "event",
@@ -545,6 +599,204 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-1-timoteo-1:book-2-timoteo",
+      "from": "chapter:1-timoteo:1",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 1 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-1:book-atos",
+      "from": "chapter:1-timoteo:1",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 1 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-1:book-tito",
+      "from": "chapter:1-timoteo:1",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 1 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-2:book-2-timoteo",
+      "from": "chapter:1-timoteo:2",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 2 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-2:book-atos",
+      "from": "chapter:1-timoteo:2",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 2 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-2:book-tito",
+      "from": "chapter:1-timoteo:2",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 2 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-3:book-2-timoteo",
+      "from": "chapter:1-timoteo:3",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 3 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-3:book-atos",
+      "from": "chapter:1-timoteo:3",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 3 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-3:book-tito",
+      "from": "chapter:1-timoteo:3",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 3 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-4:book-2-timoteo",
+      "from": "chapter:1-timoteo:4",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 4 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-4:book-atos",
+      "from": "chapter:1-timoteo:4",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 4 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-4:book-tito",
+      "from": "chapter:1-timoteo:4",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 4 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-5:book-2-timoteo",
+      "from": "chapter:1-timoteo:5",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 5 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-5:book-atos",
+      "from": "chapter:1-timoteo:5",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 5 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-5:book-tito",
+      "from": "chapter:1-timoteo:5",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 5 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-6:book-2-timoteo",
+      "from": "chapter:1-timoteo:6",
+      "to": "book:2-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 6 inclui 2 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-6:book-atos",
+      "from": "chapter:1-timoteo:6",
+      "to": "book:atos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 6 inclui Atos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Atos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-timoteo-6:book-tito",
+      "from": "chapter:1-timoteo:6",
+      "to": "book:tito",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Timóteo 6 inclui Tito em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tito"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-1-timoteo-1:theme-efeso",
       "from": "chapter:1-timoteo:1",
       "to": "theme:efeso",
@@ -675,6 +927,158 @@
       "references": ["1 Tm 1:10; 6:3"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:1-timoteo:1",
+      "reference": "1 Timóteo 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-timoteo:2",
+      "reference": "1 Timóteo 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-timoteo:3",
+      "reference": "1 Timóteo 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-timoteo:4",
+      "reference": "1 Timóteo 4",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-timoteo:5",
+      "reference": "1 Timóteo 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-timoteo:6",
+      "reference": "1 Timóteo 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "2 Reis",
-  "count": 63,
-  "chapterCount": 23,
+  "count": 138,
+  "chapterCount": 25,
   "nodes": [
+    {
+      "id": "book:esdras",
+      "kind": "book",
+      "label": "Esdras",
+      "aliases": ["Ed"],
+      "summary": "Retorno, reconstrução do templo e reorganização da comunidade pela lei.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["15-esdras"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 10,
+        "author": "Tradição de Esdras; edição posterior",
+        "period": "Retorno do exílio"
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
     {
       "id": "event:2-reis-a-descoberta-da-lei-e-reforma-de-josias",
       "kind": "event",
@@ -1088,6 +1142,831 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-2-reis-1:book-esdras",
+      "from": "chapter:2-reis:1",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 1 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-1:book-isaias",
+      "from": "chapter:2-reis:1",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 1 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-1:book-jeremias",
+      "from": "chapter:2-reis:1",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 1 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-10:book-esdras",
+      "from": "chapter:2-reis:10",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 10 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-10:book-isaias",
+      "from": "chapter:2-reis:10",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 10 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-10:book-jeremias",
+      "from": "chapter:2-reis:10",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 10 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-11:book-esdras",
+      "from": "chapter:2-reis:11",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 11 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-11:book-isaias",
+      "from": "chapter:2-reis:11",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 11 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-11:book-jeremias",
+      "from": "chapter:2-reis:11",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 11 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-12:book-esdras",
+      "from": "chapter:2-reis:12",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 12 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-12:book-isaias",
+      "from": "chapter:2-reis:12",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 12 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-12:book-jeremias",
+      "from": "chapter:2-reis:12",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 12 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-13:book-esdras",
+      "from": "chapter:2-reis:13",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 13 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-13:book-isaias",
+      "from": "chapter:2-reis:13",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 13 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-13:book-jeremias",
+      "from": "chapter:2-reis:13",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 13 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-14:book-esdras",
+      "from": "chapter:2-reis:14",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 14 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-14:book-isaias",
+      "from": "chapter:2-reis:14",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 14 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-14:book-jeremias",
+      "from": "chapter:2-reis:14",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 14 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-15:book-esdras",
+      "from": "chapter:2-reis:15",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 15 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-15:book-isaias",
+      "from": "chapter:2-reis:15",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 15 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-15:book-jeremias",
+      "from": "chapter:2-reis:15",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 15 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-16:book-esdras",
+      "from": "chapter:2-reis:16",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 16 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-16:book-isaias",
+      "from": "chapter:2-reis:16",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 16 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-16:book-jeremias",
+      "from": "chapter:2-reis:16",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 16 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-17:book-esdras",
+      "from": "chapter:2-reis:17",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 17 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-17:book-isaias",
+      "from": "chapter:2-reis:17",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 17 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-17:book-jeremias",
+      "from": "chapter:2-reis:17",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 17 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-18:book-esdras",
+      "from": "chapter:2-reis:18",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 18 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-18:book-isaias",
+      "from": "chapter:2-reis:18",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 18 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-18:book-jeremias",
+      "from": "chapter:2-reis:18",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 18 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-19:book-esdras",
+      "from": "chapter:2-reis:19",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 19 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-19:book-isaias",
+      "from": "chapter:2-reis:19",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 19 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-19:book-jeremias",
+      "from": "chapter:2-reis:19",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 19 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-2:book-esdras",
+      "from": "chapter:2-reis:2",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 2 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-2:book-isaias",
+      "from": "chapter:2-reis:2",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 2 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-2:book-jeremias",
+      "from": "chapter:2-reis:2",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 2 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-20:book-esdras",
+      "from": "chapter:2-reis:20",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 20 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-20:book-isaias",
+      "from": "chapter:2-reis:20",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 20 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-20:book-jeremias",
+      "from": "chapter:2-reis:20",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 20 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-21:book-esdras",
+      "from": "chapter:2-reis:21",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 21 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-21:book-isaias",
+      "from": "chapter:2-reis:21",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 21 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-21:book-jeremias",
+      "from": "chapter:2-reis:21",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 21 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-22:book-esdras",
+      "from": "chapter:2-reis:22",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 22 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-22:book-isaias",
+      "from": "chapter:2-reis:22",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 22 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-22:book-jeremias",
+      "from": "chapter:2-reis:22",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 22 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-23:book-esdras",
+      "from": "chapter:2-reis:23",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 23 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-23:book-isaias",
+      "from": "chapter:2-reis:23",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 23 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-23:book-jeremias",
+      "from": "chapter:2-reis:23",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 23 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-24:book-esdras",
+      "from": "chapter:2-reis:24",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 24 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-24:book-isaias",
+      "from": "chapter:2-reis:24",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 24 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-24:book-jeremias",
+      "from": "chapter:2-reis:24",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 24 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-25:book-esdras",
+      "from": "chapter:2-reis:25",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 25 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-25:book-isaias",
+      "from": "chapter:2-reis:25",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 25 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-25:book-jeremias",
+      "from": "chapter:2-reis:25",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 25 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-3:book-esdras",
+      "from": "chapter:2-reis:3",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 3 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-3:book-isaias",
+      "from": "chapter:2-reis:3",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 3 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-3:book-jeremias",
+      "from": "chapter:2-reis:3",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 3 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-4:book-esdras",
+      "from": "chapter:2-reis:4",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 4 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-4:book-isaias",
+      "from": "chapter:2-reis:4",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 4 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-4:book-jeremias",
+      "from": "chapter:2-reis:4",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 4 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-5:book-esdras",
+      "from": "chapter:2-reis:5",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 5 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-5:book-isaias",
+      "from": "chapter:2-reis:5",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 5 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-5:book-jeremias",
+      "from": "chapter:2-reis:5",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 5 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-6:book-esdras",
+      "from": "chapter:2-reis:6",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 6 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-6:book-isaias",
+      "from": "chapter:2-reis:6",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 6 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-6:book-jeremias",
+      "from": "chapter:2-reis:6",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 6 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-7:book-esdras",
+      "from": "chapter:2-reis:7",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 7 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-7:book-isaias",
+      "from": "chapter:2-reis:7",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 7 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-7:book-jeremias",
+      "from": "chapter:2-reis:7",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 7 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-8:book-esdras",
+      "from": "chapter:2-reis:8",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 8 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-8:book-isaias",
+      "from": "chapter:2-reis:8",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 8 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-8:book-jeremias",
+      "from": "chapter:2-reis:8",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 8 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-9:book-esdras",
+      "from": "chapter:2-reis:9",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 9 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-9:book-isaias",
+      "from": "chapter:2-reis:9",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 9 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-reis-9:book-jeremias",
+      "from": "chapter:2-reis:9",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Reis 9 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-2-reis-15:theme-assiria",
       "from": "chapter:2-reis:15",
       "to": "theme:assiria",
@@ -1185,6 +2064,640 @@
       "references": ["2 Reis 24-25"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:2-reis:1",
+      "reference": "2 Reis 1",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:2",
+      "reference": "2 Reis 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:3",
+      "reference": "2 Reis 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:4",
+      "reference": "2 Reis 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:5",
+      "reference": "2 Reis 5",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:6",
+      "reference": "2 Reis 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:7",
+      "reference": "2 Reis 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:8",
+      "reference": "2 Reis 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:9",
+      "reference": "2 Reis 9",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:10",
+      "reference": "2 Reis 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:11",
+      "reference": "2 Reis 11",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:12",
+      "reference": "2 Reis 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:13",
+      "reference": "2 Reis 13",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:14",
+      "reference": "2 Reis 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:15",
+      "reference": "2 Reis 15",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:16",
+      "reference": "2 Reis 16",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:17",
+      "reference": "2 Reis 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:18",
+      "reference": "2 Reis 18",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:19",
+      "reference": "2 Reis 19",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:20",
+      "reference": "2 Reis 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:21",
+      "reference": "2 Reis 21",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:22",
+      "reference": "2 Reis 22",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:23",
+      "reference": "2 Reis 23",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:24",
+      "reference": "2 Reis 24",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-reis:25",
+      "reference": "2 Reis 25",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

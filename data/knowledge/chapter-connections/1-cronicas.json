@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "1 Crônicas",
-  "count": 62,
-  "chapterCount": 24,
+  "count": 149,
+  "chapterCount": 29,
   "nodes": [
+    {
+      "id": "book:2-cronicas",
+      "kind": "book",
+      "label": "2 Crônicas",
+      "aliases": ["2Cr"],
+      "summary": "Reis de Judá e templo até o exílio, com horizonte de reconstrução.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["14-2-cr-nicas"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 36,
+        "author": "O Cronista; autoria não identificada",
+        "period": "Salomão ao retorno"
+      }
+    },
+    {
+      "id": "book:2-samuel",
+      "kind": "book",
+      "label": "2 Samuel",
+      "aliases": ["2Sm"],
+      "summary": "O reinado de Davi, suas vitórias, promessa dinástica e conflitos internos.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["10-2-samuel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 24,
+        "author": "Tradições históricas reunidas",
+        "period": "Reinado de Davi"
+      }
+    },
+    {
+      "id": "book:esdras",
+      "kind": "book",
+      "label": "Esdras",
+      "aliases": ["Ed"],
+      "summary": "Retorno, reconstrução do templo e reorganização da comunidade pela lei.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["15-esdras"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 10,
+        "author": "Tradição de Esdras; edição posterior",
+        "period": "Retorno do exílio"
+      }
+    },
     {
       "id": "event:1-cronicas-a-alianca-divina-com-davi",
       "kind": "event",
@@ -929,6 +983,963 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-1-cronicas-1:book-2-cronicas",
+      "from": "chapter:1-cronicas:1",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 1 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-1:book-2-samuel",
+      "from": "chapter:1-cronicas:1",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 1 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-1:book-esdras",
+      "from": "chapter:1-cronicas:1",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 1 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-10:book-2-cronicas",
+      "from": "chapter:1-cronicas:10",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 10 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-10:book-2-samuel",
+      "from": "chapter:1-cronicas:10",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 10 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-10:book-esdras",
+      "from": "chapter:1-cronicas:10",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 10 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-11:book-2-cronicas",
+      "from": "chapter:1-cronicas:11",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 11 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-11:book-2-samuel",
+      "from": "chapter:1-cronicas:11",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 11 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-11:book-esdras",
+      "from": "chapter:1-cronicas:11",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 11 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-12:book-2-cronicas",
+      "from": "chapter:1-cronicas:12",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 12 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-12:book-2-samuel",
+      "from": "chapter:1-cronicas:12",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 12 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-12:book-esdras",
+      "from": "chapter:1-cronicas:12",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 12 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-13:book-2-cronicas",
+      "from": "chapter:1-cronicas:13",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 13 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-13:book-2-samuel",
+      "from": "chapter:1-cronicas:13",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 13 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-13:book-esdras",
+      "from": "chapter:1-cronicas:13",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 13 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-14:book-2-cronicas",
+      "from": "chapter:1-cronicas:14",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 14 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-14:book-2-samuel",
+      "from": "chapter:1-cronicas:14",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 14 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-14:book-esdras",
+      "from": "chapter:1-cronicas:14",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 14 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-15:book-2-cronicas",
+      "from": "chapter:1-cronicas:15",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 15 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-15:book-2-samuel",
+      "from": "chapter:1-cronicas:15",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 15 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-15:book-esdras",
+      "from": "chapter:1-cronicas:15",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 15 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-16:book-2-cronicas",
+      "from": "chapter:1-cronicas:16",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 16 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-16:book-2-samuel",
+      "from": "chapter:1-cronicas:16",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 16 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-16:book-esdras",
+      "from": "chapter:1-cronicas:16",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 16 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-17:book-2-cronicas",
+      "from": "chapter:1-cronicas:17",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 17 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-17:book-2-samuel",
+      "from": "chapter:1-cronicas:17",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 17 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-17:book-esdras",
+      "from": "chapter:1-cronicas:17",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 17 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-18:book-2-cronicas",
+      "from": "chapter:1-cronicas:18",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 18 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-18:book-2-samuel",
+      "from": "chapter:1-cronicas:18",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 18 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-18:book-esdras",
+      "from": "chapter:1-cronicas:18",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 18 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-19:book-2-cronicas",
+      "from": "chapter:1-cronicas:19",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 19 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-19:book-2-samuel",
+      "from": "chapter:1-cronicas:19",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 19 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-19:book-esdras",
+      "from": "chapter:1-cronicas:19",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 19 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-2:book-2-cronicas",
+      "from": "chapter:1-cronicas:2",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 2 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-2:book-2-samuel",
+      "from": "chapter:1-cronicas:2",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 2 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-2:book-esdras",
+      "from": "chapter:1-cronicas:2",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 2 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-20:book-2-cronicas",
+      "from": "chapter:1-cronicas:20",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 20 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-20:book-2-samuel",
+      "from": "chapter:1-cronicas:20",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 20 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-20:book-esdras",
+      "from": "chapter:1-cronicas:20",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 20 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-21:book-2-cronicas",
+      "from": "chapter:1-cronicas:21",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 21 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-21:book-2-samuel",
+      "from": "chapter:1-cronicas:21",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 21 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-21:book-esdras",
+      "from": "chapter:1-cronicas:21",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 21 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-22:book-2-cronicas",
+      "from": "chapter:1-cronicas:22",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 22 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-22:book-2-samuel",
+      "from": "chapter:1-cronicas:22",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 22 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-22:book-esdras",
+      "from": "chapter:1-cronicas:22",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 22 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-23:book-2-cronicas",
+      "from": "chapter:1-cronicas:23",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 23 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-23:book-2-samuel",
+      "from": "chapter:1-cronicas:23",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 23 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-23:book-esdras",
+      "from": "chapter:1-cronicas:23",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 23 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-24:book-2-cronicas",
+      "from": "chapter:1-cronicas:24",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 24 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-24:book-2-samuel",
+      "from": "chapter:1-cronicas:24",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 24 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-24:book-esdras",
+      "from": "chapter:1-cronicas:24",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 24 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-25:book-2-cronicas",
+      "from": "chapter:1-cronicas:25",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 25 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-25:book-2-samuel",
+      "from": "chapter:1-cronicas:25",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 25 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-25:book-esdras",
+      "from": "chapter:1-cronicas:25",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 25 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-26:book-2-cronicas",
+      "from": "chapter:1-cronicas:26",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 26 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-26:book-2-samuel",
+      "from": "chapter:1-cronicas:26",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 26 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-26:book-esdras",
+      "from": "chapter:1-cronicas:26",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 26 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-27:book-2-cronicas",
+      "from": "chapter:1-cronicas:27",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 27 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-27:book-2-samuel",
+      "from": "chapter:1-cronicas:27",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 27 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-27:book-esdras",
+      "from": "chapter:1-cronicas:27",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 27 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-28:book-2-cronicas",
+      "from": "chapter:1-cronicas:28",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 28 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-28:book-2-samuel",
+      "from": "chapter:1-cronicas:28",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 28 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-28:book-esdras",
+      "from": "chapter:1-cronicas:28",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 28 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-29:book-2-cronicas",
+      "from": "chapter:1-cronicas:29",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 29 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-29:book-2-samuel",
+      "from": "chapter:1-cronicas:29",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 29 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-29:book-esdras",
+      "from": "chapter:1-cronicas:29",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 29 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-3:book-2-cronicas",
+      "from": "chapter:1-cronicas:3",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 3 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-3:book-2-samuel",
+      "from": "chapter:1-cronicas:3",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 3 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-3:book-esdras",
+      "from": "chapter:1-cronicas:3",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 3 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-4:book-2-cronicas",
+      "from": "chapter:1-cronicas:4",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 4 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-4:book-2-samuel",
+      "from": "chapter:1-cronicas:4",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 4 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-4:book-esdras",
+      "from": "chapter:1-cronicas:4",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 4 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-5:book-2-cronicas",
+      "from": "chapter:1-cronicas:5",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 5 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-5:book-2-samuel",
+      "from": "chapter:1-cronicas:5",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 5 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-5:book-esdras",
+      "from": "chapter:1-cronicas:5",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 5 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-6:book-2-cronicas",
+      "from": "chapter:1-cronicas:6",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 6 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-6:book-2-samuel",
+      "from": "chapter:1-cronicas:6",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 6 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-6:book-esdras",
+      "from": "chapter:1-cronicas:6",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 6 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-7:book-2-cronicas",
+      "from": "chapter:1-cronicas:7",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 7 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-7:book-2-samuel",
+      "from": "chapter:1-cronicas:7",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 7 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-7:book-esdras",
+      "from": "chapter:1-cronicas:7",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 7 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-8:book-2-cronicas",
+      "from": "chapter:1-cronicas:8",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 8 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-8:book-2-samuel",
+      "from": "chapter:1-cronicas:8",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 8 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-8:book-esdras",
+      "from": "chapter:1-cronicas:8",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 8 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-9:book-2-cronicas",
+      "from": "chapter:1-cronicas:9",
+      "to": "book:2-cronicas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 9 inclui 2 Crônicas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Crônicas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-9:book-2-samuel",
+      "from": "chapter:1-cronicas:9",
+      "to": "book:2-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 9 inclui 2 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-1-cronicas-9:book-esdras",
+      "from": "chapter:1-cronicas:9",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 1 Crônicas 9 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-1-cronicas-13:theme-arca-da-alianca",
       "from": "chapter:1-cronicas:13",
       "to": "theme:arca-da-alianca",
@@ -1059,6 +2070,733 @@
       "references": ["1 Cr 6:1-81; 23-26"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:1-cronicas:1",
+      "reference": "1 Crônicas 1",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:2",
+      "reference": "1 Crônicas 2",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:3",
+      "reference": "1 Crônicas 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:4",
+      "reference": "1 Crônicas 4",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:5",
+      "reference": "1 Crônicas 5",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:6",
+      "reference": "1 Crônicas 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:7",
+      "reference": "1 Crônicas 7",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:8",
+      "reference": "1 Crônicas 8",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:9",
+      "reference": "1 Crônicas 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:10",
+      "reference": "1 Crônicas 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:11",
+      "reference": "1 Crônicas 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:12",
+      "reference": "1 Crônicas 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:13",
+      "reference": "1 Crônicas 13",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:14",
+      "reference": "1 Crônicas 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:15",
+      "reference": "1 Crônicas 15",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:16",
+      "reference": "1 Crônicas 16",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:17",
+      "reference": "1 Crônicas 17",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:18",
+      "reference": "1 Crônicas 18",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:19",
+      "reference": "1 Crônicas 19",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:20",
+      "reference": "1 Crônicas 20",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:21",
+      "reference": "1 Crônicas 21",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:22",
+      "reference": "1 Crônicas 22",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:23",
+      "reference": "1 Crônicas 23",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:24",
+      "reference": "1 Crônicas 24",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:25",
+      "reference": "1 Crônicas 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:26",
+      "reference": "1 Crônicas 26",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:27",
+      "reference": "1 Crônicas 27",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:28",
+      "reference": "1 Crônicas 28",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:1-cronicas:29",
+      "reference": "1 Crônicas 29",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

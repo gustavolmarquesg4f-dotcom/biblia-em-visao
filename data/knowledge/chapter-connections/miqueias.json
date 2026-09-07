@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Miqueias",
-  "count": 29,
-  "chapterCount": 6,
+  "count": 50,
+  "chapterCount": 7,
   "nodes": [
+    {
+      "id": "book:amos",
+      "kind": "book",
+      "label": "Amós",
+      "aliases": ["Am"],
+      "summary": "Denúncia da exploração dos vulneráveis e do culto sem justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["30-am-s"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 9,
+        "author": "Amós",
+        "period": "Século VIII a.C."
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:miqueias-a-marcha-teofanica-de-juizo",
       "kind": "event",
@@ -519,6 +573,237 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-miqueias-1:book-amos",
+      "from": "chapter:miqueias:1",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 1 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-1:book-isaias",
+      "from": "chapter:miqueias:1",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 1 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-1:book-mateus",
+      "from": "chapter:miqueias:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-2:book-amos",
+      "from": "chapter:miqueias:2",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 2 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-2:book-isaias",
+      "from": "chapter:miqueias:2",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 2 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-2:book-mateus",
+      "from": "chapter:miqueias:2",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 2 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-3:book-amos",
+      "from": "chapter:miqueias:3",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 3 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-3:book-isaias",
+      "from": "chapter:miqueias:3",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 3 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-3:book-mateus",
+      "from": "chapter:miqueias:3",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 3 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-4:book-amos",
+      "from": "chapter:miqueias:4",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 4 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-4:book-isaias",
+      "from": "chapter:miqueias:4",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 4 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-4:book-mateus",
+      "from": "chapter:miqueias:4",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 4 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-5:book-amos",
+      "from": "chapter:miqueias:5",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 5 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-5:book-isaias",
+      "from": "chapter:miqueias:5",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 5 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-5:book-mateus",
+      "from": "chapter:miqueias:5",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 5 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-6:book-amos",
+      "from": "chapter:miqueias:6",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 6 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-6:book-isaias",
+      "from": "chapter:miqueias:6",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 6 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-6:book-mateus",
+      "from": "chapter:miqueias:6",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 6 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-7:book-amos",
+      "from": "chapter:miqueias:7",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 7 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-7:book-isaias",
+      "from": "chapter:miqueias:7",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 7 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-miqueias-7:book-mateus",
+      "from": "chapter:miqueias:7",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Miqueias 7 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-miqueias-1:theme-a-sefela",
       "from": "chapter:miqueias:1",
       "to": "theme:a-sefela",
@@ -649,6 +934,190 @@
       "references": ["Mq 6:8"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:miqueias:1",
+      "reference": "Miqueias 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:2",
+      "reference": "Miqueias 2",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:3",
+      "reference": "Miqueias 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:4",
+      "reference": "Miqueias 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:5",
+      "reference": "Miqueias 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:6",
+      "reference": "Miqueias 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "prophecy", "term", "theme"],
+      "coveredDimensions": ["scenes", "terms", "theology"],
+      "pendingDimensions": ["people"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:miqueias:7",
+      "reference": "Miqueias 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "people-group", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

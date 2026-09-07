@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Judas",
-  "count": 20,
+  "count": 23,
   "chapterCount": 1,
   "nodes": [
+    {
+      "id": "book:2-pedro",
+      "kind": "book",
+      "label": "2 Pedro",
+      "aliases": ["2Pe"],
+      "summary": "Continuidade da esperança e alerta contra ensinos irresponsáveis.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["61-2-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 3,
+        "author": "Tradição petrina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:numeros",
+      "kind": "book",
+      "label": "Números",
+      "aliases": ["Nm"],
+      "summary": "Caminhada de Israel pelo deserto entre conflitos, censos e decisões.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["4-n-meros"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 36,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Peregrinação no deserto"
+      }
+    },
     {
       "id": "event:judas-a-destruicao-de-sodoma-gomorra-e-cidades-vizinhas",
       "kind": "event",
@@ -501,6 +555,39 @@
       "confidence": "high"
     },
     {
+      "id": "relation:canonical-connection:chapter-judas-1:book-2-pedro",
+      "from": "chapter:judas:1",
+      "to": "book:2-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Judas 1 inclui 2 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-judas-1:book-apocalipse",
+      "from": "chapter:judas:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Judas 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-judas-1:book-numeros",
+      "from": "chapter:judas:1",
+      "to": "book:numeros",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Judas 1 inclui Números em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Números"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-judas-1:theme-falsos-mestres-infiltradores",
       "from": "chapter:judas:1",
       "to": "theme:falsos-mestres-infiltradores",
@@ -521,6 +608,40 @@
       "references": ["Judas 1:9"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:judas:1",
+      "reference": "Judas 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 23,
+      "entityConnectionCount": 20,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

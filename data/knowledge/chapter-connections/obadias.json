@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Obadias",
-  "count": 19,
+  "count": 22,
   "chapterCount": 1,
   "nodes": [
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:lamentacoes",
+      "kind": "book",
+      "label": "Lamentações",
+      "aliases": ["Lm"],
+      "summary": "Poemas que dão forma à dor da destruição de Jerusalém e à esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["25-lamenta-es"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 5,
+        "author": "Autor anônimo; tradição associada a Jeremias",
+        "period": "Após a queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "people-group:casa-de-jaco-juda-israel",
       "kind": "people-group",
@@ -434,6 +488,39 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-obadias-1:book-jeremias",
+      "from": "chapter:obadias:1",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Obadias 1 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-obadias-1:book-lamentacoes",
+      "from": "chapter:obadias:1",
+      "to": "book:lamentacoes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Obadias 1 inclui Lamentações em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lamentações"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-obadias-1:book-mateus",
+      "from": "chapter:obadias:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Obadias 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-obadias-1:theme-jave-o-senhor",
       "from": "chapter:obadias:1",
       "to": "theme:jave-o-senhor",
@@ -476,6 +563,40 @@
       "references": ["Obadias 1:3"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:obadias:1",
+      "reference": "Obadias 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 22,
+      "entityConnectionCount": 19,
+      "connectionKinds": [
+        "book",
+        "people-group",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }
