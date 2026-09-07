@@ -47,6 +47,12 @@ type EditorialEntity = {
 
 O modelo é uma direção de convergência. A migração será incremental para que o acervo existente permaneça funcionando. A implementação inicial e seus arquivos modulares estão descritos em [KNOWLEDGE_REGISTRY.md](KNOWLEDGE_REGISTRY.md).
 
+### Estado editorial de capítulos
+
+Cobertura estrutural, conexão relacional e revisão humana são medidas separadas. Um capítulo pode possuir texto, contexto, interpretação, leitura pentecostal/IDB e fontes sem ter recebido revisão humana identificada. O estado `reviewed` exige simultaneamente `reviewedAt` e ao menos um responsável em `reviewedBy`.
+
+A prioridade editorial considera quatro dimensões: pessoas e povos, cenários e acontecimentos, termos, e teologia/conexões. Relações geradas de referências já declaradas podem comprovar cobertura relacional, mas nunca promovem automaticamente o conteúdo a revisado.
+
 ## Relações
 
 Relações não devem ser apenas links. Elas precisam declarar por que dois itens estão conectados.

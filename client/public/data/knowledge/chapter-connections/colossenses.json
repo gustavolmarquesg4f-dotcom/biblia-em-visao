@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Colossenses",
-  "count": 26,
+  "count": 38,
   "chapterCount": 4,
   "nodes": [
+    {
+      "id": "book:efesios",
+      "kind": "book",
+      "label": "Efésios",
+      "aliases": ["Ef"],
+      "summary": "Igreja como corpo reconciliado e convite a uma nova vida em Cristo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["49-ef-sios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:filipenses",
+      "kind": "book",
+      "label": "Filipenses",
+      "aliases": ["Fp"],
+      "summary": "Carta de amizade sobre alegria, humildade, parceria e perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["50-filipenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:joao",
+      "kind": "book",
+      "label": "João",
+      "aliases": ["Jo"],
+      "summary": "Sinais e imagens de vida, luz, pão, caminho e presença para meditar sobre Jesus.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["43-jo-o"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 21,
+        "author": "Tradição joanina; autoria e camadas discutidas",
+        "period": "Final do século I"
+      }
+    },
     {
       "id": "person:aristarco",
       "kind": "person",
@@ -581,6 +635,138 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-colossenses-1:book-efesios",
+      "from": "chapter:colossenses:1",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 1 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-1:book-filipenses",
+      "from": "chapter:colossenses:1",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 1 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-1:book-joao",
+      "from": "chapter:colossenses:1",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 1 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-2:book-efesios",
+      "from": "chapter:colossenses:2",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 2 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-2:book-filipenses",
+      "from": "chapter:colossenses:2",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 2 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-2:book-joao",
+      "from": "chapter:colossenses:2",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 2 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-3:book-efesios",
+      "from": "chapter:colossenses:3",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 3 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-3:book-filipenses",
+      "from": "chapter:colossenses:3",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 3 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-3:book-joao",
+      "from": "chapter:colossenses:3",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 3 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-4:book-efesios",
+      "from": "chapter:colossenses:4",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 4 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-4:book-filipenses",
+      "from": "chapter:colossenses:4",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 4 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-colossenses-4:book-joao",
+      "from": "chapter:colossenses:4",
+      "to": "book:joao",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Colossenses 4 inclui João em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["João"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-colossenses-1:theme-igreja-de-colossos",
       "from": "chapter:colossenses:1",
       "to": "theme:igreja-de-colossos",
@@ -634,6 +820,108 @@
       "references": ["Cl 4:13, 4:15-16"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:colossenses:1",
+      "reference": "Colossenses 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:colossenses:2",
+      "reference": "Colossenses 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:colossenses:3",
+      "reference": "Colossenses 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:colossenses:4",
+      "reference": "Colossenses 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 15,
+      "entityConnectionCount": 12,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

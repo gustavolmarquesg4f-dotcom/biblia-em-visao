@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "2 Samuel",
-  "count": 60,
+  "count": 132,
   "chapterCount": 24,
   "nodes": [
+    {
+      "id": "book:1-reis",
+      "kind": "book",
+      "label": "1 Reis",
+      "aliases": ["1Rs"],
+      "summary": "Do templo de Salomão à divisão do reino e aos confrontos proféticos.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["11-1-reis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 22,
+        "author": "Tradição deuteronomista; autoria não identificada",
+        "period": "Salomão e divisão do reino"
+      }
+    },
+    {
+      "id": "book:1-samuel",
+      "kind": "book",
+      "label": "1 Samuel",
+      "aliases": ["1Sm"],
+      "summary": "Samuel, Saul e o início da ascensão de Davi em uma transição política.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["9-1-samuel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 31,
+        "author": "Tradições proféticas e históricas reunidas",
+        "period": "Transição para a monarquia"
+      }
+    },
+    {
+      "id": "book:lucas",
+      "kind": "book",
+      "label": "Lucas",
+      "aliases": ["Lc"],
+      "summary": "Missão de Jesus com atenção a pobres, mulheres, estrangeiros e ao Espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["42-lucas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 24,
+        "author": "Tradição associada a Lucas; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "person:absalao",
       "kind": "person",
@@ -956,6 +1010,798 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-2-samuel-1:book-1-reis",
+      "from": "chapter:2-samuel:1",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 1 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-1:book-1-samuel",
+      "from": "chapter:2-samuel:1",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 1 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-1:book-lucas",
+      "from": "chapter:2-samuel:1",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 1 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-10:book-1-reis",
+      "from": "chapter:2-samuel:10",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 10 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-10:book-1-samuel",
+      "from": "chapter:2-samuel:10",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 10 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-10:book-lucas",
+      "from": "chapter:2-samuel:10",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 10 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-11:book-1-reis",
+      "from": "chapter:2-samuel:11",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 11 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-11:book-1-samuel",
+      "from": "chapter:2-samuel:11",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 11 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-11:book-lucas",
+      "from": "chapter:2-samuel:11",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 11 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-12:book-1-reis",
+      "from": "chapter:2-samuel:12",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 12 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-12:book-1-samuel",
+      "from": "chapter:2-samuel:12",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 12 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-12:book-lucas",
+      "from": "chapter:2-samuel:12",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 12 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-13:book-1-reis",
+      "from": "chapter:2-samuel:13",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 13 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-13:book-1-samuel",
+      "from": "chapter:2-samuel:13",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 13 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-13:book-lucas",
+      "from": "chapter:2-samuel:13",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 13 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-14:book-1-reis",
+      "from": "chapter:2-samuel:14",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 14 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-14:book-1-samuel",
+      "from": "chapter:2-samuel:14",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 14 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-14:book-lucas",
+      "from": "chapter:2-samuel:14",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 14 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-15:book-1-reis",
+      "from": "chapter:2-samuel:15",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 15 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-15:book-1-samuel",
+      "from": "chapter:2-samuel:15",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 15 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-15:book-lucas",
+      "from": "chapter:2-samuel:15",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 15 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-16:book-1-reis",
+      "from": "chapter:2-samuel:16",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 16 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-16:book-1-samuel",
+      "from": "chapter:2-samuel:16",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 16 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-16:book-lucas",
+      "from": "chapter:2-samuel:16",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 16 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-17:book-1-reis",
+      "from": "chapter:2-samuel:17",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 17 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-17:book-1-samuel",
+      "from": "chapter:2-samuel:17",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 17 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-17:book-lucas",
+      "from": "chapter:2-samuel:17",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 17 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-18:book-1-reis",
+      "from": "chapter:2-samuel:18",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 18 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-18:book-1-samuel",
+      "from": "chapter:2-samuel:18",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 18 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-18:book-lucas",
+      "from": "chapter:2-samuel:18",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 18 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-19:book-1-reis",
+      "from": "chapter:2-samuel:19",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 19 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-19:book-1-samuel",
+      "from": "chapter:2-samuel:19",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 19 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-19:book-lucas",
+      "from": "chapter:2-samuel:19",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 19 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-2:book-1-reis",
+      "from": "chapter:2-samuel:2",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 2 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-2:book-1-samuel",
+      "from": "chapter:2-samuel:2",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 2 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-2:book-lucas",
+      "from": "chapter:2-samuel:2",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 2 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-20:book-1-reis",
+      "from": "chapter:2-samuel:20",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 20 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-20:book-1-samuel",
+      "from": "chapter:2-samuel:20",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 20 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-20:book-lucas",
+      "from": "chapter:2-samuel:20",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 20 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-21:book-1-reis",
+      "from": "chapter:2-samuel:21",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 21 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-21:book-1-samuel",
+      "from": "chapter:2-samuel:21",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 21 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-21:book-lucas",
+      "from": "chapter:2-samuel:21",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 21 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-22:book-1-reis",
+      "from": "chapter:2-samuel:22",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 22 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-22:book-1-samuel",
+      "from": "chapter:2-samuel:22",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 22 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-22:book-lucas",
+      "from": "chapter:2-samuel:22",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 22 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-23:book-1-reis",
+      "from": "chapter:2-samuel:23",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 23 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-23:book-1-samuel",
+      "from": "chapter:2-samuel:23",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 23 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-23:book-lucas",
+      "from": "chapter:2-samuel:23",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 23 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-24:book-1-reis",
+      "from": "chapter:2-samuel:24",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 24 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-24:book-1-samuel",
+      "from": "chapter:2-samuel:24",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 24 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-24:book-lucas",
+      "from": "chapter:2-samuel:24",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 24 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-3:book-1-reis",
+      "from": "chapter:2-samuel:3",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 3 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-3:book-1-samuel",
+      "from": "chapter:2-samuel:3",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 3 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-3:book-lucas",
+      "from": "chapter:2-samuel:3",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 3 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-4:book-1-reis",
+      "from": "chapter:2-samuel:4",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 4 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-4:book-1-samuel",
+      "from": "chapter:2-samuel:4",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 4 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-4:book-lucas",
+      "from": "chapter:2-samuel:4",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 4 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-5:book-1-reis",
+      "from": "chapter:2-samuel:5",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 5 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-5:book-1-samuel",
+      "from": "chapter:2-samuel:5",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 5 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-5:book-lucas",
+      "from": "chapter:2-samuel:5",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 5 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-6:book-1-reis",
+      "from": "chapter:2-samuel:6",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 6 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-6:book-1-samuel",
+      "from": "chapter:2-samuel:6",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 6 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-6:book-lucas",
+      "from": "chapter:2-samuel:6",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 6 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-7:book-1-reis",
+      "from": "chapter:2-samuel:7",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 7 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-7:book-1-samuel",
+      "from": "chapter:2-samuel:7",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 7 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-7:book-lucas",
+      "from": "chapter:2-samuel:7",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 7 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-8:book-1-reis",
+      "from": "chapter:2-samuel:8",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 8 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-8:book-1-samuel",
+      "from": "chapter:2-samuel:8",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 8 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-8:book-lucas",
+      "from": "chapter:2-samuel:8",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 8 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-9:book-1-reis",
+      "from": "chapter:2-samuel:9",
+      "to": "book:1-reis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 9 inclui 1 Reis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Reis"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-9:book-1-samuel",
+      "from": "chapter:2-samuel:9",
+      "to": "book:1-samuel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 9 inclui 1 Samuel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Samuel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-2-samuel-9:book-lucas",
+      "from": "chapter:2-samuel:9",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de 2 Samuel 9 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-2-samuel-5:theme-siao-jerusalem",
       "from": "chapter:2-samuel:5",
       "to": "theme:siao-jerusalem",
@@ -987,6 +1833,608 @@
       "references": ["2 Sm 7"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:2-samuel:1",
+      "reference": "2 Samuel 1",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:2",
+      "reference": "2 Samuel 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:3",
+      "reference": "2 Samuel 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:4",
+      "reference": "2 Samuel 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:5",
+      "reference": "2 Samuel 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:6",
+      "reference": "2 Samuel 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:7",
+      "reference": "2 Samuel 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": ["book", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:8",
+      "reference": "2 Samuel 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:9",
+      "reference": "2 Samuel 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:10",
+      "reference": "2 Samuel 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:11",
+      "reference": "2 Samuel 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:12",
+      "reference": "2 Samuel 12",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:13",
+      "reference": "2 Samuel 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:14",
+      "reference": "2 Samuel 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:15",
+      "reference": "2 Samuel 15",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:16",
+      "reference": "2 Samuel 16",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:17",
+      "reference": "2 Samuel 17",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:18",
+      "reference": "2 Samuel 18",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:19",
+      "reference": "2 Samuel 19",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:20",
+      "reference": "2 Samuel 20",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:21",
+      "reference": "2 Samuel 21",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:22",
+      "reference": "2 Samuel 22",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:23",
+      "reference": "2 Samuel 23",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:2-samuel:24",
+      "reference": "2 Samuel 24",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Jó",
-  "count": 75,
-  "chapterCount": 38,
+  "count": 201,
+  "chapterCount": 42,
   "nodes": [
+    {
+      "id": "book:eclesiastes",
+      "kind": "book",
+      "label": "Eclesiastes",
+      "aliases": ["Ec"],
+      "summary": "Reflexão sobre transitoriedade, limites da existência e sentido de viver.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["21-eclesiastes"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 12,
+        "author": "Qohelet; identidade e data debatidas",
+        "period": "Período sapiencial tardio"
+      }
+    },
+    {
+      "id": "book:romanos",
+      "kind": "book",
+      "label": "Romanos",
+      "aliases": ["Rm"],
+      "summary": "Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["45-romanos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:salmos",
+      "kind": "book",
+      "label": "Salmos",
+      "aliases": ["Sl"],
+      "summary": "Orações e poemas para celebração, crise, lamento e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["19-salmos"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 150,
+        "author": "Coleção com Davi e outros autores tradicionais",
+        "period": "Vários períodos de Israel"
+      }
+    },
     {
       "id": "doctrine:escatologia",
       "kind": "doctrine",
@@ -1105,6 +1159,1392 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-jo-1:book-eclesiastes",
+      "from": "chapter:jo:1",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 1 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-1:book-romanos",
+      "from": "chapter:jo:1",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 1 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-1:book-salmos",
+      "from": "chapter:jo:1",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 1 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-10:book-eclesiastes",
+      "from": "chapter:jo:10",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 10 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-10:book-romanos",
+      "from": "chapter:jo:10",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 10 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-10:book-salmos",
+      "from": "chapter:jo:10",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 10 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-11:book-eclesiastes",
+      "from": "chapter:jo:11",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 11 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-11:book-romanos",
+      "from": "chapter:jo:11",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 11 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-11:book-salmos",
+      "from": "chapter:jo:11",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 11 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-12:book-eclesiastes",
+      "from": "chapter:jo:12",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 12 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-12:book-romanos",
+      "from": "chapter:jo:12",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 12 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-12:book-salmos",
+      "from": "chapter:jo:12",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 12 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-13:book-eclesiastes",
+      "from": "chapter:jo:13",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 13 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-13:book-romanos",
+      "from": "chapter:jo:13",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 13 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-13:book-salmos",
+      "from": "chapter:jo:13",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 13 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-14:book-eclesiastes",
+      "from": "chapter:jo:14",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 14 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-14:book-romanos",
+      "from": "chapter:jo:14",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 14 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-14:book-salmos",
+      "from": "chapter:jo:14",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 14 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-15:book-eclesiastes",
+      "from": "chapter:jo:15",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 15 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-15:book-romanos",
+      "from": "chapter:jo:15",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 15 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-15:book-salmos",
+      "from": "chapter:jo:15",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 15 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-16:book-eclesiastes",
+      "from": "chapter:jo:16",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 16 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-16:book-romanos",
+      "from": "chapter:jo:16",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 16 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-16:book-salmos",
+      "from": "chapter:jo:16",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 16 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-17:book-eclesiastes",
+      "from": "chapter:jo:17",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 17 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-17:book-romanos",
+      "from": "chapter:jo:17",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 17 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-17:book-salmos",
+      "from": "chapter:jo:17",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 17 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-18:book-eclesiastes",
+      "from": "chapter:jo:18",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 18 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-18:book-romanos",
+      "from": "chapter:jo:18",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 18 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-18:book-salmos",
+      "from": "chapter:jo:18",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 18 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-19:book-eclesiastes",
+      "from": "chapter:jo:19",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 19 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-19:book-romanos",
+      "from": "chapter:jo:19",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 19 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-19:book-salmos",
+      "from": "chapter:jo:19",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 19 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-2:book-eclesiastes",
+      "from": "chapter:jo:2",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 2 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-2:book-romanos",
+      "from": "chapter:jo:2",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 2 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-2:book-salmos",
+      "from": "chapter:jo:2",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 2 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-20:book-eclesiastes",
+      "from": "chapter:jo:20",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 20 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-20:book-romanos",
+      "from": "chapter:jo:20",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 20 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-20:book-salmos",
+      "from": "chapter:jo:20",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 20 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-21:book-eclesiastes",
+      "from": "chapter:jo:21",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 21 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-21:book-romanos",
+      "from": "chapter:jo:21",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 21 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-21:book-salmos",
+      "from": "chapter:jo:21",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 21 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-22:book-eclesiastes",
+      "from": "chapter:jo:22",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 22 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-22:book-romanos",
+      "from": "chapter:jo:22",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 22 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-22:book-salmos",
+      "from": "chapter:jo:22",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 22 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-23:book-eclesiastes",
+      "from": "chapter:jo:23",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 23 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-23:book-romanos",
+      "from": "chapter:jo:23",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 23 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-23:book-salmos",
+      "from": "chapter:jo:23",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 23 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-24:book-eclesiastes",
+      "from": "chapter:jo:24",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 24 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-24:book-romanos",
+      "from": "chapter:jo:24",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 24 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-24:book-salmos",
+      "from": "chapter:jo:24",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 24 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-25:book-eclesiastes",
+      "from": "chapter:jo:25",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 25 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-25:book-romanos",
+      "from": "chapter:jo:25",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 25 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-25:book-salmos",
+      "from": "chapter:jo:25",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 25 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-26:book-eclesiastes",
+      "from": "chapter:jo:26",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 26 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-26:book-romanos",
+      "from": "chapter:jo:26",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 26 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-26:book-salmos",
+      "from": "chapter:jo:26",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 26 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-27:book-eclesiastes",
+      "from": "chapter:jo:27",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 27 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-27:book-romanos",
+      "from": "chapter:jo:27",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 27 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-27:book-salmos",
+      "from": "chapter:jo:27",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 27 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-28:book-eclesiastes",
+      "from": "chapter:jo:28",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 28 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-28:book-romanos",
+      "from": "chapter:jo:28",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 28 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-28:book-salmos",
+      "from": "chapter:jo:28",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 28 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-29:book-eclesiastes",
+      "from": "chapter:jo:29",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 29 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-29:book-romanos",
+      "from": "chapter:jo:29",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 29 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-29:book-salmos",
+      "from": "chapter:jo:29",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 29 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-3:book-eclesiastes",
+      "from": "chapter:jo:3",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 3 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-3:book-romanos",
+      "from": "chapter:jo:3",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 3 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-3:book-salmos",
+      "from": "chapter:jo:3",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 3 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-30:book-eclesiastes",
+      "from": "chapter:jo:30",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 30 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-30:book-romanos",
+      "from": "chapter:jo:30",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 30 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-30:book-salmos",
+      "from": "chapter:jo:30",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 30 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-31:book-eclesiastes",
+      "from": "chapter:jo:31",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 31 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-31:book-romanos",
+      "from": "chapter:jo:31",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 31 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-31:book-salmos",
+      "from": "chapter:jo:31",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 31 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-32:book-eclesiastes",
+      "from": "chapter:jo:32",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 32 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-32:book-romanos",
+      "from": "chapter:jo:32",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 32 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-32:book-salmos",
+      "from": "chapter:jo:32",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 32 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-33:book-eclesiastes",
+      "from": "chapter:jo:33",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 33 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-33:book-romanos",
+      "from": "chapter:jo:33",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 33 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-33:book-salmos",
+      "from": "chapter:jo:33",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 33 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-34:book-eclesiastes",
+      "from": "chapter:jo:34",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 34 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-34:book-romanos",
+      "from": "chapter:jo:34",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 34 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-34:book-salmos",
+      "from": "chapter:jo:34",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 34 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-35:book-eclesiastes",
+      "from": "chapter:jo:35",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 35 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-35:book-romanos",
+      "from": "chapter:jo:35",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 35 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-35:book-salmos",
+      "from": "chapter:jo:35",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 35 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-36:book-eclesiastes",
+      "from": "chapter:jo:36",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 36 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-36:book-romanos",
+      "from": "chapter:jo:36",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 36 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-36:book-salmos",
+      "from": "chapter:jo:36",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 36 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-37:book-eclesiastes",
+      "from": "chapter:jo:37",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 37 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-37:book-romanos",
+      "from": "chapter:jo:37",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 37 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-37:book-salmos",
+      "from": "chapter:jo:37",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 37 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-38:book-eclesiastes",
+      "from": "chapter:jo:38",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 38 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-38:book-romanos",
+      "from": "chapter:jo:38",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 38 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-38:book-salmos",
+      "from": "chapter:jo:38",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 38 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-39:book-eclesiastes",
+      "from": "chapter:jo:39",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 39 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-39:book-romanos",
+      "from": "chapter:jo:39",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 39 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-39:book-salmos",
+      "from": "chapter:jo:39",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 39 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-4:book-eclesiastes",
+      "from": "chapter:jo:4",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 4 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-4:book-romanos",
+      "from": "chapter:jo:4",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 4 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-4:book-salmos",
+      "from": "chapter:jo:4",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 4 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-40:book-eclesiastes",
+      "from": "chapter:jo:40",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 40 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-40:book-romanos",
+      "from": "chapter:jo:40",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 40 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-40:book-salmos",
+      "from": "chapter:jo:40",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 40 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-41:book-eclesiastes",
+      "from": "chapter:jo:41",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 41 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-41:book-romanos",
+      "from": "chapter:jo:41",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 41 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-41:book-salmos",
+      "from": "chapter:jo:41",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 41 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-42:book-eclesiastes",
+      "from": "chapter:jo:42",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 42 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-42:book-romanos",
+      "from": "chapter:jo:42",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 42 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-42:book-salmos",
+      "from": "chapter:jo:42",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 42 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-5:book-eclesiastes",
+      "from": "chapter:jo:5",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 5 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-5:book-romanos",
+      "from": "chapter:jo:5",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 5 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-5:book-salmos",
+      "from": "chapter:jo:5",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 5 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-6:book-eclesiastes",
+      "from": "chapter:jo:6",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 6 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-6:book-romanos",
+      "from": "chapter:jo:6",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 6 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-6:book-salmos",
+      "from": "chapter:jo:6",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 6 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-7:book-eclesiastes",
+      "from": "chapter:jo:7",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 7 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-7:book-romanos",
+      "from": "chapter:jo:7",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 7 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-7:book-salmos",
+      "from": "chapter:jo:7",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 7 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-8:book-eclesiastes",
+      "from": "chapter:jo:8",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 8 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-8:book-romanos",
+      "from": "chapter:jo:8",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 8 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-8:book-salmos",
+      "from": "chapter:jo:8",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 8 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-9:book-eclesiastes",
+      "from": "chapter:jo:9",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 9 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-9:book-romanos",
+      "from": "chapter:jo:9",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 9 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-jo-9:book-salmos",
+      "from": "chapter:jo:9",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Jó 9 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Salmos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-jo-1:doctrine-trindade",
       "from": "chapter:jo:1",
       "to": "doctrine:trindade",
@@ -1323,6 +2763,1067 @@
       "references": ["Jo 6:39–40"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:jo:1",
+      "reference": "Jó 1",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 13,
+      "entityConnectionCount": 10,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:2",
+      "reference": "Jó 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:3",
+      "reference": "Jó 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "doctrine", "event", "term"],
+      "coveredDimensions": ["scenes", "terms", "theology"],
+      "pendingDimensions": ["people"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:4",
+      "reference": "Jó 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:5",
+      "reference": "Jó 5",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "doctrine", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:6",
+      "reference": "Jó 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "term"],
+      "coveredDimensions": ["scenes", "terms", "theology"],
+      "pendingDimensions": ["people"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:7",
+      "reference": "Jó 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:8",
+      "reference": "Jó 8",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:9",
+      "reference": "Jó 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:10",
+      "reference": "Jó 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:11",
+      "reference": "Jó 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:12",
+      "reference": "Jó 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:13",
+      "reference": "Jó 13",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "doctrine", "event", "term"],
+      "coveredDimensions": ["scenes", "terms", "theology"],
+      "pendingDimensions": ["people"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:14",
+      "reference": "Jó 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "doctrine", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:15",
+      "reference": "Jó 15",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:16",
+      "reference": "Jó 16",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:17",
+      "reference": "Jó 17",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:18",
+      "reference": "Jó 18",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:19",
+      "reference": "Jó 19",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:20",
+      "reference": "Jó 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:21",
+      "reference": "Jó 21",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:22",
+      "reference": "Jó 22",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:23",
+      "reference": "Jó 23",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:24",
+      "reference": "Jó 24",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:25",
+      "reference": "Jó 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:26",
+      "reference": "Jó 26",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:27",
+      "reference": "Jó 27",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:28",
+      "reference": "Jó 28",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:29",
+      "reference": "Jó 29",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:30",
+      "reference": "Jó 30",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:31",
+      "reference": "Jó 31",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:32",
+      "reference": "Jó 32",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:33",
+      "reference": "Jó 33",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:34",
+      "reference": "Jó 34",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:35",
+      "reference": "Jó 35",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:36",
+      "reference": "Jó 36",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:37",
+      "reference": "Jó 37",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:38",
+      "reference": "Jó 38",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:39",
+      "reference": "Jó 39",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:40",
+      "reference": "Jó 40",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:41",
+      "reference": "Jó 41",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:jo:42",
+      "reference": "Jó 42",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

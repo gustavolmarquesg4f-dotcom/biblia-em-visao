@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Provérbios",
-  "count": 45,
-  "chapterCount": 19,
+  "count": 138,
+  "chapterCount": 31,
   "nodes": [
+    {
+      "id": "book:eclesiastes",
+      "kind": "book",
+      "label": "Eclesiastes",
+      "aliases": ["Ec"],
+      "summary": "Reflexão sobre transitoriedade, limites da existência e sentido de viver.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["21-eclesiastes"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 12,
+        "author": "Qohelet; identidade e data debatidas",
+        "period": "Período sapiencial tardio"
+      }
+    },
+    {
+      "id": "book:jo",
+      "kind": "book",
+      "label": "Jó",
+      "aliases": ["Jó"],
+      "summary": "O sofrimento do justo, os limites das explicações fáceis e o mistério.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["18-j-"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 42,
+        "author": "Autor não identificado",
+        "period": "Sabedoria israelita; data debatida"
+      }
+    },
+    {
+      "id": "book:tiago",
+      "kind": "book",
+      "label": "Tiago",
+      "aliases": ["Tg"],
+      "summary": "Sabedoria prática sobre fala, cuidado dos pobres e justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["59-tiago"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Tiago; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:proverbios-a-colecao-de-ezequias-e-a-preservacao-textual",
       "kind": "event",
@@ -708,6 +762,1029 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-proverbios-1:book-eclesiastes",
+      "from": "chapter:proverbios:1",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 1 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-1:book-jo",
+      "from": "chapter:proverbios:1",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 1 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-1:book-tiago",
+      "from": "chapter:proverbios:1",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 1 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-10:book-eclesiastes",
+      "from": "chapter:proverbios:10",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 10 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-10:book-jo",
+      "from": "chapter:proverbios:10",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 10 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-10:book-tiago",
+      "from": "chapter:proverbios:10",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 10 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-11:book-eclesiastes",
+      "from": "chapter:proverbios:11",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 11 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-11:book-jo",
+      "from": "chapter:proverbios:11",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 11 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-11:book-tiago",
+      "from": "chapter:proverbios:11",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 11 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-12:book-eclesiastes",
+      "from": "chapter:proverbios:12",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 12 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-12:book-jo",
+      "from": "chapter:proverbios:12",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 12 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-12:book-tiago",
+      "from": "chapter:proverbios:12",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 12 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-13:book-eclesiastes",
+      "from": "chapter:proverbios:13",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 13 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-13:book-jo",
+      "from": "chapter:proverbios:13",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 13 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-13:book-tiago",
+      "from": "chapter:proverbios:13",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 13 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-14:book-eclesiastes",
+      "from": "chapter:proverbios:14",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 14 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-14:book-jo",
+      "from": "chapter:proverbios:14",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 14 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-14:book-tiago",
+      "from": "chapter:proverbios:14",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 14 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-15:book-eclesiastes",
+      "from": "chapter:proverbios:15",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 15 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-15:book-jo",
+      "from": "chapter:proverbios:15",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 15 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-15:book-tiago",
+      "from": "chapter:proverbios:15",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 15 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-16:book-eclesiastes",
+      "from": "chapter:proverbios:16",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 16 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-16:book-jo",
+      "from": "chapter:proverbios:16",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 16 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-16:book-tiago",
+      "from": "chapter:proverbios:16",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 16 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-17:book-eclesiastes",
+      "from": "chapter:proverbios:17",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 17 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-17:book-jo",
+      "from": "chapter:proverbios:17",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 17 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-17:book-tiago",
+      "from": "chapter:proverbios:17",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 17 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-18:book-eclesiastes",
+      "from": "chapter:proverbios:18",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 18 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-18:book-jo",
+      "from": "chapter:proverbios:18",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 18 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-18:book-tiago",
+      "from": "chapter:proverbios:18",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 18 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-19:book-eclesiastes",
+      "from": "chapter:proverbios:19",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 19 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-19:book-jo",
+      "from": "chapter:proverbios:19",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 19 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-19:book-tiago",
+      "from": "chapter:proverbios:19",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 19 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-2:book-eclesiastes",
+      "from": "chapter:proverbios:2",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 2 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-2:book-jo",
+      "from": "chapter:proverbios:2",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 2 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-2:book-tiago",
+      "from": "chapter:proverbios:2",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 2 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-20:book-eclesiastes",
+      "from": "chapter:proverbios:20",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 20 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-20:book-jo",
+      "from": "chapter:proverbios:20",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 20 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-20:book-tiago",
+      "from": "chapter:proverbios:20",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 20 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-21:book-eclesiastes",
+      "from": "chapter:proverbios:21",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 21 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-21:book-jo",
+      "from": "chapter:proverbios:21",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 21 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-21:book-tiago",
+      "from": "chapter:proverbios:21",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 21 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-22:book-eclesiastes",
+      "from": "chapter:proverbios:22",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 22 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-22:book-jo",
+      "from": "chapter:proverbios:22",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 22 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-22:book-tiago",
+      "from": "chapter:proverbios:22",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 22 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-23:book-eclesiastes",
+      "from": "chapter:proverbios:23",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 23 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-23:book-jo",
+      "from": "chapter:proverbios:23",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 23 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-23:book-tiago",
+      "from": "chapter:proverbios:23",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 23 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-24:book-eclesiastes",
+      "from": "chapter:proverbios:24",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 24 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-24:book-jo",
+      "from": "chapter:proverbios:24",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 24 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-24:book-tiago",
+      "from": "chapter:proverbios:24",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 24 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-25:book-eclesiastes",
+      "from": "chapter:proverbios:25",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 25 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-25:book-jo",
+      "from": "chapter:proverbios:25",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 25 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-25:book-tiago",
+      "from": "chapter:proverbios:25",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 25 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-26:book-eclesiastes",
+      "from": "chapter:proverbios:26",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 26 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-26:book-jo",
+      "from": "chapter:proverbios:26",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 26 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-26:book-tiago",
+      "from": "chapter:proverbios:26",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 26 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-27:book-eclesiastes",
+      "from": "chapter:proverbios:27",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 27 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-27:book-jo",
+      "from": "chapter:proverbios:27",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 27 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-27:book-tiago",
+      "from": "chapter:proverbios:27",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 27 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-28:book-eclesiastes",
+      "from": "chapter:proverbios:28",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 28 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-28:book-jo",
+      "from": "chapter:proverbios:28",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 28 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-28:book-tiago",
+      "from": "chapter:proverbios:28",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 28 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-29:book-eclesiastes",
+      "from": "chapter:proverbios:29",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 29 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-29:book-jo",
+      "from": "chapter:proverbios:29",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 29 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-29:book-tiago",
+      "from": "chapter:proverbios:29",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 29 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-3:book-eclesiastes",
+      "from": "chapter:proverbios:3",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 3 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-3:book-jo",
+      "from": "chapter:proverbios:3",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 3 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-3:book-tiago",
+      "from": "chapter:proverbios:3",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 3 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-30:book-eclesiastes",
+      "from": "chapter:proverbios:30",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 30 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-30:book-jo",
+      "from": "chapter:proverbios:30",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 30 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-30:book-tiago",
+      "from": "chapter:proverbios:30",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 30 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-31:book-eclesiastes",
+      "from": "chapter:proverbios:31",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 31 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-31:book-jo",
+      "from": "chapter:proverbios:31",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 31 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-31:book-tiago",
+      "from": "chapter:proverbios:31",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 31 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-4:book-eclesiastes",
+      "from": "chapter:proverbios:4",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 4 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-4:book-jo",
+      "from": "chapter:proverbios:4",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 4 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-4:book-tiago",
+      "from": "chapter:proverbios:4",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 4 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-5:book-eclesiastes",
+      "from": "chapter:proverbios:5",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 5 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-5:book-jo",
+      "from": "chapter:proverbios:5",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 5 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-5:book-tiago",
+      "from": "chapter:proverbios:5",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 5 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-6:book-eclesiastes",
+      "from": "chapter:proverbios:6",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 6 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-6:book-jo",
+      "from": "chapter:proverbios:6",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 6 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-6:book-tiago",
+      "from": "chapter:proverbios:6",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 6 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-7:book-eclesiastes",
+      "from": "chapter:proverbios:7",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 7 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-7:book-jo",
+      "from": "chapter:proverbios:7",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 7 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-7:book-tiago",
+      "from": "chapter:proverbios:7",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 7 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-8:book-eclesiastes",
+      "from": "chapter:proverbios:8",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 8 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-8:book-jo",
+      "from": "chapter:proverbios:8",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 8 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-8:book-tiago",
+      "from": "chapter:proverbios:8",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 8 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-9:book-eclesiastes",
+      "from": "chapter:proverbios:9",
+      "to": "book:eclesiastes",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 9 inclui Eclesiastes em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Eclesiastes"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-9:book-jo",
+      "from": "chapter:proverbios:9",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 9 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jó"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-proverbios-9:book-tiago",
+      "from": "chapter:proverbios:9",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Provérbios 9 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-proverbios-1:theme-sabedoria-hokmah",
       "from": "chapter:proverbios:1",
       "to": "theme:sabedoria-hokmah",
@@ -816,6 +1893,783 @@
       "references": ["Pr 1:20-33; 3:19-20; 8:22-31"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:proverbios:1",
+      "reference": "Provérbios 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:2",
+      "reference": "Provérbios 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:3",
+      "reference": "Provérbios 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:4",
+      "reference": "Provérbios 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:5",
+      "reference": "Provérbios 5",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:6",
+      "reference": "Provérbios 6",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:7",
+      "reference": "Provérbios 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:8",
+      "reference": "Provérbios 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:9",
+      "reference": "Provérbios 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:10",
+      "reference": "Provérbios 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:11",
+      "reference": "Provérbios 11",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:12",
+      "reference": "Provérbios 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:13",
+      "reference": "Provérbios 13",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:14",
+      "reference": "Provérbios 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:15",
+      "reference": "Provérbios 15",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:16",
+      "reference": "Provérbios 16",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:17",
+      "reference": "Provérbios 17",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:18",
+      "reference": "Provérbios 18",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:19",
+      "reference": "Provérbios 19",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:20",
+      "reference": "Provérbios 20",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:21",
+      "reference": "Provérbios 21",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:22",
+      "reference": "Provérbios 22",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:23",
+      "reference": "Provérbios 23",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:24",
+      "reference": "Provérbios 24",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:25",
+      "reference": "Provérbios 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:26",
+      "reference": "Provérbios 26",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:27",
+      "reference": "Provérbios 27",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:28",
+      "reference": "Provérbios 28",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:29",
+      "reference": "Provérbios 29",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:30",
+      "reference": "Provérbios 30",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:proverbios:31",
+      "reference": "Provérbios 31",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

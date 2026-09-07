@@ -1,9 +1,243 @@
 {
   "schemaVersion": 1,
   "book": "Apocalipse",
-  "count": 99,
+  "count": 167,
   "chapterCount": 22,
   "nodes": [
+    {
+      "id": "book:1-tessalonicenses",
+      "kind": "book",
+      "label": "1 Tessalonicenses",
+      "aliases": ["1Ts"],
+      "summary": "Encorajamento sobre esperança, ressurreição e cuidado mútuo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["52-1-tessalonicenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 5,
+        "author": "Paulo, Silvano e Timóteo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:2-pedro",
+      "kind": "book",
+      "label": "2 Pedro",
+      "aliases": ["2Pe"],
+      "summary": "Continuidade da esperança e alerta contra ensinos irresponsáveis.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["61-2-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 3,
+        "author": "Tradição petrina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:2-tessalonicenses",
+      "kind": "book",
+      "label": "2 Tessalonicenses",
+      "aliases": ["2Ts"],
+      "summary": "Correção de expectativas apressadas e chamado à perseverança responsável.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["53-2-tessalonicenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 3,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:daniel",
+      "kind": "book",
+      "label": "Daniel",
+      "aliases": ["Dn"],
+      "summary": "Histórias de fidelidade e visões sobre impérios, resistência e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["27-daniel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 12,
+        "author": "Tradição de Daniel; composição tardia debatida",
+        "period": "Corte estrangeira e crise helenística"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:ezequiel",
+      "kind": "book",
+      "label": "Ezequiel",
+      "aliases": ["Ez"],
+      "summary": "Visões interpretam a queda e anunciam purificação, retorno e vida nova.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["26-ezequiel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 48,
+        "author": "Tradição profética de Ezequiel",
+        "period": "Exílio babilônico"
+      }
+    },
+    {
+      "id": "book:genesis",
+      "kind": "book",
+      "label": "Gênesis",
+      "aliases": ["Gn"],
+      "summary": "Origens do mundo, ruptura humana e formação da família de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["1-g-nesis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 50,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Origens → patriarcas"
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:lucas",
+      "kind": "book",
+      "label": "Lucas",
+      "aliases": ["Lc"],
+      "summary": "Missão de Jesus com atenção a pobres, mulheres, estrangeiros e ao Espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["42-lucas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 24,
+        "author": "Tradição associada a Lucas; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:romanos",
+      "kind": "book",
+      "label": "Romanos",
+      "aliases": ["Rm"],
+      "summary": "Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["45-romanos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:zacarias",
+      "kind": "book",
+      "label": "Zacarias",
+      "aliases": ["Zc"],
+      "summary": "Visões de restauração, liderança, purificação e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["38-zacarias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 14,
+        "author": "Zacarias e tradições posteriores",
+        "period": "Período persa"
+      }
+    },
     {
       "id": "doctrine:escatologia",
       "kind": "doctrine",
@@ -1749,6 +1983,754 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-apocalipse-1:book-daniel",
+      "from": "chapter:apocalipse:1",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 1 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-1:book-zacarias",
+      "from": "chapter:apocalipse:1",
+      "to": "book:zacarias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 1 inclui Zacarias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Zc 4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-10:book-daniel",
+      "from": "chapter:apocalipse:10",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 10 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-10:book-exodo",
+      "from": "chapter:apocalipse:10",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 10 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-10:book-isaias",
+      "from": "chapter:apocalipse:10",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 10 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-11:book-daniel",
+      "from": "chapter:apocalipse:11",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 11 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-11:book-exodo",
+      "from": "chapter:apocalipse:11",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 11 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-11:book-isaias",
+      "from": "chapter:apocalipse:11",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 11 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-12:book-daniel",
+      "from": "chapter:apocalipse:12",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 12 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-12:book-genesis",
+      "from": "chapter:apocalipse:12",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 12 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 3:15"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-12:book-isaias",
+      "from": "chapter:apocalipse:12",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 12 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 66:7–9"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-12:book-lucas",
+      "from": "chapter:apocalipse:12",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 12 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lc 10:17–20"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-13:book-2-tessalonicenses",
+      "from": "chapter:apocalipse:13",
+      "to": "book:2-tessalonicenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 13 inclui 2 Tessalonicenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Ts 2:1–12"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-13:book-daniel",
+      "from": "chapter:apocalipse:13",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 13 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7:1–8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-14:book-daniel",
+      "from": "chapter:apocalipse:14",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 14 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-14:book-exodo",
+      "from": "chapter:apocalipse:14",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 14 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-14:book-isaias",
+      "from": "chapter:apocalipse:14",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 14 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-15:book-daniel",
+      "from": "chapter:apocalipse:15",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 15 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-15:book-exodo",
+      "from": "chapter:apocalipse:15",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 15 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-15:book-isaias",
+      "from": "chapter:apocalipse:15",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 15 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-16:book-daniel",
+      "from": "chapter:apocalipse:16",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 16 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-16:book-exodo",
+      "from": "chapter:apocalipse:16",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 16 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-16:book-isaias",
+      "from": "chapter:apocalipse:16",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 16 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-17:book-daniel",
+      "from": "chapter:apocalipse:17",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 17 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-17:book-isaias",
+      "from": "chapter:apocalipse:17",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 17 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 13–14"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-17:book-jeremias",
+      "from": "chapter:apocalipse:17",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 17 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jr 50–51"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-18:book-daniel",
+      "from": "chapter:apocalipse:18",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 18 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-18:book-exodo",
+      "from": "chapter:apocalipse:18",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 18 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-18:book-isaias",
+      "from": "chapter:apocalipse:18",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 18 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-19:book-daniel",
+      "from": "chapter:apocalipse:19",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 19 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-19:book-exodo",
+      "from": "chapter:apocalipse:19",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 19 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-19:book-isaias",
+      "from": "chapter:apocalipse:19",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 19 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-2:book-daniel",
+      "from": "chapter:apocalipse:2",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 2 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-2:book-exodo",
+      "from": "chapter:apocalipse:2",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 2 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-2:book-isaias",
+      "from": "chapter:apocalipse:2",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 2 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-20:book-1-tessalonicenses",
+      "from": "chapter:apocalipse:20",
+      "to": "book:1-tessalonicenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 20 inclui 1 Tessalonicenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Ts 4–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-20:book-2-pedro",
+      "from": "chapter:apocalipse:20",
+      "to": "book:2-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 20 inclui 2 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Pe 3"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-20:book-daniel",
+      "from": "chapter:apocalipse:20",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 20 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-20:book-ezequiel",
+      "from": "chapter:apocalipse:20",
+      "to": "book:ezequiel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 20 inclui Ezequiel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ez 38–39"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-21:book-2-pedro",
+      "from": "chapter:apocalipse:21",
+      "to": "book:2-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 21 inclui 2 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Pe 3:13"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-21:book-ezequiel",
+      "from": "chapter:apocalipse:21",
+      "to": "book:ezequiel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 21 inclui Ezequiel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ez 37"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-21:book-isaias",
+      "from": "chapter:apocalipse:21",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 21 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 25:6–9", "Is 65–66"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-21:book-romanos",
+      "from": "chapter:apocalipse:21",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 21 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Rm 8:18–25"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-22:book-ezequiel",
+      "from": "chapter:apocalipse:22",
+      "to": "book:ezequiel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 22 inclui Ezequiel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ez 47:1–12"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-22:book-genesis",
+      "from": "chapter:apocalipse:22",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 22 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 2:8–10"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-22:book-isaias",
+      "from": "chapter:apocalipse:22",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 22 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 2:1–4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-3:book-daniel",
+      "from": "chapter:apocalipse:3",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 3 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-3:book-exodo",
+      "from": "chapter:apocalipse:3",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 3 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-3:book-isaias",
+      "from": "chapter:apocalipse:3",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 3 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-4:book-daniel",
+      "from": "chapter:apocalipse:4",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 4 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-4:book-exodo",
+      "from": "chapter:apocalipse:4",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 4 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-4:book-isaias",
+      "from": "chapter:apocalipse:4",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 4 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-5:book-daniel",
+      "from": "chapter:apocalipse:5",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 5 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 7:13–14"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-5:book-exodo",
+      "from": "chapter:apocalipse:5",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 5 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êx 19:6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-5:book-genesis",
+      "from": "chapter:apocalipse:5",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 5 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 49:8–10"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-5:book-isaias",
+      "from": "chapter:apocalipse:5",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 5 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 53"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-6:book-daniel",
+      "from": "chapter:apocalipse:6",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 6 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-6:book-exodo",
+      "from": "chapter:apocalipse:6",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 6 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-6:book-isaias",
+      "from": "chapter:apocalipse:6",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 6 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-7:book-daniel",
+      "from": "chapter:apocalipse:7",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 7 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Dn 12:1"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-7:book-isaias",
+      "from": "chapter:apocalipse:7",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 7 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 25:6–9", "Is 49:10"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-7:book-mateus",
+      "from": "chapter:apocalipse:7",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 7 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mt 24:21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-8:book-daniel",
+      "from": "chapter:apocalipse:8",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 8 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-8:book-exodo",
+      "from": "chapter:apocalipse:8",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 8 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-8:book-isaias",
+      "from": "chapter:apocalipse:8",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 8 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-9:book-daniel",
+      "from": "chapter:apocalipse:9",
+      "to": "book:daniel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 9 inclui Daniel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Daniel"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-9:book-exodo",
+      "from": "chapter:apocalipse:9",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 9 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-apocalipse-9:book-isaias",
+      "from": "chapter:apocalipse:9",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Apocalipse 9 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Isaías"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-apocalipse-1:theme-as-sete-igrejas-da-asia",
       "from": "chapter:apocalipse:1",
       "to": "theme:as-sete-igrejas-da-asia",
@@ -1989,6 +2971,588 @@
       "references": ["Ap 22:13"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:apocalipse:1",
+      "reference": "Apocalipse 1",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 13,
+      "entityConnectionCount": 11,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:2",
+      "reference": "Apocalipse 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:3",
+      "reference": "Apocalipse 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:4",
+      "reference": "Apocalipse 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:5",
+      "reference": "Apocalipse 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:6",
+      "reference": "Apocalipse 6",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:7",
+      "reference": "Apocalipse 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "people-group", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:8",
+      "reference": "Apocalipse 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:9",
+      "reference": "Apocalipse 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:10",
+      "reference": "Apocalipse 10",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:11",
+      "reference": "Apocalipse 11",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:12",
+      "reference": "Apocalipse 12",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:13",
+      "reference": "Apocalipse 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:14",
+      "reference": "Apocalipse 14",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "people-group", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:15",
+      "reference": "Apocalipse 15",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:16",
+      "reference": "Apocalipse 16",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:17",
+      "reference": "Apocalipse 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:18",
+      "reference": "Apocalipse 18",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:19",
+      "reference": "Apocalipse 19",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:20",
+      "reference": "Apocalipse 20",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 10,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:21",
+      "reference": "Apocalipse 21",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:apocalipse:22",
+      "reference": "Apocalipse 22",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "term"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

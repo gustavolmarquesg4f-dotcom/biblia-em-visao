@@ -1,9 +1,99 @@
 {
   "schemaVersion": 1,
   "book": "Atos",
-  "count": 116,
-  "chapterCount": 25,
+  "count": 200,
+  "chapterCount": 28,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:galatas",
+      "kind": "book",
+      "label": "Gálatas",
+      "aliases": ["Gl"],
+      "summary": "Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["48-g-latas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:joel",
+      "kind": "book",
+      "label": "Joel",
+      "aliases": ["Jl"],
+      "summary": "Praga, jejum, dia do Senhor e promessa do derramamento do espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["29-joel"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 3,
+        "author": "Joel; data debatida",
+        "period": "Data incerta"
+      }
+    },
+    {
+      "id": "book:lucas",
+      "kind": "book",
+      "label": "Lucas",
+      "aliases": ["Lc"],
+      "summary": "Missão de Jesus com atenção a pobres, mulheres, estrangeiros e ao Espírito.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["42-lucas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 24,
+        "author": "Tradição associada a Lucas; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:romanos",
+      "kind": "book",
+      "label": "Romanos",
+      "aliases": ["Rm"],
+      "summary": "Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["45-romanos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
     {
       "id": "doctrine:batismo-espirito",
       "kind": "doctrine",
@@ -2060,6 +2150,930 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-atos-1:book-galatas",
+      "from": "chapter:atos:1",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 1 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-1:book-lucas",
+      "from": "chapter:atos:1",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 1 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-1:book-romanos",
+      "from": "chapter:atos:1",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 1 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-10:book-galatas",
+      "from": "chapter:atos:10",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 10 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-10:book-lucas",
+      "from": "chapter:atos:10",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 10 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-10:book-romanos",
+      "from": "chapter:atos:10",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 10 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-11:book-galatas",
+      "from": "chapter:atos:11",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 11 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-11:book-lucas",
+      "from": "chapter:atos:11",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 11 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-11:book-romanos",
+      "from": "chapter:atos:11",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 11 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-12:book-galatas",
+      "from": "chapter:atos:12",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 12 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-12:book-lucas",
+      "from": "chapter:atos:12",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 12 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-12:book-romanos",
+      "from": "chapter:atos:12",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 12 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-13:book-galatas",
+      "from": "chapter:atos:13",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 13 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-13:book-lucas",
+      "from": "chapter:atos:13",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 13 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-13:book-romanos",
+      "from": "chapter:atos:13",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 13 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-14:book-galatas",
+      "from": "chapter:atos:14",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 14 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-14:book-lucas",
+      "from": "chapter:atos:14",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 14 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-14:book-romanos",
+      "from": "chapter:atos:14",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 14 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-15:book-galatas",
+      "from": "chapter:atos:15",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 15 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-15:book-lucas",
+      "from": "chapter:atos:15",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 15 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-15:book-romanos",
+      "from": "chapter:atos:15",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 15 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-16:book-galatas",
+      "from": "chapter:atos:16",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 16 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-16:book-lucas",
+      "from": "chapter:atos:16",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 16 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-16:book-romanos",
+      "from": "chapter:atos:16",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 16 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-17:book-galatas",
+      "from": "chapter:atos:17",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 17 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-17:book-lucas",
+      "from": "chapter:atos:17",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 17 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-17:book-romanos",
+      "from": "chapter:atos:17",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 17 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-18:book-galatas",
+      "from": "chapter:atos:18",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 18 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-18:book-lucas",
+      "from": "chapter:atos:18",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 18 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-18:book-romanos",
+      "from": "chapter:atos:18",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 18 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-19:book-galatas",
+      "from": "chapter:atos:19",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 19 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-19:book-lucas",
+      "from": "chapter:atos:19",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 19 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-19:book-romanos",
+      "from": "chapter:atos:19",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 19 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-2:book-1-corintios",
+      "from": "chapter:atos:2",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 2 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Co 12:4–13"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-2:book-joel",
+      "from": "chapter:atos:2",
+      "to": "book:joel",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 2 inclui Joel em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jl 2:28–32"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-2:book-lucas",
+      "from": "chapter:atos:2",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 2 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lc 24:49"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-20:book-galatas",
+      "from": "chapter:atos:20",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 20 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-20:book-lucas",
+      "from": "chapter:atos:20",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 20 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-20:book-romanos",
+      "from": "chapter:atos:20",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 20 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-21:book-galatas",
+      "from": "chapter:atos:21",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 21 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-21:book-lucas",
+      "from": "chapter:atos:21",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 21 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-21:book-romanos",
+      "from": "chapter:atos:21",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 21 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-22:book-galatas",
+      "from": "chapter:atos:22",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 22 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-22:book-lucas",
+      "from": "chapter:atos:22",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 22 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-22:book-romanos",
+      "from": "chapter:atos:22",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 22 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-23:book-galatas",
+      "from": "chapter:atos:23",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 23 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-23:book-lucas",
+      "from": "chapter:atos:23",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 23 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-23:book-romanos",
+      "from": "chapter:atos:23",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 23 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-24:book-galatas",
+      "from": "chapter:atos:24",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 24 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-24:book-lucas",
+      "from": "chapter:atos:24",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 24 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-24:book-romanos",
+      "from": "chapter:atos:24",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 24 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-25:book-galatas",
+      "from": "chapter:atos:25",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 25 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-25:book-lucas",
+      "from": "chapter:atos:25",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 25 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-25:book-romanos",
+      "from": "chapter:atos:25",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 25 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-26:book-galatas",
+      "from": "chapter:atos:26",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 26 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-26:book-lucas",
+      "from": "chapter:atos:26",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 26 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-26:book-romanos",
+      "from": "chapter:atos:26",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 26 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-27:book-galatas",
+      "from": "chapter:atos:27",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 27 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-27:book-lucas",
+      "from": "chapter:atos:27",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 27 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-27:book-romanos",
+      "from": "chapter:atos:27",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 27 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-28:book-galatas",
+      "from": "chapter:atos:28",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 28 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-28:book-lucas",
+      "from": "chapter:atos:28",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 28 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-28:book-romanos",
+      "from": "chapter:atos:28",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 28 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-3:book-galatas",
+      "from": "chapter:atos:3",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 3 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-3:book-lucas",
+      "from": "chapter:atos:3",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 3 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-3:book-romanos",
+      "from": "chapter:atos:3",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 3 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-4:book-galatas",
+      "from": "chapter:atos:4",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 4 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-4:book-lucas",
+      "from": "chapter:atos:4",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 4 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-4:book-romanos",
+      "from": "chapter:atos:4",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 4 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-5:book-galatas",
+      "from": "chapter:atos:5",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 5 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-5:book-lucas",
+      "from": "chapter:atos:5",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 5 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-5:book-romanos",
+      "from": "chapter:atos:5",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 5 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-6:book-galatas",
+      "from": "chapter:atos:6",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 6 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-6:book-lucas",
+      "from": "chapter:atos:6",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 6 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-6:book-romanos",
+      "from": "chapter:atos:6",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 6 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-7:book-galatas",
+      "from": "chapter:atos:7",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 7 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-7:book-lucas",
+      "from": "chapter:atos:7",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 7 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-7:book-romanos",
+      "from": "chapter:atos:7",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 7 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-8:book-galatas",
+      "from": "chapter:atos:8",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 8 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-8:book-lucas",
+      "from": "chapter:atos:8",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 8 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-8:book-romanos",
+      "from": "chapter:atos:8",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 8 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-9:book-galatas",
+      "from": "chapter:atos:9",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 9 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-9:book-lucas",
+      "from": "chapter:atos:9",
+      "to": "book:lucas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 9 inclui Lucas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lucas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-atos-9:book-romanos",
+      "from": "chapter:atos:9",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Atos 9 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-atos-1:doctrine-batismo-espirito",
       "from": "chapter:atos:1",
       "to": "doctrine:batismo-espirito",
@@ -2388,6 +3402,731 @@
       "references": ["At 6:7"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:atos:1",
+      "reference": "Atos 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "doctrine", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:2",
+      "reference": "Atos 2",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 21,
+      "entityConnectionCount": 18,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:3",
+      "reference": "Atos 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:4",
+      "reference": "Atos 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "prophecy", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:5",
+      "reference": "Atos 5",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:6",
+      "reference": "Atos 6",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "term"],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:7",
+      "reference": "Atos 7",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:8",
+      "reference": "Atos 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:9",
+      "reference": "Atos 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:10",
+      "reference": "Atos 10",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "doctrine", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:11",
+      "reference": "Atos 11",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:12",
+      "reference": "Atos 12",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:13",
+      "reference": "Atos 13",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:14",
+      "reference": "Atos 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "theme"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:15",
+      "reference": "Atos 15",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:16",
+      "reference": "Atos 16",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:17",
+      "reference": "Atos 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:18",
+      "reference": "Atos 18",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:19",
+      "reference": "Atos 19",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "doctrine", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:20",
+      "reference": "Atos 20",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:21",
+      "reference": "Atos 21",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:22",
+      "reference": "Atos 22",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:23",
+      "reference": "Atos 23",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:24",
+      "reference": "Atos 24",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:25",
+      "reference": "Atos 25",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:26",
+      "reference": "Atos 26",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:27",
+      "reference": "Atos 27",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:atos:28",
+      "reference": "Atos 28",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place", "prophecy"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceDataRevision": "9af7f4af1e63",
+  "sourceDataRevision": "821feb806f9d",
   "guarantees": {
     "studiesRemoved": 0,
     "visualChanges": 0,
@@ -1110,129 +1110,144 @@
       { "file": "knowledge/books.json", "bytes": 37158 },
       {
         "file": "knowledge/chapter-connections/1-corintios.json",
-        "bytes": 65903
+        "bytes": 107384
       },
       {
         "file": "knowledge/chapter-connections/1-cronicas.json",
-        "bytes": 46740
+        "bytes": 120340
       },
-      { "file": "knowledge/chapter-connections/1-joao.json", "bytes": 15228 },
-      { "file": "knowledge/chapter-connections/1-pedro.json", "bytes": 34733 },
-      { "file": "knowledge/chapter-connections/1-reis.json", "bytes": 54494 },
-      { "file": "knowledge/chapter-connections/1-samuel.json", "bytes": 78347 },
+      { "file": "knowledge/chapter-connections/1-joao.json", "bytes": 28920 },
+      { "file": "knowledge/chapter-connections/1-pedro.json", "bytes": 45296 },
+      { "file": "knowledge/chapter-connections/1-reis.json", "bytes": 109612 },
+      {
+        "file": "knowledge/chapter-connections/1-samuel.json",
+        "bytes": 156046
+      },
       {
         "file": "knowledge/chapter-connections/1-tessalonicenses.json",
-        "bytes": 30396
+        "bytes": 45073
       },
       {
         "file": "knowledge/chapter-connections/1-timoteo.json",
-        "bytes": 29439
+        "bytes": 45770
       },
       {
         "file": "knowledge/chapter-connections/2-corintios.json",
-        "bytes": 34949
+        "bytes": 69212
       },
       {
         "file": "knowledge/chapter-connections/2-cronicas.json",
-        "bytes": 85841
+        "bytes": 177075
       },
-      { "file": "knowledge/chapter-connections/2-joao.json", "bytes": 2424 },
-      { "file": "knowledge/chapter-connections/2-pedro.json", "bytes": 24644 },
-      { "file": "knowledge/chapter-connections/2-reis.json", "bytes": 50629 },
-      { "file": "knowledge/chapter-connections/2-samuel.json", "bytes": 43631 },
+      { "file": "knowledge/chapter-connections/2-joao.json", "bytes": 6553 },
+      { "file": "knowledge/chapter-connections/2-pedro.json", "bytes": 33915 },
+      { "file": "knowledge/chapter-connections/2-reis.json", "bytes": 112883 },
+      {
+        "file": "knowledge/chapter-connections/2-samuel.json",
+        "bytes": 103773
+      },
       {
         "file": "knowledge/chapter-connections/2-tessalonicenses.json",
-        "bytes": 26938
+        "bytes": 36534
       },
       {
         "file": "knowledge/chapter-connections/2-timoteo.json",
-        "bytes": 25360
+        "bytes": 36886
       },
-      { "file": "knowledge/chapter-connections/3-joao.json", "bytes": 5082 },
-      { "file": "knowledge/chapter-connections/ageu.json", "bytes": 27705 },
-      { "file": "knowledge/chapter-connections/amos.json", "bytes": 32230 },
+      { "file": "knowledge/chapter-connections/3-joao.json", "bytes": 9117 },
+      { "file": "knowledge/chapter-connections/ageu.json", "bytes": 34381 },
+      { "file": "knowledge/chapter-connections/amos.json", "bytes": 55554 },
       {
         "file": "knowledge/chapter-connections/apocalipse.json",
-        "bytes": 105387
+        "bytes": 168459
       },
-      { "file": "knowledge/chapter-connections/atos.json", "bytes": 114866 },
+      { "file": "knowledge/chapter-connections/atos.json", "bytes": 184899 },
       {
         "file": "knowledge/chapter-connections/cantico-dos-canticos.json",
-        "bytes": 21977
+        "bytes": 44373
       },
       {
         "file": "knowledge/chapter-connections/colossenses.json",
-        "bytes": 27031
+        "bytes": 38630
       },
-      { "file": "knowledge/chapter-connections/daniel.json", "bytes": 39939 },
+      { "file": "knowledge/chapter-connections/daniel.json", "bytes": 70781 },
       {
         "file": "knowledge/chapter-connections/deuteronomio.json",
-        "bytes": 42998
+        "bytes": 131488
       },
       {
         "file": "knowledge/chapter-connections/eclesiastes.json",
-        "bytes": 25292
+        "bytes": 56816
       },
-      { "file": "knowledge/chapter-connections/efesios.json", "bytes": 34898 },
-      { "file": "knowledge/chapter-connections/esdras.json", "bytes": 51880 },
-      { "file": "knowledge/chapter-connections/ester.json", "bytes": 25268 },
-      { "file": "knowledge/chapter-connections/exodo.json", "bytes": 38468 },
-      { "file": "knowledge/chapter-connections/ezequiel.json", "bytes": 33563 },
-      { "file": "knowledge/chapter-connections/filemom.json", "bytes": 18258 },
+      { "file": "knowledge/chapter-connections/efesios.json", "bytes": 51406 },
+      { "file": "knowledge/chapter-connections/esdras.json", "bytes": 77957 },
+      { "file": "knowledge/chapter-connections/ester.json", "bytes": 44977 },
+      { "file": "knowledge/chapter-connections/exodo.json", "bytes": 141984 },
+      {
+        "file": "knowledge/chapter-connections/ezequiel.json",
+        "bytes": 152473
+      },
+      { "file": "knowledge/chapter-connections/filemom.json", "bytes": 22419 },
       {
         "file": "knowledge/chapter-connections/filipenses.json",
-        "bytes": 5763
+        "bytes": 17354
       },
-      { "file": "knowledge/chapter-connections/galatas.json", "bytes": 54075 },
-      { "file": "knowledge/chapter-connections/genesis.json", "bytes": 135120 },
+      { "file": "knowledge/chapter-connections/galatas.json", "bytes": 70634 },
+      { "file": "knowledge/chapter-connections/genesis.json", "bytes": 263894 },
       {
         "file": "knowledge/chapter-connections/habacuque.json",
-        "bytes": 18167
+        "bytes": 27176
       },
-      { "file": "knowledge/chapter-connections/hebreus.json", "bytes": 78832 },
-      { "file": "knowledge/chapter-connections/isaias.json", "bytes": 80662 },
-      { "file": "knowledge/chapter-connections/jeremias.json", "bytes": 50286 },
-      { "file": "knowledge/chapter-connections/jo.json", "bytes": 60448 },
-      { "file": "knowledge/chapter-connections/joao.json", "bytes": 67847 },
-      { "file": "knowledge/chapter-connections/joel.json", "bytes": 26176 },
-      { "file": "knowledge/chapter-connections/jonas.json", "bytes": 25927 },
-      { "file": "knowledge/chapter-connections/josue.json", "bytes": 40378 },
-      { "file": "knowledge/chapter-connections/judas.json", "bytes": 23466 },
-      { "file": "knowledge/chapter-connections/juizes.json", "bytes": 37337 },
+      { "file": "knowledge/chapter-connections/hebreus.json", "bytes": 112475 },
+      { "file": "knowledge/chapter-connections/isaias.json", "bytes": 241574 },
+      {
+        "file": "knowledge/chapter-connections/jeremias.json",
+        "bytes": 179317
+      },
+      { "file": "knowledge/chapter-connections/jo.json", "bytes": 162606 },
+      { "file": "knowledge/chapter-connections/joao.json", "bytes": 134105 },
+      { "file": "knowledge/chapter-connections/joel.json", "bytes": 35295 },
+      { "file": "knowledge/chapter-connections/jonas.json", "bytes": 37231 },
+      { "file": "knowledge/chapter-connections/josue.json", "bytes": 104377 },
+      { "file": "knowledge/chapter-connections/judas.json", "bytes": 27691 },
+      { "file": "knowledge/chapter-connections/juizes.json", "bytes": 89637 },
       {
         "file": "knowledge/chapter-connections/lamentacoes.json",
-        "bytes": 27598
+        "bytes": 42000
       },
-      { "file": "knowledge/chapter-connections/levitico.json", "bytes": 33012 },
-      { "file": "knowledge/chapter-connections/lucas.json", "bytes": 62340 },
+      {
+        "file": "knowledge/chapter-connections/levitico.json",
+        "bytes": 103078
+      },
+      { "file": "knowledge/chapter-connections/lucas.json", "bytes": 122522 },
       {
         "file": "knowledge/chapter-connections/malaquias.json",
-        "bytes": 23982
+        "bytes": 35414
       },
-      { "file": "knowledge/chapter-connections/marcos.json", "bytes": 46504 },
-      { "file": "knowledge/chapter-connections/mateus.json", "bytes": 107162 },
-      { "file": "knowledge/chapter-connections/miqueias.json", "bytes": 27704 },
-      { "file": "knowledge/chapter-connections/naum.json", "bytes": 18374 },
-      { "file": "knowledge/chapter-connections/neemias.json", "bytes": 43886 },
-      { "file": "knowledge/chapter-connections/numeros.json", "bytes": 51140 },
-      { "file": "knowledge/chapter-connections/obadias.json", "bytes": 19329 },
-      { "file": "knowledge/chapter-connections/oseias.json", "bytes": 23326 },
+      { "file": "knowledge/chapter-connections/marcos.json", "bytes": 86938 },
+      { "file": "knowledge/chapter-connections/mateus.json", "bytes": 179116 },
+      { "file": "knowledge/chapter-connections/miqueias.json", "bytes": 46442 },
+      { "file": "knowledge/chapter-connections/naum.json", "bytes": 27308 },
+      { "file": "knowledge/chapter-connections/neemias.json", "bytes": 77203 },
+      { "file": "knowledge/chapter-connections/numeros.json", "bytes": 144855 },
+      { "file": "knowledge/chapter-connections/obadias.json", "bytes": 23633 },
+      { "file": "knowledge/chapter-connections/oseias.json", "bytes": 58621 },
       {
         "file": "knowledge/chapter-connections/proverbios.json",
-        "bytes": 37252
+        "bytes": 114877
       },
-      { "file": "knowledge/chapter-connections/romanos.json", "bytes": 89081 },
-      { "file": "knowledge/chapter-connections/rute.json", "bytes": 36094 },
-      { "file": "knowledge/chapter-connections/salmos.json", "bytes": 57034 },
-      { "file": "knowledge/chapter-connections/sofonias.json", "bytes": 30227 },
-      { "file": "knowledge/chapter-connections/tiago.json", "bytes": 33801 },
-      { "file": "knowledge/chapter-connections/tito.json", "bytes": 15974 },
-      { "file": "knowledge/chapter-connections/zacarias.json", "bytes": 40175 },
-      { "file": "knowledge/chapters.json", "bytes": 714396 },
+      { "file": "knowledge/chapter-connections/romanos.json", "bytes": 134553 },
+      { "file": "knowledge/chapter-connections/rute.json", "bytes": 47551 },
+      { "file": "knowledge/chapter-connections/salmos.json", "bytes": 415766 },
+      { "file": "knowledge/chapter-connections/sofonias.json", "bytes": 39398 },
+      { "file": "knowledge/chapter-connections/tiago.json", "bytes": 47782 },
+      { "file": "knowledge/chapter-connections/tito.json", "bytes": 24879 },
+      { "file": "knowledge/chapter-connections/zacarias.json", "bytes": 75691 },
+      { "file": "knowledge/chapters.json", "bytes": 714357 },
       { "file": "knowledge/doctrines.json", "bytes": 15168 },
       { "file": "knowledge/events.json", "bytes": 248383 },
       { "file": "knowledge/formation.json", "bytes": 4709 },
-      { "file": "knowledge/manifest.json", "bytes": 4516 },
+      { "file": "knowledge/manifest.json", "bytes": 5086 },
       { "file": "knowledge/people-groups.json", "bytes": 27074 },
       { "file": "knowledge/people.json", "bytes": 262475 },
       { "file": "knowledge/places.json", "bytes": 117283 },
@@ -1267,6 +1282,6 @@
       { "file": "knowledge/themes.json", "bytes": 330308 },
       { "file": "relational-books-catalog.json", "bytes": 2258301 }
     ],
-    "totalPublicDataBytes": 21767866
+    "totalPublicDataBytes": 24817359
   }
 }

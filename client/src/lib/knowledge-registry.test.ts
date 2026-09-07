@@ -1,5 +1,9 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import type { KnowledgeNode, KnowledgeRelation } from "@shared/knowledge-model";
+import type {
+  ChapterEditorialProfile,
+  KnowledgeNode,
+  KnowledgeRelation,
+} from "@shared/knowledge-model";
 import {
   loadChapterKnowledge,
   loadKnowledgeKind,
@@ -125,6 +129,31 @@ describe("registro de conhecimento no cliente", () => {
       sourceCatalog: "explicit-reference:biography-catalog",
       confidence: "high",
     };
+    const editorialProfile: ChapterEditorialProfile = {
+      chapterId: chapter.id,
+      reference: "Atos 9",
+      status: "connected",
+      priority: "medium",
+      editorialDepth: "Comentário textual enriquecido",
+      structuralChecks: {
+        fourLayers: true,
+        source: true,
+        cartography: true,
+        canonicalDialogue: true,
+        explicitConnections: true,
+      },
+      structuralScore: 5,
+      connectionCount: 1,
+      entityConnectionCount: 1,
+      connectionKinds: ["person"],
+      coveredDimensions: ["people"],
+      pendingDimensions: ["scenes", "terms", "theology"],
+      humanReview: {
+        completed: false,
+        reviewedAt: null,
+        reviewedBy: [],
+      },
+    };
     const fetchMock = vi.fn(async (input: string | URL | Request) => {
       const url = String(input);
       if (url.endsWith("/manifest.json")) {
@@ -155,6 +184,7 @@ describe("registro de conhecimento no cliente", () => {
             chapterCount: 1,
             nodes: [nodes[0]],
             relations: [relation],
+            editorialProfiles: [editorialProfile],
           })
         );
       }
@@ -167,6 +197,7 @@ describe("registro de conhecimento no cliente", () => {
 
     expect(first?.relatedNodes.map(node => node.id)).toEqual(["person:paulo"]);
     expect(first?.relations).toEqual([relation]);
+    expect(first?.editorialProfile).toEqual(editorialProfile);
     expect(second?.relatedNodes).toEqual(first?.relatedNodes);
     expect(fetchMock).toHaveBeenCalledTimes(2);
     expect(

@@ -1,9 +1,225 @@
 {
   "schemaVersion": 1,
   "book": "Romanos",
-  "count": 76,
-  "chapterCount": 15,
+  "count": 123,
+  "chapterCount": 16,
   "nodes": [
+    {
+      "id": "book:1-corintios",
+      "kind": "book",
+      "label": "1 Coríntios",
+      "aliases": ["1Co"],
+      "summary": "Resposta a conflitos sobre unidade, ética, dons, amor e ressurreição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["46-1-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:1-pedro",
+      "kind": "book",
+      "label": "1 Pedro",
+      "aliases": ["1Pe"],
+      "summary": "Esperança, solidariedade e identidade ética sob pressão social.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["60-1-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Pedro; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:2-corintios",
+      "kind": "book",
+      "label": "2 Coríntios",
+      "aliases": ["2Co"],
+      "summary": "Vulnerabilidade do ministério, reconciliação, generosidade e serviço.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["47-2-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 13,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:efesios",
+      "kind": "book",
+      "label": "Efésios",
+      "aliases": ["Ef"],
+      "summary": "Igreja como corpo reconciliado e convite a uma nova vida em Cristo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["49-ef-sios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:galatas",
+      "kind": "book",
+      "label": "Gálatas",
+      "aliases": ["Gl"],
+      "summary": "Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["48-g-latas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:genesis",
+      "kind": "book",
+      "label": "Gênesis",
+      "aliases": ["Gn"],
+      "summary": "Origens do mundo, ruptura humana e formação da família de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["1-g-nesis"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 50,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Origens → patriarcas"
+      }
+    },
+    {
+      "id": "book:habacuque",
+      "kind": "book",
+      "label": "Habacuque",
+      "aliases": ["Hc"],
+      "summary": "Diálogo honesto sobre a demora da justiça e decisão de confiar.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["35-habacuque"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 3,
+        "author": "Habacuque",
+        "period": "Crise babilônica"
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:salmos",
+      "kind": "book",
+      "label": "Salmos",
+      "aliases": ["Sl"],
+      "summary": "Orações e poemas para celebração, crise, lamento e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["19-salmos"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 150,
+        "author": "Coleção com Davi e outros autores tradicionais",
+        "period": "Vários períodos de Israel"
+      }
+    },
+    {
+      "id": "book:tiago",
+      "kind": "book",
+      "label": "Tiago",
+      "aliases": ["Tg"],
+      "summary": "Sabedoria prática sobre fala, cuidado dos pobres e justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["59-tiago"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Tiago; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "doctrine:culto-santidade",
       "kind": "doctrine",
@@ -1597,6 +1813,523 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-romanos-1:book-efesios",
+      "from": "chapter:romanos:1",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 1 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-1:book-galatas",
+      "from": "chapter:romanos:1",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 1 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-1:book-habacuque",
+      "from": "chapter:romanos:1",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 1 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-10:book-efesios",
+      "from": "chapter:romanos:10",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 10 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-10:book-galatas",
+      "from": "chapter:romanos:10",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 10 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-10:book-habacuque",
+      "from": "chapter:romanos:10",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 10 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-11:book-galatas",
+      "from": "chapter:romanos:11",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 11 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gl 3:26–29"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-11:book-isaias",
+      "from": "chapter:romanos:11",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 11 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 59:20–21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-12:book-1-corintios",
+      "from": "chapter:romanos:12",
+      "to": "book:1-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 12 inclui 1 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Co 12–14"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-12:book-1-pedro",
+      "from": "chapter:romanos:12",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 12 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1Pe 4:10–11"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-12:book-efesios",
+      "from": "chapter:romanos:12",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 12 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ef 4:1–16"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-13:book-efesios",
+      "from": "chapter:romanos:13",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 13 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-13:book-galatas",
+      "from": "chapter:romanos:13",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 13 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-13:book-habacuque",
+      "from": "chapter:romanos:13",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 13 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-14:book-efesios",
+      "from": "chapter:romanos:14",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 14 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-14:book-galatas",
+      "from": "chapter:romanos:14",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 14 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-14:book-habacuque",
+      "from": "chapter:romanos:14",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 14 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-15:book-efesios",
+      "from": "chapter:romanos:15",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 15 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-15:book-galatas",
+      "from": "chapter:romanos:15",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 15 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-15:book-habacuque",
+      "from": "chapter:romanos:15",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 15 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-16:book-efesios",
+      "from": "chapter:romanos:16",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 16 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-16:book-galatas",
+      "from": "chapter:romanos:16",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 16 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-16:book-habacuque",
+      "from": "chapter:romanos:16",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 16 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-2:book-efesios",
+      "from": "chapter:romanos:2",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 2 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-2:book-galatas",
+      "from": "chapter:romanos:2",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 2 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-2:book-habacuque",
+      "from": "chapter:romanos:2",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 2 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-3:book-efesios",
+      "from": "chapter:romanos:3",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 3 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ef 2:8–10"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-3:book-galatas",
+      "from": "chapter:romanos:3",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 3 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gl 2:15–21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-3:book-habacuque",
+      "from": "chapter:romanos:3",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 3 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hc 2:4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-3:book-salmos",
+      "from": "chapter:romanos:3",
+      "to": "book:salmos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 3 inclui Salmos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Sl 143:2"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-4:book-efesios",
+      "from": "chapter:romanos:4",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 4 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-4:book-galatas",
+      "from": "chapter:romanos:4",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 4 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-4:book-habacuque",
+      "from": "chapter:romanos:4",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 4 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-5:book-2-corintios",
+      "from": "chapter:romanos:5",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 5 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Co 1:3–7", "2Co 5:18–21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-5:book-tiago",
+      "from": "chapter:romanos:5",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 5 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tg 1:2–4"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-6:book-efesios",
+      "from": "chapter:romanos:6",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 6 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-6:book-galatas",
+      "from": "chapter:romanos:6",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 6 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-6:book-habacuque",
+      "from": "chapter:romanos:6",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 6 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-7:book-efesios",
+      "from": "chapter:romanos:7",
+      "to": "book:efesios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 7 inclui Efésios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Efésios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-7:book-galatas",
+      "from": "chapter:romanos:7",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 7 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-7:book-habacuque",
+      "from": "chapter:romanos:7",
+      "to": "book:habacuque",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 7 inclui Habacuque em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Habacuque"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-8:book-2-corintios",
+      "from": "chapter:romanos:8",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 8 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Co 5:1–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-8:book-apocalipse",
+      "from": "chapter:romanos:8",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 8 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ap 21:1–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-8:book-genesis",
+      "from": "chapter:romanos:8",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 8 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 3:17–19"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-9:book-exodo",
+      "from": "chapter:romanos:9",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 9 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êx 19:3–6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-9:book-genesis",
+      "from": "chapter:romanos:9",
+      "to": "book:genesis",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 9 inclui Gênesis em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gn 12:1–3"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-romanos-9:book-isaias",
+      "from": "chapter:romanos:9",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Romanos 9 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 49"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-romanos-1:theme-roma",
       "from": "chapter:romanos:1",
       "to": "theme:roma",
@@ -1793,6 +2526,425 @@
       "references": ["Rm 8:18–19"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:romanos:1",
+      "reference": "Romanos 1",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:2",
+      "reference": "Romanos 2",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:3",
+      "reference": "Romanos 3",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 7,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "event",
+        "person",
+        "prophecy",
+        "term",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:4",
+      "reference": "Romanos 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:5",
+      "reference": "Romanos 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:6",
+      "reference": "Romanos 6",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "doctrine", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:7",
+      "reference": "Romanos 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:8",
+      "reference": "Romanos 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "doctrine", "prophecy", "term"],
+      "coveredDimensions": ["terms", "theology"],
+      "pendingDimensions": ["people", "scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:9",
+      "reference": "Romanos 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": ["book", "people-group", "person", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:10",
+      "reference": "Romanos 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:11",
+      "reference": "Romanos 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "people-group", "prophecy"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:12",
+      "reference": "Romanos 12",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "doctrine", "prophecy", "term"],
+      "coveredDimensions": ["terms", "theology"],
+      "pendingDimensions": ["people", "scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:13",
+      "reference": "Romanos 13",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:14",
+      "reference": "Romanos 14",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:15",
+      "reference": "Romanos 15",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:romanos:16",
+      "reference": "Romanos 16",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

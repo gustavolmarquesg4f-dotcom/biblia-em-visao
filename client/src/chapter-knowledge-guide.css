@@ -1,4 +1,4 @@
-/* Fase 4 — contexto relacional auditável dentro de cada estudo de capítulo. */
+/* Fase 5 — contexto relacional e estado editorial auditável por capítulo. */
 .chapter-knowledge {
   --chapter-knowledge-ink: #18303d;
   --chapter-knowledge-wine: #8b4f4e;
@@ -116,6 +116,84 @@
   color: #6c7d7e;
   font-size: 0.6rem;
   line-height: 1.35;
+}
+.chapter-editorial-status {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.65rem 0.8rem;
+  align-items: start;
+  margin-top: 1rem;
+  padding: 0.85rem;
+  border: 1px solid rgba(40, 67, 81, 0.16);
+  border-left: 4px solid #8a735e;
+  background: #fffdf8;
+}
+.chapter-editorial-status.is-high {
+  border-left-color: var(--chapter-knowledge-wine);
+}
+.chapter-editorial-status.is-medium {
+  border-left-color: #a97845;
+}
+.chapter-editorial-status.is-standard,
+.chapter-editorial-status.is-polish {
+  border-left-color: #55776d;
+}
+.chapter-editorial-status > svg {
+  margin-top: 0.1rem;
+  color: var(--chapter-knowledge-wine);
+}
+.chapter-editorial-status > div:nth-child(2) {
+  display: grid;
+  gap: 0.15rem;
+}
+.chapter-editorial-status > div:nth-child(2) > span {
+  color: #88715d;
+  font-size: 0.55rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.chapter-editorial-status > div:nth-child(2) > strong {
+  color: var(--chapter-knowledge-ink);
+  font:
+    500 1rem/1.25 Georgia,
+    serif;
+}
+.chapter-editorial-status p {
+  margin: 0;
+  color: #64777a;
+  font-size: 0.64rem;
+  line-height: 1.5;
+}
+.chapter-editorial-status__metrics {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.25rem 0.7rem;
+  text-align: right;
+}
+.chapter-editorial-status__metrics span {
+  color: #687a7d;
+  font-size: 0.58rem;
+}
+.chapter-editorial-status__metrics b {
+  color: var(--chapter-knowledge-ink);
+  font-size: 0.7rem;
+}
+.chapter-editorial-status__metrics small {
+  grid-column: 1 / -1;
+  color: var(--chapter-knowledge-wine);
+  font-size: 0.52rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.chapter-editorial-status__pending {
+  grid-column: 2 / -1;
+  padding-top: 0.45rem;
+  border-top: 1px solid rgba(40, 67, 81, 0.1);
+}
+.chapter-editorial-status__pending b {
+  color: var(--chapter-knowledge-ink);
 }
 .chapter-knowledge__groups {
   display: grid;
@@ -273,6 +351,14 @@
   }
   .chapter-knowledge__groups {
     grid-template-columns: 1fr;
+  }
+  .chapter-editorial-status {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .chapter-editorial-status__metrics,
+  .chapter-editorial-status__pending {
+    grid-column: 2;
+    text-align: left;
   }
   .chapter-knowledge__foot {
     align-items: flex-start;

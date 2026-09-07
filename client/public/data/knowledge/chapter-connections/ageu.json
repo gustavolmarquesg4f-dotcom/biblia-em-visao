@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Ageu",
-  "count": 27,
+  "count": 33,
   "chapterCount": 2,
   "nodes": [
+    {
+      "id": "book:esdras",
+      "kind": "book",
+      "label": "Esdras",
+      "aliases": ["Ed"],
+      "summary": "Retorno, reconstrução do templo e reorganização da comunidade pela lei.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["15-esdras"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 10,
+        "author": "Tradição de Esdras; edição posterior",
+        "period": "Retorno do exílio"
+      }
+    },
+    {
+      "id": "book:hebreus",
+      "kind": "book",
+      "label": "Hebreus",
+      "aliases": ["Hb"],
+      "summary": "Sermão escrito que chama uma comunidade cansada à perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["58-hebreus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 13,
+        "author": "Autor não identificado",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:zacarias",
+      "kind": "book",
+      "label": "Zacarias",
+      "aliases": ["Zc"],
+      "summary": "Visões de restauração, liderança, purificação e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["38-zacarias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 14,
+        "author": "Zacarias e tradições posteriores",
+        "period": "Período persa"
+      }
+    },
     {
       "id": "event:ageu-a-consulta-sacerdotal-sobre-pureza-e-impureza",
       "kind": "event",
@@ -521,6 +575,72 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-ageu-1:book-esdras",
+      "from": "chapter:ageu:1",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 1 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ageu-1:book-hebreus",
+      "from": "chapter:ageu:1",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 1 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ageu-1:book-zacarias",
+      "from": "chapter:ageu:1",
+      "to": "book:zacarias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 1 inclui Zacarias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Zacarias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ageu-2:book-esdras",
+      "from": "chapter:ageu:2",
+      "to": "book:esdras",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 2 inclui Esdras em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Esdras"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ageu-2:book-hebreus",
+      "from": "chapter:ageu:2",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 2 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hebreus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-ageu-2:book-zacarias",
+      "from": "chapter:ageu:2",
+      "to": "book:zacarias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Ageu 2 inclui Zacarias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Zacarias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-ageu-1:theme-a-casa-do-senhor-templo",
       "from": "chapter:ageu:1",
       "to": "theme:a-casa-do-senhor-templo",
@@ -585,6 +705,73 @@
       "references": ["Ageu 1:1, 12; 2:2"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:ageu:1",
+      "reference": "Ageu 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 15,
+      "entityConnectionCount": 12,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:ageu:2",
+      "reference": "Ageu 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 18,
+      "entityConnectionCount": 15,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

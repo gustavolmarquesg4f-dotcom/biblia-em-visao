@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Malaquias",
-  "count": 24,
+  "count": 36,
   "chapterCount": 4,
   "nodes": [
+    {
+      "id": "book:ageu",
+      "kind": "book",
+      "label": "Ageu",
+      "aliases": ["Ag"],
+      "summary": "Incentivo à reconstrução do templo e à reorganização das prioridades.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["37-ageu"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 2,
+        "author": "Ageu",
+        "period": "Período persa"
+      }
+    },
+    {
+      "id": "book:mateus",
+      "kind": "book",
+      "label": "Mateus",
+      "aliases": ["Mt"],
+      "summary": "Jesus como Messias e mestre, conectado às Escrituras de Israel.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["40-mateus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Evangelhos",
+        "chapters": 28,
+        "author": "Tradição associada a Mateus; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:neemias",
+      "kind": "book",
+      "label": "Neemias",
+      "aliases": ["Ne"],
+      "summary": "Reconstrução das muralhas e reformas comunitárias em meio à oposição.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["16-neemias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Históricos",
+        "chapters": 13,
+        "author": "Memórias de Neemias; edição posterior",
+        "period": "Período persa"
+      }
+    },
     {
       "id": "event:malaquias-a-acusacao-do-amor-divino-e-o-questionamento-de-edom",
       "kind": "event",
@@ -448,6 +502,138 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-malaquias-1:book-ageu",
+      "from": "chapter:malaquias:1",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 1 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-1:book-mateus",
+      "from": "chapter:malaquias:1",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 1 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-1:book-neemias",
+      "from": "chapter:malaquias:1",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 1 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-2:book-ageu",
+      "from": "chapter:malaquias:2",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 2 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-2:book-mateus",
+      "from": "chapter:malaquias:2",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 2 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-2:book-neemias",
+      "from": "chapter:malaquias:2",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 2 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-3:book-ageu",
+      "from": "chapter:malaquias:3",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 3 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-3:book-mateus",
+      "from": "chapter:malaquias:3",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 3 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-3:book-neemias",
+      "from": "chapter:malaquias:3",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 3 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-4:book-ageu",
+      "from": "chapter:malaquias:4",
+      "to": "book:ageu",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 4 inclui Ageu em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ageu"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-4:book-mateus",
+      "from": "chapter:malaquias:4",
+      "to": "book:mateus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 4 inclui Mateus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mateus"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-malaquias-4:book-neemias",
+      "from": "chapter:malaquias:4",
+      "to": "book:neemias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Malaquias 4 inclui Neemias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Neemias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-malaquias-1:theme-edom-esau",
       "from": "chapter:malaquias:1",
       "to": "theme:edom-esau",
@@ -556,6 +742,108 @@
       "references": ["Ml 4:5"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:malaquias:1",
+      "reference": "Malaquias 1",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 12,
+      "entityConnectionCount": 9,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:malaquias:2",
+      "reference": "Malaquias 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "place", "prophecy", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:malaquias:3",
+      "reference": "Malaquias 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "place", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:malaquias:4",
+      "reference": "Malaquias 4",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Tiago",
-  "count": 31,
+  "count": 46,
   "chapterCount": 5,
   "nodes": [
+    {
+      "id": "book:1-pedro",
+      "kind": "book",
+      "label": "1 Pedro",
+      "aliases": ["1Pe"],
+      "summary": "Esperança, solidariedade e identidade ética sob pressão social.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["60-1-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Pedro; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:amos",
+      "kind": "book",
+      "label": "Amós",
+      "aliases": ["Am"],
+      "summary": "Denúncia da exploração dos vulneráveis e do culto sem justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["30-am-s"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 9,
+        "author": "Amós",
+        "period": "Século VIII a.C."
+      }
+    },
+    {
+      "id": "book:proverbios",
+      "kind": "book",
+      "label": "Provérbios",
+      "aliases": ["Pv"],
+      "summary": "Máximas sobre caráter, trabalho, justiça, palavras e discernimento.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["20-prov-rbios"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 31,
+        "author": "Coleção associada a Salomão e sábios",
+        "period": "Tradição sapiencial"
+      }
+    },
     {
       "id": "doctrine:cura",
       "kind": "doctrine",
@@ -622,6 +676,171 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-tiago-1:book-1-pedro",
+      "from": "chapter:tiago:1",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 1 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-1:book-amos",
+      "from": "chapter:tiago:1",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 1 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-1:book-proverbios",
+      "from": "chapter:tiago:1",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 1 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-2:book-1-pedro",
+      "from": "chapter:tiago:2",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 2 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-2:book-amos",
+      "from": "chapter:tiago:2",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 2 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-2:book-proverbios",
+      "from": "chapter:tiago:2",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 2 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-3:book-1-pedro",
+      "from": "chapter:tiago:3",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 3 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-3:book-amos",
+      "from": "chapter:tiago:3",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 3 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-3:book-proverbios",
+      "from": "chapter:tiago:3",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 3 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-4:book-1-pedro",
+      "from": "chapter:tiago:4",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 4 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-4:book-amos",
+      "from": "chapter:tiago:4",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 4 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-4:book-proverbios",
+      "from": "chapter:tiago:4",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 4 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-5:book-1-pedro",
+      "from": "chapter:tiago:5",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 5 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-5:book-amos",
+      "from": "chapter:tiago:5",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 5 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tiago-5:book-proverbios",
+      "from": "chapter:tiago:5",
+      "to": "book:proverbios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tiago 5 inclui Provérbios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Provérbios"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-tiago-1:theme-a-lingua-glossa",
       "from": "chapter:tiago:1",
       "to": "theme:a-lingua-glossa",
@@ -730,6 +949,154 @@
       "references": ["Tiago 2:6; 5:1-6"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:tiago:1",
+      "reference": "Tiago 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "people-group",
+        "person",
+        "place",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tiago:2",
+      "reference": "Tiago 2",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 14,
+      "entityConnectionCount": 11,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tiago:3",
+      "reference": "Tiago 3",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "theme"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tiago:4",
+      "reference": "Tiago 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tiago:5",
+      "reference": "Tiago 5",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "doctrine",
+        "event",
+        "person",
+        "place",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

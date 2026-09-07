@@ -28,15 +28,19 @@
     "biographiesPreserved": true,
     "originalBiographyLinksPreserved": true,
     "noUnresolvedRelations": true,
+    "noUnresolvedChapterConnectionRelations": true,
     "stableNodeIds": true,
     "noSuspiciousBiographyAssociations": true,
     "explicitChapterConnections": true,
-    "chapterConnectionFileForEveryBook": true
+    "chapterConnectionFileForEveryBook": true,
+    "editorialProfileForEveryChapter": true,
+    "noFalseHumanReview": true,
+    "completeStructuralBaseline": true
   },
   "chapterConnections": {
-    "relations": 3132,
-    "chapters": 894,
-    "entities": 1266,
+    "relations": 6708,
+    "chapters": 1189,
+    "entities": 1327,
     "files": 66,
     "byKind": {
       "person": 833,
@@ -47,11 +51,34 @@
       "event": 337,
       "term": 63,
       "doctrine": 54,
-      "apocryphal-work": 1
+      "apocryphal-work": 1,
+      "book": 3576
     },
     "method": "Somente referências bíblicas explícitas presentes nos verbetes."
   },
+  "editorialReview": {
+    "statusCounts": {
+      "published": 0,
+      "connected": 969,
+      "expanded": 220,
+      "reviewed": 0
+    },
+    "priorityCounts": {
+      "high": 295,
+      "medium": 310,
+      "standard": 563,
+      "polish": 21
+    },
+    "pendingDimensions": {
+      "people": 644,
+      "scenes": 614,
+      "terms": 1133,
+      "theology": 0
+    },
+    "humanReviewed": 0
+  },
   "unresolvedRelations": [],
+  "unresolvedChapterConnectionRelations": [],
   "malformedNodeIds": [],
   "suspiciousBiographyAssociations": []
 }

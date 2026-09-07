@@ -1,9 +1,207 @@
 {
   "schemaVersion": 1,
   "book": "Gênesis",
-  "count": 188,
+  "count": 338,
   "chapterCount": 50,
   "nodes": [
+    {
+      "id": "book:2-corintios",
+      "kind": "book",
+      "label": "2 Coríntios",
+      "aliases": ["2Co"],
+      "summary": "Vulnerabilidade do ministério, reconciliação, generosidade e serviço.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["47-2-cor-ntios"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 13,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:apocalipse",
+      "kind": "book",
+      "label": "Apocalipse",
+      "aliases": ["Ap"],
+      "summary": "Visões simbólicas consolam comunidades e imaginam o fim da violência.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["66-apocalipse"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Literatura apocalíptica",
+        "chapters": 22,
+        "author": "João de Patmos",
+        "period": "Final do século I"
+      }
+    },
+    {
+      "id": "book:exodo",
+      "kind": "book",
+      "label": "Êxodo",
+      "aliases": ["Êx"],
+      "summary": "Libertação do Egito, aliança no Sinai e formação de uma comunidade.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["2--xodo"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 40,
+        "author": "Moisés (tradição); composição discutida",
+        "period": "Formação de Israel"
+      }
+    },
+    {
+      "id": "book:galatas",
+      "kind": "book",
+      "label": "Gálatas",
+      "aliases": ["Gl"],
+      "summary": "Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["48-g-latas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:hebreus",
+      "kind": "book",
+      "label": "Hebreus",
+      "aliases": ["Hb"],
+      "summary": "Sermão escrito que chama uma comunidade cansada à perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["58-hebreus"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 13,
+        "author": "Autor não identificado",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:isaias",
+      "kind": "book",
+      "label": "Isaías",
+      "aliases": ["Is"],
+      "summary": "Denúncia da injustiça e promessas de consolo, restauração e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["23-isa-as"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 66,
+        "author": "Tradição de Isaías com camadas editoriais",
+        "period": "Séculos VIII–V a.C."
+      }
+    },
+    {
+      "id": "book:jo",
+      "kind": "book",
+      "label": "Jó",
+      "aliases": ["Jó"],
+      "summary": "O sofrimento do justo, os limites das explicações fáceis e o mistério.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["18-j-"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Poesia e sabedoria",
+        "chapters": 42,
+        "author": "Autor não identificado",
+        "period": "Sabedoria israelita; data debatida"
+      }
+    },
+    {
+      "id": "book:levitico",
+      "kind": "book",
+      "label": "Levítico",
+      "aliases": ["Lv"],
+      "summary": "Práticas de culto, pureza e vida comunitária para um povo santo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["3-lev-tico"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Pentateuco",
+        "chapters": 27,
+        "author": "Moisés (tradição); tradição sacerdotal",
+        "period": "Deserto e culto"
+      }
+    },
+    {
+      "id": "book:miqueias",
+      "kind": "book",
+      "label": "Miqueias",
+      "aliases": ["Mq"],
+      "summary": "Denúncia contra líderes corruptos e promessa de justiça e esperança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["33-miqueias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 7,
+        "author": "Miqueias",
+        "period": "Século VIII a.C."
+      }
+    },
+    {
+      "id": "book:romanos",
+      "kind": "book",
+      "label": "Romanos",
+      "aliases": ["Rm"],
+      "summary": "Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["45-romanos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:tiago",
+      "kind": "book",
+      "label": "Tiago",
+      "aliases": ["Tg"],
+      "summary": "Sabedoria prática sobre fala, cuidado dos pobres e justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["59-tiago"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Tiago; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "event:genesis-babel",
       "kind": "event",
@@ -3032,6 +3230,1656 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-genesis-1:book-2-corintios",
+      "from": "chapter:genesis:1",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 1 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Co 4:6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-1:book-apocalipse",
+      "from": "chapter:genesis:1",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 1 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ap 21:1–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-1:book-jo",
+      "from": "chapter:genesis:1",
+      "to": "book:jo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 1 inclui Jó em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jo 1:1–5"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-10:book-apocalipse",
+      "from": "chapter:genesis:10",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 10 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-10:book-exodo",
+      "from": "chapter:genesis:10",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 10 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-10:book-romanos",
+      "from": "chapter:genesis:10",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 10 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-11:book-apocalipse",
+      "from": "chapter:genesis:11",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 11 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-11:book-exodo",
+      "from": "chapter:genesis:11",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 11 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-11:book-romanos",
+      "from": "chapter:genesis:11",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 11 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-12:book-galatas",
+      "from": "chapter:genesis:12",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 12 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gl 3:6–14"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-12:book-isaias",
+      "from": "chapter:genesis:12",
+      "to": "book:isaias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 12 inclui Isaías em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Is 49:6"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-13:book-apocalipse",
+      "from": "chapter:genesis:13",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 13 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-13:book-exodo",
+      "from": "chapter:genesis:13",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 13 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-13:book-romanos",
+      "from": "chapter:genesis:13",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 13 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-14:book-apocalipse",
+      "from": "chapter:genesis:14",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 14 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-14:book-exodo",
+      "from": "chapter:genesis:14",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 14 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-14:book-romanos",
+      "from": "chapter:genesis:14",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 14 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-15:book-apocalipse",
+      "from": "chapter:genesis:15",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 15 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-15:book-exodo",
+      "from": "chapter:genesis:15",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 15 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-15:book-romanos",
+      "from": "chapter:genesis:15",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 15 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-16:book-apocalipse",
+      "from": "chapter:genesis:16",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 16 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-16:book-exodo",
+      "from": "chapter:genesis:16",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 16 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-16:book-romanos",
+      "from": "chapter:genesis:16",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 16 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-17:book-apocalipse",
+      "from": "chapter:genesis:17",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 17 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-17:book-exodo",
+      "from": "chapter:genesis:17",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 17 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-17:book-romanos",
+      "from": "chapter:genesis:17",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 17 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-18:book-apocalipse",
+      "from": "chapter:genesis:18",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 18 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-18:book-exodo",
+      "from": "chapter:genesis:18",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 18 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-18:book-romanos",
+      "from": "chapter:genesis:18",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 18 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-19:book-apocalipse",
+      "from": "chapter:genesis:19",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 19 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-19:book-exodo",
+      "from": "chapter:genesis:19",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 19 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-19:book-romanos",
+      "from": "chapter:genesis:19",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 19 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-2:book-apocalipse",
+      "from": "chapter:genesis:2",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 2 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-2:book-exodo",
+      "from": "chapter:genesis:2",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 2 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-2:book-romanos",
+      "from": "chapter:genesis:2",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 2 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-20:book-apocalipse",
+      "from": "chapter:genesis:20",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 20 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-20:book-exodo",
+      "from": "chapter:genesis:20",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 20 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-20:book-romanos",
+      "from": "chapter:genesis:20",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 20 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-21:book-apocalipse",
+      "from": "chapter:genesis:21",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 21 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-21:book-exodo",
+      "from": "chapter:genesis:21",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 21 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-21:book-romanos",
+      "from": "chapter:genesis:21",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 21 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-22:book-hebreus",
+      "from": "chapter:genesis:22",
+      "to": "book:hebreus",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 22 inclui Hebreus em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Hb 11:17–19"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-22:book-levitico",
+      "from": "chapter:genesis:22",
+      "to": "book:levitico",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 22 inclui Levítico em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Lv 18:21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-22:book-miqueias",
+      "from": "chapter:genesis:22",
+      "to": "book:miqueias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 22 inclui Miqueias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Mq 6:6–8"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-22:book-tiago",
+      "from": "chapter:genesis:22",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 22 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tg 2:21–23"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-23:book-apocalipse",
+      "from": "chapter:genesis:23",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 23 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-23:book-exodo",
+      "from": "chapter:genesis:23",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 23 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-23:book-romanos",
+      "from": "chapter:genesis:23",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 23 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-24:book-apocalipse",
+      "from": "chapter:genesis:24",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 24 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-24:book-exodo",
+      "from": "chapter:genesis:24",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 24 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-24:book-romanos",
+      "from": "chapter:genesis:24",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 24 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-25:book-apocalipse",
+      "from": "chapter:genesis:25",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 25 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-25:book-exodo",
+      "from": "chapter:genesis:25",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 25 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-25:book-romanos",
+      "from": "chapter:genesis:25",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 25 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-26:book-apocalipse",
+      "from": "chapter:genesis:26",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 26 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-26:book-exodo",
+      "from": "chapter:genesis:26",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 26 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-26:book-romanos",
+      "from": "chapter:genesis:26",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 26 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-27:book-apocalipse",
+      "from": "chapter:genesis:27",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 27 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-27:book-exodo",
+      "from": "chapter:genesis:27",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 27 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-27:book-romanos",
+      "from": "chapter:genesis:27",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 27 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-28:book-apocalipse",
+      "from": "chapter:genesis:28",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 28 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-28:book-exodo",
+      "from": "chapter:genesis:28",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 28 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-28:book-romanos",
+      "from": "chapter:genesis:28",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 28 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-29:book-apocalipse",
+      "from": "chapter:genesis:29",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 29 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-29:book-exodo",
+      "from": "chapter:genesis:29",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 29 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-29:book-romanos",
+      "from": "chapter:genesis:29",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 29 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-3:book-2-corintios",
+      "from": "chapter:genesis:3",
+      "to": "book:2-corintios",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 3 inclui 2 Coríntios em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["2Co 11:3"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-3:book-apocalipse",
+      "from": "chapter:genesis:3",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 3 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Ap 12:9"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-3:book-romanos",
+      "from": "chapter:genesis:3",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 3 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Rm 5:12–21"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-30:book-apocalipse",
+      "from": "chapter:genesis:30",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 30 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-30:book-exodo",
+      "from": "chapter:genesis:30",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 30 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-30:book-romanos",
+      "from": "chapter:genesis:30",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 30 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-31:book-apocalipse",
+      "from": "chapter:genesis:31",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 31 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-31:book-exodo",
+      "from": "chapter:genesis:31",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 31 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-31:book-romanos",
+      "from": "chapter:genesis:31",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 31 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-32:book-apocalipse",
+      "from": "chapter:genesis:32",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 32 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-32:book-exodo",
+      "from": "chapter:genesis:32",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 32 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-32:book-romanos",
+      "from": "chapter:genesis:32",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 32 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-33:book-apocalipse",
+      "from": "chapter:genesis:33",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 33 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-33:book-exodo",
+      "from": "chapter:genesis:33",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 33 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-33:book-romanos",
+      "from": "chapter:genesis:33",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 33 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-34:book-apocalipse",
+      "from": "chapter:genesis:34",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 34 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-34:book-exodo",
+      "from": "chapter:genesis:34",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 34 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-34:book-romanos",
+      "from": "chapter:genesis:34",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 34 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-35:book-apocalipse",
+      "from": "chapter:genesis:35",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 35 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-35:book-exodo",
+      "from": "chapter:genesis:35",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 35 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-35:book-romanos",
+      "from": "chapter:genesis:35",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 35 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-36:book-apocalipse",
+      "from": "chapter:genesis:36",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 36 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-36:book-exodo",
+      "from": "chapter:genesis:36",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 36 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-36:book-romanos",
+      "from": "chapter:genesis:36",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 36 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-37:book-apocalipse",
+      "from": "chapter:genesis:37",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 37 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-37:book-exodo",
+      "from": "chapter:genesis:37",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 37 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-37:book-romanos",
+      "from": "chapter:genesis:37",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 37 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-38:book-apocalipse",
+      "from": "chapter:genesis:38",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 38 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-38:book-exodo",
+      "from": "chapter:genesis:38",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 38 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-38:book-romanos",
+      "from": "chapter:genesis:38",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 38 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-39:book-apocalipse",
+      "from": "chapter:genesis:39",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 39 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-39:book-exodo",
+      "from": "chapter:genesis:39",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 39 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-39:book-romanos",
+      "from": "chapter:genesis:39",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 39 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-4:book-apocalipse",
+      "from": "chapter:genesis:4",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 4 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-4:book-exodo",
+      "from": "chapter:genesis:4",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 4 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-4:book-romanos",
+      "from": "chapter:genesis:4",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 4 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-40:book-apocalipse",
+      "from": "chapter:genesis:40",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 40 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-40:book-exodo",
+      "from": "chapter:genesis:40",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 40 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-40:book-romanos",
+      "from": "chapter:genesis:40",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 40 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-41:book-apocalipse",
+      "from": "chapter:genesis:41",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 41 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-41:book-exodo",
+      "from": "chapter:genesis:41",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 41 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-41:book-romanos",
+      "from": "chapter:genesis:41",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 41 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-42:book-apocalipse",
+      "from": "chapter:genesis:42",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 42 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-42:book-exodo",
+      "from": "chapter:genesis:42",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 42 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-42:book-romanos",
+      "from": "chapter:genesis:42",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 42 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-43:book-apocalipse",
+      "from": "chapter:genesis:43",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 43 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-43:book-exodo",
+      "from": "chapter:genesis:43",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 43 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-43:book-romanos",
+      "from": "chapter:genesis:43",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 43 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-44:book-apocalipse",
+      "from": "chapter:genesis:44",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 44 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-44:book-exodo",
+      "from": "chapter:genesis:44",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 44 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-44:book-romanos",
+      "from": "chapter:genesis:44",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 44 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-45:book-apocalipse",
+      "from": "chapter:genesis:45",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 45 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-45:book-exodo",
+      "from": "chapter:genesis:45",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 45 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-45:book-romanos",
+      "from": "chapter:genesis:45",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 45 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-46:book-apocalipse",
+      "from": "chapter:genesis:46",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 46 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-46:book-exodo",
+      "from": "chapter:genesis:46",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 46 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-46:book-romanos",
+      "from": "chapter:genesis:46",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 46 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-47:book-apocalipse",
+      "from": "chapter:genesis:47",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 47 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-47:book-exodo",
+      "from": "chapter:genesis:47",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 47 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-47:book-romanos",
+      "from": "chapter:genesis:47",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 47 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-48:book-apocalipse",
+      "from": "chapter:genesis:48",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 48 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-48:book-exodo",
+      "from": "chapter:genesis:48",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 48 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-48:book-romanos",
+      "from": "chapter:genesis:48",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 48 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-49:book-apocalipse",
+      "from": "chapter:genesis:49",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 49 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-49:book-exodo",
+      "from": "chapter:genesis:49",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 49 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-49:book-romanos",
+      "from": "chapter:genesis:49",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 49 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-5:book-apocalipse",
+      "from": "chapter:genesis:5",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 5 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-5:book-exodo",
+      "from": "chapter:genesis:5",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 5 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-5:book-romanos",
+      "from": "chapter:genesis:5",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 5 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-50:book-apocalipse",
+      "from": "chapter:genesis:50",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 50 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-50:book-exodo",
+      "from": "chapter:genesis:50",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 50 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-50:book-romanos",
+      "from": "chapter:genesis:50",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 50 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-6:book-apocalipse",
+      "from": "chapter:genesis:6",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 6 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-6:book-exodo",
+      "from": "chapter:genesis:6",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 6 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-6:book-romanos",
+      "from": "chapter:genesis:6",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 6 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-7:book-apocalipse",
+      "from": "chapter:genesis:7",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 7 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-7:book-exodo",
+      "from": "chapter:genesis:7",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 7 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-7:book-romanos",
+      "from": "chapter:genesis:7",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 7 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-8:book-apocalipse",
+      "from": "chapter:genesis:8",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 8 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-8:book-exodo",
+      "from": "chapter:genesis:8",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 8 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-8:book-romanos",
+      "from": "chapter:genesis:8",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 8 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-9:book-apocalipse",
+      "from": "chapter:genesis:9",
+      "to": "book:apocalipse",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 9 inclui Apocalipse em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Apocalipse"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-9:book-exodo",
+      "from": "chapter:genesis:9",
+      "to": "book:exodo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 9 inclui Êxodo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Êxodo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-genesis-9:book-romanos",
+      "from": "chapter:genesis:9",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Gênesis 9 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-genesis-3:theme-serpente",
       "from": "chapter:genesis:3",
       "to": "theme:serpente",
@@ -3074,6 +4922,1272 @@
       "references": ["Gn 24:27"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:genesis:1",
+      "reference": "Gênesis 1",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "prophecy", "term"],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:2",
+      "reference": "Gênesis 2",
+      "status": "expanded",
+      "priority": "polish",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "term"
+      ],
+      "coveredDimensions": ["people", "scenes", "terms", "theology"],
+      "pendingDimensions": [],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:3",
+      "reference": "Gênesis 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 8,
+      "connectionKinds": [
+        "book",
+        "event",
+        "person",
+        "place",
+        "prophecy",
+        "theme"
+      ],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:4",
+      "reference": "Gênesis 4",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:5",
+      "reference": "Gênesis 5",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:6",
+      "reference": "Gênesis 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:7",
+      "reference": "Gênesis 7",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:8",
+      "reference": "Gênesis 8",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:9",
+      "reference": "Gênesis 9",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:10",
+      "reference": "Gênesis 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:11",
+      "reference": "Gênesis 11",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:12",
+      "reference": "Gênesis 12",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 11,
+      "entityConnectionCount": 9,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:13",
+      "reference": "Gênesis 13",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:14",
+      "reference": "Gênesis 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "person"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:15",
+      "reference": "Gênesis 15",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:16",
+      "reference": "Gênesis 16",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:17",
+      "reference": "Gênesis 17",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:18",
+      "reference": "Gênesis 18",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:19",
+      "reference": "Gênesis 19",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:20",
+      "reference": "Gênesis 20",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:21",
+      "reference": "Gênesis 21",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:22",
+      "reference": "Gênesis 22",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Foco ampliado",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:23",
+      "reference": "Gênesis 23",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:24",
+      "reference": "Gênesis 24",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "term"],
+      "coveredDimensions": ["people", "terms", "theology"],
+      "pendingDimensions": ["scenes"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:25",
+      "reference": "Gênesis 25",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "event", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:26",
+      "reference": "Gênesis 26",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:27",
+      "reference": "Gênesis 27",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "people-group", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:28",
+      "reference": "Gênesis 28",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:29",
+      "reference": "Gênesis 29",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:30",
+      "reference": "Gênesis 30",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:31",
+      "reference": "Gênesis 31",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "person"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:32",
+      "reference": "Gênesis 32",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "people-group", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:33",
+      "reference": "Gênesis 33",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "people-group", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:34",
+      "reference": "Gênesis 34",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:35",
+      "reference": "Gênesis 35",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 8,
+      "entityConnectionCount": 5,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:36",
+      "reference": "Gênesis 36",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "people-group"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:37",
+      "reference": "Gênesis 37",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:38",
+      "reference": "Gênesis 38",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:39",
+      "reference": "Gênesis 39",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:40",
+      "reference": "Gênesis 40",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:41",
+      "reference": "Gênesis 41",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:42",
+      "reference": "Gênesis 42",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:43",
+      "reference": "Gênesis 43",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:44",
+      "reference": "Gênesis 44",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:45",
+      "reference": "Gênesis 45",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:46",
+      "reference": "Gênesis 46",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:47",
+      "reference": "Gênesis 47",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:48",
+      "reference": "Gênesis 48",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:49",
+      "reference": "Gênesis 49",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:genesis:50",
+      "reference": "Gênesis 50",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "person", "place", "prophecy"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

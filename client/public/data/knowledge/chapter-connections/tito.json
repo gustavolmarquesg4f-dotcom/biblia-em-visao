@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Tito",
-  "count": 16,
+  "count": 25,
   "chapterCount": 3,
   "nodes": [
+    {
+      "id": "book:1-pedro",
+      "kind": "book",
+      "label": "1 Pedro",
+      "aliases": ["1Pe"],
+      "summary": "Esperança, solidariedade e identidade ética sob pressão social.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["60-1-pedro"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Pedro; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:1-timoteo",
+      "kind": "book",
+      "label": "1 Timóteo",
+      "aliases": ["1Tm"],
+      "summary": "Orientações sobre liderança, ensino e cuidado comunitário.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["54-1-tim-teo"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas pastorais",
+        "chapters": 6,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:tiago",
+      "kind": "book",
+      "label": "Tiago",
+      "aliases": ["Tg"],
+      "summary": "Sabedoria prática sobre fala, cuidado dos pobres e justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["59-tiago"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas gerais",
+        "chapters": 5,
+        "author": "Tradição associada a Tiago; autoria discutida",
+        "period": "Século I"
+      }
+    },
     {
       "id": "people-group:cretenses",
       "kind": "people-group",
@@ -330,6 +384,105 @@
       "confidence": "high"
     },
     {
+      "id": "relation:canonical-connection:chapter-tito-1:book-1-pedro",
+      "from": "chapter:tito:1",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 1 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-1:book-1-timoteo",
+      "from": "chapter:tito:1",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 1 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-1:book-tiago",
+      "from": "chapter:tito:1",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 1 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-2:book-1-pedro",
+      "from": "chapter:tito:2",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 2 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-2:book-1-timoteo",
+      "from": "chapter:tito:2",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 2 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-2:book-tiago",
+      "from": "chapter:tito:2",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 2 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-3:book-1-pedro",
+      "from": "chapter:tito:3",
+      "to": "book:1-pedro",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 3 inclui 1 Pedro em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Pedro"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-3:book-1-timoteo",
+      "from": "chapter:tito:3",
+      "to": "book:1-timoteo",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 3 inclui 1 Timóteo em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["1 Timóteo"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-tito-3:book-tiago",
+      "from": "chapter:tito:3",
+      "to": "book:tiago",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Tito 3 inclui Tiago em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Tiago"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-tito-1:theme-os-da-circuncisao-judaizantes",
       "from": "chapter:tito:1",
       "to": "theme:os-da-circuncisao-judaizantes",
@@ -394,6 +547,83 @@
       "references": ["Tito 3:5"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:tito:1",
+      "reference": "Tito 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 10,
+      "entityConnectionCount": 7,
+      "connectionKinds": ["book", "people-group", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tito:2",
+      "reference": "Tito 2",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "person", "theme"],
+      "coveredDimensions": ["people", "theology"],
+      "pendingDimensions": ["scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:tito:3",
+      "reference": "Tito 3",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 9,
+      "entityConnectionCount": 6,
+      "connectionKinds": ["book", "person", "place", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

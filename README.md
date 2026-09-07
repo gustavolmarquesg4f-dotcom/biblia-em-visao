@@ -15,7 +15,7 @@
 - Área de apócrifos/deuterocanônicos com lentes católica, ortodoxa, protestante e do Segundo Templo.
 - Atlas, história bíblica e núcleo dedicado ao Apocalipse.
 
-Consulte o [inventário completo](docs/CONTENT_INVENTORY.md), a [visão do produto](docs/PRODUCT_VISION.md), o [modelo editorial e relacional](docs/CONTENT_MODEL.md), o [registro de conhecimento da Fase 2](docs/KNOWLEDGE_REGISTRY.md), a [experiência conectada da Fase 3](docs/PHASE_3_CONNECTED_EXPERIENCE.md) e o [guia contextual de capítulos da Fase 4](docs/PHASE_4_CHAPTER_CONTEXT.md).
+Consulte o [inventário completo](docs/CONTENT_INVENTORY.md), a [visão do produto](docs/PRODUCT_VISION.md), o [modelo editorial e relacional](docs/CONTENT_MODEL.md), o [registro de conhecimento da Fase 2](docs/KNOWLEDGE_REGISTRY.md), a [experiência conectada da Fase 3](docs/PHASE_3_CONNECTED_EXPERIENCE.md), o [guia contextual de capítulos da Fase 4](docs/PHASE_4_CHAPTER_CONTEXT.md) e a [qualidade editorial verificável da Fase 5](docs/PHASE_5_EDITORIAL_QUALITY.md).
 
 ## Princípios
 
@@ -45,6 +45,7 @@ corepack pnpm@10.4.1 check
 corepack pnpm@10.4.1 test
 corepack pnpm@10.4.1 inventory:content
 corepack pnpm@10.4.1 knowledge:check
+corepack pnpm@10.4.1 audit:review-queue
 corepack pnpm@10.4.1 build:github
 ```
 
@@ -66,8 +67,8 @@ O inventário não modifica nem remove o conteúdo bíblico.
 
 O comando `knowledge:check` gera a camada modular em `client/public/data/knowledge/` e valida IDs, relações e garantias de preservação. Antes de regenerá-la, `repair:biography-links` cria uma sobreposição auditável usando somente referências explícitas, preservando os dados anteriores em `rawBooks` sem reescrever os dossiês biográficos.
 
-Na interface, a rota `/busca` pesquisa os 3.128 verbetes do registro. Cada dossiê de livro apresenta pessoas, povos, cenários, acontecimentos, temas, termos, profecias e conexões canônicas relacionados. O leitor de capítulos acrescenta um guia contextual baseado em 3.132 referências explícitas, cobrindo 894 capítulos sem atribuir relações aos demais por inferência. Os módulos e arquivos por livro são carregados sob demanda e mantidos em cache.
+Na interface, a rota `/busca` pesquisa os 3.128 verbetes do registro. Cada dossiê de livro apresenta pessoas, povos, cenários, acontecimentos, temas, termos, profecias e conexões canônicas relacionados. O leitor de capítulos acrescenta um guia contextual e um estado editorial transparente. Referências já declaradas no estudo geram diálogos canônicos de confiança contextual; pessoas, lugares, acontecimentos e termos só aparecem quando sustentados por referências explícitas. Os módulos e arquivos por livro são carregados sob demanda e mantidos em cache.
 
 ## Estado da evolução
 
-A Fase 1 formalizou a visão do produto, o modelo de conteúdo e a linha de base do acervo. A Fase 2 criou identificadores globais, relações tipadas, arquivos modulares e validação automática. A Fase 3 ligou esse registro à busca, aos verbetes e aos 66 dossiês. A Fase 4 leva a rede aos estudos de capítulo, separando vínculos explícitos de lacunas que ainda exigem revisão editorial.
+A Fase 1 formalizou a visão do produto, o modelo de conteúdo e a linha de base do acervo. A Fase 2 criou identificadores globais, relações tipadas, arquivos modulares e validação automática. A Fase 3 ligou esse registro à busca, aos verbetes e aos 66 dossiês. A Fase 4 levou a rede aos estudos de capítulo. A Fase 5 torna a qualidade verificável: cria perfil e prioridade para os 1.189 capítulos, transforma diálogos canônicos já publicados em relações auditáveis e impede que conteúdo sem assinatura humana apareça como revisado.

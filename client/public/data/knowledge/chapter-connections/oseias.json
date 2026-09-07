@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Oseias",
-  "count": 26,
-  "chapterCount": 12,
+  "count": 68,
+  "chapterCount": 14,
   "nodes": [
+    {
+      "id": "book:amos",
+      "kind": "book",
+      "label": "Amós",
+      "aliases": ["Am"],
+      "summary": "Denúncia da exploração dos vulneráveis e do culto sem justiça.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["30-am-s"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas menores",
+        "chapters": 9,
+        "author": "Amós",
+        "period": "Século VIII a.C."
+      }
+    },
+    {
+      "id": "book:jeremias",
+      "kind": "book",
+      "label": "Jeremias",
+      "aliases": ["Jr"],
+      "summary": "Crise de Judá, sofrimento profético e promessa de aliança renovada.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["24-jeremias"],
+      "attributes": {
+        "testament": "Antigo Testamento",
+        "category": "Profetas maiores",
+        "chapters": 52,
+        "author": "Tradição de Jeremias e Baruque",
+        "period": "Vésperas da queda de Jerusalém"
+      }
+    },
+    {
+      "id": "book:romanos",
+      "kind": "book",
+      "label": "Romanos",
+      "aliases": ["Rm"],
+      "summary": "Evangelho, justiça, fé, Israel e vida comunitária na missão de Paulo.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["45-romanos"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 16,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
     {
       "id": "event:oseias-a-contenda-juridica-rib-de-jave-contra-israel",
       "kind": "event",
@@ -509,6 +563,468 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-oseias-1:book-amos",
+      "from": "chapter:oseias:1",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 1 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-1:book-jeremias",
+      "from": "chapter:oseias:1",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 1 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-1:book-romanos",
+      "from": "chapter:oseias:1",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 1 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-10:book-amos",
+      "from": "chapter:oseias:10",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 10 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-10:book-jeremias",
+      "from": "chapter:oseias:10",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 10 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-10:book-romanos",
+      "from": "chapter:oseias:10",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 10 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-11:book-amos",
+      "from": "chapter:oseias:11",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 11 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-11:book-jeremias",
+      "from": "chapter:oseias:11",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 11 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-11:book-romanos",
+      "from": "chapter:oseias:11",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 11 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-12:book-amos",
+      "from": "chapter:oseias:12",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 12 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-12:book-jeremias",
+      "from": "chapter:oseias:12",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 12 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-12:book-romanos",
+      "from": "chapter:oseias:12",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 12 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-13:book-amos",
+      "from": "chapter:oseias:13",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 13 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-13:book-jeremias",
+      "from": "chapter:oseias:13",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 13 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-13:book-romanos",
+      "from": "chapter:oseias:13",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 13 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-14:book-amos",
+      "from": "chapter:oseias:14",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 14 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-14:book-jeremias",
+      "from": "chapter:oseias:14",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 14 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-14:book-romanos",
+      "from": "chapter:oseias:14",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 14 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-2:book-amos",
+      "from": "chapter:oseias:2",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 2 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-2:book-jeremias",
+      "from": "chapter:oseias:2",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 2 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-2:book-romanos",
+      "from": "chapter:oseias:2",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 2 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-3:book-amos",
+      "from": "chapter:oseias:3",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 3 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-3:book-jeremias",
+      "from": "chapter:oseias:3",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 3 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-3:book-romanos",
+      "from": "chapter:oseias:3",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 3 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-4:book-amos",
+      "from": "chapter:oseias:4",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 4 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-4:book-jeremias",
+      "from": "chapter:oseias:4",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 4 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-4:book-romanos",
+      "from": "chapter:oseias:4",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 4 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-5:book-amos",
+      "from": "chapter:oseias:5",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 5 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-5:book-jeremias",
+      "from": "chapter:oseias:5",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 5 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-5:book-romanos",
+      "from": "chapter:oseias:5",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 5 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-6:book-amos",
+      "from": "chapter:oseias:6",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 6 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-6:book-jeremias",
+      "from": "chapter:oseias:6",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 6 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-6:book-romanos",
+      "from": "chapter:oseias:6",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 6 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-7:book-amos",
+      "from": "chapter:oseias:7",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 7 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-7:book-jeremias",
+      "from": "chapter:oseias:7",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 7 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-7:book-romanos",
+      "from": "chapter:oseias:7",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 7 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-8:book-amos",
+      "from": "chapter:oseias:8",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 8 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-8:book-jeremias",
+      "from": "chapter:oseias:8",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 8 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-8:book-romanos",
+      "from": "chapter:oseias:8",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 8 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-9:book-amos",
+      "from": "chapter:oseias:9",
+      "to": "book:amos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 9 inclui Amós em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Amós"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-9:book-jeremias",
+      "from": "chapter:oseias:9",
+      "to": "book:jeremias",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 9 inclui Jeremias em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Jeremias"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-oseias-9:book-romanos",
+      "from": "chapter:oseias:9",
+      "to": "book:romanos",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Oseias 9 inclui Romanos em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Romanos"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:related-term:chapter-oseias-6:term-hesed",
       "from": "chapter:oseias:6",
       "to": "term:hesed",
@@ -518,6 +1034,358 @@
       "references": ["Os 6:6"],
       "sourceCatalog": "explicit-reference:advanced-glossary",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:oseias:1",
+      "reference": "Oseias 1",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:2",
+      "reference": "Oseias 2",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:3",
+      "reference": "Oseias 3",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:4",
+      "reference": "Oseias 4",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:5",
+      "reference": "Oseias 5",
+      "status": "connected",
+      "priority": "high",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 3,
+      "entityConnectionCount": 0,
+      "connectionKinds": ["book"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:6",
+      "reference": "Oseias 6",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "place", "prophecy", "term"],
+      "coveredDimensions": ["scenes", "terms", "theology"],
+      "pendingDimensions": ["people"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:7",
+      "reference": "Oseias 7",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:8",
+      "reference": "Oseias 8",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 5,
+      "entityConnectionCount": 2,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:9",
+      "reference": "Oseias 9",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 6,
+      "entityConnectionCount": 3,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:10",
+      "reference": "Oseias 10",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "event", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:11",
+      "reference": "Oseias 11",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "place"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:12",
+      "reference": "Oseias 12",
+      "status": "connected",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 7,
+      "entityConnectionCount": 4,
+      "connectionKinds": ["book", "person", "place"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:13",
+      "reference": "Oseias 13",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "prophecy"],
+      "coveredDimensions": ["theology"],
+      "pendingDimensions": ["people", "scenes", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
+    },
+    {
+      "chapterId": "chapter:oseias:14",
+      "reference": "Oseias 14",
+      "status": "connected",
+      "priority": "medium",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 4,
+      "entityConnectionCount": 1,
+      "connectionKinds": ["book", "event"],
+      "coveredDimensions": ["scenes", "theology"],
+      "pendingDimensions": ["people", "terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }

@@ -1,9 +1,63 @@
 {
   "schemaVersion": 1,
   "book": "Filemom",
-  "count": 16,
+  "count": 19,
   "chapterCount": 1,
   "nodes": [
+    {
+      "id": "book:colossenses",
+      "kind": "book",
+      "label": "Colossenses",
+      "aliases": ["Cl"],
+      "summary": "Centralidade de Cristo traduzida em sabedoria e nova vida comunitária.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["51-colossenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Tradição paulina; autoria discutida",
+        "period": "Século I"
+      }
+    },
+    {
+      "id": "book:filipenses",
+      "kind": "book",
+      "label": "Filipenses",
+      "aliases": ["Fp"],
+      "summary": "Carta de amizade sobre alegria, humildade, parceria e perseverança.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["50-filipenses"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 4,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
+    {
+      "id": "book:galatas",
+      "kind": "book",
+      "label": "Gálatas",
+      "aliases": ["Gl"],
+      "summary": "Defesa da liberdade do evangelho e de uma comunidade para além das marcas externas.",
+      "references": [],
+      "sourceCatalogs": ["bible-data"],
+      "maturity": "complete",
+      "sourceIds": ["48-g-latas"],
+      "attributes": {
+        "testament": "Novo Testamento",
+        "category": "Cartas paulinas",
+        "chapters": 6,
+        "author": "Paulo",
+        "period": "Meados do século I"
+      }
+    },
     {
       "id": "person:apia",
       "kind": "person",
@@ -415,6 +469,39 @@
       "confidence": "debated"
     },
     {
+      "id": "relation:canonical-connection:chapter-filemom-1:book-colossenses",
+      "from": "chapter:filemom:1",
+      "to": "book:colossenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filemom 1 inclui Colossenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Colossenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filemom-1:book-filipenses",
+      "from": "chapter:filemom:1",
+      "to": "book:filipenses",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filemom 1 inclui Filipenses em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Filipenses"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
+      "id": "relation:canonical-connection:chapter-filemom-1:book-galatas",
+      "from": "chapter:filemom:1",
+      "to": "book:galatas",
+      "type": "canonical-connection",
+      "label": "dialoga com",
+      "explanation": "O estudo de Filemom 1 inclui Gálatas em “Diálogos e referências”. A conexão registra uma indicação editorial explícita, não dependência literária ou consenso interpretativo.",
+      "references": ["Gálatas"],
+      "sourceCatalog": "explicit-reference:chapter-coverage",
+      "confidence": "contextual"
+    },
+    {
       "id": "relation:develops-theme:chapter-filemom-1:theme-igreja-na-casa",
       "from": "chapter:filemom:1",
       "to": "theme:igreja-na-casa",
@@ -435,6 +522,33 @@
       "references": ["Filemom 1:1-25"],
       "sourceCatalog": "explicit-reference:relational-books-catalog",
       "confidence": "high"
+    }
+  ],
+  "editorialProfiles": [
+    {
+      "chapterId": "chapter:filemom:1",
+      "reference": "Filemom 1",
+      "status": "expanded",
+      "priority": "standard",
+      "editorialDepth": "Comentário textual enriquecido",
+      "structuralChecks": {
+        "fourLayers": true,
+        "source": true,
+        "cartography": true,
+        "canonicalDialogue": true,
+        "explicitConnections": true
+      },
+      "structuralScore": 5,
+      "connectionCount": 19,
+      "entityConnectionCount": 16,
+      "connectionKinds": ["book", "person", "place", "prophecy", "theme"],
+      "coveredDimensions": ["people", "scenes", "theology"],
+      "pendingDimensions": ["terms"],
+      "humanReview": {
+        "completed": false,
+        "reviewedAt": null,
+        "reviewedBy": []
+      }
     }
   ]
 }
